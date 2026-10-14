@@ -1,5 +1,5 @@
 {
-  "updated_at": 1791981461.7846518,
+  "updated_at": 1791981581.7912781,
   "reflections": [
     {
       "id": "REFL-1791981247338",
@@ -343,7 +343,7 @@
   "strategy_weights": {
     "S20": 1.6,
     "S10": 0.4,
-    "MR": 1.27,
+    "MR": 1.35,
     "S24": 0.4,
     "WT": 0.4
   },
@@ -358,20 +358,20 @@
       "status": "BOOSTED"
     },
     "S10": {
-      "brier_score": 0.5125,
-      "win_rate": 10.0,
-      "trades_count": 10,
+      "brier_score": 0.4716,
+      "win_rate": 18.2,
+      "trades_count": 11,
       "kelly_multiplier": 0.4,
-      "reliability": 0.4225,
+      "reliability": 0.3228,
       "resolution": 0.0,
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.1553,
-      "win_rate": 80.0,
-      "trades_count": 5,
-      "kelly_multiplier": 1.27,
-      "reliability": 0.0034,
+      "brier_score": 0.1425,
+      "win_rate": 83.3,
+      "trades_count": 6,
+      "kelly_multiplier": 1.35,
+      "reliability": 0.009,
       "resolution": 0.0,
       "status": "BOOSTED"
     },
