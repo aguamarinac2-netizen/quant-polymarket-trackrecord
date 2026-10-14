@@ -1,6 +1,19 @@
 {
-  "updated_at": 1791996705.1402752,
+  "updated_at": 1791996945.1537068,
   "reflections": [
+    {
+      "id": "REFL-1791996854115",
+      "trade_id": "MR:gamma:1090496:Yes:1w:SELL",
+      "strategy_id": "MR",
+      "market_title": "NATO x Russia military clash by December 31, 2026?",
+      "predicted_prob": 0.78,
+      "outcome": 0,
+      "pnl": -11.59,
+      "brier_error": 0.6084,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1791996854.1153815
+    },
     {
       "id": "REFL-1791994272719",
       "trade_id": "S25:560317:Yes:BUY",
@@ -434,7 +447,7 @@
   "strategy_weights": {
     "S20": 1.6,
     "S10": 0.4,
-    "MR": 0.74,
+    "MR": 0.6,
     "S24": 0.4,
     "S25": 0.4,
     "WT": 0.4
@@ -459,11 +472,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.2713,
-      "win_rate": 60.0,
-      "trades_count": 10,
-      "kelly_multiplier": 0.74,
-      "reliability": 0.0213,
+      "brier_score": 0.3019,
+      "win_rate": 54.5,
+      "trades_count": 11,
+      "kelly_multiplier": 0.6,
+      "reliability": 0.0415,
       "resolution": 0.0,
       "status": "REDUCED"
     },
