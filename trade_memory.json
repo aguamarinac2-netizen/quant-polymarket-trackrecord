@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792013145.2449338,
+  "updated_at": 1792013808.1429596,
   "reflections": [
+    {
+      "id": "REFL-1792013779780",
+      "trade_id": "MR:gamma:682705:Yes:1w:BUY",
+      "strategy_id": "MR",
+      "market_title": "Will Benjamin Netanyahu be the next Prime Minister of Israel?",
+      "predicted_prob": 0.78,
+      "outcome": 0,
+      "pnl": -4.65,
+      "brier_error": 0.6084,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792013779.7808568
+    },
     {
       "id": "REFL-1791999052449",
       "trade_id": "S25:559651:Yes:BUY",
@@ -460,7 +473,7 @@
   "strategy_weights": {
     "S20": 1.6,
     "S10": 0.4,
-    "MR": 0.6,
+    "MR": 0.48,
     "S25": 0.4,
     "S24": 0.4,
     "WT": 0.4
@@ -485,11 +498,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3019,
-      "win_rate": 54.5,
-      "trades_count": 11,
-      "kelly_multiplier": 0.6,
-      "reliability": 0.0415,
+      "brier_score": 0.3275,
+      "win_rate": 50.0,
+      "trades_count": 12,
+      "kelly_multiplier": 0.48,
+      "reliability": 0.0633,
       "resolution": 0.0,
       "status": "REDUCED"
     },
