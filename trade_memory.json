@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792016761.6700451,
+  "updated_at": 1792017424.8717854,
   "reflections": [
+    {
+      "id": "REFL-1792017075635",
+      "trade_id": "MR:gamma:601819:Yes:1d:SELL",
+      "strategy_id": "MR",
+      "market_title": "Will Luiz Inácio Lula da Silva win the 2026 Brazilian presidential election?",
+      "predicted_prob": 0.72,
+      "outcome": 0,
+      "pnl": -1.63,
+      "brier_error": 0.5184,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792017075.6355088
+    },
     {
       "id": "REFL-1792016147937",
       "trade_id": "S24:559653:Yes:BUY",
@@ -486,7 +499,7 @@
   "strategy_weights": {
     "S20": 1.6,
     "S10": 0.4,
-    "MR": 0.48,
+    "MR": 0.4,
     "S25": 0.4,
     "S24": 0.4,
     "WT": 0.4
@@ -511,11 +524,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3275,
-      "win_rate": 50.0,
-      "trades_count": 12,
-      "kelly_multiplier": 0.48,
-      "reliability": 0.0633,
+      "brier_score": 0.3421,
+      "win_rate": 46.2,
+      "trades_count": 13,
+      "kelly_multiplier": 0.4,
+      "reliability": 0.0828,
       "resolution": 0.0,
       "status": "REDUCED"
     },
