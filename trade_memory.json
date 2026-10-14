@@ -1,6 +1,32 @@
 {
-  "updated_at": 1791994228.9927094,
+  "updated_at": 1791994954.3089807,
   "reflections": [
+    {
+      "id": "REFL-1791994272719",
+      "trade_id": "S25:560317:Yes:BUY",
+      "strategy_id": "S25",
+      "market_title": "Putin out as President of Russia by December 31, 2026?",
+      "predicted_prob": 0.8,
+      "outcome": 0,
+      "pnl": -0.79,
+      "brier_error": 0.64,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1791994272.719309
+    },
+    {
+      "id": "REFL-1791994272714",
+      "trade_id": "S25:560317:Yes:BUY",
+      "strategy_id": "S25",
+      "market_title": "Putin out as President of Russia by December 31, 2026?",
+      "predicted_prob": 0.8,
+      "outcome": 0,
+      "pnl": -0.88,
+      "brier_error": 0.64,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1791994272.7140315
+    },
     {
       "id": "REFL-1791990359636",
       "trade_id": "MR:gamma:608545:Yes:1d:SELL",
@@ -410,6 +436,7 @@
     "S10": 0.4,
     "MR": 0.74,
     "S24": 0.4,
+    "S25": 0.4,
     "WT": 0.4
   },
   "strategy_brier_scores": {
@@ -446,6 +473,15 @@
       "trades_count": 1,
       "kelly_multiplier": 0.4,
       "reliability": 0.5776,
+      "resolution": 0.0,
+      "status": "REDUCED"
+    },
+    "S25": {
+      "brier_score": 0.64,
+      "win_rate": 0.0,
+      "trades_count": 1,
+      "kelly_multiplier": 0.4,
+      "reliability": 0.64,
       "resolution": 0.0,
       "status": "REDUCED"
     },
