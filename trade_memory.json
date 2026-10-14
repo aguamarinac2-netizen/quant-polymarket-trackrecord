@@ -1,6 +1,32 @@
 {
-  "updated_at": 1791985206.0080388,
+  "updated_at": 1791985933.0676465,
   "reflections": [
+    {
+      "id": "REFL-1791985900833",
+      "trade_id": "S10:616902:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Will no Fed rate cuts happen in 2026?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -7.24,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1791985900.833809
+    },
+    {
+      "id": "REFL-1791985365548",
+      "trade_id": "MR:gamma:676741:Yes:1d:SELL",
+      "strategy_id": "MR",
+      "market_title": "Will Apple be the largest company in the world by market cap on December 31?",
+      "predicted_prob": 0.78,
+      "outcome": 0,
+      "pnl": -2.33,
+      "brier_error": 0.6084,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1791985365.5488229
+    },
     {
       "id": "REFL-1791982679452",
       "trade_id": "MR:gamma:676741:Yes:1w:SELL",
@@ -356,7 +382,7 @@
   "strategy_weights": {
     "S20": 1.6,
     "S10": 0.4,
-    "MR": 1.12,
+    "MR": 0.91,
     "S24": 0.4,
     "WT": 0.4
   },
@@ -371,22 +397,22 @@
       "status": "BOOSTED"
     },
     "S10": {
-      "brier_score": 0.4716,
-      "win_rate": 18.2,
-      "trades_count": 11,
+      "brier_score": 0.4792,
+      "win_rate": 16.7,
+      "trades_count": 12,
       "kelly_multiplier": 0.4,
-      "reliability": 0.3228,
+      "reliability": 0.3403,
       "resolution": 0.0,
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.1927,
-      "win_rate": 75.0,
-      "trades_count": 8,
-      "kelly_multiplier": 1.12,
-      "reliability": 0.0001,
+      "brier_score": 0.2389,
+      "win_rate": 66.7,
+      "trades_count": 9,
+      "kelly_multiplier": 0.91,
+      "reliability": 0.0062,
       "resolution": 0.0,
-      "status": "BOOSTED"
+      "status": "OPTIMAL"
     },
     "S24": {
       "brier_score": 0.5776,
