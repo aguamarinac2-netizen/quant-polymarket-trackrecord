@@ -1,31 +1,7 @@
 {
-  "generated_at": "2026-10-14T12:40:00.191060+00:00",
+  "generated_at": "2026-10-14T12:52:38.569538+00:00",
   "campaign": "demo-15d",
   "strategies": [
-    {
-      "strategy_code": "MR",
-      "strategy_name": "C: Mean Reversion",
-      "total": 26,
-      "open": 20,
-      "won": 5,
-      "lost": 1,
-      "realized_pnl_usd": 2.6,
-      "unrealized_pnl_usd": 2.84,
-      "partial_fills": 0,
-      "by_source": {
-        "research": {
-          "total": 26,
-          "won": 5,
-          "lost": 1,
-          "net_pnl_usd": 5.44
-        }
-      },
-      "closed": 6,
-      "win_rate_pct": 83.3,
-      "net_pnl_usd": 5.44,
-      "avg_book_slippage_bps": null,
-      "verdict": "MUESTRA_INSUFICIENTE"
-    },
     {
       "strategy_code": "S25",
       "strategy_name": "S25: Maker Rebate Harvester",
@@ -57,6 +33,30 @@
       "verdict": "MUESTRA_INSUFICIENTE"
     },
     {
+      "strategy_code": "MR",
+      "strategy_name": "C: Mean Reversion",
+      "total": 26,
+      "open": 19,
+      "won": 6,
+      "lost": 1,
+      "realized_pnl_usd": 3.25,
+      "unrealized_pnl_usd": -0.15,
+      "partial_fills": 0,
+      "by_source": {
+        "research": {
+          "total": 26,
+          "won": 6,
+          "lost": 1,
+          "net_pnl_usd": 3.1
+        }
+      },
+      "closed": 7,
+      "win_rate_pct": 85.7,
+      "net_pnl_usd": 3.1,
+      "avg_book_slippage_bps": null,
+      "verdict": "MUESTRA_INSUFICIENTE"
+    },
+    {
       "strategy_code": "FLB",
       "strategy_name": "D: Favorite-Longshot",
       "total": 2,
@@ -64,19 +64,19 @@
       "won": 0,
       "lost": 0,
       "realized_pnl_usd": 0.0,
-      "unrealized_pnl_usd": -0.03,
+      "unrealized_pnl_usd": -0.02,
       "partial_fills": 0,
       "by_source": {
         "research": {
           "total": 2,
           "won": 0,
           "lost": 0,
-          "net_pnl_usd": -0.03
+          "net_pnl_usd": -0.02
         }
       },
       "closed": 0,
       "win_rate_pct": 0.0,
-      "net_pnl_usd": -0.03,
+      "net_pnl_usd": -0.02,
       "avg_book_slippage_bps": null,
       "verdict": "MUESTRA_INSUFICIENTE"
     },
@@ -88,19 +88,19 @@
       "won": 0,
       "lost": 0,
       "realized_pnl_usd": 0.0,
-      "unrealized_pnl_usd": -1.01,
+      "unrealized_pnl_usd": -1.26,
       "partial_fills": 0,
       "by_source": {
         "research": {
           "total": 2,
           "won": 0,
           "lost": 0,
-          "net_pnl_usd": -1.01
+          "net_pnl_usd": -1.26
         }
       },
       "closed": 0,
       "win_rate_pct": 0.0,
-      "net_pnl_usd": -1.01,
+      "net_pnl_usd": -1.26,
       "avg_book_slippage_bps": null,
       "verdict": "MUESTRA_INSUFICIENTE"
     },
@@ -135,36 +135,6 @@
       "verdict": "MUESTRA_INSUFICIENTE"
     },
     {
-      "strategy_code": "S20",
-      "strategy_name": "Oracle Sniping",
-      "total": 24,
-      "open": 23,
-      "won": 1,
-      "lost": 0,
-      "realized_pnl_usd": 1.65,
-      "unrealized_pnl_usd": -3.57,
-      "partial_fills": 0,
-      "by_source": {
-        "realistic": {
-          "total": 1,
-          "won": 1,
-          "lost": 0,
-          "net_pnl_usd": 3.3
-        },
-        "research": {
-          "total": 23,
-          "won": 0,
-          "lost": 0,
-          "net_pnl_usd": -5.22
-        }
-      },
-      "closed": 1,
-      "win_rate_pct": 100.0,
-      "net_pnl_usd": -1.92,
-      "avg_book_slippage_bps": null,
-      "verdict": "MUESTRA_INSUFICIENTE"
-    },
-    {
       "strategy_code": "S12",
       "strategy_name": "S12: High Prob Harvesting",
       "total": 29,
@@ -172,7 +142,7 @@
       "won": 0,
       "lost": 0,
       "realized_pnl_usd": 0.0,
-      "unrealized_pnl_usd": -2.94,
+      "unrealized_pnl_usd": -2.99,
       "partial_fills": 0,
       "by_source": {
         "realistic": {
@@ -185,12 +155,42 @@
           "total": 25,
           "won": 0,
           "lost": 0,
-          "net_pnl_usd": -2.26
+          "net_pnl_usd": -2.31
         }
       },
       "closed": 0,
       "win_rate_pct": 0.0,
-      "net_pnl_usd": -2.94,
+      "net_pnl_usd": -2.99,
+      "avg_book_slippage_bps": null,
+      "verdict": "MUESTRA_INSUFICIENTE"
+    },
+    {
+      "strategy_code": "S20",
+      "strategy_name": "Oracle Sniping",
+      "total": 24,
+      "open": 23,
+      "won": 1,
+      "lost": 0,
+      "realized_pnl_usd": 1.65,
+      "unrealized_pnl_usd": -4.72,
+      "partial_fills": 0,
+      "by_source": {
+        "realistic": {
+          "total": 1,
+          "won": 1,
+          "lost": 0,
+          "net_pnl_usd": 3.3
+        },
+        "research": {
+          "total": 23,
+          "won": 0,
+          "lost": 0,
+          "net_pnl_usd": -6.37
+        }
+      },
+      "closed": 1,
+      "win_rate_pct": 100.0,
+      "net_pnl_usd": -3.07,
       "avg_book_slippage_bps": null,
       "verdict": "MUESTRA_INSUFICIENTE"
     },
@@ -256,7 +256,7 @@
       "won": 8,
       "lost": 3,
       "realized_pnl_usd": -15.92,
-      "unrealized_pnl_usd": -7.61,
+      "unrealized_pnl_usd": -7.71,
       "partial_fills": 0,
       "by_source": {
         "realistic": {
@@ -269,12 +269,12 @@
           "total": 35,
           "won": 7,
           "lost": 3,
-          "net_pnl_usd": -22.94
+          "net_pnl_usd": -23.04
         }
       },
       "closed": 11,
       "win_rate_pct": 72.7,
-      "net_pnl_usd": -23.53,
+      "net_pnl_usd": -23.63,
       "avg_book_slippage_bps": null,
       "verdict": "DESCARTAR"
     }
