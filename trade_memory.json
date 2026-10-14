@@ -1,6 +1,19 @@
 {
-  "updated_at": 1791980678.7518303,
+  "updated_at": 1791981461.7846518,
   "reflections": [
+    {
+      "id": "REFL-1791981247338",
+      "trade_id": "S10:630818:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Will the Democrats win the Minnesota Senate race in 2026?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -0.02,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1791981247.3388355
+    },
     {
       "id": "REFL-1791974360939",
       "trade_id": "S10:630990:No:BUY",
@@ -345,11 +358,11 @@
       "status": "BOOSTED"
     },
     "S10": {
-      "brier_score": 0.5625,
-      "win_rate": 0.0,
-      "trades_count": 8,
+      "brier_score": 0.5125,
+      "win_rate": 10.0,
+      "trades_count": 10,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5625,
+      "reliability": 0.4225,
       "resolution": 0.0,
       "status": "REDUCED"
     },
