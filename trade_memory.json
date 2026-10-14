@@ -1,6 +1,19 @@
 {
-  "updated_at": 1791998692.5750823,
+  "updated_at": 1791999414.7032773,
   "reflections": [
+    {
+      "id": "REFL-1791999052449",
+      "trade_id": "S25:559651:Yes:BUY",
+      "strategy_id": "S25",
+      "market_title": "Xi Jinping out before 2027?",
+      "predicted_prob": 0.8,
+      "outcome": 0,
+      "pnl": -2.24,
+      "brier_error": 0.64,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1791999052.4496472
+    },
     {
       "id": "REFL-1791996854115",
       "trade_id": "MR:gamma:1090496:Yes:1w:SELL",
@@ -448,8 +461,8 @@
     "S20": 1.6,
     "S10": 0.4,
     "MR": 0.6,
-    "S24": 0.4,
     "S25": 0.4,
+    "S24": 0.4,
     "WT": 0.4
   },
   "strategy_brier_scores": {
@@ -480,21 +493,21 @@
       "resolution": 0.0,
       "status": "REDUCED"
     },
+    "S25": {
+      "brier_score": 0.64,
+      "win_rate": 0.0,
+      "trades_count": 2,
+      "kelly_multiplier": 0.4,
+      "reliability": 0.64,
+      "resolution": 0.0,
+      "status": "REDUCED"
+    },
     "S24": {
       "brier_score": 0.5776,
       "win_rate": 0.0,
       "trades_count": 1,
       "kelly_multiplier": 0.4,
       "reliability": 0.5776,
-      "resolution": 0.0,
-      "status": "REDUCED"
-    },
-    "S25": {
-      "brier_score": 0.64,
-      "win_rate": 0.0,
-      "trades_count": 1,
-      "kelly_multiplier": 0.4,
-      "reliability": 0.64,
       "resolution": 0.0,
       "status": "REDUCED"
     },
