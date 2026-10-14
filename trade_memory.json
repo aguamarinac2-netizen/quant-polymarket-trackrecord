@@ -1,6 +1,19 @@
 {
-  "updated_at": 1791973474.914384,
+  "updated_at": 1791974202.773035,
   "reflections": [
+    {
+      "id": "REFL-1791974171603",
+      "trade_id": "WT:616902:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
+      "strategy_id": "WT",
+      "market_title": "Will no Fed rate cuts happen in 2026?",
+      "predicted_prob": 0.88,
+      "outcome": 0,
+      "pnl": -7.64,
+      "brier_error": 0.7744,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1791974171.6033733
+    },
     {
       "id": "REFL-1791965459751",
       "trade_id": "MR:gamma:629465:Yes:1d:BUY",
@@ -305,7 +318,8 @@
     "S20": 1.6,
     "S10": 0.4,
     "MR": 1.15,
-    "S24": 0.4
+    "S24": 0.4,
+    "WT": 0.4
   },
   "strategy_brier_scores": {
     "S20": {
@@ -341,6 +355,15 @@
       "trades_count": 1,
       "kelly_multiplier": 0.4,
       "reliability": 0.5776,
+      "resolution": 0.0,
+      "status": "REDUCED"
+    },
+    "WT": {
+      "brier_score": 0.7744,
+      "win_rate": 0.0,
+      "trades_count": 1,
+      "kelly_multiplier": 0.4,
+      "reliability": 0.7744,
       "resolution": 0.0,
       "status": "REDUCED"
     }
