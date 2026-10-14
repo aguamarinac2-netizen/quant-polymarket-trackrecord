@@ -1,9 +1,45 @@
 {
-  "orders": [],
+  "orders": [
+    {
+      "order_id": "SIM-1792012438050",
+      "recorded_at": "2026-10-14T21:13:58.050396+00:00",
+      "status": "FILLED",
+      "reason": null,
+      "market_id": "560317",
+      "market_question": "Putin out as President of Russia by December 31, 2026?",
+      "strategy_code": "MM",
+      "token": "Yes",
+      "side": "BOTH",
+      "confidence": 85.0,
+      "is_maker": false,
+      "signal_entry_price": 0.0365,
+      "requested_size_usd": 63.73,
+      "order_payload": {
+        "tokenID": "Yes",
+        "price": 0.0365,
+        "size": 1746.03,
+        "side": "BOTH",
+        "feeRateBps": 0,
+        "expiration": 0,
+        "orderType": "GTC",
+        "nonce": 1792012438050,
+        "simulated": true
+      },
+      "fill": {
+        "exec_price": 0.036,
+        "fill_ratio": 1.0,
+        "slippage_bps": 136.99,
+        "book_depth_usd": 51553.55,
+        "levels_consumed": 1,
+        "fee_usd": 2.4239,
+        "rebate_usd": 0.0
+      }
+    }
+  ],
   "rejection_reasons": {
-    "sin libro real disponible": 4594878,
-    "sin liquidez al precio l\u00edmite": 338923
+    "sin libro real disponible": 4655182,
+    "sin liquidez al precio l\u00edmite": 343232
   },
   "engine": "hybrid",
-  "updated_at": "2026-10-14T21:11:32.338658+00:00"
+  "updated_at": "2026-10-14T21:22:14.697568+00:00"
 }

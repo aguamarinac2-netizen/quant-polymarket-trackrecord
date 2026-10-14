@@ -1,45 +1,49 @@
 {
   "campaign_start": "2026-10-14T04:34:58.147871+00:00",
   "campaign_name": "demo-15d",
-  "updated_at": "2026-10-14T21:11:32.566558+00:00",
+  "updated_at": "2026-10-14T21:22:14.555275+00:00",
   "files": {
     "CAMPAIGN_REPORT.md": {
       "bytes": 1195,
       "sha256": "8a7aee9ebdfd5857325055ce6f8ac8336da705394804e881af9c5220cd78722c"
     },
     "hybrid_orders.csv": {
-      "bytes": 230,
-      "sha256": "2f984f571be6919c26ad484c314936344db64219cb8a02cc36fc5131c86117fa"
+      "bytes": 429,
+      "sha256": "515c1d1a6a1551238f369d29727572bdeae6616cd8997b7fba9beba307149a9d"
+    },
+    "hybrid_orders.jsonl": {
+      "bytes": 599,
+      "sha256": "b67baf3fe3fac3508ed35b9f8288d2635aa07abd51345eb97162459da1995cef"
     },
     "ledger.jsonl": {
-      "bytes": 167869,
-      "sha256": "db5db8080cf8320dea3f534c99673974b1d269ffad577be74e5074bd4721a5c0"
+      "bytes": 169724,
+      "sha256": "f243d8a3be14211da9ff40ec7914b28a0b0dbafe23d65de3f16c2d3f4ed229e9"
     },
     "strategy_ranking.json": {
       "bytes": 6447,
-      "sha256": "74f2a2cb461542866c46d1c06820ff25a702ebfae6062e4f31a3b594d9cf87b7"
+      "sha256": "c9c833c62a3e8d16845e5f99baa4ac6bcd4d786bdbc99516a89686f105d21777"
     },
     "trades_all.csv": {
-      "bytes": 75897,
-      "sha256": "735fa1c6c6732ba371bd3596c661bccd47c3b456bceb8f80d00149e512992422"
+      "bytes": 76740,
+      "sha256": "f825f7394289e2cc0c54080132cf081afb2ed81c04d8c141314b753fc06c60e9"
     }
   },
   "trade_counts": {
-    "total": 183,
+    "total": 185,
     "realistic": 14,
-    "research": 166,
-    "hybrid": 3
+    "research": 167,
+    "hybrid": 4
   },
   "strategies": 10,
-  "campaign_day": 0.69,
+  "campaign_day": 0.7,
   "campaign_complete": false,
   "hybrid": {
-    "orders_executed": 0,
+    "orders_executed": 1,
     "rejection_reasons": {
-      "sin libro real disponible": 4594878,
-      "sin liquidez al precio límite": 338923
+      "sin libro real disponible": 4655136,
+      "sin liquidez al precio límite": 343232
     },
-    "rejections_total": 4933801,
-    "log_updated_at": "2026-10-14T21:11:32.338658+00:00"
+    "rejections_total": 4998368,
+    "log_updated_at": "2026-10-14T21:22:14.566872+00:00"
   }
 }
