@@ -1,6 +1,19 @@
 {
-  "updated_at": 1791989689.0813408,
+  "updated_at": 1791990476.170528,
   "reflections": [
+    {
+      "id": "REFL-1791990359636",
+      "trade_id": "MR:gamma:608545:Yes:1d:SELL",
+      "strategy_id": "MR",
+      "market_title": "Will Lamine Yamal win the 2026 Ballon d'Or?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -0.04,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1791990359.6362112
+    },
     {
       "id": "REFL-1791987955405",
       "trade_id": "S10:665317:No:BUY",
@@ -395,7 +408,7 @@
   "strategy_weights": {
     "S20": 1.6,
     "S10": 0.4,
-    "MR": 0.91,
+    "MR": 0.74,
     "S24": 0.4,
     "WT": 0.4
   },
@@ -419,13 +432,13 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.2389,
-      "win_rate": 66.7,
-      "trades_count": 9,
-      "kelly_multiplier": 0.91,
-      "reliability": 0.0062,
+      "brier_score": 0.2713,
+      "win_rate": 60.0,
+      "trades_count": 10,
+      "kelly_multiplier": 0.74,
+      "reliability": 0.0213,
       "resolution": 0.0,
-      "status": "OPTIMAL"
+      "status": "REDUCED"
     },
     "S24": {
       "brier_score": 0.5776,
