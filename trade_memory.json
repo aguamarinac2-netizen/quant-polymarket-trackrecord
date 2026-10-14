@@ -1,6 +1,19 @@
 {
-  "updated_at": 1791964455.0260336,
+  "updated_at": 1791965237.2482657,
   "reflections": [
+    {
+      "id": "REFL-1791964739941",
+      "trade_id": "S10:630857:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Will the Democrats win the New Jersey Senate race in 2026?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -0.03,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1791964739.9411793
+    },
     {
       "id": "REFL-1791950462579",
       "trade_id": "S10:629364:No:BUY",
@@ -281,7 +294,7 @@
     "S10": {
       "brier_score": 0.5625,
       "win_rate": 0.0,
-      "trades_count": 5,
+      "trades_count": 6,
       "kelly_multiplier": 0.4,
       "reliability": 0.5625,
       "resolution": 0.0,
