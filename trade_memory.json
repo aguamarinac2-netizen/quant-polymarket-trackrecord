@@ -1,6 +1,19 @@
 {
-  "updated_at": 1791974202.773035,
+  "updated_at": 1791974360.94095,
   "reflections": [
+    {
+      "id": "REFL-1791974360939",
+      "trade_id": "S10:630990:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Will the Republicans win the West Virginia Senate race in 2026?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -6.23,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1791974360.939268
+    },
     {
       "id": "REFL-1791974171603",
       "trade_id": "WT:616902:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
@@ -317,7 +330,7 @@
   "strategy_weights": {
     "S20": 1.6,
     "S10": 0.4,
-    "MR": 1.15,
+    "MR": 1.27,
     "S24": 0.4,
     "WT": 0.4
   },
@@ -334,18 +347,18 @@
     "S10": {
       "brier_score": 0.5625,
       "win_rate": 0.0,
-      "trades_count": 7,
+      "trades_count": 8,
       "kelly_multiplier": 0.4,
       "reliability": 0.5625,
       "resolution": 0.0,
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.1809,
-      "win_rate": 75.0,
-      "trades_count": 4,
-      "kelly_multiplier": 1.15,
-      "reliability": 0.0002,
+      "brier_score": 0.1553,
+      "win_rate": 80.0,
+      "trades_count": 5,
+      "kelly_multiplier": 1.27,
+      "reliability": 0.0034,
       "resolution": 0.0,
       "status": "BOOSTED"
     },
