@@ -1,6 +1,19 @@
 {
-  "updated_at": 1791987871.0464485,
+  "updated_at": 1791988597.5874712,
   "reflections": [
+    {
+      "id": "REFL-1791987955405",
+      "trade_id": "S10:665317:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Will Trump sell 1-100 Gold Cards in 2026?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -6.04,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1791987955.4056816
+    },
     {
       "id": "REFL-1791985900833",
       "trade_id": "S10:616902:No:BUY",
@@ -397,11 +410,11 @@
       "status": "BOOSTED"
     },
     "S10": {
-      "brier_score": 0.4792,
-      "win_rate": 16.7,
-      "trades_count": 12,
+      "brier_score": 0.4856,
+      "win_rate": 15.4,
+      "trades_count": 13,
       "kelly_multiplier": 0.4,
-      "reliability": 0.3403,
+      "reliability": 0.3554,
       "resolution": 0.0,
       "status": "REDUCED"
     },
