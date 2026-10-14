@@ -1,6 +1,32 @@
 {
-  "updated_at": 1791965297.695177,
+  "updated_at": 1791966085.254836,
   "reflections": [
+    {
+      "id": "REFL-1791965459751",
+      "trade_id": "MR:gamma:629465:Yes:1d:BUY",
+      "strategy_id": "MR",
+      "market_title": "Will the Republicans win the Michigan governor race in 2026?",
+      "predicted_prob": 0.72,
+      "outcome": 0,
+      "pnl": -2.41,
+      "brier_error": 0.5184,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1791965459.7511032
+    },
+    {
+      "id": "REFL-1791965459748",
+      "trade_id": "S10:629464:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Will the Democrats win the Michigan governor race in 2026?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -1.99,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1791965459.748295
+    },
     {
       "id": "REFL-1791964739941",
       "trade_id": "S10:630857:No:BUY",
@@ -278,7 +304,7 @@
   "strategy_weights": {
     "S20": 1.6,
     "S10": 0.4,
-    "MR": 1.6,
+    "MR": 0.54,
     "S24": 0.4
   },
   "strategy_brier_scores": {
@@ -294,20 +320,20 @@
     "S10": {
       "brier_score": 0.5625,
       "win_rate": 0.0,
-      "trades_count": 6,
+      "trades_count": 7,
       "kelly_multiplier": 0.4,
       "reliability": 0.5625,
       "resolution": 0.0,
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.0784,
-      "win_rate": 100.0,
-      "trades_count": 1,
-      "kelly_multiplier": 1.6,
-      "reliability": 0.0784,
+      "brier_score": 0.2984,
+      "win_rate": 50.0,
+      "trades_count": 2,
+      "kelly_multiplier": 0.54,
+      "reliability": 0.0484,
       "resolution": 0.0,
-      "status": "BOOSTED"
+      "status": "REDUCED"
     },
     "S24": {
       "brier_score": 0.5776,
