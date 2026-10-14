@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792015858.5987341,
+  "updated_at": 1792016520.0674572,
   "reflections": [
+    {
+      "id": "REFL-1792016147937",
+      "trade_id": "S24:559653:Yes:BUY",
+      "strategy_id": "S24",
+      "market_title": "Will Alexandria Ocasio-Cortez win the 2028 Democratic presidential nomination?",
+      "predicted_prob": 0.76,
+      "outcome": 0,
+      "pnl": -2.92,
+      "brier_error": 0.5776,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792016147.937852
+    },
     {
       "id": "REFL-1792013779780",
       "trade_id": "MR:gamma:682705:Yes:1w:BUY",
@@ -518,7 +531,7 @@
     "S24": {
       "brier_score": 0.5776,
       "win_rate": 0.0,
-      "trades_count": 1,
+      "trades_count": 2,
       "kelly_multiplier": 0.4,
       "reliability": 0.5776,
       "resolution": 0.0,
