@@ -1,6 +1,19 @@
 {
-  "updated_at": 1791982489.2793436,
+  "updated_at": 1791983274.9136338,
   "reflections": [
+    {
+      "id": "REFL-1791982679452",
+      "trade_id": "MR:gamma:676741:Yes:1w:SELL",
+      "strategy_id": "MR",
+      "market_title": "Will Apple be the largest company in the world by market cap on December 31?",
+      "predicted_prob": 0.78,
+      "outcome": 0,
+      "pnl": -10.89,
+      "brier_error": 0.6084,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1791982679.452642
+    },
     {
       "id": "REFL-1791981247338",
       "trade_id": "S10:630818:No:BUY",
@@ -343,7 +356,7 @@
   "strategy_weights": {
     "S20": 1.6,
     "S10": 0.4,
-    "MR": 1.4,
+    "MR": 1.12,
     "S24": 0.4,
     "WT": 0.4
   },
@@ -367,11 +380,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.1333,
-      "win_rate": 85.7,
-      "trades_count": 7,
-      "kelly_multiplier": 1.4,
-      "reliability": 0.0147,
+      "brier_score": 0.1927,
+      "win_rate": 75.0,
+      "trades_count": 8,
+      "kelly_multiplier": 1.12,
+      "reliability": 0.0001,
       "resolution": 0.0,
       "status": "BOOSTED"
     },
