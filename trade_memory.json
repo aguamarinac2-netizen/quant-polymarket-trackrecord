@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792092623.337976,
+  "updated_at": 1792093048.2970178,
   "reflections": [
+    {
+      "id": "REFL-1792092843244",
+      "trade_id": "S24:559655:Yes:BUY",
+      "strategy_id": "S24",
+      "market_title": "Will Josh Shapiro win the 2028 Democratic presidential nomination?",
+      "predicted_prob": 0.76,
+      "outcome": 0,
+      "pnl": -2.8,
+      "brier_error": 0.5776,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792092843.2441716
+    },
     {
       "id": "REFL-1792086888412",
       "trade_id": "S24:561229:Yes:BUY",
@@ -726,7 +739,7 @@
     "S24": {
       "brier_score": 0.5776,
       "win_rate": 0.0,
-      "trades_count": 5,
+      "trades_count": 6,
       "kelly_multiplier": 0.4,
       "reliability": 0.5776,
       "resolution": 0.0,
