@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792075967.1713922,
+  "updated_at": 1792076329.9411917,
   "reflections": [
+    {
+      "id": "REFL-1792076129049",
+      "trade_id": "S10:567688:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Netanyahu out by end of 2026?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": 0.0,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792076129.0498967
+    },
     {
       "id": "REFL-1792075285533",
       "trade_id": "S10:629438:No:BUY",
@@ -671,11 +684,11 @@
       "status": "BOOSTED"
     },
     "S10": {
-      "brier_score": 0.3886,
-      "win_rate": 34.8,
-      "trades_count": 23,
+      "brier_score": 0.3958,
+      "win_rate": 33.3,
+      "trades_count": 24,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1617,
+      "reliability": 0.1736,
       "resolution": 0.0,
       "status": "REDUCED"
     },
