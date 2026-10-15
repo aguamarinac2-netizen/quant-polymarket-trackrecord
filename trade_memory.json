@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792033043.4670649,
+  "updated_at": 1792033644.868375,
   "reflections": [
+    {
+      "id": "REFL-1792033620662",
+      "trade_id": "MR:gamma:682708:Yes:1d:SELL",
+      "strategy_id": "MR",
+      "market_title": "Will Gadi Eizenkot be the next Prime Minister of Israel?",
+      "predicted_prob": 0.72,
+      "outcome": 0,
+      "pnl": -0.01,
+      "brier_error": 0.5184,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792033620.6626625
+    },
     {
       "id": "REFL-1792030009530",
       "trade_id": "S24:559658:Yes:BUY",
@@ -537,11 +550,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3421,
-      "win_rate": 46.2,
-      "trades_count": 13,
+      "brier_score": 0.3547,
+      "win_rate": 42.9,
+      "trades_count": 14,
       "kelly_multiplier": 0.4,
-      "reliability": 0.0828,
+      "reliability": 0.1015,
       "resolution": 0.0,
       "status": "REDUCED"
     },
