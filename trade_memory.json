@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792071844.5997388,
+  "updated_at": 1792072332.497374,
   "reflections": [
+    {
+      "id": "REFL-1792072219234",
+      "trade_id": "S10:608368:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Will OpenAI not IPO by December 31, 2026?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -2.82,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792072219.234225
+    },
     {
       "id": "REFL-1792068530966",
       "trade_id": "S24:559654:Yes:BUY",
@@ -632,11 +645,11 @@
       "status": "BOOSTED"
     },
     "S10": {
-      "brier_score": 0.3958,
-      "win_rate": 33.3,
-      "trades_count": 18,
+      "brier_score": 0.4046,
+      "win_rate": 31.6,
+      "trades_count": 19,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1736,
+      "reliability": 0.1885,
       "resolution": 0.0,
       "status": "REDUCED"
     },
