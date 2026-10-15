@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792050734.9335368,
+  "updated_at": 1792051096.3672056,
   "reflections": [
+    {
+      "id": "REFL-1792050807679",
+      "trade_id": "WT:559668:0x9f57b2cdbc002d3e05075b1d36f8c9967d72c930:Yes:BUY",
+      "strategy_id": "WT",
+      "market_title": "Will Mark Kelly win the 2028 Democratic presidential nomination?",
+      "predicted_prob": 0.88,
+      "outcome": 0,
+      "pnl": -7.64,
+      "brier_error": 0.7744,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792050807.679504
+    },
     {
       "id": "REFL-1792046933005",
       "trade_id": "MR:gamma:701495:Yes:1w:BUY",
@@ -603,11 +616,11 @@
       "status": "REDUCED"
     },
     "WT": {
-      "brier_score": 0.3944,
-      "win_rate": 50.0,
-      "trades_count": 2,
+      "brier_score": 0.5211,
+      "win_rate": 33.3,
+      "trades_count": 3,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1444,
+      "reliability": 0.2988,
       "resolution": 0.0,
       "status": "REDUCED"
     }
