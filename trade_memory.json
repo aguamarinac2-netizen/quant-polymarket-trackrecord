@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792068208.5814679,
+  "updated_at": 1792068757.6075387,
   "reflections": [
+    {
+      "id": "REFL-1792068530966",
+      "trade_id": "S24:559654:Yes:BUY",
+      "strategy_id": "S24",
+      "market_title": "Will Pete Buttigieg win the 2028 Democratic presidential nomination?",
+      "predicted_prob": 0.76,
+      "outcome": 0,
+      "pnl": -2.74,
+      "brier_error": 0.5776,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792068530.9667556
+    },
     {
       "id": "REFL-1792066623073",
       "trade_id": "MR:gamma:679018:Yes:1d:SELL",
@@ -648,7 +661,7 @@
     "S24": {
       "brier_score": 0.5776,
       "win_rate": 0.0,
-      "trades_count": 3,
+      "trades_count": 4,
       "kelly_multiplier": 0.4,
       "reliability": 0.5776,
       "resolution": 0.0,
