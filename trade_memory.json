@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792086716.5205736,
+  "updated_at": 1792087198.0604732,
   "reflections": [
+    {
+      "id": "REFL-1792086888412",
+      "trade_id": "S24:561229:Yes:BUY",
+      "strategy_id": "S24",
+      "market_title": "Will JD Vance win the 2028 US Presidential Election?",
+      "predicted_prob": 0.76,
+      "outcome": 0,
+      "pnl": -2.33,
+      "brier_error": 0.5776,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792086888.4125993
+    },
     {
       "id": "REFL-1792076129049",
       "trade_id": "S10:567688:No:BUY",
@@ -713,7 +726,7 @@
     "S24": {
       "brier_score": 0.5776,
       "win_rate": 0.0,
-      "trades_count": 4,
+      "trades_count": 5,
       "kelly_multiplier": 0.4,
       "reliability": 0.5776,
       "resolution": 0.0,
