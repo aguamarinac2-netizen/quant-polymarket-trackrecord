@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792059205.451488,
+  "updated_at": 1792059690.8981154,
   "reflections": [
+    {
+      "id": "REFL-1792059626176",
+      "trade_id": "MR:gamma:601826:Yes:1d:BUY",
+      "strategy_id": "MR",
+      "market_title": "Will Flávio Bolsonaro win the 2026 Brazilian presidential election?",
+      "predicted_prob": 0.78,
+      "outcome": 0,
+      "pnl": -0.34,
+      "brier_error": 0.6084,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792059626.1767259
+    },
     {
       "id": "REFL-1792052258609",
       "trade_id": "WT:559679:0x318779504f3510e3032767e330889cba1a70a2cc:Yes:BUY",
@@ -602,11 +615,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3514,
-      "win_rate": 43.8,
-      "trades_count": 16,
+      "brier_score": 0.3666,
+      "win_rate": 41.2,
+      "trades_count": 17,
       "kelly_multiplier": 0.4,
-      "reliability": 0.0984,
+      "reliability": 0.1164,
       "resolution": 0.0,
       "status": "REDUCED"
     },
