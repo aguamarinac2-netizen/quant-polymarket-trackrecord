@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792074091.7678957,
+  "updated_at": 1792074515.5035787,
   "reflections": [
+    {
+      "id": "REFL-1792074390195",
+      "trade_id": "S10:629491:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Will the Republicans win the Nebraska governor race in 2026?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -9.26,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792074390.195377
+    },
     {
       "id": "REFL-1792072219234",
       "trade_id": "S10:608368:No:BUY",
@@ -645,11 +658,11 @@
       "status": "BOOSTED"
     },
     "S10": {
-      "brier_score": 0.372,
-      "win_rate": 38.1,
-      "trades_count": 21,
+      "brier_score": 0.3807,
+      "win_rate": 36.4,
+      "trades_count": 22,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1362,
+      "reliability": 0.1493,
       "resolution": 0.0,
       "status": "REDUCED"
     },
