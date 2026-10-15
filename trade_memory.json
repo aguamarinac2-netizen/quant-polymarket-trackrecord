@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792066393.8340857,
+  "updated_at": 1792066935.9165428,
   "reflections": [
+    {
+      "id": "REFL-1792066623073",
+      "trade_id": "MR:gamma:679018:Yes:1d:SELL",
+      "strategy_id": "MR",
+      "market_title": "Will Marine Le Pen win the 2027 French presidential election?",
+      "predicted_prob": 0.78,
+      "outcome": 0,
+      "pnl": -4.45,
+      "brier_error": 0.6084,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792066623.0737967
+    },
     {
       "id": "REFL-1792059626176",
       "trade_id": "MR:gamma:601826:Yes:1d:BUY",
@@ -615,11 +628,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3666,
-      "win_rate": 41.2,
-      "trades_count": 17,
+      "brier_score": 0.38,
+      "win_rate": 38.9,
+      "trades_count": 18,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1164,
+      "reliability": 0.1336,
       "resolution": 0.0,
       "status": "REDUCED"
     },
