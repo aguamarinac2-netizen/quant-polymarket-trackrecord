@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792051942.0380278,
+  "updated_at": 1792052548.2683501,
   "reflections": [
+    {
+      "id": "REFL-1792052258609",
+      "trade_id": "WT:559679:0x318779504f3510e3032767e330889cba1a70a2cc:Yes:BUY",
+      "strategy_id": "WT",
+      "market_title": "Will Bernie Sanders win the 2028 Democratic presidential nomination?",
+      "predicted_prob": 0.88,
+      "outcome": 0,
+      "pnl": -16.33,
+      "brier_error": 0.7744,
+      "root_cause": "Volatilidad adversa en el desenlace del evento.",
+      "actionable_rule": "Reducir tamaño Kelly fraccional en este cluster de mercado.",
+      "created_at": 1792052258.6093926
+    },
     {
       "id": "REFL-1792050807679",
       "trade_id": "WT:559668:0x9f57b2cdbc002d3e05075b1d36f8c9967d72c930:Yes:BUY",
@@ -616,11 +629,11 @@
       "status": "REDUCED"
     },
     "WT": {
-      "brier_score": 0.5211,
-      "win_rate": 33.3,
-      "trades_count": 3,
+      "brier_score": 0.5844,
+      "win_rate": 25.0,
+      "trades_count": 4,
       "kelly_multiplier": 0.4,
-      "reliability": 0.2988,
+      "reliability": 0.3969,
       "resolution": 0.0,
       "status": "REDUCED"
     }
