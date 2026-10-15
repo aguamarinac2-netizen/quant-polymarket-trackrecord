@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792029419.1614707,
+  "updated_at": 1792030020.3156636,
   "reflections": [
+    {
+      "id": "REFL-1792030009530",
+      "trade_id": "S24:559658:Yes:BUY",
+      "strategy_id": "S24",
+      "market_title": "Will Kamala Harris win the 2028 Democratic presidential nomination?",
+      "predicted_prob": 0.76,
+      "outcome": 0,
+      "pnl": -0.65,
+      "brier_error": 0.5776,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792030009.5305083
+    },
     {
       "id": "REFL-1792017075635",
       "trade_id": "MR:gamma:601819:Yes:1d:SELL",
@@ -544,7 +557,7 @@
     "S24": {
       "brier_score": 0.5776,
       "win_rate": 0.0,
-      "trades_count": 2,
+      "trades_count": 3,
       "kelly_multiplier": 0.4,
       "reliability": 0.5776,
       "resolution": 0.0,
