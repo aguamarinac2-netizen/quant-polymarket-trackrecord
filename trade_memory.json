@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792119152.5214572,
+  "updated_at": 1792119696.539325,
   "reflections": [
+    {
+      "id": "REFL-1792119527896",
+      "trade_id": "MR:gamma:682706:Yes:1d:BUY",
+      "strategy_id": "MR",
+      "market_title": "Will Naftali Bennett be the next Prime Minister of Israel?",
+      "predicted_prob": 0.72,
+      "outcome": 0,
+      "pnl": -1.42,
+      "brier_error": 0.5184,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792119527.8969462
+    },
     {
       "id": "REFL-1792118986847",
       "trade_id": "FLB:559661:No:BUY",
@@ -1826,7 +1839,7 @@
     "S20": 0.4,
     "S10": 0.4,
     "S12": 0.4,
-    "MR": 0.58,
+    "MR": 0.54,
     "S03": 0.4,
     "S25": 0.4,
     "S24": 0.4,
@@ -1862,11 +1875,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3038,
-      "win_rate": 53.3,
-      "trades_count": 30,
-      "kelly_multiplier": 0.58,
-      "reliability": 0.0494,
+      "brier_score": 0.3107,
+      "win_rate": 51.6,
+      "trades_count": 31,
+      "kelly_multiplier": 0.54,
+      "reliability": 0.0568,
       "resolution": 0.0,
       "status": "REDUCED"
     },
