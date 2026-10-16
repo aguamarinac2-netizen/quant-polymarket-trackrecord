@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792139537.0407166,
+  "updated_at": 1792139783.324978,
   "reflections": [
+    {
+      "id": "REFL-1792139678651",
+      "trade_id": "WT:629707:0x66e7ce01c6831b8a2503d09edd6167152ee68bcd:No:BUY",
+      "strategy_id": "WT",
+      "market_title": "Will the Democrats win the Vermont governor race in 2026?",
+      "predicted_prob": 0.82,
+      "outcome": 0,
+      "pnl": -1.37,
+      "brier_error": 0.6724,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792139678.651767
+    },
     {
       "id": "REFL-1792138846855",
       "trade_id": "MR:gamma:635016:Yes:1d:BUY",
@@ -1976,11 +1989,11 @@
       "status": "REDUCED"
     },
     "WT": {
-      "brier_score": 0.6599,
-      "win_rate": 13.6,
-      "trades_count": 22,
+      "brier_score": 0.6604,
+      "win_rate": 13.0,
+      "trades_count": 23,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5356,
+      "reliability": 0.5412,
       "resolution": 0.0,
       "status": "REDUCED"
     },
