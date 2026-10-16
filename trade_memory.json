@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792150585.8318179,
+  "updated_at": 1792151249.7352016,
   "reflections": [
+    {
+      "id": "REFL-1792151044127",
+      "trade_id": "S10:678686:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Will 2026 be the hottest year on record?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -2.09,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792151044.1272786
+    },
     {
       "id": "REFL-1792147164711",
       "trade_id": "S10:629519:No:BUY",
@@ -2000,11 +2013,11 @@
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.4527,
-      "win_rate": 22.0,
-      "trades_count": 41,
+      "brier_score": 0.4554,
+      "win_rate": 21.4,
+      "trades_count": 42,
       "kelly_multiplier": 0.4,
-      "reliability": 0.2814,
+      "reliability": 0.287,
       "resolution": 0.0,
       "status": "REDUCED"
     },
