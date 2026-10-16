@@ -1,6 +1,32 @@
 {
-  "updated_at": 1792153978.4453535,
+  "updated_at": 1792154220.110173,
   "reflections": [
+    {
+      "id": "REFL-1792154208827",
+      "trade_id": "S10:608547:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Will Harry Kane win the 2026 Ballon d'Or?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -1.5,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792154208.8273616
+    },
+    {
+      "id": "REFL-1792154198081",
+      "trade_id": "S10:635016:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Will Jonathan Kreiss-Tomkins win the 2026 Alaska governor election?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -0.47,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792154198.0819144
+    },
     {
       "id": "REFL-1792151329073",
       "trade_id": "MR:gamma:679021:Yes:1d:BUY",
@@ -2026,11 +2052,11 @@
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.4462,
-      "win_rate": 23.3,
-      "trades_count": 43,
+      "brier_score": 0.4514,
+      "win_rate": 22.2,
+      "trades_count": 45,
       "kelly_multiplier": 0.4,
-      "reliability": 0.2677,
+      "reliability": 0.2785,
       "resolution": 0.0,
       "status": "REDUCED"
     },
