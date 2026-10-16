@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792137151.7768605,
+  "updated_at": 1792137700.164871,
   "reflections": [
+    {
+      "id": "REFL-1792137546124",
+      "trade_id": "S10:561974:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Will J.D. Vance win the 2028 Republican presidential nomination?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -0.34,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792137546.1248085
+    },
     {
       "id": "REFL-1792134037477",
       "trade_id": "FLB:559658:No:BUY",
@@ -1896,11 +1909,11 @@
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.4544,
-      "win_rate": 21.6,
-      "trades_count": 37,
+      "brier_score": 0.4572,
+      "win_rate": 21.1,
+      "trades_count": 38,
       "kelly_multiplier": 0.4,
-      "reliability": 0.2849,
+      "reliability": 0.291,
       "resolution": 0.0,
       "status": "REDUCED"
     },
