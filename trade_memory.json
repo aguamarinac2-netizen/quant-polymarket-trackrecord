@@ -1,6 +1,32 @@
 {
-  "updated_at": 1792154220.110173,
+  "updated_at": 1792154886.4401965,
   "reflections": [
+    {
+      "id": "REFL-1792154509021",
+      "trade_id": "MR:gamma:601826:Yes:1d:BUY",
+      "strategy_id": "MR",
+      "market_title": "Will Flávio Bolsonaro win the 2026 Brazilian presidential election?",
+      "predicted_prob": 0.78,
+      "outcome": 0,
+      "pnl": -0.88,
+      "brier_error": 0.6084,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792154509.0219746
+    },
+    {
+      "id": "REFL-1792154339898",
+      "trade_id": "S10:677168:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Will US GDP growth in 2026 be between 2.0% and 2.5%?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -0.3,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792154339.898826
+    },
     {
       "id": "REFL-1792154208827",
       "trade_id": "S10:608547:No:BUY",
@@ -2052,11 +2078,11 @@
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.4514,
-      "win_rate": 22.2,
-      "trades_count": 45,
+      "brier_score": 0.4538,
+      "win_rate": 21.7,
+      "trades_count": 46,
       "kelly_multiplier": 0.4,
-      "reliability": 0.2785,
+      "reliability": 0.2837,
       "resolution": 0.0,
       "status": "REDUCED"
     },
@@ -2070,11 +2096,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3437,
-      "win_rate": 44.4,
-      "trades_count": 36,
+      "brier_score": 0.3509,
+      "win_rate": 43.2,
+      "trades_count": 37,
       "kelly_multiplier": 0.4,
-      "reliability": 0.0949,
+      "reliability": 0.1029,
       "resolution": 0.0,
       "status": "REDUCED"
     },
