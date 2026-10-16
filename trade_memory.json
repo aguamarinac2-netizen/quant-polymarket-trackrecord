@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792169549.623689,
+  "updated_at": 1792170216.4219549,
   "reflections": [
+    {
+      "id": "REFL-1792169999382",
+      "trade_id": "MR:gamma:631057:Yes:1d:SELL",
+      "strategy_id": "MR",
+      "market_title": "Will the Democrats win the Ohio Senate race in 2026?",
+      "predicted_prob": 0.72,
+      "outcome": 0,
+      "pnl": -0.42,
+      "brier_error": 0.5184,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792169999.3821387
+    },
     {
       "id": "REFL-1792169081413",
       "trade_id": "MR:gamma:679029:Yes:1d:SELL",
@@ -2200,11 +2213,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.375,
-      "win_rate": 38.6,
-      "trades_count": 44,
+      "brier_score": 0.3782,
+      "win_rate": 37.8,
+      "trades_count": 45,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1344,
+      "reliability": 0.1402,
       "resolution": 0.0,
       "status": "REDUCED"
     },
