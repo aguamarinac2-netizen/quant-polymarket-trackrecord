@@ -6657,13 +6657,13 @@
       "risk_reward_ratio": 0.83,
       "horizon": "medium_long",
       "horizon_label": "\ud83d\uddd3\ufe0f Largo (>15d)",
-      "status": "OPEN",
+      "status": "LOST",
       "unrealized_pnl_usd": -0.14,
       "unrealized_pnl_pct": -1.0,
-      "realized_pnl_usd": 0.0,
-      "realized_pnl_pct": 0.0,
-      "close_reason": null,
-      "closed_at": null,
+      "realized_pnl_usd": -0.37,
+      "realized_pnl_pct": -1.0,
+      "close_reason": "\u23f1\ufe0f Time-Stop 48h (Capital liberado: rotaci\u00f3n r\u00e1pida tras 48.0h estancado)",
+      "closed_at": "2026-10-16T09:03:58.104543+00:00",
       "engine": "paper"
     },
     "MR:gamma:682706:Yes:1d:SELL": {
@@ -9922,7 +9922,7 @@
       "order_type": "LIMIT",
       "entry_price": 0.9319,
       "signal_entry_price": 0.93,
-      "current_price": 0.935,
+      "current_price": 0.93,
       "target_price": 0.998,
       "stop_loss": 0.8835,
       "initial_stop_loss": 0.8835,
@@ -9946,8 +9946,8 @@
       "horizon": "medium_long",
       "horizon_label": "\ud83d\uddd3\ufe0f Largo (>15d)",
       "status": "OPEN",
-      "unrealized_pnl_usd": 0.03,
-      "unrealized_pnl_pct": 0.33,
+      "unrealized_pnl_usd": -0.02,
+      "unrealized_pnl_pct": -0.2,
       "realized_pnl_usd": 0.0,
       "realized_pnl_pct": 0.0,
       "close_reason": null,
@@ -13050,7 +13050,7 @@
       "order_type": "LIMIT",
       "entry_price": 0.0256,
       "signal_entry_price": 0.0255,
-      "current_price": 0.0256,
+      "current_price": 0.0255,
       "target_price": 0.72,
       "stop_loss": 0.0214,
       "initial_stop_loss": 0.0214,
@@ -13074,8 +13074,8 @@
       "horizon": "medium_long",
       "horizon_label": "\ud83d\uddd3\ufe0f Largo (>15d)",
       "status": "OPEN",
-      "unrealized_pnl_usd": 0.0,
-      "unrealized_pnl_pct": 0.0,
+      "unrealized_pnl_usd": -0.04,
+      "unrealized_pnl_pct": -0.39,
       "realized_pnl_usd": 0.0,
       "realized_pnl_pct": 0.0,
       "close_reason": null,
@@ -13083,5 +13083,5 @@
       "engine": "paper"
     }
   },
-  "updated_at": "2026-10-16T09:02:33.034925+00:00"
+  "updated_at": "2026-10-16T09:03:58.110628+00:00"
 }
