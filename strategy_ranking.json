@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T20:22:13.992279+00:00",
+  "generated_at": "2026-10-16T20:35:11.508358+00:00",
   "campaign": "demo-15d",
   "strategies": [
     {
@@ -148,7 +148,7 @@
       "won": 7,
       "lost": 18,
       "realized_pnl_usd": -11.35,
-      "unrealized_pnl_usd": -4.27,
+      "unrealized_pnl_usd": -4.39,
       "partial_fills": 0,
       "by_source": {
         "realistic": {
@@ -161,12 +161,12 @@
           "total": 49,
           "won": 6,
           "lost": 18,
-          "net_pnl_usd": -18.92
+          "net_pnl_usd": -19.04
         }
       },
       "closed": 25,
       "win_rate_pct": 28.0,
-      "net_pnl_usd": -15.62,
+      "net_pnl_usd": -15.74,
       "avg_book_slippage_bps": null,
       "verdict": "DESCARTAR"
     },
@@ -202,7 +202,7 @@
       "won": 22,
       "lost": 27,
       "realized_pnl_usd": -45.01,
-      "unrealized_pnl_usd": -9.72,
+      "unrealized_pnl_usd": -10.33,
       "partial_fills": 0,
       "by_source": {
         "realistic": {
@@ -215,12 +215,12 @@
           "total": 68,
           "won": 19,
           "lost": 24,
-          "net_pnl_usd": -56.78
+          "net_pnl_usd": -57.39
         }
       },
       "closed": 49,
       "win_rate_pct": 44.9,
-      "net_pnl_usd": -54.73,
+      "net_pnl_usd": -55.34,
       "avg_book_slippage_bps": null,
       "verdict": "DESCARTAR"
     },
@@ -258,11 +258,11 @@
       "strategy_code": "MR",
       "strategy_name": "C: Mean Reversion",
       "total": 71,
-      "open": 22,
+      "open": 21,
       "won": 27,
-      "lost": 22,
-      "realized_pnl_usd": -49.73,
-      "unrealized_pnl_usd": -27.46,
+      "lost": 23,
+      "realized_pnl_usd": -50.56,
+      "unrealized_pnl_usd": -28.24,
       "partial_fills": 0,
       "by_source": {
         "realistic": {
@@ -274,13 +274,13 @@
         "research": {
           "total": 68,
           "won": 27,
-          "lost": 21,
-          "net_pnl_usd": -74.15
+          "lost": 22,
+          "net_pnl_usd": -75.76
         }
       },
-      "closed": 49,
-      "win_rate_pct": 55.1,
-      "net_pnl_usd": -77.19,
+      "closed": 50,
+      "win_rate_pct": 54.0,
+      "net_pnl_usd": -78.8,
       "avg_book_slippage_bps": null,
       "verdict": "DESCARTAR"
     }
