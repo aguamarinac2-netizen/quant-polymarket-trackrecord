@@ -1,6 +1,32 @@
 {
-  "updated_at": 1792178506.1284072,
+  "updated_at": 1792179291.6505868,
   "reflections": [
+    {
+      "id": "REFL-1792179274433",
+      "trade_id": "MR:gamma:629690:Yes:1w:BUY",
+      "strategy_id": "MR",
+      "market_title": "Will the Democrats win the Texas governor race in 2026?",
+      "predicted_prob": 0.78,
+      "outcome": 0,
+      "pnl": -0.14,
+      "brier_error": 0.6084,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792179274.4330668
+    },
+    {
+      "id": "REFL-1792178800293",
+      "trade_id": "MR:gamma:629506:Yes:1d:SELL",
+      "strategy_id": "MR",
+      "market_title": "Will the Republicans win the Nevada governor race in 2026?",
+      "predicted_prob": 0.72,
+      "outcome": 0,
+      "pnl": -0.15,
+      "brier_error": 0.5184,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792178800.2931607
+    },
     {
       "id": "REFL-1792172800476",
       "trade_id": "WT:601826:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
@@ -2239,11 +2265,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3648,
-      "win_rate": 40.4,
-      "trades_count": 47,
+      "brier_score": 0.3729,
+      "win_rate": 38.8,
+      "trades_count": 49,
       "kelly_multiplier": 0.4,
-      "reliability": 0.121,
+      "reliability": 0.1327,
       "resolution": 0.0,
       "status": "REDUCED"
     },
