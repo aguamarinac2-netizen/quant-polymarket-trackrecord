@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792138620.0460906,
+  "updated_at": 1792138925.22375,
   "reflections": [
+    {
+      "id": "REFL-1792138846855",
+      "trade_id": "MR:gamma:635016:Yes:1d:BUY",
+      "strategy_id": "MR",
+      "market_title": "Will Jonathan Kreiss-Tomkins win the 2026 Alaska governor election?",
+      "predicted_prob": 0.76,
+      "outcome": 0,
+      "pnl": -0.08,
+      "brier_error": 0.5776,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792138846.8557854
+    },
     {
       "id": "REFL-1792137546124",
       "trade_id": "S10:561974:No:BUY",
@@ -1891,7 +1904,7 @@
     "S20": 0.4,
     "S10": 0.4,
     "S12": 0.4,
-    "MR": 0.46,
+    "MR": 0.42,
     "S03": 0.4,
     "S25": 0.4,
     "S24": 0.4,
@@ -1927,11 +1940,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3261,
-      "win_rate": 48.5,
-      "trades_count": 33,
-      "kelly_multiplier": 0.46,
-      "reliability": 0.0726,
+      "brier_score": 0.3335,
+      "win_rate": 47.1,
+      "trades_count": 34,
+      "kelly_multiplier": 0.42,
+      "reliability": 0.0806,
       "resolution": 0.0,
       "status": "REDUCED"
     },
