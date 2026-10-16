@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792151249.7352016,
+  "updated_at": 1792151489.7865274,
   "reflections": [
+    {
+      "id": "REFL-1792151329073",
+      "trade_id": "MR:gamma:679021:Yes:1d:BUY",
+      "strategy_id": "MR",
+      "market_title": "Will Édouard Philippe win the 2027 French presidential election?",
+      "predicted_prob": 0.72,
+      "outcome": 0,
+      "pnl": -1.25,
+      "brier_error": 0.5184,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792151329.0735543
+    },
     {
       "id": "REFL-1792151044127",
       "trade_id": "S10:678686:No:BUY",
@@ -2031,11 +2044,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3387,
-      "win_rate": 45.7,
-      "trades_count": 35,
+      "brier_score": 0.3437,
+      "win_rate": 44.4,
+      "trades_count": 36,
       "kelly_multiplier": 0.4,
-      "reliability": 0.0878,
+      "reliability": 0.0949,
       "resolution": 0.0,
       "status": "REDUCED"
     },
