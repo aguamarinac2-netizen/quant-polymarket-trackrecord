@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792186623.802062,
+  "updated_at": 1792187409.7802625,
   "reflections": [
+    {
+      "id": "REFL-1792186902356",
+      "trade_id": "S03:1089926:No:BUY",
+      "strategy_id": "S03",
+      "market_title": "Will Merab Dvalishvili be the UFC Bantamweight Champion on December 31, 2026?",
+      "predicted_prob": 0.72,
+      "outcome": 0,
+      "pnl": -0.14,
+      "brier_error": 0.5184,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792186902.3561013
+    },
     {
       "id": "REFL-1792185243091",
       "trade_id": "MM:560317:Yes:BOTH",
@@ -2338,7 +2351,7 @@
     "S03": {
       "brier_score": 0.5184,
       "win_rate": 0.0,
-      "trades_count": 1,
+      "trades_count": 2,
       "kelly_multiplier": 0.4,
       "reliability": 0.5184,
       "resolution": 0.0,
