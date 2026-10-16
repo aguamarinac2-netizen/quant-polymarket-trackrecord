@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792163915.1087744,
+  "updated_at": 1792164131.9840834,
   "reflections": [
+    {
+      "id": "REFL-1792164131977",
+      "trade_id": "MR:gamma:629558:Yes:1w:BUY",
+      "strategy_id": "MR",
+      "market_title": "Will the Republicans win the Ohio governor race in 2026?",
+      "predicted_prob": 0.78,
+      "outcome": 0,
+      "pnl": -0.73,
+      "brier_error": 0.6084,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792164131.977366
+    },
     {
       "id": "REFL-1792160656829",
       "trade_id": "MR:gamma:679021:Yes:1w:BUY",
@@ -2135,11 +2148,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3629,
-      "win_rate": 41.0,
-      "trades_count": 39,
+      "brier_score": 0.369,
+      "win_rate": 40.0,
+      "trades_count": 40,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1181,
+      "reliability": 0.1257,
       "resolution": 0.0,
       "status": "REDUCED"
     },
