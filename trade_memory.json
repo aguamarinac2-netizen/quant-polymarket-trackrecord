@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792140766.5133016,
+  "updated_at": 1792141374.131856,
   "reflections": [
+    {
+      "id": "REFL-1792141033707",
+      "trade_id": "S20:620335:Yes:BUY",
+      "strategy_id": "S20",
+      "market_title": "Aziz Akhannouch out as Morocco Prime Minister by December 31, 2026?",
+      "predicted_prob": 0.96,
+      "outcome": 0,
+      "pnl": -0.61,
+      "brier_error": 0.9216,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792141033.7080176
+    },
     {
       "id": "REFL-1792139678651",
       "trade_id": "WT:629707:0x66e7ce01c6831b8a2503d09edd6167152ee68bcd:No:BUY",
@@ -1926,20 +1939,20 @@
   },
   "strategy_brier_scores": {
     "S20": {
-      "brier_score": 0.845,
-      "win_rate": 8.3,
-      "trades_count": 24,
+      "brier_score": 0.848,
+      "win_rate": 8.0,
+      "trades_count": 25,
       "kelly_multiplier": 0.4,
-      "reliability": 0.7678,
+      "reliability": 0.7737,
       "resolution": 0.0,
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.4572,
-      "win_rate": 21.1,
-      "trades_count": 38,
+      "brier_score": 0.4471,
+      "win_rate": 23.1,
+      "trades_count": 39,
       "kelly_multiplier": 0.4,
-      "reliability": 0.291,
+      "reliability": 0.2696,
       "resolution": 0.0,
       "status": "REDUCED"
     },
