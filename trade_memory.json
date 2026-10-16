@@ -1,6 +1,32 @@
 {
-  "updated_at": 1792118791.5139174,
+  "updated_at": 1792119152.5214572,
   "reflections": [
+    {
+      "id": "REFL-1792118986847",
+      "trade_id": "FLB:559661:No:BUY",
+      "strategy_id": "FLB",
+      "market_title": "Will Jon Ossoff win the 2028 Democratic presidential nomination?",
+      "predicted_prob": 0.6,
+      "outcome": 0,
+      "pnl": -0.08,
+      "brier_error": 0.36,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792118986.8477366
+    },
+    {
+      "id": "REFL-1792118816032",
+      "trade_id": "S10:629296:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Will the Democrats win the Colorado governor race in 2026?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -0.44,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792118816.0326996
+    },
     {
       "id": "REFL-1792111393228",
       "trade_id": "S10:631057:No:BUY",
@@ -1804,7 +1830,8 @@
     "S03": 0.4,
     "S25": 0.4,
     "S24": 0.4,
-    "WT": 0.4
+    "WT": 0.4,
+    "FLB": 0.4
   },
   "strategy_brier_scores": {
     "S20": {
@@ -1817,11 +1844,11 @@
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.4514,
-      "win_rate": 22.2,
-      "trades_count": 36,
+      "brier_score": 0.4544,
+      "win_rate": 21.6,
+      "trades_count": 37,
       "kelly_multiplier": 0.4,
-      "reliability": 0.2785,
+      "reliability": 0.2849,
       "resolution": 0.0,
       "status": "REDUCED"
     },
@@ -1876,6 +1903,15 @@
       "trades_count": 22,
       "kelly_multiplier": 0.4,
       "reliability": 0.5356,
+      "resolution": 0.0,
+      "status": "REDUCED"
+    },
+    "FLB": {
+      "brier_score": 0.36,
+      "win_rate": 0.0,
+      "trades_count": 1,
+      "kelly_multiplier": 0.4,
+      "reliability": 0.36,
       "resolution": 0.0,
       "status": "REDUCED"
     }
