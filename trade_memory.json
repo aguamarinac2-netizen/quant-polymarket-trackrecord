@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792187409.7802625,
+  "updated_at": 1792187469.7936325,
   "reflections": [
+    {
+      "id": "REFL-1792187458371",
+      "trade_id": "WT:562794:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
+      "strategy_id": "WT",
+      "market_title": "Will the Republican Party control the Senate after the 2026 Midterm elections?",
+      "predicted_prob": 0.88,
+      "outcome": 0,
+      "pnl": -0.74,
+      "brier_error": 0.7744,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792187458.3718393
+    },
     {
       "id": "REFL-1792186902356",
       "trade_id": "S03:1089926:No:BUY",
@@ -2294,8 +2307,8 @@
     "S20": 0.4,
     "S10": 0.4,
     "S12": 0.4,
-    "MR": 0.4,
     "WT": 0.4,
+    "MR": 0.4,
     "S03": 0.4,
     "S25": 0.4,
     "S24": 0.4,
@@ -2330,21 +2343,21 @@
       "resolution": 0.0,
       "status": "REDUCED"
     },
+    "WT": {
+      "brier_score": 0.6492,
+      "win_rate": 14.8,
+      "trades_count": 27,
+      "kelly_multiplier": 0.4,
+      "reliability": 0.5184,
+      "resolution": 0.0,
+      "status": "REDUCED"
+    },
     "MR": {
       "brier_score": 0.3776,
       "win_rate": 38.0,
       "trades_count": 50,
       "kelly_multiplier": 0.4,
       "reliability": 0.1388,
-      "resolution": 0.0,
-      "status": "REDUCED"
-    },
-    "WT": {
-      "brier_score": 0.6443,
-      "win_rate": 15.4,
-      "trades_count": 26,
-      "kelly_multiplier": 0.4,
-      "reliability": 0.5096,
       "resolution": 0.0,
       "status": "REDUCED"
     },
