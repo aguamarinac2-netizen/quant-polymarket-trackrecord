@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792165726.4782953,
+  "updated_at": 1792165971.0788646,
   "reflections": [
+    {
+      "id": "REFL-1792165796252",
+      "trade_id": "MR:gamma:920403:Yes:1w:BUY",
+      "strategy_id": "MR",
+      "market_title": "Variational FDV above $1B one day after launch?",
+      "predicted_prob": 0.78,
+      "outcome": 0,
+      "pnl": -0.12,
+      "brier_error": 0.6084,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792165796.2526789
+    },
     {
       "id": "REFL-1792165464706",
       "trade_id": "S10:682956:No:BUY",
@@ -2161,11 +2174,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.369,
-      "win_rate": 40.0,
-      "trades_count": 40,
+      "brier_score": 0.3749,
+      "win_rate": 39.0,
+      "trades_count": 41,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1257,
+      "reliability": 0.1331,
       "resolution": 0.0,
       "status": "REDUCED"
     },
