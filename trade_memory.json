@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792165062.7551465,
+  "updated_at": 1792165726.4782953,
   "reflections": [
+    {
+      "id": "REFL-1792165464706",
+      "trade_id": "S10:682956:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Will Republicans lose a seat in the US Senate for any state Trump won in 2024?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -2.04,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792165464.706555
+    },
     {
       "id": "REFL-1792164131977",
       "trade_id": "MR:gamma:629558:Yes:1w:BUY",
@@ -2130,11 +2143,11 @@
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.4479,
-      "win_rate": 22.9,
-      "trades_count": 48,
+      "brier_score": 0.4503,
+      "win_rate": 22.4,
+      "trades_count": 49,
       "kelly_multiplier": 0.4,
-      "reliability": 0.2713,
+      "reliability": 0.2762,
       "resolution": 0.0,
       "status": "REDUCED"
     },
