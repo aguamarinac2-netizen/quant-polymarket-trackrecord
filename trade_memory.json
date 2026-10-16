@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792133590.0908892,
+  "updated_at": 1792134135.1420474,
   "reflections": [
+    {
+      "id": "REFL-1792134037477",
+      "trade_id": "FLB:559658:No:BUY",
+      "strategy_id": "FLB",
+      "market_title": "Will Kamala Harris win the 2028 Democratic presidential nomination?",
+      "predicted_prob": 0.6,
+      "outcome": 0,
+      "pnl": -0.12,
+      "brier_error": 0.36,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792134037.4774818
+    },
     {
       "id": "REFL-1792130631493",
       "trade_id": "MR:gamma:630964:Yes:1d:SELL",
@@ -1948,7 +1961,7 @@
     "FLB": {
       "brier_score": 0.36,
       "win_rate": 0.0,
-      "trades_count": 1,
+      "trades_count": 2,
       "kelly_multiplier": 0.4,
       "reliability": 0.36,
       "resolution": 0.0,
