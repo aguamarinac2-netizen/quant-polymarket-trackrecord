@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792146738.4364645,
+  "updated_at": 1792147045.8334632,
   "reflections": [
+    {
+      "id": "REFL-1792146976126",
+      "trade_id": "WT:559652:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
+      "strategy_id": "WT",
+      "market_title": "Will Gavin Newsom win the 2028 Democratic presidential nomination?",
+      "predicted_prob": 0.88,
+      "outcome": 0,
+      "pnl": -0.76,
+      "brier_error": 0.7744,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792146976.1264079
+    },
     {
       "id": "REFL-1792142077252",
       "trade_id": "S10:630679:No:BUY",
@@ -2028,11 +2041,11 @@
       "status": "REDUCED"
     },
     "WT": {
-      "brier_score": 0.6604,
-      "win_rate": 13.0,
-      "trades_count": 23,
+      "brier_score": 0.6652,
+      "win_rate": 12.5,
+      "trades_count": 24,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5412,
+      "reliability": 0.5501,
       "resolution": 0.0,
       "status": "REDUCED"
     },
