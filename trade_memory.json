@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792141618.4985802,
+  "updated_at": 1792142233.3115842,
   "reflections": [
+    {
+      "id": "REFL-1792142077252",
+      "trade_id": "S10:630679:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Will the Democrats win the Delaware Senate race in 2026?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -2.14,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792142077.2523408
+    },
     {
       "id": "REFL-1792141438144",
       "trade_id": "MR:gamma:630963:Yes:1d:BUY",
@@ -1961,11 +1974,11 @@
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.4471,
-      "win_rate": 23.1,
-      "trades_count": 39,
+      "brier_score": 0.45,
+      "win_rate": 22.5,
+      "trades_count": 40,
       "kelly_multiplier": 0.4,
-      "reliability": 0.2696,
+      "reliability": 0.2756,
       "resolution": 0.0,
       "status": "REDUCED"
     },
