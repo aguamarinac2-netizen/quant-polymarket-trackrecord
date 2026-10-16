@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792147045.8334632,
+  "updated_at": 1792147659.4094028,
   "reflections": [
+    {
+      "id": "REFL-1792147164711",
+      "trade_id": "S10:629519:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Will the Republicans win the New Hampshire governor race in 2026?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -0.54,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792147164.7117214
+    },
     {
       "id": "REFL-1792146976126",
       "trade_id": "WT:559652:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
@@ -1987,11 +2000,11 @@
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.45,
-      "win_rate": 22.5,
-      "trades_count": 40,
+      "brier_score": 0.4527,
+      "win_rate": 22.0,
+      "trades_count": 41,
       "kelly_multiplier": 0.4,
-      "reliability": 0.2756,
+      "reliability": 0.2814,
       "resolution": 0.0,
       "status": "REDUCED"
     },
