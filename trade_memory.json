@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792171364.2262466,
+  "updated_at": 1792172032.9091787,
   "reflections": [
+    {
+      "id": "REFL-1792171481144",
+      "trade_id": "FLB:559651:No:BUY",
+      "strategy_id": "FLB",
+      "market_title": "Xi Jinping out before 2027?",
+      "predicted_prob": 0.6,
+      "outcome": 0,
+      "pnl": -0.06,
+      "brier_error": 0.36,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792171481.1446733
+    },
     {
       "id": "REFL-1792169999382",
       "trade_id": "MR:gamma:631057:Yes:1d:SELL",
@@ -2260,7 +2273,7 @@
     "FLB": {
       "brier_score": 0.36,
       "win_rate": 0.0,
-      "trades_count": 2,
+      "trades_count": 3,
       "kelly_multiplier": 0.4,
       "reliability": 0.36,
       "resolution": 0.0,
