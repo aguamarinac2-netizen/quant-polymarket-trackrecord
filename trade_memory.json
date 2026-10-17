@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792261424.6881273,
+  "updated_at": 1792262272.7317972,
   "reflections": [
+    {
+      "id": "REFL-1792261479091",
+      "trade_id": "MR:gamma:1107878:Yes:1d:BUY",
+      "strategy_id": "MR",
+      "market_title": "Will the U.S. invade Cuba in 2026?",
+      "predicted_prob": 0.78,
+      "outcome": 0,
+      "pnl": -1.18,
+      "brier_error": 0.6084,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792261479.0915108
+    },
     {
       "id": "REFL-1792258664026",
       "trade_id": "MR:gamma:608547:Yes:1d:SELL",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1790118259.740701
-    },
-    {
-      "id": "REFL-1790118253414",
-      "trade_id": "T-LOST-1",
-      "strategy_id": "S20",
-      "market_title": "Will Oracle resolve at 5pm?",
-      "predicted_prob": 0.96,
-      "outcome": 0,
-      "pnl": -92.0,
-      "brier_error": 0.9216,
-      "root_cause": "Resolución con retardo del oráculo o disputa UMA no anticipada.",
-      "actionable_rule": "Aumentar margen de seguridad a 98% y verificar oráculo UMA antes de entrar.",
-      "created_at": 1790118253.414091
     }
   ],
   "strategy_weights": {
@@ -2652,11 +2652,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.4034,
-      "win_rate": 32.8,
-      "trades_count": 61,
+      "brier_score": 0.4067,
+      "win_rate": 32.3,
+      "trades_count": 62,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1808,
+      "reliability": 0.1857,
       "resolution": 0.0,
       "status": "REDUCED"
     },
