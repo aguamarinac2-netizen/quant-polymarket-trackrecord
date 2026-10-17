@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792243375.631256,
+  "updated_at": 1792244227.9580748,
   "reflections": [
+    {
+      "id": "REFL-1792243840171",
+      "trade_id": "S10:630706:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Will the Republicans win the Idaho Senate race in 2026?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -0.43,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792243840.171066
+    },
     {
       "id": "REFL-1792241175988",
       "trade_id": "FLB:559668:No:BUY",
@@ -2521,11 +2534,11 @@
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.4587,
-      "win_rate": 20.8,
-      "trades_count": 53,
+      "brier_score": 0.4606,
+      "win_rate": 20.4,
+      "trades_count": 54,
       "kelly_multiplier": 0.4,
-      "reliability": 0.2943,
+      "reliability": 0.2984,
       "resolution": 0.0,
       "status": "REDUCED"
     },
