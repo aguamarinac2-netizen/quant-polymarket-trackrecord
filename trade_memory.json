@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792246110.2816825,
+  "updated_at": 1792246955.63166,
   "reflections": [
+    {
+      "id": "REFL-1792246856754",
+      "trade_id": "WT:562802:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
+      "strategy_id": "WT",
+      "market_title": "Will the Democratic Party control the House after the 2026 Midterm elections?",
+      "predicted_prob": 0.88,
+      "outcome": 0,
+      "pnl": -1.61,
+      "brier_error": 0.7744,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792246856.7548058
+    },
     {
       "id": "REFL-1792243840171",
       "trade_id": "S10:630706:No:BUY",
@@ -2552,11 +2565,11 @@
       "status": "REDUCED"
     },
     "WT": {
-      "brier_score": 0.6578,
-      "win_rate": 13.8,
-      "trades_count": 29,
+      "brier_score": 0.6617,
+      "win_rate": 13.3,
+      "trades_count": 30,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5344,
+      "reliability": 0.5417,
       "resolution": 0.0,
       "status": "REDUCED"
     },
@@ -2588,11 +2601,11 @@
       "status": "REDUCED"
     },
     "S24": {
-      "brier_score": 0.5776,
-      "win_rate": 0.0,
-      "trades_count": 9,
+      "brier_score": 0.5256,
+      "win_rate": 10.0,
+      "trades_count": 10,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5776,
+      "reliability": 0.4356,
       "resolution": 0.0,
       "status": "REDUCED"
     },
