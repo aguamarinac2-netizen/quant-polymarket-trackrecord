@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792218100.8180408,
+  "updated_at": 1792219009.3725212,
   "reflections": [
+    {
+      "id": "REFL-1792218289094",
+      "trade_id": "S10:629040:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Will Nithya Raman win the 2026 Los Angeles mayoral election?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -0.1,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792218289.0942461
+    },
     {
       "id": "REFL-1792207968765",
       "trade_id": "MR:gamma:629557:Yes:1w:SELL",
@@ -2378,11 +2391,11 @@
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.4547,
-      "win_rate": 21.6,
-      "trades_count": 51,
+      "brier_score": 0.4567,
+      "win_rate": 21.2,
+      "trades_count": 52,
       "kelly_multiplier": 0.4,
-      "reliability": 0.2855,
+      "reliability": 0.2899,
       "resolution": 0.0,
       "status": "REDUCED"
     },
