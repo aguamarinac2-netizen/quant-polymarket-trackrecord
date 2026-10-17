@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792239793.030464,
+  "updated_at": 1792240641.1847265,
   "reflections": [
+    {
+      "id": "REFL-1792239973881",
+      "trade_id": "MR:gamma:630963:Yes:1w:BUY",
+      "strategy_id": "MR",
+      "market_title": "Will the Democrats win the Texas Senate race in 2026?",
+      "predicted_prob": 0.78,
+      "outcome": 0,
+      "pnl": -0.27,
+      "brier_error": 0.6084,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792239973.8817055
+    },
     {
       "id": "REFL-1792237758263",
       "trade_id": "MR:gamma:1090496:Yes:1d:BUY",
@@ -2522,11 +2535,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3983,
-      "win_rate": 33.9,
-      "trades_count": 56,
+      "brier_score": 0.402,
+      "win_rate": 33.3,
+      "trades_count": 57,
       "kelly_multiplier": 0.4,
-      "reliability": 0.171,
+      "reliability": 0.1764,
       "resolution": 0.0,
       "status": "REDUCED"
     },
