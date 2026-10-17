@@ -1,6 +1,32 @@
 {
-  "updated_at": 1792249683.7215765,
+  "updated_at": 1792250587.5890543,
   "reflections": [
+    {
+      "id": "REFL-1792250032293",
+      "trade_id": "MR:gamma:629505:Yes:1d:SELL",
+      "strategy_id": "MR",
+      "market_title": "Will the Democrats win the Nevada governor race in 2026?",
+      "predicted_prob": 0.72,
+      "outcome": 0,
+      "pnl": -0.04,
+      "brier_error": 0.5184,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792250032.2931314
+    },
+    {
+      "id": "REFL-1792250032282",
+      "trade_id": "S10:629505:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Will the Democrats win the Nevada governor race in 2026?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -0.35,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792250032.2827382
+    },
     {
       "id": "REFL-1792248932876",
       "trade_id": "S10:630772:No:BUY",
@@ -2573,11 +2599,11 @@
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.4643,
-      "win_rate": 19.6,
-      "trades_count": 56,
+      "brier_score": 0.466,
+      "win_rate": 19.3,
+      "trades_count": 57,
       "kelly_multiplier": 0.4,
-      "reliability": 0.3064,
+      "reliability": 0.3103,
       "resolution": 0.0,
       "status": "REDUCED"
     },
@@ -2600,11 +2626,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.402,
-      "win_rate": 33.3,
-      "trades_count": 57,
+      "brier_score": 0.404,
+      "win_rate": 32.8,
+      "trades_count": 58,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1764,
+      "reliability": 0.1808,
       "resolution": 0.0,
       "status": "REDUCED"
     },
