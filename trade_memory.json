@@ -1,6 +1,32 @@
 {
-  "updated_at": 1792207332.0222795,
+  "updated_at": 1792208179.5814939,
   "reflections": [
+    {
+      "id": "REFL-1792207968765",
+      "trade_id": "MR:gamma:629557:Yes:1w:SELL",
+      "strategy_id": "MR",
+      "market_title": "Will the Democrats win the Ohio governor race in 2026?",
+      "predicted_prob": 0.78,
+      "outcome": 0,
+      "pnl": -0.33,
+      "brier_error": 0.6084,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792207968.7653081
+    },
+    {
+      "id": "REFL-1792207968751",
+      "trade_id": "S10:629557:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Will the Democrats win the Ohio governor race in 2026?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -1.01,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792207968.7511163
+    },
     {
       "id": "REFL-1792198317802",
       "trade_id": "MR:gamma:601819:Yes:1d:BUY",
@@ -2352,11 +2378,11 @@
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.4525,
-      "win_rate": 22.0,
-      "trades_count": 50,
+      "brier_score": 0.4547,
+      "win_rate": 21.6,
+      "trades_count": 51,
       "kelly_multiplier": 0.4,
-      "reliability": 0.2809,
+      "reliability": 0.2855,
       "resolution": 0.0,
       "status": "REDUCED"
     },
@@ -2379,11 +2405,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3848,
-      "win_rate": 36.5,
-      "trades_count": 52,
+      "brier_score": 0.389,
+      "win_rate": 35.8,
+      "trades_count": 53,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1499,
+      "reliability": 0.1557,
       "resolution": 0.0,
       "status": "REDUCED"
     },
