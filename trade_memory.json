@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792272282.2785947,
+  "updated_at": 1792273016.0702338,
   "reflections": [
+    {
+      "id": "REFL-1792272700663",
+      "trade_id": "S10:629477:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Will the Democrats win the Minnesota governor race in 2026?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -0.42,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792272700.663198
+    },
     {
       "id": "REFL-1792267337386",
       "trade_id": "MR:gamma:677394:Yes:1d:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1790119142.2681105
-    },
-    {
-      "id": "REFL-1790119142267",
-      "trade_id": "1790119142.267024",
-      "strategy_id": "UNKNOWN",
-      "market_title": "Mercado Desconocido",
-      "predicted_prob": 0.95,
-      "outcome": 0,
-      "pnl": 0.0,
-      "brier_error": 0.9025,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1790119142.2670505
     }
   ],
   "strategy_weights": {
@@ -2625,11 +2625,11 @@
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.4591,
-      "win_rate": 20.7,
-      "trades_count": 58,
+      "brier_score": 0.4608,
+      "win_rate": 20.3,
+      "trades_count": 59,
       "kelly_multiplier": 0.4,
-      "reliability": 0.295,
+      "reliability": 0.2988,
       "resolution": 0.0,
       "status": "REDUCED"
     },
