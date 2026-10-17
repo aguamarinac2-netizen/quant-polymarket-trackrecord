@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792256883.6394832,
+  "updated_at": 1792257729.6185086,
   "reflections": [
+    {
+      "id": "REFL-1792257523228",
+      "trade_id": "MR:gamma:629506:Yes:1d:BUY",
+      "strategy_id": "MR",
+      "market_title": "Will the Republicans win the Nevada governor race in 2026?",
+      "predicted_prob": 0.78,
+      "outcome": 0,
+      "pnl": -0.8,
+      "brier_error": 0.6084,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792257523.2284064
+    },
     {
       "id": "REFL-1792254990387",
       "trade_id": "FLB:559654:No:BUY",
@@ -2639,11 +2652,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.398,
-      "win_rate": 33.9,
-      "trades_count": 59,
+      "brier_score": 0.4015,
+      "win_rate": 33.3,
+      "trades_count": 60,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1716,
+      "reliability": 0.1767,
       "resolution": 0.0,
       "status": "REDUCED"
     },
