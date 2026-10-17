@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792266823.6892169,
+  "updated_at": 1792267613.4177961,
   "reflections": [
+    {
+      "id": "REFL-1792267337386",
+      "trade_id": "MR:gamma:677394:Yes:1d:BUY",
+      "strategy_id": "MR",
+      "market_title": "Modi out by December 31, 2026?",
+      "predicted_prob": 0.73,
+      "outcome": 0,
+      "pnl": -0.23,
+      "brier_error": 0.5329,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792267337.3869548
+    },
     {
       "id": "REFL-1792264574162",
       "trade_id": "MR:gamma:630805:Yes:1d:SELL",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1790119142.2670505
-    },
-    {
-      "id": "REFL-1790118268842",
-      "trade_id": "1790118268.8426213",
-      "strategy_id": "UNKNOWN",
-      "market_title": "Mercado Desconocido",
-      "predicted_prob": 0.95,
-      "outcome": 0,
-      "pnl": 0.0,
-      "brier_error": 0.9025,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1790118268.8426313
     }
   ],
   "strategy_weights": {
@@ -2652,11 +2652,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.4085,
-      "win_rate": 31.7,
-      "trades_count": 63,
+      "brier_score": 0.4048,
+      "win_rate": 32.3,
+      "trades_count": 65,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1897,
+      "reliability": 0.1849,
       "resolution": 0.0,
       "status": "REDUCED"
     },
