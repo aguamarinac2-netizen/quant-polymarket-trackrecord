@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792264154.7466457,
+  "updated_at": 1792264879.2168372,
   "reflections": [
+    {
+      "id": "REFL-1792264574162",
+      "trade_id": "MR:gamma:630805:Yes:1d:SELL",
+      "strategy_id": "MR",
+      "market_title": "Will the Democrats win the Michigan Senate race in 2026?",
+      "predicted_prob": 0.72,
+      "outcome": 0,
+      "pnl": -0.02,
+      "brier_error": 0.5184,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792264574.1628013
+    },
     {
       "id": "REFL-1792261479091",
       "trade_id": "MR:gamma:1107878:Yes:1d:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1790118268.8426313
-    },
-    {
-      "id": "REFL-1790118259740",
-      "trade_id": "1790118259.740691",
-      "strategy_id": "UNKNOWN",
-      "market_title": "Mercado Desconocido",
-      "predicted_prob": 0.95,
-      "outcome": 0,
-      "pnl": 0.0,
-      "brier_error": 0.9025,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1790118259.740701
     }
   ],
   "strategy_weights": {
@@ -2652,11 +2652,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.4067,
-      "win_rate": 32.3,
-      "trades_count": 62,
+      "brier_score": 0.4085,
+      "win_rate": 31.7,
+      "trades_count": 63,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1857,
+      "reliability": 0.1897,
       "resolution": 0.0,
       "status": "REDUCED"
     },
