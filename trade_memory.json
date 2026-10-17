@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792248773.8608851,
+  "updated_at": 1792249623.7123148,
   "reflections": [
+    {
+      "id": "REFL-1792248932876",
+      "trade_id": "S10:630772:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Will the Democrats win the Maine Senate race in 2026?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -0.28,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792248932.8761835
+    },
     {
       "id": "REFL-1792247196808",
       "trade_id": "S10:629506:No:BUY",
@@ -2560,11 +2573,11 @@
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.4625,
-      "win_rate": 20.0,
-      "trades_count": 55,
+      "brier_score": 0.4643,
+      "win_rate": 19.6,
+      "trades_count": 56,
       "kelly_multiplier": 0.4,
-      "reliability": 0.3025,
+      "reliability": 0.3064,
       "resolution": 0.0,
       "status": "REDUCED"
     },
