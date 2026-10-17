@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792240641.1847265,
+  "updated_at": 1792241547.906595,
   "reflections": [
+    {
+      "id": "REFL-1792241175988",
+      "trade_id": "FLB:559668:No:BUY",
+      "strategy_id": "FLB",
+      "market_title": "Will Mark Kelly win the 2028 Democratic presidential nomination?",
+      "predicted_prob": 0.6,
+      "outcome": 0,
+      "pnl": -0.01,
+      "brier_error": 0.36,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792241175.9885979
+    },
     {
       "id": "REFL-1792239973881",
       "trade_id": "MR:gamma:630963:Yes:1w:BUY",
@@ -2582,7 +2595,7 @@
     "FLB": {
       "brier_score": 0.36,
       "win_rate": 0.0,
-      "trades_count": 3,
+      "trades_count": 4,
       "kelly_multiplier": 0.4,
       "reliability": 0.36,
       "resolution": 0.0,
