@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792231617.7623522,
+  "updated_at": 1792232525.6239877,
   "reflections": [
+    {
+      "id": "REFL-1792232416471",
+      "trade_id": "S10:682405:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Will Republicans lose a seat in the House of Representatives in any state Trump ",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -0.2,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792232416.471582
+    },
     {
       "id": "REFL-1792225063184",
       "trade_id": "WT:559655:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
@@ -2456,11 +2469,11 @@
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.4567,
-      "win_rate": 21.2,
-      "trades_count": 52,
+      "brier_score": 0.4587,
+      "win_rate": 20.8,
+      "trades_count": 53,
       "kelly_multiplier": 0.4,
-      "reliability": 0.2899,
+      "reliability": 0.2943,
       "resolution": 0.0,
       "status": "REDUCED"
     },
