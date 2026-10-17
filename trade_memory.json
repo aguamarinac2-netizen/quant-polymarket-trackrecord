@@ -1,6 +1,58 @@
 {
-  "updated_at": 1792223491.1856897,
+  "updated_at": 1792224403.1720657,
   "reflections": [
+    {
+      "id": "REFL-1792224291411",
+      "trade_id": "MM:559651:Yes:BOTH",
+      "strategy_id": "MM",
+      "market_title": "Xi Jinping out before 2027?",
+      "predicted_prob": 0.85,
+      "outcome": 0,
+      "pnl": -7.43,
+      "brier_error": 0.7225,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792224291.4112206
+    },
+    {
+      "id": "REFL-1792224291396",
+      "trade_id": "MR:local:559651:Yes:BUY",
+      "strategy_id": "MR",
+      "market_title": "Xi Jinping out before 2027?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -1.03,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792224291.396289
+    },
+    {
+      "id": "REFL-1792224291382",
+      "trade_id": "MM:559651:Yes:BOTH",
+      "strategy_id": "MM",
+      "market_title": "Xi Jinping out before 2027?",
+      "predicted_prob": 0.85,
+      "outcome": 0,
+      "pnl": -2.98,
+      "brier_error": 0.7225,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792224291.3824773
+    },
+    {
+      "id": "REFL-1792223612712",
+      "trade_id": "WT:559654:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
+      "strategy_id": "WT",
+      "market_title": "Will Pete Buttigieg win the 2028 Democratic presidential nomination?",
+      "predicted_prob": 0.88,
+      "outcome": 0,
+      "pnl": -0.06,
+      "brier_error": 0.7744,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792223612.7127266
+    },
     {
       "id": "REFL-1792218289094",
       "trade_id": "S10:629040:No:BUY",
@@ -2377,8 +2429,8 @@
     "S03": 0.4,
     "S25": 0.4,
     "S24": 0.4,
-    "FLB": 0.4,
-    "MM": 0.4
+    "MM": 0.4,
+    "FLB": 0.4
   },
   "strategy_brier_scores": {
     "S20": {
@@ -2409,20 +2461,20 @@
       "status": "REDUCED"
     },
     "WT": {
-      "brier_score": 0.6492,
-      "win_rate": 14.8,
-      "trades_count": 27,
+      "brier_score": 0.6536,
+      "win_rate": 14.3,
+      "trades_count": 28,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5184,
+      "reliability": 0.5267,
       "resolution": 0.0,
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.389,
-      "win_rate": 35.8,
-      "trades_count": 53,
+      "brier_score": 0.3922,
+      "win_rate": 35.2,
+      "trades_count": 54,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1557,
+      "reliability": 0.1609,
       "resolution": 0.0,
       "status": "REDUCED"
     },
@@ -2453,21 +2505,21 @@
       "resolution": 0.0,
       "status": "REDUCED"
     },
+    "MM": {
+      "brier_score": 0.7225,
+      "win_rate": 0.0,
+      "trades_count": 2,
+      "kelly_multiplier": 0.4,
+      "reliability": 0.7225,
+      "resolution": 0.0,
+      "status": "REDUCED"
+    },
     "FLB": {
       "brier_score": 0.36,
       "win_rate": 0.0,
       "trades_count": 3,
       "kelly_multiplier": 0.4,
       "reliability": 0.36,
-      "resolution": 0.0,
-      "status": "REDUCED"
-    },
-    "MM": {
-      "brier_score": 0.7225,
-      "win_rate": 0.0,
-      "trades_count": 1,
-      "kelly_multiplier": 0.4,
-      "reliability": 0.7225,
       "resolution": 0.0,
       "status": "REDUCED"
     }
