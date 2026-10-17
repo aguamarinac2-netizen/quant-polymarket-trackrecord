@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792234341.5589428,
+  "updated_at": 1792235245.9255252,
   "reflections": [
+    {
+      "id": "REFL-1792234941433",
+      "trade_id": "MR:gamma:701495:Yes:1d:BUY",
+      "strategy_id": "MR",
+      "market_title": "Will Bitcoin reach $110,000 by December 31, 2026?",
+      "predicted_prob": 0.72,
+      "outcome": 0,
+      "pnl": -0.68,
+      "brier_error": 0.5184,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792234941.433353
+    },
     {
       "id": "REFL-1792232416471",
       "trade_id": "S10:682405:No:BUY",
@@ -2496,11 +2509,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3922,
-      "win_rate": 35.2,
-      "trades_count": 54,
+      "brier_score": 0.3945,
+      "win_rate": 34.5,
+      "trades_count": 55,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1609,
+      "reliability": 0.1656,
       "resolution": 0.0,
       "status": "REDUCED"
     },
