@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792291192.7377396,
+  "updated_at": 1792291981.3552458,
   "reflections": [
+    {
+      "id": "REFL-1792291621470",
+      "trade_id": "S10:678777:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Will the US strike 8 countries in 2026?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -0.29,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792291621.4706597
+    },
     {
       "id": "REFL-1792290966255",
       "trade_id": "S10:678747:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792109474.8159196
-    },
-    {
-      "id": "REFL-1792109474811",
-      "trade_id": "S12:629376:Yes:BUY",
-      "strategy_id": "S12",
-      "market_title": "Will the Democrats win the Illinois governor race in 2026?",
-      "predicted_prob": 0.9,
-      "outcome": 0,
-      "pnl": -0.16,
-      "brier_error": 0.81,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792109474.8118281
     }
   ],
   "strategy_weights": {
@@ -2625,11 +2625,11 @@
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.4657,
-      "win_rate": 19.4,
-      "trades_count": 62,
+      "brier_score": 0.4673,
+      "win_rate": 19.0,
+      "trades_count": 63,
       "kelly_multiplier": 0.4,
-      "reliability": 0.3096,
+      "reliability": 0.3131,
       "resolution": 0.0,
       "status": "REDUCED"
     },
