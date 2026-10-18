@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792314378.7173142,
+  "updated_at": 1792314682.4584973,
   "reflections": [
+    {
+      "id": "REFL-1792314553635",
+      "trade_id": "WT:629183:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
+      "strategy_id": "WT",
+      "market_title": "Will the Democrats win the Arizona governor race in 2026?",
+      "predicted_prob": 0.88,
+      "outcome": 0,
+      "pnl": -1.7,
+      "brier_error": 0.7744,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792314553.635614
+    },
     {
       "id": "REFL-1792313841647",
       "trade_id": "S20:630654:Yes:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792109474.8721282
-    },
-    {
-      "id": "REFL-1792109474867",
-      "trade_id": "S12:629641:Yes:BUY",
-      "strategy_id": "S12",
-      "market_title": "Will the Republicans win the South Carolina governor race in 2026?",
-      "predicted_prob": 0.9,
-      "outcome": 0,
-      "pnl": -0.34,
-      "brier_error": 0.81,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792109474.8677328
     }
   ],
   "strategy_weights": {
@@ -2643,11 +2643,11 @@
       "status": "REDUCED"
     },
     "WT": {
-      "brier_score": 0.7151,
-      "win_rate": 7.0,
-      "trades_count": 57,
+      "brier_score": 0.7161,
+      "win_rate": 6.9,
+      "trades_count": 58,
       "kelly_multiplier": 0.4,
-      "reliability": 0.6468,
+      "reliability": 0.6489,
       "resolution": 0.0,
       "status": "REDUCED"
     },
