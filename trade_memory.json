@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792298459.1531534,
+  "updated_at": 1792299181.6552234,
   "reflections": [
+    {
+      "id": "REFL-1792298473813",
+      "trade_id": "MR:gamma:631058:Yes:1w:BUY",
+      "strategy_id": "MR",
+      "market_title": "Will the Republicans win the Ohio Senate race in 2026?",
+      "predicted_prob": 0.78,
+      "outcome": 0,
+      "pnl": -0.99,
+      "brier_error": 0.6084,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792298473.8130834
+    },
     {
       "id": "REFL-1792297606968",
       "trade_id": "MR:gamma:631058:Yes:1d:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792109474.8283615
-    },
-    {
-      "id": "REFL-1792109474824",
-      "trade_id": "S12:629451:Yes:BUY",
-      "strategy_id": "S12",
-      "market_title": "Will the Democrats win the Massachusetts governor race in 2026?",
-      "predicted_prob": 0.9,
-      "outcome": 0,
-      "pnl": -0.39,
-      "brier_error": 0.81,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792109474.8242178
     }
   ],
   "strategy_weights": {
@@ -2652,11 +2652,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3895,
-      "win_rate": 35.5,
-      "trades_count": 76,
+      "brier_score": 0.3923,
+      "win_rate": 35.1,
+      "trades_count": 77,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1602,
+      "reliability": 0.1642,
       "resolution": 0.0,
       "status": "REDUCED"
     },
