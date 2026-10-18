@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792353527.0041692,
+  "updated_at": 1792354007.6082597,
   "reflections": [
+    {
+      "id": "REFL-1792353766566",
+      "trade_id": "MR:gamma:629030:Yes:1w:SELL",
+      "strategy_id": "MR",
+      "market_title": "Will Karen Bass win the 2026 Los Angeles mayoral election?",
+      "predicted_prob": 0.78,
+      "outcome": 0,
+      "pnl": -0.15,
+      "brier_error": 0.6084,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792353766.5666687
+    },
     {
       "id": "REFL-1792353319631",
       "trade_id": "FLB:559695:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792109474.9256244
-    },
-    {
-      "id": "REFL-1792109474919",
-      "trade_id": "S12:630870:Yes:BUY",
-      "strategy_id": "S12",
-      "market_title": "Will the Democrats win the New Mexico Senate race in 2026?",
-      "predicted_prob": 0.9,
-      "outcome": 0,
-      "pnl": -0.46,
-      "brier_error": 0.81,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792109474.9196818
     }
   ],
   "strategy_weights": {
@@ -2652,11 +2652,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3939,
-      "win_rate": 34.6,
-      "trades_count": 81,
+      "brier_score": 0.3965,
+      "win_rate": 34.1,
+      "trades_count": 82,
       "kelly_multiplier": 0.4,
-      "reliability": 0.168,
+      "reliability": 0.1717,
       "resolution": 0.0,
       "status": "REDUCED"
     },
