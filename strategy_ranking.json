@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T17:13:39.875012+00:00",
+  "generated_at": "2026-10-18T17:22:59.458063+00:00",
   "campaign": "demo-15d",
   "strategies": [
     {
@@ -88,7 +88,7 @@
       "won": 10,
       "lost": 40,
       "realized_pnl_usd": -12.89,
-      "unrealized_pnl_usd": -4.6,
+      "unrealized_pnl_usd": -4.59,
       "partial_fills": 0,
       "by_source": {
         "realistic": {
@@ -101,12 +101,12 @@
           "total": 74,
           "won": 9,
           "lost": 40,
-          "net_pnl_usd": -20.79
+          "net_pnl_usd": -20.78
         }
       },
       "closed": 50,
       "win_rate_pct": 20.0,
-      "net_pnl_usd": -17.49,
+      "net_pnl_usd": -17.48,
       "avg_book_slippage_bps": null,
       "verdict": "DESCARTAR"
     },
@@ -148,7 +148,7 @@
       "won": 14,
       "lost": 40,
       "realized_pnl_usd": -13.15,
-      "unrealized_pnl_usd": -6.76,
+      "unrealized_pnl_usd": -6.67,
       "partial_fills": 0,
       "by_source": {
         "realistic": {
@@ -161,12 +161,12 @@
           "total": 75,
           "won": 14,
           "lost": 36,
-          "net_pnl_usd": -18.25
+          "net_pnl_usd": -18.16
         }
       },
       "closed": 54,
       "win_rate_pct": 25.9,
-      "net_pnl_usd": -19.91,
+      "net_pnl_usd": -19.82,
       "avg_book_slippage_bps": null,
       "verdict": "DESCARTAR"
     },
@@ -202,7 +202,7 @@
       "won": 31,
       "lost": 40,
       "realized_pnl_usd": -41.58,
-      "unrealized_pnl_usd": 6.03,
+      "unrealized_pnl_usd": 5.85,
       "partial_fills": 0,
       "by_source": {
         "realistic": {
@@ -215,12 +215,12 @@
           "total": 89,
           "won": 27,
           "lost": 37,
-          "net_pnl_usd": -51.5
+          "net_pnl_usd": -51.68
         }
       },
       "closed": 71,
       "win_rate_pct": 43.7,
-      "net_pnl_usd": -35.55,
+      "net_pnl_usd": -35.73,
       "avg_book_slippage_bps": null,
       "verdict": "DESCARTAR"
     },
@@ -232,7 +232,7 @@
       "won": 42,
       "lost": 37,
       "realized_pnl_usd": -54.85,
-      "unrealized_pnl_usd": -22.01,
+      "unrealized_pnl_usd": -21.51,
       "partial_fills": 0,
       "by_source": {
         "realistic": {
@@ -245,24 +245,24 @@
           "total": 92,
           "won": 38,
           "lost": 36,
-          "net_pnl_usd": -84.3
+          "net_pnl_usd": -83.8
         }
       },
       "closed": 79,
       "win_rate_pct": 53.2,
-      "net_pnl_usd": -76.86,
+      "net_pnl_usd": -76.36,
       "avg_book_slippage_bps": null,
       "verdict": "DESCARTAR"
     },
     {
       "strategy_code": "WT",
       "strategy_name": "F: Whale Tracking",
-      "total": 92,
+      "total": 93,
       "open": 32,
-      "won": 17,
+      "won": 18,
       "lost": 43,
-      "realized_pnl_usd": -54.97,
-      "unrealized_pnl_usd": -29.3,
+      "realized_pnl_usd": -54.94,
+      "unrealized_pnl_usd": -29.36,
       "partial_fills": 0,
       "by_source": {
         "realistic": {
@@ -272,15 +272,15 @@
           "net_pnl_usd": -8.55
         },
         "research": {
-          "total": 75,
-          "won": 14,
+          "total": 76,
+          "won": 15,
           "lost": 36,
-          "net_pnl_usd": -75.72
+          "net_pnl_usd": -75.75
         }
       },
-      "closed": 60,
-      "win_rate_pct": 28.3,
-      "net_pnl_usd": -84.27,
+      "closed": 61,
+      "win_rate_pct": 29.5,
+      "net_pnl_usd": -84.3,
       "avg_book_slippage_bps": null,
       "verdict": "DESCARTAR"
     }
