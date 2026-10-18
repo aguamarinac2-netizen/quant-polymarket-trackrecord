@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792314682.4584973,
+  "updated_at": 1792315349.0762284,
   "reflections": [
+    {
+      "id": "REFL-1792314882279",
+      "trade_id": "S10:630760:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Will the Republicans win the Kentucky Senate race in 2026?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -0.44,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792314882.2798467
+    },
     {
       "id": "REFL-1792314553635",
       "trade_id": "WT:629183:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792109474.8770094
-    },
-    {
-      "id": "REFL-1792109474872",
-      "trade_id": "S12:629667:Yes:BUY",
-      "strategy_id": "S12",
-      "market_title": "Will the Republicans win the Tennessee governor race in 2026?",
-      "predicted_prob": 0.9,
-      "outcome": 0,
-      "pnl": -1.02,
-      "brier_error": 0.81,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792109474.8721282
     }
   ],
   "strategy_weights": {
@@ -2625,11 +2625,11 @@
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.464,
-      "win_rate": 19.7,
-      "trades_count": 66,
+      "brier_score": 0.4655,
+      "win_rate": 19.4,
+      "trades_count": 67,
       "kelly_multiplier": 0.4,
-      "reliability": 0.3058,
+      "reliability": 0.3091,
       "resolution": 0.0,
       "status": "REDUCED"
     },
