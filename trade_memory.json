@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792353160.2255812,
+  "updated_at": 1792353527.0041692,
   "reflections": [
+    {
+      "id": "REFL-1792353319631",
+      "trade_id": "FLB:559695:No:BUY",
+      "strategy_id": "FLB",
+      "market_title": "Will James Talarico win the 2028 Democratic presidential nomination?",
+      "predicted_prob": 0.6,
+      "outcome": 0,
+      "pnl": -0.07,
+      "brier_error": 0.36,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792353319.6314125
+    },
     {
       "id": "REFL-1792352552097",
       "trade_id": "MR:gamma:634974:Yes:1d:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792109474.9196818
-    },
-    {
-      "id": "REFL-1792109474914",
-      "trade_id": "S12:630857:Yes:BUY",
-      "strategy_id": "S12",
-      "market_title": "Will the Democrats win the New Jersey Senate race in 2026?",
-      "predicted_prob": 0.9,
-      "outcome": 0,
-      "pnl": -0.52,
-      "brier_error": 0.81,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792109474.914282
     }
   ],
   "strategy_weights": {
@@ -2699,7 +2699,7 @@
     "FLB": {
       "brier_score": 0.36,
       "win_rate": 0.0,
-      "trades_count": 5,
+      "trades_count": 6,
       "kelly_multiplier": 0.4,
       "reliability": 0.36,
       "resolution": 0.0,
