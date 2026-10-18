@@ -1,6 +1,32 @@
 {
-  "updated_at": 1792288514.3893416,
+  "updated_at": 1792289181.322546,
   "reflections": [
+    {
+      "id": "REFL-1792289163394",
+      "trade_id": "MR:gamma:1105744:Yes:1d:SELL",
+      "strategy_id": "MR",
+      "market_title": "Will Nicolás Maduro be the leader of Venezuela end of 2026?",
+      "predicted_prob": 0.78,
+      "outcome": 0,
+      "pnl": -0.2,
+      "brier_error": 0.6084,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792289163.3943756
+    },
+    {
+      "id": "REFL-1792288995827",
+      "trade_id": "MR:gamma:601826:Yes:1d:SELL",
+      "strategy_id": "MR",
+      "market_title": "Will Flávio Bolsonaro win the 2026 Brazilian presidential election?",
+      "predicted_prob": 0.73,
+      "outcome": 0,
+      "pnl": -0.32,
+      "brier_error": 0.5329,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792288995.8273365
+    },
     {
       "id": "REFL-1792287073860",
       "trade_id": "MR:gamma:608547:Yes:1w:SELL",
@@ -2574,32 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792109474.8033345
-    },
-    {
-      "id": "REFL-1792109474798",
-      "trade_id": "S12:629311:Yes:BUY",
-      "strategy_id": "S12",
-      "market_title": "Will the Democrats win the Connecticut governor race in 2026?",
-      "predicted_prob": 0.9,
-      "outcome": 0,
-      "pnl": -0.37,
-      "brier_error": 0.81,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792109474.7989342
-    },
-    {
-      "id": "REFL-1792109474794",
-      "trade_id": "S12:629296:Yes:BUY",
-      "strategy_id": "S12",
-      "market_title": "Will the Democrats win the Colorado governor race in 2026?",
-      "predicted_prob": 0.9,
-      "outcome": 0,
-      "pnl": -0.37,
-      "brier_error": 0.81,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792109474.7949858
     }
   ],
   "strategy_weights": {
@@ -2652,11 +2652,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3905,
-      "win_rate": 35.2,
-      "trades_count": 71,
+      "brier_score": 0.3954,
+      "win_rate": 34.2,
+      "trades_count": 73,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1626,
+      "reliability": 0.1705,
       "resolution": 0.0,
       "status": "REDUCED"
     },
