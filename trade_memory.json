@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792312008.0651858,
+  "updated_at": 1792312620.7980266,
   "reflections": [
+    {
+      "id": "REFL-1792312482107",
+      "trade_id": "WT:561246:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
+      "strategy_id": "WT",
+      "market_title": "Will Ron DeSantis win the 2028 US Presidential Election?",
+      "predicted_prob": 0.88,
+      "outcome": 0,
+      "pnl": -0.06,
+      "brier_error": 0.7744,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792312482.1077027
+    },
     {
       "id": "REFL-1792310351581",
       "trade_id": "S10:630654:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792109474.8633304
-    },
-    {
-      "id": "REFL-1792109474858",
-      "trade_id": "S12:629627:Yes:BUY",
-      "strategy_id": "S12",
-      "market_title": "Will the Democrats win the Rhode Island governor race in 2026?",
-      "predicted_prob": 0.9,
-      "outcome": 0,
-      "pnl": -0.02,
-      "brier_error": 0.81,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792109474.8589878
     }
   ],
   "strategy_weights": {
@@ -2643,11 +2643,11 @@
       "status": "REDUCED"
     },
     "WT": {
-      "brier_score": 0.714,
-      "win_rate": 7.1,
-      "trades_count": 56,
+      "brier_score": 0.7151,
+      "win_rate": 7.0,
+      "trades_count": 57,
       "kelly_multiplier": 0.4,
-      "reliability": 0.6446,
+      "reliability": 0.6468,
       "resolution": 0.0,
       "status": "REDUCED"
     },
