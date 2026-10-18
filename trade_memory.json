@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792284872.431764,
+  "updated_at": 1792285661.539946,
   "reflections": [
+    {
+      "id": "REFL-1792285106125",
+      "trade_id": "MR:gamma:601819:Yes:1d:BUY",
+      "strategy_id": "MR",
+      "market_title": "Will Luiz Inácio Lula da Silva win the 2026 Brazilian presidential election?",
+      "predicted_prob": 0.78,
+      "outcome": 0,
+      "pnl": -0.21,
+      "brier_error": 0.6084,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792285106.1256258
+    },
     {
       "id": "REFL-1792282722370",
       "trade_id": "WT:562803:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792109474.7909083
-    },
-    {
-      "id": "REFL-1792109474787",
-      "trade_id": "S12:629271:Yes:BUY",
-      "strategy_id": "S12",
-      "market_title": "Will the Republicans win the Alabama governor race in 2026?",
-      "predicted_prob": 0.9,
-      "outcome": 0,
-      "pnl": -0.29,
-      "brier_error": 0.81,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792109474.7870297
     }
   ],
   "strategy_weights": {
@@ -2652,11 +2652,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3842,
-      "win_rate": 36.2,
-      "trades_count": 69,
+      "brier_score": 0.3874,
+      "win_rate": 35.7,
+      "trades_count": 70,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1539,
+      "reliability": 0.1583,
       "resolution": 0.0,
       "status": "REDUCED"
     },
