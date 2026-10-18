@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792354924.3803778,
+  "updated_at": 1792355351.151571,
   "reflections": [
+    {
+      "id": "REFL-1792355335023",
+      "trade_id": "WT:608547:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
+      "strategy_id": "WT",
+      "market_title": "Will Harry Kane win the 2026 Ballon d'Or?",
+      "predicted_prob": 0.88,
+      "outcome": 0,
+      "pnl": -1.15,
+      "brier_error": 0.7744,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792355335.0230296
+    },
     {
       "id": "REFL-1792353766566",
       "trade_id": "MR:gamma:629030:Yes:1w:SELL",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792109474.9309335
-    },
-    {
-      "id": "REFL-1792109474925",
-      "trade_id": "S10:630964:No:BUY",
-      "strategy_id": "S10",
-      "market_title": "Will the Republicans win the Texas Senate race in 2026?",
-      "predicted_prob": 0.75,
-      "outcome": 0,
-      "pnl": -0.66,
-      "brier_error": 0.5625,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792109474.9256244
     }
   ],
   "strategy_weights": {
@@ -2643,11 +2643,11 @@
       "status": "REDUCED"
     },
     "WT": {
-      "brier_score": 0.7065,
-      "win_rate": 8.2,
-      "trades_count": 61,
+      "brier_score": 0.7076,
+      "win_rate": 8.1,
+      "trades_count": 62,
       "kelly_multiplier": 0.4,
-      "reliability": 0.6285,
+      "reliability": 0.6307,
       "resolution": 0.0,
       "status": "REDUCED"
     },
