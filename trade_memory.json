@@ -1,6 +1,32 @@
 {
-  "updated_at": 1792290285.1375859,
+  "updated_at": 1792291010.4106395,
   "reflections": [
+    {
+      "id": "REFL-1792290966255",
+      "trade_id": "S10:678747:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Will Israel strike 4 countries in 2026?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -0.57,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792290966.2552497
+    },
+    {
+      "id": "REFL-1792290966243",
+      "trade_id": "S03:678747:No:BUY",
+      "strategy_id": "S03",
+      "market_title": "Will Israel strike 4 countries in 2026?",
+      "predicted_prob": 0.72,
+      "outcome": 0,
+      "pnl": -0.52,
+      "brier_error": 0.5184,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792290966.243079
+    },
     {
       "id": "REFL-1792289163394",
       "trade_id": "MR:gamma:1105744:Yes:1d:SELL",
@@ -2574,32 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792109474.8118281
-    },
-    {
-      "id": "REFL-1792109474807",
-      "trade_id": "S20:629364:Yes:BUY",
-      "strategy_id": "S20",
-      "market_title": "Will the Republicans win the Idaho governor race in 2026?",
-      "predicted_prob": 0.96,
-      "outcome": 0,
-      "pnl": -0.12,
-      "brier_error": 0.9216,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792109474.8076677
-    },
-    {
-      "id": "REFL-1792109474803",
-      "trade_id": "S12:629364:Yes:BUY",
-      "strategy_id": "S12",
-      "market_title": "Will the Republicans win the Idaho governor race in 2026?",
-      "predicted_prob": 0.9,
-      "outcome": 0,
-      "pnl": -0.08,
-      "brier_error": 0.81,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792109474.8033345
     }
   ],
   "strategy_weights": {
@@ -2625,11 +2625,11 @@
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.4641,
-      "win_rate": 19.7,
-      "trades_count": 61,
+      "brier_score": 0.4657,
+      "win_rate": 19.4,
+      "trades_count": 62,
       "kelly_multiplier": 0.4,
-      "reliability": 0.3061,
+      "reliability": 0.3096,
       "resolution": 0.0,
       "status": "REDUCED"
     },
@@ -2652,18 +2652,18 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3954,
-      "win_rate": 34.2,
-      "trades_count": 73,
+      "brier_score": 0.3912,
+      "win_rate": 35.1,
+      "trades_count": 74,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1705,
+      "reliability": 0.1628,
       "resolution": 0.0,
       "status": "REDUCED"
     },
     "S03": {
       "brier_score": 0.5184,
       "win_rate": 0.0,
-      "trades_count": 2,
+      "trades_count": 3,
       "kelly_multiplier": 0.4,
       "reliability": 0.5184,
       "resolution": 0.0,
