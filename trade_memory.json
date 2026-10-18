@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792337250.2784789,
+  "updated_at": 1792337858.8132014,
   "reflections": [
+    {
+      "id": "REFL-1792337790882",
+      "trade_id": "S10:682708:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Will Gadi Eizenkot be the next Prime Minister of Israel?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -0.24,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792337790.882157
+    },
     {
       "id": "REFL-1792334663378",
       "trade_id": "WT:629397:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792109474.892495
-    },
-    {
-      "id": "REFL-1792109474887",
-      "trade_id": "S12:630654:Yes:BUY",
-      "strategy_id": "S12",
-      "market_title": "Will the Republicans win the Arkansas Senate race in 2026?",
-      "predicted_prob": 0.9,
-      "outcome": 0,
-      "pnl": -0.2,
-      "brier_error": 0.81,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792109474.8871372
     }
   ],
   "strategy_weights": {
@@ -2625,11 +2625,11 @@
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.4482,
-      "win_rate": 22.9,
-      "trades_count": 70,
+      "brier_score": 0.4498,
+      "win_rate": 22.5,
+      "trades_count": 71,
       "kelly_multiplier": 0.4,
-      "reliability": 0.2719,
+      "reliability": 0.2753,
       "resolution": 0.0,
       "status": "REDUCED"
     },
