@@ -1,6 +1,32 @@
 {
-  "updated_at": 1792362560.4243295,
+  "updated_at": 1792363067.903525,
   "reflections": [
+    {
+      "id": "REFL-1792363067895",
+      "trade_id": "MR:gamma:629040:Yes:1d:BUY",
+      "strategy_id": "MR",
+      "market_title": "Will Nithya Raman win the 2026 Los Angeles mayoral election?",
+      "predicted_prob": 0.78,
+      "outcome": 0,
+      "pnl": -0.22,
+      "brier_error": 0.6084,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792363067.895874
+    },
+    {
+      "id": "REFL-1792363067881",
+      "trade_id": "MR:gamma:629030:Yes:1d:SELL",
+      "strategy_id": "MR",
+      "market_title": "Will Karen Bass win the 2026 Los Angeles mayoral election?",
+      "predicted_prob": 0.72,
+      "outcome": 0,
+      "pnl": -0.15,
+      "brier_error": 0.5184,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792363067.8815145
+    },
     {
       "id": "REFL-1792362137796",
       "trade_id": "MR:gamma:1105742:Yes:1d:BUY",
@@ -2574,32 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792109474.954645
-    },
-    {
-      "id": "REFL-1792109474947",
-      "trade_id": "S20:665243:No:BUY",
-      "strategy_id": "S20",
-      "market_title": "NATO article 5 before 2027?",
-      "predicted_prob": 0.96,
-      "outcome": 0,
-      "pnl": -0.25,
-      "brier_error": 0.9216,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792109474.947993
-    },
-    {
-      "id": "REFL-1792109474941",
-      "trade_id": "S20:665205:No:BUY",
-      "strategy_id": "S20",
-      "market_title": "US national Bitcoin reserve before 2027?",
-      "predicted_prob": 0.96,
-      "outcome": 0,
-      "pnl": -0.62,
-      "brier_error": 0.9216,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792109474.9419858
     }
   ],
   "strategy_weights": {
@@ -2652,11 +2652,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.399,
+      "brier_score": 0.3991,
       "win_rate": 33.7,
-      "trades_count": 83,
+      "trades_count": 86,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1754,
+      "reliability": 0.175,
       "resolution": 0.0,
       "status": "REDUCED"
     },
