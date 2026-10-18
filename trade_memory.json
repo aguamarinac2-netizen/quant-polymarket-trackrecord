@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792344484.9173648,
+  "updated_at": 1792345032.3067222,
   "reflections": [
+    {
+      "id": "REFL-1792344806246",
+      "trade_id": "S10:734885:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Will Donald Trump visit New Hampshire in 2026?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -0.04,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792344806.2464483
+    },
     {
       "id": "REFL-1792337790882",
       "trade_id": "S10:682708:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792109474.8980808
-    },
-    {
-      "id": "REFL-1792109474892",
-      "trade_id": "S12:630692:Yes:BUY",
-      "strategy_id": "S12",
-      "market_title": "Will the Democrats win the Georgia Senate race in 2026?",
-      "predicted_prob": 0.9,
-      "outcome": 0,
-      "pnl": -0.42,
-      "brier_error": 0.81,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792109474.892495
     }
   ],
   "strategy_weights": {
@@ -2625,11 +2625,11 @@
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.4498,
-      "win_rate": 22.5,
-      "trades_count": 71,
+      "brier_score": 0.4514,
+      "win_rate": 22.2,
+      "trades_count": 72,
       "kelly_multiplier": 0.4,
-      "reliability": 0.2753,
+      "reliability": 0.2785,
       "resolution": 0.0,
       "status": "REDUCED"
     },
