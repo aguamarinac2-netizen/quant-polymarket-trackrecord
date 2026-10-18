@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792347218.3605683,
+  "updated_at": 1792347766.7756393,
   "reflections": [
+    {
+      "id": "REFL-1792347644796",
+      "trade_id": "MR:gamma:701547:Yes:1d:BUY",
+      "strategy_id": "MR",
+      "market_title": "Will Ethereum reach $4,500 by December 31, 2026?",
+      "predicted_prob": 0.72,
+      "outcome": 0,
+      "pnl": -1.88,
+      "brier_error": 0.5184,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792347644.796675
+    },
     {
       "id": "REFL-1792344806246",
       "trade_id": "S10:734885:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792109474.9036548
-    },
-    {
-      "id": "REFL-1792109474898",
-      "trade_id": "S12:630706:Yes:BUY",
-      "strategy_id": "S12",
-      "market_title": "Will the Republicans win the Idaho Senate race in 2026?",
-      "predicted_prob": 0.9,
-      "outcome": 0,
-      "pnl": -0.29,
-      "brier_error": 0.81,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792109474.8980808
     }
   ],
   "strategy_weights": {
@@ -2652,11 +2652,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3907,
-      "win_rate": 35.4,
-      "trades_count": 79,
+      "brier_score": 0.3923,
+      "win_rate": 35.0,
+      "trades_count": 80,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1616,
+      "reliability": 0.1648,
       "resolution": 0.0,
       "status": "REDUCED"
     },
