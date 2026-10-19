@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792419457.903927,
+  "updated_at": 1792419758.9812064,
   "reflections": [
+    {
+      "id": "REFL-1792419662385",
+      "trade_id": "WT:628940:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
+      "strategy_id": "WT",
+      "market_title": "Will Steve Hilton win the California Governor Election in 2026?",
+      "predicted_prob": 0.88,
+      "outcome": 0,
+      "pnl": -0.11,
+      "brier_error": 0.7744,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792419662.3855133
+    },
     {
       "id": "REFL-1792418418415",
       "trade_id": "S10:676792:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792109485.2912807
-    },
-    {
-      "id": "REFL-1792109485283",
-      "trade_id": "S24:561231:Yes:BUY",
-      "strategy_id": "S24",
-      "market_title": "Will Alexandria Ocasio-Cortez win the 2028 US Presidential Election?",
-      "predicted_prob": 0.76,
-      "outcome": 0,
-      "pnl": -1.34,
-      "brier_error": 0.5776,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792109485.2836804
     }
   ],
   "strategy_weights": {
@@ -2643,11 +2643,11 @@
       "status": "REDUCED"
     },
     "WT": {
-      "brier_score": 0.699,
-      "win_rate": 9.2,
-      "trades_count": 65,
+      "brier_score": 0.7001,
+      "win_rate": 9.1,
+      "trades_count": 66,
       "kelly_multiplier": 0.4,
-      "reliability": 0.6127,
+      "reliability": 0.615,
       "resolution": 0.0,
       "status": "REDUCED"
     },
