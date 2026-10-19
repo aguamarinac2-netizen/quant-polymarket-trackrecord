@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792399020.1392348,
+  "updated_at": 1792399564.3346963,
   "reflections": [
+    {
+      "id": "REFL-1792399172833",
+      "trade_id": "MR:gamma:561974:Yes:1d:BUY",
+      "strategy_id": "MR",
+      "market_title": "Will J.D. Vance win the 2028 Republican presidential nomination?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -0.63,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792399172.8332093
+    },
     {
       "id": "REFL-1792397868815",
       "trade_id": "WT:567621:0x43372356634781eea88d61bbdd7824cdce958882:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792109474.98988
-    },
-    {
-      "id": "REFL-1792109474982",
-      "trade_id": "S20:665410:No:BUY",
-      "strategy_id": "S20",
-      "market_title": "Will Ukraine agree to give up the rest of Donbas before 2027?",
-      "predicted_prob": 0.96,
-      "outcome": 0,
-      "pnl": -0.81,
-      "brier_error": 0.9216,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792109474.9826243
     }
   ],
   "strategy_weights": {
@@ -2652,11 +2652,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3953,
-      "win_rate": 34.4,
-      "trades_count": 90,
+      "brier_score": 0.3972,
+      "win_rate": 34.1,
+      "trades_count": 91,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1688,
+      "reliability": 0.1719,
       "resolution": 0.0,
       "status": "REDUCED"
     },
