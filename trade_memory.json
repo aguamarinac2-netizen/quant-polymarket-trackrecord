@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792445824.423705,
+  "updated_at": 1792446549.5684733,
   "reflections": [
+    {
+      "id": "REFL-1792446320124",
+      "trade_id": "MR:gamma:608545:Yes:1w:BUY",
+      "strategy_id": "MR",
+      "market_title": "Will Lamine Yamal win the 2026 Ballon d'Or?",
+      "predicted_prob": 0.78,
+      "outcome": 0,
+      "pnl": -9.95,
+      "brier_error": 0.6084,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792446320.124658
+    },
     {
       "id": "REFL-1792440542330",
       "trade_id": "S10:629627:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792109842.4931476
-    },
-    {
-      "id": "REFL-1792109809458",
-      "trade_id": "WT:559668:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
-      "strategy_id": "WT",
-      "market_title": "Will Mark Kelly win the 2028 Democratic presidential nomination?",
-      "predicted_prob": 0.88,
-      "outcome": 0,
-      "pnl": -0.09,
-      "brier_error": 0.7744,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792109809.45822
     }
   ],
   "strategy_weights": {
@@ -2652,11 +2652,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3971,
-      "win_rate": 34.0,
-      "trades_count": 97,
+      "brier_score": 0.3993,
+      "win_rate": 33.7,
+      "trades_count": 98,
       "kelly_multiplier": 0.4,
-      "reliability": 0.172,
+      "reliability": 0.1751,
       "resolution": 0.0,
       "status": "REDUCED"
     },
