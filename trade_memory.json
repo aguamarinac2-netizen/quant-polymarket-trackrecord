@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792397754.9754102,
+  "updated_at": 1792398115.0700107,
   "reflections": [
+    {
+      "id": "REFL-1792397868815",
+      "trade_id": "WT:567621:0x43372356634781eea88d61bbdd7824cdce958882:No:BUY",
+      "strategy_id": "WT",
+      "market_title": "Will China invade Taiwan by end of 2026?",
+      "predicted_prob": 0.88,
+      "outcome": 0,
+      "pnl": -0.06,
+      "brier_error": 0.7744,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792397868.815079
+    },
     {
       "id": "REFL-1792396420336",
       "trade_id": "WT:565064:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792109474.9826243
-    },
-    {
-      "id": "REFL-1792109474975",
-      "trade_id": "S20:665373:No:BUY",
-      "strategy_id": "S20",
-      "market_title": "U.S. recognizes Russian sovereignty over Crimea before 2027? ",
-      "predicted_prob": 0.96,
-      "outcome": 0,
-      "pnl": -0.5,
-      "brier_error": 0.9216,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792109474.975606
     }
   ],
   "strategy_weights": {
@@ -2643,11 +2643,11 @@
       "status": "REDUCED"
     },
     "WT": {
-      "brier_score": 0.6978,
-      "win_rate": 9.4,
-      "trades_count": 64,
+      "brier_score": 0.699,
+      "win_rate": 9.2,
+      "trades_count": 65,
       "kelly_multiplier": 0.4,
-      "reliability": 0.6104,
+      "reliability": 0.6127,
       "resolution": 0.0,
       "status": "REDUCED"
     },
