@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792417936.1024995,
+  "updated_at": 1792418547.0983233,
   "reflections": [
+    {
+      "id": "REFL-1792418418415",
+      "trade_id": "S10:676792:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Anthropic IPO before 2027?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -1.92,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792418418.4153733
+    },
     {
       "id": "REFL-1792417703316",
       "trade_id": "MR:gamma:630773:Yes:1d:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792109485.2836804
-    },
-    {
-      "id": "REFL-1792109485275",
-      "trade_id": "S24:561230:Yes:BUY",
-      "strategy_id": "S24",
-      "market_title": "Will Gavin Newsom win the 2028 US Presidential Election?",
-      "predicted_prob": 0.76,
-      "outcome": 0,
-      "pnl": -1.75,
-      "brier_error": 0.5776,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792109485.2758956
     }
   ],
   "strategy_weights": {
@@ -2625,11 +2625,11 @@
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.4471,
-      "win_rate": 23.1,
-      "trades_count": 78,
+      "brier_score": 0.4486,
+      "win_rate": 22.8,
+      "trades_count": 79,
       "kelly_multiplier": 0.4,
-      "reliability": 0.2696,
+      "reliability": 0.2726,
       "resolution": 0.0,
       "status": "REDUCED"
     },
