@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792390538.5325024,
+  "updated_at": 1792390967.9164727,
   "reflections": [
+    {
+      "id": "REFL-1792390967909",
+      "trade_id": "MR:gamma:629183:Yes:1d:SELL",
+      "strategy_id": "MR",
+      "market_title": "Will the Democrats win the Arizona governor race in 2026?",
+      "predicted_prob": 0.78,
+      "outcome": 0,
+      "pnl": -0.13,
+      "brier_error": 0.6084,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792390967.9092429
+    },
     {
       "id": "REFL-1792363067895",
       "trade_id": "MR:gamma:629040:Yes:1d:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792109474.9613624
-    },
-    {
-      "id": "REFL-1792109474954",
-      "trade_id": "S20:665330:No:BUY",
-      "strategy_id": "S20",
-      "market_title": "Will Germany recognize Palestine before 2027?",
-      "predicted_prob": 0.96,
-      "outcome": 0,
-      "pnl": -0.59,
-      "brier_error": 0.9216,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792109474.954645
     }
   ],
   "strategy_weights": {
@@ -2652,11 +2652,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3951,
-      "win_rate": 34.5,
-      "trades_count": 87,
+      "brier_score": 0.3939,
+      "win_rate": 34.8,
+      "trades_count": 89,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1689,
+      "reliability": 0.166,
       "resolution": 0.0,
       "status": "REDUCED"
     },
