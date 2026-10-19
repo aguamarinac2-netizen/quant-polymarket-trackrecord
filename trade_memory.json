@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792401745.3349922,
+  "updated_at": 1792402289.2858531,
   "reflections": [
+    {
+      "id": "REFL-1792401952296",
+      "trade_id": "MR:gamma:944313:Yes:1d:BUY",
+      "strategy_id": "MR",
+      "market_title": "Will the Republican Party win the WA-03 House seat?",
+      "predicted_prob": 0.72,
+      "outcome": 0,
+      "pnl": -0.94,
+      "brier_error": 0.5184,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792401952.2969232
+    },
     {
       "id": "REFL-1792399172833",
       "trade_id": "MR:gamma:561974:Yes:1d:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792109474.9971838
-    },
-    {
-      "id": "REFL-1792109474989",
-      "trade_id": "S20:665464:No:BUY",
-      "strategy_id": "S20",
-      "market_title": "Kim Jong Un out as Supreme Leader of North Korea by December 31, 2026?",
-      "predicted_prob": 0.96,
-      "outcome": 0,
-      "pnl": -0.46,
-      "brier_error": 0.9216,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792109474.98988
     }
   ],
   "strategy_weights": {
@@ -2652,11 +2652,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3972,
-      "win_rate": 34.1,
-      "trades_count": 91,
+      "brier_score": 0.3985,
+      "win_rate": 33.7,
+      "trades_count": 92,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1719,
+      "reliability": 0.1747,
       "resolution": 0.0,
       "status": "REDUCED"
     },
