@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792407122.7620947,
+  "updated_at": 1792407739.8812652,
   "reflections": [
+    {
+      "id": "REFL-1792407689751",
+      "trade_id": "S10:691980:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Will Jack Doherty be sentenced to no prison time?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -3.07,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792407689.7519712
+    },
     {
       "id": "REFL-1792403842990",
       "trade_id": "S10:679018:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792109475.0137687
-    },
-    {
-      "id": "REFL-1792109475005",
-      "trade_id": "S20:665472:No:BUY",
-      "strategy_id": "S20",
-      "market_title": "Will Syria join the Abraham Accords before 2027?",
-      "predicted_prob": 0.96,
-      "outcome": 0,
-      "pnl": -0.6,
-      "brier_error": 0.9216,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792109475.005609
     }
   ],
   "strategy_weights": {
@@ -2625,11 +2625,11 @@
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.4456,
-      "win_rate": 23.4,
-      "trades_count": 77,
+      "brier_score": 0.4471,
+      "win_rate": 23.1,
+      "trades_count": 78,
       "kelly_multiplier": 0.4,
-      "reliability": 0.2665,
+      "reliability": 0.2696,
       "resolution": 0.0,
       "status": "REDUCED"
     },
