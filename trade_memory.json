@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792396298.0593212,
+  "updated_at": 1792396844.9848325,
   "reflections": [
+    {
+      "id": "REFL-1792396420336",
+      "trade_id": "WT:565064:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
+      "strategy_id": "WT",
+      "market_title": "Will the Republicans win the 2028 US Presidential Election?",
+      "predicted_prob": 0.88,
+      "outcome": 0,
+      "pnl": -0.18,
+      "brier_error": 0.7744,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792396420.3364432
+    },
     {
       "id": "REFL-1792395937915",
       "trade_id": "MR:gamma:630844:Yes:1d:SELL",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792109474.975606
-    },
-    {
-      "id": "REFL-1792109474968",
-      "trade_id": "S20:665370:No:BUY",
-      "strategy_id": "S20",
-      "market_title": "Will Trump's approval rating hit 30% in 2026?",
-      "predicted_prob": 0.96,
-      "outcome": 0,
-      "pnl": -0.05,
-      "brier_error": 0.9216,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792109474.968168
     }
   ],
   "strategy_weights": {
@@ -2643,11 +2643,11 @@
       "status": "REDUCED"
     },
     "WT": {
-      "brier_score": 0.6966,
-      "win_rate": 9.5,
-      "trades_count": 63,
+      "brier_score": 0.6978,
+      "win_rate": 9.4,
+      "trades_count": 64,
       "kelly_multiplier": 0.4,
-      "reliability": 0.6079,
+      "reliability": 0.6104,
       "resolution": 0.0,
       "status": "REDUCED"
     },
