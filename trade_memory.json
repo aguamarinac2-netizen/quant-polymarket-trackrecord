@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792433265.1156564,
+  "updated_at": 1792433935.8836238,
   "reflections": [
+    {
+      "id": "REFL-1792433910862",
+      "trade_id": "S10:631058:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Will the Republicans win the Ohio Senate race in 2026?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -0.18,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792433910.8628442
+    },
     {
       "id": "REFL-1792425594390",
       "trade_id": "S10:910098:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792109504.0133858
-    },
-    {
-      "id": "REFL-1792109494518",
-      "trade_id": "WT:562828:0x275575bb11522eb29f82fe0a601d7c4dc94b5016:Yes:BUY",
-      "strategy_id": "WT",
-      "market_title": "2026 Balance of Power: D Senate, D House",
-      "predicted_prob": 0.81,
-      "outcome": 0,
-      "pnl": -0.14,
-      "brier_error": 0.6561,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792109494.5187607
     }
   ],
   "strategy_weights": {
@@ -2625,11 +2625,11 @@
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.4452,
-      "win_rate": 23.5,
-      "trades_count": 81,
+      "brier_score": 0.4466,
+      "win_rate": 23.2,
+      "trades_count": 82,
       "kelly_multiplier": 0.4,
-      "reliability": 0.2657,
+      "reliability": 0.2686,
       "resolution": 0.0,
       "status": "REDUCED"
     },
