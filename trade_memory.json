@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792417631.1753309,
+  "updated_at": 1792417936.1024995,
   "reflections": [
+    {
+      "id": "REFL-1792417703316",
+      "trade_id": "MR:gamma:630773:Yes:1d:BUY",
+      "strategy_id": "MR",
+      "market_title": "Will the Republicans win the Maine Senate race in 2026?",
+      "predicted_prob": 0.72,
+      "outcome": 0,
+      "pnl": -0.64,
+      "brier_error": 0.5184,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792417703.31624
+    },
     {
       "id": "REFL-1792408966178",
       "trade_id": "MR:gamma:679018:Yes:1w:SELL",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792109485.2758956
-    },
-    {
-      "id": "REFL-1792109475021",
-      "trade_id": "S03:678777:No:BUY",
-      "strategy_id": "S03",
-      "market_title": "Will the US strike 8 countries in 2026?",
-      "predicted_prob": 0.72,
-      "outcome": 0,
-      "pnl": -0.48,
-      "brier_error": 0.5184,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792109475.0215502
     }
   ],
   "strategy_weights": {
@@ -2652,11 +2652,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3973,
-      "win_rate": 34.0,
-      "trades_count": 94,
+      "brier_score": 0.3986,
+      "win_rate": 33.7,
+      "trades_count": 95,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1717,
+      "reliability": 0.1744,
       "resolution": 0.0,
       "status": "REDUCED"
     },
