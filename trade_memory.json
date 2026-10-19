@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792438668.902406,
+  "updated_at": 1792439336.7076256,
   "reflections": [
+    {
+      "id": "REFL-1792439121505",
+      "trade_id": "S12:942902:Yes:BUY",
+      "strategy_id": "S12",
+      "market_title": "Will the Democratic Party win the NV-04 House seat?",
+      "predicted_prob": 0.9,
+      "outcome": 0,
+      "pnl": -0.13,
+      "brier_error": 0.81,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792439121.5059533
+    },
     {
       "id": "REFL-1792437533218",
       "trade_id": "MR:gamma:631057:Yes:1d:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792109770.5012186
-    },
-    {
-      "id": "REFL-1792109755652",
-      "trade_id": "WT:561974:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
-      "strategy_id": "WT",
-      "market_title": "Will J.D. Vance win the 2028 Republican presidential nomination?",
-      "predicted_prob": 0.88,
-      "outcome": 0,
-      "pnl": -1.08,
-      "brier_error": 0.7744,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792109755.652908
     }
   ],
   "strategy_weights": {
@@ -2634,11 +2634,11 @@
       "status": "REDUCED"
     },
     "S12": {
-      "brier_score": 0.7227,
-      "win_rate": 10.9,
-      "trades_count": 55,
+      "brier_score": 0.7243,
+      "win_rate": 10.7,
+      "trades_count": 56,
       "kelly_multiplier": 0.4,
-      "reliability": 0.6255,
+      "reliability": 0.6286,
       "resolution": 0.0,
       "status": "REDUCED"
     },
