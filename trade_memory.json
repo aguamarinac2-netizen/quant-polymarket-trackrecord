@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792446731.5219,
+  "updated_at": 1792447458.8785238,
   "reflections": [
+    {
+      "id": "REFL-1792446940548",
+      "trade_id": "S10:942409:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Will the Democratic Party win the FL-23 House seat?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -0.43,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792446940.5483394
+    },
     {
       "id": "REFL-1792446320124",
       "trade_id": "MR:gamma:608545:Yes:1w:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792109870.2689905
-    },
-    {
-      "id": "REFL-1792109842493",
-      "trade_id": "WT:565065:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
-      "strategy_id": "WT",
-      "market_title": "Will the Democrats win the 2028 US Presidential Election?",
-      "predicted_prob": 0.88,
-      "outcome": 0,
-      "pnl": -1.61,
-      "brier_error": 0.7744,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792109842.4931476
     }
   ],
   "strategy_weights": {
@@ -2625,11 +2625,11 @@
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.4462,
-      "win_rate": 23.3,
-      "trades_count": 86,
+      "brier_score": 0.4476,
+      "win_rate": 23.0,
+      "trades_count": 87,
       "kelly_multiplier": 0.4,
-      "reliability": 0.2677,
+      "reliability": 0.2705,
       "resolution": 0.0,
       "status": "REDUCED"
     },
