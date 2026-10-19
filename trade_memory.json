@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792440371.1683252,
+  "updated_at": 1792441163.6572266,
   "reflections": [
+    {
+      "id": "REFL-1792440542330",
+      "trade_id": "S10:629627:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Will the Democrats win the Rhode Island governor race in 2026?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -2.3,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792440542.3302877
+    },
     {
       "id": "REFL-1792439121505",
       "trade_id": "S12:942902:Yes:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792109809.45822
-    },
-    {
-      "id": "REFL-1792109770501",
-      "trade_id": "WT:561231:0x9e56391f1589c60c81e3af247da71aa1246f4199:Yes:BUY",
-      "strategy_id": "WT",
-      "market_title": "Will Alexandria Ocasio-Cortez win the 2028 US Presidential Election?",
-      "predicted_prob": 0.88,
-      "outcome": 0,
-      "pnl": -2.14,
-      "brier_error": 0.7744,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792109770.5012186
     }
   ],
   "strategy_weights": {
@@ -2625,11 +2625,11 @@
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.4494,
-      "win_rate": 22.6,
-      "trades_count": 84,
+      "brier_score": 0.4507,
+      "win_rate": 22.4,
+      "trades_count": 85,
       "kelly_multiplier": 0.4,
-      "reliability": 0.2744,
+      "reliability": 0.2772,
       "resolution": 0.0,
       "status": "REDUCED"
     },
