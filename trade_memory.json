@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792425151.5564802,
+  "updated_at": 1792425755.8203285,
   "reflections": [
+    {
+      "id": "REFL-1792425594390",
+      "trade_id": "S10:910098:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Will Rafael Grossi be the next Secretary General of the United Nations?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -0.15,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792425594.3908985
+    },
     {
       "id": "REFL-1792419662385",
       "trade_id": "WT:628940:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792109494.5187607
-    },
-    {
-      "id": "REFL-1792109485291",
-      "trade_id": "S24:561234:Yes:BUY",
-      "strategy_id": "S24",
-      "market_title": "Will Marco Rubio win the 2028 US Presidential Election?",
-      "predicted_prob": 0.76,
-      "outcome": 0,
-      "pnl": -1.42,
-      "brier_error": 0.5776,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792109485.2912807
     }
   ],
   "strategy_weights": {
@@ -2625,11 +2625,11 @@
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.4437,
-      "win_rate": 23.8,
-      "trades_count": 80,
+      "brier_score": 0.4452,
+      "win_rate": 23.5,
+      "trades_count": 81,
       "kelly_multiplier": 0.4,
-      "reliability": 0.2627,
+      "reliability": 0.2657,
       "resolution": 0.0,
       "status": "REDUCED"
     },
