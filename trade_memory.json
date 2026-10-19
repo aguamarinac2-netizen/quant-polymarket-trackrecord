@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792450301.640589,
+  "updated_at": 1792451089.7219188,
   "reflections": [
+    {
+      "id": "REFL-1792450977730",
+      "trade_id": "MR:local:559658:Yes:BUY",
+      "strategy_id": "MR",
+      "market_title": "Will Kamala Harris win the 2028 Democratic presidential nomination?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -0.7,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792450977.7305825
+    },
     {
       "id": "REFL-1792446940548",
       "trade_id": "S10:942409:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792109875.0781145
-    },
-    {
-      "id": "REFL-1792109870268",
-      "trade_id": "WT:630772:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
-      "strategy_id": "WT",
-      "market_title": "Will the Democrats win the Maine Senate race in 2026?",
-      "predicted_prob": 0.88,
-      "outcome": 0,
-      "pnl": -1.52,
-      "brier_error": 0.7744,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792109870.2689905
     }
   ],
   "strategy_weights": {
@@ -2652,11 +2652,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3993,
-      "win_rate": 33.7,
-      "trades_count": 98,
+      "brier_score": 0.4009,
+      "win_rate": 33.3,
+      "trades_count": 99,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1751,
+      "reliability": 0.1779,
       "resolution": 0.0,
       "status": "REDUCED"
     },

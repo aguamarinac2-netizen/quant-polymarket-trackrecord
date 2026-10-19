@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T22:52:23.736718+00:00",
+  "generated_at": "2026-10-19T23:04:58.608049+00:00",
   "campaign": "demo-15d",
   "strategies": [
     {
@@ -64,19 +64,19 @@
       "won": 1,
       "lost": 5,
       "realized_pnl_usd": -0.41,
-      "unrealized_pnl_usd": -0.16,
+      "unrealized_pnl_usd": -0.15,
       "partial_fills": 0,
       "by_source": {
         "research": {
           "total": 7,
           "won": 1,
           "lost": 5,
-          "net_pnl_usd": -0.57
+          "net_pnl_usd": -0.56
         }
       },
       "closed": 6,
       "win_rate_pct": 16.7,
-      "net_pnl_usd": -0.57,
+      "net_pnl_usd": -0.56,
       "avg_book_slippage_bps": null,
       "verdict": "MUESTRA_INSUFICIENTE"
     },
@@ -88,7 +88,7 @@
       "won": 10,
       "lost": 40,
       "realized_pnl_usd": -12.89,
-      "unrealized_pnl_usd": -4.49,
+      "unrealized_pnl_usd": -4.54,
       "partial_fills": 0,
       "by_source": {
         "realistic": {
@@ -101,12 +101,12 @@
           "total": 74,
           "won": 9,
           "lost": 40,
-          "net_pnl_usd": -20.68
+          "net_pnl_usd": -20.73
         }
       },
       "closed": 50,
       "win_rate_pct": 20.0,
-      "net_pnl_usd": -17.38,
+      "net_pnl_usd": -17.43,
       "avg_book_slippage_bps": null,
       "verdict": "DESCARTAR"
     },
@@ -148,7 +148,7 @@
       "won": 14,
       "lost": 42,
       "realized_pnl_usd": -13.51,
-      "unrealized_pnl_usd": -7.11,
+      "unrealized_pnl_usd": -7.1,
       "partial_fills": 0,
       "by_source": {
         "realistic": {
@@ -161,12 +161,12 @@
           "total": 77,
           "won": 14,
           "lost": 38,
-          "net_pnl_usd": -18.56
+          "net_pnl_usd": -18.55
         }
       },
       "closed": 56,
       "win_rate_pct": 25.0,
-      "net_pnl_usd": -20.62,
+      "net_pnl_usd": -20.61,
       "avg_book_slippage_bps": null,
       "verdict": "DESCARTAR"
     },
@@ -202,7 +202,7 @@
       "won": 38,
       "lost": 49,
       "realized_pnl_usd": -44.85,
-      "unrealized_pnl_usd": 8.91,
+      "unrealized_pnl_usd": 9.25,
       "partial_fills": 0,
       "by_source": {
         "realistic": {
@@ -215,12 +215,12 @@
           "total": 104,
           "won": 34,
           "lost": 45,
-          "net_pnl_usd": -52.62
+          "net_pnl_usd": -52.28
         }
       },
       "closed": 87,
       "win_rate_pct": 43.7,
-      "net_pnl_usd": -35.94,
+      "net_pnl_usd": -35.6,
       "avg_book_slippage_bps": null,
       "verdict": "DESCARTAR"
     },
@@ -232,7 +232,7 @@
       "won": 21,
       "lost": 47,
       "realized_pnl_usd": -58.05,
-      "unrealized_pnl_usd": -27.01,
+      "unrealized_pnl_usd": -26.93,
       "partial_fills": 0,
       "by_source": {
         "realistic": {
@@ -245,24 +245,24 @@
           "total": 81,
           "won": 17,
           "lost": 39,
-          "net_pnl_usd": -76.43
+          "net_pnl_usd": -76.35
         }
       },
       "closed": 68,
       "win_rate_pct": 30.9,
-      "net_pnl_usd": -85.06,
+      "net_pnl_usd": -84.98,
       "avg_book_slippage_bps": null,
       "verdict": "DESCARTAR"
     },
     {
       "strategy_code": "MR",
       "strategy_name": "C: Mean Reversion",
-      "total": 117,
+      "total": 118,
       "open": 19,
       "won": 50,
-      "lost": 48,
-      "realized_pnl_usd": -68.31,
-      "unrealized_pnl_usd": -23.74,
+      "lost": 49,
+      "realized_pnl_usd": -69.01,
+      "unrealized_pnl_usd": -23.77,
       "partial_fills": 0,
       "by_source": {
         "realistic": {
@@ -272,15 +272,15 @@
           "net_pnl_usd": 8.43
         },
         "research": {
-          "total": 109,
+          "total": 110,
           "won": 45,
-          "lost": 47,
-          "net_pnl_usd": -100.48
+          "lost": 48,
+          "net_pnl_usd": -101.21
         }
       },
-      "closed": 98,
-      "win_rate_pct": 51.0,
-      "net_pnl_usd": -92.05,
+      "closed": 99,
+      "win_rate_pct": 50.5,
+      "net_pnl_usd": -92.78,
       "avg_book_slippage_bps": null,
       "verdict": "DESCARTAR"
     }
