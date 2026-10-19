@@ -1,6 +1,45 @@
 {
-  "updated_at": 1792433935.8836238,
+  "updated_at": 1792434118.8706524,
   "reflections": [
+    {
+      "id": "REFL-1792434013339",
+      "trade_id": "S10:562793:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Will the Democratic Party control the Senate after the 2026 Midterm elections?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -0.89,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792434013.3399565
+    },
+    {
+      "id": "REFL-1792434013288",
+      "trade_id": "WT:562793:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
+      "strategy_id": "WT",
+      "market_title": "Will the Democratic Party control the Senate after the 2026 Midterm elections?",
+      "predicted_prob": 0.88,
+      "outcome": 0,
+      "pnl": -2.49,
+      "brier_error": 0.7744,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792434013.2882025
+    },
+    {
+      "id": "REFL-1792434013275",
+      "trade_id": "S10:562793:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Will the Democratic Party control the Senate after the 2026 Midterm elections?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -0.89,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792434013.2752688
+    },
     {
       "id": "REFL-1792433910862",
       "trade_id": "S10:631058:No:BUY",
@@ -2561,45 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792109716.660118
-    },
-    {
-      "id": "REFL-1792109687904",
-      "trade_id": "WT:559651:0xed107a85a4585a381e48c7f7ca4144909e7dd2e5:No:BUY",
-      "strategy_id": "WT",
-      "market_title": "Xi Jinping out before 2027?",
-      "predicted_prob": 0.86,
-      "outcome": 0,
-      "pnl": -0.28,
-      "brier_error": 0.7396,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792109687.9040601
-    },
-    {
-      "id": "REFL-1792109682721",
-      "trade_id": "WT:559695:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
-      "strategy_id": "WT",
-      "market_title": "Will James Talarico win the 2028 Democratic presidential nomination?",
-      "predicted_prob": 0.88,
-      "outcome": 0,
-      "pnl": -0.15,
-      "brier_error": 0.7744,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792109682.7217908
-    },
-    {
-      "id": "REFL-1792109504013",
-      "trade_id": "WT:562794:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
-      "strategy_id": "WT",
-      "market_title": "Will the Republican Party control the Senate after the 2026 Midterm elections?",
-      "predicted_prob": 0.88,
-      "outcome": 0,
-      "pnl": -1.02,
-      "brier_error": 0.7744,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792109504.0133858
     }
   ],
   "strategy_weights": {
@@ -2625,11 +2625,11 @@
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.4466,
-      "win_rate": 23.2,
-      "trades_count": 82,
+      "brier_score": 0.4494,
+      "win_rate": 22.6,
+      "trades_count": 84,
       "kelly_multiplier": 0.4,
-      "reliability": 0.2686,
+      "reliability": 0.2744,
       "resolution": 0.0,
       "status": "REDUCED"
     },
@@ -2643,11 +2643,11 @@
       "status": "REDUCED"
     },
     "WT": {
-      "brier_score": 0.6899,
-      "win_rate": 10.4,
-      "trades_count": 67,
+      "brier_score": 0.6911,
+      "win_rate": 10.3,
+      "trades_count": 68,
       "kelly_multiplier": 0.4,
-      "reliability": 0.594,
+      "reliability": 0.5965,
       "resolution": 0.0,
       "status": "REDUCED"
     },
