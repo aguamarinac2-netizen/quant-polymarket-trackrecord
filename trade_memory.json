@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792489080.45809,
+  "updated_at": 1792489928.338411,
   "reflections": [
+    {
+      "id": "REFL-1792489281828",
+      "trade_id": "S10:942425:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Will the Democratic Party win the IN-01 House seat?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -0.02,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792489281.8282623
+    },
     {
       "id": "REFL-1792488251226",
       "trade_id": "MR:gamma:630925:Yes:1d:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792237758.264004
-    },
-    {
-      "id": "REFL-1792234941433",
-      "trade_id": "MR:gamma:701495:Yes:1d:BUY",
-      "strategy_id": "MR",
-      "market_title": "Will Bitcoin reach $110,000 by December 31, 2026?",
-      "predicted_prob": 0.72,
-      "outcome": 0,
-      "pnl": -0.68,
-      "brier_error": 0.5184,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792234941.433353
     }
   ],
   "strategy_weights": {
@@ -2625,11 +2625,11 @@
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.4467,
-      "win_rate": 23.2,
-      "trades_count": 95,
+      "brier_score": 0.4479,
+      "win_rate": 22.9,
+      "trades_count": 96,
       "kelly_multiplier": 0.4,
-      "reliability": 0.2688,
+      "reliability": 0.2713,
       "resolution": 0.0,
       "status": "REDUCED"
     },
