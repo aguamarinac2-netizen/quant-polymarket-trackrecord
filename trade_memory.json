@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792514333.2620506,
+  "updated_at": 1792515121.1658478,
   "reflections": [
+    {
+      "id": "REFL-1792514530744",
+      "trade_id": "S10:942820:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Will the Democratic Party win the MN-02 House seat?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -0.42,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792514530.7449715
+    },
     {
       "id": "REFL-1792510314364",
       "trade_id": "WT:629478:0x66e7ce01c6831b8a2503d09edd6167152ee68bcd:Yes:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792282278.9015326
-    },
-    {
-      "id": "REFL-1792282278889",
-      "trade_id": "WT:562828:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
-      "strategy_id": "WT",
-      "market_title": "2026 Balance of Power: D Senate, D House",
-      "predicted_prob": 0.88,
-      "outcome": 0,
-      "pnl": -1.16,
-      "brier_error": 0.7744,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792282278.8891385
     }
   ],
   "strategy_weights": {
@@ -2625,11 +2625,11 @@
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.454,
-      "win_rate": 21.7,
-      "trades_count": 106,
+      "brier_score": 0.455,
+      "win_rate": 21.5,
+      "trades_count": 107,
       "kelly_multiplier": 0.4,
-      "reliability": 0.2841,
+      "reliability": 0.2863,
       "resolution": 0.0,
       "status": "REDUCED"
     },
@@ -2652,11 +2652,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3946,
-      "win_rate": 34.5,
-      "trades_count": 110,
+      "brier_score": 0.3915,
+      "win_rate": 35.1,
+      "trades_count": 111,
       "kelly_multiplier": 0.4,
-      "reliability": 0.168,
+      "reliability": 0.1634,
       "resolution": 0.0,
       "status": "REDUCED"
     },
