@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792460221.8224084,
+  "updated_at": 1792461010.1829047,
   "reflections": [
+    {
+      "id": "REFL-1792460442382",
+      "trade_id": "WT:1107878:0x9792e6bdf9ff005d9e8bff608e8ef832864cbc5a:No:BUY",
+      "strategy_id": "WT",
+      "market_title": "Will the U.S. invade Cuba in 2026?",
+      "predicted_prob": 0.82,
+      "outcome": 0,
+      "pnl": -0.81,
+      "brier_error": 0.6724,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792460442.3823037
+    },
     {
       "id": "REFL-1792458621971",
       "trade_id": "WT:601819:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792185243.0783668
-    },
-    {
-      "id": "REFL-1792184963104",
-      "trade_id": "S10:678447:No:BUY",
-      "strategy_id": "S10",
-      "market_title": "Will Avengers: Doomsday have the best domestic opening weekend in 2026?",
-      "predicted_prob": 0.75,
-      "outcome": 0,
-      "pnl": -4.53,
-      "brier_error": 0.5625,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792184963.1043894
     }
   ],
   "strategy_weights": {
@@ -2643,11 +2643,11 @@
       "status": "REDUCED"
     },
     "WT": {
-      "brier_score": 0.6633,
-      "win_rate": 13.9,
-      "trades_count": 79,
+      "brier_score": 0.6634,
+      "win_rate": 13.8,
+      "trades_count": 80,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5412,
+      "reliability": 0.5428,
       "resolution": 0.0,
       "status": "REDUCED"
     },
