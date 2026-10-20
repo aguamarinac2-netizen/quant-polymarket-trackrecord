@@ -1,6 +1,32 @@
 {
-  "updated_at": 1792524981.0769258,
+  "updated_at": 1792525174.790552,
   "reflections": [
+    {
+      "id": "REFL-1792525174773",
+      "trade_id": "MR:gamma:629691:Yes:1d:BUY",
+      "strategy_id": "MR",
+      "market_title": "Will the Republicans win the Texas governor race in 2026?",
+      "predicted_prob": 0.78,
+      "outcome": 0,
+      "pnl": -0.41,
+      "brier_error": 0.6084,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792525174.7737796
+    },
+    {
+      "id": "REFL-1792525174746",
+      "trade_id": "MR:gamma:629691:Yes:1w:BUY",
+      "strategy_id": "MR",
+      "market_title": "Will the Republicans win the Texas governor race in 2026?",
+      "predicted_prob": 0.78,
+      "outcome": 0,
+      "pnl": -0.63,
+      "brier_error": 0.6084,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792525174.7468493
+    },
     {
       "id": "REFL-1792524827623",
       "trade_id": "MR:gamma:567688:Yes:1d:SELL",
@@ -2574,32 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792282278.9705093
-    },
-    {
-      "id": "REFL-1792282278957",
-      "trade_id": "S20:559654:No:BUY",
-      "strategy_id": "S20",
-      "market_title": "Will Pete Buttigieg win the 2028 Democratic presidential nomination?",
-      "predicted_prob": 0.96,
-      "outcome": 0,
-      "pnl": -0.07,
-      "brier_error": 0.9216,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792282278.9575386
-    },
-    {
-      "id": "REFL-1792282278922",
-      "trade_id": "WT:601819:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
-      "strategy_id": "WT",
-      "market_title": "Will Luiz Inácio Lula da Silva win the 2026 Brazilian presidential election?",
-      "predicted_prob": 0.88,
-      "outcome": 0,
-      "pnl": -0.98,
-      "brier_error": 0.7744,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792282278.922336
     }
   ],
   "strategy_weights": {
@@ -2652,11 +2652,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3915,
-      "win_rate": 35.1,
-      "trades_count": 114,
+      "brier_score": 0.3952,
+      "win_rate": 34.5,
+      "trades_count": 116,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1639,
+      "reliability": 0.1692,
       "resolution": 0.0,
       "status": "REDUCED"
     },
