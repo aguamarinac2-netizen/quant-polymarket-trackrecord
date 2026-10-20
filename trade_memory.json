@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792509772.7451766,
+  "updated_at": 1792510685.366981,
   "reflections": [
+    {
+      "id": "REFL-1792510314364",
+      "trade_id": "WT:629478:0x66e7ce01c6831b8a2503d09edd6167152ee68bcd:Yes:BUY",
+      "strategy_id": "WT",
+      "market_title": "Will the Republicans win the Minnesota governor race in 2026?",
+      "predicted_prob": 0.82,
+      "outcome": 0,
+      "pnl": -1.2,
+      "brier_error": 0.6724,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792510314.3642924
+    },
     {
       "id": "REFL-1792507467451",
       "trade_id": "WT:559651:0x40047c2a7f97b6849ec2a665425c171dc4b6c40b:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792282278.8891385
-    },
-    {
-      "id": "REFL-1792282278866",
-      "trade_id": "WT:562803:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
-      "strategy_id": "WT",
-      "market_title": "Will the Republican Party control the House after the 2026 Midterm elections?",
-      "predicted_prob": 0.88,
-      "outcome": 0,
-      "pnl": -0.31,
-      "brier_error": 0.7744,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792282278.8661644
     }
   ],
   "strategy_weights": {
@@ -2643,11 +2643,11 @@
       "status": "REDUCED"
     },
     "WT": {
-      "brier_score": 0.639,
-      "win_rate": 16.5,
-      "trades_count": 91,
+      "brier_score": 0.6393,
+      "win_rate": 16.3,
+      "trades_count": 92,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5005,
+      "reliability": 0.5022,
       "resolution": 0.0,
       "status": "REDUCED"
     },
