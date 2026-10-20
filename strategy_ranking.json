@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T06:38:08.053515+00:00",
+  "generated_at": "2026-10-20T06:51:41.837463+00:00",
   "campaign": "demo-15d",
   "strategies": [
     {
@@ -118,7 +118,7 @@
       "won": 17,
       "lost": 57,
       "realized_pnl_usd": -13.99,
-      "unrealized_pnl_usd": -5.06,
+      "unrealized_pnl_usd": -5.05,
       "partial_fills": 0,
       "by_source": {
         "realistic": {
@@ -131,12 +131,12 @@
           "total": 98,
           "won": 16,
           "lost": 57,
-          "net_pnl_usd": -22.35
+          "net_pnl_usd": -22.34
         }
       },
       "closed": 74,
       "win_rate_pct": 23.0,
-      "net_pnl_usd": -19.05,
+      "net_pnl_usd": -19.04,
       "avg_book_slippage_bps": null,
       "verdict": "DESCARTAR"
     },
@@ -148,7 +148,7 @@
       "won": 24,
       "lost": 54,
       "realized_pnl_usd": -14.35,
-      "unrealized_pnl_usd": -7.0,
+      "unrealized_pnl_usd": -7.05,
       "partial_fills": 0,
       "by_source": {
         "realistic": {
@@ -161,12 +161,12 @@
           "total": 77,
           "won": 24,
           "lost": 49,
-          "net_pnl_usd": -18.84
+          "net_pnl_usd": -18.89
         }
       },
       "closed": 78,
       "win_rate_pct": 30.8,
-      "net_pnl_usd": -21.35,
+      "net_pnl_usd": -21.4,
       "avg_book_slippage_bps": null,
       "verdict": "DESCARTAR"
     },
@@ -197,60 +197,60 @@
     {
       "strategy_code": "S10",
       "strategy_name": "S10: Yes Bias",
-      "total": 121,
-      "open": 27,
+      "total": 122,
+      "open": 28,
       "won": 42,
       "lost": 52,
       "realized_pnl_usd": -47.61,
-      "unrealized_pnl_usd": 1.77,
+      "unrealized_pnl_usd": 1.92,
       "partial_fills": 0,
       "by_source": {
         "realistic": {
-          "total": 11,
+          "total": 12,
           "won": 5,
           "lost": 4,
-          "net_pnl_usd": 17.09
+          "net_pnl_usd": 16.96
         },
         "research": {
           "total": 110,
           "won": 37,
           "lost": 48,
-          "net_pnl_usd": -62.93
+          "net_pnl_usd": -62.65
         }
       },
       "closed": 94,
       "win_rate_pct": 44.7,
-      "net_pnl_usd": -45.84,
+      "net_pnl_usd": -45.69,
       "avg_book_slippage_bps": null,
       "verdict": "DESCARTAR"
     },
     {
       "strategy_code": "WT",
       "strategy_name": "F: Whale Tracking",
-      "total": 115,
-      "open": 33,
-      "won": 28,
+      "total": 116,
+      "open": 32,
+      "won": 30,
       "lost": 54,
-      "realized_pnl_usd": -59.82,
-      "unrealized_pnl_usd": -25.71,
+      "realized_pnl_usd": -59.44,
+      "unrealized_pnl_usd": -25.66,
       "partial_fills": 0,
       "by_source": {
         "realistic": {
           "total": 22,
-          "won": 5,
+          "won": 6,
           "lost": 9,
-          "net_pnl_usd": -9.28
+          "net_pnl_usd": -9.23
         },
         "research": {
-          "total": 93,
-          "won": 23,
+          "total": 94,
+          "won": 24,
           "lost": 45,
-          "net_pnl_usd": -76.25
+          "net_pnl_usd": -75.87
         }
       },
-      "closed": 82,
-      "win_rate_pct": 34.1,
-      "net_pnl_usd": -85.53,
+      "closed": 84,
+      "win_rate_pct": 35.7,
+      "net_pnl_usd": -85.1,
       "avg_book_slippage_bps": null,
       "verdict": "DESCARTAR"
     },
@@ -262,25 +262,25 @@
       "won": 54,
       "lost": 49,
       "realized_pnl_usd": -68.93,
-      "unrealized_pnl_usd": -22.36,
+      "unrealized_pnl_usd": -21.66,
       "partial_fills": 0,
       "by_source": {
         "realistic": {
           "total": 9,
           "won": 6,
           "lost": 1,
-          "net_pnl_usd": 8.29
+          "net_pnl_usd": 9.16
         },
         "research": {
           "total": 113,
           "won": 48,
           "lost": 48,
-          "net_pnl_usd": -99.58
+          "net_pnl_usd": -99.75
         }
       },
       "closed": 103,
       "win_rate_pct": 52.4,
-      "net_pnl_usd": -91.29,
+      "net_pnl_usd": -90.59,
       "avg_book_slippage_bps": null,
       "verdict": "DESCARTAR"
     }
