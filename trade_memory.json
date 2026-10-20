@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792477386.738245,
+  "updated_at": 1792478171.8789225,
   "reflections": [
+    {
+      "id": "REFL-1792478062223",
+      "trade_id": "S12:629183:Yes:BUY",
+      "strategy_id": "S12",
+      "market_title": "Will the Democrats win the Arizona governor race in 2026?",
+      "predicted_prob": 0.9,
+      "outcome": 0,
+      "pnl": -0.45,
+      "brier_error": 0.81,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792478062.223744
+    },
     {
       "id": "REFL-1792475077013",
       "trade_id": "WT:629338:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792223612.7127266
-    },
-    {
-      "id": "REFL-1792218289094",
-      "trade_id": "S10:629040:No:BUY",
-      "strategy_id": "S10",
-      "market_title": "Will Nithya Raman win the 2026 Los Angeles mayoral election?",
-      "predicted_prob": 0.75,
-      "outcome": 0,
-      "pnl": -0.1,
-      "brier_error": 0.5625,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792218289.0942461
     }
   ],
   "strategy_weights": {
@@ -2634,11 +2634,11 @@
       "status": "REDUCED"
     },
     "S12": {
-      "brier_score": 0.6853,
-      "win_rate": 15.6,
-      "trades_count": 77,
+      "brier_score": 0.6869,
+      "win_rate": 15.4,
+      "trades_count": 78,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5538,
+      "reliability": 0.5567,
       "resolution": 0.0,
       "status": "REDUCED"
     },
