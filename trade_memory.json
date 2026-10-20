@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792471996.4129167,
+  "updated_at": 1792472723.1708748,
   "reflections": [
+    {
+      "id": "REFL-1792472636445",
+      "trade_id": "MR:gamma:629183:Yes:1w:SELL",
+      "strategy_id": "MR",
+      "market_title": "Will the Democrats win the Arizona governor race in 2026?",
+      "predicted_prob": 0.78,
+      "outcome": 0,
+      "pnl": -0.02,
+      "brier_error": 0.6084,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792472636.4455593
+    },
     {
       "id": "REFL-1792470375534",
       "trade_id": "S10:898412:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792207968.7511163
-    },
-    {
-      "id": "REFL-1792198317802",
-      "trade_id": "MR:gamma:601819:Yes:1d:BUY",
-      "strategy_id": "MR",
-      "market_title": "Will Luiz Inácio Lula da Silva win the 2026 Brazilian presidential election?",
-      "predicted_prob": 0.72,
-      "outcome": 0,
-      "pnl": -0.98,
-      "brier_error": 0.5184,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792198317.8025472
     }
   ],
   "strategy_weights": {
@@ -2652,11 +2652,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.4008,
-      "win_rate": 33.3,
-      "trades_count": 102,
+      "brier_score": 0.4028,
+      "win_rate": 33.0,
+      "trades_count": 103,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1778,
+      "reliability": 0.1807,
       "resolution": 0.0,
       "status": "REDUCED"
     },
