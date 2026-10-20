@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792484530.8242128,
+  "updated_at": 1792485382.7360742,
   "reflections": [
+    {
+      "id": "REFL-1792485289284",
+      "trade_id": "WT:567689:0x5685bf6758facce7d1221d3cc3ab0fdb836a62e2:No:BUY",
+      "strategy_id": "WT",
+      "market_title": "Zelenskyy out as Ukraine president by end of 2026?",
+      "predicted_prob": 0.76,
+      "outcome": 0,
+      "pnl": -0.17,
+      "brier_error": 0.5776,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792485289.2840707
+    },
     {
       "id": "REFL-1792479390315",
       "trade_id": "S12:630990:Yes:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792224291.396289
-    },
-    {
-      "id": "REFL-1792224291382",
-      "trade_id": "MM:559651:Yes:BOTH",
-      "strategy_id": "MM",
-      "market_title": "Xi Jinping out before 2027?",
-      "predicted_prob": 0.85,
-      "outcome": 0,
-      "pnl": -2.98,
-      "brier_error": 0.7225,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792224291.3824773
     }
   ],
   "strategy_weights": {
@@ -2643,11 +2643,11 @@
       "status": "REDUCED"
     },
     "WT": {
-      "brier_score": 0.6415,
-      "win_rate": 16.7,
-      "trades_count": 84,
+      "brier_score": 0.6408,
+      "win_rate": 16.5,
+      "trades_count": 85,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5011,
+      "reliability": 0.5019,
       "resolution": 0.0,
       "status": "REDUCED"
     },
