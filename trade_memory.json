@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792535804.8307414,
+  "updated_at": 1792535985.6686223,
   "reflections": [
+    {
+      "id": "REFL-1792535958116",
+      "trade_id": "WT:559664:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
+      "strategy_id": "WT",
+      "market_title": "Will Raphael Warnock win the 2028 Democratic presidential nomination?",
+      "predicted_prob": 0.88,
+      "outcome": 0,
+      "pnl": -0.04,
+      "brier_error": 0.7744,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792535958.1164103
+    },
     {
       "id": "REFL-1792532097636",
       "trade_id": "MR:gamma:630924:Yes:1d:SELL",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792282279.0435517
-    },
-    {
-      "id": "REFL-1792282279030",
-      "trade_id": "S12:630883:Yes:BUY",
-      "strategy_id": "S12",
-      "market_title": "Will the Democrats win the North Carolina Senate race in 2026?",
-      "predicted_prob": 0.9,
-      "outcome": 0,
-      "pnl": -0.03,
-      "brier_error": 0.81,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792282279.030214
     }
   ],
   "strategy_weights": {
@@ -2643,11 +2643,11 @@
       "status": "REDUCED"
     },
     "WT": {
-      "brier_score": 0.6328,
-      "win_rate": 17.0,
-      "trades_count": 94,
+      "brier_score": 0.6343,
+      "win_rate": 16.8,
+      "trades_count": 95,
       "kelly_multiplier": 0.4,
-      "reliability": 0.4909,
+      "reliability": 0.4935,
       "resolution": 0.0,
       "status": "REDUCED"
     },
