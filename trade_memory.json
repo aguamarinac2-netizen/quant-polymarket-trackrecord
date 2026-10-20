@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792517919.0496976,
+  "updated_at": 1792518713.9076328,
   "reflections": [
+    {
+      "id": "REFL-1792518566414",
+      "trade_id": "MR:gamma:630964:Yes:1d:BUY",
+      "strategy_id": "MR",
+      "market_title": "Will the Republicans win the Texas Senate race in 2026?",
+      "predicted_prob": 0.72,
+      "outcome": 0,
+      "pnl": -0.68,
+      "brier_error": 0.5184,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792518566.4147856
+    },
     {
       "id": "REFL-1792514530744",
       "trade_id": "S10:942820:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792282278.9119198
-    },
-    {
-      "id": "REFL-1792282278901",
-      "trade_id": "WT:562830:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
-      "strategy_id": "WT",
-      "market_title": "2026 Balance of Power: R Senate, D House",
-      "predicted_prob": 0.88,
-      "outcome": 0,
-      "pnl": -0.06,
-      "brier_error": 0.7744,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792282278.9015326
     }
   ],
   "strategy_weights": {
@@ -2652,11 +2652,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3915,
-      "win_rate": 35.1,
-      "trades_count": 111,
+      "brier_score": 0.3926,
+      "win_rate": 34.8,
+      "trades_count": 112,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1634,
+      "reliability": 0.1657,
       "resolution": 0.0,
       "status": "REDUCED"
     },
