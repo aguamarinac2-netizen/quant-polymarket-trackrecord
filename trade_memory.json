@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792490837.0792997,
+  "updated_at": 1792491688.597957,
   "reflections": [
+    {
+      "id": "REFL-1792491688589",
+      "trade_id": "S10:942987:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Will the Democratic Party win the NJ-09 House seat?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -0.15,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792491688.589763
+    },
     {
       "id": "REFL-1792490519586",
       "trade_id": "S10:942971:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792243840.171066
-    },
-    {
-      "id": "REFL-1792241175988",
-      "trade_id": "FLB:559668:No:BUY",
-      "strategy_id": "FLB",
-      "market_title": "Will Mark Kelly win the 2028 Democratic presidential nomination?",
-      "predicted_prob": 0.6,
-      "outcome": 0,
-      "pnl": -0.01,
-      "brier_error": 0.36,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792241175.9885979
     }
   ],
   "strategy_weights": {
@@ -2625,11 +2625,11 @@
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.4503,
-      "win_rate": 22.4,
-      "trades_count": 98,
+      "brier_score": 0.4514,
+      "win_rate": 22.2,
+      "trades_count": 99,
       "kelly_multiplier": 0.4,
-      "reliability": 0.2762,
+      "reliability": 0.2785,
       "resolution": 0.0,
       "status": "REDUCED"
     },
