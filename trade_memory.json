@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792505275.4146688,
+  "updated_at": 1792506126.8757133,
   "reflections": [
+    {
+      "id": "REFL-1792505504822",
+      "trade_id": "S10:919484:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Blue wave in 2026?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -0.16,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792505504.822095
+    },
     {
       "id": "REFL-1792502048049",
       "trade_id": "S12:944265:Yes:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792264574.1628013
-    },
-    {
-      "id": "REFL-1792261479091",
-      "trade_id": "MR:gamma:1107878:Yes:1d:BUY",
-      "strategy_id": "MR",
-      "market_title": "Will the U.S. invade Cuba in 2026?",
-      "predicted_prob": 0.78,
-      "outcome": 0,
-      "pnl": -1.18,
-      "brier_error": 0.6084,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792261479.0915108
     }
   ],
   "strategy_weights": {
@@ -2625,11 +2625,11 @@
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.4547,
-      "win_rate": 21.6,
-      "trades_count": 102,
+      "brier_score": 0.4557,
+      "win_rate": 21.4,
+      "trades_count": 103,
       "kelly_multiplier": 0.4,
-      "reliability": 0.2855,
+      "reliability": 0.2877,
       "resolution": 0.0,
       "status": "REDUCED"
     },
