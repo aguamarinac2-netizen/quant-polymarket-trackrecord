@@ -1,6 +1,32 @@
 {
-  "updated_at": 1792506186.9044847,
+  "updated_at": 1792507043.525805,
   "reflections": [
+    {
+      "id": "REFL-1792507043516",
+      "trade_id": "S10:942928:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Will the Democratic Party win the NH-02 House seat?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -0.21,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792507043.516556
+    },
+    {
+      "id": "REFL-1792506446063",
+      "trade_id": "S10:942979:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Will the Democratic Party win the NJ-07 House seat?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -0.41,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792506446.0631456
+    },
     {
       "id": "REFL-1792505504822",
       "trade_id": "S10:919484:No:BUY",
@@ -2574,32 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792272700.663198
-    },
-    {
-      "id": "REFL-1792267337386",
-      "trade_id": "MR:gamma:677394:Yes:1d:BUY",
-      "strategy_id": "MR",
-      "market_title": "Modi out by December 31, 2026?",
-      "predicted_prob": 0.73,
-      "outcome": 0,
-      "pnl": -0.23,
-      "brier_error": 0.5329,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792267337.3869548
-    },
-    {
-      "id": "REFL-1792264574162",
-      "trade_id": "MR:gamma:630805:Yes:1d:SELL",
-      "strategy_id": "MR",
-      "market_title": "Will the Democrats win the Michigan Senate race in 2026?",
-      "predicted_prob": 0.72,
-      "outcome": 0,
-      "pnl": -0.02,
-      "brier_error": 0.5184,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792264574.1628013
     }
   ],
   "strategy_weights": {
@@ -2625,11 +2625,11 @@
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.4557,
-      "win_rate": 21.4,
-      "trades_count": 103,
+      "brier_score": 0.4577,
+      "win_rate": 21.0,
+      "trades_count": 105,
       "kelly_multiplier": 0.4,
-      "reliability": 0.2877,
+      "reliability": 0.2921,
       "resolution": 0.0,
       "status": "REDUCED"
     },
