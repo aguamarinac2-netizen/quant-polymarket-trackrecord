@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792496223.4599793,
+  "updated_at": 1792497076.2407174,
   "reflections": [
+    {
+      "id": "REFL-1792496526516",
+      "trade_id": "WT:629544:0xd218e474776403a330142299f7796e8ba32eb5c9:No:BUY",
+      "strategy_id": "WT",
+      "market_title": "Will the Democrats win the New York governor race in 2026?",
+      "predicted_prob": 0.85,
+      "outcome": 0,
+      "pnl": -1.36,
+      "brier_error": 0.7225,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792496526.5168161
+    },
     {
       "id": "REFL-1792495137438",
       "trade_id": "S10:634892:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792257523.2284064
-    },
-    {
-      "id": "REFL-1792254990387",
-      "trade_id": "FLB:559654:No:BUY",
-      "strategy_id": "FLB",
-      "market_title": "Will Pete Buttigieg win the 2028 Democratic presidential nomination?",
-      "predicted_prob": 0.6,
-      "outcome": 0,
-      "pnl": -0.07,
-      "brier_error": 0.36,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792254990.3871078
     }
   ],
   "strategy_weights": {
@@ -2643,11 +2643,11 @@
       "status": "REDUCED"
     },
     "WT": {
-      "brier_score": 0.6369,
-      "win_rate": 16.9,
-      "trades_count": 89,
+      "brier_score": 0.6379,
+      "win_rate": 16.7,
+      "trades_count": 90,
       "kelly_multiplier": 0.4,
-      "reliability": 0.4958,
+      "reliability": 0.4981,
       "resolution": 0.0,
       "status": "REDUCED"
     },
