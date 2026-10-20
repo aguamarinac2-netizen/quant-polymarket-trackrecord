@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792458410.022063,
+  "updated_at": 1792459198.0128834,
   "reflections": [
+    {
+      "id": "REFL-1792458621971",
+      "trade_id": "WT:601819:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
+      "strategy_id": "WT",
+      "market_title": "Will Luiz Inácio Lula da Silva win the 2026 Brazilian presidential election?",
+      "predicted_prob": 0.88,
+      "outcome": 0,
+      "pnl": -0.12,
+      "brier_error": 0.7744,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792458621.9710298
+    },
     {
       "id": "REFL-1792458280598",
       "trade_id": "S10:716941:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792184963.1043894
-    },
-    {
-      "id": "REFL-1792182296242",
-      "trade_id": "MR:gamma:682708:Yes:1w:SELL",
-      "strategy_id": "MR",
-      "market_title": "Will Gadi Eizenkot be the next Prime Minister of Israel?",
-      "predicted_prob": 0.78,
-      "outcome": 0,
-      "pnl": -0.83,
-      "brier_error": 0.6084,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792182296.2429035
     }
   ],
   "strategy_weights": {
@@ -2643,11 +2643,11 @@
       "status": "REDUCED"
     },
     "WT": {
-      "brier_score": 0.6618,
-      "win_rate": 14.1,
-      "trades_count": 78,
+      "brier_score": 0.6633,
+      "win_rate": 13.9,
+      "trades_count": 79,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5385,
+      "reliability": 0.5412,
       "resolution": 0.0,
       "status": "REDUCED"
     },
