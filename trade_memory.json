@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792479140.5934641,
+  "updated_at": 1792479985.5160115,
   "reflections": [
+    {
+      "id": "REFL-1792479390315",
+      "trade_id": "S12:630990:Yes:BUY",
+      "strategy_id": "S12",
+      "market_title": "Will the Republicans win the West Virginia Senate race in 2026?",
+      "predicted_prob": 0.9,
+      "outcome": 0,
+      "pnl": -0.03,
+      "brier_error": 0.81,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792479390.31517
+    },
     {
       "id": "REFL-1792478062223",
       "trade_id": "S12:629183:Yes:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792224291.3824773
-    },
-    {
-      "id": "REFL-1792223612712",
-      "trade_id": "WT:559654:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
-      "strategy_id": "WT",
-      "market_title": "Will Pete Buttigieg win the 2028 Democratic presidential nomination?",
-      "predicted_prob": 0.88,
-      "outcome": 0,
-      "pnl": -0.06,
-      "brier_error": 0.7744,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792223612.7127266
     }
   ],
   "strategy_weights": {
@@ -2634,11 +2634,11 @@
       "status": "REDUCED"
     },
     "S12": {
-      "brier_score": 0.6869,
-      "win_rate": 15.4,
-      "trades_count": 78,
+      "brier_score": 0.6885,
+      "win_rate": 15.2,
+      "trades_count": 79,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5567,
+      "reliability": 0.5597,
       "resolution": 0.0,
       "status": "REDUCED"
     },
