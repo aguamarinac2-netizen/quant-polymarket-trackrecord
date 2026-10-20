@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792527850.56965,
+  "updated_at": 1792528643.6308763,
   "reflections": [
+    {
+      "id": "REFL-1792528141958",
+      "trade_id": "WT:601826:0xc7d02944a76b9f83b199e9090ecc92c82d241f8a:Yes:BUY",
+      "strategy_id": "WT",
+      "market_title": "Will Flávio Bolsonaro win the 2026 Brazilian presidential election?",
+      "predicted_prob": 0.8,
+      "outcome": 0,
+      "pnl": -0.26,
+      "brier_error": 0.64,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792528141.9585533
+    },
     {
       "id": "REFL-1792527034652",
       "trade_id": "S10:943741:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792282279.006778
-    },
-    {
-      "id": "REFL-1792282278993",
-      "trade_id": "S12:629531:Yes:BUY",
-      "strategy_id": "S12",
-      "market_title": "Will the Democrats win the New Mexico governor race in 2026?",
-      "predicted_prob": 0.9,
-      "outcome": 0,
-      "pnl": -0.08,
-      "brier_error": 0.81,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792282278.9939172
     }
   ],
   "strategy_weights": {
@@ -2643,11 +2643,11 @@
       "status": "REDUCED"
     },
     "WT": {
-      "brier_score": 0.6327,
-      "win_rate": 17.2,
-      "trades_count": 93,
+      "brier_score": 0.6328,
+      "win_rate": 17.0,
+      "trades_count": 94,
       "kelly_multiplier": 0.4,
-      "reliability": 0.4894,
+      "reliability": 0.4909,
       "resolution": 0.0,
       "status": "REDUCED"
     },
