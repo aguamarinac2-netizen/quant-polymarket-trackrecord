@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792474658.0579143,
+  "updated_at": 1792475447.5745163,
   "reflections": [
+    {
+      "id": "REFL-1792475077013",
+      "trade_id": "WT:629338:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
+      "strategy_id": "WT",
+      "market_title": "Will the Republicans win the Georgia governor race in 2026?",
+      "predicted_prob": 0.88,
+      "outcome": 0,
+      "pnl": -0.23,
+      "brier_error": 0.7744,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792475077.0134096
+    },
     {
       "id": "REFL-1792474562747",
       "trade_id": "S10:942274:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792218289.0942461
-    },
-    {
-      "id": "REFL-1792207968765",
-      "trade_id": "MR:gamma:629557:Yes:1w:SELL",
-      "strategy_id": "MR",
-      "market_title": "Will the Democrats win the Ohio governor race in 2026?",
-      "predicted_prob": 0.78,
-      "outcome": 0,
-      "pnl": -0.33,
-      "brier_error": 0.6084,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792207968.7653081
     }
   ],
   "strategy_weights": {
@@ -2643,11 +2643,11 @@
       "status": "REDUCED"
     },
     "WT": {
-      "brier_score": 0.6554,
-      "win_rate": 14.8,
-      "trades_count": 81,
+      "brier_score": 0.6568,
+      "win_rate": 14.6,
+      "trades_count": 82,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5273,
+      "reliability": 0.5301,
       "resolution": 0.0,
       "status": "REDUCED"
     },
