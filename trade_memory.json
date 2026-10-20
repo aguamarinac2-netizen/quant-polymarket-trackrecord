@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792464707.8969684,
+  "updated_at": 1792465496.9391172,
   "reflections": [
+    {
+      "id": "REFL-1792465204101",
+      "trade_id": "MR:gamma:565065:Yes:1d:SELL",
+      "strategy_id": "MR",
+      "market_title": "Will the Democrats win the 2028 US Presidential Election?",
+      "predicted_prob": 0.72,
+      "outcome": 0,
+      "pnl": -0.03,
+      "brier_error": 0.5184,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792465204.101707
+    },
     {
       "id": "REFL-1792463174829",
       "trade_id": "S10:942417:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792187458.3718393
-    },
-    {
-      "id": "REFL-1792186902356",
-      "trade_id": "S03:1089926:No:BUY",
-      "strategy_id": "S03",
-      "market_title": "Will Merab Dvalishvili be the UFC Bantamweight Champion on December 31, 2026?",
-      "predicted_prob": 0.72,
-      "outcome": 0,
-      "pnl": -0.14,
-      "brier_error": 0.5184,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792186902.3561013
     }
   ],
   "strategy_weights": {
@@ -2652,11 +2652,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3996,
-      "win_rate": 33.7,
-      "trades_count": 101,
+      "brier_score": 0.4008,
+      "win_rate": 33.3,
+      "trades_count": 102,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1753,
+      "reliability": 0.1778,
       "resolution": 0.0,
       "status": "REDUCED"
     },
