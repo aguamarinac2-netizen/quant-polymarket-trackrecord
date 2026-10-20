@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792487268.3509893,
+  "updated_at": 1792488113.8956494,
   "reflections": [
+    {
+      "id": "REFL-1792487691292",
+      "trade_id": "S10:676937:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Will Elon Musk be richest person on December 31?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -0.54,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792487691.292807
+    },
     {
       "id": "REFL-1792486649600",
       "trade_id": "S20:629532:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792232416.471582
-    },
-    {
-      "id": "REFL-1792225063184",
-      "trade_id": "WT:559655:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
-      "strategy_id": "WT",
-      "market_title": "Will Josh Shapiro win the 2028 Democratic presidential nomination?",
-      "predicted_prob": 0.88,
-      "outcome": 0,
-      "pnl": -0.03,
-      "brier_error": 0.7744,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792225063.1846309
     }
   ],
   "strategy_weights": {
@@ -2625,11 +2625,11 @@
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.4455,
-      "win_rate": 23.4,
-      "trades_count": 94,
+      "brier_score": 0.4467,
+      "win_rate": 23.2,
+      "trades_count": 95,
       "kelly_multiplier": 0.4,
-      "reliability": 0.2662,
+      "reliability": 0.2688,
       "resolution": 0.0,
       "status": "REDUCED"
     },
