@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792493505.3266265,
+  "updated_at": 1792494410.4105015,
   "reflections": [
+    {
+      "id": "REFL-1792494130104",
+      "trade_id": "MR:local:559651:Yes:SELL",
+      "strategy_id": "MR",
+      "market_title": "Xi Jinping out before 2027?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -0.18,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792494130.104794
+    },
     {
       "id": "REFL-1792493378012",
       "trade_id": "S10:943449:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792250032.2827382
-    },
-    {
-      "id": "REFL-1792248932876",
-      "trade_id": "S10:630772:No:BUY",
-      "strategy_id": "S10",
-      "market_title": "Will the Democrats win the Maine Senate race in 2026?",
-      "predicted_prob": 0.75,
-      "outcome": 0,
-      "pnl": -0.28,
-      "brier_error": 0.5625,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792248932.8761835
     }
   ],
   "strategy_weights": {
@@ -2652,11 +2652,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.4047,
-      "win_rate": 32.7,
-      "trades_count": 104,
+      "brier_score": 0.4062,
+      "win_rate": 32.4,
+      "trades_count": 105,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1836,
+      "reliability": 0.1862,
       "resolution": 0.0,
       "status": "REDUCED"
     },
