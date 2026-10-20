@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792470178.0595193,
+  "updated_at": 1792470966.5150123,
   "reflections": [
+    {
+      "id": "REFL-1792470375534",
+      "trade_id": "S10:898412:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Will Kimi Antonelli be the 2026 F1 Drivers' Champion?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -2.78,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792470375.5346992
+    },
     {
       "id": "REFL-1792469048990",
       "trade_id": "S12:629183:Yes:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792198317.8025472
-    },
-    {
-      "id": "REFL-1792189879144",
-      "trade_id": "MR:gamma:629506:Yes:1w:SELL",
-      "strategy_id": "MR",
-      "market_title": "Will the Republicans win the Nevada governor race in 2026?",
-      "predicted_prob": 0.78,
-      "outcome": 0,
-      "pnl": -0.15,
-      "brier_error": 0.6084,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792189879.1440434
     }
   ],
   "strategy_weights": {
@@ -2625,11 +2625,11 @@
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.4429,
-      "win_rate": 23.9,
-      "trades_count": 92,
+      "brier_score": 0.4442,
+      "win_rate": 23.7,
+      "trades_count": 93,
       "kelly_multiplier": 0.4,
-      "reliability": 0.261,
+      "reliability": 0.2636,
       "resolution": 0.0,
       "status": "REDUCED"
     },
