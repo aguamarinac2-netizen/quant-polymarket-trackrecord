@@ -1,6 +1,32 @@
 {
-  "updated_at": 1792501625.9066262,
+  "updated_at": 1792502536.046052,
   "reflections": [
+    {
+      "id": "REFL-1792502048049",
+      "trade_id": "S12:944265:Yes:BUY",
+      "strategy_id": "S12",
+      "market_title": "Will the Republican Party win the UT-02 House seat?",
+      "predicted_prob": 0.9,
+      "outcome": 0,
+      "pnl": -0.12,
+      "brier_error": 0.81,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792502048.0494018
+    },
+    {
+      "id": "REFL-1792501948975",
+      "trade_id": "MR:gamma:665464:Yes:1d:BUY",
+      "strategy_id": "MR",
+      "market_title": "Kim Jong Un out as Supreme Leader of North Korea by December 31, 2026?",
+      "predicted_prob": 0.73,
+      "outcome": 0,
+      "pnl": -0.42,
+      "brier_error": 0.5329,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792501948.975683
+    },
     {
       "id": "REFL-1792496526516",
       "trade_id": "WT:629544:0xd218e474776403a330142299f7796e8ba32eb5c9:No:BUY",
@@ -2574,32 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792261479.0915108
-    },
-    {
-      "id": "REFL-1792258664026",
-      "trade_id": "MR:gamma:608547:Yes:1d:SELL",
-      "strategy_id": "MR",
-      "market_title": "Will Harry Kane win the 2026 Ballon d'Or?",
-      "predicted_prob": 0.72,
-      "outcome": 0,
-      "pnl": -0.04,
-      "brier_error": 0.5184,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792258664.026898
-    },
-    {
-      "id": "REFL-1792257523228",
-      "trade_id": "MR:gamma:629506:Yes:1d:BUY",
-      "strategy_id": "MR",
-      "market_title": "Will the Republicans win the Nevada governor race in 2026?",
-      "predicted_prob": 0.78,
-      "outcome": 0,
-      "pnl": -0.8,
-      "brier_error": 0.6084,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792257523.2284064
     }
   ],
   "strategy_weights": {
@@ -2634,11 +2634,11 @@
       "status": "REDUCED"
     },
     "S12": {
-      "brier_score": 0.6885,
-      "win_rate": 15.2,
-      "trades_count": 79,
+      "brier_score": 0.69,
+      "win_rate": 15.0,
+      "trades_count": 80,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5597,
+      "reliability": 0.5625,
       "resolution": 0.0,
       "status": "REDUCED"
     },
@@ -2652,11 +2652,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.4028,
-      "win_rate": 33.0,
-      "trades_count": 106,
+      "brier_score": 0.404,
+      "win_rate": 32.7,
+      "trades_count": 107,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1809,
+      "reliability": 0.1834,
       "resolution": 0.0,
       "status": "REDUCED"
     },
