@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792462954.6551678,
+  "updated_at": 1792463746.1309,
   "reflections": [
+    {
+      "id": "REFL-1792463174829",
+      "trade_id": "S10:942417:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Will the Democratic Party win the IL-17 House seat?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -0.44,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792463174.8293407
+    },
     {
       "id": "REFL-1792461373848",
       "trade_id": "S10:902970:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792186902.3561013
-    },
-    {
-      "id": "REFL-1792185243091",
-      "trade_id": "MM:560317:Yes:BOTH",
-      "strategy_id": "MM",
-      "market_title": "Putin out as President of Russia by December 31, 2026?",
-      "predicted_prob": 0.85,
-      "outcome": 0,
-      "pnl": -4.17,
-      "brier_error": 0.7225,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792185243.0918345
     }
   ],
   "strategy_weights": {
@@ -2625,11 +2625,11 @@
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.4458,
-      "win_rate": 23.3,
-      "trades_count": 90,
+      "brier_score": 0.4471,
+      "win_rate": 23.1,
+      "trades_count": 91,
       "kelly_multiplier": 0.4,
-      "reliability": 0.2669,
+      "reliability": 0.2696,
       "resolution": 0.0,
       "status": "REDUCED"
     },
