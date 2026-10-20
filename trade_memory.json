@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792461132.330076,
+  "updated_at": 1792461922.704501,
   "reflections": [
+    {
+      "id": "REFL-1792461373848",
+      "trade_id": "S10:902970:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Will ACA premium tax credits not be extended and will the Democratic Party win t",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -0.41,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792461373.8484488
+    },
     {
       "id": "REFL-1792460442382",
       "trade_id": "WT:1107878:0x9792e6bdf9ff005d9e8bff608e8ef832864cbc5a:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792185243.0918345
-    },
-    {
-      "id": "REFL-1792185243078",
-      "trade_id": "MM:560317:Yes:BOTH",
-      "strategy_id": "MM",
-      "market_title": "Putin out as President of Russia by December 31, 2026?",
-      "predicted_prob": 0.85,
-      "outcome": 0,
-      "pnl": -0.61,
-      "brier_error": 0.7225,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792185243.0783668
     }
   ],
   "strategy_weights": {
@@ -2625,11 +2625,11 @@
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.4445,
-      "win_rate": 23.6,
-      "trades_count": 89,
+      "brier_score": 0.4458,
+      "win_rate": 23.3,
+      "trades_count": 90,
       "kelly_multiplier": 0.4,
-      "reliability": 0.2642,
+      "reliability": 0.2669,
       "resolution": 0.0,
       "status": "REDUCED"
     },
@@ -2652,11 +2652,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.403,
-      "win_rate": 33.0,
-      "trades_count": 100,
+      "brier_score": 0.3996,
+      "win_rate": 33.7,
+      "trades_count": 101,
       "kelly_multiplier": 0.4,
-      "reliability": 0.181,
+      "reliability": 0.1753,
       "resolution": 0.0,
       "status": "REDUCED"
     },
