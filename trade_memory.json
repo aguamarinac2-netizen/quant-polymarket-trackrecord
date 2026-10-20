@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792526081.838157,
+  "updated_at": 1792526813.1826694,
   "reflections": [
+    {
+      "id": "REFL-1792526378368",
+      "trade_id": "MR:gamma:634893:Yes:1d:BUY",
+      "strategy_id": "MR",
+      "market_title": "Will an independent win the Nebraska Senate race in 2026?",
+      "predicted_prob": 0.72,
+      "outcome": 0,
+      "pnl": -1.13,
+      "brier_error": 0.5184,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792526378.368032
+    },
     {
       "id": "REFL-1792525174773",
       "trade_id": "MR:gamma:629691:Yes:1d:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792282278.9825187
-    },
-    {
-      "id": "REFL-1792282278970",
-      "trade_id": "S12:629438:Yes:BUY",
-      "strategy_id": "S12",
-      "market_title": "Will the Democrats win the Maryland governor race in 2026?",
-      "predicted_prob": 0.9,
-      "outcome": 0,
-      "pnl": -0.06,
-      "brier_error": 0.81,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792282278.9705093
     }
   ],
   "strategy_weights": {
@@ -2643,20 +2643,20 @@
       "status": "REDUCED"
     },
     "WT": {
-      "brier_score": 0.6393,
-      "win_rate": 16.3,
-      "trades_count": 92,
+      "brier_score": 0.6327,
+      "win_rate": 17.2,
+      "trades_count": 93,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5022,
+      "reliability": 0.4894,
       "resolution": 0.0,
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3952,
-      "win_rate": 34.5,
-      "trades_count": 116,
+      "brier_score": 0.3963,
+      "win_rate": 34.2,
+      "trades_count": 117,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1692,
+      "reliability": 0.1713,
       "resolution": 0.0,
       "status": "REDUCED"
     },
