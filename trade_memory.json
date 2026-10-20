@@ -1,6 +1,32 @@
 {
-  "updated_at": 1792492649.5969772,
+  "updated_at": 1792493505.3266265,
   "reflections": [
+    {
+      "id": "REFL-1792493378012",
+      "trade_id": "S10:943449:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Will the Democratic Party win the NY-18 House seat?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -0.43,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792493378.012058
+    },
+    {
+      "id": "REFL-1792492775717",
+      "trade_id": "S10:630883:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Will the Democrats win the North Carolina Senate race in 2026?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -0.55,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792492775.717613
+    },
     {
       "id": "REFL-1792492589306",
       "trade_id": "WT:629398:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
@@ -2574,32 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792248932.8761835
-    },
-    {
-      "id": "REFL-1792247196808",
-      "trade_id": "S10:629506:No:BUY",
-      "strategy_id": "S10",
-      "market_title": "Will the Republicans win the Nevada governor race in 2026?",
-      "predicted_prob": 0.75,
-      "outcome": 0,
-      "pnl": -0.04,
-      "brier_error": 0.5625,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792247196.8082516
-    },
-    {
-      "id": "REFL-1792246856754",
-      "trade_id": "WT:562802:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
-      "strategy_id": "WT",
-      "market_title": "Will the Democratic Party control the House after the 2026 Midterm elections?",
-      "predicted_prob": 0.88,
-      "outcome": 0,
-      "pnl": -1.61,
-      "brier_error": 0.7744,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792246856.7548058
     }
   ],
   "strategy_weights": {
@@ -2625,11 +2625,11 @@
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.4514,
-      "win_rate": 22.2,
-      "trades_count": 99,
+      "brier_score": 0.4536,
+      "win_rate": 21.8,
+      "trades_count": 101,
       "kelly_multiplier": 0.4,
-      "reliability": 0.2785,
+      "reliability": 0.2832,
       "resolution": 0.0,
       "status": "REDUCED"
     },
