@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792576320.3593426,
+  "updated_at": 1792576653.6950738,
   "reflections": [
+    {
+      "id": "REFL-1792576653679",
+      "trade_id": "S10:920402:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Variational FDV above $800M one day after launch?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -0.15,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792576653.679879
+    },
     {
       "id": "REFL-1792575059006",
       "trade_id": "MR:gamma:630773:Yes:1w:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792282284.246946
-    },
-    {
-      "id": "REFL-1792282284235",
-      "trade_id": "S20:665363:No:BUY",
-      "strategy_id": "S20",
-      "market_title": "Lee Jae-myung arrested before 2027?",
-      "predicted_prob": 0.96,
-      "outcome": 0,
-      "pnl": -0.06,
-      "brier_error": 0.9216,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792282284.2352788
     }
   ],
   "strategy_weights": {
@@ -2625,11 +2625,11 @@
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.4519,
-      "win_rate": 22.1,
-      "trades_count": 113,
+      "brier_score": 0.4529,
+      "win_rate": 21.9,
+      "trades_count": 114,
       "kelly_multiplier": 0.4,
-      "reliability": 0.2796,
+      "reliability": 0.2816,
       "resolution": 0.0,
       "status": "REDUCED"
     },
