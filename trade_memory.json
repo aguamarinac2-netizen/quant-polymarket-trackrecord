@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792601561.1040008,
+  "updated_at": 1792601922.2703571,
   "reflections": [
+    {
+      "id": "REFL-1792601872913",
+      "trade_id": "S10:690202:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Will the Fed’s upper bound reach 4.25% or higher before 2027?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -0.11,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792601872.9138288
+    },
     {
       "id": "REFL-1792600180008",
       "trade_id": "WT:559656:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792282284.4553971
-    },
-    {
-      "id": "REFL-1792282284445",
-      "trade_id": "S12:942274:Yes:BUY",
-      "strategy_id": "S12",
-      "market_title": "Will the Democratic Party win the CA-13 House seat?",
-      "predicted_prob": 0.9,
-      "outcome": 0,
-      "pnl": -0.1,
-      "brier_error": 0.81,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792282284.4455347
     }
   ],
   "strategy_weights": {
@@ -2625,11 +2625,11 @@
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.4559,
-      "win_rate": 21.3,
-      "trades_count": 122,
+      "brier_score": 0.4568,
+      "win_rate": 21.1,
+      "trades_count": 123,
       "kelly_multiplier": 0.4,
-      "reliability": 0.2882,
+      "reliability": 0.2901,
       "resolution": 0.0,
       "status": "REDUCED"
     },
