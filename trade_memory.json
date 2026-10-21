@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792606448.8030925,
+  "updated_at": 1792606932.0451765,
   "reflections": [
+    {
+      "id": "REFL-1792606664676",
+      "trade_id": "MR:gamma:682706:Yes:1w:BUY",
+      "strategy_id": "MR",
+      "market_title": "Will Naftali Bennett be the next Prime Minister of Israel?",
+      "predicted_prob": 0.78,
+      "outcome": 0,
+      "pnl": -0.76,
+      "brier_error": 0.6084,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792606664.6762524
+    },
     {
       "id": "REFL-1792601872913",
       "trade_id": "S10:690202:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792282284.4664118
-    },
-    {
-      "id": "REFL-1792282284455",
-      "trade_id": "S12:942409:Yes:BUY",
-      "strategy_id": "S12",
-      "market_title": "Will the Democratic Party win the FL-23 House seat?",
-      "predicted_prob": 0.9,
-      "outcome": 0,
-      "pnl": -0.05,
-      "brier_error": 0.81,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792282284.4553971
     }
   ],
   "strategy_weights": {
@@ -2652,11 +2652,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3949,
-      "win_rate": 34.6,
-      "trades_count": 130,
+      "brier_score": 0.3966,
+      "win_rate": 34.4,
+      "trades_count": 131,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1677,
+      "reliability": 0.17,
       "resolution": 0.0,
       "status": "REDUCED"
     },
