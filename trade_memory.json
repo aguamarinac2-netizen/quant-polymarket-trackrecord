@@ -1,6 +1,32 @@
 {
-  "updated_at": 1792597024.1689281,
+  "updated_at": 1792597448.9050512,
   "reflections": [
+    {
+      "id": "REFL-1792597080960",
+      "trade_id": "WT:629325:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
+      "strategy_id": "WT",
+      "market_title": "Will the Republicans win the Florida governor race in 2026?",
+      "predicted_prob": 0.88,
+      "outcome": 0,
+      "pnl": -0.36,
+      "brier_error": 0.7744,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792597080.9603314
+    },
+    {
+      "id": "REFL-1792597080946",
+      "trade_id": "S10:629325:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Will the Republicans win the Florida governor race in 2026?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -0.36,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792597080.946892
+    },
     {
       "id": "REFL-1792596338195",
       "trade_id": "MR:local:559661:Yes:BUY",
@@ -2574,32 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792282284.4253333
-    },
-    {
-      "id": "REFL-1792282284415",
-      "trade_id": "S10:676739:No:BUY",
-      "strategy_id": "S10",
-      "market_title": "Will NVIDIA be the largest company in the world by market cap on December 31?",
-      "predicted_prob": 0.75,
-      "outcome": 0,
-      "pnl": -0.38,
-      "brier_error": 0.5625,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792282284.4150515
-    },
-    {
-      "id": "REFL-1792282284405",
-      "trade_id": "S20:668684:No:BUY",
-      "strategy_id": "S20",
-      "market_title": "Will MUNDO-GB  win the most seats in the 2025 Guinea-Bissau National People’s As",
-      "predicted_prob": 0.98,
-      "outcome": 0,
-      "pnl": -0.05,
-      "brier_error": 0.9604,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792282284.4052432
     }
   ],
   "strategy_weights": {
@@ -2625,11 +2625,11 @@
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.4583,
-      "win_rate": 20.8,
-      "trades_count": 120,
+      "brier_score": 0.4592,
+      "win_rate": 20.7,
+      "trades_count": 121,
       "kelly_multiplier": 0.4,
-      "reliability": 0.2934,
+      "reliability": 0.2953,
       "resolution": 0.0,
       "status": "REDUCED"
     },
@@ -2643,11 +2643,11 @@
       "status": "REDUCED"
     },
     "WT": {
-      "brier_score": 0.6193,
-      "win_rate": 18.7,
-      "trades_count": 107,
+      "brier_score": 0.6208,
+      "win_rate": 18.5,
+      "trades_count": 108,
       "kelly_multiplier": 0.4,
-      "reliability": 0.4675,
+      "reliability": 0.47,
       "resolution": 0.0,
       "status": "REDUCED"
     },
