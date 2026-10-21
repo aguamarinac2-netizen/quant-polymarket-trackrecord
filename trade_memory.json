@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792617323.1488883,
+  "updated_at": 1792617743.4835143,
   "reflections": [
+    {
+      "id": "REFL-1792617496388",
+      "trade_id": "S10:944326:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Will the Democratic Party win the WA-08 House seat?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -0.27,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792617496.3883994
+    },
     {
       "id": "REFL-1792616570065",
       "trade_id": "MR:gamma:679018:Yes:1d:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792282311.0099397
-    },
-    {
-      "id": "REFL-1792282301223",
-      "trade_id": "WT:559658:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
-      "strategy_id": "WT",
-      "market_title": "Will Kamala Harris win the 2028 Democratic presidential nomination?",
-      "predicted_prob": 0.88,
-      "outcome": 0,
-      "pnl": -0.09,
-      "brier_error": 0.7744,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792282301.223236
     }
   ],
   "strategy_weights": {
@@ -2625,11 +2625,11 @@
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.4483,
-      "win_rate": 22.8,
-      "trades_count": 127,
+      "brier_score": 0.4492,
+      "win_rate": 22.7,
+      "trades_count": 128,
       "kelly_multiplier": 0.4,
-      "reliability": 0.2721,
+      "reliability": 0.274,
       "resolution": 0.0,
       "status": "REDUCED"
     },
