@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792561072.4376647,
+  "updated_at": 1792561255.9434521,
   "reflections": [
+    {
+      "id": "REFL-1792561144350",
+      "trade_id": "S10:629030:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Will Karen Bass win the 2026 Los Angeles mayoral election?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -2.02,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792561144.3503387
+    },
     {
       "id": "REFL-1792557710705",
       "trade_id": "MR:gamma:608540:Yes:1d:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792282284.1969345
-    },
-    {
-      "id": "REFL-1792282284183",
-      "trade_id": "S20:637457:No:BUY",
-      "strategy_id": "S20",
-      "market_title": "Ink FDV above $1B one day after launch?",
-      "predicted_prob": 0.96,
-      "outcome": 0,
-      "pnl": -0.12,
-      "brier_error": 0.9216,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792282284.1839204
     }
   ],
   "strategy_weights": {
@@ -2625,11 +2625,11 @@
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.4544,
-      "win_rate": 21.6,
-      "trades_count": 111,
+      "brier_score": 0.4554,
+      "win_rate": 21.4,
+      "trades_count": 112,
       "kelly_multiplier": 0.4,
-      "reliability": 0.2849,
+      "reliability": 0.287,
       "resolution": 0.0,
       "status": "REDUCED"
     },
