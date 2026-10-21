@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T15:52:58.097914+00:00",
+  "generated_at": "2026-10-21T15:59:11.960917+00:00",
   "campaign": "demo-15d",
   "strategies": [
     {
@@ -148,14 +148,14 @@
       "won": 24,
       "lost": 56,
       "realized_pnl_usd": -14.5,
-      "unrealized_pnl_usd": -7.03,
+      "unrealized_pnl_usd": -7.06,
       "partial_fills": 0,
       "by_source": {
         "realistic": {
           "total": 9,
           "won": 0,
           "lost": 5,
-          "net_pnl_usd": -2.5
+          "net_pnl_usd": -2.53
         },
         "research": {
           "total": 79,
@@ -166,7 +166,7 @@
       },
       "closed": 80,
       "win_rate_pct": 30.0,
-      "net_pnl_usd": -21.53,
+      "net_pnl_usd": -21.56,
       "avg_book_slippage_bps": null,
       "verdict": "DESCARTAR"
     },
@@ -202,14 +202,14 @@
       "won": 55,
       "lost": 66,
       "realized_pnl_usd": -59.04,
-      "unrealized_pnl_usd": -0.12,
+      "unrealized_pnl_usd": -0.02,
       "partial_fills": 0,
       "by_source": {
         "realistic": {
           "total": 14,
           "won": 6,
           "lost": 5,
-          "net_pnl_usd": 12.9
+          "net_pnl_usd": 13.0
         },
         "research": {
           "total": 135,
@@ -220,26 +220,26 @@
       },
       "closed": 121,
       "win_rate_pct": 45.5,
-      "net_pnl_usd": -59.16,
+      "net_pnl_usd": -59.06,
       "avg_book_slippage_bps": null,
       "verdict": "DESCARTAR"
     },
     {
       "strategy_code": "WT",
       "strategy_name": "F: Whale Tracking",
-      "total": 138,
+      "total": 139,
       "open": 30,
-      "won": 37,
+      "won": 38,
       "lost": 71,
-      "realized_pnl_usd": -69.3,
-      "unrealized_pnl_usd": -31.25,
+      "realized_pnl_usd": -69.41,
+      "unrealized_pnl_usd": -31.35,
       "partial_fills": 0,
       "by_source": {
         "realistic": {
-          "total": 25,
-          "won": 8,
+          "total": 26,
+          "won": 9,
           "lost": 12,
-          "net_pnl_usd": -11.98
+          "net_pnl_usd": -12.19
         },
         "research": {
           "total": 113,
@@ -248,9 +248,9 @@
           "net_pnl_usd": -88.57
         }
       },
-      "closed": 108,
-      "win_rate_pct": 34.3,
-      "net_pnl_usd": -100.55,
+      "closed": 109,
+      "win_rate_pct": 34.9,
+      "net_pnl_usd": -100.76,
       "avg_book_slippage_bps": null,
       "verdict": "DESCARTAR"
     },
