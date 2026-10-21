@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792590176.6168296,
+  "updated_at": 1792590723.5627387,
   "reflections": [
+    {
+      "id": "REFL-1792590590548",
+      "trade_id": "S10:629030:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Will Karen Bass win the 2026 Los Angeles mayoral election?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -1.87,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792590590.5488544
+    },
     {
       "id": "REFL-1792587014030",
       "trade_id": "S10:942433:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792282284.307491
-    },
-    {
-      "id": "REFL-1792282284295",
-      "trade_id": "S20:665531:No:BUY",
-      "strategy_id": "S20",
-      "market_title": "Metamask FDV above $700M one day after launch?",
-      "predicted_prob": 0.96,
-      "outcome": 0,
-      "pnl": -0.04,
-      "brier_error": 0.9216,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792282284.2955139
     }
   ],
   "strategy_weights": {
@@ -2625,11 +2625,11 @@
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.4547,
-      "win_rate": 21.6,
-      "trades_count": 116,
+      "brier_score": 0.4557,
+      "win_rate": 21.4,
+      "trades_count": 117,
       "kelly_multiplier": 0.4,
-      "reliability": 0.2857,
+      "reliability": 0.2876,
       "resolution": 0.0,
       "status": "REDUCED"
     },
