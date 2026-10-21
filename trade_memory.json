@@ -1,6 +1,58 @@
 {
-  "updated_at": 1792546845.792325,
+  "updated_at": 1792547517.318908,
   "reflections": [
+    {
+      "id": "REFL-1792546964802",
+      "trade_id": "WT:629030:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
+      "strategy_id": "WT",
+      "market_title": "Will Karen Bass win the 2026 Los Angeles mayoral election?",
+      "predicted_prob": 0.88,
+      "outcome": 0,
+      "pnl": -1.42,
+      "brier_error": 0.7744,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792546964.8021607
+    },
+    {
+      "id": "REFL-1792546964742",
+      "trade_id": "MR:gamma:629030:Yes:1d:SELL",
+      "strategy_id": "MR",
+      "market_title": "Will Karen Bass win the 2026 Los Angeles mayoral election?",
+      "predicted_prob": 0.77,
+      "outcome": 0,
+      "pnl": -2.45,
+      "brier_error": 0.5929,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792546964.7426372
+    },
+    {
+      "id": "REFL-1792546964728",
+      "trade_id": "MR:gamma:629040:Yes:1d:BUY",
+      "strategy_id": "MR",
+      "market_title": "Will Nithya Raman win the 2026 Los Angeles mayoral election?",
+      "predicted_prob": 0.78,
+      "outcome": 0,
+      "pnl": -2.92,
+      "brier_error": 0.6084,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792546964.7289593
+    },
+    {
+      "id": "REFL-1792546964692",
+      "trade_id": "WT:629030:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
+      "strategy_id": "WT",
+      "market_title": "Will Karen Bass win the 2026 Los Angeles mayoral election?",
+      "predicted_prob": 0.88,
+      "outcome": 0,
+      "pnl": -1.42,
+      "brier_error": 0.7744,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792546964.692581
+    },
     {
       "id": "REFL-1792535958116",
       "trade_id": "WT:559664:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
@@ -2548,58 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792282284.1488109
-    },
-    {
-      "id": "REFL-1792282284132",
-      "trade_id": "S12:630976:Yes:BUY",
-      "strategy_id": "S12",
-      "market_title": "Will the Democrats win the Virginia Senate race in 2026?",
-      "predicted_prob": 0.9,
-      "outcome": 0,
-      "pnl": -0.0,
-      "brier_error": 0.81,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792282284.1326776
-    },
-    {
-      "id": "REFL-1792282279067",
-      "trade_id": "S12:630951:Yes:BUY",
-      "strategy_id": "S12",
-      "market_title": "Will the Republicans win the Tennessee Senate race in 2026?",
-      "predicted_prob": 0.9,
-      "outcome": 0,
-      "pnl": -0.06,
-      "brier_error": 0.81,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792282279.067742
-    },
-    {
-      "id": "REFL-1792282279056",
-      "trade_id": "S20:630950:No:BUY",
-      "strategy_id": "S20",
-      "market_title": "Will the Democrats win the Tennessee Senate race in 2026?",
-      "predicted_prob": 0.96,
-      "outcome": 0,
-      "pnl": -0.09,
-      "brier_error": 0.9216,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792282279.0562541
-    },
-    {
-      "id": "REFL-1792282279043",
-      "trade_id": "S12:630898:Yes:BUY",
-      "strategy_id": "S12",
-      "market_title": "Will the Democrats win the Oregon Senate race in 2026?",
-      "predicted_prob": 0.9,
-      "outcome": 0,
-      "pnl": -0.06,
-      "brier_error": 0.81,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792282279.0435517
     }
   ],
   "strategy_weights": {
@@ -2643,20 +2643,20 @@
       "status": "REDUCED"
     },
     "WT": {
-      "brier_score": 0.6278,
-      "win_rate": 17.7,
-      "trades_count": 96,
+      "brier_score": 0.6308,
+      "win_rate": 17.3,
+      "trades_count": 98,
       "kelly_multiplier": 0.4,
-      "reliability": 0.4816,
+      "reliability": 0.4869,
       "resolution": 0.0,
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3946,
-      "win_rate": 34.5,
-      "trades_count": 119,
+      "brier_score": 0.3981,
+      "win_rate": 33.9,
+      "trades_count": 121,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1687,
+      "reliability": 0.1736,
       "resolution": 0.0,
       "status": "REDUCED"
     },
