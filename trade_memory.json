@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792600109.5049748,
+  "updated_at": 1792600592.3921716,
   "reflections": [
+    {
+      "id": "REFL-1792600180008",
+      "trade_id": "WT:559656:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
+      "strategy_id": "WT",
+      "market_title": "Will Wes Moore win the 2028 Democratic presidential nomination?",
+      "predicted_prob": 0.88,
+      "outcome": 0,
+      "pnl": -0.05,
+      "brier_error": 0.7744,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792600180.008963
+    },
     {
       "id": "REFL-1792598314495",
       "trade_id": "WT:629325:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792282284.4455347
-    },
-    {
-      "id": "REFL-1792282284435",
-      "trade_id": "S12:703690:Yes:BUY",
-      "strategy_id": "S12",
-      "market_title": "Will the Democratic Party win the CA-27 House seat?",
-      "predicted_prob": 0.9,
-      "outcome": 0,
-      "pnl": -0.05,
-      "brier_error": 0.81,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792282284.4352787
     }
   ],
   "strategy_weights": {
@@ -2643,11 +2643,11 @@
       "status": "REDUCED"
     },
     "WT": {
-      "brier_score": 0.6222,
-      "win_rate": 18.3,
-      "trades_count": 109,
+      "brier_score": 0.6236,
+      "win_rate": 18.2,
+      "trades_count": 110,
       "kelly_multiplier": 0.4,
-      "reliability": 0.4724,
+      "reliability": 0.4748,
       "resolution": 0.0,
       "status": "REDUCED"
     },
