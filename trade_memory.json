@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792596115.056854,
+  "updated_at": 1792596539.660866,
   "reflections": [
+    {
+      "id": "REFL-1792596338195",
+      "trade_id": "MR:local:559661:Yes:BUY",
+      "strategy_id": "MR",
+      "market_title": "Will Jon Ossoff win the 2028 Democratic presidential nomination?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -0.28,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792596338.1953175
+    },
     {
       "id": "REFL-1792594256907",
       "trade_id": "S10:944214:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792282284.4052432
-    },
-    {
-      "id": "REFL-1792282284390",
-      "trade_id": "S20:667068:No:BUY",
-      "strategy_id": "S20",
-      "market_title": "Will Trump resign before 2027?",
-      "predicted_prob": 0.96,
-      "outcome": 0,
-      "pnl": -0.05,
-      "brier_error": 0.9216,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792282284.3904898
     }
   ],
   "strategy_weights": {
@@ -2652,11 +2652,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3936,
-      "win_rate": 34.9,
-      "trades_count": 129,
+      "brier_score": 0.3949,
+      "win_rate": 34.6,
+      "trades_count": 130,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1655,
+      "reliability": 0.1677,
       "resolution": 0.0,
       "status": "REDUCED"
     },
