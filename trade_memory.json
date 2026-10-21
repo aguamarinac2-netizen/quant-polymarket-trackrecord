@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792609656.435753,
+  "updated_at": 1792610076.5920568,
   "reflections": [
+    {
+      "id": "REFL-1792610004238",
+      "trade_id": "S12:942979:Yes:BUY",
+      "strategy_id": "S12",
+      "market_title": "Will the Democratic Party win the NJ-07 House seat?",
+      "predicted_prob": 0.9,
+      "outcome": 0,
+      "pnl": -0.12,
+      "brier_error": 0.81,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792610004.2388148
+    },
     {
       "id": "REFL-1792606664676",
       "trade_id": "MR:gamma:682706:Yes:1w:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792282284.4775603
-    },
-    {
-      "id": "REFL-1792282284466",
-      "trade_id": "S12:942417:Yes:BUY",
-      "strategy_id": "S12",
-      "market_title": "Will the Democratic Party win the IL-17 House seat?",
-      "predicted_prob": 0.9,
-      "outcome": 0,
-      "pnl": -0.07,
-      "brier_error": 0.81,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792282284.4664118
     }
   ],
   "strategy_weights": {
@@ -2634,11 +2634,11 @@
       "status": "REDUCED"
     },
     "S12": {
-      "brier_score": 0.69,
-      "win_rate": 15.0,
-      "trades_count": 80,
+      "brier_score": 0.6915,
+      "win_rate": 14.8,
+      "trades_count": 81,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5625,
+      "reliability": 0.5653,
       "resolution": 0.0,
       "status": "REDUCED"
     },
@@ -2652,11 +2652,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3966,
-      "win_rate": 34.4,
-      "trades_count": 131,
+      "brier_score": 0.3942,
+      "win_rate": 34.8,
+      "trades_count": 132,
       "kelly_multiplier": 0.4,
-      "reliability": 0.17,
+      "reliability": 0.1657,
       "resolution": 0.0,
       "status": "REDUCED"
     },
