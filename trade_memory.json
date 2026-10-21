@@ -1,6 +1,32 @@
 {
-  "updated_at": 1792616418.547177,
+  "updated_at": 1792616841.526027,
   "reflections": [
+    {
+      "id": "REFL-1792616570065",
+      "trade_id": "MR:gamma:679018:Yes:1d:BUY",
+      "strategy_id": "MR",
+      "market_title": "Will Marine Le Pen win the 2027 French presidential election?",
+      "predicted_prob": 0.74,
+      "outcome": 0,
+      "pnl": -0.22,
+      "brier_error": 0.5476,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792616570.0652897
+    },
+    {
+      "id": "REFL-1792616522074",
+      "trade_id": "S10:902977:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Will there be another US government shutdown by January 31 and will the Democrat",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -2.07,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792616522.0744512
+    },
     {
       "id": "REFL-1792615505151",
       "trade_id": "S12:943433:Yes:BUY",
@@ -2574,32 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792282301.223236
-    },
-    {
-      "id": "REFL-1792282284506",
-      "trade_id": "S12:942878:Yes:BUY",
-      "strategy_id": "S12",
-      "market_title": "Will the Democratic Party win the NE-02 House seat?",
-      "predicted_prob": 0.9,
-      "outcome": 0,
-      "pnl": -0.01,
-      "brier_error": 0.81,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792282284.506411
-    },
-    {
-      "id": "REFL-1792282284496",
-      "trade_id": "S12:942832:Yes:BUY",
-      "strategy_id": "S12",
-      "market_title": "Will the Democratic Party win the MO-05 House seat?",
-      "predicted_prob": 0.9,
-      "outcome": 0,
-      "pnl": -0.01,
-      "brier_error": 0.81,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792282284.4969876
     }
   ],
   "strategy_weights": {
@@ -2625,11 +2625,11 @@
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.4505,
-      "win_rate": 22.4,
-      "trades_count": 125,
+      "brier_score": 0.4483,
+      "win_rate": 22.8,
+      "trades_count": 127,
       "kelly_multiplier": 0.4,
-      "reliability": 0.2767,
+      "reliability": 0.2721,
       "resolution": 0.0,
       "status": "REDUCED"
     },
@@ -2652,11 +2652,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3918,
-      "win_rate": 35.3,
-      "trades_count": 133,
+      "brier_score": 0.393,
+      "win_rate": 35.1,
+      "trades_count": 134,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1615,
+      "reliability": 0.1635,
       "resolution": 0.0,
       "status": "REDUCED"
     },
