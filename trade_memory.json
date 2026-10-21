@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792551118.6386828,
+  "updated_at": 1792551363.315826,
   "reflections": [
+    {
+      "id": "REFL-1792551357896",
+      "trade_id": "S10:943469:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Will the Democratic Party win the NY-22 House seat?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -2.16,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792551357.8965123
+    },
     {
       "id": "REFL-1792546964802",
       "trade_id": "WT:629030:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792282284.1604788
-    },
-    {
-      "id": "REFL-1792282284148",
-      "trade_id": "S12:631031:Yes:BUY",
-      "strategy_id": "S12",
-      "market_title": "Will the Republicans win the Oklahoma Senate race in 2026?",
-      "predicted_prob": 0.9,
-      "outcome": 0,
-      "pnl": -0.05,
-      "brier_error": 0.81,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792282284.1488109
     }
   ],
   "strategy_weights": {
@@ -2625,11 +2625,11 @@
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.4534,
-      "win_rate": 21.8,
-      "trades_count": 110,
+      "brier_score": 0.4544,
+      "win_rate": 21.6,
+      "trades_count": 111,
       "kelly_multiplier": 0.4,
-      "reliability": 0.2828,
+      "reliability": 0.2849,
       "resolution": 0.0,
       "status": "REDUCED"
     },
