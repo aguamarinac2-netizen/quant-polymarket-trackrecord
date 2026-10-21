@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792590723.5627387,
+  "updated_at": 1792591086.3374043,
   "reflections": [
+    {
+      "id": "REFL-1792590919848",
+      "trade_id": "S10:629413:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Will the Republicans win the Kansas governor race in 2026?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -0.15,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792590919.8482792
+    },
     {
       "id": "REFL-1792590590548",
       "trade_id": "S10:629030:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792282284.3205955
-    },
-    {
-      "id": "REFL-1792282284307",
-      "trade_id": "S20:665532:No:BUY",
-      "strategy_id": "S20",
-      "market_title": "Metamask FDV above $1B one day after launch?",
-      "predicted_prob": 0.96,
-      "outcome": 0,
-      "pnl": -0.06,
-      "brier_error": 0.9216,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792282284.307491
     }
   ],
   "strategy_weights": {
@@ -2625,11 +2625,11 @@
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.4557,
-      "win_rate": 21.4,
-      "trades_count": 117,
+      "brier_score": 0.4566,
+      "win_rate": 21.2,
+      "trades_count": 118,
       "kelly_multiplier": 0.4,
-      "reliability": 0.2876,
+      "reliability": 0.2896,
       "resolution": 0.0,
       "status": "REDUCED"
     },
@@ -2643,11 +2643,11 @@
       "status": "REDUCED"
     },
     "WT": {
-      "brier_score": 0.6337,
-      "win_rate": 16.8,
-      "trades_count": 101,
+      "brier_score": 0.6217,
+      "win_rate": 18.4,
+      "trades_count": 103,
       "kelly_multiplier": 0.4,
-      "reliability": 0.4933,
+      "reliability": 0.4712,
       "resolution": 0.0,
       "status": "REDUCED"
     },
