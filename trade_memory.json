@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792574815.0478768,
+  "updated_at": 1792575417.7602625,
   "reflections": [
+    {
+      "id": "REFL-1792575059006",
+      "trade_id": "MR:gamma:630773:Yes:1w:BUY",
+      "strategy_id": "MR",
+      "market_title": "Will the Republicans win the Maine Senate race in 2026?",
+      "predicted_prob": 0.78,
+      "outcome": 0,
+      "pnl": -1.06,
+      "brier_error": 0.6084,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792575059.0067985
+    },
     {
       "id": "REFL-1792570674139",
       "trade_id": "WT:629412:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792282284.2352788
-    },
-    {
-      "id": "REFL-1792282284221",
-      "trade_id": "S20:665334:No:BUY",
-      "strategy_id": "S20",
-      "market_title": "Will Greece recognize Palestine before 2027?",
-      "predicted_prob": 0.96,
-      "outcome": 0,
-      "pnl": -0.08,
-      "brier_error": 0.9216,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792282284.2218468
     }
   ],
   "strategy_weights": {
@@ -2625,11 +2625,11 @@
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.4554,
-      "win_rate": 21.4,
-      "trades_count": 112,
+      "brier_score": 0.4519,
+      "win_rate": 22.1,
+      "trades_count": 113,
       "kelly_multiplier": 0.4,
-      "reliability": 0.287,
+      "reliability": 0.2796,
       "resolution": 0.0,
       "status": "REDUCED"
     },
@@ -2652,11 +2652,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3981,
-      "win_rate": 33.9,
-      "trades_count": 124,
+      "brier_score": 0.3997,
+      "win_rate": 33.6,
+      "trades_count": 125,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1738,
+      "reliability": 0.1763,
       "resolution": 0.0,
       "status": "REDUCED"
     },
