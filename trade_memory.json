@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792610558.5865269,
+  "updated_at": 1792610981.1932588,
   "reflections": [
+    {
+      "id": "REFL-1792610869647",
+      "trade_id": "WT:562828:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
+      "strategy_id": "WT",
+      "market_title": "2026 Balance of Power: D Senate, D House",
+      "predicted_prob": 0.88,
+      "outcome": 0,
+      "pnl": -7.14,
+      "brier_error": 0.7744,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792610869.647249
+    },
     {
       "id": "REFL-1792610004238",
       "trade_id": "S12:942979:Yes:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792282284.4876587
-    },
-    {
-      "id": "REFL-1792282284477",
-      "trade_id": "S12:942425:Yes:BUY",
-      "strategy_id": "S12",
-      "market_title": "Will the Democratic Party win the IN-01 House seat?",
-      "predicted_prob": 0.9,
-      "outcome": 0,
-      "pnl": -0.11,
-      "brier_error": 0.81,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792282284.4775603
     }
   ],
   "strategy_weights": {
@@ -2643,11 +2643,11 @@
       "status": "REDUCED"
     },
     "WT": {
-      "brier_score": 0.6236,
-      "win_rate": 18.2,
-      "trades_count": 110,
+      "brier_score": 0.6249,
+      "win_rate": 18.0,
+      "trades_count": 111,
       "kelly_multiplier": 0.4,
-      "reliability": 0.4748,
+      "reliability": 0.4772,
       "resolution": 0.0,
       "status": "REDUCED"
     },
