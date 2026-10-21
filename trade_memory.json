@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792591995.0656483,
+  "updated_at": 1792592542.6104858,
   "reflections": [
+    {
+      "id": "REFL-1792592467782",
+      "trade_id": "WT:629324:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
+      "strategy_id": "WT",
+      "market_title": "Will the Democrats win the Florida governor race in 2026?",
+      "predicted_prob": 0.88,
+      "outcome": 0,
+      "pnl": 0.0,
+      "brier_error": 0.7744,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792592467.7829647
+    },
     {
       "id": "REFL-1792590919848",
       "trade_id": "S10:629413:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792282284.3325346
-    },
-    {
-      "id": "REFL-1792282284320",
-      "trade_id": "S20:665738:No:BUY",
-      "strategy_id": "S20",
-      "market_title": "Ahmed al-Sharaa out as leader of Syria by December 31, 2026?",
-      "predicted_prob": 0.96,
-      "outcome": 0,
-      "pnl": -0.03,
-      "brier_error": 0.9216,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792282284.3205955
     }
   ],
   "strategy_weights": {
@@ -2643,11 +2643,11 @@
       "status": "REDUCED"
     },
     "WT": {
-      "brier_score": 0.6217,
-      "win_rate": 18.4,
-      "trades_count": 103,
+      "brier_score": 0.6232,
+      "win_rate": 18.3,
+      "trades_count": 104,
       "kelly_multiplier": 0.4,
-      "reliability": 0.4712,
+      "reliability": 0.4737,
       "resolution": 0.0,
       "status": "REDUCED"
     },
