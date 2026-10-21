@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792570288.4943645,
+  "updated_at": 1792570893.4070568,
   "reflections": [
+    {
+      "id": "REFL-1792570674139",
+      "trade_id": "WT:629412:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
+      "strategy_id": "WT",
+      "market_title": "Will the Democrats win the Kansas governor race in 2026?",
+      "predicted_prob": 0.88,
+      "outcome": 0,
+      "pnl": -0.13,
+      "brier_error": 0.7744,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792570674.1398897
+    },
     {
       "id": "REFL-1792567192803",
       "trade_id": "MR:gamma:629505:Yes:1w:SELL",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792282284.2218468
-    },
-    {
-      "id": "REFL-1792282284209",
-      "trade_id": "S20:663583:No:BUY",
-      "strategy_id": "S20",
-      "market_title": "Will the Iranian regime fall before 2027?",
-      "predicted_prob": 0.96,
-      "outcome": 0,
-      "pnl": -0.07,
-      "brier_error": 0.9216,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792282284.2091804
     }
   ],
   "strategy_weights": {
@@ -2643,11 +2643,11 @@
       "status": "REDUCED"
     },
     "WT": {
-      "brier_score": 0.6322,
-      "win_rate": 17.2,
-      "trades_count": 99,
+      "brier_score": 0.6337,
+      "win_rate": 17.0,
+      "trades_count": 100,
       "kelly_multiplier": 0.4,
-      "reliability": 0.4894,
+      "reliability": 0.492,
       "resolution": 0.0,
       "status": "REDUCED"
     },
