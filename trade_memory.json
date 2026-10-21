@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792551363.315826,
+  "updated_at": 1792551976.894872,
   "reflections": [
+    {
+      "id": "REFL-1792551557531",
+      "trade_id": "WT:629397:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
+      "strategy_id": "WT",
+      "market_title": "Will the Democrats win the Iowa governor race in 2026?",
+      "predicted_prob": 0.88,
+      "outcome": 0,
+      "pnl": -1.16,
+      "brier_error": 0.7744,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792551557.531877
+    },
     {
       "id": "REFL-1792551357896",
       "trade_id": "S10:943469:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792282284.1721618
-    },
-    {
-      "id": "REFL-1792282284160",
-      "trade_id": "S12:634879:Yes:BUY",
-      "strategy_id": "S12",
-      "market_title": "Will the Republicans win the Louisiana Senate race in 2026?",
-      "predicted_prob": 0.9,
-      "outcome": 0,
-      "pnl": -0.12,
-      "brier_error": 0.81,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792282284.1604788
     }
   ],
   "strategy_weights": {
@@ -2643,11 +2643,11 @@
       "status": "REDUCED"
     },
     "WT": {
-      "brier_score": 0.6308,
-      "win_rate": 17.3,
-      "trades_count": 98,
+      "brier_score": 0.6322,
+      "win_rate": 17.2,
+      "trades_count": 99,
       "kelly_multiplier": 0.4,
-      "reliability": 0.4869,
+      "reliability": 0.4894,
       "resolution": 0.0,
       "status": "REDUCED"
     },
