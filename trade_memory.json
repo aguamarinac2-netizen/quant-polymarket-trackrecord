@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792615034.2769067,
+  "updated_at": 1792615515.9730492,
   "reflections": [
+    {
+      "id": "REFL-1792615505151",
+      "trade_id": "S12:943433:Yes:BUY",
+      "strategy_id": "S12",
+      "market_title": "Will the Democratic Party win the NY-04 House seat?",
+      "predicted_prob": 0.9,
+      "outcome": 0,
+      "pnl": -0.23,
+      "brier_error": 0.81,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792615505.1516738
+    },
     {
       "id": "REFL-1792610869647",
       "trade_id": "WT:562828:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792282284.4969876
-    },
-    {
-      "id": "REFL-1792282284487",
-      "trade_id": "S12:942765:Yes:BUY",
-      "strategy_id": "S12",
-      "market_title": "Will the Democratic Party win the MI-08 House seat?",
-      "predicted_prob": 0.9,
-      "outcome": 0,
-      "pnl": -0.06,
-      "brier_error": 0.81,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792282284.4876587
     }
   ],
   "strategy_weights": {
@@ -2634,11 +2634,11 @@
       "status": "REDUCED"
     },
     "S12": {
-      "brier_score": 0.6915,
-      "win_rate": 14.8,
-      "trades_count": 81,
+      "brier_score": 0.6929,
+      "win_rate": 14.6,
+      "trades_count": 82,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5653,
+      "reliability": 0.568,
       "resolution": 0.0,
       "status": "REDUCED"
     },
