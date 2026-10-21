@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792619975.9584875,
+  "updated_at": 1792620398.1328607,
   "reflections": [
+    {
+      "id": "REFL-1792620326920",
+      "trade_id": "WT:629666:0x66e7ce01c6831b8a2503d09edd6167152ee68bcd:Yes:BUY",
+      "strategy_id": "WT",
+      "market_title": "Will the Democrats win the Tennessee governor race in 2026?",
+      "predicted_prob": 0.82,
+      "outcome": 0,
+      "pnl": -2.18,
+      "brier_error": 0.6724,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792620326.9201553
+    },
     {
       "id": "REFL-1792617496388",
       "trade_id": "S10:944326:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792282481.4018092
-    },
-    {
-      "id": "REFL-1792282311009",
-      "trade_id": "WT:559660:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
-      "strategy_id": "WT",
-      "market_title": "Will Andy Beshear win the 2028 Democratic presidential nomination?",
-      "predicted_prob": 0.88,
-      "outcome": 0,
-      "pnl": -0.04,
-      "brier_error": 0.7744,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792282311.0099397
     }
   ],
   "strategy_weights": {
@@ -2643,11 +2643,11 @@
       "status": "REDUCED"
     },
     "WT": {
-      "brier_score": 0.6249,
-      "win_rate": 18.0,
-      "trades_count": 111,
+      "brier_score": 0.6254,
+      "win_rate": 17.9,
+      "trades_count": 112,
       "kelly_multiplier": 0.4,
-      "reliability": 0.4772,
+      "reliability": 0.4788,
       "resolution": 0.0,
       "status": "REDUCED"
     },
