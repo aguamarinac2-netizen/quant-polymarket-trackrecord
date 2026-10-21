@@ -1,6 +1,45 @@
 {
-  "updated_at": 1792592542.6104858,
+  "updated_at": 1792592905.8678515,
   "reflections": [
+    {
+      "id": "REFL-1792592843890",
+      "trade_id": "WT:629506:0x38e59b36aae31b164200d0cad7c3fe5e0ee795e7:Yes:BUY",
+      "strategy_id": "WT",
+      "market_title": "Will the Republicans win the Nevada governor race in 2026?",
+      "predicted_prob": 0.82,
+      "outcome": 0,
+      "pnl": -1.45,
+      "brier_error": 0.6724,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792592843.8903763
+    },
+    {
+      "id": "REFL-1792592843877",
+      "trade_id": "WT:629505:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
+      "strategy_id": "WT",
+      "market_title": "Will the Democrats win the Nevada governor race in 2026?",
+      "predicted_prob": 0.88,
+      "outcome": 0,
+      "pnl": -1.56,
+      "brier_error": 0.7744,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792592843.877832
+    },
+    {
+      "id": "REFL-1792592843862",
+      "trade_id": "MR:gamma:629506:Yes:1w:BUY",
+      "strategy_id": "MR",
+      "market_title": "Will the Republicans win the Nevada governor race in 2026?",
+      "predicted_prob": 0.78,
+      "outcome": 0,
+      "pnl": -1.55,
+      "brier_error": 0.6084,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792592843.8627641
+    },
     {
       "id": "REFL-1792592467782",
       "trade_id": "WT:629324:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
@@ -2561,45 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792282284.3665655
-    },
-    {
-      "id": "REFL-1792282284355",
-      "trade_id": "S20:666606:No:BUY",
-      "strategy_id": "S20",
-      "market_title": "Will Trump meet with iShowSpeed in 2026?",
-      "predicted_prob": 0.96,
-      "outcome": 0,
-      "pnl": -0.05,
-      "brier_error": 0.9216,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792282284.3554602
-    },
-    {
-      "id": "REFL-1792282284344",
-      "trade_id": "S20:666603:No:BUY",
-      "strategy_id": "S20",
-      "market_title": "Will Trump meet with Jair Bolsonaro in 2026?",
-      "predicted_prob": 0.96,
-      "outcome": 0,
-      "pnl": -0.05,
-      "brier_error": 0.9216,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792282284.3442237
-    },
-    {
-      "id": "REFL-1792282284332",
-      "trade_id": "S20:666602:No:BUY",
-      "strategy_id": "S20",
-      "market_title": "Will Trump meet with MrBeast in 2026?",
-      "predicted_prob": 0.96,
-      "outcome": 0,
-      "pnl": -0.06,
-      "brier_error": 0.9216,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792282284.3325346
     }
   ],
   "strategy_weights": {
@@ -2643,20 +2643,20 @@
       "status": "REDUCED"
     },
     "WT": {
-      "brier_score": 0.6232,
-      "win_rate": 18.3,
-      "trades_count": 104,
+      "brier_score": 0.6193,
+      "win_rate": 18.7,
+      "trades_count": 107,
       "kelly_multiplier": 0.4,
-      "reliability": 0.4737,
+      "reliability": 0.4675,
       "resolution": 0.0,
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3947,
-      "win_rate": 34.6,
-      "trades_count": 127,
+      "brier_score": 0.3936,
+      "win_rate": 34.9,
+      "trades_count": 129,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1671,
+      "reliability": 0.1655,
       "resolution": 0.0,
       "status": "REDUCED"
     },
