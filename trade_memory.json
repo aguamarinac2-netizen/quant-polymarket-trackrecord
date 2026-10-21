@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792576653.6950738,
+  "updated_at": 1792577222.8353071,
   "reflections": [
+    {
+      "id": "REFL-1792576751785",
+      "trade_id": "WT:629570:0x852eaa709e9e502489b3c3f6c967493342a9ca77:Yes:BUY",
+      "strategy_id": "WT",
+      "market_title": "Will the Democrats win the Oklahoma governor race in 2026?",
+      "predicted_prob": 0.8,
+      "outcome": 0,
+      "pnl": -0.4,
+      "brier_error": 0.64,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792576751.7853978
+    },
     {
       "id": "REFL-1792576653679",
       "trade_id": "S10:920402:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792282284.2592013
-    },
-    {
-      "id": "REFL-1792282284246",
-      "trade_id": "S20:665414:No:BUY",
-      "strategy_id": "S20",
-      "market_title": "Israel and Lebanon normalize relations before 2027?",
-      "predicted_prob": 0.96,
-      "outcome": 0,
-      "pnl": -0.05,
-      "brier_error": 0.9216,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792282284.246946
     }
   ],
   "strategy_weights": {
@@ -2644,19 +2644,19 @@
     },
     "WT": {
       "brier_score": 0.6337,
-      "win_rate": 17.0,
-      "trades_count": 100,
+      "win_rate": 16.8,
+      "trades_count": 101,
       "kelly_multiplier": 0.4,
-      "reliability": 0.492,
+      "reliability": 0.4933,
       "resolution": 0.0,
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3997,
-      "win_rate": 33.6,
-      "trades_count": 125,
+      "brier_score": 0.3947,
+      "win_rate": 34.6,
+      "trades_count": 127,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1763,
+      "reliability": 0.1671,
       "resolution": 0.0,
       "status": "REDUCED"
     },
