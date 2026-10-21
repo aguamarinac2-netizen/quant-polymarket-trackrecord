@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792566709.790641,
+  "updated_at": 1792567315.2390285,
   "reflections": [
+    {
+      "id": "REFL-1792567192803",
+      "trade_id": "MR:gamma:629505:Yes:1w:SELL",
+      "strategy_id": "MR",
+      "market_title": "Will the Democrats win the Nevada governor race in 2026?",
+      "predicted_prob": 0.78,
+      "outcome": 0,
+      "pnl": -0.64,
+      "brier_error": 0.6084,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792567192.8035345
+    },
     {
       "id": "REFL-1792561144350",
       "trade_id": "S10:629030:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792282284.2091804
-    },
-    {
-      "id": "REFL-1792282284196",
-      "trade_id": "S20:637910:No:BUY",
-      "strategy_id": "S20",
-      "market_title": "Mitch McConnell steps down from Senate before his term ends?",
-      "predicted_prob": 0.96,
-      "outcome": 0,
-      "pnl": -0.07,
-      "brier_error": 0.9216,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792282284.1969345
     }
   ],
   "strategy_weights": {
@@ -2652,11 +2652,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3963,
-      "win_rate": 34.1,
-      "trades_count": 123,
+      "brier_score": 0.3981,
+      "win_rate": 33.9,
+      "trades_count": 124,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1714,
+      "reliability": 0.1738,
       "resolution": 0.0,
       "status": "REDUCED"
     },
