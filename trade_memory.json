@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792712188.8235202,
+  "updated_at": 1792713104.5084465,
   "reflections": [
+    {
+      "id": "REFL-1792713043174",
+      "trade_id": "MR:gamma:943748:Yes:1d:BUY",
+      "strategy_id": "MR",
+      "market_title": "Will the Republican Party win the PA-01 House seat?",
+      "predicted_prob": 0.78,
+      "outcome": 0,
+      "pnl": -0.36,
+      "brier_error": 0.6084,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792713043.1742542
+    },
     {
       "id": "REFL-1792708953708",
       "trade_id": "WT:561262:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792455084.1184812
-    },
-    {
-      "id": "REFL-1792455084106",
-      "trade_id": "S20:559695:No:BUY",
-      "strategy_id": "S20",
-      "market_title": "Will James Talarico win the 2028 Democratic presidential nomination?",
-      "predicted_prob": 0.96,
-      "outcome": 0,
-      "pnl": -0.05,
-      "brier_error": 0.9216,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792455084.1061294
     }
   ],
   "strategy_weights": {
@@ -2652,11 +2652,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3914,
-      "win_rate": 35.3,
-      "trades_count": 156,
+      "brier_score": 0.3928,
+      "win_rate": 35.0,
+      "trades_count": 157,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1611,
+      "reliability": 0.1631,
       "resolution": 0.0,
       "status": "REDUCED"
     },
