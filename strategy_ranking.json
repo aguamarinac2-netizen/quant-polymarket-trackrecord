@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T06:32:41.837044+00:00",
+  "generated_at": "2026-10-22T06:37:39.424450+00:00",
   "campaign": "demo-15d",
   "strategies": [
     {
@@ -202,7 +202,7 @@
       "won": 64,
       "lost": 73,
       "realized_pnl_usd": -64.7,
-      "unrealized_pnl_usd": -2.8,
+      "unrealized_pnl_usd": -2.82,
       "partial_fills": 0,
       "by_source": {
         "realistic": {
@@ -215,20 +215,20 @@
           "total": 151,
           "won": 58,
           "lost": 68,
-          "net_pnl_usd": -78.97
+          "net_pnl_usd": -78.99
         }
       },
       "closed": 137,
       "win_rate_pct": 46.7,
-      "net_pnl_usd": -67.5,
+      "net_pnl_usd": -67.52,
       "avg_book_slippage_bps": null,
       "verdict": "DESCARTAR"
     },
     {
       "strategy_code": "MR",
       "strategy_name": "C: Mean Reversion",
-      "total": 157,
-      "open": 17,
+      "total": 158,
+      "open": 18,
       "won": 78,
       "lost": 62,
       "realized_pnl_usd": -79.3,
@@ -242,7 +242,7 @@
           "net_pnl_usd": -1.04
         },
         "research": {
-          "total": 146,
+          "total": 147,
           "won": 72,
           "lost": 59,
           "net_pnl_usd": -102.99
@@ -262,7 +262,7 @@
       "won": 43,
       "lost": 77,
       "realized_pnl_usd": -78.47,
-      "unrealized_pnl_usd": -33.23,
+      "unrealized_pnl_usd": -33.25,
       "partial_fills": 0,
       "by_source": {
         "realistic": {
@@ -275,12 +275,12 @@
           "total": 122,
           "won": 33,
           "lost": 64,
-          "net_pnl_usd": -99.89
+          "net_pnl_usd": -99.91
         }
       },
       "closed": 120,
       "win_rate_pct": 35.8,
-      "net_pnl_usd": -111.7,
+      "net_pnl_usd": -111.72,
       "avg_book_slippage_bps": null,
       "verdict": "DESCARTAR"
     }
