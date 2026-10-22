@@ -1,6 +1,45 @@
 {
-  "updated_at": 1792687903.0471253,
+  "updated_at": 1792688688.4089453,
   "reflections": [
+    {
+      "id": "REFL-1792688588352",
+      "trade_id": "S10:944258:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Will the Democratic Party win the UT-01 House seat?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -1.6,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792688588.3527145
+    },
+    {
+      "id": "REFL-1792688393619",
+      "trade_id": "S10:562828:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "2026 Balance of Power: D Senate, D House",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -6.22,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792688393.6190636
+    },
+    {
+      "id": "REFL-1792688393545",
+      "trade_id": "S10:562828:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "2026 Balance of Power: D Senate, D House",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -6.23,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792688393.5457888
+    },
     {
       "id": "REFL-1792687339369",
       "trade_id": "S10:629720:No:BUY",
@@ -2561,45 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792434013.2752688
-    },
-    {
-      "id": "REFL-1792433910862",
-      "trade_id": "S10:631058:No:BUY",
-      "strategy_id": "S10",
-      "market_title": "Will the Republicans win the Ohio Senate race in 2026?",
-      "predicted_prob": 0.75,
-      "outcome": 0,
-      "pnl": -0.18,
-      "brier_error": 0.5625,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792433910.8628442
-    },
-    {
-      "id": "REFL-1792425594390",
-      "trade_id": "S10:910098:No:BUY",
-      "strategy_id": "S10",
-      "market_title": "Will Rafael Grossi be the next Secretary General of the United Nations?",
-      "predicted_prob": 0.75,
-      "outcome": 0,
-      "pnl": -0.15,
-      "brier_error": 0.5625,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792425594.3908985
-    },
-    {
-      "id": "REFL-1792419662385",
-      "trade_id": "WT:628940:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
-      "strategy_id": "WT",
-      "market_title": "Will Steve Hilton win the California Governor Election in 2026?",
-      "predicted_prob": 0.88,
-      "outcome": 0,
-      "pnl": -0.11,
-      "brier_error": 0.7744,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792419662.3855133
     }
   ],
   "strategy_weights": {
@@ -2625,11 +2625,11 @@
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.4469,
-      "win_rate": 23.1,
-      "trades_count": 147,
+      "brier_score": 0.4492,
+      "win_rate": 22.7,
+      "trades_count": 150,
       "kelly_multiplier": 0.4,
-      "reliability": 0.2691,
+      "reliability": 0.2739,
       "resolution": 0.0,
       "status": "REDUCED"
     },
