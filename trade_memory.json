@@ -1,6 +1,32 @@
 {
-  "updated_at": 1792644380.755986,
+  "updated_at": 1792644748.6730294,
   "reflections": [
+    {
+      "id": "REFL-1792644714917",
+      "trade_id": "S10:995702:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Will Bad Bunny be the top artist for 2026?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -2.77,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792644714.917908
+    },
+    {
+      "id": "REFL-1792644515530",
+      "trade_id": "MR:gamma:629690:Yes:1w:SELL",
+      "strategy_id": "MR",
+      "market_title": "Will the Democrats win the Texas governor race in 2026?",
+      "predicted_prob": 0.78,
+      "outcome": 0,
+      "pnl": -1.89,
+      "brier_error": 0.6084,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792644515.530596
+    },
     {
       "id": "REFL-1792643184303",
       "trade_id": "S10:942702:No:BUY",
@@ -2574,32 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792314553.635614
-    },
-    {
-      "id": "REFL-1792313841647",
-      "trade_id": "S20:630654:Yes:BUY",
-      "strategy_id": "S20",
-      "market_title": "Will the Republicans win the Arkansas Senate race in 2026?",
-      "predicted_prob": 0.96,
-      "outcome": 0,
-      "pnl": -0.07,
-      "brier_error": 0.9216,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792313841.6473
-    },
-    {
-      "id": "REFL-1792312482107",
-      "trade_id": "WT:561246:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
-      "strategy_id": "WT",
-      "market_title": "Will Ron DeSantis win the 2028 US Presidential Election?",
-      "predicted_prob": 0.88,
-      "outcome": 0,
-      "pnl": -0.06,
-      "brier_error": 0.7744,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792312482.1077027
     }
   ],
   "strategy_weights": {
@@ -2625,11 +2625,11 @@
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.4535,
-      "win_rate": 21.8,
-      "trades_count": 133,
+      "brier_score": 0.4543,
+      "win_rate": 21.6,
+      "trades_count": 134,
       "kelly_multiplier": 0.4,
-      "reliability": 0.283,
+      "reliability": 0.2847,
       "resolution": 0.0,
       "status": "REDUCED"
     },
@@ -2643,20 +2643,20 @@
       "status": "REDUCED"
     },
     "WT": {
-      "brier_score": 0.624,
-      "win_rate": 17.8,
-      "trades_count": 118,
+      "brier_score": 0.619,
+      "win_rate": 18.5,
+      "trades_count": 119,
       "kelly_multiplier": 0.4,
-      "reliability": 0.4782,
+      "reliability": 0.4681,
       "resolution": 0.0,
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3891,
-      "win_rate": 35.8,
-      "trades_count": 137,
+      "brier_score": 0.3906,
+      "win_rate": 35.5,
+      "trades_count": 138,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1577,
+      "reliability": 0.1599,
       "resolution": 0.0,
       "status": "REDUCED"
     },
