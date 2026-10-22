@@ -1,6 +1,58 @@
 {
-  "updated_at": 1792669011.6150029,
+  "updated_at": 1792669674.8369882,
   "reflections": [
+    {
+      "id": "REFL-1792669333785",
+      "trade_id": "WT:629545:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
+      "strategy_id": "WT",
+      "market_title": "Will the Republicans win the New York governor race in 2026?",
+      "predicted_prob": 0.88,
+      "outcome": 0,
+      "pnl": -0.08,
+      "brier_error": 0.7744,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792669333.7853444
+    },
+    {
+      "id": "REFL-1792669121648",
+      "trade_id": "MR:gamma:630706:Yes:1d:BUY",
+      "strategy_id": "MR",
+      "market_title": "Will the Republicans win the Idaho Senate race in 2026?",
+      "predicted_prob": 0.77,
+      "outcome": 0,
+      "pnl": -0.41,
+      "brier_error": 0.5929,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792669121.6489937
+    },
+    {
+      "id": "REFL-1792669121637",
+      "trade_id": "MR:gamma:630733:Yes:1d:SELL",
+      "strategy_id": "MR",
+      "market_title": "Will the Democrats win the Iowa Senate race in 2026?",
+      "predicted_prob": 0.72,
+      "outcome": 0,
+      "pnl": -0.04,
+      "brier_error": 0.5184,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792669121.6370363
+    },
+    {
+      "id": "REFL-1792669121623",
+      "trade_id": "WT:629691:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
+      "strategy_id": "WT",
+      "market_title": "Will the Republicans win the Texas governor race in 2026?",
+      "predicted_prob": 0.88,
+      "outcome": 0,
+      "pnl": -1.08,
+      "brier_error": 0.7744,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792669121.6236165
+    },
     {
       "id": "REFL-1792668830885",
       "trade_id": "MR:gamma:562793:Yes:1d:SELL",
@@ -2548,58 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792390967.9092429
-    },
-    {
-      "id": "REFL-1792363067895",
-      "trade_id": "MR:gamma:629040:Yes:1d:BUY",
-      "strategy_id": "MR",
-      "market_title": "Will Nithya Raman win the 2026 Los Angeles mayoral election?",
-      "predicted_prob": 0.78,
-      "outcome": 0,
-      "pnl": -0.22,
-      "brier_error": 0.6084,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792363067.895874
-    },
-    {
-      "id": "REFL-1792363067881",
-      "trade_id": "MR:gamma:629030:Yes:1d:SELL",
-      "strategy_id": "MR",
-      "market_title": "Will Karen Bass win the 2026 Los Angeles mayoral election?",
-      "predicted_prob": 0.72,
-      "outcome": 0,
-      "pnl": -0.15,
-      "brier_error": 0.5184,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792363067.8815145
-    },
-    {
-      "id": "REFL-1792362137796",
-      "trade_id": "MR:gamma:1105742:Yes:1d:BUY",
-      "strategy_id": "MR",
-      "market_title": "Will Delcy Rodríguez be the leader of Venezuela end of 2026?",
-      "predicted_prob": 0.78,
-      "outcome": 0,
-      "pnl": -0.44,
-      "brier_error": 0.6084,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792362137.7965639
-    },
-    {
-      "id": "REFL-1792357336462",
-      "trade_id": "S10:630938:No:BUY",
-      "strategy_id": "S10",
-      "market_title": "Will the Republicans win the South Dakota Senate race in 2026?",
-      "predicted_prob": 0.75,
-      "outcome": 0,
-      "pnl": -0.16,
-      "brier_error": 0.5625,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792357336.4626527
     }
   ],
   "strategy_weights": {
@@ -2643,20 +2643,20 @@
       "status": "REDUCED"
     },
     "WT": {
-      "brier_score": 0.6064,
-      "win_rate": 20.2,
-      "trades_count": 124,
+      "brier_score": 0.6091,
+      "win_rate": 19.8,
+      "trades_count": 126,
       "kelly_multiplier": 0.4,
-      "reliability": 0.4439,
+      "reliability": 0.4485,
       "resolution": 0.0,
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3903,
-      "win_rate": 35.4,
-      "trades_count": 144,
+      "brier_score": 0.3925,
+      "win_rate": 34.9,
+      "trades_count": 146,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1602,
+      "reliability": 0.164,
       "resolution": 0.0,
       "status": "REDUCED"
     },
