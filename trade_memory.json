@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792685235.6883078,
+  "updated_at": 1792685961.916921,
   "reflections": [
+    {
+      "id": "REFL-1792685623006",
+      "trade_id": "S10:1075291:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Will there be exactly 1 confirmed VEI 4 or higher volcanic eruption worldwide in",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -0.2,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792685623.006685
+    },
     {
       "id": "REFL-1792684927456",
       "trade_id": "MR:gamma:630772:Yes:1d:SELL",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792418418.4153733
-    },
-    {
-      "id": "REFL-1792417703316",
-      "trade_id": "MR:gamma:630773:Yes:1d:BUY",
-      "strategy_id": "MR",
-      "market_title": "Will the Republicans win the Maine Senate race in 2026?",
-      "predicted_prob": 0.72,
-      "outcome": 0,
-      "pnl": -0.64,
-      "brier_error": 0.5184,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792417703.31624
     }
   ],
   "strategy_weights": {
@@ -2625,11 +2625,11 @@
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.4453,
-      "win_rate": 23.4,
-      "trades_count": 145,
+      "brier_score": 0.4461,
+      "win_rate": 23.3,
+      "trades_count": 146,
       "kelly_multiplier": 0.4,
-      "reliability": 0.2658,
+      "reliability": 0.2674,
       "resolution": 0.0,
       "status": "REDUCED"
     },
