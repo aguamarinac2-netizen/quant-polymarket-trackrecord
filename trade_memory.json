@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792630868.771898,
+  "updated_at": 1792631288.9774911,
   "reflections": [
+    {
+      "id": "REFL-1792631084927",
+      "trade_id": "S10:629708:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Will the Republicans win the Vermont governor race in 2026?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -0.34,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792631084.927186
+    },
     {
       "id": "REFL-1792629364564",
       "trade_id": "WT:629337:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792302268.8317778
-    },
-    {
-      "id": "REFL-1792302268787",
-      "trade_id": "WT:628941:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
-      "strategy_id": "WT",
-      "market_title": "Will Xavier Becerra win the California Governor Election in 2026?",
-      "predicted_prob": 0.88,
-      "outcome": 0,
-      "pnl": -0.2,
-      "brier_error": 0.7744,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792302268.787995
     }
   ],
   "strategy_weights": {
@@ -2625,11 +2625,11 @@
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.4492,
-      "win_rate": 22.7,
-      "trades_count": 128,
+      "brier_score": 0.4501,
+      "win_rate": 22.5,
+      "trades_count": 129,
       "kelly_multiplier": 0.4,
-      "reliability": 0.274,
+      "reliability": 0.2758,
       "resolution": 0.0,
       "status": "REDUCED"
     },
