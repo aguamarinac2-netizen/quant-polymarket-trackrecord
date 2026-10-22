@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792687051.2165852,
+  "updated_at": 1792687780.6380332,
   "reflections": [
+    {
+      "id": "REFL-1792687339369",
+      "trade_id": "S10:629720:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Will the Democrats win the Wisconsin governor race in 2026?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -0.36,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792687339.3699937
+    },
     {
       "id": "REFL-1792685623006",
       "trade_id": "S10:1075291:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792419662.3855133
-    },
-    {
-      "id": "REFL-1792418418415",
-      "trade_id": "S10:676792:No:BUY",
-      "strategy_id": "S10",
-      "market_title": "Anthropic IPO before 2027?",
-      "predicted_prob": 0.75,
-      "outcome": 0,
-      "pnl": -1.92,
-      "brier_error": 0.5625,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792418418.4153733
     }
   ],
   "strategy_weights": {
@@ -2625,11 +2625,11 @@
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.4461,
-      "win_rate": 23.3,
-      "trades_count": 146,
+      "brier_score": 0.4469,
+      "win_rate": 23.1,
+      "trades_count": 147,
       "kelly_multiplier": 0.4,
-      "reliability": 0.2674,
+      "reliability": 0.2691,
       "resolution": 0.0,
       "status": "REDUCED"
     },
@@ -2652,11 +2652,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3954,
-      "win_rate": 34.4,
-      "trades_count": 151,
+      "brier_score": 0.3933,
+      "win_rate": 34.9,
+      "trades_count": 152,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1684,
+      "reliability": 0.1647,
       "resolution": 0.0,
       "status": "REDUCED"
     },
