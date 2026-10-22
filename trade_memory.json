@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792678089.7330074,
+  "updated_at": 1792678754.7801995,
   "reflections": [
+    {
+      "id": "REFL-1792678201781",
+      "trade_id": "S12:630911:Yes:BUY",
+      "strategy_id": "S12",
+      "market_title": "Will the Democrats win the Rhode Island Senate race in 2026?",
+      "predicted_prob": 0.9,
+      "outcome": 0,
+      "pnl": -0.02,
+      "brier_error": 0.81,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792678201.7817435
+    },
     {
       "id": "REFL-1792674714862",
       "trade_id": "S10:943571:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792397868.815079
-    },
-    {
-      "id": "REFL-1792396420336",
-      "trade_id": "WT:565064:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
-      "strategy_id": "WT",
-      "market_title": "Will the Republicans win the 2028 US Presidential Election?",
-      "predicted_prob": 0.88,
-      "outcome": 0,
-      "pnl": -0.18,
-      "brier_error": 0.7744,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792396420.3364432
     }
   ],
   "strategy_weights": {
@@ -2634,11 +2634,11 @@
       "status": "REDUCED"
     },
     "S12": {
-      "brier_score": 0.6943,
-      "win_rate": 14.5,
-      "trades_count": 83,
+      "brier_score": 0.6957,
+      "win_rate": 14.3,
+      "trades_count": 84,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5707,
+      "reliability": 0.5733,
       "resolution": 0.0,
       "status": "REDUCED"
     },
