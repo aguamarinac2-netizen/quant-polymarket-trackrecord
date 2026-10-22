@@ -1,6 +1,32 @@
 {
-  "updated_at": 1792684330.6880543,
+  "updated_at": 1792685054.2019038,
   "reflections": [
+    {
+      "id": "REFL-1792684927456",
+      "trade_id": "MR:gamma:630772:Yes:1d:SELL",
+      "strategy_id": "MR",
+      "market_title": "Will the Democrats win the Maine Senate race in 2026?",
+      "predicted_prob": 0.72,
+      "outcome": 0,
+      "pnl": -0.41,
+      "brier_error": 0.5184,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792684927.4566393
+    },
+    {
+      "id": "REFL-1792684927442",
+      "trade_id": "MR:gamma:630772:Yes:1w:SELL",
+      "strategy_id": "MR",
+      "market_title": "Will the Democrats win the Maine Senate race in 2026?",
+      "predicted_prob": 0.78,
+      "outcome": 0,
+      "pnl": -0.57,
+      "brier_error": 0.6084,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792684927.4421582
+    },
     {
       "id": "REFL-1792683122228",
       "trade_id": "WT:559652:0x66e7ce01c6831b8a2503d09edd6167152ee68bcd:No:SELL",
@@ -2574,32 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792417703.31624
-    },
-    {
-      "id": "REFL-1792408966178",
-      "trade_id": "MR:gamma:679018:Yes:1w:SELL",
-      "strategy_id": "MR",
-      "market_title": "Will Marine Le Pen win the 2027 French presidential election?",
-      "predicted_prob": 0.78,
-      "outcome": 0,
-      "pnl": -0.41,
-      "brier_error": 0.6084,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792408966.1784134
-    },
-    {
-      "id": "REFL-1792407689751",
-      "trade_id": "S10:691980:No:BUY",
-      "strategy_id": "S10",
-      "market_title": "Will Jack Doherty be sentenced to no prison time?",
-      "predicted_prob": 0.75,
-      "outcome": 0,
-      "pnl": -3.07,
-      "brier_error": 0.5625,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792407689.7519712
     }
   ],
   "strategy_weights": {
@@ -2652,11 +2652,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3931,
-      "win_rate": 34.9,
-      "trades_count": 149,
+      "brier_score": 0.3954,
+      "win_rate": 34.4,
+      "trades_count": 151,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1647,
+      "reliability": 0.1684,
       "resolution": 0.0,
       "status": "REDUCED"
     },
