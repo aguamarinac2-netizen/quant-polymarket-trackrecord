@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792642915.7632227,
+  "updated_at": 1792643525.047394,
   "reflections": [
+    {
+      "id": "REFL-1792643184303",
+      "trade_id": "S10:942702:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Will the Democratic Party win the MI-03 House seat?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -0.42,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792643184.3031523
+    },
     {
       "id": "REFL-1792640205739",
       "trade_id": "WT:559660:0x66e7ce01c6831b8a2503d09edd6167152ee68bcd:Yes:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792312482.1077027
-    },
-    {
-      "id": "REFL-1792310351581",
-      "trade_id": "S10:630654:No:BUY",
-      "strategy_id": "S10",
-      "market_title": "Will the Republicans win the Arkansas Senate race in 2026?",
-      "predicted_prob": 0.75,
-      "outcome": 0,
-      "pnl": -0.42,
-      "brier_error": 0.5625,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792310351.5812986
     }
   ],
   "strategy_weights": {
@@ -2625,11 +2625,11 @@
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.4527,
-      "win_rate": 22.0,
-      "trades_count": 132,
+      "brier_score": 0.4535,
+      "win_rate": 21.8,
+      "trades_count": 133,
       "kelly_multiplier": 0.4,
-      "reliability": 0.2812,
+      "reliability": 0.283,
       "resolution": 0.0,
       "status": "REDUCED"
     },
