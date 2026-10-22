@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792689715.9915898,
+  "updated_at": 1792690499.6302102,
   "reflections": [
+    {
+      "id": "REFL-1792690399531",
+      "trade_id": "S10:1087074:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Will any AI model reach a Chatbot Arena score of at least 1550 by December 31?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -0.33,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792690399.5318892
+    },
     {
       "id": "REFL-1792688588352",
       "trade_id": "S10:944258:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792434013.2882025
-    },
-    {
-      "id": "REFL-1792434013275",
-      "trade_id": "S10:562793:No:BUY",
-      "strategy_id": "S10",
-      "market_title": "Will the Democratic Party control the Senate after the 2026 Midterm elections?",
-      "predicted_prob": 0.75,
-      "outcome": 0,
-      "pnl": -0.89,
-      "brier_error": 0.5625,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792434013.2752688
     }
   ],
   "strategy_weights": {
@@ -2625,11 +2625,11 @@
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.4492,
-      "win_rate": 22.7,
-      "trades_count": 150,
+      "brier_score": 0.4499,
+      "win_rate": 22.5,
+      "trades_count": 151,
       "kelly_multiplier": 0.4,
-      "reliability": 0.2739,
+      "reliability": 0.2755,
       "resolution": 0.0,
       "status": "REDUCED"
     },
