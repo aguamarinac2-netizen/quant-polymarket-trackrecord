@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792697861.9931278,
+  "updated_at": 1792698643.2954907,
   "reflections": [
+    {
+      "id": "REFL-1792698433558",
+      "trade_id": "S10:942878:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Will the Democratic Party win the NE-02 House seat?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -2.16,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792698433.5583222
+    },
     {
       "id": "REFL-1792690399531",
       "trade_id": "S10:1087074:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792434013.3399565
-    },
-    {
-      "id": "REFL-1792434013288",
-      "trade_id": "WT:562793:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
-      "strategy_id": "WT",
-      "market_title": "Will the Democratic Party control the Senate after the 2026 Midterm elections?",
-      "predicted_prob": 0.88,
-      "outcome": 0,
-      "pnl": -2.49,
-      "brier_error": 0.7744,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792434013.2882025
     }
   ],
   "strategy_weights": {
@@ -2625,11 +2625,11 @@
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.4499,
-      "win_rate": 22.5,
-      "trades_count": 151,
+      "brier_score": 0.4507,
+      "win_rate": 22.4,
+      "trades_count": 152,
       "kelly_multiplier": 0.4,
-      "reliability": 0.2755,
+      "reliability": 0.277,
       "resolution": 0.0,
       "status": "REDUCED"
     },
@@ -2652,11 +2652,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3933,
-      "win_rate": 34.9,
-      "trades_count": 152,
+      "brier_score": 0.3912,
+      "win_rate": 35.3,
+      "trades_count": 153,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1647,
+      "reliability": 0.161,
       "resolution": 0.0,
       "status": "REDUCED"
     },
