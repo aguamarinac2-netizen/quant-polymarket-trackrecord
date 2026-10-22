@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792701491.3786554,
+  "updated_at": 1792702215.6652424,
   "reflections": [
+    {
+      "id": "REFL-1792701836410",
+      "trade_id": "S10:920403:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Variational FDV above $1B one day after launch?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -0.27,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792701836.4106276
+    },
     {
       "id": "REFL-1792700947140",
       "trade_id": "WT:567689:0xc550e5ee1011afb6d37c7fbb18fea32e03f9272d:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792439121.5059533
-    },
-    {
-      "id": "REFL-1792437533218",
-      "trade_id": "MR:gamma:631057:Yes:1d:BUY",
-      "strategy_id": "MR",
-      "market_title": "Will the Democrats win the Ohio Senate race in 2026?",
-      "predicted_prob": 0.78,
-      "outcome": 0,
-      "pnl": -0.47,
-      "brier_error": 0.6084,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792437533.218852
     }
   ],
   "strategy_weights": {
@@ -2625,11 +2625,11 @@
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.4514,
-      "win_rate": 22.2,
-      "trades_count": 153,
+      "brier_score": 0.4521,
+      "win_rate": 22.1,
+      "trades_count": 154,
       "kelly_multiplier": 0.4,
-      "reliability": 0.2785,
+      "reliability": 0.2801,
       "resolution": 0.0,
       "status": "REDUCED"
     },
@@ -2652,11 +2652,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3912,
-      "win_rate": 35.3,
-      "trades_count": 153,
+      "brier_score": 0.3892,
+      "win_rate": 35.7,
+      "trades_count": 154,
       "kelly_multiplier": 0.4,
-      "reliability": 0.161,
+      "reliability": 0.1575,
       "resolution": 0.0,
       "status": "REDUCED"
     },
