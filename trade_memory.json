@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792638465.367904,
+  "updated_at": 1792638956.9412277,
   "reflections": [
+    {
+      "id": "REFL-1792638665582",
+      "trade_id": "MR:gamma:943748:Yes:1d:SELL",
+      "strategy_id": "MR",
+      "market_title": "Will the Republican Party win the PA-01 House seat?",
+      "predicted_prob": 0.72,
+      "outcome": 0,
+      "pnl": -0.04,
+      "brier_error": 0.5184,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792638665.5821753
+    },
     {
       "id": "REFL-1792638465250",
       "trade_id": "S10:629376:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792306926.783187
-    },
-    {
-      "id": "REFL-1792305300283",
-      "trade_id": "S12:1068741:Yes:BUY",
-      "strategy_id": "S12",
-      "market_title": "Will Democratic House incumbents not win in between ten and twelve nominating el",
-      "predicted_prob": 0.9,
-      "outcome": 0,
-      "pnl": -1.28,
-      "brier_error": 0.81,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792305300.283602
     }
   ],
   "strategy_weights": {
@@ -2652,11 +2652,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3881,
-      "win_rate": 36.0,
-      "trades_count": 136,
+      "brier_score": 0.3891,
+      "win_rate": 35.8,
+      "trades_count": 137,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1559,
+      "reliability": 0.1577,
       "resolution": 0.0,
       "status": "REDUCED"
     },
