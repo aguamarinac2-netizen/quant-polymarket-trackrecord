@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792699613.2749617,
+  "updated_at": 1792700464.7547088,
   "reflections": [
+    {
+      "id": "REFL-1792699838832",
+      "trade_id": "S10:630733:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Will the Democrats win the Iowa Senate race in 2026?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -0.38,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792699838.83281
+    },
     {
       "id": "REFL-1792698433558",
       "trade_id": "S10:942878:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792437199.4102817
-    },
-    {
-      "id": "REFL-1792434013339",
-      "trade_id": "S10:562793:No:BUY",
-      "strategy_id": "S10",
-      "market_title": "Will the Democratic Party control the Senate after the 2026 Midterm elections?",
-      "predicted_prob": 0.75,
-      "outcome": 0,
-      "pnl": -0.89,
-      "brier_error": 0.5625,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792434013.3399565
     }
   ],
   "strategy_weights": {
@@ -2625,11 +2625,11 @@
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.4507,
-      "win_rate": 22.4,
-      "trades_count": 152,
+      "brier_score": 0.4514,
+      "win_rate": 22.2,
+      "trades_count": 153,
       "kelly_multiplier": 0.4,
-      "reliability": 0.277,
+      "reliability": 0.2785,
       "resolution": 0.0,
       "status": "REDUCED"
     },
