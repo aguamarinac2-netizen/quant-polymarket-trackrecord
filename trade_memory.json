@@ -1,6 +1,32 @@
 {
-  "updated_at": 1792668771.5335114,
+  "updated_at": 1792669011.6150029,
   "reflections": [
+    {
+      "id": "REFL-1792668830885",
+      "trade_id": "MR:gamma:562793:Yes:1d:SELL",
+      "strategy_id": "MR",
+      "market_title": "Will the Democratic Party control the Senate after the 2026 Midterm elections?",
+      "predicted_prob": 0.72,
+      "outcome": 0,
+      "pnl": -0.4,
+      "brier_error": 0.5184,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792668830.885839
+    },
+    {
+      "id": "REFL-1792668830869",
+      "trade_id": "MR:gamma:562794:Yes:1d:BUY",
+      "strategy_id": "MR",
+      "market_title": "Will the Republican Party control the Senate after the 2026 Midterm elections?",
+      "predicted_prob": 0.72,
+      "outcome": 0,
+      "pnl": -0.73,
+      "brier_error": 0.5184,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792668830.8693113
+    },
     {
       "id": "REFL-1792667943798",
       "trade_id": "S12:629284:Yes:BUY",
@@ -2574,32 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792357336.4626527
-    },
-    {
-      "id": "REFL-1792355335023",
-      "trade_id": "WT:608547:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
-      "strategy_id": "WT",
-      "market_title": "Will Harry Kane win the 2026 Ballon d'Or?",
-      "predicted_prob": 0.88,
-      "outcome": 0,
-      "pnl": -1.15,
-      "brier_error": 0.7744,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792355335.0230296
-    },
-    {
-      "id": "REFL-1792353766566",
-      "trade_id": "MR:gamma:629030:Yes:1w:SELL",
-      "strategy_id": "MR",
-      "market_title": "Will Karen Bass win the 2026 Los Angeles mayoral election?",
-      "predicted_prob": 0.78,
-      "outcome": 0,
-      "pnl": -0.15,
-      "brier_error": 0.6084,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792353766.5666687
     }
   ],
   "strategy_weights": {
@@ -2652,11 +2652,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3885,
-      "win_rate": 35.9,
-      "trades_count": 142,
+      "brier_score": 0.3903,
+      "win_rate": 35.4,
+      "trades_count": 144,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1566,
+      "reliability": 0.1602,
       "resolution": 0.0,
       "status": "REDUCED"
     },
