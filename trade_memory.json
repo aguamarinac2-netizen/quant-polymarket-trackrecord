@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792665389.8544538,
+  "updated_at": 1792666113.072822,
   "reflections": [
+    {
+      "id": "REFL-1792665585148",
+      "trade_id": "S10:943457:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Will the Democratic Party win the NY-19 House seat?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -0.43,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792665585.1483798
+    },
     {
       "id": "REFL-1792661663127",
       "trade_id": "S10:1060714:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792353319.6314125
-    },
-    {
-      "id": "REFL-1792352552097",
-      "trade_id": "MR:gamma:634974:Yes:1d:BUY",
-      "strategy_id": "MR",
-      "market_title": "Will Dan Sullivan win the Alaska Senate race in 2026?",
-      "predicted_prob": 0.72,
-      "outcome": 0,
-      "pnl": -0.17,
-      "brier_error": 0.5184,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792352552.0975227
     }
   ],
   "strategy_weights": {
@@ -2625,11 +2625,11 @@
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.4455,
-      "win_rate": 23.4,
-      "trades_count": 141,
+      "brier_score": 0.4463,
+      "win_rate": 23.2,
+      "trades_count": 142,
       "kelly_multiplier": 0.4,
-      "reliability": 0.2662,
+      "reliability": 0.2679,
       "resolution": 0.0,
       "status": "REDUCED"
     },
@@ -2643,11 +2643,11 @@
       "status": "REDUCED"
     },
     "WT": {
-      "brier_score": 0.6112,
-      "win_rate": 19.5,
-      "trades_count": 123,
+      "brier_score": 0.6064,
+      "win_rate": 20.2,
+      "trades_count": 124,
       "kelly_multiplier": 0.4,
-      "reliability": 0.4527,
+      "reliability": 0.4439,
       "resolution": 0.0,
       "status": "REDUCED"
     },
