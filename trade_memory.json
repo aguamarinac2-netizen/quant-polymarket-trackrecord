@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792674401.5426908,
+  "updated_at": 1792675129.7157855,
   "reflections": [
+    {
+      "id": "REFL-1792674714862",
+      "trade_id": "S10:943571:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Will the Democratic Party win the OH-09 House seat?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -2.2,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792674714.8625712
+    },
     {
       "id": "REFL-1792673860766",
       "trade_id": "S10:703686:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792396420.3364432
-    },
-    {
-      "id": "REFL-1792395937915",
-      "trade_id": "MR:gamma:630844:Yes:1d:SELL",
-      "strategy_id": "MR",
-      "market_title": "Will the Democrats win the New Hampshire Senate race in 2026?",
-      "predicted_prob": 0.72,
-      "outcome": 0,
-      "pnl": -0.14,
-      "brier_error": 0.5184,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792395937.9157364
     }
   ],
   "strategy_weights": {
@@ -2625,11 +2625,11 @@
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.4444,
-      "win_rate": 23.6,
-      "trades_count": 144,
+      "brier_score": 0.4453,
+      "win_rate": 23.4,
+      "trades_count": 145,
       "kelly_multiplier": 0.4,
-      "reliability": 0.2641,
+      "reliability": 0.2658,
       "resolution": 0.0,
       "status": "REDUCED"
     },
