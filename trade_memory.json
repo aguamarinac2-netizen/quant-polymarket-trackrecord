@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792631770.0287282,
+  "updated_at": 1792632133.523387,
   "reflections": [
+    {
+      "id": "REFL-1792631892037",
+      "trade_id": "S10:948391:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Will there be no Somaliland parliamentary election before 2027?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -2.66,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792631892.0377522
+    },
     {
       "id": "REFL-1792631084927",
       "trade_id": "S10:629708:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792302415.7765741
-    },
-    {
-      "id": "REFL-1792302268831",
-      "trade_id": "WT:628941:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
-      "strategy_id": "WT",
-      "market_title": "Will Xavier Becerra win the California Governor Election in 2026?",
-      "predicted_prob": 0.88,
-      "outcome": 0,
-      "pnl": -0.31,
-      "brier_error": 0.7744,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792302268.8317778
     }
   ],
   "strategy_weights": {
@@ -2625,11 +2625,11 @@
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.4501,
-      "win_rate": 22.5,
-      "trades_count": 129,
+      "brier_score": 0.451,
+      "win_rate": 22.3,
+      "trades_count": 130,
       "kelly_multiplier": 0.4,
-      "reliability": 0.2758,
+      "reliability": 0.2776,
       "resolution": 0.0,
       "status": "REDUCED"
     },
@@ -2661,11 +2661,11 @@
       "status": "REDUCED"
     },
     "S03": {
-      "brier_score": 0.5184,
-      "win_rate": 0.0,
-      "trades_count": 3,
+      "brier_score": 0.4084,
+      "win_rate": 25.0,
+      "trades_count": 4,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5184,
+      "reliability": 0.2209,
       "resolution": 0.0,
       "status": "REDUCED"
     },
