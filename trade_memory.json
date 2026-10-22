@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792703184.0093029,
+  "updated_at": 1792704037.4371598,
   "reflections": [
+    {
+      "id": "REFL-1792703898455",
+      "trade_id": "MR:gamma:920403:Yes:1d:SELL",
+      "strategy_id": "MR",
+      "market_title": "Variational FDV above $1B one day after launch?",
+      "predicted_prob": 0.72,
+      "outcome": 0,
+      "pnl": -0.67,
+      "brier_error": 0.5184,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792703898.4550786
+    },
     {
       "id": "REFL-1792701836410",
       "trade_id": "S10:920403:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792440542.3302877
-    },
-    {
-      "id": "REFL-1792439121505",
-      "trade_id": "S12:942902:Yes:BUY",
-      "strategy_id": "S12",
-      "market_title": "Will the Democratic Party win the NV-04 House seat?",
-      "predicted_prob": 0.9,
-      "outcome": 0,
-      "pnl": -0.13,
-      "brier_error": 0.81,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792439121.5059533
     }
   ],
   "strategy_weights": {
@@ -2652,11 +2652,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3892,
-      "win_rate": 35.7,
-      "trades_count": 154,
+      "brier_score": 0.39,
+      "win_rate": 35.5,
+      "trades_count": 155,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1575,
+      "reliability": 0.1592,
       "resolution": 0.0,
       "status": "REDUCED"
     },
