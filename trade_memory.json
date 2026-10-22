@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792678754.7801995,
+  "updated_at": 1792678996.2016938,
   "reflections": [
+    {
+      "id": "REFL-1792678872941",
+      "trade_id": "MR:gamma:629030:Yes:1d:BUY",
+      "strategy_id": "MR",
+      "market_title": "Will Karen Bass win the 2026 Los Angeles mayoral election?",
+      "predicted_prob": 0.78,
+      "outcome": 0,
+      "pnl": -0.61,
+      "brier_error": 0.6084,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792678872.9410915
+    },
     {
       "id": "REFL-1792678201781",
       "trade_id": "S12:630911:Yes:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792399172.8332093
-    },
-    {
-      "id": "REFL-1792397868815",
-      "trade_id": "WT:567621:0x43372356634781eea88d61bbdd7824cdce958882:No:BUY",
-      "strategy_id": "WT",
-      "market_title": "Will China invade Taiwan by end of 2026?",
-      "predicted_prob": 0.88,
-      "outcome": 0,
-      "pnl": -0.06,
-      "brier_error": 0.7744,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792397868.815079
     }
   ],
   "strategy_weights": {
@@ -2652,11 +2652,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3925,
-      "win_rate": 34.9,
-      "trades_count": 146,
+      "brier_score": 0.394,
+      "win_rate": 34.7,
+      "trades_count": 147,
       "kelly_multiplier": 0.4,
-      "reliability": 0.164,
+      "reliability": 0.166,
       "resolution": 0.0,
       "status": "REDUCED"
     },
