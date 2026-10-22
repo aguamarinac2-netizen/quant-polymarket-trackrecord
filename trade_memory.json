@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792639874.0501266,
+  "updated_at": 1792640239.616125,
   "reflections": [
+    {
+      "id": "REFL-1792640205739",
+      "trade_id": "WT:559660:0x66e7ce01c6831b8a2503d09edd6167152ee68bcd:Yes:BUY",
+      "strategy_id": "WT",
+      "market_title": "Will Andy Beshear win the 2028 Democratic presidential nomination?",
+      "predicted_prob": 0.82,
+      "outcome": 0,
+      "pnl": -0.29,
+      "brier_error": 0.6724,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792640205.7392793
+    },
     {
       "id": "REFL-1792638665582",
       "trade_id": "MR:gamma:943748:Yes:1d:SELL",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792310351.5812986
-    },
-    {
-      "id": "REFL-1792306926783",
-      "trade_id": "S12:942987:Yes:BUY",
-      "strategy_id": "S12",
-      "market_title": "Will the Democratic Party win the NJ-09 House seat?",
-      "predicted_prob": 0.9,
-      "outcome": 0,
-      "pnl": -0.96,
-      "brier_error": 0.81,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792306926.783187
     }
   ],
   "strategy_weights": {
@@ -2643,11 +2643,11 @@
       "status": "REDUCED"
     },
     "WT": {
-      "brier_score": 0.6236,
-      "win_rate": 17.9,
-      "trades_count": 117,
+      "brier_score": 0.624,
+      "win_rate": 17.8,
+      "trades_count": 118,
       "kelly_multiplier": 0.4,
-      "reliability": 0.4767,
+      "reliability": 0.4782,
       "resolution": 0.0,
       "status": "REDUCED"
     },
