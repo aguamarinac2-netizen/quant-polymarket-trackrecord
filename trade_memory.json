@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792661573.787983,
+  "updated_at": 1792661818.8180597,
   "reflections": [
+    {
+      "id": "REFL-1792661663127",
+      "trade_id": "S10:1060714:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Nothing Ever Happens: 2026",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -0.12,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792661663.1280146
+    },
     {
       "id": "REFL-1792660521281",
       "trade_id": "WT:567689:0x5ea96ff6e356b57c5fba37f2147444d28afd0bff:Yes:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792352552.0975227
-    },
-    {
-      "id": "REFL-1792352455967",
-      "trade_id": "S10:701720:No:BUY",
-      "strategy_id": "S10",
-      "market_title": "Will Dogecoin dip to $0.06 by December 31, 2026?",
-      "predicted_prob": 0.75,
-      "outcome": 0,
-      "pnl": -0.41,
-      "brier_error": 0.5625,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792352455.9678566
     }
   ],
   "strategy_weights": {
@@ -2625,11 +2625,11 @@
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.4446,
-      "win_rate": 23.6,
-      "trades_count": 140,
+      "brier_score": 0.4455,
+      "win_rate": 23.4,
+      "trades_count": 141,
       "kelly_multiplier": 0.4,
-      "reliability": 0.2645,
+      "reliability": 0.2662,
       "resolution": 0.0,
       "status": "REDUCED"
     },
