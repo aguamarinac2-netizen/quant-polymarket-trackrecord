@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792651010.9817457,
+  "updated_at": 1792651614.675357,
   "reflections": [
+    {
+      "id": "REFL-1792651312059",
+      "trade_id": "WT:629531:0x66e7ce01c6831b8a2503d09edd6167152ee68bcd:Yes:BUY",
+      "strategy_id": "WT",
+      "market_title": "Will the Democrats win the New Mexico governor race in 2026?",
+      "predicted_prob": 0.82,
+      "outcome": 0,
+      "pnl": -0.15,
+      "brier_error": 0.6724,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792651312.0593574
+    },
     {
       "id": "REFL-1792644916710",
       "trade_id": "S10:1060487:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792319783.7220523
-    },
-    {
-      "id": "REFL-1792314882279",
-      "trade_id": "S10:630760:No:BUY",
-      "strategy_id": "S10",
-      "market_title": "Will the Republicans win the Kentucky Senate race in 2026?",
-      "predicted_prob": 0.75,
-      "outcome": 0,
-      "pnl": -0.44,
-      "brier_error": 0.5625,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792314882.2798467
     }
   ],
   "strategy_weights": {
@@ -2643,11 +2643,11 @@
       "status": "REDUCED"
     },
     "WT": {
-      "brier_score": 0.614,
-      "win_rate": 19.2,
-      "trades_count": 120,
+      "brier_score": 0.6144,
+      "win_rate": 19.0,
+      "trades_count": 121,
       "kelly_multiplier": 0.4,
-      "reliability": 0.459,
+      "reliability": 0.4606,
       "resolution": 0.0,
       "status": "REDUCED"
     },
