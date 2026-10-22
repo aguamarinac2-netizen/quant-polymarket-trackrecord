@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792659103.8413281,
+  "updated_at": 1792659764.8232758,
   "reflections": [
+    {
+      "id": "REFL-1792659456367",
+      "trade_id": "S20:567690:No:BUY",
+      "strategy_id": "S20",
+      "market_title": "Erdoğan out by December 31, 2026?",
+      "predicted_prob": 0.96,
+      "outcome": 0,
+      "pnl": -0.07,
+      "brier_error": 0.9216,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792659456.3679802
+    },
     {
       "id": "REFL-1792658145762",
       "trade_id": "MR:gamma:561974:Yes:1w:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792344806.2464483
-    },
-    {
-      "id": "REFL-1792337790882",
-      "trade_id": "S10:682708:No:BUY",
-      "strategy_id": "S10",
-      "market_title": "Will Gadi Eizenkot be the next Prime Minister of Israel?",
-      "predicted_prob": 0.75,
-      "outcome": 0,
-      "pnl": -0.24,
-      "brier_error": 0.5625,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792337790.882157
     }
   ],
   "strategy_weights": {
@@ -2616,11 +2616,11 @@
   },
   "strategy_brier_scores": {
     "S20": {
-      "brier_score": 0.8291,
-      "win_rate": 10.1,
-      "trades_count": 99,
+      "brier_score": 0.83,
+      "win_rate": 10.0,
+      "trades_count": 100,
       "kelly_multiplier": 0.4,
-      "reliability": 0.738,
+      "reliability": 0.7398,
       "resolution": 0.0,
       "status": "REDUCED"
     },
@@ -2643,11 +2643,11 @@
       "status": "REDUCED"
     },
     "WT": {
-      "brier_score": 0.6144,
-      "win_rate": 19.0,
-      "trades_count": 121,
+      "brier_score": 0.6099,
+      "win_rate": 19.7,
+      "trades_count": 122,
       "kelly_multiplier": 0.4,
-      "reliability": 0.4606,
+      "reliability": 0.4504,
       "resolution": 0.0,
       "status": "REDUCED"
     },
