@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792682514.0638132,
+  "updated_at": 1792683243.5139945,
   "reflections": [
+    {
+      "id": "REFL-1792683122228",
+      "trade_id": "WT:559652:0x66e7ce01c6831b8a2503d09edd6167152ee68bcd:No:SELL",
+      "strategy_id": "WT",
+      "market_title": "Will Gavin Newsom win the 2028 Democratic presidential nomination?",
+      "predicted_prob": 0.82,
+      "outcome": 0,
+      "pnl": -0.2,
+      "brier_error": 0.6724,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792683122.2282166
+    },
     {
       "id": "REFL-1792680865249",
       "trade_id": "MR:gamma:630924:Yes:1w:SELL",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792407689.7519712
-    },
-    {
-      "id": "REFL-1792403842990",
-      "trade_id": "S10:679018:No:BUY",
-      "strategy_id": "S10",
-      "market_title": "Will Marine Le Pen win the 2027 French presidential election?",
-      "predicted_prob": 0.75,
-      "outcome": 0,
-      "pnl": -0.4,
-      "brier_error": 0.5625,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792403842.9908106
     }
   ],
   "strategy_weights": {
@@ -2643,20 +2643,20 @@
       "status": "REDUCED"
     },
     "WT": {
-      "brier_score": 0.6042,
-      "win_rate": 20.3,
-      "trades_count": 128,
+      "brier_score": 0.6047,
+      "win_rate": 20.2,
+      "trades_count": 129,
       "kelly_multiplier": 0.4,
-      "reliability": 0.4407,
+      "reliability": 0.4423,
       "resolution": 0.0,
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3955,
-      "win_rate": 34.5,
-      "trades_count": 148,
+      "brier_score": 0.3931,
+      "win_rate": 34.9,
+      "trades_count": 149,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1681,
+      "reliability": 0.1647,
       "resolution": 0.0,
       "status": "REDUCED"
     },
