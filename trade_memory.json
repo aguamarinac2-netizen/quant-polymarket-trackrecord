@@ -1,6 +1,32 @@
 {
-  "updated_at": 1792660006.7928667,
+  "updated_at": 1792660669.6822913,
   "reflections": [
+    {
+      "id": "REFL-1792660521281",
+      "trade_id": "WT:567689:0x5ea96ff6e356b57c5fba37f2147444d28afd0bff:Yes:BUY",
+      "strategy_id": "WT",
+      "market_title": "Zelenskyy out as Ukraine president by end of 2026?",
+      "predicted_prob": 0.88,
+      "outcome": 0,
+      "pnl": -1.7,
+      "brier_error": 0.7744,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792660521.2814782
+    },
+    {
+      "id": "REFL-1792660328372",
+      "trade_id": "S10:1068384:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Will El Salvador hold $1b+ of BTC by December 31, 2026?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -0.51,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792660328.3720796
+    },
     {
       "id": "REFL-1792659456367",
       "trade_id": "S20:567690:No:BUY",
@@ -2574,32 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792352455.9678566
-    },
-    {
-      "id": "REFL-1792347644796",
-      "trade_id": "MR:gamma:701547:Yes:1d:BUY",
-      "strategy_id": "MR",
-      "market_title": "Will Ethereum reach $4,500 by December 31, 2026?",
-      "predicted_prob": 0.72,
-      "outcome": 0,
-      "pnl": -1.88,
-      "brier_error": 0.5184,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792347644.796675
-    },
-    {
-      "id": "REFL-1792344806246",
-      "trade_id": "S10:734885:No:BUY",
-      "strategy_id": "S10",
-      "market_title": "Will Donald Trump visit New Hampshire in 2026?",
-      "predicted_prob": 0.75,
-      "outcome": 0,
-      "pnl": -0.04,
-      "brier_error": 0.5625,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792344806.2464483
     }
   ],
   "strategy_weights": {
@@ -2625,11 +2625,11 @@
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.4438,
-      "win_rate": 23.7,
-      "trades_count": 139,
+      "brier_score": 0.4446,
+      "win_rate": 23.6,
+      "trades_count": 140,
       "kelly_multiplier": 0.4,
-      "reliability": 0.2627,
+      "reliability": 0.2645,
       "resolution": 0.0,
       "status": "REDUCED"
     },
@@ -2643,11 +2643,11 @@
       "status": "REDUCED"
     },
     "WT": {
-      "brier_score": 0.6099,
-      "win_rate": 19.7,
-      "trades_count": 122,
+      "brier_score": 0.6112,
+      "win_rate": 19.5,
+      "trades_count": 123,
       "kelly_multiplier": 0.4,
-      "reliability": 0.4504,
+      "reliability": 0.4527,
       "resolution": 0.0,
       "status": "REDUCED"
     },
