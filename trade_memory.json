@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792679842.7463973,
+  "updated_at": 1792680511.9476557,
   "reflections": [
+    {
+      "id": "REFL-1792680274866",
+      "trade_id": "WT:567688:0x49f206f4fb2210a28af4795e4e0b6532cf0bd7b4:No:BUY",
+      "strategy_id": "WT",
+      "market_title": "Netanyahu out by end of 2026?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -0.24,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792680274.866922
+    },
     {
       "id": "REFL-1792678872941",
       "trade_id": "MR:gamma:629030:Yes:1d:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792401952.2969232
-    },
-    {
-      "id": "REFL-1792399172833",
-      "trade_id": "MR:gamma:561974:Yes:1d:BUY",
-      "strategy_id": "MR",
-      "market_title": "Will J.D. Vance win the 2028 Republican presidential nomination?",
-      "predicted_prob": 0.75,
-      "outcome": 0,
-      "pnl": -0.63,
-      "brier_error": 0.5625,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792399172.8332093
     }
   ],
   "strategy_weights": {
@@ -2643,11 +2643,11 @@
       "status": "REDUCED"
     },
     "WT": {
-      "brier_score": 0.6045,
-      "win_rate": 20.5,
-      "trades_count": 127,
+      "brier_score": 0.6042,
+      "win_rate": 20.3,
+      "trades_count": 128,
       "kelly_multiplier": 0.4,
-      "reliability": 0.4398,
+      "reliability": 0.4407,
       "resolution": 0.0,
       "status": "REDUCED"
     },
