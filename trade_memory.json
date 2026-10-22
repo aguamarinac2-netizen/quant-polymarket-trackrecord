@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792673555.019219,
+  "updated_at": 1792674219.3481333,
   "reflections": [
+    {
+      "id": "REFL-1792673860766",
+      "trade_id": "S10:703686:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Will the Democratic Party win the CA-22 House seat?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -0.4,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792673860.7661536
+    },
     {
       "id": "REFL-1792669333785",
       "trade_id": "WT:629545:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792395937.9157364
-    },
-    {
-      "id": "REFL-1792390967909",
-      "trade_id": "MR:gamma:629183:Yes:1d:SELL",
-      "strategy_id": "MR",
-      "market_title": "Will the Democrats win the Arizona governor race in 2026?",
-      "predicted_prob": 0.78,
-      "outcome": 0,
-      "pnl": -0.13,
-      "brier_error": 0.6084,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792390967.9092429
     }
   ],
   "strategy_weights": {
@@ -2625,11 +2625,11 @@
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.4463,
-      "win_rate": 23.2,
-      "trades_count": 142,
+      "brier_score": 0.4444,
+      "win_rate": 23.6,
+      "trades_count": 144,
       "kelly_multiplier": 0.4,
-      "reliability": 0.2679,
+      "reliability": 0.2641,
       "resolution": 0.0,
       "status": "REDUCED"
     },
