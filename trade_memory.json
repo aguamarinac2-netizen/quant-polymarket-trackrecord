@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792657955.5783148,
+  "updated_at": 1792658195.6398768,
   "reflections": [
+    {
+      "id": "REFL-1792658145762",
+      "trade_id": "MR:gamma:561974:Yes:1w:BUY",
+      "strategy_id": "MR",
+      "market_title": "Will J.D. Vance win the 2028 Republican presidential nomination?",
+      "predicted_prob": 0.78,
+      "outcome": 0,
+      "pnl": -0.28,
+      "brier_error": 0.6084,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792658145.7626116
+    },
     {
       "id": "REFL-1792654820652",
       "trade_id": "MR:gamma:634893:Yes:1d:SELL",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792337790.882157
-    },
-    {
-      "id": "REFL-1792334663378",
-      "trade_id": "WT:629397:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
-      "strategy_id": "WT",
-      "market_title": "Will the Democrats win the Iowa governor race in 2026?",
-      "predicted_prob": 0.88,
-      "outcome": 0,
-      "pnl": -1.16,
-      "brier_error": 0.7744,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792334663.3781805
     }
   ],
   "strategy_weights": {
@@ -2652,11 +2652,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3869,
-      "win_rate": 36.2,
-      "trades_count": 141,
+      "brier_score": 0.3885,
+      "win_rate": 35.9,
+      "trades_count": 142,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1544,
+      "reliability": 0.1566,
       "resolution": 0.0,
       "status": "REDUCED"
     },
