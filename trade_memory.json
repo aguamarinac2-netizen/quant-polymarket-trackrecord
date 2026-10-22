@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792667865.3316295,
+  "updated_at": 1792668108.0693278,
   "reflections": [
+    {
+      "id": "REFL-1792667943798",
+      "trade_id": "S12:629284:Yes:BUY",
+      "strategy_id": "S12",
+      "market_title": "Will the Republicans win the Arkansas governor race in 2026?",
+      "predicted_prob": 0.9,
+      "outcome": 0,
+      "pnl": -0.05,
+      "brier_error": 0.81,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792667943.7988155
+    },
     {
       "id": "REFL-1792665585148",
       "trade_id": "S10:943457:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792353766.5666687
-    },
-    {
-      "id": "REFL-1792353319631",
-      "trade_id": "FLB:559695:No:BUY",
-      "strategy_id": "FLB",
-      "market_title": "Will James Talarico win the 2028 Democratic presidential nomination?",
-      "predicted_prob": 0.6,
-      "outcome": 0,
-      "pnl": -0.07,
-      "brier_error": 0.36,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792353319.6314125
     }
   ],
   "strategy_weights": {
@@ -2634,11 +2634,11 @@
       "status": "REDUCED"
     },
     "S12": {
-      "brier_score": 0.6929,
-      "win_rate": 14.6,
-      "trades_count": 82,
+      "brier_score": 0.6943,
+      "win_rate": 14.5,
+      "trades_count": 83,
       "kelly_multiplier": 0.4,
-      "reliability": 0.568,
+      "reliability": 0.5707,
       "resolution": 0.0,
       "status": "REDUCED"
     },
