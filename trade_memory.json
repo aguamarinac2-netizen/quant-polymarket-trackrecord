@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792654627.25255,
+  "updated_at": 1792655231.964444,
   "reflections": [
+    {
+      "id": "REFL-1792654820652",
+      "trade_id": "MR:gamma:634893:Yes:1d:SELL",
+      "strategy_id": "MR",
+      "market_title": "Will an independent win the Nebraska Senate race in 2026?",
+      "predicted_prob": 0.72,
+      "outcome": 0,
+      "pnl": 0.0,
+      "brier_error": 0.5184,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792654820.6524878
+    },
     {
       "id": "REFL-1792651312059",
       "trade_id": "WT:629531:0x66e7ce01c6831b8a2503d09edd6167152ee68bcd:Yes:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792334663.3781805
-    },
-    {
-      "id": "REFL-1792319783722",
-      "trade_id": "WT:562830:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
-      "strategy_id": "WT",
-      "market_title": "2026 Balance of Power: R Senate, D House",
-      "predicted_prob": 0.88,
-      "outcome": 0,
-      "pnl": -0.01,
-      "brier_error": 0.7744,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792319783.7220523
     }
   ],
   "strategy_weights": {
@@ -2652,11 +2652,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.386,
-      "win_rate": 36.4,
-      "trades_count": 140,
+      "brier_score": 0.3869,
+      "win_rate": 36.2,
+      "trades_count": 141,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1526,
+      "reliability": 0.1544,
       "resolution": 0.0,
       "status": "REDUCED"
     },
