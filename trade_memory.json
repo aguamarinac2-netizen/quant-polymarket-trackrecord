@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792707746.4882503,
+  "updated_at": 1792708595.1441565,
   "reflections": [
+    {
+      "id": "REFL-1792708153398",
+      "trade_id": "WT:608540:0xd218e474776403a330142299f7796e8ba32eb5c9:Yes:BUY",
+      "strategy_id": "WT",
+      "market_title": "Will Kylian Mbappé win the 2026 Ballon d'Or?",
+      "predicted_prob": 0.85,
+      "outcome": 0,
+      "pnl": -1.5,
+      "brier_error": 0.7225,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792708153.3982954
+    },
     {
       "id": "REFL-1792705428972",
       "trade_id": "S10:944265:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792446940.5483394
-    },
-    {
-      "id": "REFL-1792446320124",
-      "trade_id": "MR:gamma:608545:Yes:1w:BUY",
-      "strategy_id": "MR",
-      "market_title": "Will Lamine Yamal win the 2026 Ballon d'Or?",
-      "predicted_prob": 0.78,
-      "outcome": 0,
-      "pnl": -9.95,
-      "brier_error": 0.6084,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792446320.124658
     }
   ],
   "strategy_weights": {
@@ -2643,11 +2643,11 @@
       "status": "REDUCED"
     },
     "WT": {
-      "brier_score": 0.6,
-      "win_rate": 20.6,
-      "trades_count": 131,
+      "brier_score": 0.6009,
+      "win_rate": 20.5,
+      "trades_count": 132,
       "kelly_multiplier": 0.4,
-      "reliability": 0.4353,
+      "reliability": 0.4372,
       "resolution": 0.0,
       "status": "REDUCED"
     },
