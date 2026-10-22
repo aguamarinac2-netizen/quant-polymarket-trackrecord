@@ -1,6 +1,45 @@
 {
-  "updated_at": 1792708595.1441565,
+  "updated_at": 1792709453.830202,
   "reflections": [
+    {
+      "id": "REFL-1792708953708",
+      "trade_id": "WT:561262:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
+      "strategy_id": "WT",
+      "market_title": "Will James Talarico win the 2028 US Presidential Election?",
+      "predicted_prob": 0.88,
+      "outcome": 0,
+      "pnl": -0.01,
+      "brier_error": 0.7744,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792708953.7087402
+    },
+    {
+      "id": "REFL-1792708853344",
+      "trade_id": "MR:gamma:943749:Yes:1d:SELL",
+      "strategy_id": "MR",
+      "market_title": "Will the Democratic Party win the PA-01 House seat?",
+      "predicted_prob": 0.78,
+      "outcome": 0,
+      "pnl": -0.39,
+      "brier_error": 0.6084,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792708853.344356
+    },
+    {
+      "id": "REFL-1792708762727",
+      "trade_id": "WT:560317:0x410aa391edffa58af64517ec579af5def62b2643:No:BUY",
+      "strategy_id": "WT",
+      "market_title": "Putin out as President of Russia by December 31, 2026?",
+      "predicted_prob": 0.86,
+      "outcome": 0,
+      "pnl": -0.04,
+      "brier_error": 0.7396,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792708762.7273939
+    },
     {
       "id": "REFL-1792708153398",
       "trade_id": "WT:608540:0xd218e474776403a330142299f7796e8ba32eb5c9:Yes:BUY",
@@ -2561,45 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792455084.1061294
-    },
-    {
-      "id": "REFL-1792455084053",
-      "trade_id": "MR:gamma:629183:Yes:1d:SELL",
-      "strategy_id": "MR",
-      "market_title": "Will the Democrats win the Arizona governor race in 2026?",
-      "predicted_prob": 0.78,
-      "outcome": 0,
-      "pnl": -0.03,
-      "brier_error": 0.6084,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792455084.0532959
-    },
-    {
-      "id": "REFL-1792450977730",
-      "trade_id": "MR:local:559658:Yes:BUY",
-      "strategy_id": "MR",
-      "market_title": "Will Kamala Harris win the 2028 Democratic presidential nomination?",
-      "predicted_prob": 0.75,
-      "outcome": 0,
-      "pnl": -0.7,
-      "brier_error": 0.5625,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792450977.7305825
-    },
-    {
-      "id": "REFL-1792446940548",
-      "trade_id": "S10:942409:No:BUY",
-      "strategy_id": "S10",
-      "market_title": "Will the Democratic Party win the FL-23 House seat?",
-      "predicted_prob": 0.75,
-      "outcome": 0,
-      "pnl": -0.43,
-      "brier_error": 0.5625,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792446940.5483394
     }
   ],
   "strategy_weights": {
@@ -2643,20 +2643,20 @@
       "status": "REDUCED"
     },
     "WT": {
-      "brier_score": 0.6009,
-      "win_rate": 20.5,
-      "trades_count": 132,
+      "brier_score": 0.6033,
+      "win_rate": 20.1,
+      "trades_count": 134,
       "kelly_multiplier": 0.4,
-      "reliability": 0.4372,
+      "reliability": 0.4413,
       "resolution": 0.0,
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.39,
-      "win_rate": 35.5,
-      "trades_count": 155,
+      "brier_score": 0.3914,
+      "win_rate": 35.3,
+      "trades_count": 156,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1592,
+      "reliability": 0.1611,
       "resolution": 0.0,
       "status": "REDUCED"
     },
