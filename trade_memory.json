@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792769823.846169,
+  "updated_at": 1792770003.8916063,
   "reflections": [
+    {
+      "id": "REFL-1792769889187",
+      "trade_id": "WT:629629:0x66e7ce01c6831b8a2503d09edd6167152ee68bcd:No:BUY",
+      "strategy_id": "WT",
+      "market_title": "Will an independent win the Rhode Island governor race in 2026?",
+      "predicted_prob": 0.82,
+      "outcome": 0,
+      "pnl": -0.0,
+      "brier_error": 0.6724,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792769889.1873932
+    },
     {
       "id": "REFL-1792767252265",
       "trade_id": "MR:gamma:631018:Yes:1w:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792455096.8212864
-    },
-    {
-      "id": "REFL-1792455096809",
-      "trade_id": "S12:943469:Yes:BUY",
-      "strategy_id": "S12",
-      "market_title": "Will the Democratic Party win the NY-22 House seat?",
-      "predicted_prob": 0.9,
-      "outcome": 0,
-      "pnl": -0.06,
-      "brier_error": 0.81,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792455096.8092196
     }
   ],
   "strategy_weights": {
@@ -2643,11 +2643,11 @@
       "status": "REDUCED"
     },
     "WT": {
-      "brier_score": 0.6021,
-      "win_rate": 20.3,
-      "trades_count": 143,
+      "brier_score": 0.6026,
+      "win_rate": 20.1,
+      "trades_count": 144,
       "kelly_multiplier": 0.4,
-      "reliability": 0.4398,
+      "reliability": 0.4412,
       "resolution": 0.0,
       "status": "REDUCED"
     },
