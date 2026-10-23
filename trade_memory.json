@@ -1,6 +1,32 @@
 {
-  "updated_at": 1792764568.409842,
+  "updated_at": 1792765300.7196214,
   "reflections": [
+    {
+      "id": "REFL-1792765272430",
+      "trade_id": "S12:629451:Yes:BUY",
+      "strategy_id": "S12",
+      "market_title": "Will the Democrats win the Massachusetts governor race in 2026?",
+      "predicted_prob": 0.9,
+      "outcome": 0,
+      "pnl": -0.05,
+      "brier_error": 0.81,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792765272.4300754
+    },
+    {
+      "id": "REFL-1792765022259",
+      "trade_id": "MR:gamma:944249:Yes:1d:BUY",
+      "strategy_id": "MR",
+      "market_title": "Will the Republican Party win the TX-35 House seat?",
+      "predicted_prob": 0.72,
+      "outcome": 0,
+      "pnl": -0.7,
+      "brier_error": 0.5184,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792765022.259659
+    },
     {
       "id": "REFL-1792763730517",
       "trade_id": "S10:942995:No:BUY",
@@ -2574,32 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792455096.766309
-    },
-    {
-      "id": "REFL-1792455096753",
-      "trade_id": "S20:666604:No:BUY",
-      "strategy_id": "S20",
-      "market_title": "Will Trump meet with Yoon Suk Yeol in 2026?",
-      "predicted_prob": 0.96,
-      "outcome": 0,
-      "pnl": -0.05,
-      "brier_error": 0.9216,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792455096.7533967
-    },
-    {
-      "id": "REFL-1792455096740",
-      "trade_id": "S20:665515:No:BUY",
-      "strategy_id": "S20",
-      "market_title": "Will Israel annex West Bank territory before 2027?",
-      "predicted_prob": 0.96,
-      "outcome": 0,
-      "pnl": -0.05,
-      "brier_error": 0.9216,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792455096.7407181
     }
   ],
   "strategy_weights": {
@@ -2634,11 +2634,11 @@
       "status": "REDUCED"
     },
     "S12": {
-      "brier_score": 0.6905,
-      "win_rate": 14.9,
-      "trades_count": 87,
+      "brier_score": 0.6918,
+      "win_rate": 14.8,
+      "trades_count": 88,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5634,
+      "reliability": 0.5659,
       "resolution": 0.0,
       "status": "REDUCED"
     },
@@ -2652,11 +2652,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3923,
-      "win_rate": 35.2,
-      "trades_count": 162,
+      "brier_score": 0.3931,
+      "win_rate": 35.0,
+      "trades_count": 163,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1619,
+      "reliability": 0.1635,
       "resolution": 0.0,
       "status": "REDUCED"
     },
