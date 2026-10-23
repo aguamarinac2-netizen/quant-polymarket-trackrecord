@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792715786.6259634,
+  "updated_at": 1792716694.977713,
   "reflections": [
+    {
+      "id": "REFL-1792716288834",
+      "trade_id": "S10:630734:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Will the Republicans win the Iowa Senate race in 2026?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -0.04,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792716288.8343709
+    },
     {
       "id": "REFL-1792713043174",
       "trade_id": "MR:gamma:943748:Yes:1d:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792455084.13027
-    },
-    {
-      "id": "REFL-1792455084118",
-      "trade_id": "S20:561239:No:BUY",
-      "strategy_id": "S20",
-      "market_title": "Will Kamala Harris win the 2028 US Presidential Election?",
-      "predicted_prob": 0.96,
-      "outcome": 0,
-      "pnl": -0.1,
-      "brier_error": 0.9216,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792455084.1184812
     }
   ],
   "strategy_weights": {
@@ -2625,11 +2625,11 @@
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.4528,
-      "win_rate": 21.9,
-      "trades_count": 155,
+      "brier_score": 0.4535,
+      "win_rate": 21.8,
+      "trades_count": 156,
       "kelly_multiplier": 0.4,
-      "reliability": 0.2816,
+      "reliability": 0.2831,
       "resolution": 0.0,
       "status": "REDUCED"
     },
