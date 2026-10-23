@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792789893.129872,
+  "updated_at": 1792790562.8309417,
   "reflections": [
+    {
+      "id": "REFL-1792790534896",
+      "trade_id": "MR:gamma:630964:Yes:1w:BUY",
+      "strategy_id": "MR",
+      "market_title": "Will the Republicans win the Texas Senate race in 2026?",
+      "predicted_prob": 0.78,
+      "outcome": 0,
+      "pnl": -0.16,
+      "brier_error": 0.6084,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792790534.8965745
+    },
     {
       "id": "REFL-1792786176793",
       "trade_id": "MR:gamma:1059066:Yes:1w:SELL",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792455329.2332973
-    },
-    {
-      "id": "REFL-1792455118576",
-      "trade_id": "WT:567689:0x3eae57986be5e0ca435102ffe1f14206ffa2e2ed:No:BUY",
-      "strategy_id": "WT",
-      "market_title": "Zelenskyy out as Ukraine president by end of 2026?",
-      "predicted_prob": 0.83,
-      "outcome": 0,
-      "pnl": -0.17,
-      "brier_error": 0.6889,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792455118.5762987
     }
   ],
   "strategy_weights": {
@@ -2652,11 +2652,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.398,
-      "win_rate": 34.1,
-      "trades_count": 170,
+      "brier_score": 0.3992,
+      "win_rate": 33.9,
+      "trades_count": 171,
       "kelly_multiplier": 0.4,
-      "reliability": 0.171,
+      "reliability": 0.1728,
       "resolution": 0.0,
       "status": "REDUCED"
     },
