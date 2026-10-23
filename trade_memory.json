@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792723030.1528063,
+  "updated_at": 1792723877.1379502,
   "reflections": [
+    {
+      "id": "REFL-1792723843980",
+      "trade_id": "MR:gamma:608547:Yes:1d:BUY",
+      "strategy_id": "MR",
+      "market_title": "Will Harry Kane win the 2026 Ballon d'Or?",
+      "predicted_prob": 0.73,
+      "outcome": 0,
+      "pnl": -0.03,
+      "brier_error": 0.5329,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792723843.9807749
+    },
     {
       "id": "REFL-1792716288834",
       "trade_id": "S10:630734:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792455084.1468542
-    },
-    {
-      "id": "REFL-1792455084130",
-      "trade_id": "S20:566760:No:BUY",
-      "strategy_id": "S20",
-      "market_title": "Will Trump pardon Ghislaine Maxwell by end of 2026?",
-      "predicted_prob": 0.96,
-      "outcome": 0,
-      "pnl": -0.1,
-      "brier_error": 0.9216,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792455084.13027
     }
   ],
   "strategy_weights": {
@@ -2652,11 +2652,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3908,
-      "win_rate": 35.4,
-      "trades_count": 158,
+      "brier_score": 0.3917,
+      "win_rate": 35.2,
+      "trades_count": 159,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1596,
+      "reliability": 0.1613,
       "resolution": 0.0,
       "status": "REDUCED"
     },
