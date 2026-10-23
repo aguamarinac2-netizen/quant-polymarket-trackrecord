@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792759197.2746494,
+  "updated_at": 1792759931.642522,
   "reflections": [
+    {
+      "id": "REFL-1792759720625",
+      "trade_id": "S10:678445:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Will Spider-Man: Brand New Day have the best domestic opening weekend in 2026?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -0.09,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792759720.625991
+    },
     {
       "id": "REFL-1792758681462",
       "trade_id": "S12:631003:Yes:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792455089.6100762
-    },
-    {
-      "id": "REFL-1792455089588",
-      "trade_id": "S20:634879:Yes:BUY",
-      "strategy_id": "S20",
-      "market_title": "Will the Republicans win the Louisiana Senate race in 2026?",
-      "predicted_prob": 0.96,
-      "outcome": 0,
-      "pnl": -0.12,
-      "brier_error": 0.9216,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792455089.5889795
     }
   ],
   "strategy_weights": {
@@ -2625,11 +2625,11 @@
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.4531,
-      "win_rate": 21.9,
-      "trades_count": 160,
+      "brier_score": 0.4538,
+      "win_rate": 21.7,
+      "trades_count": 161,
       "kelly_multiplier": 0.4,
-      "reliability": 0.2822,
+      "reliability": 0.2837,
       "resolution": 0.0,
       "status": "REDUCED"
     },
