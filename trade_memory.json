@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792767150.8573906,
+  "updated_at": 1792767272.3051138,
   "reflections": [
+    {
+      "id": "REFL-1792767252265",
+      "trade_id": "MR:gamma:631018:Yes:1w:BUY",
+      "strategy_id": "MR",
+      "market_title": "Will the Republicans win the Mississippi Senate race in 2026?",
+      "predicted_prob": 0.78,
+      "outcome": 0,
+      "pnl": -0.14,
+      "brier_error": 0.6084,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792767252.2651622
+    },
     {
       "id": "REFL-1792765652696",
       "trade_id": "WT:629584:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792455096.8092196
-    },
-    {
-      "id": "REFL-1792455096798",
-      "trade_id": "S12:943457:Yes:BUY",
-      "strategy_id": "S12",
-      "market_title": "Will the Democratic Party win the NY-19 House seat?",
-      "predicted_prob": 0.9,
-      "outcome": 0,
-      "pnl": -0.06,
-      "brier_error": 0.81,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792455096.798893
     }
   ],
   "strategy_weights": {
@@ -2652,11 +2652,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3931,
-      "win_rate": 35.0,
-      "trades_count": 163,
+      "brier_score": 0.3944,
+      "win_rate": 34.8,
+      "trades_count": 164,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1635,
+      "reliability": 0.1654,
       "resolution": 0.0,
       "status": "REDUCED"
     },
