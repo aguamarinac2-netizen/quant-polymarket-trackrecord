@@ -1,6 +1,32 @@
 {
-  "updated_at": 1792758284.6063864,
+  "updated_at": 1792759075.7373745,
   "reflections": [
+    {
+      "id": "REFL-1792758681462",
+      "trade_id": "S12:631003:Yes:BUY",
+      "strategy_id": "S12",
+      "market_title": "Will the Republicans win the Wyoming Senate race in 2026?",
+      "predicted_prob": 0.9,
+      "outcome": 0,
+      "pnl": 0.0,
+      "brier_error": 0.81,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792758681.4623866
+    },
+    {
+      "id": "REFL-1792758586952",
+      "trade_id": "WT:630706:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
+      "strategy_id": "WT",
+      "market_title": "Will the Republicans win the Idaho Senate race in 2026?",
+      "predicted_prob": 0.88,
+      "outcome": 0,
+      "pnl": -1.85,
+      "brier_error": 0.7744,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792758586.9527023
+    },
     {
       "id": "REFL-1792749560226",
       "trade_id": "WT:618454:0xa160602da183fdce0122bc927e7fdb9d36c67b21:No:BUY",
@@ -2574,32 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792455089.5889795
-    },
-    {
-      "id": "REFL-1792455089565",
-      "trade_id": "S20:630951:Yes:BUY",
-      "strategy_id": "S20",
-      "market_title": "Will the Republicans win the Tennessee Senate race in 2026?",
-      "predicted_prob": 0.96,
-      "outcome": 0,
-      "pnl": -0.07,
-      "brier_error": 0.9216,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792455089.5658243
-    },
-    {
-      "id": "REFL-1792455089551",
-      "trade_id": "S20:630760:Yes:BUY",
-      "strategy_id": "S20",
-      "market_title": "Will the Republicans win the Kentucky Senate race in 2026?",
-      "predicted_prob": 0.96,
-      "outcome": 0,
-      "pnl": -0.05,
-      "brier_error": 0.9216,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792455089.5512824
     }
   ],
   "strategy_weights": {
@@ -2634,20 +2634,20 @@
       "status": "REDUCED"
     },
     "S12": {
-      "brier_score": 0.6876,
-      "win_rate": 15.3,
-      "trades_count": 85,
+      "brier_score": 0.6891,
+      "win_rate": 15.1,
+      "trades_count": 86,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5581,
+      "reliability": 0.5608,
       "resolution": 0.0,
       "status": "REDUCED"
     },
     "WT": {
-      "brier_score": 0.595,
-      "win_rate": 21.2,
-      "trades_count": 137,
+      "brier_score": 0.5963,
+      "win_rate": 21.0,
+      "trades_count": 138,
       "kelly_multiplier": 0.4,
-      "reliability": 0.4276,
+      "reliability": 0.4298,
       "resolution": 0.0,
       "status": "REDUCED"
     },
