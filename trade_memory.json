@@ -1,6 +1,45 @@
 {
-  "updated_at": 1792763655.1981263,
+  "updated_at": 1792764446.79123,
   "reflections": [
+    {
+      "id": "REFL-1792763730517",
+      "trade_id": "S10:942995:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Will the Democratic Party win the NM-02 House seat?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -0.41,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792763730.5170338
+    },
+    {
+      "id": "REFL-1792763724449",
+      "trade_id": "WT:560317:0x8b4bca1d794779e66e023d44391b2a86c5ab541b:No:BUY",
+      "strategy_id": "WT",
+      "market_title": "Putin out as President of Russia by December 31, 2026?",
+      "predicted_prob": 0.86,
+      "outcome": 0,
+      "pnl": 0.0,
+      "brier_error": 0.7396,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792763724.449376
+    },
+    {
+      "id": "REFL-1792763724376",
+      "trade_id": "S12:629425:Yes:BUY",
+      "strategy_id": "S12",
+      "market_title": "Will the Democrats win the Maine governor race in 2026?",
+      "predicted_prob": 0.9,
+      "outcome": 0,
+      "pnl": -0.04,
+      "brier_error": 0.81,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792763724.3763332
+    },
     {
       "id": "REFL-1792763194083",
       "trade_id": "S10:972263:No:BUY",
@@ -2561,45 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792455096.7407181
-    },
-    {
-      "id": "REFL-1792455096728",
-      "trade_id": "S20:665514:No:BUY",
-      "strategy_id": "S20",
-      "market_title": "Nord Stream pipeline turned on before 2027?",
-      "predicted_prob": 0.96,
-      "outcome": 0,
-      "pnl": -0.06,
-      "brier_error": 0.9216,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792455096.7282512
-    },
-    {
-      "id": "REFL-1792455089657",
-      "trade_id": "S20:665459:No:BUY",
-      "strategy_id": "S20",
-      "market_title": "Will North Korea invade South Korea before 2027?",
-      "predicted_prob": 0.96,
-      "outcome": 0,
-      "pnl": -0.05,
-      "brier_error": 0.9216,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792455089.6573522
-    },
-    {
-      "id": "REFL-1792455089643",
-      "trade_id": "S20:665419:No:BUY",
-      "strategy_id": "S20",
-      "market_title": "Milei out as President of Argentina before 2027?",
-      "predicted_prob": 0.96,
-      "outcome": 0,
-      "pnl": -0.05,
-      "brier_error": 0.9216,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792455089.6431813
     }
   ],
   "strategy_weights": {
@@ -2625,29 +2625,29 @@
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.4545,
-      "win_rate": 21.6,
-      "trades_count": 162,
+      "brier_score": 0.4551,
+      "win_rate": 21.5,
+      "trades_count": 163,
       "kelly_multiplier": 0.4,
-      "reliability": 0.2851,
+      "reliability": 0.2865,
       "resolution": 0.0,
       "status": "REDUCED"
     },
     "S12": {
-      "brier_score": 0.6891,
-      "win_rate": 15.1,
-      "trades_count": 86,
+      "brier_score": 0.6905,
+      "win_rate": 14.9,
+      "trades_count": 87,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5608,
+      "reliability": 0.5634,
       "resolution": 0.0,
       "status": "REDUCED"
     },
     "WT": {
-      "brier_score": 0.5976,
-      "win_rate": 20.9,
-      "trades_count": 139,
+      "brier_score": 0.5986,
+      "win_rate": 20.7,
+      "trades_count": 140,
       "kelly_multiplier": 0.4,
-      "reliability": 0.4319,
+      "reliability": 0.4338,
       "resolution": 0.0,
       "status": "REDUCED"
     },
