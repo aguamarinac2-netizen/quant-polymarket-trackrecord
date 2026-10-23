@@ -1,6 +1,45 @@
 {
-  "updated_at": 1792744700.788511,
+  "updated_at": 1792745555.7002914,
   "reflections": [
+    {
+      "id": "REFL-1792745433314",
+      "trade_id": "MR:gamma:562830:Yes:1w:BUY",
+      "strategy_id": "MR",
+      "market_title": "2026 Balance of Power: R Senate, D House",
+      "predicted_prob": 0.78,
+      "outcome": 0,
+      "pnl": -0.14,
+      "brier_error": 0.6084,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792745433.3148766
+    },
+    {
+      "id": "REFL-1792745433291",
+      "trade_id": "S10:630747:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Will the Republicans win the Kansas Senate race in 2026?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -0.41,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792745433.29102
+    },
+    {
+      "id": "REFL-1792745433228",
+      "trade_id": "MR:gamma:562830:Yes:1d:BUY",
+      "strategy_id": "MR",
+      "market_title": "2026 Balance of Power: R Senate, D House",
+      "predicted_prob": 0.78,
+      "outcome": 0,
+      "pnl": -0.14,
+      "brier_error": 0.6084,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792745433.2281976
+    },
     {
       "id": "REFL-1792724363002",
       "trade_id": "S10:629425:No:BUY",
@@ -2561,45 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792455089.51811
-    },
-    {
-      "id": "REFL-1792455089497",
-      "trade_id": "S20:629464:Yes:BUY",
-      "strategy_id": "S20",
-      "market_title": "Will the Democrats win the Michigan governor race in 2026?",
-      "predicted_prob": 0.96,
-      "outcome": 0,
-      "pnl": -0.08,
-      "brier_error": 0.9216,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792455089.4972253
-    },
-    {
-      "id": "REFL-1792455089474",
-      "trade_id": "S20:618456:No:BUY",
-      "strategy_id": "S20",
-      "market_title": "Opensea FDV above $3B one day after launch?",
-      "predicted_prob": 0.96,
-      "outcome": 0,
-      "pnl": -0.07,
-      "brier_error": 0.9216,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792455089.4742434
-    },
-    {
-      "id": "REFL-1792455084167",
-      "trade_id": "S12:942971:Yes:BUY",
-      "strategy_id": "S12",
-      "market_title": "Will the Democratic Party win the NJ-05 House seat?",
-      "predicted_prob": 0.9,
-      "outcome": 0,
-      "pnl": -0.03,
-      "brier_error": 0.81,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792455084.1677444
     }
   ],
   "strategy_weights": {
@@ -2625,11 +2625,11 @@
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.4517,
-      "win_rate": 22.2,
-      "trades_count": 158,
+      "brier_score": 0.4524,
+      "win_rate": 22.0,
+      "trades_count": 159,
       "kelly_multiplier": 0.4,
-      "reliability": 0.2793,
+      "reliability": 0.2808,
       "resolution": 0.0,
       "status": "REDUCED"
     },
@@ -2652,11 +2652,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3896,
-      "win_rate": 35.6,
-      "trades_count": 160,
+      "brier_score": 0.3923,
+      "win_rate": 35.2,
+      "trades_count": 162,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1582,
+      "reliability": 0.1619,
       "resolution": 0.0,
       "status": "REDUCED"
     },
