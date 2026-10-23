@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792782670.9619253,
+  "updated_at": 1792783347.964735,
   "reflections": [
+    {
+      "id": "REFL-1792783038678",
+      "trade_id": "MR:gamma:630925:Yes:1w:BUY",
+      "strategy_id": "MR",
+      "market_title": "Will the Republicans win the South Carolina Senate race in 2026?",
+      "predicted_prob": 0.78,
+      "outcome": 0,
+      "pnl": -0.53,
+      "brier_error": 0.6084,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792783038.6781933
+    },
     {
       "id": "REFL-1792781729821",
       "trade_id": "S10:1090496:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792455096.8885915
-    },
-    {
-      "id": "REFL-1792455096876",
-      "trade_id": "S12:944306:Yes:BUY",
-      "strategy_id": "S12",
-      "market_title": "Will the Democratic Party win the VA-10 House seat?",
-      "predicted_prob": 0.9,
-      "outcome": 0,
-      "pnl": -0.07,
-      "brier_error": 0.81,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792455096.87621
     }
   ],
   "strategy_weights": {
@@ -2652,11 +2652,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3951,
-      "win_rate": 34.5,
-      "trades_count": 165,
+      "brier_score": 0.3964,
+      "win_rate": 34.3,
+      "trades_count": 166,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1669,
+      "reliability": 0.1687,
       "resolution": 0.0,
       "status": "REDUCED"
     },
