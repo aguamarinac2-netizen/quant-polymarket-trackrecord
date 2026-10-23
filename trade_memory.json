@@ -1,6 +1,45 @@
 {
-  "updated_at": 1792765484.0961988,
+  "updated_at": 1792766288.7143552,
   "reflections": [
+    {
+      "id": "REFL-1792765652696",
+      "trade_id": "WT:629584:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
+      "strategy_id": "WT",
+      "market_title": "Will the Republicans win the Oregon governor race in 2026?",
+      "predicted_prob": 0.88,
+      "outcome": 0,
+      "pnl": -0.04,
+      "brier_error": 0.7744,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792765652.696521
+    },
+    {
+      "id": "REFL-1792765652675",
+      "trade_id": "WT:629583:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
+      "strategy_id": "WT",
+      "market_title": "Will the Democrats win the Oregon governor race in 2026?",
+      "predicted_prob": 0.88,
+      "outcome": 0,
+      "pnl": -0.37,
+      "brier_error": 0.7744,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792765652.6751814
+    },
+    {
+      "id": "REFL-1792765652653",
+      "trade_id": "WT:559651:0x8b4bca1d794779e66e023d44391b2a86c5ab541b:No:BUY",
+      "strategy_id": "WT",
+      "market_title": "Xi Jinping out before 2027?",
+      "predicted_prob": 0.86,
+      "outcome": 0,
+      "pnl": -0.04,
+      "brier_error": 0.7396,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792765652.653586
+    },
     {
       "id": "REFL-1792765272430",
       "trade_id": "S12:629451:Yes:BUY",
@@ -2561,45 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792455096.798893
-    },
-    {
-      "id": "REFL-1792455096789",
-      "trade_id": "S12:943449:Yes:BUY",
-      "strategy_id": "S12",
-      "market_title": "Will the Democratic Party win the NY-18 House seat?",
-      "predicted_prob": 0.9,
-      "outcome": 0,
-      "pnl": -0.03,
-      "brier_error": 0.81,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792455096.7890868
-    },
-    {
-      "id": "REFL-1792455096778",
-      "trade_id": "S20:667209:No:BUY",
-      "strategy_id": "S20",
-      "market_title": "Will Mamdani pass the 2% Millionaire Tax before 2027?",
-      "predicted_prob": 0.96,
-      "outcome": 0,
-      "pnl": -0.05,
-      "brier_error": 0.9216,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792455096.7785776
-    },
-    {
-      "id": "REFL-1792455096766",
-      "trade_id": "S20:667004:No:BUY",
-      "strategy_id": "S20",
-      "market_title": "Metamask FDV above $2B one day after launch?",
-      "predicted_prob": 0.96,
-      "outcome": 0,
-      "pnl": -0.01,
-      "brier_error": 0.9216,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792455096.766309
     }
   ],
   "strategy_weights": {
@@ -2643,11 +2643,11 @@
       "status": "REDUCED"
     },
     "WT": {
-      "brier_score": 0.5986,
-      "win_rate": 20.7,
-      "trades_count": 140,
+      "brier_score": 0.6021,
+      "win_rate": 20.3,
+      "trades_count": 143,
       "kelly_multiplier": 0.4,
-      "reliability": 0.4338,
+      "reliability": 0.4398,
       "resolution": 0.0,
       "status": "REDUCED"
     },
