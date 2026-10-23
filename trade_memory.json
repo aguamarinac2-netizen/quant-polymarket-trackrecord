@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792784446.0523922,
+  "updated_at": 1792785126.6382287,
   "reflections": [
+    {
+      "id": "REFL-1792784589373",
+      "trade_id": "MR:gamma:631017:Yes:1w:SELL",
+      "strategy_id": "MR",
+      "market_title": "Will the Democrats win the Mississippi Senate race in 2026?",
+      "predicted_prob": 0.78,
+      "outcome": 0,
+      "pnl": -0.79,
+      "brier_error": 0.6084,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792784589.3738742
+    },
     {
       "id": "REFL-1792783038678",
       "trade_id": "MR:gamma:630925:Yes:1w:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792455096.9006605
-    },
-    {
-      "id": "REFL-1792455096888",
-      "trade_id": "S12:944326:Yes:BUY",
-      "strategy_id": "S12",
-      "market_title": "Will the Democratic Party win the WA-08 House seat?",
-      "predicted_prob": 0.9,
-      "outcome": 0,
-      "pnl": -0.06,
-      "brier_error": 0.81,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792455096.8885915
     }
   ],
   "strategy_weights": {
@@ -2643,20 +2643,20 @@
       "status": "REDUCED"
     },
     "WT": {
-      "brier_score": 0.6031,
-      "win_rate": 20.0,
-      "trades_count": 145,
+      "brier_score": 0.5992,
+      "win_rate": 20.5,
+      "trades_count": 146,
       "kelly_multiplier": 0.4,
-      "reliability": 0.4426,
+      "reliability": 0.4348,
       "resolution": 0.0,
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3964,
-      "win_rate": 34.3,
-      "trades_count": 166,
+      "brier_score": 0.3977,
+      "win_rate": 34.1,
+      "trades_count": 167,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1687,
+      "reliability": 0.1706,
       "resolution": 0.0,
       "status": "REDUCED"
     },
