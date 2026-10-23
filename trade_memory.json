@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792762796.3352785,
+  "updated_at": 1792763533.640717,
   "reflections": [
+    {
+      "id": "REFL-1792763194083",
+      "trade_id": "S10:972263:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Will Kristi Noem leave the Trump administration before 2027?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -0.09,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792763194.083709
+    },
     {
       "id": "REFL-1792761599612",
       "trade_id": "WT:629412:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792455089.6431813
-    },
-    {
-      "id": "REFL-1792455089629",
-      "trade_id": "S20:665329:No:BUY",
-      "strategy_id": "S20",
-      "market_title": "Will Japan recognize Palestine before 2027?",
-      "predicted_prob": 0.96,
-      "outcome": 0,
-      "pnl": -0.06,
-      "brier_error": 0.9216,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792455089.6292021
     }
   ],
   "strategy_weights": {
@@ -2625,11 +2625,11 @@
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.4538,
-      "win_rate": 21.7,
-      "trades_count": 161,
+      "brier_score": 0.4545,
+      "win_rate": 21.6,
+      "trades_count": 162,
       "kelly_multiplier": 0.4,
-      "reliability": 0.2837,
+      "reliability": 0.2851,
       "resolution": 0.0,
       "status": "REDUCED"
     },
