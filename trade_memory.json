@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792785126.6382287,
+  "updated_at": 1792785370.358338,
   "reflections": [
+    {
+      "id": "REFL-1792785144400",
+      "trade_id": "MR:gamma:944250:Yes:1d:SELL",
+      "strategy_id": "MR",
+      "market_title": "Will the Democratic Party win the TX-35 House seat?",
+      "predicted_prob": 0.77,
+      "outcome": 0,
+      "pnl": -0.41,
+      "brier_error": 0.5929,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792785144.4008973
+    },
     {
       "id": "REFL-1792784589373",
       "trade_id": "MR:gamma:631017:Yes:1w:SELL",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792455096.9126673
-    },
-    {
-      "id": "REFL-1792455096900",
-      "trade_id": "S12:1060487:Yes:BUY",
-      "strategy_id": "S12",
-      "market_title": "Will the Democratic Party win the CA-17 House seat?",
-      "predicted_prob": 0.9,
-      "outcome": 0,
-      "pnl": -0.05,
-      "brier_error": 0.81,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792455096.9006605
     }
   ],
   "strategy_weights": {
@@ -2643,20 +2643,20 @@
       "status": "REDUCED"
     },
     "WT": {
-      "brier_score": 0.5992,
-      "win_rate": 20.5,
-      "trades_count": 146,
+      "brier_score": 0.5952,
+      "win_rate": 21.1,
+      "trades_count": 147,
       "kelly_multiplier": 0.4,
-      "reliability": 0.4348,
+      "reliability": 0.4278,
       "resolution": 0.0,
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3977,
-      "win_rate": 34.1,
-      "trades_count": 167,
+      "brier_score": 0.3988,
+      "win_rate": 33.9,
+      "trades_count": 168,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1706,
+      "reliability": 0.1723,
       "resolution": 0.0,
       "status": "REDUCED"
     },
