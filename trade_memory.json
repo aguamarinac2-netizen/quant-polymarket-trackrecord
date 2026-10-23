@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792760966.0627463,
+  "updated_at": 1792761698.5500395,
   "reflections": [
+    {
+      "id": "REFL-1792761599612",
+      "trade_id": "WT:629412:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
+      "strategy_id": "WT",
+      "market_title": "Will the Democrats win the Kansas governor race in 2026?",
+      "predicted_prob": 0.88,
+      "outcome": 0,
+      "pnl": -0.26,
+      "brier_error": 0.7744,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792761599.6128464
+    },
     {
       "id": "REFL-1792759720625",
       "trade_id": "S10:678445:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792455089.6292021
-    },
-    {
-      "id": "REFL-1792455089610",
-      "trade_id": "S20:665318:No:BUY",
-      "strategy_id": "S20",
-      "market_title": "Will Trump sell 101-1k Gold Cards in 2026?",
-      "predicted_prob": 0.96,
-      "outcome": 0,
-      "pnl": -0.11,
-      "brier_error": 0.9216,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792455089.6100762
     }
   ],
   "strategy_weights": {
@@ -2643,11 +2643,11 @@
       "status": "REDUCED"
     },
     "WT": {
-      "brier_score": 0.5963,
-      "win_rate": 21.0,
-      "trades_count": 138,
+      "brier_score": 0.5976,
+      "win_rate": 20.9,
+      "trades_count": 139,
       "kelly_multiplier": 0.4,
-      "reliability": 0.4298,
+      "reliability": 0.4319,
       "resolution": 0.0,
       "status": "REDUCED"
     },
