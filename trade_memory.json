@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792778136.2062902,
+  "updated_at": 1792778875.7591968,
   "reflections": [
+    {
+      "id": "REFL-1792778543832",
+      "trade_id": "S12:691980:Yes:BUY",
+      "strategy_id": "S12",
+      "market_title": "Will Jack Doherty be sentenced to no prison time?",
+      "predicted_prob": 0.9,
+      "outcome": 0,
+      "pnl": -0.0,
+      "brier_error": 0.81,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792778543.8325074
+    },
     {
       "id": "REFL-1792775918782",
       "trade_id": "S10:942910:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792455096.8636832
-    },
-    {
-      "id": "REFL-1792455096852",
-      "trade_id": "S12:944258:Yes:BUY",
-      "strategy_id": "S12",
-      "market_title": "Will the Democratic Party win the UT-01 House seat?",
-      "predicted_prob": 0.9,
-      "outcome": 0,
-      "pnl": -0.05,
-      "brier_error": 0.81,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792455096.8523602
     }
   ],
   "strategy_weights": {
@@ -2634,11 +2634,11 @@
       "status": "REDUCED"
     },
     "S12": {
-      "brier_score": 0.6918,
-      "win_rate": 14.8,
-      "trades_count": 88,
+      "brier_score": 0.6931,
+      "win_rate": 14.6,
+      "trades_count": 89,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5659,
+      "reliability": 0.5684,
       "resolution": 0.0,
       "status": "REDUCED"
     },
