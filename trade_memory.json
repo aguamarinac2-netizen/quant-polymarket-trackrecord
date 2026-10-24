@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792852622.52038,
+  "updated_at": 1792853170.2362247,
   "reflections": [
+    {
+      "id": "REFL-1792853078900",
+      "trade_id": "WT:562831:0x1295269296e51cd28a3db85fa6728c0e352b5cfd:No:BUY",
+      "strategy_id": "WT",
+      "market_title": "2026 Balance of Power: R Senate, R House",
+      "predicted_prob": 0.85,
+      "outcome": 0,
+      "pnl": -0.07,
+      "brier_error": 0.7225,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792853078.900164
+    },
     {
       "id": "REFL-1792851884563",
       "trade_id": "S10:690615:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792561144.3503387
-    },
-    {
-      "id": "REFL-1792557710705",
-      "trade_id": "MR:gamma:608540:Yes:1d:BUY",
-      "strategy_id": "MR",
-      "market_title": "Will Kylian Mbappé win the 2026 Ballon d'Or?",
-      "predicted_prob": 0.73,
-      "outcome": 0,
-      "pnl": -0.3,
-      "brier_error": 0.5329,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792557710.7051537
     }
   ],
   "strategy_weights": {
@@ -2643,20 +2643,20 @@
       "status": "REDUCED"
     },
     "WT": {
-      "brier_score": 0.5911,
-      "win_rate": 21.1,
-      "trades_count": 166,
+      "brier_score": 0.5919,
+      "win_rate": 21.0,
+      "trades_count": 167,
       "kelly_multiplier": 0.4,
-      "reliability": 0.4243,
+      "reliability": 0.4259,
       "resolution": 0.0,
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3989,
-      "win_rate": 34.2,
-      "trades_count": 187,
+      "brier_score": 0.3972,
+      "win_rate": 34.6,
+      "trades_count": 188,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1712,
+      "reliability": 0.1682,
       "resolution": 0.0,
       "status": "REDUCED"
     },
