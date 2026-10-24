@@ -1,49 +1,49 @@
 {
   "campaign_start": "2026-10-14T04:34:58.147871+00:00",
   "campaign_name": "demo-15d",
-  "updated_at": "2026-10-24T11:45:30.789867+00:00",
+  "updated_at": "2026-10-24T11:52:18.071583+00:00",
   "files": {
     "CAMPAIGN_REPORT.md": {
       "bytes": 1195,
       "sha256": "8a7aee9ebdfd5857325055ce6f8ac8336da705394804e881af9c5220cd78722c"
     },
     "hybrid_orders.csv": {
-      "bytes": 634,
-      "sha256": "e97c93a53929b83b36a37faa7c006a3c4cc7b27fe522f6a9ca76d5c3ada19b69"
+      "bytes": 803,
+      "sha256": "50eeaecf6d70eaf885f719bc0c74143abf990fa1ae307ff11b08b15825070b37"
     },
     "hybrid_orders.jsonl": {
-      "bytes": 1206,
-      "sha256": "abcdf859524a344fc61e7757b1d99084a3127bc4979b93f0bb36adb5a1af1247"
+      "bytes": 1777,
+      "sha256": "77c5ec9e21fad1b9606e813a5821cd91540b9041b7f485b0ceeb1ff3de567f65"
     },
     "ledger.jsonl": {
-      "bytes": 1561919,
-      "sha256": "9e203be78d4c35f40e391fce765b2ecd02fd6de59128ed443a13892313bfaf3b"
+      "bytes": 1563707,
+      "sha256": "fbe51f1d7b409271919e004a95b1c26e809084850a75dd0613a66f1c1f15f9c0"
     },
     "strategy_ranking.json": {
-      "bytes": 6719,
-      "sha256": "8b4faa4477b13e10c98eef1aaf4f5fdc17f6c94e8e02621b0e1deebb1f18e7c3"
+      "bytes": 6724,
+      "sha256": "5f5cafc2a953fe61fb2895fee8d6abfb6d27620f3c2a89b156ee18c86859e21e"
     },
     "trades_all.csv": {
-      "bytes": 427842,
-      "sha256": "8553f3ee6da414551850eb60965389179f00d8e9e3d712c035c862f81bf2091d"
+      "bytes": 428619,
+      "sha256": "477663dbf8a576161b11fd50de582aa4a8cbb7390fb68fc359adc04ba295d659"
     }
   },
   "trade_counts": {
-    "total": 877,
+    "total": 879,
     "realistic": 83,
-    "research": 789,
-    "hybrid": 5
+    "research": 790,
+    "hybrid": 6
   },
   "strategies": 10,
   "campaign_day": 10.3,
   "campaign_complete": false,
   "hybrid": {
-    "orders_executed": 2,
+    "orders_executed": 3,
     "rejection_reasons": {
-      "sin libro real disponible": 87682901,
-      "sin liquidez al precio límite": 5021240
+      "sin libro real disponible": 87727205,
+      "sin liquidez al precio límite": 5023382
     },
-    "rejections_total": 92704141,
-    "log_updated_at": "2026-10-24T11:45:30.684959+00:00"
+    "rejections_total": 92750587,
+    "log_updated_at": "2026-10-24T11:52:18.150782+00:00"
   }
 }
