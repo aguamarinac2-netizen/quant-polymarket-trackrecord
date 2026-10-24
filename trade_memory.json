@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792867565.0634809,
+  "updated_at": 1792867940.7222598,
   "reflections": [
+    {
+      "id": "REFL-1792867940710",
+      "trade_id": "FLB:560317:No:BUY",
+      "strategy_id": "FLB",
+      "market_title": "Putin out as President of Russia by December 31, 2026?",
+      "predicted_prob": 0.6,
+      "outcome": 0,
+      "pnl": -0.04,
+      "brier_error": 0.36,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792867940.710373
+    },
     {
       "id": "REFL-1792863048075",
       "trade_id": "MR:gamma:1059067:Yes:1d:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792576751.7853978
-    },
-    {
-      "id": "REFL-1792576653679",
-      "trade_id": "S10:920402:No:BUY",
-      "strategy_id": "S10",
-      "market_title": "Variational FDV above $800M one day after launch?",
-      "predicted_prob": 0.75,
-      "outcome": 0,
-      "pnl": -0.15,
-      "brier_error": 0.5625,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792576653.679879
     }
   ],
   "strategy_weights": {
@@ -2699,7 +2699,7 @@
     "FLB": {
       "brier_score": 0.36,
       "win_rate": 0.0,
-      "trades_count": 7,
+      "trades_count": 8,
       "kelly_multiplier": 0.4,
       "reliability": 0.36,
       "resolution": 0.0,
