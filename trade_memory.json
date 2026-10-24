@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792880568.456862,
+  "updated_at": 1792881174.4954414,
   "reflections": [
+    {
+      "id": "REFL-1792880961367",
+      "trade_id": "WT:630653:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
+      "strategy_id": "WT",
+      "market_title": "Will the Democrats win the Arkansas Senate race in 2026?",
+      "predicted_prob": 0.88,
+      "outcome": 0,
+      "pnl": -0.03,
+      "brier_error": 0.7744,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792880961.3671832
+    },
     {
       "id": "REFL-1792878235114",
       "trade_id": "S10:1090201:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792593598.197289
-    },
-    {
-      "id": "REFL-1792592843890",
-      "trade_id": "WT:629506:0x38e59b36aae31b164200d0cad7c3fe5e0ee795e7:Yes:BUY",
-      "strategy_id": "WT",
-      "market_title": "Will the Republicans win the Nevada governor race in 2026?",
-      "predicted_prob": 0.82,
-      "outcome": 0,
-      "pnl": -1.45,
-      "brier_error": 0.6724,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792592843.8903763
     }
   ],
   "strategy_weights": {
@@ -2643,11 +2643,11 @@
       "status": "REDUCED"
     },
     "WT": {
-      "brier_score": 0.5906,
-      "win_rate": 21.2,
-      "trades_count": 170,
+      "brier_score": 0.5916,
+      "win_rate": 21.1,
+      "trades_count": 171,
       "kelly_multiplier": 0.4,
-      "reliability": 0.4228,
+      "reliability": 0.4246,
       "resolution": 0.0,
       "status": "REDUCED"
     },
