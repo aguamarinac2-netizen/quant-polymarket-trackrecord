@@ -31487,7 +31487,8 @@
       "realized_pnl_pct": -1.82,
       "close_reason": "\u23f1\ufe0f Time-Stop 48h (Capital liberado: rotaci\u00f3n r\u00e1pida tras 48.0h estancado)",
       "closed_at": "2026-10-24T15:28:33.872469+00:00",
-      "engine": "paper"
+      "engine": "paper",
+      "ai_post_mortem_done": true
     },
     "WT:608545:0x5a218c7ad04135830a45c41aaed7294df7809318:No:BUY": {
       "trade_id": "WT:608545:0x5a218c7ad04135830a45c41aaed7294df7809318:No:BUY",
@@ -31760,13 +31761,13 @@
       "risk_reward_ratio": 0.83,
       "horizon": "short",
       "horizon_label": "\ud83d\udcc5 Corto (<15d)",
-      "status": "OPEN",
+      "status": "LOST",
       "unrealized_pnl_usd": -0.14,
       "unrealized_pnl_pct": -1.48,
-      "realized_pnl_usd": 0.0,
-      "realized_pnl_pct": 0.0,
-      "close_reason": null,
-      "closed_at": null,
+      "realized_pnl_usd": -0.41,
+      "realized_pnl_pct": -1.48,
+      "close_reason": "\u23f1\ufe0f Time-Stop 48h (Capital liberado: rotaci\u00f3n r\u00e1pida tras 48.0h estancado)",
+      "closed_at": "2026-10-24T17:21:10.384234+00:00",
       "engine": "paper"
     },
     "S10:1089925:No:BUY": {
@@ -37417,5 +37418,5 @@
       "engine": "paper"
     }
   },
-  "updated_at": "2026-10-24T15:28:33.875565+00:00"
+  "updated_at": "2026-10-24T17:21:10.386878+00:00"
 }
