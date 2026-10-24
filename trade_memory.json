@@ -1,6 +1,32 @@
 {
-  "updated_at": 1792831928.6122465,
+  "updated_at": 1792832351.0868638,
   "reflections": [
+    {
+      "id": "REFL-1792832260547",
+      "trade_id": "S20:608368:Yes:BUY",
+      "strategy_id": "S20",
+      "market_title": "Will OpenAI not IPO by December 31, 2026?",
+      "predicted_prob": 0.96,
+      "outcome": 0,
+      "pnl": -0.07,
+      "brier_error": 0.9216,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792832260.5475385
+    },
+    {
+      "id": "REFL-1792832140300",
+      "trade_id": "WT:629708:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
+      "strategy_id": "WT",
+      "market_title": "Will the Republicans win the Vermont governor race in 2026?",
+      "predicted_prob": 0.88,
+      "outcome": 0,
+      "pnl": -0.34,
+      "brier_error": 0.7744,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792832140.3008258
+    },
     {
       "id": "REFL-1792830182213",
       "trade_id": "S10:943819:No:BUY",
@@ -2574,32 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792506446.0631456
-    },
-    {
-      "id": "REFL-1792505504822",
-      "trade_id": "S10:919484:No:BUY",
-      "strategy_id": "S10",
-      "market_title": "Blue wave in 2026?",
-      "predicted_prob": 0.75,
-      "outcome": 0,
-      "pnl": -0.16,
-      "brier_error": 0.5625,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792505504.822095
-    },
-    {
-      "id": "REFL-1792502048049",
-      "trade_id": "S12:944265:Yes:BUY",
-      "strategy_id": "S12",
-      "market_title": "Will the Republican Party win the UT-02 House seat?",
-      "predicted_prob": 0.9,
-      "outcome": 0,
-      "pnl": -0.12,
-      "brier_error": 0.81,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792502048.0494018
     }
   ],
   "strategy_weights": {
@@ -2616,11 +2616,11 @@
   },
   "strategy_brier_scores": {
     "S20": {
-      "brier_score": 0.8322,
-      "win_rate": 9.8,
-      "trades_count": 123,
+      "brier_score": 0.8329,
+      "win_rate": 9.7,
+      "trades_count": 124,
       "kelly_multiplier": 0.4,
-      "reliability": 0.7442,
+      "reliability": 0.7456,
       "resolution": 0.0,
       "status": "REDUCED"
     },
@@ -2643,11 +2643,11 @@
       "status": "REDUCED"
     },
     "WT": {
-      "brier_score": 0.5979,
-      "win_rate": 20.5,
-      "trades_count": 151,
+      "brier_score": 0.5991,
+      "win_rate": 20.4,
+      "trades_count": 152,
       "kelly_multiplier": 0.4,
-      "reliability": 0.4341,
+      "reliability": 0.436,
       "resolution": 0.0,
       "status": "REDUCED"
     },
