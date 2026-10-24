@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792844995.400487,
+  "updated_at": 1792845424.8077881,
   "reflections": [
+    {
+      "id": "REFL-1792845204725",
+      "trade_id": "WT:630692:0x59a513a782dd4c1a98ef22932c52191129f5afc8:Yes:BUY",
+      "strategy_id": "WT",
+      "market_title": "Will the Democrats win the Georgia Senate race in 2026?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -0.02,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792845204.7255492
+    },
     {
       "id": "REFL-1792842069039",
       "trade_id": "WT:608540:0x5a218c7ad04135830a45c41aaed7294df7809318:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792532097.6363156
-    },
-    {
-      "id": "REFL-1792530140415",
-      "trade_id": "S10:631045:No:BUY",
-      "strategy_id": "S10",
-      "market_title": "Will the Republicans win the Florida Senate race in 2026?",
-      "predicted_prob": 0.75,
-      "outcome": 0,
-      "pnl": -0.4,
-      "brier_error": 0.5625,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792530140.4160125
     }
   ],
   "strategy_weights": {
@@ -2643,11 +2643,11 @@
       "status": "REDUCED"
     },
     "WT": {
-      "brier_score": 0.59,
-      "win_rate": 21.6,
-      "trades_count": 162,
+      "brier_score": 0.5898,
+      "win_rate": 21.5,
+      "trades_count": 163,
       "kelly_multiplier": 0.4,
-      "reliability": 0.4196,
+      "reliability": 0.4204,
       "resolution": 0.0,
       "status": "REDUCED"
     },
