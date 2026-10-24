@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792821544.2433605,
+  "updated_at": 1792822028.5497234,
   "reflections": [
+    {
+      "id": "REFL-1792821853775",
+      "trade_id": "S10:943441:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Will the Democratic Party win the NY-17 House seat?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -0.41,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792821853.7754948
+    },
     {
       "id": "REFL-1792817005547",
       "trade_id": "S10:1059066:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792495137.3786328
-    },
-    {
-      "id": "REFL-1792494130104",
-      "trade_id": "MR:local:559651:Yes:SELL",
-      "strategy_id": "MR",
-      "market_title": "Xi Jinping out before 2027?",
-      "predicted_prob": 0.75,
-      "outcome": 0,
-      "pnl": -0.18,
-      "brier_error": 0.5625,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792494130.104794
     }
   ],
   "strategy_weights": {
@@ -2625,11 +2625,11 @@
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.444,
-      "win_rate": 23.7,
-      "trades_count": 173,
+      "brier_score": 0.4447,
+      "win_rate": 23.6,
+      "trades_count": 174,
       "kelly_multiplier": 0.4,
-      "reliability": 0.2632,
+      "reliability": 0.2646,
       "resolution": 0.0,
       "status": "REDUCED"
     },
