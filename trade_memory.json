@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792881418.2806396,
+  "updated_at": 1792882021.0274084,
   "reflections": [
+    {
+      "id": "REFL-1792881567522",
+      "trade_id": "WT:630693:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
+      "strategy_id": "WT",
+      "market_title": "Will the Republicans win the Georgia Senate race in 2026?",
+      "predicted_prob": 0.88,
+      "outcome": 0,
+      "pnl": -0.04,
+      "brier_error": 0.7744,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792881567.5228765
+    },
     {
       "id": "REFL-1792880961367",
       "trade_id": "WT:630653:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792594256.907458
-    },
-    {
-      "id": "REFL-1792593598197",
-      "trade_id": "S10:942832:No:BUY",
-      "strategy_id": "S10",
-      "market_title": "Will the Democratic Party win the MO-05 House seat?",
-      "predicted_prob": 0.75,
-      "outcome": 0,
-      "pnl": -0.18,
-      "brier_error": 0.5625,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792593598.197289
     }
   ],
   "strategy_weights": {
@@ -2643,11 +2643,11 @@
       "status": "REDUCED"
     },
     "WT": {
-      "brier_score": 0.5916,
-      "win_rate": 21.1,
-      "trades_count": 171,
+      "brier_score": 0.5927,
+      "win_rate": 20.9,
+      "trades_count": 172,
       "kelly_multiplier": 0.4,
-      "reliability": 0.4246,
+      "reliability": 0.4263,
       "resolution": 0.0,
       "status": "REDUCED"
     },
