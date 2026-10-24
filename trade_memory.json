@@ -1,6 +1,45 @@
 {
-  "updated_at": 1792841823.7752643,
+  "updated_at": 1792842317.0323644,
   "reflections": [
+    {
+      "id": "REFL-1792842069039",
+      "trade_id": "WT:608540:0x5a218c7ad04135830a45c41aaed7294df7809318:No:BUY",
+      "strategy_id": "WT",
+      "market_title": "Will Kylian Mbappé win the 2026 Ballon d'Or?",
+      "predicted_prob": 0.87,
+      "outcome": 0,
+      "pnl": -0.89,
+      "brier_error": 0.7569,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792842069.039785
+    },
+    {
+      "id": "REFL-1792842068955",
+      "trade_id": "MR:gamma:608547:Yes:1d:BUY",
+      "strategy_id": "MR",
+      "market_title": "Will Harry Kane win the 2026 Ballon d'Or?",
+      "predicted_prob": 0.78,
+      "outcome": 0,
+      "pnl": -0.41,
+      "brier_error": 0.6084,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792842068.9559083
+    },
+    {
+      "id": "REFL-1792841929746",
+      "trade_id": "WT:630653:0x5a218c7ad04135830a45c41aaed7294df7809318:No:BUY",
+      "strategy_id": "WT",
+      "market_title": "Will the Democrats win the Arkansas Senate race in 2026?",
+      "predicted_prob": 0.84,
+      "outcome": 0,
+      "pnl": -0.0,
+      "brier_error": 0.7056,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792841929.746759
+    },
     {
       "id": "REFL-1792841363526",
       "trade_id": "WT:608547:0x942e79166821f3f4e67872e44f1672fcccd2be27:Yes:SELL",
@@ -2561,45 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792530140.4160125
-    },
-    {
-      "id": "REFL-1792528141958",
-      "trade_id": "WT:601826:0xc7d02944a76b9f83b199e9090ecc92c82d241f8a:Yes:BUY",
-      "strategy_id": "WT",
-      "market_title": "Will Flávio Bolsonaro win the 2026 Brazilian presidential election?",
-      "predicted_prob": 0.8,
-      "outcome": 0,
-      "pnl": -0.26,
-      "brier_error": 0.64,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792528141.9585533
-    },
-    {
-      "id": "REFL-1792527034652",
-      "trade_id": "S10:943741:No:BUY",
-      "strategy_id": "S10",
-      "market_title": "Will the Democratic Party win the OR-05 House seat?",
-      "predicted_prob": 0.75,
-      "outcome": 0,
-      "pnl": -0.17,
-      "brier_error": 0.5625,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792527034.652026
-    },
-    {
-      "id": "REFL-1792526378368",
-      "trade_id": "MR:gamma:634893:Yes:1d:BUY",
-      "strategy_id": "MR",
-      "market_title": "Will an independent win the Nebraska Senate race in 2026?",
-      "predicted_prob": 0.72,
-      "outcome": 0,
-      "pnl": -1.13,
-      "brier_error": 0.5184,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792526378.368032
     }
   ],
   "strategy_weights": {
@@ -2643,20 +2643,20 @@
       "status": "REDUCED"
     },
     "WT": {
-      "brier_score": 0.5882,
-      "win_rate": 21.9,
-      "trades_count": 160,
+      "brier_score": 0.59,
+      "win_rate": 21.6,
+      "trades_count": 162,
       "kelly_multiplier": 0.4,
-      "reliability": 0.4163,
+      "reliability": 0.4196,
       "resolution": 0.0,
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.4009,
-      "win_rate": 33.9,
-      "trades_count": 183,
+      "brier_score": 0.4021,
+      "win_rate": 33.7,
+      "trades_count": 184,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1739,
+      "reliability": 0.1756,
       "resolution": 0.0,
       "status": "REDUCED"
     },
