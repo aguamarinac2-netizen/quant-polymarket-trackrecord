@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792823856.6107826,
+  "updated_at": 1792824218.4727874,
   "reflections": [
+    {
+      "id": "REFL-1792824118431",
+      "trade_id": "WT:629707:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
+      "strategy_id": "WT",
+      "market_title": "Will the Democrats win the Vermont governor race in 2026?",
+      "predicted_prob": 0.88,
+      "outcome": 0,
+      "pnl": -0.09,
+      "brier_error": 0.7744,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792824118.4319246
+    },
     {
       "id": "REFL-1792821853775",
       "trade_id": "S10:943441:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792495137.4384902
-    },
-    {
-      "id": "REFL-1792495137378",
-      "trade_id": "WT:629184:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
-      "strategy_id": "WT",
-      "market_title": "Will the Republicans win the Arizona governor race in 2026?",
-      "predicted_prob": 0.88,
-      "outcome": 0,
-      "pnl": -0.18,
-      "brier_error": 0.7744,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792495137.3786328
     }
   ],
   "strategy_weights": {
@@ -2643,11 +2643,11 @@
       "status": "REDUCED"
     },
     "WT": {
-      "brier_score": 0.5968,
-      "win_rate": 20.7,
-      "trades_count": 150,
+      "brier_score": 0.5979,
+      "win_rate": 20.5,
+      "trades_count": 151,
       "kelly_multiplier": 0.4,
-      "reliability": 0.4322,
+      "reliability": 0.4341,
       "resolution": 0.0,
       "status": "REDUCED"
     },
