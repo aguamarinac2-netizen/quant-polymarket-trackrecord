@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792837805.9120061,
+  "updated_at": 1792838233.2633142,
   "reflections": [
+    {
+      "id": "REFL-1792838204212",
+      "trade_id": "WT:629721:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
+      "strategy_id": "WT",
+      "market_title": "Will the Republicans win the Wisconsin governor race in 2026?",
+      "predicted_prob": 0.88,
+      "outcome": 0,
+      "pnl": -0.12,
+      "brier_error": 0.7744,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792838204.212311
+    },
     {
       "id": "REFL-1792836237452",
       "trade_id": "MR:gamma:608545:Yes:1d:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792525174.7737796
-    },
-    {
-      "id": "REFL-1792525174746",
-      "trade_id": "MR:gamma:629691:Yes:1w:BUY",
-      "strategy_id": "MR",
-      "market_title": "Will the Republicans win the Texas governor race in 2026?",
-      "predicted_prob": 0.78,
-      "outcome": 0,
-      "pnl": -0.63,
-      "brier_error": 0.6084,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792525174.7468493
     }
   ],
   "strategy_weights": {
@@ -2643,11 +2643,11 @@
       "status": "REDUCED"
     },
     "WT": {
-      "brier_score": 0.5939,
-      "win_rate": 21.2,
-      "trades_count": 156,
+      "brier_score": 0.595,
+      "win_rate": 21.0,
+      "trades_count": 157,
       "kelly_multiplier": 0.4,
-      "reliability": 0.4264,
+      "reliability": 0.4283,
       "resolution": 0.0,
       "status": "REDUCED"
     },
