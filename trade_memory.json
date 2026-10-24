@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792849946.9599547,
+  "updated_at": 1792850432.8540912,
   "reflections": [
+    {
+      "id": "REFL-1792850408378",
+      "trade_id": "MR:gamma:630772:Yes:1d:BUY",
+      "strategy_id": "MR",
+      "market_title": "Will the Democrats win the Maine Senate race in 2026?",
+      "predicted_prob": 0.72,
+      "outcome": 0,
+      "pnl": -0.03,
+      "brier_error": 0.5184,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792850408.3786378
+    },
     {
       "id": "REFL-1792848369207",
       "trade_id": "WT:608547:0x758dac51ba3cc9a246a79787da9df11c5f425d9e:Yes:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792546964.7426372
-    },
-    {
-      "id": "REFL-1792546964728",
-      "trade_id": "MR:gamma:629040:Yes:1d:BUY",
-      "strategy_id": "MR",
-      "market_title": "Will Nithya Raman win the 2026 Los Angeles mayoral election?",
-      "predicted_prob": 0.78,
-      "outcome": 0,
-      "pnl": -2.92,
-      "brier_error": 0.6084,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792546964.7289593
     }
   ],
   "strategy_weights": {
@@ -2652,11 +2652,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3983,
-      "win_rate": 34.4,
-      "trades_count": 186,
+      "brier_score": 0.3989,
+      "win_rate": 34.2,
+      "trades_count": 187,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1699,
+      "reliability": 0.1712,
       "resolution": 0.0,
       "status": "REDUCED"
     },
