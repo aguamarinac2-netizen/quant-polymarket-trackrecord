@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792869700.110658,
+  "updated_at": 1792870307.3015227,
   "reflections": [
+    {
+      "id": "REFL-1792870253072",
+      "trade_id": "S12:942433:Yes:BUY",
+      "strategy_id": "S12",
+      "market_title": "Will the Democratic Party win the IA-01 House seat?",
+      "predicted_prob": 0.9,
+      "outcome": 0,
+      "pnl": -0.12,
+      "brier_error": 0.81,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792870253.0721586
+    },
     {
       "id": "REFL-1792869133666",
       "trade_id": "MR:gamma:634892:Yes:1d:SELL",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792590590.5488544
-    },
-    {
-      "id": "REFL-1792587014030",
-      "trade_id": "S10:942433:No:BUY",
-      "strategy_id": "S10",
-      "market_title": "Will the Democratic Party win the IA-01 House seat?",
-      "predicted_prob": 0.75,
-      "outcome": 0,
-      "pnl": -2.23,
-      "brier_error": 0.5625,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792587014.0306678
     }
   ],
   "strategy_weights": {
@@ -2634,11 +2634,11 @@
       "status": "REDUCED"
     },
     "S12": {
-      "brier_score": 0.6944,
-      "win_rate": 14.4,
-      "trades_count": 90,
+      "brier_score": 0.6957,
+      "win_rate": 14.3,
+      "trades_count": 91,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5709,
+      "reliability": 0.5733,
       "resolution": 0.0,
       "status": "REDUCED"
     },
