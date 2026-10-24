@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792868481.8314695,
+  "updated_at": 1792868846.7578375,
   "reflections": [
+    {
+      "id": "REFL-1792868609031",
+      "trade_id": "WT:630805:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
+      "strategy_id": "WT",
+      "market_title": "Will the Democrats win the Michigan Senate race in 2026?",
+      "predicted_prob": 0.88,
+      "outcome": 0,
+      "pnl": -0.16,
+      "brier_error": 0.7744,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792868609.0315886
+    },
     {
       "id": "REFL-1792868412274",
       "trade_id": "S10:943797:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792580687.3881762
-    },
-    {
-      "id": "REFL-1792580497520",
-      "trade_id": "S10:942301:No:BUY",
-      "strategy_id": "S10",
-      "market_title": "Will the Republican Party win the CO-03 House seat?",
-      "predicted_prob": 0.75,
-      "outcome": 0,
-      "pnl": -0.16,
-      "brier_error": 0.5625,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792580497.5202856
     }
   ],
   "strategy_weights": {
@@ -2643,11 +2643,11 @@
       "status": "REDUCED"
     },
     "WT": {
-      "brier_score": 0.5919,
-      "win_rate": 21.0,
-      "trades_count": 167,
+      "brier_score": 0.593,
+      "win_rate": 20.8,
+      "trades_count": 168,
       "kelly_multiplier": 0.4,
-      "reliability": 0.4259,
+      "reliability": 0.4276,
       "resolution": 0.0,
       "status": "REDUCED"
     },
