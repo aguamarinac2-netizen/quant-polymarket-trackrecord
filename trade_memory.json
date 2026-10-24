@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792833260.7570138,
+  "updated_at": 1792833744.816034,
   "reflections": [
+    {
+      "id": "REFL-1792833325333",
+      "trade_id": "WT:629720:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
+      "strategy_id": "WT",
+      "market_title": "Will the Democrats win the Wisconsin governor race in 2026?",
+      "predicted_prob": 0.88,
+      "outcome": 0,
+      "pnl": -0.36,
+      "brier_error": 0.7744,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792833325.3331795
+    },
     {
       "id": "REFL-1792833135640",
       "trade_id": "S10:1068336:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792507467.4517562
-    },
-    {
-      "id": "REFL-1792507043516",
-      "trade_id": "S10:942928:No:BUY",
-      "strategy_id": "S10",
-      "market_title": "Will the Democratic Party win the NH-02 House seat?",
-      "predicted_prob": 0.75,
-      "outcome": 0,
-      "pnl": -0.21,
-      "brier_error": 0.5625,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792507043.516556
     }
   ],
   "strategy_weights": {
@@ -2643,11 +2643,11 @@
       "status": "REDUCED"
     },
     "WT": {
-      "brier_score": 0.5991,
-      "win_rate": 20.4,
-      "trades_count": 152,
+      "brier_score": 0.6002,
+      "win_rate": 20.3,
+      "trades_count": 153,
       "kelly_multiplier": 0.4,
-      "reliability": 0.436,
+      "reliability": 0.4379,
       "resolution": 0.0,
       "status": "REDUCED"
     },
