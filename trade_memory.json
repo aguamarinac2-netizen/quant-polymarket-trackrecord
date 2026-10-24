@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792873356.8361835,
+  "updated_at": 1792873903.1373582,
   "reflections": [
+    {
+      "id": "REFL-1792873755766",
+      "trade_id": "WT:562803:0x8b4bca1d794779e66e023d44391b2a86c5ab541b:No:BUY",
+      "strategy_id": "WT",
+      "market_title": "Will the Republican Party control the House after the 2026 Midterm elections?",
+      "predicted_prob": 0.86,
+      "outcome": 0,
+      "pnl": -0.18,
+      "brier_error": 0.7396,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792873755.7661233
+    },
     {
       "id": "REFL-1792871243079",
       "trade_id": "S10:1089949:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792592467.7829647
-    },
-    {
-      "id": "REFL-1792590919848",
-      "trade_id": "S10:629413:No:BUY",
-      "strategy_id": "S10",
-      "market_title": "Will the Republicans win the Kansas governor race in 2026?",
-      "predicted_prob": 0.75,
-      "outcome": 0,
-      "pnl": -0.15,
-      "brier_error": 0.5625,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792590919.8482792
     }
   ],
   "strategy_weights": {
@@ -2643,20 +2643,20 @@
       "status": "REDUCED"
     },
     "WT": {
-      "brier_score": 0.5897,
-      "win_rate": 21.3,
-      "trades_count": 169,
+      "brier_score": 0.5906,
+      "win_rate": 21.2,
+      "trades_count": 170,
       "kelly_multiplier": 0.4,
-      "reliability": 0.4212,
+      "reliability": 0.4228,
       "resolution": 0.0,
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.4009,
-      "win_rate": 33.9,
-      "trades_count": 192,
+      "brier_score": 0.3992,
+      "win_rate": 34.2,
+      "trades_count": 193,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1742,
+      "reliability": 0.1712,
       "resolution": 0.0,
       "status": "REDUCED"
     },
