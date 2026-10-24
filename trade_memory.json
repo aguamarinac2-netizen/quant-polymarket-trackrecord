@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792829620.2041318,
+  "updated_at": 1792830182.2268996,
   "reflections": [
+    {
+      "id": "REFL-1792830182213",
+      "trade_id": "S10:943819:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Will the Republican Party hold 47 or fewer Senate seats after the 2026 midterm e",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -0.37,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792830182.213711
+    },
     {
       "id": "REFL-1792827273731",
       "trade_id": "S12:630832:Yes:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792502048.0494018
-    },
-    {
-      "id": "REFL-1792501948975",
-      "trade_id": "MR:gamma:665464:Yes:1d:BUY",
-      "strategy_id": "MR",
-      "market_title": "Kim Jong Un out as Supreme Leader of North Korea by December 31, 2026?",
-      "predicted_prob": 0.73,
-      "outcome": 0,
-      "pnl": -0.42,
-      "brier_error": 0.5329,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792501948.975683
     }
   ],
   "strategy_weights": {
@@ -2625,11 +2625,11 @@
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.4454,
-      "win_rate": 23.4,
-      "trades_count": 175,
+      "brier_score": 0.446,
+      "win_rate": 23.3,
+      "trades_count": 176,
       "kelly_multiplier": 0.4,
-      "reliability": 0.266,
+      "reliability": 0.2673,
       "resolution": 0.0,
       "status": "REDUCED"
     },
