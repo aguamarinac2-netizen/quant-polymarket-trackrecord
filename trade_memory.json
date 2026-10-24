@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792816638.725108,
+  "updated_at": 1792817005.5582886,
   "reflections": [
+    {
+      "id": "REFL-1792817005547",
+      "trade_id": "S10:1059066:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Will a team from LCK (South Korea) win LoL Worlds 2026?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -1.98,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792817005.548014
+    },
     {
       "id": "REFL-1792816399989",
       "trade_id": "S10:942886:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792494130.104794
-    },
-    {
-      "id": "REFL-1792493378012",
-      "trade_id": "S10:943449:No:BUY",
-      "strategy_id": "S10",
-      "market_title": "Will the Democratic Party win the NY-18 House seat?",
-      "predicted_prob": 0.75,
-      "outcome": 0,
-      "pnl": -0.43,
-      "brier_error": 0.5625,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792493378.012058
     }
   ],
   "strategy_weights": {
@@ -2625,11 +2625,11 @@
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.4433,
-      "win_rate": 23.8,
-      "trades_count": 172,
+      "brier_score": 0.444,
+      "win_rate": 23.7,
+      "trades_count": 173,
       "kelly_multiplier": 0.4,
-      "reliability": 0.2618,
+      "reliability": 0.2632,
       "resolution": 0.0,
       "status": "REDUCED"
     },
