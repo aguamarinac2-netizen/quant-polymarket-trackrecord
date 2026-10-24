@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792877848.736582,
+  "updated_at": 1792878457.1803281,
   "reflections": [
+    {
+      "id": "REFL-1792878235114",
+      "trade_id": "S10:1090201:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Will Islam Makhachev be ranked first in the UFC Pound-For-Pound Rankings at the ",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -0.51,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792878235.1146212
+    },
     {
       "id": "REFL-1792876221606",
       "trade_id": "S10:1131457:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792592843.8903763
-    },
-    {
-      "id": "REFL-1792592843877",
-      "trade_id": "WT:629505:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
-      "strategy_id": "WT",
-      "market_title": "Will the Democrats win the Nevada governor race in 2026?",
-      "predicted_prob": 0.88,
-      "outcome": 0,
-      "pnl": -1.56,
-      "brier_error": 0.7744,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792592843.877832
     }
   ],
   "strategy_weights": {
@@ -2625,11 +2625,11 @@
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.4441,
-      "win_rate": 23.7,
-      "trades_count": 190,
+      "brier_score": 0.4447,
+      "win_rate": 23.6,
+      "trades_count": 191,
       "kelly_multiplier": 0.4,
-      "reliability": 0.2633,
+      "reliability": 0.2646,
       "resolution": 0.0,
       "status": "REDUCED"
     },
