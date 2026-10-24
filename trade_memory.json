@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792806715.5154455,
+  "updated_at": 1792807079.2539446,
   "reflections": [
+    {
+      "id": "REFL-1792807064753",
+      "trade_id": "MR:gamma:629413:Yes:1d:BUY",
+      "strategy_id": "MR",
+      "market_title": "Will the Republicans win the Kansas governor race in 2026?",
+      "predicted_prob": 0.77,
+      "outcome": 0,
+      "pnl": -0.21,
+      "brier_error": 0.5929,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792807064.7535279
+    },
     {
       "id": "REFL-1792802220626",
       "trade_id": "MR:gamma:1105744:Yes:1w:SELL",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792492775.717613
-    },
-    {
-      "id": "REFL-1792492589306",
-      "trade_id": "WT:629398:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
-      "strategy_id": "WT",
-      "market_title": "Will the Republicans win the Iowa governor race in 2026?",
-      "predicted_prob": 0.88,
-      "outcome": 0,
-      "pnl": -0.09,
-      "brier_error": 0.7744,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792492589.3062901
     }
   ],
   "strategy_weights": {
@@ -2652,11 +2652,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.4008,
-      "win_rate": 33.7,
-      "trades_count": 175,
+      "brier_score": 0.4019,
+      "win_rate": 33.5,
+      "trades_count": 176,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1749,
+      "reliability": 0.1766,
       "resolution": 0.0,
       "status": "REDUCED"
     },
