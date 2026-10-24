@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792851711.456213,
+  "updated_at": 1792852258.3115385,
   "reflections": [
+    {
+      "id": "REFL-1792851884563",
+      "trade_id": "S10:690615:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Will Extended launch a token by December 31 2026?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -5.13,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792851884.5633333
+    },
     {
       "id": "REFL-1792851548211",
       "trade_id": "S10:944238:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792557710.7051537
-    },
-    {
-      "id": "REFL-1792551557531",
-      "trade_id": "WT:629397:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
-      "strategy_id": "WT",
-      "market_title": "Will the Democrats win the Iowa governor race in 2026?",
-      "predicted_prob": 0.88,
-      "outcome": 0,
-      "pnl": -1.16,
-      "brier_error": 0.7744,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792551557.531877
     }
   ],
   "strategy_weights": {
@@ -2625,11 +2625,11 @@
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.4402,
-      "win_rate": 24.5,
-      "trades_count": 184,
+      "brier_score": 0.4409,
+      "win_rate": 24.3,
+      "trades_count": 185,
       "kelly_multiplier": 0.4,
-      "reliability": 0.2555,
+      "reliability": 0.2568,
       "resolution": 0.0,
       "status": "REDUCED"
     },
