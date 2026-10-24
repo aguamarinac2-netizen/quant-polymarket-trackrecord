@@ -1,6 +1,32 @@
 {
-  "updated_at": 1792848114.1193943,
+  "updated_at": 1792848603.8353477,
   "reflections": [
+    {
+      "id": "REFL-1792848369207",
+      "trade_id": "WT:608547:0x758dac51ba3cc9a246a79787da9df11c5f425d9e:Yes:BUY",
+      "strategy_id": "WT",
+      "market_title": "Will Harry Kane win the 2026 Ballon d'Or?",
+      "predicted_prob": 0.8,
+      "outcome": 0,
+      "pnl": -1.26,
+      "brier_error": 0.64,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792848369.2079163
+    },
+    {
+      "id": "REFL-1792848369117",
+      "trade_id": "WT:608547:0x758dac51ba3cc9a246a79787da9df11c5f425d9e:Yes:BUY",
+      "strategy_id": "WT",
+      "market_title": "Will Harry Kane win the 2026 Ballon d'Or?",
+      "predicted_prob": 0.8,
+      "outcome": 0,
+      "pnl": -1.26,
+      "brier_error": 0.64,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792848369.1175482
+    },
     {
       "id": "REFL-1792846669429",
       "trade_id": "S10:629338:No:BUY",
@@ -2574,32 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792546964.7289593
-    },
-    {
-      "id": "REFL-1792546964692",
-      "trade_id": "WT:629030:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
-      "strategy_id": "WT",
-      "market_title": "Will Karen Bass win the 2026 Los Angeles mayoral election?",
-      "predicted_prob": 0.88,
-      "outcome": 0,
-      "pnl": -1.42,
-      "brier_error": 0.7744,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792546964.692581
-    },
-    {
-      "id": "REFL-1792535958116",
-      "trade_id": "WT:559664:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
-      "strategy_id": "WT",
-      "market_title": "Will Raphael Warnock win the 2028 Democratic presidential nomination?",
-      "predicted_prob": 0.88,
-      "outcome": 0,
-      "pnl": -0.04,
-      "brier_error": 0.7744,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792535958.1164103
     }
   ],
   "strategy_weights": {
@@ -2643,11 +2643,11 @@
       "status": "REDUCED"
     },
     "WT": {
-      "brier_score": 0.5898,
-      "win_rate": 21.5,
-      "trades_count": 163,
+      "brier_score": 0.5904,
+      "win_rate": 21.2,
+      "trades_count": 165,
       "kelly_multiplier": 0.4,
-      "reliability": 0.4204,
+      "reliability": 0.4228,
       "resolution": 0.0,
       "status": "REDUCED"
     },
