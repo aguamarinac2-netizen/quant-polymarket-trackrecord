@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792850432.8540912,
+  "updated_at": 1792850798.766668,
   "reflections": [
+    {
+      "id": "REFL-1792850555941",
+      "trade_id": "S10:1139711:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Over $160B wagered on US sports betting in 2026?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -2.28,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792850555.9411924
+    },
     {
       "id": "REFL-1792850408378",
       "trade_id": "MR:gamma:630772:Yes:1d:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792546964.8021607
-    },
-    {
-      "id": "REFL-1792546964742",
-      "trade_id": "MR:gamma:629030:Yes:1d:SELL",
-      "strategy_id": "MR",
-      "market_title": "Will Karen Bass win the 2026 Los Angeles mayoral election?",
-      "predicted_prob": 0.77,
-      "outcome": 0,
-      "pnl": -2.45,
-      "brier_error": 0.5929,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792546964.7426372
     }
   ],
   "strategy_weights": {
@@ -2625,11 +2625,11 @@
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.441,
-      "win_rate": 24.3,
-      "trades_count": 181,
+      "brier_score": 0.4416,
+      "win_rate": 24.2,
+      "trades_count": 182,
       "kelly_multiplier": 0.4,
-      "reliability": 0.257,
+      "reliability": 0.2583,
       "resolution": 0.0,
       "status": "REDUCED"
     },
