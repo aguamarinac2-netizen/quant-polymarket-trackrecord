@@ -1,6 +1,32 @@
 {
-  "updated_at": 1792800746.8549263,
+  "updated_at": 1792801359.7527926,
   "reflections": [
+    {
+      "id": "REFL-1792801102854",
+      "trade_id": "WT:559695:0x8b881cf08d3a53d3711d7ea85783b94738e55f5e:Yes:BUY",
+      "strategy_id": "WT",
+      "market_title": "Will James Talarico win the 2028 Democratic presidential nomination?",
+      "predicted_prob": 0.83,
+      "outcome": 0,
+      "pnl": -0.27,
+      "brier_error": 0.6889,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792801102.8541813
+    },
+    {
+      "id": "REFL-1792800901954",
+      "trade_id": "WT:561232:0xf1f9a438f2697381b4ac8eb283d6f4dd772d1245:Yes:BUY",
+      "strategy_id": "WT",
+      "market_title": "Will Pete Buttigieg win the 2028 US Presidential Election?",
+      "predicted_prob": 0.81,
+      "outcome": 0,
+      "pnl": -0.44,
+      "brier_error": 0.6561,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792800901.954914
+    },
     {
       "id": "REFL-1792800727148",
       "trade_id": "WT:559655:0x66e7ce01c6831b8a2503d09edd6167152ee68bcd:No:BUY",
@@ -2574,32 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792490519.5869677
-    },
-    {
-      "id": "REFL-1792490175972",
-      "trade_id": "S10:629271:No:BUY",
-      "strategy_id": "S10",
-      "market_title": "Will the Republicans win the Alabama governor race in 2026?",
-      "predicted_prob": 0.75,
-      "outcome": 0,
-      "pnl": -1.99,
-      "brier_error": 0.5625,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792490175.9725006
-    },
-    {
-      "id": "REFL-1792489281828",
-      "trade_id": "S10:942425:No:BUY",
-      "strategy_id": "S10",
-      "market_title": "Will the Democratic Party win the IN-01 House seat?",
-      "predicted_prob": 0.75,
-      "outcome": 0,
-      "pnl": -0.02,
-      "brier_error": 0.5625,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792489281.8282623
     }
   ],
   "strategy_weights": {
@@ -2643,11 +2643,11 @@
       "status": "REDUCED"
     },
     "WT": {
-      "brier_score": 0.5957,
-      "win_rate": 20.9,
-      "trades_count": 148,
+      "brier_score": 0.5968,
+      "win_rate": 20.7,
+      "trades_count": 150,
       "kelly_multiplier": 0.4,
-      "reliability": 0.4293,
+      "reliability": 0.4322,
       "resolution": 0.0,
       "status": "REDUCED"
     },
