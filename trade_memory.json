@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792868846.7578375,
+  "updated_at": 1792869395.0669203,
   "reflections": [
+    {
+      "id": "REFL-1792869133666",
+      "trade_id": "MR:gamma:634892:Yes:1d:SELL",
+      "strategy_id": "MR",
+      "market_title": "Will the Republicans win the Nebraska Senate race in 2026?",
+      "predicted_prob": 0.72,
+      "outcome": 0,
+      "pnl": -0.28,
+      "brier_error": 0.5184,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792869133.66688
+    },
     {
       "id": "REFL-1792868609031",
       "trade_id": "WT:630805:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792587014.0306678
-    },
-    {
-      "id": "REFL-1792580687388",
-      "trade_id": "FLB:559664:No:BUY",
-      "strategy_id": "FLB",
-      "market_title": "Will Raphael Warnock win the 2028 Democratic presidential nomination?",
-      "predicted_prob": 0.6,
-      "outcome": 0,
-      "pnl": -0.04,
-      "brier_error": 0.36,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792580687.3881762
     }
   ],
   "strategy_weights": {
@@ -2643,20 +2643,20 @@
       "status": "REDUCED"
     },
     "WT": {
-      "brier_score": 0.593,
-      "win_rate": 20.8,
-      "trades_count": 168,
+      "brier_score": 0.5897,
+      "win_rate": 21.3,
+      "trades_count": 169,
       "kelly_multiplier": 0.4,
-      "reliability": 0.4276,
+      "reliability": 0.4212,
       "resolution": 0.0,
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.4003,
-      "win_rate": 34.0,
-      "trades_count": 191,
+      "brier_score": 0.4009,
+      "win_rate": 33.9,
+      "trades_count": 192,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1729,
+      "reliability": 0.1742,
       "resolution": 0.0,
       "status": "REDUCED"
     },
