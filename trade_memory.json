@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792867940.7222598,
+  "updated_at": 1792868481.8314695,
   "reflections": [
+    {
+      "id": "REFL-1792868412274",
+      "trade_id": "S10:943797:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Will the Democratic Party win the PA-07 House seat?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -0.39,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792868412.2744482
+    },
     {
       "id": "REFL-1792867940710",
       "trade_id": "FLB:560317:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792580497.5202856
-    },
-    {
-      "id": "REFL-1792576751785",
-      "trade_id": "WT:629570:0x852eaa709e9e502489b3c3f6c967493342a9ca77:Yes:BUY",
-      "strategy_id": "WT",
-      "market_title": "Will the Democrats win the Oklahoma governor race in 2026?",
-      "predicted_prob": 0.8,
-      "outcome": 0,
-      "pnl": -0.4,
-      "brier_error": 0.64,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792576751.7853978
     }
   ],
   "strategy_weights": {
@@ -2625,11 +2625,11 @@
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.4415,
-      "win_rate": 24.2,
-      "trades_count": 186,
+      "brier_score": 0.4422,
+      "win_rate": 24.1,
+      "trades_count": 187,
       "kelly_multiplier": 0.4,
-      "reliability": 0.2581,
+      "reliability": 0.2594,
       "resolution": 0.0,
       "status": "REDUCED"
     },
