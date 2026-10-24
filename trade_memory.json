@@ -1,6 +1,32 @@
 {
-  "updated_at": 1792801663.1034184,
+  "updated_at": 1792802220.6360152,
   "reflections": [
+    {
+      "id": "REFL-1792802220626",
+      "trade_id": "MR:gamma:1105744:Yes:1w:SELL",
+      "strategy_id": "MR",
+      "market_title": "Will Nicolás Maduro be the leader of Venezuela end of 2026?",
+      "predicted_prob": 0.78,
+      "outcome": 0,
+      "pnl": -0.2,
+      "brier_error": 0.6084,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792802220.626323
+    },
+    {
+      "id": "REFL-1792801868023",
+      "trade_id": "MR:gamma:562793:Yes:1d:SELL",
+      "strategy_id": "MR",
+      "market_title": "Will the Democratic Party control the Senate after the 2026 Midterm elections?",
+      "predicted_prob": 0.78,
+      "outcome": 0,
+      "pnl": -0.25,
+      "brier_error": 0.6084,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792801868.023062
+    },
     {
       "id": "REFL-1792801102854",
       "trade_id": "WT:559695:0x8b881cf08d3a53d3711d7ea85783b94738e55f5e:Yes:BUY",
@@ -2574,32 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792492589.3062901
-    },
-    {
-      "id": "REFL-1792491688589",
-      "trade_id": "S10:942987:No:BUY",
-      "strategy_id": "S10",
-      "market_title": "Will the Democratic Party win the NJ-09 House seat?",
-      "predicted_prob": 0.75,
-      "outcome": 0,
-      "pnl": -0.15,
-      "brier_error": 0.5625,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792491688.589763
-    },
-    {
-      "id": "REFL-1792490519586",
-      "trade_id": "S10:942971:No:BUY",
-      "strategy_id": "S10",
-      "market_title": "Will the Democratic Party win the NJ-05 House seat?",
-      "predicted_prob": 0.75,
-      "outcome": 0,
-      "pnl": -0.15,
-      "brier_error": 0.5625,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792490519.5869677
     }
   ],
   "strategy_weights": {
@@ -2652,11 +2652,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3984,
-      "win_rate": 34.1,
-      "trades_count": 173,
+      "brier_score": 0.4008,
+      "win_rate": 33.7,
+      "trades_count": 175,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1714,
+      "reliability": 0.1749,
       "resolution": 0.0,
       "status": "REDUCED"
     },
