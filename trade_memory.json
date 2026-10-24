@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792874204.7983732,
+  "updated_at": 1792874811.491001,
   "reflections": [
+    {
+      "id": "REFL-1792874643057",
+      "trade_id": "S10:1090098:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Will Ciryl Gane be the UFC Heavyweight Champion on December 31, 2026?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -0.37,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792874643.0579069
+    },
     {
       "id": "REFL-1792873755766",
       "trade_id": "WT:562803:0x8b4bca1d794779e66e023d44391b2a86c5ab541b:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792592843.8627641
-    },
-    {
-      "id": "REFL-1792592467782",
-      "trade_id": "WT:629324:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
-      "strategy_id": "WT",
-      "market_title": "Will the Democrats win the Florida governor race in 2026?",
-      "predicted_prob": 0.88,
-      "outcome": 0,
-      "pnl": 0.0,
-      "brier_error": 0.7744,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792592467.7829647
     }
   ],
   "strategy_weights": {
@@ -2625,11 +2625,11 @@
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.4428,
-      "win_rate": 23.9,
-      "trades_count": 188,
+      "brier_score": 0.4435,
+      "win_rate": 23.8,
+      "trades_count": 189,
       "kelly_multiplier": 0.4,
-      "reliability": 0.2608,
+      "reliability": 0.262,
       "resolution": 0.0,
       "status": "REDUCED"
     },
