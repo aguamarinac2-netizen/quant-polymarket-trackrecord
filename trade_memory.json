@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792871220.9659126,
+  "updated_at": 1792871527.3358505,
   "reflections": [
+    {
+      "id": "REFL-1792871243079",
+      "trade_id": "S10:1089949:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Will Movsar Evloev be the UFC Featherweight Champion on December 31, 2026?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -0.28,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792871243.0790324
+    },
     {
       "id": "REFL-1792870253072",
       "trade_id": "S12:942433:Yes:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792590919.8482792
-    },
-    {
-      "id": "REFL-1792590590548",
-      "trade_id": "S10:629030:No:BUY",
-      "strategy_id": "S10",
-      "market_title": "Will Karen Bass win the 2026 Los Angeles mayoral election?",
-      "predicted_prob": 0.75,
-      "outcome": 0,
-      "pnl": -1.87,
-      "brier_error": 0.5625,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792590590.5488544
     }
   ],
   "strategy_weights": {
@@ -2625,11 +2625,11 @@
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.4422,
-      "win_rate": 24.1,
-      "trades_count": 187,
+      "brier_score": 0.4428,
+      "win_rate": 23.9,
+      "trades_count": 188,
       "kelly_multiplier": 0.4,
-      "reliability": 0.2594,
+      "reliability": 0.2608,
       "resolution": 0.0,
       "status": "REDUCED"
     },
