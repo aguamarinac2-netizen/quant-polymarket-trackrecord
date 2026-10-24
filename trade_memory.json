@@ -1,6 +1,45 @@
 {
-  "updated_at": 1792835987.5047753,
+  "updated_at": 1792836410.8098385,
   "reflections": [
+    {
+      "id": "REFL-1792836237452",
+      "trade_id": "MR:gamma:608545:Yes:1d:BUY",
+      "strategy_id": "MR",
+      "market_title": "Will Lamine Yamal win the 2026 Ballon d'Or?",
+      "predicted_prob": 0.78,
+      "outcome": 0,
+      "pnl": -3.84,
+      "brier_error": 0.6084,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792836237.45281
+    },
+    {
+      "id": "REFL-1792836237435",
+      "trade_id": "MR:gamma:608545:Yes:1w:BUY",
+      "strategy_id": "MR",
+      "market_title": "Will Lamine Yamal win the 2026 Ballon d'Or?",
+      "predicted_prob": 0.78,
+      "outcome": 0,
+      "pnl": -5.52,
+      "brier_error": 0.6084,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792836237.4352632
+    },
+    {
+      "id": "REFL-1792836237416",
+      "trade_id": "WT:608540:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
+      "strategy_id": "WT",
+      "market_title": "Will Kylian Mbappé win the 2026 Ballon d'Or?",
+      "predicted_prob": 0.88,
+      "outcome": 0,
+      "pnl": -1.09,
+      "brier_error": 0.7744,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792836237.4166162
+    },
     {
       "id": "REFL-1792833923519",
       "trade_id": "MR:gamma:562794:Yes:1w:BUY",
@@ -2561,45 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792525174.7468493
-    },
-    {
-      "id": "REFL-1792524827623",
-      "trade_id": "MR:gamma:567688:Yes:1d:SELL",
-      "strategy_id": "MR",
-      "market_title": "Netanyahu out by end of 2026?",
-      "predicted_prob": 0.78,
-      "outcome": 0,
-      "pnl": -0.22,
-      "brier_error": 0.6084,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792524827.6233575
-    },
-    {
-      "id": "REFL-1792518566414",
-      "trade_id": "MR:gamma:630964:Yes:1d:BUY",
-      "strategy_id": "MR",
-      "market_title": "Will the Republicans win the Texas Senate race in 2026?",
-      "predicted_prob": 0.72,
-      "outcome": 0,
-      "pnl": -0.68,
-      "brier_error": 0.5184,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792518566.4147856
-    },
-    {
-      "id": "REFL-1792514530744",
-      "trade_id": "S10:942820:No:BUY",
-      "strategy_id": "S10",
-      "market_title": "Will the Democratic Party win the MN-02 House seat?",
-      "predicted_prob": 0.75,
-      "outcome": 0,
-      "pnl": -0.42,
-      "brier_error": 0.5625,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792514530.7449715
     }
   ],
   "strategy_weights": {
@@ -2643,20 +2643,20 @@
       "status": "REDUCED"
     },
     "WT": {
-      "brier_score": 0.6002,
-      "win_rate": 20.3,
-      "trades_count": 153,
+      "brier_score": 0.5939,
+      "win_rate": 21.2,
+      "trades_count": 156,
       "kelly_multiplier": 0.4,
-      "reliability": 0.4379,
+      "reliability": 0.4264,
       "resolution": 0.0,
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3986,
-      "win_rate": 34.3,
-      "trades_count": 181,
+      "brier_score": 0.4009,
+      "win_rate": 33.9,
+      "trades_count": 183,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1706,
+      "reliability": 0.1739,
       "resolution": 0.0,
       "status": "REDUCED"
     },
