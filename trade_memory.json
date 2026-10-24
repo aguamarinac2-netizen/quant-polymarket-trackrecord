@@ -1,6 +1,32 @@
 {
-  "updated_at": 1792862476.2885306,
+  "updated_at": 1792863096.871673,
   "reflections": [
+    {
+      "id": "REFL-1792863048075",
+      "trade_id": "MR:gamma:1059067:Yes:1d:BUY",
+      "strategy_id": "MR",
+      "market_title": "Will a team from LPL (China) win LoL Worlds 2026?",
+      "predicted_prob": 0.78,
+      "outcome": 0,
+      "pnl": -2.07,
+      "brier_error": 0.6084,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792863048.0753179
+    },
+    {
+      "id": "REFL-1792863048000",
+      "trade_id": "S10:629438:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Will the Democrats win the Maryland governor race in 2026?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -0.2,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792863048.000462
+    },
     {
       "id": "REFL-1792862470450",
       "trade_id": "MR:gamma:629338:Yes:1d:BUY",
@@ -2574,32 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792576653.679879
-    },
-    {
-      "id": "REFL-1792575059006",
-      "trade_id": "MR:gamma:630773:Yes:1w:BUY",
-      "strategy_id": "MR",
-      "market_title": "Will the Republicans win the Maine Senate race in 2026?",
-      "predicted_prob": 0.78,
-      "outcome": 0,
-      "pnl": -1.06,
-      "brier_error": 0.6084,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792575059.0067985
-    },
-    {
-      "id": "REFL-1792570674139",
-      "trade_id": "WT:629412:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
-      "strategy_id": "WT",
-      "market_title": "Will the Democrats win the Kansas governor race in 2026?",
-      "predicted_prob": 0.88,
-      "outcome": 0,
-      "pnl": -0.13,
-      "brier_error": 0.7744,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792570674.1398897
     }
   ],
   "strategy_weights": {
@@ -2625,11 +2625,11 @@
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.4409,
-      "win_rate": 24.3,
-      "trades_count": 185,
+      "brier_score": 0.4415,
+      "win_rate": 24.2,
+      "trades_count": 186,
       "kelly_multiplier": 0.4,
-      "reliability": 0.2568,
+      "reliability": 0.2581,
       "resolution": 0.0,
       "status": "REDUCED"
     },
@@ -2652,11 +2652,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3992,
-      "win_rate": 34.2,
-      "trades_count": 190,
+      "brier_score": 0.4003,
+      "win_rate": 34.0,
+      "trades_count": 191,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1713,
+      "reliability": 0.1729,
       "resolution": 0.0,
       "status": "REDUCED"
     },
