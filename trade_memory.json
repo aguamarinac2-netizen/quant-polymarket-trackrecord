@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792816092.3125331,
+  "updated_at": 1792816638.725108,
   "reflections": [
+    {
+      "id": "REFL-1792816399989",
+      "trade_id": "S10:942886:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Will the Democratic Party win the NV-01 House seat?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -0.16,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792816399.98936
+    },
     {
       "id": "REFL-1792807064753",
       "trade_id": "MR:gamma:629413:Yes:1d:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792493378.012058
-    },
-    {
-      "id": "REFL-1792492775717",
-      "trade_id": "S10:630883:No:BUY",
-      "strategy_id": "S10",
-      "market_title": "Will the Democrats win the North Carolina Senate race in 2026?",
-      "predicted_prob": 0.75,
-      "outcome": 0,
-      "pnl": -0.55,
-      "brier_error": 0.5625,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792492775.717613
     }
   ],
   "strategy_weights": {
@@ -2625,11 +2625,11 @@
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.4426,
-      "win_rate": 24.0,
-      "trades_count": 171,
+      "brier_score": 0.4433,
+      "win_rate": 23.8,
+      "trades_count": 172,
       "kelly_multiplier": 0.4,
-      "reliability": 0.2603,
+      "reliability": 0.2618,
       "resolution": 0.0,
       "status": "REDUCED"
     },
