@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792851346.6497993,
+  "updated_at": 1792851711.456213,
   "reflections": [
+    {
+      "id": "REFL-1792851548211",
+      "trade_id": "S10:944238:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Will the Democratic Party win the TX-34 House seat?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -0.39,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792851548.2115366
+    },
     {
       "id": "REFL-1792850855801",
       "trade_id": "WT:601826:0x2b8a8ea88c38838a5e691f610e1d02af79e49fae:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792551557.531877
-    },
-    {
-      "id": "REFL-1792551357896",
-      "trade_id": "S10:943469:No:BUY",
-      "strategy_id": "S10",
-      "market_title": "Will the Democratic Party win the NY-22 House seat?",
-      "predicted_prob": 0.75,
-      "outcome": 0,
-      "pnl": -2.16,
-      "brier_error": 0.5625,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792551357.8965123
     }
   ],
   "strategy_weights": {
@@ -2625,11 +2625,11 @@
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.4416,
-      "win_rate": 24.2,
-      "trades_count": 182,
+      "brier_score": 0.4402,
+      "win_rate": 24.5,
+      "trades_count": 184,
       "kelly_multiplier": 0.4,
-      "reliability": 0.2583,
+      "reliability": 0.2555,
       "resolution": 0.0,
       "status": "REDUCED"
     },
