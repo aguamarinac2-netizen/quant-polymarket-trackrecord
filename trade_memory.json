@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792904630.3077643,
+  "updated_at": 1792904810.3890069,
   "reflections": [
+    {
+      "id": "REFL-1792904730530",
+      "trade_id": "S12:630790:Yes:BUY",
+      "strategy_id": "S12",
+      "market_title": "Will the Democrats win the Massachusetts Senate race in 2026?",
+      "predicted_prob": 0.9,
+      "outcome": 0,
+      "pnl": -0.01,
+      "brier_error": 0.81,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792904730.5301757
+    },
     {
       "id": "REFL-1792902926332",
       "trade_id": "WT:567689:0x56a18823707f327bbba6ed2e6f8a0c26b7a5e249:Yes:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792597080.946892
-    },
-    {
-      "id": "REFL-1792596338195",
-      "trade_id": "MR:local:559661:Yes:BUY",
-      "strategy_id": "MR",
-      "market_title": "Will Jon Ossoff win the 2028 Democratic presidential nomination?",
-      "predicted_prob": 0.75,
-      "outcome": 0,
-      "pnl": -0.28,
-      "brier_error": 0.5625,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792596338.1953175
     }
   ],
   "strategy_weights": {
@@ -2634,11 +2634,11 @@
       "status": "REDUCED"
     },
     "S12": {
-      "brier_score": 0.6957,
-      "win_rate": 14.3,
-      "trades_count": 91,
+      "brier_score": 0.697,
+      "win_rate": 14.1,
+      "trades_count": 92,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5733,
+      "reliability": 0.5756,
       "resolution": 0.0,
       "status": "REDUCED"
     },

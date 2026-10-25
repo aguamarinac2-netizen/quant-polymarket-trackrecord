@@ -32840,13 +32840,13 @@
       "risk_reward_ratio": 0.18,
       "horizon": "short",
       "horizon_label": "\ud83d\udcc5 Corto (<15d)",
-      "status": "OPEN",
+      "status": "WON",
       "unrealized_pnl_usd": 0.02,
       "unrealized_pnl_pct": 0.2,
-      "realized_pnl_usd": 0.0,
-      "realized_pnl_pct": 0.0,
-      "close_reason": null,
-      "closed_at": null,
+      "realized_pnl_usd": -0.01,
+      "realized_pnl_pct": 0.2,
+      "close_reason": "\u23f1\ufe0f Time-Stop 48h (Capital liberado: rotaci\u00f3n r\u00e1pida tras 48.0h estancado)",
+      "closed_at": "2026-10-25T05:05:30.454838+00:00",
       "engine": "paper"
     },
     "S10:1068623:No:BUY": {
@@ -36889,7 +36889,7 @@
       "order_type": "LIMIT",
       "entry_price": 0.9686,
       "signal_entry_price": 0.9705,
-      "current_price": 0.958,
+      "current_price": 0.9595,
       "target_price": 0.9205,
       "stop_loss": 0.99,
       "initial_stop_loss": 0.99,
@@ -36913,8 +36913,8 @@
       "horizon": "medium_long",
       "horizon_label": "\ud83d\uddd3\ufe0f Largo (>15d)",
       "status": "OPEN",
-      "unrealized_pnl_usd": 0.11,
-      "unrealized_pnl_pct": 1.09,
+      "unrealized_pnl_usd": 0.09,
+      "unrealized_pnl_pct": 0.94,
       "realized_pnl_usd": 0.0,
       "realized_pnl_pct": 0.0,
       "close_reason": null,
@@ -38091,7 +38091,7 @@
       "order_type": "LIMIT",
       "entry_price": 0.0421,
       "signal_entry_price": 0.042,
-      "current_price": 0.0421,
+      "current_price": 0.0405,
       "target_price": 0.0454,
       "stop_loss": 0.0386,
       "initial_stop_loss": 0.0386,
@@ -38115,8 +38115,8 @@
       "horizon": "medium_long",
       "horizon_label": "\ud83d\uddd3\ufe0f Largo (>15d)",
       "status": "OPEN",
-      "unrealized_pnl_usd": 0.0,
-      "unrealized_pnl_pct": 0.0,
+      "unrealized_pnl_usd": -0.36,
+      "unrealized_pnl_pct": -3.8,
       "realized_pnl_usd": 0.0,
       "realized_pnl_pct": 0.0,
       "close_reason": null,
@@ -38124,5 +38124,5 @@
       "engine": "paper"
     }
   },
-  "updated_at": "2026-10-25T04:35:29.501325+00:00"
+  "updated_at": "2026-10-25T05:05:30.457612+00:00"
 }
