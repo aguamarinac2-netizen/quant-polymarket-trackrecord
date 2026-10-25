@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792938975.9887211,
+  "updated_at": 1792939890.3491924,
   "reflections": [
+    {
+      "id": "REFL-1792939741616",
+      "trade_id": "S10:943559:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Will the Democratic Party win the OH-01 House seat?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -2.67,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792939741.6167037
+    },
     {
       "id": "REFL-1792938460577",
       "trade_id": "WT:630746:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792627892.9412026
-    },
-    {
-      "id": "REFL-1792627892926",
-      "trade_id": "S20:629465:No:BUY",
-      "strategy_id": "S20",
-      "market_title": "Will the Republicans win the Michigan governor race in 2026?",
-      "predicted_prob": 0.96,
-      "outcome": 0,
-      "pnl": -0.08,
-      "brier_error": 0.9216,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792627892.926209
     }
   ],
   "strategy_weights": {
@@ -2625,11 +2625,11 @@
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.4407,
-      "win_rate": 24.4,
-      "trades_count": 197,
+      "brier_score": 0.4394,
+      "win_rate": 24.6,
+      "trades_count": 199,
       "kelly_multiplier": 0.4,
-      "reliability": 0.2564,
+      "reliability": 0.2538,
       "resolution": 0.0,
       "status": "REDUCED"
     },
