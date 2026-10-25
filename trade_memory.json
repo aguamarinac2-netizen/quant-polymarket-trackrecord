@@ -1,6 +1,45 @@
 {
-  "updated_at": 1792954295.4970152,
+  "updated_at": 1792955213.0576837,
   "reflections": [
+    {
+      "id": "REFL-1792955000485",
+      "trade_id": "WT:630883:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
+      "strategy_id": "WT",
+      "market_title": "Will the Democrats win the North Carolina Senate race in 2026?",
+      "predicted_prob": 0.88,
+      "outcome": 0,
+      "pnl": -1.34,
+      "brier_error": 0.7744,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792955000.4852273
+    },
+    {
+      "id": "REFL-1792955000467",
+      "trade_id": "MR:gamma:630707:Yes:1d:BUY",
+      "strategy_id": "MR",
+      "market_title": "Will Todd Achilles win the Idaho Senate race in 2026?",
+      "predicted_prob": 0.78,
+      "outcome": 0,
+      "pnl": -0.43,
+      "brier_error": 0.6084,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792955000.4677498
+    },
+    {
+      "id": "REFL-1792955000387",
+      "trade_id": "MR:gamma:608540:Yes:1d:BUY",
+      "strategy_id": "MR",
+      "market_title": "Will Kylian Mbappé win the 2026 Ballon d'Or?",
+      "predicted_prob": 0.78,
+      "outcome": 0,
+      "pnl": -0.61,
+      "brier_error": 0.6084,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792955000.3872929
+    },
     {
       "id": "REFL-1792952742479",
       "trade_id": "S10:629667:No:BUY",
@@ -2561,45 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792627899.2079446
-    },
-    {
-      "id": "REFL-1792627899190",
-      "trade_id": "S20:677375:No:BUY",
-      "strategy_id": "S20",
-      "market_title": "Will Russia rejoin the G7 before 2027?",
-      "predicted_prob": 0.96,
-      "outcome": 0,
-      "pnl": -0.06,
-      "brier_error": 0.9216,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792627899.1906884
-    },
-    {
-      "id": "REFL-1792627899174",
-      "trade_id": "S20:677315:No:BUY",
-      "strategy_id": "S20",
-      "market_title": "Israel and Indonesia normalize relations by December 31, 2026?",
-      "predicted_prob": 0.96,
-      "outcome": 0,
-      "pnl": -0.04,
-      "brier_error": 0.9216,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792627899.1745448
-    },
-    {
-      "id": "REFL-1792627899156",
-      "trade_id": "S20:676842:No:BUY",
-      "strategy_id": "S20",
-      "market_title": "U.S. enacts AI safety bill before 2027?",
-      "predicted_prob": 0.96,
-      "outcome": 0,
-      "pnl": -0.07,
-      "brier_error": 0.9216,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792627899.156102
     }
   ],
   "strategy_weights": {
@@ -2643,20 +2643,20 @@
       "status": "REDUCED"
     },
     "WT": {
-      "brier_score": 0.5896,
-      "win_rate": 21.4,
-      "trades_count": 187,
+      "brier_score": 0.5876,
+      "win_rate": 21.7,
+      "trades_count": 189,
       "kelly_multiplier": 0.4,
-      "reliability": 0.4205,
+      "reliability": 0.4164,
       "resolution": 0.0,
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3926,
-      "win_rate": 35.3,
-      "trades_count": 207,
+      "brier_score": 0.3947,
+      "win_rate": 34.9,
+      "trades_count": 209,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1622,
+      "reliability": 0.1651,
       "resolution": 0.0,
       "status": "REDUCED"
     },
