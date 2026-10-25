@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792920082.9469204,
+  "updated_at": 1792920872.7202353,
   "reflections": [
+    {
+      "id": "REFL-1792920734015",
+      "trade_id": "MR:gamma:701552:Yes:1d:SELL",
+      "strategy_id": "MR",
+      "market_title": "Will Ethereum dip to $1,500 by December 31, 2026?",
+      "predicted_prob": 0.73,
+      "outcome": 0,
+      "pnl": -1.97,
+      "brier_error": 0.5329,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792920734.0152225
+    },
     {
       "id": "REFL-1792920041550",
       "trade_id": "S10:1089925:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792610869.647249
-    },
-    {
-      "id": "REFL-1792610004238",
-      "trade_id": "S12:942979:Yes:BUY",
-      "strategy_id": "S12",
-      "market_title": "Will the Democratic Party win the NJ-07 House seat?",
-      "predicted_prob": 0.9,
-      "outcome": 0,
-      "pnl": -0.12,
-      "brier_error": 0.81,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792610004.2388148
     }
   ],
   "strategy_weights": {
@@ -2652,11 +2652,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.4015,
-      "win_rate": 33.7,
-      "trades_count": 196,
+      "brier_score": 0.4022,
+      "win_rate": 33.5,
+      "trades_count": 197,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1753,
+      "reliability": 0.1767,
       "resolution": 0.0,
       "status": "REDUCED"
     },
