@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792919993.8362067,
+  "updated_at": 1792920082.9469204,
   "reflections": [
+    {
+      "id": "REFL-1792920041550",
+      "trade_id": "S10:1089925:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Will Petr Yan be the UFC Bantamweight Champion on December 31, 2026?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -8.73,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792920041.5504668
+    },
     {
       "id": "REFL-1792919993826",
       "trade_id": "WT:561989:0x9703676286b93c2eca71ca96e8757104519a69c2:Yes:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792610004.2388148
-    },
-    {
-      "id": "REFL-1792606664676",
-      "trade_id": "MR:gamma:682706:Yes:1w:BUY",
-      "strategy_id": "MR",
-      "market_title": "Will Naftali Bennett be the next Prime Minister of Israel?",
-      "predicted_prob": 0.78,
-      "outcome": 0,
-      "pnl": -0.76,
-      "brier_error": 0.6084,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792606664.6762524
     }
   ],
   "strategy_weights": {
@@ -2625,11 +2625,11 @@
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.4447,
-      "win_rate": 23.6,
-      "trades_count": 191,
+      "brier_score": 0.4433,
+      "win_rate": 23.8,
+      "trades_count": 193,
       "kelly_multiplier": 0.4,
-      "reliability": 0.2646,
+      "reliability": 0.2618,
       "resolution": 0.0,
       "status": "REDUCED"
     },
