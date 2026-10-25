@@ -1,6 +1,58 @@
 {
-  "updated_at": 1792947173.6490993,
+  "updated_at": 1792947970.1051579,
   "reflections": [
+    {
+      "id": "REFL-1792947832117",
+      "trade_id": "WT:601826:0xf5c5a704812f00a9e18d841ded2c2f915b0f717f:No:BUY",
+      "strategy_id": "WT",
+      "market_title": "Will Flávio Bolsonaro win the 2026 Brazilian presidential election?",
+      "predicted_prob": 0.88,
+      "outcome": 0,
+      "pnl": -1.18,
+      "brier_error": 0.7744,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792947832.1170495
+    },
+    {
+      "id": "REFL-1792947542972",
+      "trade_id": "WT:629571:0x66e7ce01c6831b8a2503d09edd6167152ee68bcd:No:BUY",
+      "strategy_id": "WT",
+      "market_title": "Will the Republicans win the Oklahoma governor race in 2026?",
+      "predicted_prob": 0.82,
+      "outcome": 0,
+      "pnl": -1.77,
+      "brier_error": 0.6724,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792947542.9729252
+    },
+    {
+      "id": "REFL-1792947542957",
+      "trade_id": "MR:gamma:562794:Yes:1d:SELL",
+      "strategy_id": "MR",
+      "market_title": "Will the Republican Party control the Senate after the 2026 Midterm elections?",
+      "predicted_prob": 0.72,
+      "outcome": 0,
+      "pnl": -0.75,
+      "brier_error": 0.5184,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792947542.9576113
+    },
+    {
+      "id": "REFL-1792947542941",
+      "trade_id": "MR:gamma:562828:Yes:1d:BUY",
+      "strategy_id": "MR",
+      "market_title": "2026 Balance of Power: D Senate, D House",
+      "predicted_prob": 0.72,
+      "outcome": 0,
+      "pnl": -0.39,
+      "brier_error": 0.5184,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792947542.9416513
+    },
     {
       "id": "REFL-1792946354353",
       "trade_id": "MR:gamma:944250:Yes:1w:SELL",
@@ -2548,58 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792627899.1218636
-    },
-    {
-      "id": "REFL-1792627899107",
-      "trade_id": "S20:665471:No:BUY",
-      "strategy_id": "S20",
-      "market_title": "Will Kuwait join the Abraham Accords before 2027?",
-      "predicted_prob": 0.96,
-      "outcome": 0,
-      "pnl": -0.06,
-      "brier_error": 0.9216,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792627899.1071374
-    },
-    {
-      "id": "REFL-1792627899091",
-      "trade_id": "S20:665460:No:BUY",
-      "strategy_id": "S20",
-      "market_title": "Zohran Mamdani citizenship revoked before 2027?",
-      "predicted_prob": 0.96,
-      "outcome": 0,
-      "pnl": -0.04,
-      "brier_error": 0.9216,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792627899.0915096
-    },
-    {
-      "id": "REFL-1792627899075",
-      "trade_id": "S20:665327:No:BUY",
-      "strategy_id": "S20",
-      "market_title": "Will Italy recognize Palestine before 2027?",
-      "predicted_prob": 0.96,
-      "outcome": 0,
-      "pnl": -0.07,
-      "brier_error": 0.9216,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792627899.0757246
-    },
-    {
-      "id": "REFL-1792627899059",
-      "trade_id": "S20:629641:Yes:BUY",
-      "strategy_id": "S20",
-      "market_title": "Will the Republicans win the South Carolina governor race in 2026?",
-      "predicted_prob": 0.96,
-      "outcome": 0,
-      "pnl": -0.12,
-      "brier_error": 0.9216,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792627899.0591834
     }
   ],
   "strategy_weights": {
@@ -2625,11 +2625,11 @@
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.4394,
-      "win_rate": 24.6,
-      "trades_count": 199,
+      "brier_score": 0.4375,
+      "win_rate": 25.0,
+      "trades_count": 200,
       "kelly_multiplier": 0.4,
-      "reliability": 0.2538,
+      "reliability": 0.25,
       "resolution": 0.0,
       "status": "REDUCED"
     },
@@ -2643,20 +2643,20 @@
       "status": "REDUCED"
     },
     "WT": {
-      "brier_score": 0.5912,
-      "win_rate": 21.2,
-      "trades_count": 184,
+      "brier_score": 0.5896,
+      "win_rate": 21.4,
+      "trades_count": 187,
       "kelly_multiplier": 0.4,
-      "reliability": 0.4231,
+      "reliability": 0.4205,
       "resolution": 0.0,
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.4,
-      "win_rate": 34.0,
-      "trades_count": 200,
+      "brier_score": 0.396,
+      "win_rate": 34.6,
+      "trades_count": 205,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1723,
+      "reliability": 0.1671,
       "resolution": 0.0,
       "status": "REDUCED"
     },
