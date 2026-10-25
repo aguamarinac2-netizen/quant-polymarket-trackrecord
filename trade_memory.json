@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792902819.6741757,
+  "updated_at": 1792902999.753824,
   "reflections": [
+    {
+      "id": "REFL-1792902926332",
+      "trade_id": "WT:567689:0x56a18823707f327bbba6ed2e6f8a0c26b7a5e249:Yes:BUY",
+      "strategy_id": "WT",
+      "market_title": "Zelenskyy out as Ukraine president by end of 2026?",
+      "predicted_prob": 0.81,
+      "outcome": 0,
+      "pnl": -0.41,
+      "brier_error": 0.6561,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792902926.332959
+    },
     {
       "id": "REFL-1792881567522",
       "trade_id": "WT:630693:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792596338.1953175
-    },
-    {
-      "id": "REFL-1792594256907",
-      "trade_id": "S10:944214:No:BUY",
-      "strategy_id": "S10",
-      "market_title": "Will the Democratic Party win the TX-18 House seat?",
-      "predicted_prob": 0.75,
-      "outcome": 0,
-      "pnl": -2.28,
-      "brier_error": 0.5625,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792594256.907458
     }
   ],
   "strategy_weights": {
@@ -2643,11 +2643,11 @@
       "status": "REDUCED"
     },
     "WT": {
-      "brier_score": 0.5927,
-      "win_rate": 20.9,
-      "trades_count": 172,
+      "brier_score": 0.5931,
+      "win_rate": 20.8,
+      "trades_count": 173,
       "kelly_multiplier": 0.4,
-      "reliability": 0.4263,
+      "reliability": 0.4275,
       "resolution": 0.0,
       "status": "REDUCED"
     },
