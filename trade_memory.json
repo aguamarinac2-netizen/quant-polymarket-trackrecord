@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792959721.6701198,
+  "updated_at": 1792960633.6075234,
   "reflections": [
+    {
+      "id": "REFL-1792960627531",
+      "trade_id": "S10:944334:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Will the Democratic Party win the WI-01 House seat?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -0.21,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792960627.531634
+    },
     {
       "id": "REFL-1792955000485",
       "trade_id": "WT:630883:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792627899.2240644
-    },
-    {
-      "id": "REFL-1792627899207",
-      "trade_id": "S20:677403:No:BUY",
-      "strategy_id": "S20",
-      "market_title": "US recognizes Russian sovereignty over Ukraine before 2027?",
-      "predicted_prob": 0.96,
-      "outcome": 0,
-      "pnl": -0.15,
-      "brier_error": 0.9216,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792627899.2079446
     }
   ],
   "strategy_weights": {
@@ -2625,11 +2625,11 @@
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.4381,
-      "win_rate": 24.9,
-      "trades_count": 201,
+      "brier_score": 0.4387,
+      "win_rate": 24.8,
+      "trades_count": 202,
       "kelly_multiplier": 0.4,
-      "reliability": 0.2512,
+      "reliability": 0.2525,
       "resolution": 0.0,
       "status": "REDUCED"
     },
