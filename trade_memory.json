@@ -1,6 +1,45 @@
 {
-  "updated_at": 1792919236.1006553,
+  "updated_at": 1792919993.8362067,
   "reflections": [
+    {
+      "id": "REFL-1792919993826",
+      "trade_id": "WT:561989:0x9703676286b93c2eca71ca96e8757104519a69c2:Yes:BUY",
+      "strategy_id": "WT",
+      "market_title": "Will Ted Cruz win the 2028 Republican presidential nomination?",
+      "predicted_prob": 0.86,
+      "outcome": 0,
+      "pnl": -2.17,
+      "brier_error": 0.7396,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792919993.826897
+    },
+    {
+      "id": "REFL-1792919993812",
+      "trade_id": "MR:gamma:630733:Yes:1d:BUY",
+      "strategy_id": "MR",
+      "market_title": "Will the Democrats win the Iowa Senate race in 2026?",
+      "predicted_prob": 0.72,
+      "outcome": 0,
+      "pnl": -0.61,
+      "brier_error": 0.5184,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792919993.81217
+    },
+    {
+      "id": "REFL-1792919993794",
+      "trade_id": "MR:gamma:630819:Yes:1d:SELL",
+      "strategy_id": "MR",
+      "market_title": "Will the Republicans win the Minnesota Senate race in 2026?",
+      "predicted_prob": 0.72,
+      "outcome": 0,
+      "pnl": -1.51,
+      "brier_error": 0.5184,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792919993.794867
+    },
     {
       "id": "REFL-1792914570592",
       "trade_id": "WT:559651:0x43cf92170d13a974a10e994aa397ea67105aa6e1:Yes:BUY",
@@ -2561,45 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792606664.6762524
-    },
-    {
-      "id": "REFL-1792601872913",
-      "trade_id": "S10:690202:No:BUY",
-      "strategy_id": "S10",
-      "market_title": "Will the Fed’s upper bound reach 4.25% or higher before 2027?",
-      "predicted_prob": 0.75,
-      "outcome": 0,
-      "pnl": -0.11,
-      "brier_error": 0.5625,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792601872.9138288
-    },
-    {
-      "id": "REFL-1792600180008",
-      "trade_id": "WT:559656:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
-      "strategy_id": "WT",
-      "market_title": "Will Wes Moore win the 2028 Democratic presidential nomination?",
-      "predicted_prob": 0.88,
-      "outcome": 0,
-      "pnl": -0.05,
-      "brier_error": 0.7744,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792600180.008963
-    },
-    {
-      "id": "REFL-1792598314495",
-      "trade_id": "WT:629325:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
-      "strategy_id": "WT",
-      "market_title": "Will the Republicans win the Florida governor race in 2026?",
-      "predicted_prob": 0.88,
-      "outcome": 0,
-      "pnl": -0.11,
-      "brier_error": 0.7744,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792598314.4950817
     }
   ],
   "strategy_weights": {
@@ -2643,20 +2643,20 @@
       "status": "REDUCED"
     },
     "WT": {
-      "brier_score": 0.5941,
-      "win_rate": 20.7,
-      "trades_count": 174,
+      "brier_score": 0.5884,
+      "win_rate": 21.5,
+      "trades_count": 177,
       "kelly_multiplier": 0.4,
-      "reliability": 0.4292,
+      "reliability": 0.4192,
       "resolution": 0.0,
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.4003,
-      "win_rate": 34.0,
-      "trades_count": 194,
+      "brier_score": 0.4015,
+      "win_rate": 33.7,
+      "trades_count": 196,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1727,
+      "reliability": 0.1753,
       "resolution": 0.0,
       "status": "REDUCED"
     },
