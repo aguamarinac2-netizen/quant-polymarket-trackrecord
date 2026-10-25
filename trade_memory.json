@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792930054.0692039,
+  "updated_at": 1792930842.260657,
   "reflections": [
+    {
+      "id": "REFL-1792930118437",
+      "trade_id": "S10:943943:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Will the Democratic Party win the PA-08 House seat?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -1.96,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792930118.437728
+    },
     {
       "id": "REFL-1792922368201",
       "trade_id": "WT:629452:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792616522.0744512
-    },
-    {
-      "id": "REFL-1792615505151",
-      "trade_id": "S12:943433:Yes:BUY",
-      "strategy_id": "S12",
-      "market_title": "Will the Democratic Party win the NY-04 House seat?",
-      "predicted_prob": 0.9,
-      "outcome": 0,
-      "pnl": -0.23,
-      "brier_error": 0.81,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792615505.1516738
     }
   ],
   "strategy_weights": {
@@ -2625,11 +2625,11 @@
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.4433,
-      "win_rate": 23.8,
-      "trades_count": 193,
+      "brier_score": 0.442,
+      "win_rate": 24.1,
+      "trades_count": 195,
       "kelly_multiplier": 0.4,
-      "reliability": 0.2618,
+      "reliability": 0.2591,
       "resolution": 0.0,
       "status": "REDUCED"
     },
@@ -2652,11 +2652,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.4005,
-      "win_rate": 33.8,
-      "trades_count": 198,
+      "brier_score": 0.3989,
+      "win_rate": 34.2,
+      "trades_count": 199,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1737,
+      "reliability": 0.1708,
       "resolution": 0.0,
       "status": "REDUCED"
     },
