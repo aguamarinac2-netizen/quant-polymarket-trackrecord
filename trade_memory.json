@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792969691.5939324,
+  "updated_at": 1792970542.285919,
   "reflections": [
+    {
+      "id": "REFL-1792969877604",
+      "trade_id": "S12:944222:Yes:BUY",
+      "strategy_id": "S12",
+      "market_title": "Will the Democratic Party win the TX-28 House seat?",
+      "predicted_prob": 0.9,
+      "outcome": 0,
+      "pnl": -0.07,
+      "brier_error": 0.81,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792969877.604792
+    },
     {
       "id": "REFL-1792960627531",
       "trade_id": "S10:944334:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792627899.2391226
-    },
-    {
-      "id": "REFL-1792627899224",
-      "trade_id": "S20:678749:No:BUY",
-      "strategy_id": "S20",
-      "market_title": "Will Israel strike 6 countries in 2026?",
-      "predicted_prob": 0.96,
-      "outcome": 0,
-      "pnl": -0.04,
-      "brier_error": 0.9216,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792627899.2240644
     }
   ],
   "strategy_weights": {
@@ -2634,11 +2634,11 @@
       "status": "REDUCED"
     },
     "S12": {
-      "brier_score": 0.697,
-      "win_rate": 14.1,
-      "trades_count": 92,
+      "brier_score": 0.6982,
+      "win_rate": 14.0,
+      "trades_count": 93,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5756,
+      "reliability": 0.5779,
       "resolution": 0.0,
       "status": "REDUCED"
     },
