@@ -1,6 +1,32 @@
 {
-  "updated_at": 1792930902.2791896,
+  "updated_at": 1792931752.5103083,
   "reflections": [
+    {
+      "id": "REFL-1792931426741",
+      "trade_id": "WT:608540:0x9e599ab02b87a09b185010a16f1da0d58604553e:Yes:BUY",
+      "strategy_id": "WT",
+      "market_title": "Will Kylian Mbappé win the 2026 Ballon d'Or?",
+      "predicted_prob": 0.86,
+      "outcome": 0,
+      "pnl": -0.12,
+      "brier_error": 0.7396,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792931426.7417178
+    },
+    {
+      "id": "REFL-1792931395885",
+      "trade_id": "WT:630707:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
+      "strategy_id": "WT",
+      "market_title": "Will Todd Achilles win the Idaho Senate race in 2026?",
+      "predicted_prob": 0.88,
+      "outcome": 0,
+      "pnl": -0.13,
+      "brier_error": 0.7744,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792931395.8856165
+    },
     {
       "id": "REFL-1792930118437",
       "trade_id": "S10:943943:No:BUY",
@@ -2574,32 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792617496.3883994
-    },
-    {
-      "id": "REFL-1792616570065",
-      "trade_id": "MR:gamma:679018:Yes:1d:BUY",
-      "strategy_id": "MR",
-      "market_title": "Will Marine Le Pen win the 2027 French presidential election?",
-      "predicted_prob": 0.74,
-      "outcome": 0,
-      "pnl": -0.22,
-      "brier_error": 0.5476,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792616570.0652897
-    },
-    {
-      "id": "REFL-1792616522074",
-      "trade_id": "S10:902977:No:BUY",
-      "strategy_id": "S10",
-      "market_title": "Will there be another US government shutdown by January 31 and will the Democrat",
-      "predicted_prob": 0.75,
-      "outcome": 0,
-      "pnl": -2.07,
-      "brier_error": 0.5625,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792616522.0744512
     }
   ],
   "strategy_weights": {
@@ -2625,11 +2625,11 @@
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.442,
-      "win_rate": 24.1,
-      "trades_count": 195,
+      "brier_score": 0.4401,
+      "win_rate": 24.5,
+      "trades_count": 196,
       "kelly_multiplier": 0.4,
-      "reliability": 0.2591,
+      "reliability": 0.2551,
       "resolution": 0.0,
       "status": "REDUCED"
     },
@@ -2643,11 +2643,11 @@
       "status": "REDUCED"
     },
     "WT": {
-      "brier_score": 0.5894,
-      "win_rate": 21.3,
-      "trades_count": 178,
+      "brier_score": 0.5882,
+      "win_rate": 21.5,
+      "trades_count": 181,
       "kelly_multiplier": 0.4,
-      "reliability": 0.4209,
+      "reliability": 0.4181,
       "resolution": 0.0,
       "status": "REDUCED"
     },
