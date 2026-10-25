@@ -1,6 +1,32 @@
 {
-  "updated_at": 1792913830.9890795,
+  "updated_at": 1792914570.6060648,
   "reflections": [
+    {
+      "id": "REFL-1792914570592",
+      "trade_id": "WT:559651:0x43cf92170d13a974a10e994aa397ea67105aa6e1:Yes:BUY",
+      "strategy_id": "WT",
+      "market_title": "Xi Jinping out before 2027?",
+      "predicted_prob": 0.88,
+      "outcome": 0,
+      "pnl": -1.31,
+      "brier_error": 0.7744,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792914570.5923722
+    },
+    {
+      "id": "REFL-1792913966099",
+      "trade_id": "MR:gamma:630706:Yes:1d:SELL",
+      "strategy_id": "MR",
+      "market_title": "Will the Republicans win the Idaho Senate race in 2026?",
+      "predicted_prob": 0.78,
+      "outcome": 0,
+      "pnl": 0.0,
+      "brier_error": 0.6084,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792913966.0998363
+    },
     {
       "id": "REFL-1792904730530",
       "trade_id": "S12:630790:Yes:BUY",
@@ -2574,32 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792598314.4950817
-    },
-    {
-      "id": "REFL-1792597080960",
-      "trade_id": "WT:629325:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
-      "strategy_id": "WT",
-      "market_title": "Will the Republicans win the Florida governor race in 2026?",
-      "predicted_prob": 0.88,
-      "outcome": 0,
-      "pnl": -0.36,
-      "brier_error": 0.7744,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792597080.9603314
-    },
-    {
-      "id": "REFL-1792597080946",
-      "trade_id": "S10:629325:No:BUY",
-      "strategy_id": "S10",
-      "market_title": "Will the Republicans win the Florida governor race in 2026?",
-      "predicted_prob": 0.75,
-      "outcome": 0,
-      "pnl": -0.36,
-      "brier_error": 0.5625,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792597080.946892
     }
   ],
   "strategy_weights": {
@@ -2643,20 +2643,20 @@
       "status": "REDUCED"
     },
     "WT": {
-      "brier_score": 0.5931,
-      "win_rate": 20.8,
-      "trades_count": 173,
+      "brier_score": 0.5941,
+      "win_rate": 20.7,
+      "trades_count": 174,
       "kelly_multiplier": 0.4,
-      "reliability": 0.4275,
+      "reliability": 0.4292,
       "resolution": 0.0,
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3992,
-      "win_rate": 34.2,
-      "trades_count": 193,
+      "brier_score": 0.4003,
+      "win_rate": 34.0,
+      "trades_count": 194,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1712,
+      "reliability": 0.1727,
       "resolution": 0.0,
       "status": "REDUCED"
     },
