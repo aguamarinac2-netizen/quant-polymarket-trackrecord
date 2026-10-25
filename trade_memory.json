@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792921971.883032,
+  "updated_at": 1792922696.5646918,
   "reflections": [
+    {
+      "id": "REFL-1792922368201",
+      "trade_id": "WT:629452:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
+      "strategy_id": "WT",
+      "market_title": "Will the Republicans win the Massachusetts governor race in 2026?",
+      "predicted_prob": 0.88,
+      "outcome": 0,
+      "pnl": -0.16,
+      "brier_error": 0.7744,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792922368.2016506
+    },
     {
       "id": "REFL-1792920734015",
       "trade_id": "MR:gamma:701552:Yes:1d:SELL",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792615505.1516738
-    },
-    {
-      "id": "REFL-1792610869647",
-      "trade_id": "WT:562828:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
-      "strategy_id": "WT",
-      "market_title": "2026 Balance of Power: D Senate, D House",
-      "predicted_prob": 0.88,
-      "outcome": 0,
-      "pnl": -7.14,
-      "brier_error": 0.7744,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792610869.647249
     }
   ],
   "strategy_weights": {
@@ -2643,11 +2643,11 @@
       "status": "REDUCED"
     },
     "WT": {
-      "brier_score": 0.5884,
-      "win_rate": 21.5,
-      "trades_count": 177,
+      "brier_score": 0.5894,
+      "win_rate": 21.3,
+      "trades_count": 178,
       "kelly_multiplier": 0.4,
-      "reliability": 0.4192,
+      "reliability": 0.4209,
       "resolution": 0.0,
       "status": "REDUCED"
     },
