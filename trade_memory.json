@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793024548.5064955,
+  "updated_at": 1793024790.7903817,
   "reflections": [
+    {
+      "id": "REFL-1793024691479",
+      "trade_id": "S10:676812:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "SpaceX Starship fully reusable before 2027?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -0.19,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793024691.4795623
+    },
     {
       "id": "REFL-1793024354335",
       "trade_id": "S10:676997:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792683122.2282166
-    },
-    {
-      "id": "REFL-1792680865249",
-      "trade_id": "MR:gamma:630924:Yes:1w:SELL",
-      "strategy_id": "MR",
-      "market_title": "Will the Democrats win the South Carolina Senate race in 2026?",
-      "predicted_prob": 0.78,
-      "outcome": 0,
-      "pnl": -0.12,
-      "brier_error": 0.6084,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792680865.2497923
     }
   ],
   "strategy_weights": {
@@ -2625,11 +2625,11 @@
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.4411,
-      "win_rate": 24.3,
-      "trades_count": 206,
+      "brier_score": 0.4417,
+      "win_rate": 24.2,
+      "trades_count": 207,
       "kelly_multiplier": 0.4,
-      "reliability": 0.2573,
+      "reliability": 0.2585,
       "resolution": 0.0,
       "status": "REDUCED"
     },
