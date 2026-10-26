@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792996787.6962543,
+  "updated_at": 1792997511.7393098,
   "reflections": [
+    {
+      "id": "REFL-1792996922664",
+      "trade_id": "WT:559654:0xabe78c9711802ea03af9b0fcb7f3f82853fad623:Yes:BUY",
+      "strategy_id": "WT",
+      "market_title": "Will Pete Buttigieg win the 2028 Democratic presidential nomination?",
+      "predicted_prob": 0.88,
+      "outcome": 0,
+      "pnl": -0.23,
+      "brier_error": 0.7744,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792996922.6642952
+    },
     {
       "id": "REFL-1792989205873",
       "trade_id": "S10:629337:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792660328.3720796
-    },
-    {
-      "id": "REFL-1792659456367",
-      "trade_id": "S20:567690:No:BUY",
-      "strategy_id": "S20",
-      "market_title": "Erdoğan out by December 31, 2026?",
-      "predicted_prob": 0.96,
-      "outcome": 0,
-      "pnl": -0.07,
-      "brier_error": 0.9216,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792659456.3679802
     }
   ],
   "strategy_weights": {
@@ -2643,11 +2643,11 @@
       "status": "REDUCED"
     },
     "WT": {
-      "brier_score": 0.589,
-      "win_rate": 21.5,
-      "trades_count": 191,
+      "brier_score": 0.59,
+      "win_rate": 21.4,
+      "trades_count": 192,
       "kelly_multiplier": 0.4,
-      "reliability": 0.4192,
+      "reliability": 0.4207,
       "resolution": 0.0,
       "status": "REDUCED"
     },
