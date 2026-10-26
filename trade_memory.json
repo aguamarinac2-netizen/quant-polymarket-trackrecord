@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793034456.0758884,
+  "updated_at": 1793034766.6209357,
   "reflections": [
+    {
+      "id": "REFL-1793034481255",
+      "trade_id": "MR:gamma:943825:Yes:1d:SELL",
+      "strategy_id": "MR",
+      "market_title": "Will the Republican Party hold exactly 53 Senate seats after the 2026 midterm el",
+      "predicted_prob": 0.78,
+      "outcome": 0,
+      "pnl": -0.17,
+      "brier_error": 0.6084,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793034481.2553062
+    },
     {
       "id": "REFL-1793033880544",
       "trade_id": "S10:629183:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792705428.9721694
-    },
-    {
-      "id": "REFL-1792703898455",
-      "trade_id": "MR:gamma:920403:Yes:1d:SELL",
-      "strategy_id": "MR",
-      "market_title": "Variational FDV above $1B one day after launch?",
-      "predicted_prob": 0.72,
-      "outcome": 0,
-      "pnl": -0.67,
-      "brier_error": 0.5184,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792703898.4550786
     }
   ],
   "strategy_weights": {
@@ -2652,11 +2652,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3895,
-      "win_rate": 35.9,
-      "trades_count": 217,
+      "brier_score": 0.3905,
+      "win_rate": 35.8,
+      "trades_count": 218,
       "kelly_multiplier": 0.4,
-      "reliability": 0.157,
+      "reliability": 0.1584,
       "resolution": 0.0,
       "status": "REDUCED"
     },
