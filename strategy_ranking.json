@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T23:52:18.157269+00:00",
+  "generated_at": "2026-10-26T23:59:49.028687+00:00",
   "campaign": "demo-15d",
   "strategies": [
     {
@@ -64,19 +64,19 @@
       "won": 1,
       "lost": 7,
       "realized_pnl_usd": -0.49,
-      "unrealized_pnl_usd": -0.18,
+      "unrealized_pnl_usd": -0.2,
       "partial_fills": 0,
       "by_source": {
         "research": {
           "total": 9,
           "won": 1,
           "lost": 7,
-          "net_pnl_usd": -0.67
+          "net_pnl_usd": -0.69
         }
       },
       "closed": 8,
       "win_rate_pct": 12.5,
-      "net_pnl_usd": -0.67,
+      "net_pnl_usd": -0.69,
       "avg_book_slippage_bps": null,
       "verdict": "MUESTRA_INSUFICIENTE"
     },
@@ -118,7 +118,7 @@
       "won": 29,
       "lost": 66,
       "realized_pnl_usd": -15.64,
-      "unrealized_pnl_usd": -7.8,
+      "unrealized_pnl_usd": -7.79,
       "partial_fills": 0,
       "by_source": {
         "realistic": {
@@ -131,12 +131,12 @@
           "total": 88,
           "won": 28,
           "lost": 57,
-          "net_pnl_usd": -20.66
+          "net_pnl_usd": -20.65
         }
       },
       "closed": 95,
       "win_rate_pct": 30.5,
-      "net_pnl_usd": -23.44,
+      "net_pnl_usd": -23.43,
       "avg_book_slippage_bps": null,
       "verdict": "DESCARTAR"
     },
@@ -148,7 +148,7 @@
       "won": 34,
       "lost": 114,
       "realized_pnl_usd": -17.85,
-      "unrealized_pnl_usd": -6.08,
+      "unrealized_pnl_usd": -6.03,
       "partial_fills": 0,
       "by_source": {
         "realistic": {
@@ -161,12 +161,12 @@
           "total": 172,
           "won": 33,
           "lost": 114,
-          "net_pnl_usd": -27.23
+          "net_pnl_usd": -27.18
         }
       },
       "closed": 148,
       "win_rate_pct": 23.0,
-      "net_pnl_usd": -23.93,
+      "net_pnl_usd": -23.88,
       "avg_book_slippage_bps": null,
       "verdict": "DESCARTAR"
     },
@@ -202,7 +202,7 @@
       "won": 98,
       "lost": 138,
       "realized_pnl_usd": -77.41,
-      "unrealized_pnl_usd": -6.22,
+      "unrealized_pnl_usd": -6.39,
       "partial_fills": 0,
       "by_source": {
         "realistic": {
@@ -215,12 +215,12 @@
           "total": 214,
           "won": 73,
           "lost": 116,
-          "net_pnl_usd": -108.94
+          "net_pnl_usd": -109.11
         }
       },
       "closed": 236,
       "win_rate_pct": 41.5,
-      "net_pnl_usd": -83.63,
+      "net_pnl_usd": -83.8,
       "avg_book_slippage_bps": null,
       "verdict": "DESCARTAR"
     },
@@ -228,11 +228,11 @@
       "strategy_code": "S10",
       "strategy_name": "S10: Yes Bias",
       "total": 244,
-      "open": 22,
-      "won": 99,
+      "open": 21,
+      "won": 100,
       "lost": 123,
-      "realized_pnl_usd": -97.03,
-      "unrealized_pnl_usd": 2.25,
+      "realized_pnl_usd": -94.97,
+      "unrealized_pnl_usd": 4.83,
       "partial_fills": 0,
       "by_source": {
         "realistic": {
@@ -243,14 +243,14 @@
         },
         "research": {
           "total": 223,
-          "won": 91,
+          "won": 92,
           "lost": 112,
-          "net_pnl_usd": -87.67
+          "net_pnl_usd": -83.03
         }
       },
-      "closed": 222,
-      "win_rate_pct": 44.6,
-      "net_pnl_usd": -94.78,
+      "closed": 223,
+      "win_rate_pct": 44.8,
+      "net_pnl_usd": -90.14,
       "avg_book_slippage_bps": null,
       "verdict": "DESCARTAR"
     },
@@ -262,7 +262,7 @@
       "won": 125,
       "lost": 98,
       "realized_pnl_usd": -94.81,
-      "unrealized_pnl_usd": -20.7,
+      "unrealized_pnl_usd": -19.97,
       "partial_fills": 0,
       "by_source": {
         "realistic": {
@@ -275,7 +275,7 @@
           "total": 208,
           "won": 108,
           "lost": 90,
-          "net_pnl_usd": -107.99
+          "net_pnl_usd": -107.26
         },
         "hybrid": {
           "total": 1,
@@ -286,7 +286,7 @@
       },
       "closed": 223,
       "win_rate_pct": 56.1,
-      "net_pnl_usd": -115.51,
+      "net_pnl_usd": -114.78,
       "avg_book_slippage_bps": 0.0,
       "verdict": "DESCARTAR"
     }
