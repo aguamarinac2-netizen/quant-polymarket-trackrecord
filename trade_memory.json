@@ -1,6 +1,32 @@
 {
-  "updated_at": 1793033474.7111056,
+  "updated_at": 1793033842.5162783,
   "reflections": [
+    {
+      "id": "REFL-1793033575629",
+      "trade_id": "S10:1105744:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Will Nicolás Maduro be the leader of Venezuela end of 2026?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -1.07,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793033575.6291502
+    },
+    {
+      "id": "REFL-1793033575612",
+      "trade_id": "WT:630747:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
+      "strategy_id": "WT",
+      "market_title": "Will the Republicans win the Kansas Senate race in 2026?",
+      "predicted_prob": 0.88,
+      "outcome": 0,
+      "pnl": -0.41,
+      "brier_error": 0.7744,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793033575.6121547
+    },
     {
       "id": "REFL-1793025347128",
       "trade_id": "S10:1089948:No:BUY",
@@ -2574,32 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792701836.4106276
-    },
-    {
-      "id": "REFL-1792700947140",
-      "trade_id": "WT:567689:0xc550e5ee1011afb6d37c7fbb18fea32e03f9272d:No:BUY",
-      "strategy_id": "WT",
-      "market_title": "Zelenskyy out as Ukraine president by end of 2026?",
-      "predicted_prob": 0.76,
-      "outcome": 0,
-      "pnl": -0.07,
-      "brier_error": 0.5776,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792700947.1402128
-    },
-    {
-      "id": "REFL-1792699838832",
-      "trade_id": "S10:630733:No:BUY",
-      "strategy_id": "S10",
-      "market_title": "Will the Democrats win the Iowa Senate race in 2026?",
-      "predicted_prob": 0.75,
-      "outcome": 0,
-      "pnl": -0.38,
-      "brier_error": 0.5625,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792699838.83281
     }
   ],
   "strategy_weights": {
@@ -2625,11 +2625,11 @@
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.444,
-      "win_rate": 23.7,
-      "trades_count": 211,
+      "brier_score": 0.4446,
+      "win_rate": 23.6,
+      "trades_count": 212,
       "kelly_multiplier": 0.4,
-      "reliability": 0.2632,
+      "reliability": 0.2644,
       "resolution": 0.0,
       "status": "REDUCED"
     },
@@ -2643,11 +2643,11 @@
       "status": "REDUCED"
     },
     "WT": {
-      "brier_score": 0.576,
-      "win_rate": 23.4,
-      "trades_count": 214,
+      "brier_score": 0.5744,
+      "win_rate": 23.6,
+      "trades_count": 216,
       "kelly_multiplier": 0.4,
-      "reliability": 0.3954,
+      "reliability": 0.3922,
       "resolution": 0.0,
       "status": "REDUCED"
     },
