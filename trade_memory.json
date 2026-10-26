@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793050691.5519648,
+  "updated_at": 1793051005.6724813,
   "reflections": [
+    {
+      "id": "REFL-1793051005656",
+      "trade_id": "S10:942162:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Will the Democratic Party win the AZ-06 House seat?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -2.06,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793051005.6567922
+    },
     {
       "id": "REFL-1793047448527",
       "trade_id": "S10:814612:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792749560.2263021
-    },
-    {
-      "id": "REFL-1792749460857",
-      "trade_id": "S10:943748:No:BUY",
-      "strategy_id": "S10",
-      "market_title": "Will the Republican Party win the PA-01 House seat?",
-      "predicted_prob": 0.75,
-      "outcome": 0,
-      "pnl": -0.27,
-      "brier_error": 0.5625,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792749460.8578598
     }
   ],
   "strategy_weights": {
@@ -2625,11 +2625,11 @@
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.4398,
-      "win_rate": 24.5,
-      "trades_count": 220,
+      "brier_score": 0.4403,
+      "win_rate": 24.4,
+      "trades_count": 221,
       "kelly_multiplier": 0.4,
-      "reliability": 0.2546,
+      "reliability": 0.2557,
       "resolution": 0.0,
       "status": "REDUCED"
     },
