@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793055120.0874574,
+  "updated_at": 1793055549.92717,
   "reflections": [
+    {
+      "id": "REFL-1793055542830",
+      "trade_id": "WT:559656:0x9703676286b93c2eca71ca96e8757104519a69c2:Yes:BUY",
+      "strategy_id": "WT",
+      "market_title": "Will Wes Moore win the 2028 Democratic presidential nomination?",
+      "predicted_prob": 0.87,
+      "outcome": 0,
+      "pnl": -0.41,
+      "brier_error": 0.7569,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793055542.8304036
+    },
     {
       "id": "REFL-1793054442042",
       "trade_id": "WT:630963:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792759720.625991
-    },
-    {
-      "id": "REFL-1792758681462",
-      "trade_id": "S12:631003:Yes:BUY",
-      "strategy_id": "S12",
-      "market_title": "Will the Republicans win the Wyoming Senate race in 2026?",
-      "predicted_prob": 0.9,
-      "outcome": 0,
-      "pnl": 0.0,
-      "brier_error": 0.81,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792758681.4623866
     }
   ],
   "strategy_weights": {
@@ -2643,11 +2643,11 @@
       "status": "REDUCED"
     },
     "WT": {
-      "brier_score": 0.5634,
-      "win_rate": 25.0,
-      "trades_count": 232,
+      "brier_score": 0.5574,
+      "win_rate": 25.8,
+      "trades_count": 236,
       "kelly_multiplier": 0.4,
-      "reliability": 0.3739,
+      "reliability": 0.3636,
       "resolution": 0.0,
       "status": "REDUCED"
     },
