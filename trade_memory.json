@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793054202.5439594,
+  "updated_at": 1793054632.3007169,
   "reflections": [
+    {
+      "id": "REFL-1793054442042",
+      "trade_id": "WT:630963:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
+      "strategy_id": "WT",
+      "market_title": "Will the Democrats win the Texas Senate race in 2026?",
+      "predicted_prob": 0.88,
+      "outcome": 0,
+      "pnl": -0.3,
+      "brier_error": 0.7744,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793054442.0423138
+    },
     {
       "id": "REFL-1793053736499",
       "trade_id": "S10:1132823:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792758681.4623866
-    },
-    {
-      "id": "REFL-1792758586952",
-      "trade_id": "WT:630706:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
-      "strategy_id": "WT",
-      "market_title": "Will the Republicans win the Idaho Senate race in 2026?",
-      "predicted_prob": 0.88,
-      "outcome": 0,
-      "pnl": -1.85,
-      "brier_error": 0.7744,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792758586.9527023
     }
   ],
   "strategy_weights": {
@@ -2643,11 +2643,11 @@
       "status": "REDUCED"
     },
     "WT": {
-      "brier_score": 0.5672,
-      "win_rate": 24.5,
-      "trades_count": 229,
+      "brier_score": 0.5681,
+      "win_rate": 24.3,
+      "trades_count": 230,
       "kelly_multiplier": 0.4,
-      "reliability": 0.3809,
+      "reliability": 0.3823,
       "resolution": 0.0,
       "status": "REDUCED"
     },
