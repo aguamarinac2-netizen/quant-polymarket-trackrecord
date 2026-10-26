@@ -1,6 +1,45 @@
 {
-  "updated_at": 1793008556.7988803,
+  "updated_at": 1793009219.9562721,
   "reflections": [
+    {
+      "id": "REFL-1793009044860",
+      "trade_id": "WT:630819:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
+      "strategy_id": "WT",
+      "market_title": "Will the Republicans win the Minnesota Senate race in 2026?",
+      "predicted_prob": 0.88,
+      "outcome": 0,
+      "pnl": -0.26,
+      "brier_error": 0.7744,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793009044.8602881
+    },
+    {
+      "id": "REFL-1793009044781",
+      "trade_id": "WT:629452:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
+      "strategy_id": "WT",
+      "market_title": "Will the Republicans win the Massachusetts governor race in 2026?",
+      "predicted_prob": 0.88,
+      "outcome": 0,
+      "pnl": -0.15,
+      "brier_error": 0.7744,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793009044.781241
+    },
+    {
+      "id": "REFL-1793009044763",
+      "trade_id": "S10:629337:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Will the Democrats win the Georgia governor race in 2026?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -0.29,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793009044.7635093
+    },
     {
       "id": "REFL-1793006730056",
       "trade_id": "MR:gamma:629337:Yes:1w:SELL",
@@ -2561,45 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792669121.6236165
-    },
-    {
-      "id": "REFL-1792668830885",
-      "trade_id": "MR:gamma:562793:Yes:1d:SELL",
-      "strategy_id": "MR",
-      "market_title": "Will the Democratic Party control the Senate after the 2026 Midterm elections?",
-      "predicted_prob": 0.72,
-      "outcome": 0,
-      "pnl": -0.4,
-      "brier_error": 0.5184,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792668830.885839
-    },
-    {
-      "id": "REFL-1792668830869",
-      "trade_id": "MR:gamma:562794:Yes:1d:BUY",
-      "strategy_id": "MR",
-      "market_title": "Will the Republican Party control the Senate after the 2026 Midterm elections?",
-      "predicted_prob": 0.72,
-      "outcome": 0,
-      "pnl": -0.73,
-      "brier_error": 0.5184,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792668830.8693113
-    },
-    {
-      "id": "REFL-1792667943798",
-      "trade_id": "S12:629284:Yes:BUY",
-      "strategy_id": "S12",
-      "market_title": "Will the Republicans win the Arkansas governor race in 2026?",
-      "predicted_prob": 0.9,
-      "outcome": 0,
-      "pnl": -0.05,
-      "brier_error": 0.81,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792667943.7988155
     }
   ],
   "strategy_weights": {
@@ -2625,11 +2625,11 @@
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.44,
-      "win_rate": 24.5,
-      "trades_count": 204,
+      "brier_score": 0.4405,
+      "win_rate": 24.4,
+      "trades_count": 205,
       "kelly_multiplier": 0.4,
-      "reliability": 0.2549,
+      "reliability": 0.2561,
       "resolution": 0.0,
       "status": "REDUCED"
     },
@@ -2643,11 +2643,11 @@
       "status": "REDUCED"
     },
     "WT": {
-      "brier_score": 0.5904,
-      "win_rate": 21.2,
-      "trades_count": 193,
+      "brier_score": 0.5923,
+      "win_rate": 21.0,
+      "trades_count": 195,
       "kelly_multiplier": 0.4,
-      "reliability": 0.4219,
+      "reliability": 0.425,
       "resolution": 0.0,
       "status": "REDUCED"
     },
