@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792999506.9540977,
+  "updated_at": 1793000230.899271,
   "reflections": [
+    {
+      "id": "REFL-1793000043244",
+      "trade_id": "S10:1068308:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Base FDV above $4B one day after launch?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -0.03,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793000043.2440171
+    },
     {
       "id": "REFL-1792996922664",
       "trade_id": "WT:559654:0xabe78c9711802ea03af9b0fcb7f3f82853fad623:Yes:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792660521.2814782
-    },
-    {
-      "id": "REFL-1792660328372",
-      "trade_id": "S10:1068384:No:BUY",
-      "strategy_id": "S10",
-      "market_title": "Will El Salvador hold $1b+ of BTC by December 31, 2026?",
-      "predicted_prob": 0.75,
-      "outcome": 0,
-      "pnl": -0.51,
-      "brier_error": 0.5625,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792660328.3720796
     }
   ],
   "strategy_weights": {
@@ -2625,11 +2625,11 @@
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.4393,
-      "win_rate": 24.6,
-      "trades_count": 203,
+      "brier_score": 0.44,
+      "win_rate": 24.5,
+      "trades_count": 204,
       "kelly_multiplier": 0.4,
-      "reliability": 0.2537,
+      "reliability": 0.2549,
       "resolution": 0.0,
       "status": "REDUCED"
     },
