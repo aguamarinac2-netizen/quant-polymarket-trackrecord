@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793040166.4265435,
+  "updated_at": 1793040709.4330273,
   "reflections": [
+    {
+      "id": "REFL-1793040321325",
+      "trade_id": "MR:gamma:665374:Yes:1w:SELL",
+      "strategy_id": "MR",
+      "market_title": "Will the U.S. invade Iran before 2027?",
+      "predicted_prob": 0.78,
+      "outcome": 0,
+      "pnl": -0.2,
+      "brier_error": 0.6084,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793040321.325322
+    },
     {
       "id": "REFL-1793039410171",
       "trade_id": "WT:629478:0x66e7ce01c6831b8a2503d09edd6167152ee68bcd:Yes:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792723843.9807749
-    },
-    {
-      "id": "REFL-1792716288834",
-      "trade_id": "S10:630734:No:BUY",
-      "strategy_id": "S10",
-      "market_title": "Will the Republicans win the Iowa Senate race in 2026?",
-      "predicted_prob": 0.75,
-      "outcome": 0,
-      "pnl": -0.04,
-      "brier_error": 0.5625,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792716288.8343709
     }
   ],
   "strategy_weights": {
@@ -2652,11 +2652,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3877,
-      "win_rate": 36.4,
-      "trades_count": 220,
+      "brier_score": 0.3887,
+      "win_rate": 36.2,
+      "trades_count": 221,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1535,
+      "reliability": 0.1549,
       "resolution": 0.0,
       "status": "REDUCED"
     },
