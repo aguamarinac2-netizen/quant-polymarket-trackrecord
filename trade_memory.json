@@ -1,6 +1,32 @@
 {
-  "updated_at": 1793035312.4852283,
+  "updated_at": 1793035621.8209248,
   "reflections": [
+    {
+      "id": "REFL-1793035394924",
+      "trade_id": "WT:608540:0x547f880b60de8add50d3acc410b61626645a8980:Yes:BUY",
+      "strategy_id": "WT",
+      "market_title": "Will Kylian Mbappé win the 2026 Ballon d'Or?",
+      "predicted_prob": 0.88,
+      "outcome": 0,
+      "pnl": -1.39,
+      "brier_error": 0.7744,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793035394.9247227
+    },
+    {
+      "id": "REFL-1793035394832",
+      "trade_id": "WT:608540:0x547f880b60de8add50d3acc410b61626645a8980:Yes:BUY",
+      "strategy_id": "WT",
+      "market_title": "Will Kylian Mbappé win the 2026 Ballon d'Or?",
+      "predicted_prob": 0.88,
+      "outcome": 0,
+      "pnl": -1.39,
+      "brier_error": 0.7744,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793035394.8321102
+    },
     {
       "id": "REFL-1793034785550",
       "trade_id": "WT:608547:0x5a218c7ad04135830a45c41aaed7294df7809318:No:BUY",
@@ -2574,32 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792708953.7087402
-    },
-    {
-      "id": "REFL-1792708853344",
-      "trade_id": "MR:gamma:943749:Yes:1d:SELL",
-      "strategy_id": "MR",
-      "market_title": "Will the Democratic Party win the PA-01 House seat?",
-      "predicted_prob": 0.78,
-      "outcome": 0,
-      "pnl": -0.39,
-      "brier_error": 0.6084,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792708853.344356
-    },
-    {
-      "id": "REFL-1792708762727",
-      "trade_id": "WT:560317:0x410aa391edffa58af64517ec579af5def62b2643:No:BUY",
-      "strategy_id": "WT",
-      "market_title": "Putin out as President of Russia by December 31, 2026?",
-      "predicted_prob": 0.86,
-      "outcome": 0,
-      "pnl": -0.04,
-      "brier_error": 0.7396,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792708762.7273939
     }
   ],
   "strategy_weights": {
@@ -2643,20 +2643,20 @@
       "status": "REDUCED"
     },
     "WT": {
-      "brier_score": 0.5737,
-      "win_rate": 23.7,
-      "trades_count": 219,
+      "brier_score": 0.573,
+      "win_rate": 23.9,
+      "trades_count": 222,
       "kelly_multiplier": 0.4,
-      "reliability": 0.3908,
+      "reliability": 0.3895,
       "resolution": 0.0,
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3905,
-      "win_rate": 35.8,
-      "trades_count": 218,
+      "brier_score": 0.3891,
+      "win_rate": 36.1,
+      "trades_count": 219,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1584,
+      "reliability": 0.1559,
       "resolution": 0.0,
       "status": "REDUCED"
     },
