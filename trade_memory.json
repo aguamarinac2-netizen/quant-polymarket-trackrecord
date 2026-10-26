@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793047388.997817,
+  "updated_at": 1793047880.7680988,
   "reflections": [
+    {
+      "id": "REFL-1793047448527",
+      "trade_id": "S10:814612:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Will Kuomintang (KMT) win the most head of local government elections in the 202",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -0.31,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793047448.5278199
+    },
     {
       "id": "REFL-1793044320715",
       "trade_id": "S10:942902:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792749460.8578598
-    },
-    {
-      "id": "REFL-1792745433314",
-      "trade_id": "MR:gamma:562830:Yes:1w:BUY",
-      "strategy_id": "MR",
-      "market_title": "2026 Balance of Power: R Senate, D House",
-      "predicted_prob": 0.78,
-      "outcome": 0,
-      "pnl": -0.14,
-      "brier_error": 0.6084,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792745433.3148766
     }
   ],
   "strategy_weights": {
@@ -2625,11 +2625,11 @@
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.4392,
-      "win_rate": 24.7,
-      "trades_count": 219,
+      "brier_score": 0.4398,
+      "win_rate": 24.5,
+      "trades_count": 220,
       "kelly_multiplier": 0.4,
-      "reliability": 0.2534,
+      "reliability": 0.2546,
       "resolution": 0.0,
       "status": "REDUCED"
     },
