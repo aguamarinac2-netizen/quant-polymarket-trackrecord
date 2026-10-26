@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793043399.4057422,
+  "updated_at": 1793043768.0118883,
   "reflections": [
+    {
+      "id": "REFL-1793043463053",
+      "trade_id": "S10:1097730:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Maduro guilty of all counts?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -0.22,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793043463.0533254
+    },
     {
       "id": "REFL-1793041415920",
       "trade_id": "WT:567688:0x49f206f4fb2210a28af4795e4e0b6532cf0bd7b4:No:SELL",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792745433.29102
-    },
-    {
-      "id": "REFL-1792745433228",
-      "trade_id": "MR:gamma:562830:Yes:1d:BUY",
-      "strategy_id": "MR",
-      "market_title": "2026 Balance of Power: R Senate, D House",
-      "predicted_prob": 0.78,
-      "outcome": 0,
-      "pnl": -0.14,
-      "brier_error": 0.6084,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792745433.2281976
     }
   ],
   "strategy_weights": {
@@ -2625,11 +2625,11 @@
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.4416,
-      "win_rate": 24.2,
-      "trades_count": 215,
+      "brier_score": 0.4421,
+      "win_rate": 24.1,
+      "trades_count": 216,
       "kelly_multiplier": 0.4,
-      "reliability": 0.2582,
+      "reliability": 0.2593,
       "resolution": 0.0,
       "status": "REDUCED"
     },
