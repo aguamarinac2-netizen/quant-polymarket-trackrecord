@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793053327.030956,
+  "updated_at": 1793053762.804681,
   "reflections": [
+    {
+      "id": "REFL-1793053736499",
+      "trade_id": "S10:1132823:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Will Argentina’s annual inflation in 2026 be between 30% and 34.9%?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -2.59,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793053736.4993424
+    },
     {
       "id": "REFL-1793051005656",
       "trade_id": "S10:942162:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792758586.9527023
-    },
-    {
-      "id": "REFL-1792749560226",
-      "trade_id": "WT:618454:0xa160602da183fdce0122bc927e7fdb9d36c67b21:No:BUY",
-      "strategy_id": "WT",
-      "market_title": "Opensea FDV above $500M one day after launch?",
-      "predicted_prob": 0.81,
-      "outcome": 0,
-      "pnl": -0.15,
-      "brier_error": 0.6561,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792749560.2263021
     }
   ],
   "strategy_weights": {
@@ -2625,11 +2625,11 @@
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.4403,
-      "win_rate": 24.4,
-      "trades_count": 221,
+      "brier_score": 0.4409,
+      "win_rate": 24.3,
+      "trades_count": 222,
       "kelly_multiplier": 0.4,
-      "reliability": 0.2557,
+      "reliability": 0.2568,
       "resolution": 0.0,
       "status": "REDUCED"
     },
