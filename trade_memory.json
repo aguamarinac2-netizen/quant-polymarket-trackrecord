@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793035621.8209248,
+  "updated_at": 1793036236.693282,
   "reflections": [
+    {
+      "id": "REFL-1793035696112",
+      "trade_id": "WT:608547:0x758dac51ba3cc9a246a79787da9df11c5f425d9e:No:BUY",
+      "strategy_id": "WT",
+      "market_title": "Will Harry Kane win the 2026 Ballon d'Or?",
+      "predicted_prob": 0.8,
+      "outcome": 0,
+      "pnl": -1.35,
+      "brier_error": 0.64,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793035696.112766
+    },
     {
       "id": "REFL-1793035394924",
       "trade_id": "WT:608540:0x547f880b60de8add50d3acc410b61626645a8980:Yes:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792713043.1742542
-    },
-    {
-      "id": "REFL-1792708953708",
-      "trade_id": "WT:561262:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
-      "strategy_id": "WT",
-      "market_title": "Will James Talarico win the 2028 US Presidential Election?",
-      "predicted_prob": 0.88,
-      "outcome": 0,
-      "pnl": -0.01,
-      "brier_error": 0.7744,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792708953.7087402
     }
   ],
   "strategy_weights": {
@@ -2643,20 +2643,20 @@
       "status": "REDUCED"
     },
     "WT": {
-      "brier_score": 0.573,
-      "win_rate": 23.9,
-      "trades_count": 222,
+      "brier_score": 0.5733,
+      "win_rate": 23.8,
+      "trades_count": 223,
       "kelly_multiplier": 0.4,
-      "reliability": 0.3895,
+      "reliability": 0.3905,
       "resolution": 0.0,
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3891,
-      "win_rate": 36.1,
-      "trades_count": 219,
+      "brier_score": 0.3877,
+      "win_rate": 36.4,
+      "trades_count": 220,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1559,
+      "reliability": 0.1535,
       "resolution": 0.0,
       "status": "REDUCED"
     },
