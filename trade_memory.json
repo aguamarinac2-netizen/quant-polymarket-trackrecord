@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792986849.2822547,
+  "updated_at": 1792987636.7646856,
   "reflections": [
+    {
+      "id": "REFL-1792987051101",
+      "trade_id": "MR:gamma:629337:Yes:1w:SELL",
+      "strategy_id": "MR",
+      "market_title": "Will the Democrats win the Georgia governor race in 2026?",
+      "predicted_prob": 0.78,
+      "outcome": 0,
+      "pnl": -0.03,
+      "brier_error": 0.6084,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792987051.101783
+    },
     {
       "id": "REFL-1792973710220",
       "trade_id": "WT:630806:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792658145.7626116
-    },
-    {
-      "id": "REFL-1792654820652",
-      "trade_id": "MR:gamma:634893:Yes:1d:SELL",
-      "strategy_id": "MR",
-      "market_title": "Will an independent win the Nebraska Senate race in 2026?",
-      "predicted_prob": 0.72,
-      "outcome": 0,
-      "pnl": 0.0,
-      "brier_error": 0.5184,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792654820.6524878
     }
   ],
   "strategy_weights": {
@@ -2652,11 +2652,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3947,
-      "win_rate": 34.9,
-      "trades_count": 209,
+      "brier_score": 0.3957,
+      "win_rate": 34.8,
+      "trades_count": 210,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1651,
+      "reliability": 0.1665,
       "resolution": 0.0,
       "status": "REDUCED"
     },
