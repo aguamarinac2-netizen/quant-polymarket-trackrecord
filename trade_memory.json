@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793010361.4287078,
+  "updated_at": 1793011023.8292253,
   "reflections": [
+    {
+      "id": "REFL-1793010741371",
+      "trade_id": "S24:559651:Yes:BUY",
+      "strategy_id": "S24",
+      "market_title": "Xi Jinping out before 2027?",
+      "predicted_prob": 0.76,
+      "outcome": 0,
+      "pnl": -1.43,
+      "brier_error": 0.5776,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793010741.3711457
+    },
     {
       "id": "REFL-1793010361417",
       "trade_id": "WT:559651:0x99dd407b80e45874638d783f54b0d8c097544303:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792669121.6489937
-    },
-    {
-      "id": "REFL-1792669121637",
-      "trade_id": "MR:gamma:630733:Yes:1d:SELL",
-      "strategy_id": "MR",
-      "market_title": "Will the Democrats win the Iowa Senate race in 2026?",
-      "predicted_prob": 0.72,
-      "outcome": 0,
-      "pnl": -0.04,
-      "brier_error": 0.5184,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792669121.6370363
     }
   ],
   "strategy_weights": {
@@ -2652,11 +2652,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3967,
-      "win_rate": 34.6,
-      "trades_count": 211,
+      "brier_score": 0.3953,
+      "win_rate": 34.9,
+      "trades_count": 212,
       "kelly_multiplier": 0.4,
-      "reliability": 0.168,
+      "reliability": 0.1652,
       "resolution": 0.0,
       "status": "REDUCED"
     },
@@ -2679,11 +2679,11 @@
       "status": "REDUCED"
     },
     "S24": {
-      "brier_score": 0.5256,
-      "win_rate": 10.0,
-      "trades_count": 10,
+      "brier_score": 0.5303,
+      "win_rate": 9.1,
+      "trades_count": 11,
       "kelly_multiplier": 0.4,
-      "reliability": 0.4356,
+      "reliability": 0.4477,
       "resolution": 0.0,
       "status": "REDUCED"
     },
