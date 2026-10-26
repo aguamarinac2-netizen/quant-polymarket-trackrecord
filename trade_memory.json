@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793005840.7450156,
+  "updated_at": 1793006563.496507,
   "reflections": [
+    {
+      "id": "REFL-1793006132858",
+      "trade_id": "WT:629397:0x1cfc260bfa2b5ae89377863180ca3b4f5c862111:No:BUY",
+      "strategy_id": "WT",
+      "market_title": "Will the Democrats win the Iowa governor race in 2026?",
+      "predicted_prob": 0.82,
+      "outcome": 0,
+      "pnl": -0.39,
+      "brier_error": 0.6724,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793006132.8586133
+    },
     {
       "id": "REFL-1793005069798",
       "trade_id": "S20:561246:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792665585.1483798
-    },
-    {
-      "id": "REFL-1792661663127",
-      "trade_id": "S10:1060714:No:BUY",
-      "strategy_id": "S10",
-      "market_title": "Nothing Ever Happens: 2026",
-      "predicted_prob": 0.75,
-      "outcome": 0,
-      "pnl": -0.12,
-      "brier_error": 0.5625,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792661663.1280146
     }
   ],
   "strategy_weights": {
@@ -2643,11 +2643,11 @@
       "status": "REDUCED"
     },
     "WT": {
-      "brier_score": 0.59,
-      "win_rate": 21.4,
-      "trades_count": 192,
+      "brier_score": 0.5904,
+      "win_rate": 21.2,
+      "trades_count": 193,
       "kelly_multiplier": 0.4,
-      "reliability": 0.4207,
+      "reliability": 0.4219,
       "resolution": 0.0,
       "status": "REDUCED"
     },
