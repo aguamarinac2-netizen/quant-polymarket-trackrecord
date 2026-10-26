@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793043768.0118883,
+  "updated_at": 1793044320.839214,
   "reflections": [
+    {
+      "id": "REFL-1793044320715",
+      "trade_id": "S10:942902:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Will the Democratic Party win the NV-04 House seat?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -0.54,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793044320.715138
+    },
     {
       "id": "REFL-1793043463053",
       "trade_id": "S10:1097730:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792745433.3148766
-    },
-    {
-      "id": "REFL-1792745433291",
-      "trade_id": "S10:630747:No:BUY",
-      "strategy_id": "S10",
-      "market_title": "Will the Republicans win the Kansas Senate race in 2026?",
-      "predicted_prob": 0.75,
-      "outcome": 0,
-      "pnl": -0.41,
-      "brier_error": 0.5625,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792745433.29102
     }
   ],
   "strategy_weights": {
@@ -2625,11 +2625,11 @@
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.4421,
-      "win_rate": 24.1,
-      "trades_count": 216,
+      "brier_score": 0.4427,
+      "win_rate": 24.0,
+      "trades_count": 217,
       "kelly_multiplier": 0.4,
-      "reliability": 0.2593,
+      "reliability": 0.2605,
       "resolution": 0.0,
       "status": "REDUCED"
     },
