@@ -1,6 +1,32 @@
 {
-  "updated_at": 1793034766.6209357,
+  "updated_at": 1793035312.4852283,
   "reflections": [
+    {
+      "id": "REFL-1793034785550",
+      "trade_id": "WT:608547:0x5a218c7ad04135830a45c41aaed7294df7809318:No:BUY",
+      "strategy_id": "WT",
+      "market_title": "Will Harry Kane win the 2026 Ballon d'Or?",
+      "predicted_prob": 0.88,
+      "outcome": 0,
+      "pnl": -1.25,
+      "brier_error": 0.7744,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793034785.5510032
+    },
+    {
+      "id": "REFL-1793034785461",
+      "trade_id": "WT:608547:0x5a218c7ad04135830a45c41aaed7294df7809318:No:BUY",
+      "strategy_id": "WT",
+      "market_title": "Will Harry Kane win the 2026 Ballon d'Or?",
+      "predicted_prob": 0.88,
+      "outcome": 0,
+      "pnl": -1.25,
+      "brier_error": 0.7744,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793034785.461956
+    },
     {
       "id": "REFL-1793034481255",
       "trade_id": "MR:gamma:943825:Yes:1d:SELL",
@@ -2574,32 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792708762.7273939
-    },
-    {
-      "id": "REFL-1792708153398",
-      "trade_id": "WT:608540:0xd218e474776403a330142299f7796e8ba32eb5c9:Yes:BUY",
-      "strategy_id": "WT",
-      "market_title": "Will Kylian Mbappé win the 2026 Ballon d'Or?",
-      "predicted_prob": 0.85,
-      "outcome": 0,
-      "pnl": -1.5,
-      "brier_error": 0.7225,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792708153.3982954
-    },
-    {
-      "id": "REFL-1792705428972",
-      "trade_id": "S10:944265:No:BUY",
-      "strategy_id": "S10",
-      "market_title": "Will the Republican Party win the UT-02 House seat?",
-      "predicted_prob": 0.75,
-      "outcome": 0,
-      "pnl": -2.34,
-      "brier_error": 0.5625,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792705428.9721694
     }
   ],
   "strategy_weights": {
@@ -2643,11 +2643,11 @@
       "status": "REDUCED"
     },
     "WT": {
-      "brier_score": 0.5718,
-      "win_rate": 24.0,
-      "trades_count": 217,
+      "brier_score": 0.5737,
+      "win_rate": 23.7,
+      "trades_count": 219,
       "kelly_multiplier": 0.4,
-      "reliability": 0.3879,
+      "reliability": 0.3908,
       "resolution": 0.0,
       "status": "REDUCED"
     },
