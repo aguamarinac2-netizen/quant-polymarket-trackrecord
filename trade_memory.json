@@ -1,6 +1,19 @@
 {
-  "updated_at": 1792988658.219751,
+  "updated_at": 1792989440.8502233,
   "reflections": [
+    {
+      "id": "REFL-1792989205873",
+      "trade_id": "S10:629337:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Will the Democrats win the Georgia governor race in 2026?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -0.29,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1792989205.8735523
+    },
     {
       "id": "REFL-1792987051101",
       "trade_id": "MR:gamma:629337:Yes:1w:SELL",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792659456.3679802
-    },
-    {
-      "id": "REFL-1792658145762",
-      "trade_id": "MR:gamma:561974:Yes:1w:BUY",
-      "strategy_id": "MR",
-      "market_title": "Will J.D. Vance win the 2028 Republican presidential nomination?",
-      "predicted_prob": 0.78,
-      "outcome": 0,
-      "pnl": -0.28,
-      "brier_error": 0.6084,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792658145.7626116
     }
   ],
   "strategy_weights": {
@@ -2625,11 +2625,11 @@
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.4387,
-      "win_rate": 24.8,
-      "trades_count": 202,
+      "brier_score": 0.4393,
+      "win_rate": 24.6,
+      "trades_count": 203,
       "kelly_multiplier": 0.4,
-      "reliability": 0.2525,
+      "reliability": 0.2537,
       "resolution": 0.0,
       "status": "REDUCED"
     },
