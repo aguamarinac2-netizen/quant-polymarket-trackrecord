@@ -1,6 +1,32 @@
 {
-  "updated_at": 1793018460.3966508,
+  "updated_at": 1793019125.6574793,
   "reflections": [
+    {
+      "id": "REFL-1793018805897",
+      "trade_id": "WT:629465:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
+      "strategy_id": "WT",
+      "market_title": "Will the Republicans win the Michigan governor race in 2026?",
+      "predicted_prob": 0.88,
+      "outcome": 0,
+      "pnl": -0.17,
+      "brier_error": 0.7744,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793018805.8977776
+    },
+    {
+      "id": "REFL-1793018805877",
+      "trade_id": "S12:629464:Yes:BUY",
+      "strategy_id": "S12",
+      "market_title": "Will the Democrats win the Michigan governor race in 2026?",
+      "predicted_prob": 0.9,
+      "outcome": 0,
+      "pnl": -0.18,
+      "brier_error": 0.81,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793018805.877972
+    },
     {
       "id": "REFL-1793018013886",
       "trade_id": "WT:630844:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
@@ -2574,32 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792678201.7817435
-    },
-    {
-      "id": "REFL-1792674714862",
-      "trade_id": "S10:943571:No:BUY",
-      "strategy_id": "S10",
-      "market_title": "Will the Democratic Party win the OH-09 House seat?",
-      "predicted_prob": 0.75,
-      "outcome": 0,
-      "pnl": -2.2,
-      "brier_error": 0.5625,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792674714.8625712
-    },
-    {
-      "id": "REFL-1792673860766",
-      "trade_id": "S10:703686:No:BUY",
-      "strategy_id": "S10",
-      "market_title": "Will the Democratic Party win the CA-22 House seat?",
-      "predicted_prob": 0.75,
-      "outcome": 0,
-      "pnl": -0.4,
-      "brier_error": 0.5625,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792673860.7661536
     }
   ],
   "strategy_weights": {
@@ -2634,20 +2634,20 @@
       "status": "REDUCED"
     },
     "S12": {
-      "brier_score": 0.6982,
-      "win_rate": 14.0,
-      "trades_count": 93,
+      "brier_score": 0.6994,
+      "win_rate": 13.8,
+      "trades_count": 94,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5779,
+      "reliability": 0.5802,
       "resolution": 0.0,
       "status": "REDUCED"
     },
     "WT": {
-      "brier_score": 0.5921,
-      "win_rate": 21.1,
-      "trades_count": 199,
+      "brier_score": 0.5931,
+      "win_rate": 21.0,
+      "trades_count": 200,
       "kelly_multiplier": 0.4,
-      "reliability": 0.4244,
+      "reliability": 0.4259,
       "resolution": 0.0,
       "status": "REDUCED"
     },
