@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793033842.5162783,
+  "updated_at": 1793034456.0758884,
   "reflections": [
+    {
+      "id": "REFL-1793033880544",
+      "trade_id": "S10:629183:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Will the Democrats win the Arizona governor race in 2026?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -0.41,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793033880.5442731
+    },
     {
       "id": "REFL-1793033575629",
       "trade_id": "S10:1105744:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792703898.4550786
-    },
-    {
-      "id": "REFL-1792701836410",
-      "trade_id": "S10:920403:No:BUY",
-      "strategy_id": "S10",
-      "market_title": "Variational FDV above $1B one day after launch?",
-      "predicted_prob": 0.75,
-      "outcome": 0,
-      "pnl": -0.27,
-      "brier_error": 0.5625,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792701836.4106276
     }
   ],
   "strategy_weights": {
@@ -2625,11 +2625,11 @@
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.4446,
-      "win_rate": 23.6,
-      "trades_count": 212,
+      "brier_score": 0.4451,
+      "win_rate": 23.5,
+      "trades_count": 213,
       "kelly_multiplier": 0.4,
-      "reliability": 0.2644,
+      "reliability": 0.2655,
       "resolution": 0.0,
       "status": "REDUCED"
     },
@@ -2643,11 +2643,11 @@
       "status": "REDUCED"
     },
     "WT": {
-      "brier_score": 0.5744,
-      "win_rate": 23.6,
-      "trades_count": 216,
+      "brier_score": 0.5718,
+      "win_rate": 24.0,
+      "trades_count": 217,
       "kelly_multiplier": 0.4,
-      "reliability": 0.3922,
+      "reliability": 0.3879,
       "resolution": 0.0,
       "status": "REDUCED"
     },
