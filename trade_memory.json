@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793010122.7812564,
+  "updated_at": 1793010361.4287078,
   "reflections": [
+    {
+      "id": "REFL-1793010361417",
+      "trade_id": "WT:559651:0x99dd407b80e45874638d783f54b0d8c097544303:No:BUY",
+      "strategy_id": "WT",
+      "market_title": "Xi Jinping out before 2027?",
+      "predicted_prob": 0.88,
+      "outcome": 0,
+      "pnl": -1.63,
+      "brier_error": 0.7744,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793010361.4171975
+    },
     {
       "id": "REFL-1793009044860",
       "trade_id": "WT:630819:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792669121.6370363
-    },
-    {
-      "id": "REFL-1792669121623",
-      "trade_id": "WT:629691:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
-      "strategy_id": "WT",
-      "market_title": "Will the Republicans win the Texas governor race in 2026?",
-      "predicted_prob": 0.88,
-      "outcome": 0,
-      "pnl": -1.08,
-      "brier_error": 0.7744,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792669121.6236165
     }
   ],
   "strategy_weights": {
@@ -2643,11 +2643,11 @@
       "status": "REDUCED"
     },
     "WT": {
-      "brier_score": 0.5923,
-      "win_rate": 21.0,
-      "trades_count": 195,
+      "brier_score": 0.5932,
+      "win_rate": 20.9,
+      "trades_count": 196,
       "kelly_multiplier": 0.4,
-      "reliability": 0.425,
+      "reliability": 0.4265,
       "resolution": 0.0,
       "status": "REDUCED"
     },
@@ -2688,11 +2688,11 @@
       "status": "REDUCED"
     },
     "MM": {
-      "brier_score": 0.7225,
-      "win_rate": 0.0,
-      "trades_count": 2,
+      "brier_score": 0.4892,
+      "win_rate": 33.3,
+      "trades_count": 3,
       "kelly_multiplier": 0.4,
-      "reliability": 0.7225,
+      "reliability": 0.2669,
       "resolution": 0.0,
       "status": "REDUCED"
     },
