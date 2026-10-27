@@ -104,12 +104,47 @@
         "fee_usd": 0.0553,
         "rebate_usd": 0.0
       }
+    },
+    {
+      "order_id": "SIM-1793095398173",
+      "recorded_at": "2026-10-27T10:03:18.173584+00:00",
+      "status": "FILLED",
+      "reason": null,
+      "market_id": "559651",
+      "market_question": "Xi Jinping out before 2027?",
+      "strategy_code": "MR",
+      "token": "Yes",
+      "side": "BUY",
+      "confidence": 78.0,
+      "is_maker": false,
+      "signal_entry_price": 0.038,
+      "requested_size_usd": 19.11,
+      "order_payload": {
+        "tokenID": "Yes",
+        "price": 0.038,
+        "size": 502.89,
+        "side": "BUY",
+        "feeRateBps": 0,
+        "expiration": 0,
+        "orderType": "GTC",
+        "nonce": 1793095398173,
+        "simulated": true
+      },
+      "fill": {
+        "exec_price": 0.038,
+        "fill_ratio": 1.0,
+        "slippage_bps": 0.0,
+        "book_depth_usd": 3017943.84,
+        "levels_consumed": 1,
+        "fee_usd": 0.9192,
+        "rebate_usd": 0.0
+      }
     }
   ],
   "rejection_reasons": {
-    "sin libro real disponible": 114327191,
-    "sin liquidez al precio l\u00edmite": 6297181
+    "sin libro real disponible": 114358800,
+    "sin liquidez al precio l\u00edmite": 6298840
   },
   "engine": "hybrid",
-  "updated_at": "2026-10-27T10:02:30.622688+00:00"
+  "updated_at": "2026-10-27T10:07:49.723734+00:00"
 }
