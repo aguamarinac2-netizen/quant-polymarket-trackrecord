@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793108255.6465528,
+  "updated_at": 1793108867.8802629,
   "reflections": [
+    {
+      "id": "REFL-1793108725626",
+      "trade_id": "WT:630924:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
+      "strategy_id": "WT",
+      "market_title": "Will the Democrats win the South Carolina Senate race in 2026?",
+      "predicted_prob": 0.88,
+      "outcome": 0,
+      "pnl": -0.24,
+      "brier_error": 0.7744,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793108725.6268473
+    },
     {
       "id": "REFL-1793104790663",
       "trade_id": "S10:1106814:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792783038.6781933
-    },
-    {
-      "id": "REFL-1792781729821",
-      "trade_id": "S10:1090496:No:BUY",
-      "strategy_id": "S10",
-      "market_title": "NATO x Russia military clash by December 31, 2026?",
-      "predicted_prob": 0.75,
-      "outcome": 0,
-      "pnl": -1.82,
-      "brier_error": 0.5625,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792781729.8213494
     }
   ],
   "strategy_weights": {
@@ -2643,11 +2643,11 @@
       "status": "REDUCED"
     },
     "WT": {
-      "brier_score": 0.5602,
-      "win_rate": 25.2,
-      "trades_count": 242,
+      "brier_score": 0.5611,
+      "win_rate": 25.1,
+      "trades_count": 243,
       "kelly_multiplier": 0.4,
-      "reliability": 0.37,
+      "reliability": 0.3714,
       "resolution": 0.0,
       "status": "REDUCED"
     },
