@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793098932.1727962,
+  "updated_at": 1793099241.786129,
   "reflections": [
+    {
+      "id": "REFL-1793099138736",
+      "trade_id": "S20:701595:No:BUY",
+      "strategy_id": "S20",
+      "market_title": "Will XRP reach $2.80 by December 31, 2026?",
+      "predicted_prob": 0.96,
+      "outcome": 0,
+      "pnl": -0.59,
+      "brier_error": 0.9216,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793099138.736605
+    },
     {
       "id": "REFL-1793092803942",
       "trade_id": "WT:630844:0xfaf680c17a9cca24ff0773ae2d9f7db49c02cc47:Yes:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792775617.581067
-    },
-    {
-      "id": "REFL-1792773498399",
-      "trade_id": "MR:gamma:630773:Yes:1d:SELL",
-      "strategy_id": "MR",
-      "market_title": "Will the Republicans win the Maine Senate race in 2026?",
-      "predicted_prob": 0.72,
-      "outcome": 0,
-      "pnl": -0.02,
-      "brier_error": 0.5184,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792773498.3994002
     }
   ],
   "strategy_weights": {
@@ -2616,11 +2616,11 @@
   },
   "strategy_brier_scores": {
     "S20": {
-      "brier_score": 0.8354,
-      "win_rate": 9.5,
-      "trades_count": 148,
+      "brier_score": 0.8359,
+      "win_rate": 9.4,
+      "trades_count": 149,
       "kelly_multiplier": 0.4,
-      "reliability": 0.7497,
+      "reliability": 0.7508,
       "resolution": 0.0,
       "status": "REDUCED"
     },
