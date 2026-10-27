@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793114322.8673208,
+  "updated_at": 1793114503.8637722,
   "reflections": [
+    {
+      "id": "REFL-1793114351991",
+      "trade_id": "WT:567688:0x2ece9aea1e1522edf10a58af0254408a098eacf2:Yes:BUY",
+      "strategy_id": "WT",
+      "market_title": "Netanyahu out by end of 2026?",
+      "predicted_prob": 0.8,
+      "outcome": 0,
+      "pnl": -0.1,
+      "brier_error": 0.64,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793114351.9916995
+    },
     {
       "id": "REFL-1793113701516",
       "trade_id": "MR:gamma:559651:Yes:1d:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792800696.74924
-    },
-    {
-      "id": "REFL-1792799511725",
-      "trade_id": "MR:gamma:629184:Yes:1w:BUY",
-      "strategy_id": "MR",
-      "market_title": "Will the Republicans win the Arizona governor race in 2026?",
-      "predicted_prob": 0.78,
-      "outcome": 0,
-      "pnl": -0.41,
-      "brier_error": 0.6084,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792799511.7252593
     }
   ],
   "strategy_weights": {
@@ -2643,11 +2643,11 @@
       "status": "REDUCED"
     },
     "WT": {
-      "brier_score": 0.5616,
-      "win_rate": 25.0,
-      "trades_count": 244,
+      "brier_score": 0.5619,
+      "win_rate": 24.9,
+      "trades_count": 245,
       "kelly_multiplier": 0.4,
-      "reliability": 0.3725,
+      "reliability": 0.3734,
       "resolution": 0.0,
       "status": "REDUCED"
     },
