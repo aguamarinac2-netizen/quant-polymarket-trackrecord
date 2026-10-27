@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793068194.146743,
+  "updated_at": 1793068625.2284768,
   "reflections": [
+    {
+      "id": "REFL-1793068270271",
+      "trade_id": "MR:gamma:631045:Yes:1d:BUY",
+      "strategy_id": "MR",
+      "market_title": "Will the Republicans win the Florida Senate race in 2026?",
+      "predicted_prob": 0.72,
+      "outcome": 0,
+      "pnl": -0.34,
+      "brier_error": 0.5184,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793068270.2715485
+    },
     {
       "id": "REFL-1793063375747",
       "trade_id": "WT:629324:0x66e7ce01c6831b8a2503d09edd6167152ee68bcd:Yes:SELL",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792763730.5170338
-    },
-    {
-      "id": "REFL-1792763724449",
-      "trade_id": "WT:560317:0x8b4bca1d794779e66e023d44391b2a86c5ab541b:No:BUY",
-      "strategy_id": "WT",
-      "market_title": "Putin out as President of Russia by December 31, 2026?",
-      "predicted_prob": 0.86,
-      "outcome": 0,
-      "pnl": 0.0,
-      "brier_error": 0.7396,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792763724.449376
     }
   ],
   "strategy_weights": {
@@ -2652,11 +2652,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.389,
-      "win_rate": 36.2,
-      "trades_count": 224,
+      "brier_score": 0.3896,
+      "win_rate": 36.0,
+      "trades_count": 225,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1552,
+      "reliability": 0.1563,
       "resolution": 0.0,
       "status": "REDUCED"
     },
