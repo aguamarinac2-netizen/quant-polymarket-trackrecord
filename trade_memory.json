@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793102798.6771507,
+  "updated_at": 1793103470.10558,
   "reflections": [
+    {
+      "id": "REFL-1793102874457",
+      "trade_id": "WT:631018:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
+      "strategy_id": "WT",
+      "market_title": "Will the Republicans win the Mississippi Senate race in 2026?",
+      "predicted_prob": 0.88,
+      "outcome": 0,
+      "pnl": -0.02,
+      "brier_error": 0.7744,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793102874.45714
+    },
     {
       "id": "REFL-1793099138736",
       "trade_id": "S20:701595:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792775918.7822773
-    },
-    {
-      "id": "REFL-1792775617581",
-      "trade_id": "WT:630759:0x66e7ce01c6831b8a2503d09edd6167152ee68bcd:Yes:BUY",
-      "strategy_id": "WT",
-      "market_title": "Will the Democrats win the Kentucky Senate race in 2026?",
-      "predicted_prob": 0.82,
-      "outcome": 0,
-      "pnl": -0.21,
-      "brier_error": 0.6724,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792775617.581067
     }
   ],
   "strategy_weights": {
@@ -2643,11 +2643,11 @@
       "status": "REDUCED"
     },
     "WT": {
-      "brier_score": 0.5593,
-      "win_rate": 25.3,
-      "trades_count": 241,
+      "brier_score": 0.5602,
+      "win_rate": 25.2,
+      "trades_count": 242,
       "kelly_multiplier": 0.4,
-      "reliability": 0.3687,
+      "reliability": 0.37,
       "resolution": 0.0,
       "status": "REDUCED"
     },
