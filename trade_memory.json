@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793059174.1756191,
+  "updated_at": 1793059603.1360772,
   "reflections": [
+    {
+      "id": "REFL-1793059486895",
+      "trade_id": "MR:local:559652:Yes:BUY",
+      "strategy_id": "MR",
+      "market_title": "Will Gavin Newsom win the 2028 Democratic presidential nomination?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -0.01,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793059486.8956141
+    },
     {
       "id": "REFL-1793055542830",
       "trade_id": "WT:559656:0x9703676286b93c2eca71ca96e8757104519a69c2:Yes:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792761599.6128464
-    },
-    {
-      "id": "REFL-1792759720625",
-      "trade_id": "S10:678445:No:BUY",
-      "strategy_id": "S10",
-      "market_title": "Will Spider-Man: Brand New Day have the best domestic opening weekend in 2026?",
-      "predicted_prob": 0.75,
-      "outcome": 0,
-      "pnl": -0.09,
-      "brier_error": 0.5625,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792759720.625991
     }
   ],
   "strategy_weights": {
@@ -2652,11 +2652,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3873,
-      "win_rate": 36.5,
-      "trades_count": 222,
+      "brier_score": 0.388,
+      "win_rate": 36.3,
+      "trades_count": 223,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1526,
+      "reliability": 0.1538,
       "resolution": 0.0,
       "status": "REDUCED"
     },
