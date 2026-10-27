@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793110885.261023,
+  "updated_at": 1793111565.9143727,
   "reflections": [
+    {
+      "id": "REFL-1793111269057",
+      "trade_id": "WT:630938:0x66e7ce01c6831b8a2503d09edd6167152ee68bcd:Yes:BUY",
+      "strategy_id": "WT",
+      "market_title": "Will the Republicans win the South Dakota Senate race in 2026?",
+      "predicted_prob": 0.82,
+      "outcome": 0,
+      "pnl": -0.07,
+      "brier_error": 0.6724,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793111269.057967
+    },
     {
       "id": "REFL-1793108725626",
       "trade_id": "WT:630924:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792784589.3738742
-    },
-    {
-      "id": "REFL-1792783038678",
-      "trade_id": "MR:gamma:630925:Yes:1w:BUY",
-      "strategy_id": "MR",
-      "market_title": "Will the Republicans win the South Carolina Senate race in 2026?",
-      "predicted_prob": 0.78,
-      "outcome": 0,
-      "pnl": -0.53,
-      "brier_error": 0.6084,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792783038.6781933
     }
   ],
   "strategy_weights": {
@@ -2643,11 +2643,11 @@
       "status": "REDUCED"
     },
     "WT": {
-      "brier_score": 0.5611,
-      "win_rate": 25.1,
-      "trades_count": 243,
+      "brier_score": 0.5616,
+      "win_rate": 25.0,
+      "trades_count": 244,
       "kelly_multiplier": 0.4,
-      "reliability": 0.3714,
+      "reliability": 0.3725,
       "resolution": 0.0,
       "status": "REDUCED"
     },
