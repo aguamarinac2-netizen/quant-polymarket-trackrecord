@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793104621.1692243,
+  "updated_at": 1793105237.9147625,
   "reflections": [
+    {
+      "id": "REFL-1793104790663",
+      "trade_id": "S10:1106814:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Will pump.fun buybacks hit $500M by December 31?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -0.25,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793104790.6638854
+    },
     {
       "id": "REFL-1793104084574",
       "trade_id": "S10:1068728:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792781729.8213494
-    },
-    {
-      "id": "REFL-1792778543832",
-      "trade_id": "S12:691980:Yes:BUY",
-      "strategy_id": "S12",
-      "market_title": "Will Jack Doherty be sentenced to no prison time?",
-      "predicted_prob": 0.9,
-      "outcome": 0,
-      "pnl": -0.0,
-      "brier_error": 0.81,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792778543.8325074
     }
   ],
   "strategy_weights": {
@@ -2625,11 +2625,11 @@
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.4397,
-      "win_rate": 24.6,
-      "trades_count": 228,
+      "brier_score": 0.4402,
+      "win_rate": 24.5,
+      "trades_count": 229,
       "kelly_multiplier": 0.4,
-      "reliability": 0.2544,
+      "reliability": 0.2555,
       "resolution": 0.0,
       "status": "REDUCED"
     },
