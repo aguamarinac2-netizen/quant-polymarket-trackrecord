@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793120646.2581837,
+  "updated_at": 1793120826.3366857,
   "reflections": [
+    {
+      "id": "REFL-1793120690453",
+      "trade_id": "WT:559651:0x0a182e234e3bd0aaf7f5f1dccdae6bc05deee5c8:Yes:BUY",
+      "strategy_id": "WT",
+      "market_title": "Xi Jinping out before 2027?",
+      "predicted_prob": 0.88,
+      "outcome": 0,
+      "pnl": -0.41,
+      "brier_error": 0.7744,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793120690.4539058
+    },
     {
       "id": "REFL-1793120639725",
       "trade_id": "WT:630939:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792800708.4958937
-    },
-    {
-      "id": "REFL-1792800702662",
-      "trade_id": "S20:665475:No:BUY",
-      "strategy_id": "S20",
-      "market_title": "Will Azerbaijan join the Abraham Accords before 2027?",
-      "predicted_prob": 0.96,
-      "outcome": 0,
-      "pnl": -0.07,
-      "brier_error": 0.9216,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792800702.6626804
     }
   ],
   "strategy_weights": {
@@ -2643,11 +2643,11 @@
       "status": "REDUCED"
     },
     "WT": {
-      "brier_score": 0.5627,
-      "win_rate": 24.8,
-      "trades_count": 246,
+      "brier_score": 0.5636,
+      "win_rate": 24.7,
+      "trades_count": 247,
       "kelly_multiplier": 0.4,
-      "reliability": 0.3747,
+      "reliability": 0.3761,
       "resolution": 0.0,
       "status": "REDUCED"
     },
