@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793078131.4242465,
+  "updated_at": 1793078563.7077966,
   "reflections": [
+    {
+      "id": "REFL-1793078420524",
+      "trade_id": "S10:629325:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Will the Republicans win the Florida governor race in 2026?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -0.36,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793078420.5248215
+    },
     {
       "id": "REFL-1793074183558",
       "trade_id": "S10:943542:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792765652.6751814
-    },
-    {
-      "id": "REFL-1792765652653",
-      "trade_id": "WT:559651:0x8b4bca1d794779e66e023d44391b2a86c5ab541b:No:BUY",
-      "strategy_id": "WT",
-      "market_title": "Xi Jinping out before 2027?",
-      "predicted_prob": 0.86,
-      "outcome": 0,
-      "pnl": -0.04,
-      "brier_error": 0.7396,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792765652.653586
     }
   ],
   "strategy_weights": {
@@ -2625,11 +2625,11 @@
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.4386,
-      "win_rate": 24.8,
-      "trades_count": 226,
+      "brier_score": 0.4392,
+      "win_rate": 24.7,
+      "trades_count": 227,
       "kelly_multiplier": 0.4,
-      "reliability": 0.2522,
+      "reliability": 0.2533,
       "resolution": 0.0,
       "status": "REDUCED"
     },
