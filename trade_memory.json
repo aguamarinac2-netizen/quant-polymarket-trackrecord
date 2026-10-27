@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793069545.6546917,
+  "updated_at": 1793070029.1513584,
   "reflections": [
+    {
+      "id": "REFL-1793069584859",
+      "trade_id": "MR:gamma:629040:Yes:1d:SELL",
+      "strategy_id": "MR",
+      "market_title": "Will Nithya Raman win the 2026 Los Angeles mayoral election?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -0.01,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793069584.8595061
+    },
     {
       "id": "REFL-1793068270271",
       "trade_id": "MR:gamma:631045:Yes:1d:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792765022.259659
-    },
-    {
-      "id": "REFL-1792763730517",
-      "trade_id": "S10:942995:No:BUY",
-      "strategy_id": "S10",
-      "market_title": "Will the Democratic Party win the NM-02 House seat?",
-      "predicted_prob": 0.75,
-      "outcome": 0,
-      "pnl": -0.41,
-      "brier_error": 0.5625,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792763730.5170338
     }
   ],
   "strategy_weights": {
@@ -2652,11 +2652,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3896,
-      "win_rate": 36.0,
-      "trades_count": 225,
+      "brier_score": 0.3904,
+      "win_rate": 35.8,
+      "trades_count": 226,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1563,
+      "reliability": 0.1576,
       "resolution": 0.0,
       "status": "REDUCED"
     },
