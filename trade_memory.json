@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793074078.845372,
+  "updated_at": 1793074503.468875,
   "reflections": [
+    {
+      "id": "REFL-1793074183558",
+      "trade_id": "S10:943542:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Will the Democratic Party win the NC-11 House seat?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -2.31,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793074183.5582128
+    },
     {
       "id": "REFL-1793071757730",
       "trade_id": "S10:1130721:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792765652.653586
-    },
-    {
-      "id": "REFL-1792765272430",
-      "trade_id": "S12:629451:Yes:BUY",
-      "strategy_id": "S12",
-      "market_title": "Will the Democrats win the Massachusetts governor race in 2026?",
-      "predicted_prob": 0.9,
-      "outcome": 0,
-      "pnl": -0.05,
-      "brier_error": 0.81,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792765272.4300754
     }
   ],
   "strategy_weights": {
@@ -2625,11 +2625,11 @@
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.4381,
-      "win_rate": 24.9,
-      "trades_count": 225,
+      "brier_score": 0.4386,
+      "win_rate": 24.8,
+      "trades_count": 226,
       "kelly_multiplier": 0.4,
-      "reliability": 0.2511,
+      "reliability": 0.2522,
       "resolution": 0.0,
       "status": "REDUCED"
     },
