@@ -1,6 +1,32 @@
 {
-  "updated_at": 1793120826.3366857,
+  "updated_at": 1793121572.4053683,
   "reflections": [
+    {
+      "id": "REFL-1793121298637",
+      "trade_id": "MR:gamma:629505:Yes:1w:SELL",
+      "strategy_id": "MR",
+      "market_title": "Will the Democrats win the Nevada governor race in 2026?",
+      "predicted_prob": 0.78,
+      "outcome": 0,
+      "pnl": -1.08,
+      "brier_error": 0.6084,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793121298.637783
+    },
+    {
+      "id": "REFL-1793120943942",
+      "trade_id": "S10:1126852:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Will Venezuelan crude oil production reach 1.2m barrels per day in 2026?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -0.43,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793120943.9426506
+    },
     {
       "id": "REFL-1793120690453",
       "trade_id": "WT:559651:0x0a182e234e3bd0aaf7f5f1dccdae6bc05deee5c8:Yes:BUY",
@@ -2574,32 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792800708.526379
-    },
-    {
-      "id": "REFL-1792800708512",
-      "trade_id": "S20:666599:No:BUY",
-      "strategy_id": "S20",
-      "market_title": "Will Trump meet with Lai Ching-te in 2026?",
-      "predicted_prob": 0.96,
-      "outcome": 0,
-      "pnl": -0.05,
-      "brier_error": 0.9216,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792800708.512632
-    },
-    {
-      "id": "REFL-1792800708495",
-      "trade_id": "S20:665482:No:BUY",
-      "strategy_id": "S20",
-      "market_title": "Will Elon Musk announce Presidential run before 2027?",
-      "predicted_prob": 0.96,
-      "outcome": 0,
-      "pnl": -0.04,
-      "brier_error": 0.9216,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792800708.4958937
     }
   ],
   "strategy_weights": {
@@ -2625,11 +2625,11 @@
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.4418,
-      "win_rate": 24.1,
-      "trades_count": 232,
+      "brier_score": 0.4423,
+      "win_rate": 24.0,
+      "trades_count": 233,
       "kelly_multiplier": 0.4,
-      "reliability": 0.2587,
+      "reliability": 0.2597,
       "resolution": 0.0,
       "status": "REDUCED"
     },
@@ -2652,11 +2652,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3869,
-      "win_rate": 36.5,
-      "trades_count": 230,
+      "brier_score": 0.3878,
+      "win_rate": 36.4,
+      "trades_count": 231,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1525,
+      "reliability": 0.1539,
       "resolution": 0.0,
       "status": "REDUCED"
     },
