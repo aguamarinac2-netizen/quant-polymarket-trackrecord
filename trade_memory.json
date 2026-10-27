@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793060033.2115717,
+  "updated_at": 1793060519.730766,
   "reflections": [
+    {
+      "id": "REFL-1793060149095",
+      "trade_id": "MR:gamma:629490:Yes:1d:SELL",
+      "strategy_id": "MR",
+      "market_title": "Will the Democrats win the Nebraska governor race in 2026?",
+      "predicted_prob": 0.78,
+      "outcome": 0,
+      "pnl": -0.11,
+      "brier_error": 0.6084,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793060149.0952392
+    },
     {
       "id": "REFL-1793059486895",
       "trade_id": "MR:local:559652:Yes:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792763194.083709
-    },
-    {
-      "id": "REFL-1792761599612",
-      "trade_id": "WT:629412:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
-      "strategy_id": "WT",
-      "market_title": "Will the Democrats win the Kansas governor race in 2026?",
-      "predicted_prob": 0.88,
-      "outcome": 0,
-      "pnl": -0.26,
-      "brier_error": 0.7744,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792761599.6128464
     }
   ],
   "strategy_weights": {
@@ -2652,11 +2652,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.388,
-      "win_rate": 36.3,
-      "trades_count": 223,
+      "brier_score": 0.389,
+      "win_rate": 36.2,
+      "trades_count": 224,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1538,
+      "reliability": 0.1552,
       "resolution": 0.0,
       "status": "REDUCED"
     },
