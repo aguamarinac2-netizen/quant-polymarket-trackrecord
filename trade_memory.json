@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793115419.949847,
+  "updated_at": 1793116100.2350838,
   "reflections": [
+    {
+      "id": "REFL-1793115822910",
+      "trade_id": "S10:629505:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Will the Democrats win the Nevada governor race in 2026?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -1.94,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793115822.9103334
+    },
     {
       "id": "REFL-1793114351991",
       "trade_id": "WT:567688:0x2ece9aea1e1522edf10a58af0254408a098eacf2:Yes:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792800696.7645686
-    },
-    {
-      "id": "REFL-1792800696749",
-      "trade_id": "S20:559655:No:BUY",
-      "strategy_id": "S20",
-      "market_title": "Will Josh Shapiro win the 2028 Democratic presidential nomination?",
-      "predicted_prob": 0.96,
-      "outcome": 0,
-      "pnl": -0.07,
-      "brier_error": 0.9216,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792800696.74924
     }
   ],
   "strategy_weights": {
@@ -2625,11 +2625,11 @@
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.4413,
-      "win_rate": 24.2,
-      "trades_count": 231,
+      "brier_score": 0.4418,
+      "win_rate": 24.1,
+      "trades_count": 232,
       "kelly_multiplier": 0.4,
-      "reliability": 0.2576,
+      "reliability": 0.2587,
       "resolution": 0.0,
       "status": "REDUCED"
     },
