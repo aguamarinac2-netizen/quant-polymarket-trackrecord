@@ -1,6 +1,32 @@
 {
-  "updated_at": 1793113647.187328,
+  "updated_at": 1793114322.8673208,
   "reflections": [
+    {
+      "id": "REFL-1793113701516",
+      "trade_id": "MR:gamma:559651:Yes:1d:BUY",
+      "strategy_id": "MR",
+      "market_title": "Xi Jinping out before 2027?",
+      "predicted_prob": 0.78,
+      "outcome": 0,
+      "pnl": -0.01,
+      "brier_error": 0.6084,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793113701.5168734
+    },
+    {
+      "id": "REFL-1793113701486",
+      "trade_id": "MR:gamma:559651:Yes:1d:BUY",
+      "strategy_id": "MR",
+      "market_title": "Xi Jinping out before 2027?",
+      "predicted_prob": 0.78,
+      "outcome": 0,
+      "pnl": -0.03,
+      "brier_error": 0.6084,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793113701.4869888
+    },
     {
       "id": "REFL-1793112549400",
       "trade_id": "S10:1073792:No:BUY",
@@ -2574,32 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792799511.7252593
-    },
-    {
-      "id": "REFL-1792790534896",
-      "trade_id": "MR:gamma:630964:Yes:1w:BUY",
-      "strategy_id": "MR",
-      "market_title": "Will the Republicans win the Texas Senate race in 2026?",
-      "predicted_prob": 0.78,
-      "outcome": 0,
-      "pnl": -0.16,
-      "brier_error": 0.6084,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792790534.8965745
-    },
-    {
-      "id": "REFL-1792786176793",
-      "trade_id": "MR:gamma:1059066:Yes:1w:SELL",
-      "strategy_id": "MR",
-      "market_title": "Will a team from LCK (South Korea) win LoL Worlds 2026?",
-      "predicted_prob": 0.78,
-      "outcome": 0,
-      "pnl": -0.52,
-      "brier_error": 0.6084,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792786176.7939277
     }
   ],
   "strategy_weights": {
@@ -2652,11 +2652,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3859,
-      "win_rate": 36.7,
-      "trades_count": 229,
+      "brier_score": 0.3869,
+      "win_rate": 36.5,
+      "trades_count": 230,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1512,
+      "reliability": 0.1525,
       "resolution": 0.0,
       "status": "REDUCED"
     },
