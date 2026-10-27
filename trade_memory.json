@@ -1,6 +1,32 @@
 {
-  "updated_at": 1793092624.2141554,
+  "updated_at": 1793092870.5710597,
   "reflections": [
+    {
+      "id": "REFL-1793092803942",
+      "trade_id": "WT:630844:0xfaf680c17a9cca24ff0773ae2d9f7db49c02cc47:Yes:BUY",
+      "strategy_id": "WT",
+      "market_title": "Will the Democrats win the New Hampshire Senate race in 2026?",
+      "predicted_prob": 0.76,
+      "outcome": 0,
+      "pnl": -0.07,
+      "brier_error": 0.5776,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793092803.9420874
+    },
+    {
+      "id": "REFL-1793092791570",
+      "trade_id": "S12:629350:Yes:BUY",
+      "strategy_id": "S12",
+      "market_title": "Will the Democrats win the Hawaii governor race in 2026?",
+      "predicted_prob": 0.9,
+      "outcome": 0,
+      "pnl": -0.03,
+      "brier_error": 0.81,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793092791.5705073
+    },
     {
       "id": "REFL-1793090903409",
       "trade_id": "WT:567688:0xb8d2bf9500e4731b09f54c7ebec6bf89899ec66b:No:BUY",
@@ -2574,32 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792773498.3994002
-    },
-    {
-      "id": "REFL-1792769889187",
-      "trade_id": "WT:629629:0x66e7ce01c6831b8a2503d09edd6167152ee68bcd:No:BUY",
-      "strategy_id": "WT",
-      "market_title": "Will an independent win the Rhode Island governor race in 2026?",
-      "predicted_prob": 0.82,
-      "outcome": 0,
-      "pnl": -0.0,
-      "brier_error": 0.6724,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792769889.1873932
-    },
-    {
-      "id": "REFL-1792767252265",
-      "trade_id": "MR:gamma:631018:Yes:1w:BUY",
-      "strategy_id": "MR",
-      "market_title": "Will the Republicans win the Mississippi Senate race in 2026?",
-      "predicted_prob": 0.78,
-      "outcome": 0,
-      "pnl": -0.14,
-      "brier_error": 0.6084,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792767252.2651622
     }
   ],
   "strategy_weights": {
@@ -2634,20 +2634,20 @@
       "status": "REDUCED"
     },
     "S12": {
-      "brier_score": 0.7005,
-      "win_rate": 13.7,
-      "trades_count": 95,
+      "brier_score": 0.7017,
+      "win_rate": 13.5,
+      "trades_count": 96,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5824,
+      "reliability": 0.5846,
       "resolution": 0.0,
       "status": "REDUCED"
     },
     "WT": {
       "brier_score": 0.5593,
-      "win_rate": 25.4,
-      "trades_count": 240,
+      "win_rate": 25.3,
+      "trades_count": 241,
       "kelly_multiplier": 0.4,
-      "reliability": 0.3679,
+      "reliability": 0.3687,
       "resolution": 0.0,
       "status": "REDUCED"
     },
