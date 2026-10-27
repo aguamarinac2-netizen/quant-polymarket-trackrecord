@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793125371.954308,
+  "updated_at": 1793126047.9530802,
   "reflections": [
+    {
+      "id": "REFL-1793125551432",
+      "trade_id": "S20:561232:No:BUY",
+      "strategy_id": "S20",
+      "market_title": "Will Pete Buttigieg win the 2028 US Presidential Election?",
+      "predicted_prob": 0.96,
+      "outcome": 0,
+      "pnl": -0.03,
+      "brier_error": 0.9216,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793125551.4324582
+    },
     {
       "id": "REFL-1793123276692",
       "trade_id": "MR:gamma:944249:Yes:1w:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792800708.5563223
-    },
-    {
-      "id": "REFL-1792800708540",
-      "trade_id": "S20:676837:No:BUY",
-      "strategy_id": "S20",
-      "market_title": "AI wins IMO gold medal in 2026?",
-      "predicted_prob": 0.96,
-      "outcome": 0,
-      "pnl": -0.07,
-      "brier_error": 0.9216,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792800708.5408406
     }
   ],
   "strategy_weights": {
@@ -2616,11 +2616,11 @@
   },
   "strategy_brier_scores": {
     "S20": {
-      "brier_score": 0.8359,
-      "win_rate": 9.4,
-      "trades_count": 149,
+      "brier_score": 0.8365,
+      "win_rate": 9.3,
+      "trades_count": 150,
       "kelly_multiplier": 0.4,
-      "reliability": 0.7508,
+      "reliability": 0.7519,
       "resolution": 0.0,
       "status": "REDUCED"
     },
