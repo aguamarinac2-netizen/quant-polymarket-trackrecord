@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793071320.5631435,
+  "updated_at": 1793071810.3068721,
   "reflections": [
+    {
+      "id": "REFL-1793071757730",
+      "trade_id": "S10:1130721:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Will Morgan Wallen be the Billboard #1 top artist in 2026?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -0.59,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793071757.7303865
+    },
     {
       "id": "REFL-1793069584859",
       "trade_id": "MR:gamma:629040:Yes:1d:SELL",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792765272.4300754
-    },
-    {
-      "id": "REFL-1792765022259",
-      "trade_id": "MR:gamma:944249:Yes:1d:BUY",
-      "strategy_id": "MR",
-      "market_title": "Will the Republican Party win the TX-35 House seat?",
-      "predicted_prob": 0.72,
-      "outcome": 0,
-      "pnl": -0.7,
-      "brier_error": 0.5184,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792765022.259659
     }
   ],
   "strategy_weights": {
@@ -2625,11 +2625,11 @@
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.4375,
-      "win_rate": 25.0,
-      "trades_count": 224,
+      "brier_score": 0.4381,
+      "win_rate": 24.9,
+      "trades_count": 225,
       "kelly_multiplier": 0.4,
-      "reliability": 0.25,
+      "reliability": 0.2511,
       "resolution": 0.0,
       "status": "REDUCED"
     },
