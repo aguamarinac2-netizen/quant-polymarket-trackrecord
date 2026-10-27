@@ -1,6 +1,32 @@
 {
-  "updated_at": 1793127097.912673,
+  "updated_at": 1793127889.5252247,
   "reflections": [
+    {
+      "id": "REFL-1793127810616",
+      "trade_id": "WT:568116:0x4b6f41e5de56e155d1b5bf81a51fdf1262b9fcdb:No:BUY",
+      "strategy_id": "WT",
+      "market_title": "Will Trump be impeached by December 31, 2026?",
+      "predicted_prob": 0.81,
+      "outcome": 0,
+      "pnl": -0.02,
+      "brier_error": 0.6561,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793127810.6167684
+    },
+    {
+      "id": "REFL-1793127810508",
+      "trade_id": "WT:601819:0x66e7ce01c6831b8a2503d09edd6167152ee68bcd:Yes:SELL",
+      "strategy_id": "WT",
+      "market_title": "Will Luiz Inácio Lula da Silva win the 2026 Brazilian presidential election?",
+      "predicted_prob": 0.82,
+      "outcome": 0,
+      "pnl": -0.35,
+      "brier_error": 0.6724,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793127810.5081503
+    },
     {
       "id": "REFL-1793125551432",
       "trade_id": "S20:561232:No:BUY",
@@ -2574,32 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792800708.5866818
-    },
-    {
-      "id": "REFL-1792800708571",
-      "trade_id": "S20:677273:No:BUY",
-      "strategy_id": "S20",
-      "market_title": "Israel and Syria normalize relations by December 31, 2026?",
-      "predicted_prob": 0.96,
-      "outcome": 0,
-      "pnl": -0.06,
-      "brier_error": 0.9216,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792800708.571068
-    },
-    {
-      "id": "REFL-1792800708556",
-      "trade_id": "S20:677147:No:BUY",
-      "strategy_id": "S20",
-      "market_title": "Fed emergency rate cut before 2027?",
-      "predicted_prob": 0.96,
-      "outcome": 0,
-      "pnl": -0.03,
-      "brier_error": 0.9216,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792800708.5563223
     }
   ],
   "strategy_weights": {
@@ -2625,11 +2625,11 @@
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.4423,
-      "win_rate": 24.0,
-      "trades_count": 233,
+      "brier_score": 0.4407,
+      "win_rate": 24.4,
+      "trades_count": 234,
       "kelly_multiplier": 0.4,
-      "reliability": 0.2597,
+      "reliability": 0.2565,
       "resolution": 0.0,
       "status": "REDUCED"
     },
@@ -2643,20 +2643,20 @@
       "status": "REDUCED"
     },
     "WT": {
-      "brier_score": 0.5636,
-      "win_rate": 24.7,
-      "trades_count": 247,
+      "brier_score": 0.5644,
+      "win_rate": 24.5,
+      "trades_count": 249,
       "kelly_multiplier": 0.4,
-      "reliability": 0.3761,
+      "reliability": 0.3781,
       "resolution": 0.0,
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3873,
-      "win_rate": 36.5,
-      "trades_count": 233,
+      "brier_score": 0.3859,
+      "win_rate": 36.8,
+      "trades_count": 234,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1531,
+      "reliability": 0.151,
       "resolution": 0.0,
       "status": "REDUCED"
     },
