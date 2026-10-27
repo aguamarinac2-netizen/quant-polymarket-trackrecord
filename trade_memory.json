@@ -1,6 +1,32 @@
 {
-  "updated_at": 1793063286.796917,
+  "updated_at": 1793063656.5471752,
   "reflections": [
+    {
+      "id": "REFL-1793063375747",
+      "trade_id": "WT:629324:0x66e7ce01c6831b8a2503d09edd6167152ee68bcd:Yes:SELL",
+      "strategy_id": "WT",
+      "market_title": "Will the Democrats win the Florida governor race in 2026?",
+      "predicted_prob": 0.82,
+      "outcome": 0,
+      "pnl": -1.72,
+      "brier_error": 0.6724,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793063375.74762
+    },
+    {
+      "id": "REFL-1793063374346",
+      "trade_id": "WT:629324:0x66e7ce01c6831b8a2503d09edd6167152ee68bcd:Yes:SELL",
+      "strategy_id": "WT",
+      "market_title": "Will the Democrats win the Florida governor race in 2026?",
+      "predicted_prob": 0.82,
+      "outcome": 0,
+      "pnl": -1.72,
+      "brier_error": 0.6724,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793063374.3460894
+    },
     {
       "id": "REFL-1793060149095",
       "trade_id": "MR:gamma:629490:Yes:1d:SELL",
@@ -2574,32 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792763724.449376
-    },
-    {
-      "id": "REFL-1792763724376",
-      "trade_id": "S12:629425:Yes:BUY",
-      "strategy_id": "S12",
-      "market_title": "Will the Democrats win the Maine governor race in 2026?",
-      "predicted_prob": 0.9,
-      "outcome": 0,
-      "pnl": -0.04,
-      "brier_error": 0.81,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792763724.3763332
-    },
-    {
-      "id": "REFL-1792763194083",
-      "trade_id": "S10:972263:No:BUY",
-      "strategy_id": "S10",
-      "market_title": "Will Kristi Noem leave the Trump administration before 2027?",
-      "predicted_prob": 0.75,
-      "outcome": 0,
-      "pnl": -0.09,
-      "brier_error": 0.5625,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792763194.083709
     }
   ],
   "strategy_weights": {
@@ -2643,11 +2643,11 @@
       "status": "REDUCED"
     },
     "WT": {
-      "brier_score": 0.5574,
-      "win_rate": 25.8,
-      "trades_count": 236,
+      "brier_score": 0.5583,
+      "win_rate": 25.6,
+      "trades_count": 238,
       "kelly_multiplier": 0.4,
-      "reliability": 0.3636,
+      "reliability": 0.3658,
       "resolution": 0.0,
       "status": "REDUCED"
     },
