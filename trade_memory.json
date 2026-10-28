@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793155041.6923919,
+  "updated_at": 1793155902.898249,
   "reflections": [
+    {
+      "id": "REFL-1793155252522",
+      "trade_id": "MR:gamma:629325:Yes:1d:BUY",
+      "strategy_id": "MR",
+      "market_title": "Will the Republicans win the Florida governor race in 2026?",
+      "predicted_prob": 0.78,
+      "outcome": 0,
+      "pnl": -0.43,
+      "brier_error": 0.6084,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793155252.5229645
+    },
     {
       "id": "REFL-1793154237393",
       "trade_id": "MR:local:559660:Yes:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792832260.5475385
-    },
-    {
-      "id": "REFL-1792832140300",
-      "trade_id": "WT:629708:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
-      "strategy_id": "WT",
-      "market_title": "Will the Republicans win the Vermont governor race in 2026?",
-      "predicted_prob": 0.88,
-      "outcome": 0,
-      "pnl": -0.34,
-      "brier_error": 0.7744,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792832140.3008258
     }
   ],
   "strategy_weights": {
@@ -2652,11 +2652,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3853,
-      "win_rate": 36.7,
-      "trades_count": 240,
+      "brier_score": 0.3862,
+      "win_rate": 36.5,
+      "trades_count": 241,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1511,
+      "reliability": 0.1524,
       "resolution": 0.0,
       "status": "REDUCED"
     },
