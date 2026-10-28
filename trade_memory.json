@@ -1,6 +1,32 @@
 {
-  "updated_at": 1793183075.2307508,
+  "updated_at": 1793183812.0152812,
   "reflections": [
+    {
+      "id": "REFL-1793183268913",
+      "trade_id": "MR:gamma:629505:Yes:1d:SELL",
+      "strategy_id": "MR",
+      "market_title": "Will the Democrats win the Nevada governor race in 2026?",
+      "predicted_prob": 0.78,
+      "outcome": 0,
+      "pnl": -0.66,
+      "brier_error": 0.6084,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793183268.9135633
+    },
+    {
+      "id": "REFL-1793183165530",
+      "trade_id": "WT:629284:0x66e7ce01c6831b8a2503d09edd6167152ee68bcd:Yes:BUY",
+      "strategy_id": "WT",
+      "market_title": "Will the Republicans win the Arkansas governor race in 2026?",
+      "predicted_prob": 0.82,
+      "outcome": 0,
+      "pnl": -0.06,
+      "brier_error": 0.6724,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793183165.530447
+    },
     {
       "id": "REFL-1793182829590",
       "trade_id": "MR:local:559658:Yes:SELL",
@@ -2574,32 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792848369.2079163
-    },
-    {
-      "id": "REFL-1792848369117",
-      "trade_id": "WT:608547:0x758dac51ba3cc9a246a79787da9df11c5f425d9e:Yes:BUY",
-      "strategy_id": "WT",
-      "market_title": "Will Harry Kane win the 2026 Ballon d'Or?",
-      "predicted_prob": 0.8,
-      "outcome": 0,
-      "pnl": -1.26,
-      "brier_error": 0.64,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792848369.1175482
-    },
-    {
-      "id": "REFL-1792846669429",
-      "trade_id": "S10:629338:No:BUY",
-      "strategy_id": "S10",
-      "market_title": "Will the Republicans win the Georgia governor race in 2026?",
-      "predicted_prob": 0.75,
-      "outcome": 0,
-      "pnl": -0.11,
-      "brier_error": 0.5625,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792846669.429666
     }
   ],
   "strategy_weights": {
@@ -2643,20 +2643,20 @@
       "status": "REDUCED"
     },
     "WT": {
-      "brier_score": 0.5646,
-      "win_rate": 24.4,
-      "trades_count": 262,
+      "brier_score": 0.565,
+      "win_rate": 24.3,
+      "trades_count": 263,
       "kelly_multiplier": 0.4,
-      "reliability": 0.3783,
+      "reliability": 0.3792,
       "resolution": 0.0,
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3812,
-      "win_rate": 37.3,
-      "trades_count": 249,
+      "brier_score": 0.3808,
+      "win_rate": 37.5,
+      "trades_count": 251,
       "kelly_multiplier": 0.4,
-      "reliability": 0.146,
+      "reliability": 0.1454,
       "resolution": 0.0,
       "status": "REDUCED"
     },
