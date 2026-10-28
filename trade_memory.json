@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793179451.0868053,
+  "updated_at": 1793180187.85151,
   "reflections": [
+    {
+      "id": "REFL-1793179787302",
+      "trade_id": "WT:648383:0x41eacf5aaa4c7fc883a098635b981050715d7a3d:Yes:BUY",
+      "strategy_id": "WT",
+      "market_title": "Billionaire one-time wealth tax passes in California election 2026?",
+      "predicted_prob": 0.83,
+      "outcome": 0,
+      "pnl": -0.35,
+      "brier_error": 0.6889,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793179787.3027368
+    },
     {
       "id": "REFL-1793177879091",
       "trade_id": "S20:701850:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792842068.9559083
-    },
-    {
-      "id": "REFL-1792841929746",
-      "trade_id": "WT:630653:0x5a218c7ad04135830a45c41aaed7294df7809318:No:BUY",
-      "strategy_id": "WT",
-      "market_title": "Will the Democrats win the Arkansas Senate race in 2026?",
-      "predicted_prob": 0.84,
-      "outcome": 0,
-      "pnl": -0.0,
-      "brier_error": 0.7056,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792841929.746759
     }
   ],
   "strategy_weights": {
@@ -2643,11 +2643,11 @@
       "status": "REDUCED"
     },
     "WT": {
-      "brier_score": 0.5661,
-      "win_rate": 24.2,
-      "trades_count": 260,
+      "brier_score": 0.5646,
+      "win_rate": 24.4,
+      "trades_count": 262,
       "kelly_multiplier": 0.4,
-      "reliability": 0.3811,
+      "reliability": 0.3783,
       "resolution": 0.0,
       "status": "REDUCED"
     },
