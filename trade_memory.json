@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793214413.5337474,
+  "updated_at": 1793214716.9220934,
   "reflections": [
+    {
+      "id": "REFL-1793214702011",
+      "trade_id": "MR:gamma:630747:Yes:1d:BUY",
+      "strategy_id": "MR",
+      "market_title": "Will the Republicans win the Kansas Senate race in 2026?",
+      "predicted_prob": 0.72,
+      "outcome": 0,
+      "pnl": -0.76,
+      "brier_error": 0.5184,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793214702.0118132
+    },
     {
       "id": "REFL-1793214224056",
       "trade_id": "WT:559652:0xb5d19b53c973be1097119c9ddc48fcb18fff6e35:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792878235.1146212
-    },
-    {
-      "id": "REFL-1792876221606",
-      "trade_id": "S10:1131457:No:BUY",
-      "strategy_id": "S10",
-      "market_title": "Will SpaceX have between 140-159 launches in 2026?",
-      "predicted_prob": 0.75,
-      "outcome": 0,
-      "pnl": -0.11,
-      "brier_error": 0.5625,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792876221.6060736
     }
   ],
   "strategy_weights": {
@@ -2643,20 +2643,20 @@
       "status": "REDUCED"
     },
     "WT": {
-      "brier_score": 0.5557,
-      "win_rate": 25.6,
-      "trades_count": 277,
+      "brier_score": 0.5538,
+      "win_rate": 25.9,
+      "trades_count": 278,
       "kelly_multiplier": 0.4,
-      "reliability": 0.3623,
+      "reliability": 0.359,
       "resolution": 0.0,
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3832,
-      "win_rate": 37.0,
-      "trades_count": 262,
+      "brier_score": 0.3837,
+      "win_rate": 36.9,
+      "trades_count": 263,
       "kelly_multiplier": 0.4,
-      "reliability": 0.149,
+      "reliability": 0.15,
       "resolution": 0.0,
       "status": "REDUCED"
     },
