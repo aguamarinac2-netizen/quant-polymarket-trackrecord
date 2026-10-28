@@ -1,6 +1,32 @@
 {
-  "updated_at": 1793195732.2466023,
+  "updated_at": 1793196408.6490035,
   "reflections": [
+    {
+      "id": "REFL-1793196271069",
+      "trade_id": "MR:gamma:701549:Yes:1w:BUY",
+      "strategy_id": "MR",
+      "market_title": "Will Ethereum reach $3,500 by December 31, 2026?",
+      "predicted_prob": 0.78,
+      "outcome": 0,
+      "pnl": -0.68,
+      "brier_error": 0.6084,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793196271.069707
+    },
+    {
+      "id": "REFL-1793196271054",
+      "trade_id": "MR:gamma:701549:Yes:1d:BUY",
+      "strategy_id": "MR",
+      "market_title": "Will Ethereum reach $3,500 by December 31, 2026?",
+      "predicted_prob": 0.78,
+      "outcome": 0,
+      "pnl": -0.68,
+      "brier_error": 0.6084,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793196271.05439
+    },
     {
       "id": "REFL-1793195010160",
       "trade_id": "MR:gamma:942082:Yes:1d:SELL",
@@ -2574,32 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792853078.900164
-    },
-    {
-      "id": "REFL-1792851884563",
-      "trade_id": "S10:690615:No:BUY",
-      "strategy_id": "S10",
-      "market_title": "Will Extended launch a token by December 31 2026?",
-      "predicted_prob": 0.75,
-      "outcome": 0,
-      "pnl": -5.13,
-      "brier_error": 0.5625,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792851884.5633333
-    },
-    {
-      "id": "REFL-1792851548211",
-      "trade_id": "S10:944238:No:BUY",
-      "strategy_id": "S10",
-      "market_title": "Will the Democratic Party win the TX-34 House seat?",
-      "predicted_prob": 0.75,
-      "outcome": 0,
-      "pnl": -0.39,
-      "brier_error": 0.5625,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792851548.2115366
     }
   ],
   "strategy_weights": {
@@ -2652,11 +2652,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3835,
-      "win_rate": 37.0,
-      "trades_count": 254,
+      "brier_score": 0.3852,
+      "win_rate": 36.7,
+      "trades_count": 256,
       "kelly_multiplier": 0.4,
-      "reliability": 0.149,
+      "reliability": 0.1513,
       "resolution": 0.0,
       "status": "REDUCED"
     },
