@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793215327.6199887,
+  "updated_at": 1793215629.4890747,
   "reflections": [
+    {
+      "id": "REFL-1793215417607",
+      "trade_id": "WT:629571:0x66e7ce01c6831b8a2503d09edd6167152ee68bcd:No:SELL",
+      "strategy_id": "WT",
+      "market_title": "Will the Republicans win the Oklahoma governor race in 2026?",
+      "predicted_prob": 0.82,
+      "outcome": 0,
+      "pnl": -2.01,
+      "brier_error": 0.6724,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793215417.607778
+    },
     {
       "id": "REFL-1793214702011",
       "trade_id": "MR:gamma:630747:Yes:1d:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792880961.3671832
-    },
-    {
-      "id": "REFL-1792878235114",
-      "trade_id": "S10:1090201:No:BUY",
-      "strategy_id": "S10",
-      "market_title": "Will Islam Makhachev be ranked first in the UFC Pound-For-Pound Rankings at the ",
-      "predicted_prob": 0.75,
-      "outcome": 0,
-      "pnl": -0.51,
-      "brier_error": 0.5625,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792878235.1146212
     }
   ],
   "strategy_weights": {
@@ -2643,11 +2643,11 @@
       "status": "REDUCED"
     },
     "WT": {
-      "brier_score": 0.5538,
-      "win_rate": 25.9,
-      "trades_count": 278,
+      "brier_score": 0.5542,
+      "win_rate": 25.8,
+      "trades_count": 279,
       "kelly_multiplier": 0.4,
-      "reliability": 0.359,
+      "reliability": 0.36,
       "resolution": 0.0,
       "status": "REDUCED"
     },
