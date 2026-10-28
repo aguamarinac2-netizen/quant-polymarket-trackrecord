@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793218998.2074125,
+  "updated_at": 1793219242.812095,
   "reflections": [
+    {
+      "id": "REFL-1793219035588",
+      "trade_id": "S12:630720:Yes:BUY",
+      "strategy_id": "S12",
+      "market_title": "Will the Democrats win the Illinois Senate race in 2026?",
+      "predicted_prob": 0.9,
+      "outcome": 0,
+      "pnl": 0.0,
+      "brier_error": 0.81,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793219035.5884652
+    },
     {
       "id": "REFL-1793217831055",
       "trade_id": "WT:562803:0xfea31bc088000ff909be1dfd8d0e3f2c7ef2d227:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792904730.5301757
-    },
-    {
-      "id": "REFL-1792902926332",
-      "trade_id": "WT:567689:0x56a18823707f327bbba6ed2e6f8a0c26b7a5e249:Yes:BUY",
-      "strategy_id": "WT",
-      "market_title": "Zelenskyy out as Ukraine president by end of 2026?",
-      "predicted_prob": 0.81,
-      "outcome": 0,
-      "pnl": -0.41,
-      "brier_error": 0.6561,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792902926.332959
     }
   ],
   "strategy_weights": {
@@ -2634,11 +2634,11 @@
       "status": "REDUCED"
     },
     "S12": {
-      "brier_score": 0.7028,
-      "win_rate": 13.4,
-      "trades_count": 97,
+      "brier_score": 0.7039,
+      "win_rate": 13.3,
+      "trades_count": 98,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5867,
+      "reliability": 0.5888,
       "resolution": 0.0,
       "status": "REDUCED"
     },
