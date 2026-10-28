@@ -1,7 +1,31 @@
 {
-  "generated_at": "2026-10-28T22:07:39.446492+00:00",
+  "generated_at": "2026-10-28T22:13:16.690905+00:00",
   "campaign": "demo-15d",
   "strategies": [
+    {
+      "strategy_code": "S03",
+      "strategy_name": "S03: Nothing Ever Happens",
+      "total": 6,
+      "open": 0,
+      "won": 5,
+      "lost": 1,
+      "realized_pnl_usd": 8.96,
+      "unrealized_pnl_usd": 11.1,
+      "partial_fills": 0,
+      "by_source": {
+        "research": {
+          "total": 6,
+          "won": 5,
+          "lost": 1,
+          "net_pnl_usd": 20.06
+        }
+      },
+      "closed": 6,
+      "win_rate_pct": 83.3,
+      "net_pnl_usd": 20.06,
+      "avg_book_slippage_bps": null,
+      "verdict": "MUESTRA_INSUFICIENTE"
+    },
     {
       "strategy_code": "S25",
       "strategy_name": "S25: Maker Rebate Harvester",
@@ -30,30 +54,6 @@
       "win_rate_pct": 100.0,
       "net_pnl_usd": 5.78,
       "avg_book_slippage_bps": 0.0,
-      "verdict": "MUESTRA_INSUFICIENTE"
-    },
-    {
-      "strategy_code": "S03",
-      "strategy_name": "S03: Nothing Ever Happens",
-      "total": 6,
-      "open": 2,
-      "won": 3,
-      "lost": 1,
-      "realized_pnl_usd": -0.09,
-      "unrealized_pnl_usd": 1.62,
-      "partial_fills": 0,
-      "by_source": {
-        "research": {
-          "total": 6,
-          "won": 3,
-          "lost": 1,
-          "net_pnl_usd": 1.53
-        }
-      },
-      "closed": 4,
-      "win_rate_pct": 75.0,
-      "net_pnl_usd": 1.53,
-      "avg_book_slippage_bps": null,
       "verdict": "MUESTRA_INSUFICIENTE"
     },
     {
@@ -172,7 +172,7 @@
       "won": 43,
       "lost": 129,
       "realized_pnl_usd": -19.15,
-      "unrealized_pnl_usd": -6.16,
+      "unrealized_pnl_usd": -6.12,
       "partial_fills": 0,
       "by_source": {
         "realistic": {
@@ -185,12 +185,12 @@
           "total": 196,
           "won": 42,
           "lost": 129,
-          "net_pnl_usd": -28.61
+          "net_pnl_usd": -28.57
         }
       },
       "closed": 172,
       "win_rate_pct": 25.0,
-      "net_pnl_usd": -25.31,
+      "net_pnl_usd": -25.27,
       "avg_book_slippage_bps": null,
       "verdict": "DESCARTAR"
     },
@@ -198,11 +198,11 @@
       "strategy_code": "S10",
       "strategy_name": "S10: Yes Bias",
       "total": 266,
-      "open": 19,
-      "won": 111,
+      "open": 18,
+      "won": 112,
       "lost": 136,
-      "realized_pnl_usd": -93.19,
-      "unrealized_pnl_usd": 17.14,
+      "realized_pnl_usd": -88.73,
+      "unrealized_pnl_usd": 21.89,
       "partial_fills": 0,
       "by_source": {
         "realistic": {
@@ -213,14 +213,14 @@
         },
         "research": {
           "total": 242,
-          "won": 102,
+          "won": 103,
           "lost": 122,
-          "net_pnl_usd": -64.56
+          "net_pnl_usd": -55.35
         }
       },
-      "closed": 247,
-      "win_rate_pct": 44.9,
-      "net_pnl_usd": -76.05,
+      "closed": 248,
+      "win_rate_pct": 45.2,
+      "net_pnl_usd": -66.84,
       "avg_book_slippage_bps": null,
       "verdict": "DESCARTAR"
     },
@@ -232,7 +232,7 @@
       "won": 115,
       "lost": 167,
       "realized_pnl_usd": -88.63,
-      "unrealized_pnl_usd": -5.46,
+      "unrealized_pnl_usd": -5.68,
       "partial_fills": 0,
       "by_source": {
         "realistic": {
@@ -245,12 +245,12 @@
           "total": 252,
           "won": 87,
           "lost": 140,
-          "net_pnl_usd": -114.17
+          "net_pnl_usd": -114.39
         }
       },
       "closed": 282,
       "win_rate_pct": 40.8,
-      "net_pnl_usd": -94.09,
+      "net_pnl_usd": -94.31,
       "avg_book_slippage_bps": null,
       "verdict": "DESCARTAR"
     },
