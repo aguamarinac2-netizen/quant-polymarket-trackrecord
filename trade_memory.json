@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793145192.5918567,
+  "updated_at": 1793145986.1890297,
   "reflections": [
+    {
+      "id": "REFL-1793145430762",
+      "trade_id": "MR:gamma:629708:Yes:1d:SELL",
+      "strategy_id": "MR",
+      "market_title": "Will the Republicans win the Vermont governor race in 2026?",
+      "predicted_prob": 0.72,
+      "outcome": 0,
+      "pnl": -0.33,
+      "brier_error": 0.5184,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793145430.7623453
+    },
     {
       "id": "REFL-1793127810616",
       "trade_id": "WT:568116:0x4b6f41e5de56e155d1b5bf81a51fdf1262b9fcdb:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792800708.6036885
-    },
-    {
-      "id": "REFL-1792800708586",
-      "trade_id": "S20:677367:No:BUY",
-      "strategy_id": "S20",
-      "market_title": "China coup attempt before 2027?",
-      "predicted_prob": 0.96,
-      "outcome": 0,
-      "pnl": -0.15,
-      "brier_error": 0.9216,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792800708.5866818
     }
   ],
   "strategy_weights": {
@@ -2652,11 +2652,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3831,
-      "win_rate": 37.3,
-      "trades_count": 236,
+      "brier_score": 0.3837,
+      "win_rate": 37.1,
+      "trades_count": 237,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1469,
+      "reliability": 0.1479,
       "resolution": 0.0,
       "status": "REDUCED"
     },
