@@ -1,6 +1,32 @@
 {
-  "updated_at": 1793157742.7733455,
+  "updated_at": 1793158608.6882029,
   "reflections": [
+    {
+      "id": "REFL-1793158608669",
+      "trade_id": "WT:629465:0xd218e474776403a330142299f7796e8ba32eb5c9:Yes:BUY",
+      "strategy_id": "WT",
+      "market_title": "Will the Republicans win the Michigan governor race in 2026?",
+      "predicted_prob": 0.85,
+      "outcome": 0,
+      "pnl": -1.79,
+      "brier_error": 0.7225,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793158608.6690514
+    },
+    {
+      "id": "REFL-1793158301623",
+      "trade_id": "WT:629464:0xd218e474776403a330142299f7796e8ba32eb5c9:No:BUY",
+      "strategy_id": "WT",
+      "market_title": "Will the Democrats win the Michigan governor race in 2026?",
+      "predicted_prob": 0.84,
+      "outcome": 0,
+      "pnl": -1.46,
+      "brier_error": 0.7056,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793158301.6235518
+    },
     {
       "id": "REFL-1793156457549",
       "trade_id": "WT:561237:0x873225e6e81581b72f531804d53c063af7654f44:Yes:BUY",
@@ -2574,32 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792833923.4424036
-    },
-    {
-      "id": "REFL-1792833325333",
-      "trade_id": "WT:629720:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
-      "strategy_id": "WT",
-      "market_title": "Will the Democrats win the Wisconsin governor race in 2026?",
-      "predicted_prob": 0.88,
-      "outcome": 0,
-      "pnl": -0.36,
-      "brier_error": 0.7744,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792833325.3331795
-    },
-    {
-      "id": "REFL-1792833135640",
-      "trade_id": "S10:1068336:No:BUY",
-      "strategy_id": "S10",
-      "market_title": "Perena FDV above $100M one day after launch?",
-      "predicted_prob": 0.75,
-      "outcome": 0,
-      "pnl": -0.11,
-      "brier_error": 0.5625,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792833135.6403728
     }
   ],
   "strategy_weights": {
@@ -2643,20 +2643,20 @@
       "status": "REDUCED"
     },
     "WT": {
-      "brier_score": 0.563,
-      "win_rate": 24.7,
-      "trades_count": 255,
+      "brier_score": 0.5642,
+      "win_rate": 24.5,
+      "trades_count": 257,
       "kelly_multiplier": 0.4,
-      "reliability": 0.3755,
+      "reliability": 0.3777,
       "resolution": 0.0,
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3862,
-      "win_rate": 36.5,
-      "trades_count": 241,
+      "brier_score": 0.3848,
+      "win_rate": 36.8,
+      "trades_count": 242,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1524,
+      "reliability": 0.1504,
       "resolution": 0.0,
       "status": "REDUCED"
     },
