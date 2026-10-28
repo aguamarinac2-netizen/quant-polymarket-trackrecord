@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793207502.6798701,
+  "updated_at": 1793208177.3856215,
   "reflections": [
+    {
+      "id": "REFL-1793207591582",
+      "trade_id": "WT:631058:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
+      "strategy_id": "WT",
+      "market_title": "Will the Republicans win the Ohio Senate race in 2026?",
+      "predicted_prob": 0.88,
+      "outcome": 0,
+      "pnl": -0.31,
+      "brier_error": 0.7744,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793207591.5826662
+    },
     {
       "id": "REFL-1793206585786",
       "trade_id": "MR:gamma:561975:Yes:1d:SELL",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792870253.0721586
-    },
-    {
-      "id": "REFL-1792869133666",
-      "trade_id": "MR:gamma:634892:Yes:1d:SELL",
-      "strategy_id": "MR",
-      "market_title": "Will the Republicans win the Nebraska Senate race in 2026?",
-      "predicted_prob": 0.72,
-      "outcome": 0,
-      "pnl": -0.28,
-      "brier_error": 0.5184,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792869133.66688
     }
   ],
   "strategy_weights": {
@@ -2643,11 +2643,11 @@
       "status": "REDUCED"
     },
     "WT": {
-      "brier_score": 0.557,
-      "win_rate": 25.5,
-      "trades_count": 271,
+      "brier_score": 0.554,
+      "win_rate": 25.9,
+      "trades_count": 274,
       "kelly_multiplier": 0.4,
-      "reliability": 0.3647,
+      "reliability": 0.359,
       "resolution": 0.0,
       "status": "REDUCED"
     },
