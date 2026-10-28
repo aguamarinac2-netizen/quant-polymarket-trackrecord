@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793199162.850963,
+  "updated_at": 1793199346.5515015,
   "reflections": [
+    {
+      "id": "REFL-1793199295789",
+      "trade_id": "MR:gamma:630734:Yes:1d:BUY",
+      "strategy_id": "MR",
+      "market_title": "Will the Republicans win the Iowa Senate race in 2026?",
+      "predicted_prob": 0.72,
+      "outcome": 0,
+      "pnl": -0.04,
+      "brier_error": 0.5184,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793199295.7898986
+    },
     {
       "id": "REFL-1793198743441",
       "trade_id": "S10:629477:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792868412.2744482
-    },
-    {
-      "id": "REFL-1792867940710",
-      "trade_id": "FLB:560317:No:BUY",
-      "strategy_id": "FLB",
-      "market_title": "Putin out as President of Russia by December 31, 2026?",
-      "predicted_prob": 0.6,
-      "outcome": 0,
-      "pnl": -0.04,
-      "brier_error": 0.36,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792867940.710373
     }
   ],
   "strategy_weights": {
@@ -2652,11 +2652,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3852,
-      "win_rate": 36.7,
-      "trades_count": 256,
+      "brier_score": 0.3857,
+      "win_rate": 36.6,
+      "trades_count": 257,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1513,
+      "reliability": 0.1523,
       "resolution": 0.0,
       "status": "REDUCED"
     },
