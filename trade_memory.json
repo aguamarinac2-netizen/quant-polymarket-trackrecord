@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793230103.5088632,
+  "updated_at": 1793230634.2319474,
   "reflections": [
+    {
+      "id": "REFL-1793230634218",
+      "trade_id": "S12:902970:Yes:BUY",
+      "strategy_id": "S12",
+      "market_title": "Will ACA premium tax credits not be extended and will the Democratic Party win t",
+      "predicted_prob": 0.9,
+      "outcome": 0,
+      "pnl": -0.22,
+      "brier_error": 0.81,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793230634.2186217
+    },
     {
       "id": "REFL-1793228901940",
       "trade_id": "WT:630692:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792920041.5504668
-    },
-    {
-      "id": "REFL-1792919993826",
-      "trade_id": "WT:561989:0x9703676286b93c2eca71ca96e8757104519a69c2:Yes:BUY",
-      "strategy_id": "WT",
-      "market_title": "Will Ted Cruz win the 2028 Republican presidential nomination?",
-      "predicted_prob": 0.86,
-      "outcome": 0,
-      "pnl": -2.17,
-      "brier_error": 0.7396,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792919993.826897
     }
   ],
   "strategy_weights": {
@@ -2634,11 +2634,11 @@
       "status": "REDUCED"
     },
     "S12": {
-      "brier_score": 0.7039,
-      "win_rate": 13.3,
-      "trades_count": 98,
+      "brier_score": 0.7049,
+      "win_rate": 13.1,
+      "trades_count": 99,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5888,
+      "reliability": 0.5909,
       "resolution": 0.0,
       "status": "REDUCED"
     },
