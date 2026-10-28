@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793177613.467087,
+  "updated_at": 1793178402.1878796,
   "reflections": [
+    {
+      "id": "REFL-1793177879091",
+      "trade_id": "S20:701850:No:BUY",
+      "strategy_id": "S20",
+      "market_title": "Will Zcash dip to $50 by December 31, 2026?",
+      "predicted_prob": 0.96,
+      "outcome": 0,
+      "pnl": -0.06,
+      "brier_error": 0.9216,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793177879.0919642
+    },
     {
       "id": "REFL-1793174030822",
       "trade_id": "MR:gamma:629397:Yes:1d:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792841929.746759
-    },
-    {
-      "id": "REFL-1792841363526",
-      "trade_id": "WT:608547:0x942e79166821f3f4e67872e44f1672fcccd2be27:Yes:SELL",
-      "strategy_id": "WT",
-      "market_title": "Will Harry Kane win the 2026 Ballon d'Or?",
-      "predicted_prob": 0.8,
-      "outcome": 0,
-      "pnl": -0.34,
-      "brier_error": 0.64,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792841363.52646
     }
   ],
   "strategy_weights": {
@@ -2616,20 +2616,20 @@
   },
   "strategy_brier_scores": {
     "S20": {
-      "brier_score": 0.8254,
+      "brier_score": 0.826,
       "win_rate": 10.5,
-      "trades_count": 171,
+      "trades_count": 172,
       "kelly_multiplier": 0.4,
-      "reliability": 0.7313,
+      "reliability": 0.7323,
       "resolution": 0.0,
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.4391,
-      "win_rate": 24.7,
-      "trades_count": 239,
+      "brier_score": 0.4375,
+      "win_rate": 25.0,
+      "trades_count": 240,
       "kelly_multiplier": 0.4,
-      "reliability": 0.2531,
+      "reliability": 0.25,
       "resolution": 0.0,
       "status": "REDUCED"
     },
