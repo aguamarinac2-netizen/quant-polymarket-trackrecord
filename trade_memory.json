@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793221927.1570199,
+  "updated_at": 1793222538.5285115,
   "reflections": [
+    {
+      "id": "REFL-1793222229459",
+      "trade_id": "FLB:559660:No:BUY",
+      "strategy_id": "FLB",
+      "market_title": "Will Andy Beshear win the 2028 Democratic presidential nomination?",
+      "predicted_prob": 0.6,
+      "outcome": 0,
+      "pnl": -0.05,
+      "brier_error": 0.36,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793222229.4595032
+    },
     {
       "id": "REFL-1793221551543",
       "trade_id": "WT:629571:0x5a218c7ad04135830a45c41aaed7294df7809318:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792914570.5923722
-    },
-    {
-      "id": "REFL-1792913966099",
-      "trade_id": "MR:gamma:630706:Yes:1d:SELL",
-      "strategy_id": "MR",
-      "market_title": "Will the Republicans win the Idaho Senate race in 2026?",
-      "predicted_prob": 0.78,
-      "outcome": 0,
-      "pnl": 0.0,
-      "brier_error": 0.6084,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792913966.0998363
     }
   ],
   "strategy_weights": {
@@ -2699,7 +2699,7 @@
     "FLB": {
       "brier_score": 0.36,
       "win_rate": 0.0,
-      "trades_count": 8,
+      "trades_count": 9,
       "kelly_multiplier": 0.4,
       "reliability": 0.36,
       "resolution": 0.0,
