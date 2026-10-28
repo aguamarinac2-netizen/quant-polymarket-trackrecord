@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793169489.1905825,
+  "updated_at": 1793170285.3669872,
   "reflections": [
+    {
+      "id": "REFL-1793169727253",
+      "trade_id": "WT:628940:0xed107a85a4585a381e48c7f7ca4144909e7dd2e5:No:BUY",
+      "strategy_id": "WT",
+      "market_title": "Will Steve Hilton win the California Governor Election in 2026?",
+      "predicted_prob": 0.87,
+      "outcome": 0,
+      "pnl": -0.04,
+      "brier_error": 0.7569,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793169727.2531545
+    },
     {
       "id": "REFL-1793164753919",
       "trade_id": "S10:630720:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792836237.45281
-    },
-    {
-      "id": "REFL-1792836237435",
-      "trade_id": "MR:gamma:608545:Yes:1w:BUY",
-      "strategy_id": "MR",
-      "market_title": "Will Lamine Yamal win the 2026 Ballon d'Or?",
-      "predicted_prob": 0.78,
-      "outcome": 0,
-      "pnl": -5.52,
-      "brier_error": 0.6084,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792836237.4352632
     }
   ],
   "strategy_weights": {
@@ -2643,11 +2643,11 @@
       "status": "REDUCED"
     },
     "WT": {
-      "brier_score": 0.5654,
-      "win_rate": 24.3,
-      "trades_count": 259,
+      "brier_score": 0.5661,
+      "win_rate": 24.2,
+      "trades_count": 260,
       "kelly_multiplier": 0.4,
-      "reliability": 0.3799,
+      "reliability": 0.3811,
       "resolution": 0.0,
       "status": "REDUCED"
     },
