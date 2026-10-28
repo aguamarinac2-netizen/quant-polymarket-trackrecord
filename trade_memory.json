@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793172176.4217527,
+  "updated_at": 1793173031.4674978,
   "reflections": [
+    {
+      "id": "REFL-1793172854548",
+      "trade_id": "S10:1123359:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Will the UK’s 2026 inflation be between 3.5% and 3.9%?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -0.26,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793172854.5486221
+    },
     {
       "id": "REFL-1793169727253",
       "trade_id": "WT:628940:0xed107a85a4585a381e48c7f7ca4144909e7dd2e5:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792838204.212311
-    },
-    {
-      "id": "REFL-1792836237452",
-      "trade_id": "MR:gamma:608545:Yes:1d:BUY",
-      "strategy_id": "MR",
-      "market_title": "Will Lamine Yamal win the 2026 Ballon d'Or?",
-      "predicted_prob": 0.78,
-      "outcome": 0,
-      "pnl": -3.84,
-      "brier_error": 0.6084,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792836237.45281
     }
   ],
   "strategy_weights": {
@@ -2625,11 +2625,11 @@
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.4386,
-      "win_rate": 24.8,
-      "trades_count": 238,
+      "brier_score": 0.4391,
+      "win_rate": 24.7,
+      "trades_count": 239,
       "kelly_multiplier": 0.4,
-      "reliability": 0.2521,
+      "reliability": 0.2531,
       "resolution": 0.0,
       "status": "REDUCED"
     },
