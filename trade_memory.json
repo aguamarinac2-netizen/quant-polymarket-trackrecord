@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793187585.2690911,
+  "updated_at": 1793188322.8659642,
   "reflections": [
+    {
+      "id": "REFL-1793187636874",
+      "trade_id": "MR:gamma:629338:Yes:1w:BUY",
+      "strategy_id": "MR",
+      "market_title": "Will the Republicans win the Georgia governor race in 2026?",
+      "predicted_prob": 0.78,
+      "outcome": 0,
+      "pnl": -0.41,
+      "brier_error": 0.6084,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793187636.8741772
+    },
     {
       "id": "REFL-1793183268913",
       "trade_id": "MR:gamma:629505:Yes:1d:SELL",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792850408.3786378
-    },
-    {
-      "id": "REFL-1792848369207",
-      "trade_id": "WT:608547:0x758dac51ba3cc9a246a79787da9df11c5f425d9e:Yes:BUY",
-      "strategy_id": "WT",
-      "market_title": "Will Harry Kane win the 2026 Ballon d'Or?",
-      "predicted_prob": 0.8,
-      "outcome": 0,
-      "pnl": -1.26,
-      "brier_error": 0.64,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792848369.2079163
     }
   ],
   "strategy_weights": {
@@ -2652,11 +2652,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3808,
-      "win_rate": 37.5,
-      "trades_count": 251,
+      "brier_score": 0.3817,
+      "win_rate": 37.3,
+      "trades_count": 252,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1454,
+      "reliability": 0.1466,
       "resolution": 0.0,
       "status": "REDUCED"
     },
