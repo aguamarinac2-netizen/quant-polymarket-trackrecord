@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793193885.3486276,
+  "updated_at": 1793194624.2054672,
   "reflections": [
+    {
+      "id": "REFL-1793194152051",
+      "trade_id": "S10:629464:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Will the Democrats win the Michigan governor race in 2026?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -0.34,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793194152.051177
+    },
     {
       "id": "REFL-1793191671626",
       "trade_id": "MR:gamma:630819:Yes:1d:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792850855.801894
-    },
-    {
-      "id": "REFL-1792850555941",
-      "trade_id": "S10:1139711:No:BUY",
-      "strategy_id": "S10",
-      "market_title": "Over $160B wagered on US sports betting in 2026?",
-      "predicted_prob": 0.75,
-      "outcome": 0,
-      "pnl": -2.28,
-      "brier_error": 0.5625,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792850555.9411924
     }
   ],
   "strategy_weights": {
@@ -2625,11 +2625,11 @@
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.4375,
-      "win_rate": 25.0,
-      "trades_count": 240,
+      "brier_score": 0.438,
+      "win_rate": 24.9,
+      "trades_count": 241,
       "kelly_multiplier": 0.4,
-      "reliability": 0.25,
+      "reliability": 0.251,
       "resolution": 0.0,
       "status": "REDUCED"
     },
