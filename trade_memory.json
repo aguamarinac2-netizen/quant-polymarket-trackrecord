@@ -1,6 +1,32 @@
 {
-  "updated_at": 1793149602.4306982,
+  "updated_at": 1793150512.4467387,
   "reflections": [
+    {
+      "id": "REFL-1793150261721",
+      "trade_id": "MR:gamma:648383:Yes:1d:BUY",
+      "strategy_id": "MR",
+      "market_title": "Billionaire one-time wealth tax passes in California election 2026?",
+      "predicted_prob": 0.72,
+      "outcome": 0,
+      "pnl": -1.01,
+      "brier_error": 0.5184,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793150261.7212584
+    },
+    {
+      "id": "REFL-1793150261696",
+      "trade_id": "WT:648383:0xeface9902242b0399856f981600b907dcc9bc9a1:Yes:BUY",
+      "strategy_id": "WT",
+      "market_title": "Billionaire one-time wealth tax passes in California election 2026?",
+      "predicted_prob": 0.81,
+      "outcome": 0,
+      "pnl": -1.21,
+      "brier_error": 0.6561,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793150261.6968012
+    },
     {
       "id": "REFL-1793148624281",
       "trade_id": "S10:682705:No:BUY",
@@ -2574,32 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792827273.7315888
-    },
-    {
-      "id": "REFL-1792827233047",
-      "trade_id": "S10:1068307:No:BUY",
-      "strategy_id": "S10",
-      "market_title": "Base FDV above $2B one day after launch?",
-      "predicted_prob": 0.75,
-      "outcome": 0,
-      "pnl": -0.35,
-      "brier_error": 0.5625,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792827233.0472887
-    },
-    {
-      "id": "REFL-1792824118431",
-      "trade_id": "WT:629707:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
-      "strategy_id": "WT",
-      "market_title": "Will the Democrats win the Vermont governor race in 2026?",
-      "predicted_prob": 0.88,
-      "outcome": 0,
-      "pnl": -0.09,
-      "brier_error": 0.7744,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792824118.4319246
     }
   ],
   "strategy_weights": {
@@ -2643,20 +2643,20 @@
       "status": "REDUCED"
     },
     "WT": {
-      "brier_score": 0.5618,
-      "win_rate": 24.9,
-      "trades_count": 253,
+      "brier_score": 0.5622,
+      "win_rate": 24.8,
+      "trades_count": 254,
       "kelly_multiplier": 0.4,
-      "reliability": 0.3732,
+      "reliability": 0.3742,
       "resolution": 0.0,
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3837,
-      "win_rate": 37.1,
-      "trades_count": 237,
+      "brier_score": 0.3843,
+      "win_rate": 37.0,
+      "trades_count": 238,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1479,
+      "reliability": 0.149,
       "resolution": 0.0,
       "status": "REDUCED"
     },
