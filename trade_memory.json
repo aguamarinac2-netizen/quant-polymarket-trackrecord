@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793191190.1776319,
+  "updated_at": 1793191928.0326147,
   "reflections": [
+    {
+      "id": "REFL-1793191671626",
+      "trade_id": "MR:gamma:630819:Yes:1d:BUY",
+      "strategy_id": "MR",
+      "market_title": "Will the Republicans win the Minnesota Senate race in 2026?",
+      "predicted_prob": 0.78,
+      "outcome": 0,
+      "pnl": -0.41,
+      "brier_error": 0.6084,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793191671.6267781
+    },
     {
       "id": "REFL-1793187636874",
       "trade_id": "MR:gamma:629338:Yes:1w:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792850555.9411924
-    },
-    {
-      "id": "REFL-1792850408378",
-      "trade_id": "MR:gamma:630772:Yes:1d:BUY",
-      "strategy_id": "MR",
-      "market_title": "Will the Democrats win the Maine Senate race in 2026?",
-      "predicted_prob": 0.72,
-      "outcome": 0,
-      "pnl": -0.03,
-      "brier_error": 0.5184,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792850408.3786378
     }
   ],
   "strategy_weights": {
@@ -2652,11 +2652,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3817,
-      "win_rate": 37.3,
-      "trades_count": 252,
+      "brier_score": 0.3826,
+      "win_rate": 37.2,
+      "trades_count": 253,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1466,
+      "reliability": 0.1478,
       "resolution": 0.0,
       "status": "REDUCED"
     },
