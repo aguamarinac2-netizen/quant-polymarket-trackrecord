@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793211966.4076433,
+  "updated_at": 1793212637.3968117,
   "reflections": [
+    {
+      "id": "REFL-1793212215032",
+      "trade_id": "WT:562803:0xfea31bc088000ff909be1dfd8d0e3f2c7ef2d227:No:BUY",
+      "strategy_id": "WT",
+      "market_title": "Will the Republican Party control the House after the 2026 Midterm elections?",
+      "predicted_prob": 0.86,
+      "outcome": 0,
+      "pnl": -0.07,
+      "brier_error": 0.7396,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793212215.0321143
+    },
     {
       "id": "REFL-1793210370265",
       "trade_id": "MR:gamma:630845:Yes:1d:SELL",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792873755.7661233
-    },
-    {
-      "id": "REFL-1792871243079",
-      "trade_id": "S10:1089949:No:BUY",
-      "strategy_id": "S10",
-      "market_title": "Will Movsar Evloev be the UFC Featherweight Champion on December 31, 2026?",
-      "predicted_prob": 0.75,
-      "outcome": 0,
-      "pnl": -0.28,
-      "brier_error": 0.5625,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792871243.0790324
     }
   ],
   "strategy_weights": {
@@ -2643,11 +2643,11 @@
       "status": "REDUCED"
     },
     "WT": {
-      "brier_score": 0.554,
-      "win_rate": 25.9,
-      "trades_count": 274,
+      "brier_score": 0.5546,
+      "win_rate": 25.8,
+      "trades_count": 275,
       "kelly_multiplier": 0.4,
-      "reliability": 0.359,
+      "reliability": 0.3602,
       "resolution": 0.0,
       "status": "REDUCED"
     },
