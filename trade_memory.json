@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793162267.4820907,
+  "updated_at": 1793163119.7179594,
   "reflections": [
+    {
+      "id": "REFL-1793162602547",
+      "trade_id": "WT:629641:0xd218e474776403a330142299f7796e8ba32eb5c9:No:BUY",
+      "strategy_id": "WT",
+      "market_title": "Will the Republicans win the South Carolina governor race in 2026?",
+      "predicted_prob": 0.85,
+      "outcome": 0,
+      "pnl": -1.28,
+      "brier_error": 0.7225,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793162602.5478892
+    },
     {
       "id": "REFL-1793159528918",
       "trade_id": "WT:629570:0xd218e474776403a330142299f7796e8ba32eb5c9:Yes:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792836237.4166162
-    },
-    {
-      "id": "REFL-1792833923519",
-      "trade_id": "MR:gamma:562794:Yes:1w:BUY",
-      "strategy_id": "MR",
-      "market_title": "Will the Republican Party control the Senate after the 2026 Midterm elections?",
-      "predicted_prob": 0.78,
-      "outcome": 0,
-      "pnl": -0.16,
-      "brier_error": 0.6084,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792833923.519798
     }
   ],
   "strategy_weights": {
@@ -2643,11 +2643,11 @@
       "status": "REDUCED"
     },
     "WT": {
-      "brier_score": 0.5648,
-      "win_rate": 24.4,
-      "trades_count": 258,
+      "brier_score": 0.5654,
+      "win_rate": 24.3,
+      "trades_count": 259,
       "kelly_multiplier": 0.4,
-      "reliability": 0.3788,
+      "reliability": 0.3799,
       "resolution": 0.0,
       "status": "REDUCED"
     },
