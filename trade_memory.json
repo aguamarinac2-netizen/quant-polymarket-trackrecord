@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793155902.898249,
+  "updated_at": 1793156819.6225214,
   "reflections": [
+    {
+      "id": "REFL-1793156457549",
+      "trade_id": "WT:561237:0x873225e6e81581b72f531804d53c063af7654f44:Yes:BUY",
+      "strategy_id": "WT",
+      "market_title": "Will Andy Beshear win the 2028 US Presidential Election?",
+      "predicted_prob": 0.88,
+      "outcome": 0,
+      "pnl": -1.75,
+      "brier_error": 0.7744,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793156457.549726
+    },
     {
       "id": "REFL-1793155252522",
       "trade_id": "MR:gamma:629325:Yes:1d:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792833135.6403728
-    },
-    {
-      "id": "REFL-1792832260547",
-      "trade_id": "S20:608368:Yes:BUY",
-      "strategy_id": "S20",
-      "market_title": "Will OpenAI not IPO by December 31, 2026?",
-      "predicted_prob": 0.96,
-      "outcome": 0,
-      "pnl": -0.07,
-      "brier_error": 0.9216,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792832260.5475385
     }
   ],
   "strategy_weights": {
@@ -2643,11 +2643,11 @@
       "status": "REDUCED"
     },
     "WT": {
-      "brier_score": 0.5622,
-      "win_rate": 24.8,
-      "trades_count": 254,
+      "brier_score": 0.563,
+      "win_rate": 24.7,
+      "trades_count": 255,
       "kelly_multiplier": 0.4,
-      "reliability": 0.3742,
+      "reliability": 0.3755,
       "resolution": 0.0,
       "status": "REDUCED"
     },
