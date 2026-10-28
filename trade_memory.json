@@ -1,6 +1,32 @@
 {
-  "updated_at": 1793213799.186409,
+  "updated_at": 1793214413.5337474,
   "reflections": [
+    {
+      "id": "REFL-1793214224056",
+      "trade_id": "WT:559652:0xb5d19b53c973be1097119c9ddc48fcb18fff6e35:No:BUY",
+      "strategy_id": "WT",
+      "market_title": "Will Gavin Newsom win the 2028 Democratic presidential nomination?",
+      "predicted_prob": 0.8,
+      "outcome": 0,
+      "pnl": -0.23,
+      "brier_error": 0.64,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793214224.0569067
+    },
+    {
+      "id": "REFL-1793213984397",
+      "trade_id": "WT:562828:0x722cd7724ad3287ada5c3ccf3dec2ec455e67bde:Yes:BUY",
+      "strategy_id": "WT",
+      "market_title": "2026 Balance of Power: D Senate, D House",
+      "predicted_prob": 0.88,
+      "outcome": 0,
+      "pnl": -0.03,
+      "brier_error": 0.7744,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793213984.397318
+    },
     {
       "id": "REFL-1793212215032",
       "trade_id": "WT:562803:0xfea31bc088000ff909be1dfd8d0e3f2c7ef2d227:No:BUY",
@@ -2574,32 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792876221.6060736
-    },
-    {
-      "id": "REFL-1792874643057",
-      "trade_id": "S10:1090098:No:BUY",
-      "strategy_id": "S10",
-      "market_title": "Will Ciryl Gane be the UFC Heavyweight Champion on December 31, 2026?",
-      "predicted_prob": 0.75,
-      "outcome": 0,
-      "pnl": -0.37,
-      "brier_error": 0.5625,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792874643.0579069
-    },
-    {
-      "id": "REFL-1792873755766",
-      "trade_id": "WT:562803:0x8b4bca1d794779e66e023d44391b2a86c5ab541b:No:BUY",
-      "strategy_id": "WT",
-      "market_title": "Will the Republican Party control the House after the 2026 Midterm elections?",
-      "predicted_prob": 0.86,
-      "outcome": 0,
-      "pnl": -0.18,
-      "brier_error": 0.7396,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792873755.7661233
     }
   ],
   "strategy_weights": {
@@ -2643,11 +2643,11 @@
       "status": "REDUCED"
     },
     "WT": {
-      "brier_score": 0.5546,
-      "win_rate": 25.8,
-      "trades_count": 275,
+      "brier_score": 0.5557,
+      "win_rate": 25.6,
+      "trades_count": 277,
       "kelly_multiplier": 0.4,
-      "reliability": 0.3602,
+      "reliability": 0.3623,
       "resolution": 0.0,
       "status": "REDUCED"
     },
