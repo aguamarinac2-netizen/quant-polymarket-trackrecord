@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793210196.8000476,
+  "updated_at": 1793210805.316502,
   "reflections": [
+    {
+      "id": "REFL-1793210370265",
+      "trade_id": "MR:gamma:630845:Yes:1d:SELL",
+      "strategy_id": "MR",
+      "market_title": "Will the Republicans win the New Hampshire Senate race in 2026?",
+      "predicted_prob": 0.72,
+      "outcome": 0,
+      "pnl": -0.88,
+      "brier_error": 0.5184,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793210370.2651334
+    },
     {
       "id": "REFL-1793207591582",
       "trade_id": "WT:631058:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792871243.0790324
-    },
-    {
-      "id": "REFL-1792870253072",
-      "trade_id": "S12:942433:Yes:BUY",
-      "strategy_id": "S12",
-      "market_title": "Will the Democratic Party win the IA-01 House seat?",
-      "predicted_prob": 0.9,
-      "outcome": 0,
-      "pnl": -0.12,
-      "brier_error": 0.81,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792870253.0721586
     }
   ],
   "strategy_weights": {
@@ -2652,11 +2652,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3827,
-      "win_rate": 37.2,
-      "trades_count": 261,
+      "brier_score": 0.3832,
+      "win_rate": 37.0,
+      "trades_count": 262,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1481,
+      "reliability": 0.149,
       "resolution": 0.0,
       "status": "REDUCED"
     },
