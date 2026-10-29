@@ -45103,13 +45103,13 @@
       "risk_reward_ratio": 1.0,
       "horizon": "short",
       "horizon_label": "\ud83d\udcc5 Corto (<15d)",
-      "status": "OPEN",
+      "status": "LOST",
       "unrealized_pnl_usd": -0.08,
       "unrealized_pnl_pct": -0.76,
-      "realized_pnl_usd": 0.0,
-      "realized_pnl_pct": 0.0,
-      "close_reason": null,
-      "closed_at": null,
+      "realized_pnl_usd": -0.14,
+      "realized_pnl_pct": -0.76,
+      "close_reason": "\u23f1\ufe0f Time-Stop 48h (Capital liberado: rotaci\u00f3n r\u00e1pida tras 48.0h estancado)",
+      "closed_at": "2026-10-29T17:04:56.174391+00:00",
       "engine": "paper"
     },
     "MR:local:559660:Yes:BUY": {
@@ -45220,7 +45220,7 @@
       "order_type": "LIMIT",
       "entry_price": 0.9559,
       "signal_entry_price": 0.954,
-      "current_price": 0.9795,
+      "current_price": 0.98,
       "target_price": 0.998,
       "stop_loss": 0.9063,
       "initial_stop_loss": 0.9063,
@@ -45245,7 +45245,7 @@
       "horizon_label": "\ud83d\udcc5 Corto (<15d)",
       "status": "OPEN",
       "unrealized_pnl_usd": 0.25,
-      "unrealized_pnl_pct": 2.47,
+      "unrealized_pnl_pct": 2.52,
       "realized_pnl_usd": 0.0,
       "realized_pnl_pct": 0.0,
       "close_reason": null,
@@ -48132,7 +48132,8 @@
       "realized_pnl_pct": 12.35,
       "close_reason": "\ud83c\udfaf Take Profit alcanzado ($0.105 <= $0.110)",
       "closed_at": "2026-10-29T17:02:20.567292+00:00",
-      "engine": "paper"
+      "engine": "paper",
+      "ai_post_mortem_done": true
     },
     "MR:local:559658:Yes:SELL": {
       "trade_id": "MR:local:559658:Yes:SELL",
@@ -51495,7 +51496,7 @@
       "order_type": "LIMIT",
       "entry_price": 0.021,
       "signal_entry_price": 0.021,
-      "current_price": 0.0205,
+      "current_price": 0.02,
       "target_price": 0.0335,
       "stop_loss": 0.006,
       "initial_stop_loss": 0.006,
@@ -51519,8 +51520,8 @@
       "horizon": "short",
       "horizon_label": "\ud83d\udcc5 Corto (<15d)",
       "status": "OPEN",
-      "unrealized_pnl_usd": -0.23,
-      "unrealized_pnl_pct": -2.38,
+      "unrealized_pnl_usd": -0.46,
+      "unrealized_pnl_pct": -4.76,
       "realized_pnl_usd": 0.0,
       "realized_pnl_pct": 0.0,
       "close_reason": null,
@@ -51622,5 +51623,5 @@
       "ai_post_mortem_done": true
     }
   },
-  "updated_at": "2026-10-29T17:02:20.568489+00:00"
+  "updated_at": "2026-10-29T17:04:56.176507+00:00"
 }

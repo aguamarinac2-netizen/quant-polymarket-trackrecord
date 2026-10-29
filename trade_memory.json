@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793293415.135707,
+  "updated_at": 1793293600.2873952,
   "reflections": [
+    {
+      "id": "REFL-1793293496255",
+      "trade_id": "WT:635012:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
+      "strategy_id": "WT",
+      "market_title": "Will Bernadette Wilson win the 2026 Alaska governor election?",
+      "predicted_prob": 0.88,
+      "outcome": 0,
+      "pnl": -0.14,
+      "brier_error": 0.7744,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793293496.2558258
+    },
     {
       "id": "REFL-1793289975983",
       "trade_id": "S10:943749:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792973514.8766108
-    },
-    {
-      "id": "REFL-1792973508770",
-      "trade_id": "S20:668681:No:BUY",
-      "strategy_id": "S20",
-      "market_title": "Will FREPASNA win the most seats in the 2025 Guinea-Bissau National People’s Ass",
-      "predicted_prob": 0.98,
-      "outcome": 0,
-      "pnl": -0.05,
-      "brier_error": 0.9604,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792973508.7701023
     }
   ],
   "strategy_weights": {
@@ -2643,11 +2643,11 @@
       "status": "REDUCED"
     },
     "WT": {
-      "brier_score": 0.5559,
-      "win_rate": 25.5,
-      "trades_count": 294,
+      "brier_score": 0.5567,
+      "win_rate": 25.4,
+      "trades_count": 295,
       "kelly_multiplier": 0.4,
-      "reliability": 0.3635,
+      "reliability": 0.3647,
       "resolution": 0.0,
       "status": "REDUCED"
     },
