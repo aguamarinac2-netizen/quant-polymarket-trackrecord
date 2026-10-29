@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793317056.7899733,
+  "updated_at": 1793317783.242619,
   "reflections": [
+    {
+      "id": "REFL-1793317386908",
+      "trade_id": "MR:gamma:676739:Yes:1d:BUY",
+      "strategy_id": "MR",
+      "market_title": "Will NVIDIA be the largest company in the world by market cap on December 31?",
+      "predicted_prob": 0.78,
+      "outcome": 0,
+      "pnl": -1.39,
+      "brier_error": 0.6084,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793317386.9083374
+    },
     {
       "id": "REFL-1793301170390",
       "trade_id": "S10:944282:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792973522.0036414
-    },
-    {
-      "id": "REFL-1792973521987",
-      "trade_id": "S20:692326:No:BUY",
-      "strategy_id": "S20",
-      "market_title": "Will Erika Kirk announce a presidential run before 2027?",
-      "predicted_prob": 0.96,
-      "outcome": 0,
-      "pnl": -0.05,
-      "brier_error": 0.9216,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792973521.9871762
     }
   ],
   "strategy_weights": {
@@ -2652,11 +2652,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3751,
-      "win_rate": 38.6,
-      "trades_count": 295,
+      "brier_score": 0.3758,
+      "win_rate": 38.5,
+      "trades_count": 296,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1371,
+      "reliability": 0.1382,
       "resolution": 0.0,
       "status": "REDUCED"
     },
