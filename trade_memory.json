@@ -1,6 +1,32 @@
 {
-  "updated_at": 1793300819.0756617,
+  "updated_at": 1793301547.3577173,
   "reflections": [
+    {
+      "id": "REFL-1793301170390",
+      "trade_id": "S10:944282:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Will the Democratic Party win the VA-01 House seat?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -0.02,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793301170.3904705
+    },
+    {
+      "id": "REFL-1793300839158",
+      "trade_id": "S10:942400:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Will the Republican Party win the FL-13 House seat?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": 0.0,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793300839.158363
+    },
     {
       "id": "REFL-1793300693984",
       "trade_id": "WT:629413:0x1cfc260bfa2b5ae89377863180ca3b4f5c862111:No:SELL",
@@ -2574,32 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792973521.9871762
-    },
-    {
-      "id": "REFL-1792973521961",
-      "trade_id": "S20:692325:No:BUY",
-      "strategy_id": "S20",
-      "market_title": "Will Steve Bannon announce a presidential run before 2027?",
-      "predicted_prob": 0.96,
-      "outcome": 0,
-      "pnl": -0.06,
-      "brier_error": 0.9216,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792973521.9618936
-    },
-    {
-      "id": "REFL-1792973515061",
-      "trade_id": "S20:692324:No:BUY",
-      "strategy_id": "S20",
-      "market_title": "Will Rand Paul announce a presidential run before 2027?",
-      "predicted_prob": 0.96,
-      "outcome": 0,
-      "pnl": -0.07,
-      "brier_error": 0.9216,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792973515.0619025
     }
   ],
   "strategy_weights": {
@@ -2625,11 +2625,11 @@
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.4256,
+      "brier_score": 0.4253,
       "win_rate": 27.4,
-      "trades_count": 263,
+      "trades_count": 266,
       "kelly_multiplier": 0.4,
-      "reliability": 0.2268,
+      "reliability": 0.2262,
       "resolution": 0.0,
       "status": "REDUCED"
     },
