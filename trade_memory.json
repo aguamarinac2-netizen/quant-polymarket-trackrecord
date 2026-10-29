@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793257624.8773632,
+  "updated_at": 1793258112.4802988,
   "reflections": [
+    {
+      "id": "REFL-1793257861405",
+      "trade_id": "MR:gamma:629720:Yes:1d:SELL",
+      "strategy_id": "MR",
+      "market_title": "Will the Democrats win the Wisconsin governor race in 2026?",
+      "predicted_prob": 0.78,
+      "outcome": 0,
+      "pnl": -0.4,
+      "brier_error": 0.6084,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793257861.4052248
+    },
     {
       "id": "REFL-1793252217243",
       "trade_id": "S10:1090205:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792936000.1329856
-    },
-    {
-      "id": "REFL-1792931426741",
-      "trade_id": "WT:608540:0x9e599ab02b87a09b185010a16f1da0d58604553e:Yes:BUY",
-      "strategy_id": "WT",
-      "market_title": "Will Kylian Mbappé win the 2026 Ballon d'Or?",
-      "predicted_prob": 0.86,
-      "outcome": 0,
-      "pnl": -0.12,
-      "brier_error": 0.7396,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792931426.7417178
     }
   ],
   "strategy_weights": {
@@ -2652,11 +2652,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3808,
-      "win_rate": 37.5,
-      "trades_count": 267,
+      "brier_score": 0.3817,
+      "win_rate": 37.3,
+      "trades_count": 268,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1459,
+      "reliability": 0.147,
       "resolution": 0.0,
       "status": "REDUCED"
     },
