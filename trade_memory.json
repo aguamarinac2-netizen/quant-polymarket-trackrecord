@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793299974.3718276,
+  "updated_at": 1793300637.074227,
   "reflections": [
+    {
+      "id": "REFL-1793300480903",
+      "trade_id": "MR:local:559655:Yes:BUY",
+      "strategy_id": "MR",
+      "market_title": "Will Josh Shapiro win the 2028 Democratic presidential nomination?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -0.22,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793300480.9038978
+    },
     {
       "id": "REFL-1793299932514",
       "trade_id": "WT:561233:0xcab5512fd29d95c66dc240d3023bac53f8f821af:Yes:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792973515.0432303
-    },
-    {
-      "id": "REFL-1792973515027",
-      "trade_id": "S20:692321:No:BUY",
-      "strategy_id": "S20",
-      "market_title": "Will Robert F. Kennedy Jr. announce a presidential run before 2027?",
-      "predicted_prob": 0.96,
-      "outcome": 0,
-      "pnl": -0.06,
-      "brier_error": 0.9216,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792973515.027028
     }
   ],
   "strategy_weights": {
@@ -2625,11 +2625,11 @@
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.427,
-      "win_rate": 27.1,
-      "trades_count": 262,
+      "brier_score": 0.4256,
+      "win_rate": 27.4,
+      "trades_count": 263,
       "kelly_multiplier": 0.4,
-      "reliability": 0.2294,
+      "reliability": 0.2268,
       "resolution": 0.0,
       "status": "REDUCED"
     },
@@ -2652,11 +2652,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.38,
-      "win_rate": 37.7,
-      "trades_count": 289,
+      "brier_score": 0.3806,
+      "win_rate": 37.6,
+      "trades_count": 290,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1439,
+      "reliability": 0.1449,
       "resolution": 0.0,
       "status": "REDUCED"
     },
