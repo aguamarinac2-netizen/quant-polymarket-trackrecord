@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793287110.0111566,
+  "updated_at": 1793287352.6008208,
   "reflections": [
+    {
+      "id": "REFL-1793287156606",
+      "trade_id": "WT:566760:0xa66790e2b0075e73c3781ddaf1d0b875a3aaceb3:No:BUY",
+      "strategy_id": "WT",
+      "market_title": "Will Trump pardon Ghislaine Maxwell by end of 2026?",
+      "predicted_prob": 0.83,
+      "outcome": 0,
+      "pnl": -0.19,
+      "brier_error": 0.6889,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793287156.6063936
+    },
     {
       "id": "REFL-1793286773038",
       "trade_id": "S10:701726:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792973502.5832965
-    },
-    {
-      "id": "REFL-1792969877604",
-      "trade_id": "S12:944222:Yes:BUY",
-      "strategy_id": "S12",
-      "market_title": "Will the Democratic Party win the TX-28 House seat?",
-      "predicted_prob": 0.9,
-      "outcome": 0,
-      "pnl": -0.07,
-      "brier_error": 0.81,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792969877.604792
     }
   ],
   "strategy_weights": {
@@ -2643,11 +2643,11 @@
       "status": "REDUCED"
     },
     "WT": {
-      "brier_score": 0.5555,
-      "win_rate": 25.6,
-      "trades_count": 293,
+      "brier_score": 0.5559,
+      "win_rate": 25.5,
+      "trades_count": 294,
       "kelly_multiplier": 0.4,
-      "reliability": 0.3626,
+      "reliability": 0.3635,
       "resolution": 0.0,
       "status": "REDUCED"
     },
