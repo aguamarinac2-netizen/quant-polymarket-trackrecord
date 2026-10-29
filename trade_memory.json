@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793251808.1653264,
+  "updated_at": 1793252231.199961,
   "reflections": [
+    {
+      "id": "REFL-1793252217243",
+      "trade_id": "S10:1090205:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Will Alexander Volkanovski be ranked first in the UFC Pound-For-Pound Rankings a",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -2.71,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793252217.2434363
+    },
     {
       "id": "REFL-1793245773711",
       "trade_id": "WT:629720:0x1cfc260bfa2b5ae89377863180ca3b4f5c862111:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792931426.7417178
-    },
-    {
-      "id": "REFL-1792931395885",
-      "trade_id": "WT:630707:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
-      "strategy_id": "WT",
-      "market_title": "Will Todd Achilles win the Idaho Senate race in 2026?",
-      "predicted_prob": 0.88,
-      "outcome": 0,
-      "pnl": -0.13,
-      "brier_error": 0.7744,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792931395.8856165
     }
   ],
   "strategy_weights": {
@@ -2625,11 +2625,11 @@
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.4281,
-      "win_rate": 26.9,
-      "trades_count": 253,
+      "brier_score": 0.4286,
+      "win_rate": 26.8,
+      "trades_count": 254,
       "kelly_multiplier": 0.4,
-      "reliability": 0.2316,
+      "reliability": 0.2326,
       "resolution": 0.0,
       "status": "REDUCED"
     },
