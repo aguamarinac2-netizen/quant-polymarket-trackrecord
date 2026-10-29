@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793272610.0481272,
+  "updated_at": 1793272914.1489089,
   "reflections": [
+    {
+      "id": "REFL-1793272807872",
+      "trade_id": "WT:665513:0x66e7ce01c6831b8a2503d09edd6167152ee68bcd:Yes:SELL",
+      "strategy_id": "WT",
+      "market_title": "Friedrich Merz out as Chancellor of Germany before December 31, 2026?",
+      "predicted_prob": 0.82,
+      "outcome": 0,
+      "pnl": -1.38,
+      "brier_error": 0.6724,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793272807.872577
+    },
     {
       "id": "REFL-1793271943356",
       "trade_id": "S20:559660:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792947832.1170495
-    },
-    {
-      "id": "REFL-1792947542972",
-      "trade_id": "WT:629571:0x66e7ce01c6831b8a2503d09edd6167152ee68bcd:No:BUY",
-      "strategy_id": "WT",
-      "market_title": "Will the Republicans win the Oklahoma governor race in 2026?",
-      "predicted_prob": 0.82,
-      "outcome": 0,
-      "pnl": -1.77,
-      "brier_error": 0.6724,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792947542.9729252
     }
   ],
   "strategy_weights": {
@@ -2643,11 +2643,11 @@
       "status": "REDUCED"
     },
     "WT": {
-      "brier_score": 0.5547,
-      "win_rate": 25.8,
-      "trades_count": 291,
+      "brier_score": 0.5551,
+      "win_rate": 25.7,
+      "trades_count": 292,
       "kelly_multiplier": 0.4,
-      "reliability": 0.3608,
+      "reliability": 0.3617,
       "resolution": 0.0,
       "status": "REDUCED"
     },
