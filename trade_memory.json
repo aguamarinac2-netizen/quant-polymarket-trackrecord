@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793279834.1792376,
+  "updated_at": 1793280076.1695366,
   "reflections": [
+    {
+      "id": "REFL-1793279914824",
+      "trade_id": "MR:gamma:943821:Yes:1d:BUY",
+      "strategy_id": "MR",
+      "market_title": "Will the Republican Party hold exactly 49 Senate seats after the 2026 midterm el",
+      "predicted_prob": 0.78,
+      "outcome": 0,
+      "pnl": -2.11,
+      "brier_error": 0.6084,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793279914.8248935
+    },
     {
       "id": "REFL-1793279255117",
       "trade_id": "MR:gamma:561974:Yes:1d:SELL",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792955000.3872929
-    },
-    {
-      "id": "REFL-1792952742479",
-      "trade_id": "S10:629667:No:BUY",
-      "strategy_id": "S10",
-      "market_title": "Will the Republicans win the Tennessee governor race in 2026?",
-      "predicted_prob": 0.75,
-      "outcome": 0,
-      "pnl": -0.33,
-      "brier_error": 0.5625,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792952742.4790225
     }
   ],
   "strategy_weights": {
@@ -2652,11 +2652,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3836,
-      "win_rate": 37.0,
-      "trades_count": 273,
+      "brier_score": 0.3844,
+      "win_rate": 36.9,
+      "trades_count": 274,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1496,
+      "reliability": 0.1507,
       "resolution": 0.0,
       "status": "REDUCED"
     },
