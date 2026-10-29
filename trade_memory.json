@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793236038.2127168,
+  "updated_at": 1793236463.706995,
   "reflections": [
+    {
+      "id": "REFL-1793236180727",
+      "trade_id": "WT:634893:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
+      "strategy_id": "WT",
+      "market_title": "Will an independent win the Nebraska Senate race in 2026?",
+      "predicted_prob": 0.88,
+      "outcome": 0,
+      "pnl": -0.22,
+      "brier_error": 0.7744,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793236180.7279737
+    },
     {
       "id": "REFL-1793234703477",
       "trade_id": "MR:gamma:629184:Yes:1d:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792922368.2016506
-    },
-    {
-      "id": "REFL-1792920734015",
-      "trade_id": "MR:gamma:701552:Yes:1d:SELL",
-      "strategy_id": "MR",
-      "market_title": "Will Ethereum dip to $1,500 by December 31, 2026?",
-      "predicted_prob": 0.73,
-      "outcome": 0,
-      "pnl": -1.97,
-      "brier_error": 0.5329,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792920734.0152225
     }
   ],
   "strategy_weights": {
@@ -2643,11 +2643,11 @@
       "status": "REDUCED"
     },
     "WT": {
-      "brier_score": 0.5542,
-      "win_rate": 25.9,
-      "trades_count": 286,
+      "brier_score": 0.555,
+      "win_rate": 25.8,
+      "trades_count": 287,
       "kelly_multiplier": 0.4,
-      "reliability": 0.3597,
+      "reliability": 0.3609,
       "resolution": 0.0,
       "status": "REDUCED"
     },
