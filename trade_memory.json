@@ -1,6 +1,32 @@
 {
-  "updated_at": 1793296330.0773356,
+  "updated_at": 1793297000.6538007,
   "reflections": [
+    {
+      "id": "REFL-1793296456382",
+      "trade_id": "S20:690211:No:BUY",
+      "strategy_id": "S20",
+      "market_title": "Will the Fed’s lower bound reach 0% or lower before 2027?",
+      "predicted_prob": 0.96,
+      "outcome": 0,
+      "pnl": -0.63,
+      "brier_error": 0.9216,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793296456.3826642
+    },
+    {
+      "id": "REFL-1793296408805",
+      "trade_id": "S10:629284:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Will the Republicans win the Arkansas governor race in 2026?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -0.27,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793296408.8053772
+    },
     {
       "id": "REFL-1793296119944",
       "trade_id": "WT:559658:0x9703676286b93c2eca71ca96e8757104519a69c2:Yes:BUY",
@@ -2574,32 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792973514.9947367
-    },
-    {
-      "id": "REFL-1792973514978",
-      "trade_id": "S20:692299:No:BUY",
-      "strategy_id": "S20",
-      "market_title": "Will J.D. Vance announce a presidential run before 2027?",
-      "predicted_prob": 0.96,
-      "outcome": 0,
-      "pnl": -0.12,
-      "brier_error": 0.9216,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792973514.9784892
-    },
-    {
-      "id": "REFL-1792973514962",
-      "trade_id": "S20:692295:No:BUY",
-      "strategy_id": "S20",
-      "market_title": "Will Andrew Yang announce a Presidential run before 2027?",
-      "predicted_prob": 0.96,
-      "outcome": 0,
-      "pnl": -0.06,
-      "brier_error": 0.9216,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792973514.962461
     }
   ],
   "strategy_weights": {
@@ -2616,20 +2616,20 @@
   },
   "strategy_brier_scores": {
     "S20": {
-      "brier_score": 0.8265,
-      "win_rate": 10.4,
-      "trades_count": 173,
+      "brier_score": 0.8271,
+      "win_rate": 10.3,
+      "trades_count": 174,
       "kelly_multiplier": 0.4,
-      "reliability": 0.7333,
+      "reliability": 0.7344,
       "resolution": 0.0,
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.4265,
-      "win_rate": 27.2,
-      "trades_count": 261,
+      "brier_score": 0.427,
+      "win_rate": 27.1,
+      "trades_count": 262,
       "kelly_multiplier": 0.4,
-      "reliability": 0.2285,
+      "reliability": 0.2294,
       "resolution": 0.0,
       "status": "REDUCED"
     },
@@ -2652,11 +2652,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3823,
-      "win_rate": 37.3,
-      "trades_count": 287,
+      "brier_score": 0.38,
+      "win_rate": 37.7,
+      "trades_count": 289,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1471,
+      "reliability": 0.1439,
       "resolution": 0.0,
       "status": "REDUCED"
     },
