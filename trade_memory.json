@@ -1,6 +1,32 @@
 {
-  "updated_at": 1793295418.5876472,
+  "updated_at": 1793296119.9557648,
   "reflections": [
+    {
+      "id": "REFL-1793296119944",
+      "trade_id": "WT:559658:0x9703676286b93c2eca71ca96e8757104519a69c2:Yes:BUY",
+      "strategy_id": "WT",
+      "market_title": "Will Kamala Harris win the 2028 Democratic presidential nomination?",
+      "predicted_prob": 0.86,
+      "outcome": 0,
+      "pnl": -1.77,
+      "brier_error": 0.7396,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793296119.9441533
+    },
+    {
+      "id": "REFL-1793295506023",
+      "trade_id": "MR:gamma:682705:Yes:1w:SELL",
+      "strategy_id": "MR",
+      "market_title": "Will Benjamin Netanyahu be the next Prime Minister of Israel?",
+      "predicted_prob": 0.78,
+      "outcome": 0,
+      "pnl": -0.04,
+      "brier_error": 0.6084,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793295506.0239255
+    },
     {
       "id": "REFL-1793295318896",
       "trade_id": "MR:gamma:630845:Yes:1d:BUY",
@@ -2574,32 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792973514.962461
-    },
-    {
-      "id": "REFL-1792973514945",
-      "trade_id": "S20:692289:No:BUY",
-      "strategy_id": "S20",
-      "market_title": "Will Hunter Biden announce a Presidential run before 2027?",
-      "predicted_prob": 0.96,
-      "outcome": 0,
-      "pnl": -0.06,
-      "brier_error": 0.9216,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792973514.9457502
-    },
-    {
-      "id": "REFL-1792973514927",
-      "trade_id": "S20:687677:No:BUY",
-      "strategy_id": "S20",
-      "market_title": "Will Trump pardon Elon Musk before 2027?",
-      "predicted_prob": 0.96,
-      "outcome": 0,
-      "pnl": -0.05,
-      "brier_error": 0.9216,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792973514.9278007
     }
   ],
   "strategy_weights": {
@@ -2643,20 +2643,20 @@
       "status": "REDUCED"
     },
     "WT": {
-      "brier_score": 0.5567,
-      "win_rate": 25.4,
-      "trades_count": 295,
+      "brier_score": 0.5573,
+      "win_rate": 25.3,
+      "trades_count": 296,
       "kelly_multiplier": 0.4,
-      "reliability": 0.3647,
+      "reliability": 0.3657,
       "resolution": 0.0,
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3826,
-      "win_rate": 37.2,
-      "trades_count": 285,
+      "brier_score": 0.3823,
+      "win_rate": 37.3,
+      "trades_count": 287,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1478,
+      "reliability": 0.1471,
       "resolution": 0.0,
       "status": "REDUCED"
     },
