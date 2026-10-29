@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793266607.8582413,
+  "updated_at": 1793267152.415696,
   "reflections": [
+    {
+      "id": "REFL-1793266891837",
+      "trade_id": "WT:630805:0xe25b9180f5687aa85bd94ee309bb72a464320f1b:No:BUY",
+      "strategy_id": "WT",
+      "market_title": "Will the Democrats win the Michigan Senate race in 2026?",
+      "predicted_prob": 0.81,
+      "outcome": 0,
+      "pnl": -1.13,
+      "brier_error": 0.6561,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793266891.8372662
+    },
     {
       "id": "REFL-1793265777184",
       "trade_id": "S10:629284:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792939741.6167037
-    },
-    {
-      "id": "REFL-1792938460577",
-      "trade_id": "WT:630746:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
-      "strategy_id": "WT",
-      "market_title": "Will the Democrats win the Kansas Senate race in 2026?",
-      "predicted_prob": 0.88,
-      "outcome": 0,
-      "pnl": -0.03,
-      "brier_error": 0.7744,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792938460.5773215
     }
   ],
   "strategy_weights": {
@@ -2643,11 +2643,11 @@
       "status": "REDUCED"
     },
     "WT": {
-      "brier_score": 0.5543,
-      "win_rate": 25.9,
-      "trades_count": 290,
+      "brier_score": 0.5547,
+      "win_rate": 25.8,
+      "trades_count": 291,
       "kelly_multiplier": 0.4,
-      "reliability": 0.3599,
+      "reliability": 0.3608,
       "resolution": 0.0,
       "status": "REDUCED"
     },
