@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793234643.6792254,
+  "updated_at": 1793235126.4408226,
   "reflections": [
+    {
+      "id": "REFL-1793234703477",
+      "trade_id": "MR:gamma:629184:Yes:1d:BUY",
+      "strategy_id": "MR",
+      "market_title": "Will the Republicans win the Arizona governor race in 2026?",
+      "predicted_prob": 0.78,
+      "outcome": 0,
+      "pnl": -2.8,
+      "brier_error": 0.6084,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793234703.4776783
+    },
     {
       "id": "REFL-1793230634218",
       "trade_id": "S12:902970:Yes:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792920734.0152225
-    },
-    {
-      "id": "REFL-1792920041550",
-      "trade_id": "S10:1089925:No:BUY",
-      "strategy_id": "S10",
-      "market_title": "Will Petr Yan be the UFC Bantamweight Champion on December 31, 2026?",
-      "predicted_prob": 0.75,
-      "outcome": 0,
-      "pnl": -8.73,
-      "brier_error": 0.5625,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792920041.5504668
     }
   ],
   "strategy_weights": {
@@ -2652,11 +2652,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.38,
-      "win_rate": 37.6,
-      "trades_count": 266,
+      "brier_score": 0.3808,
+      "win_rate": 37.5,
+      "trades_count": 267,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1447,
+      "reliability": 0.1459,
       "resolution": 0.0,
       "status": "REDUCED"
     },
