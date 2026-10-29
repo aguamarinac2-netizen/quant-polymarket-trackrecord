@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793285539.786111,
+  "updated_at": 1793286204.0598466,
   "reflections": [
+    {
+      "id": "REFL-1793285587242",
+      "trade_id": "MR:gamma:942084:Yes:1d:BUY",
+      "strategy_id": "MR",
+      "market_title": "Will the Democratic Party win the AZ-01 House seat?",
+      "predicted_prob": 0.78,
+      "outcome": 0,
+      "pnl": -0.0,
+      "brier_error": 0.6084,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793285587.2425282
+    },
     {
       "id": "REFL-1793281098707",
       "trade_id": "MR:gamma:942084:Yes:1d:SELL",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792955000.4852273
-    },
-    {
-      "id": "REFL-1792955000467",
-      "trade_id": "MR:gamma:630707:Yes:1d:BUY",
-      "strategy_id": "MR",
-      "market_title": "Will Todd Achilles win the Idaho Senate race in 2026?",
-      "predicted_prob": 0.78,
-      "outcome": 0,
-      "pnl": -0.43,
-      "brier_error": 0.6084,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792955000.4677498
     }
   ],
   "strategy_weights": {
@@ -2652,11 +2652,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3836,
-      "win_rate": 37.0,
-      "trades_count": 276,
+      "brier_score": 0.3845,
+      "win_rate": 36.8,
+      "trades_count": 277,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1499,
+      "reliability": 0.151,
       "resolution": 0.0,
       "status": "REDUCED"
     },
