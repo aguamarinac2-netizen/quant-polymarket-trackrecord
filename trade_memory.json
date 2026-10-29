@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793299005.6107526,
+  "updated_at": 1793299733.2356975,
   "reflections": [
+    {
+      "id": "REFL-1793299086018",
+      "trade_id": "S20:665332:No:BUY",
+      "strategy_id": "S20",
+      "market_title": "Will Finland recognize Palestine before 2027?",
+      "predicted_prob": 0.96,
+      "outcome": 0,
+      "pnl": -0.61,
+      "brier_error": 0.9216,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793299086.0181105
+    },
     {
       "id": "REFL-1793296456382",
       "trade_id": "S20:690211:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792973515.0105243
-    },
-    {
-      "id": "REFL-1792973514994",
-      "trade_id": "S20:692318:No:BUY",
-      "strategy_id": "S20",
-      "market_title": "Will Kristi Noem announce a presidential run before 2027?",
-      "predicted_prob": 0.96,
-      "outcome": 0,
-      "pnl": -0.05,
-      "brier_error": 0.9216,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792973514.9947367
     }
   ],
   "strategy_weights": {
@@ -2616,11 +2616,11 @@
   },
   "strategy_brier_scores": {
     "S20": {
-      "brier_score": 0.8271,
+      "brier_score": 0.8276,
       "win_rate": 10.3,
-      "trades_count": 174,
+      "trades_count": 175,
       "kelly_multiplier": 0.4,
-      "reliability": 0.7344,
+      "reliability": 0.7354,
       "resolution": 0.0,
       "status": "REDUCED"
     },
