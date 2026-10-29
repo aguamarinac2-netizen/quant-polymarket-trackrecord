@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793271699.8494904,
+  "updated_at": 1793272004.8443832,
   "reflections": [
+    {
+      "id": "REFL-1793271943356",
+      "trade_id": "S20:559660:No:BUY",
+      "strategy_id": "S20",
+      "market_title": "Will Andy Beshear win the 2028 Democratic presidential nomination?",
+      "predicted_prob": 0.96,
+      "outcome": 0,
+      "pnl": -0.06,
+      "brier_error": 0.9216,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793271943.3561528
+    },
     {
       "id": "REFL-1793269738370",
       "trade_id": "MR:gamma:630746:Yes:1d:SELL",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792947542.9729252
-    },
-    {
-      "id": "REFL-1792947542957",
-      "trade_id": "MR:gamma:562794:Yes:1d:SELL",
-      "strategy_id": "MR",
-      "market_title": "Will the Republican Party control the Senate after the 2026 Midterm elections?",
-      "predicted_prob": 0.72,
-      "outcome": 0,
-      "pnl": -0.75,
-      "brier_error": 0.5184,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792947542.9576113
     }
   ],
   "strategy_weights": {
@@ -2616,11 +2616,11 @@
   },
   "strategy_brier_scores": {
     "S20": {
-      "brier_score": 0.826,
-      "win_rate": 10.5,
-      "trades_count": 172,
+      "brier_score": 0.8265,
+      "win_rate": 10.4,
+      "trades_count": 173,
       "kelly_multiplier": 0.4,
-      "reliability": 0.7323,
+      "reliability": 0.7333,
       "resolution": 0.0,
       "status": "REDUCED"
     },
