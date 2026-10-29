@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793300637.074227,
+  "updated_at": 1793300819.0756617,
   "reflections": [
+    {
+      "id": "REFL-1793300693984",
+      "trade_id": "WT:629413:0x1cfc260bfa2b5ae89377863180ca3b4f5c862111:No:SELL",
+      "strategy_id": "WT",
+      "market_title": "Will the Republicans win the Kansas governor race in 2026?",
+      "predicted_prob": 0.83,
+      "outcome": 0,
+      "pnl": -0.16,
+      "brier_error": 0.6889,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793300693.9845595
+    },
     {
       "id": "REFL-1793300480903",
       "trade_id": "MR:local:559655:Yes:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792973515.0619025
-    },
-    {
-      "id": "REFL-1792973515043",
-      "trade_id": "S20:692322:No:BUY",
-      "strategy_id": "S20",
-      "market_title": "Will Ivanka Trump announce a presidential run before 2027?",
-      "predicted_prob": 0.96,
-      "outcome": 0,
-      "pnl": -0.05,
-      "brier_error": 0.9216,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792973515.0432303
     }
   ],
   "strategy_weights": {
@@ -2643,11 +2643,11 @@
       "status": "REDUCED"
     },
     "WT": {
-      "brier_score": 0.558,
-      "win_rate": 25.3,
-      "trades_count": 297,
+      "brier_score": 0.5585,
+      "win_rate": 25.2,
+      "trades_count": 298,
       "kelly_multiplier": 0.4,
-      "reliability": 0.3668,
+      "reliability": 0.3677,
       "resolution": 0.0,
       "status": "REDUCED"
     },
