@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793299733.2356975,
+  "updated_at": 1793299974.3718276,
   "reflections": [
+    {
+      "id": "REFL-1793299932514",
+      "trade_id": "WT:561233:0xcab5512fd29d95c66dc240d3023bac53f8f821af:Yes:BUY",
+      "strategy_id": "WT",
+      "market_title": "Will Josh Shapiro win the 2028 US Presidential Election?",
+      "predicted_prob": 0.88,
+      "outcome": 0,
+      "pnl": -1.42,
+      "brier_error": 0.7744,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793299932.5148907
+    },
     {
       "id": "REFL-1793299086018",
       "trade_id": "S20:665332:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792973515.027028
-    },
-    {
-      "id": "REFL-1792973515010",
-      "trade_id": "S20:692320:No:BUY",
-      "strategy_id": "S20",
-      "market_title": "Will Tucker Carlson announce a presidential run before 2027?",
-      "predicted_prob": 0.96,
-      "outcome": 0,
-      "pnl": -0.09,
-      "brier_error": 0.9216,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792973515.0105243
     }
   ],
   "strategy_weights": {
@@ -2643,11 +2643,11 @@
       "status": "REDUCED"
     },
     "WT": {
-      "brier_score": 0.5573,
+      "brier_score": 0.558,
       "win_rate": 25.3,
-      "trades_count": 296,
+      "trades_count": 297,
       "kelly_multiplier": 0.4,
-      "reliability": 0.3657,
+      "reliability": 0.3668,
       "resolution": 0.0,
       "status": "REDUCED"
     },
