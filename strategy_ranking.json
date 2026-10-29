@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T21:07:18.145819+00:00",
+  "generated_at": "2026-10-29T21:19:49.766133+00:00",
   "campaign": "demo-15d",
   "strategies": [
     {
@@ -172,7 +172,7 @@
       "won": 43,
       "lost": 132,
       "realized_pnl_usd": -20.45,
-      "unrealized_pnl_usd": -7.24,
+      "unrealized_pnl_usd": -7.2,
       "partial_fills": 0,
       "by_source": {
         "realistic": {
@@ -185,12 +185,12 @@
           "total": 199,
           "won": 42,
           "lost": 132,
-          "net_pnl_usd": -30.99
+          "net_pnl_usd": -30.95
         }
       },
       "closed": 175,
       "win_rate_pct": 24.6,
-      "net_pnl_usd": -27.69,
+      "net_pnl_usd": -27.65,
       "avg_book_slippage_bps": null,
       "verdict": "DESCARTAR"
     },
@@ -227,8 +227,8 @@
     {
       "strategy_code": "MR",
       "strategy_name": "C: Mean Reversion",
-      "total": 318,
-      "open": 25,
+      "total": 319,
+      "open": 26,
       "won": 168,
       "lost": 125,
       "realized_pnl_usd": -96.09,
@@ -242,7 +242,7 @@
           "net_pnl_usd": -9.5
         },
         "research": {
-          "total": 281,
+          "total": 282,
           "won": 146,
           "lost": 114,
           "net_pnl_usd": -85.47
@@ -264,11 +264,11 @@
       "strategy_code": "WT",
       "strategy_name": "F: Whale Tracking",
       "total": 323,
-      "open": 25,
-      "won": 118,
+      "open": 24,
+      "won": 119,
       "lost": 180,
-      "realized_pnl_usd": -104.3,
-      "unrealized_pnl_usd": -15.55,
+      "realized_pnl_usd": -102.46,
+      "unrealized_pnl_usd": -14.01,
       "partial_fills": 0,
       "by_source": {
         "realistic": {
@@ -279,14 +279,14 @@
         },
         "research": {
           "total": 261,
-          "won": 89,
+          "won": 90,
           "lost": 153,
-          "net_pnl_usd": -140.22
+          "net_pnl_usd": -136.84
         }
       },
-      "closed": 298,
-      "win_rate_pct": 39.6,
-      "net_pnl_usd": -119.85,
+      "closed": 299,
+      "win_rate_pct": 39.8,
+      "net_pnl_usd": -116.47,
       "avg_book_slippage_bps": null,
       "verdict": "DESCARTAR"
     }
