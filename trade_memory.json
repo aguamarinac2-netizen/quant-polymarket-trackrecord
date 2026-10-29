@@ -1,6 +1,45 @@
 {
-  "updated_at": 1793269332.5821316,
+  "updated_at": 1793269878.4118104,
   "reflections": [
+    {
+      "id": "REFL-1793269738370",
+      "trade_id": "MR:gamma:630746:Yes:1d:SELL",
+      "strategy_id": "MR",
+      "market_title": "Will the Democrats win the Kansas Senate race in 2026?",
+      "predicted_prob": 0.78,
+      "outcome": 0,
+      "pnl": -0.87,
+      "brier_error": 0.6084,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793269738.370522
+    },
+    {
+      "id": "REFL-1793269738352",
+      "trade_id": "S10:944229:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Will the Republican Party win the TX-32 House seat?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -0.39,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793269738.352473
+    },
+    {
+      "id": "REFL-1793269424658",
+      "trade_id": "MR:gamma:943942:Yes:1d:BUY",
+      "strategy_id": "MR",
+      "market_title": "Will the Republican Party win the PA-08 House seat?",
+      "predicted_prob": 0.78,
+      "outcome": 0,
+      "pnl": -1.76,
+      "brier_error": 0.6084,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793269424.6582944
+    },
     {
       "id": "REFL-1793266891837",
       "trade_id": "WT:630805:0xe25b9180f5687aa85bd94ee309bb72a464320f1b:No:BUY",
@@ -2561,45 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792947542.9576113
-    },
-    {
-      "id": "REFL-1792947542941",
-      "trade_id": "MR:gamma:562828:Yes:1d:BUY",
-      "strategy_id": "MR",
-      "market_title": "2026 Balance of Power: D Senate, D House",
-      "predicted_prob": 0.72,
-      "outcome": 0,
-      "pnl": -0.39,
-      "brier_error": 0.5184,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792947542.9416513
-    },
-    {
-      "id": "REFL-1792946354353",
-      "trade_id": "MR:gamma:944250:Yes:1w:SELL",
-      "strategy_id": "MR",
-      "market_title": "Will the Democratic Party win the TX-35 House seat?",
-      "predicted_prob": 0.78,
-      "outcome": 0,
-      "pnl": -0.33,
-      "brier_error": 0.6084,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792946354.3537905
-    },
-    {
-      "id": "REFL-1792939741616",
-      "trade_id": "S10:943559:No:BUY",
-      "strategy_id": "S10",
-      "market_title": "Will the Democratic Party win the OH-01 House seat?",
-      "predicted_prob": 0.75,
-      "outcome": 0,
-      "pnl": -2.67,
-      "brier_error": 0.5625,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792939741.6167037
     }
   ],
   "strategy_weights": {
@@ -2625,11 +2625,11 @@
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.4263,
-      "win_rate": 27.2,
-      "trades_count": 257,
+      "brier_score": 0.4268,
+      "win_rate": 27.1,
+      "trades_count": 258,
       "kelly_multiplier": 0.4,
-      "reliability": 0.2281,
+      "reliability": 0.2291,
       "resolution": 0.0,
       "status": "REDUCED"
     },
@@ -2652,11 +2652,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3825,
-      "win_rate": 37.2,
-      "trades_count": 269,
+      "brier_score": 0.3842,
+      "win_rate": 36.9,
+      "trades_count": 271,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1481,
+      "reliability": 0.1504,
       "resolution": 0.0,
       "status": "REDUCED"
     },
