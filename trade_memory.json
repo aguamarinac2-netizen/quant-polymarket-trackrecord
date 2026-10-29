@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793278015.889325,
+  "updated_at": 1793278319.2726018,
   "reflections": [
+    {
+      "id": "REFL-1793278076963",
+      "trade_id": "WT:629426:0x66e7ce01c6831b8a2503d09edd6167152ee68bcd:Yes:BUY",
+      "strategy_id": "WT",
+      "market_title": "Will the Republicans win the Maine governor race in 2026?",
+      "predicted_prob": 0.82,
+      "outcome": 0,
+      "pnl": -4.03,
+      "brier_error": 0.6724,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793278076.9639192
+    },
     {
       "id": "REFL-1793272807872",
       "trade_id": "WT:665513:0x66e7ce01c6831b8a2503d09edd6167152ee68bcd:Yes:SELL",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1792952742.4595795
-    },
-    {
-      "id": "REFL-1792947832117",
-      "trade_id": "WT:601826:0xf5c5a704812f00a9e18d841ded2c2f915b0f717f:No:BUY",
-      "strategy_id": "WT",
-      "market_title": "Will Flávio Bolsonaro win the 2026 Brazilian presidential election?",
-      "predicted_prob": 0.88,
-      "outcome": 0,
-      "pnl": -1.18,
-      "brier_error": 0.7744,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1792947832.1170495
     }
   ],
   "strategy_weights": {
@@ -2643,11 +2643,11 @@
       "status": "REDUCED"
     },
     "WT": {
-      "brier_score": 0.5551,
-      "win_rate": 25.7,
-      "trades_count": 292,
+      "brier_score": 0.5555,
+      "win_rate": 25.6,
+      "trades_count": 293,
       "kelly_multiplier": 0.4,
-      "reliability": 0.3617,
+      "reliability": 0.3626,
       "resolution": 0.0,
       "status": "REDUCED"
     },
