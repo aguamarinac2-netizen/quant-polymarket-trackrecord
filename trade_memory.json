@@ -1,6 +1,32 @@
 {
-  "updated_at": 1793387335.6744778,
+  "updated_at": 1793388122.4800372,
   "reflections": [
+    {
+      "id": "REFL-1793387645431",
+      "trade_id": "WT:665374:0x8b4bca1d794779e66e023d44391b2a86c5ab541b:No:BUY",
+      "strategy_id": "WT",
+      "market_title": "Will the U.S. invade Iran before 2027?",
+      "predicted_prob": 0.86,
+      "outcome": 0,
+      "pnl": -0.01,
+      "brier_error": 0.7396,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793387645.431988
+    },
+    {
+      "id": "REFL-1793387510440",
+      "trade_id": "WT:665464:0xed107a85a4585a381e48c7f7ca4144909e7dd2e5:No:BUY",
+      "strategy_id": "WT",
+      "market_title": "Kim Jong Un out as Supreme Leader of North Korea by December 31, 2026?",
+      "predicted_prob": 0.88,
+      "outcome": 0,
+      "pnl": -0.05,
+      "brier_error": 0.7744,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793387510.440457
+    },
     {
       "id": "REFL-1793384925713",
       "trade_id": "S12:703686:Yes:BUY",
@@ -2574,32 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793055542.8304036
-    },
-    {
-      "id": "REFL-1793054442042",
-      "trade_id": "WT:630963:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
-      "strategy_id": "WT",
-      "market_title": "Will the Democrats win the Texas Senate race in 2026?",
-      "predicted_prob": 0.88,
-      "outcome": 0,
-      "pnl": -0.3,
-      "brier_error": 0.7744,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793054442.0423138
-    },
-    {
-      "id": "REFL-1793053736499",
-      "trade_id": "S10:1132823:No:BUY",
-      "strategy_id": "S10",
-      "market_title": "Will Argentina’s annual inflation in 2026 be between 30% and 34.9%?",
-      "predicted_prob": 0.75,
-      "outcome": 0,
-      "pnl": -2.59,
-      "brier_error": 0.5625,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793053736.4993424
     }
   ],
   "strategy_weights": {
@@ -2625,11 +2625,11 @@
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.4251,
-      "win_rate": 27.5,
-      "trades_count": 273,
+      "brier_score": 0.4238,
+      "win_rate": 27.7,
+      "trades_count": 274,
       "kelly_multiplier": 0.4,
-      "reliability": 0.2259,
+      "reliability": 0.2234,
       "resolution": 0.0,
       "status": "REDUCED"
     },
@@ -2643,11 +2643,11 @@
       "status": "REDUCED"
     },
     "WT": {
-      "brier_score": 0.5593,
-      "win_rate": 24.9,
-      "trades_count": 313,
+      "brier_score": 0.5605,
+      "win_rate": 24.8,
+      "trades_count": 315,
       "kelly_multiplier": 0.4,
-      "reliability": 0.3695,
+      "reliability": 0.3715,
       "resolution": 0.0,
       "status": "REDUCED"
     },
