@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793384677.621778,
+  "updated_at": 1793385464.6537006,
   "reflections": [
+    {
+      "id": "REFL-1793384925713",
+      "trade_id": "S12:703686:Yes:BUY",
+      "strategy_id": "S12",
+      "market_title": "Will the Democratic Party win the CA-22 House seat?",
+      "predicted_prob": 0.9,
+      "outcome": 0,
+      "pnl": -0.12,
+      "brier_error": 0.81,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793384925.7135963
+    },
     {
       "id": "REFL-1793381703449",
       "trade_id": "MR:gamma:943539:Yes:1d:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793053736.4993424
-    },
-    {
-      "id": "REFL-1793051005656",
-      "trade_id": "S10:942162:No:BUY",
-      "strategy_id": "S10",
-      "market_title": "Will the Democratic Party win the AZ-06 House seat?",
-      "predicted_prob": 0.75,
-      "outcome": 0,
-      "pnl": -2.06,
-      "brier_error": 0.5625,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793051005.6567922
     }
   ],
   "strategy_weights": {
@@ -2634,11 +2634,11 @@
       "status": "REDUCED"
     },
     "S12": {
-      "brier_score": 0.707,
-      "win_rate": 12.9,
-      "trades_count": 101,
+      "brier_score": 0.708,
+      "win_rate": 12.7,
+      "trades_count": 102,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5949,
+      "reliability": 0.5968,
       "resolution": 0.0,
       "status": "REDUCED"
     },
