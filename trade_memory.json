@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793373779.6665606,
+  "updated_at": 1793374630.2854884,
   "reflections": [
+    {
+      "id": "REFL-1793374617825",
+      "trade_id": "S10:1073793:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Will there be between 17 and 19 earthquakes of magnitude 7.0 or higher worldwide",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -0.16,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793374617.8254979
+    },
     {
       "id": "REFL-1793373486151",
       "trade_id": "MR:gamma:562831:Yes:1d:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793035696.112766
-    },
-    {
-      "id": "REFL-1793035394924",
-      "trade_id": "WT:608540:0x547f880b60de8add50d3acc410b61626645a8980:Yes:BUY",
-      "strategy_id": "WT",
-      "market_title": "Will Kylian Mbappé win the 2026 Ballon d'Or?",
-      "predicted_prob": 0.88,
-      "outcome": 0,
-      "pnl": -1.39,
-      "brier_error": 0.7744,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793035394.9247227
     }
   ],
   "strategy_weights": {
@@ -2625,11 +2625,11 @@
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.4246,
-      "win_rate": 27.6,
-      "trades_count": 272,
+      "brier_score": 0.4251,
+      "win_rate": 27.5,
+      "trades_count": 273,
       "kelly_multiplier": 0.4,
-      "reliability": 0.2249,
+      "reliability": 0.2259,
       "resolution": 0.0,
       "status": "REDUCED"
     },
@@ -2652,11 +2652,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3747,
-      "win_rate": 38.7,
-      "trades_count": 318,
+      "brier_score": 0.3736,
+      "win_rate": 38.9,
+      "trades_count": 319,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1372,
+      "reliability": 0.1359,
       "resolution": 0.0,
       "status": "REDUCED"
     },
