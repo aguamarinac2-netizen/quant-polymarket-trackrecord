@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793322446.701726,
+  "updated_at": 1793323234.5505824,
   "reflections": [
+    {
+      "id": "REFL-1793323069003",
+      "trade_id": "WT:629518:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
+      "strategy_id": "WT",
+      "market_title": "Will the Democrats win the New Hampshire governor race in 2026?",
+      "predicted_prob": 0.88,
+      "outcome": 0,
+      "pnl": -0.1,
+      "brier_error": 0.7744,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793323069.0040138
+    },
     {
       "id": "REFL-1793321866676",
       "trade_id": "MR:gamma:701496:Yes:1d:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793010361.4171975
-    },
-    {
-      "id": "REFL-1793009044860",
-      "trade_id": "WT:630819:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
-      "strategy_id": "WT",
-      "market_title": "Will the Republicans win the Minnesota Senate race in 2026?",
-      "predicted_prob": 0.88,
-      "outcome": 0,
-      "pnl": -0.26,
-      "brier_error": 0.7744,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793009044.8602881
     }
   ],
   "strategy_weights": {
@@ -2643,11 +2643,11 @@
       "status": "REDUCED"
     },
     "WT": {
-      "brier_score": 0.5567,
-      "win_rate": 25.4,
-      "trades_count": 299,
+      "brier_score": 0.5574,
+      "win_rate": 25.3,
+      "trades_count": 300,
       "kelly_multiplier": 0.4,
-      "reliability": 0.3645,
+      "reliability": 0.3657,
       "resolution": 0.0,
       "status": "REDUCED"
     },
