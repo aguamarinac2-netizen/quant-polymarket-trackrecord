@@ -1,6 +1,32 @@
 {
-  "updated_at": 1793378325.297992,
+  "updated_at": 1793379174.197306,
   "reflections": [
+    {
+      "id": "REFL-1793378738759",
+      "trade_id": "MR:gamma:629721:Yes:1w:BUY",
+      "strategy_id": "MR",
+      "market_title": "Will the Republicans win the Wisconsin governor race in 2026?",
+      "predicted_prob": 0.78,
+      "outcome": 0,
+      "pnl": -0.04,
+      "brier_error": 0.6084,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793378738.7592013
+    },
+    {
+      "id": "REFL-1793378409414",
+      "trade_id": "MR:gamma:629325:Yes:1w:BUY",
+      "strategy_id": "MR",
+      "market_title": "Will the Republicans win the Florida governor race in 2026?",
+      "predicted_prob": 0.78,
+      "outcome": 0,
+      "pnl": -0.9,
+      "brier_error": 0.6084,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793378409.4141335
+    },
     {
       "id": "REFL-1793377316386",
       "trade_id": "WT:665246:0x57b00c3ccef1b6bd6962fb9ca463c4e0b38e76f4:No:BUY",
@@ -2574,32 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793041180.592866
-    },
-    {
-      "id": "REFL-1793040321325",
-      "trade_id": "MR:gamma:665374:Yes:1w:SELL",
-      "strategy_id": "MR",
-      "market_title": "Will the U.S. invade Iran before 2027?",
-      "predicted_prob": 0.78,
-      "outcome": 0,
-      "pnl": -0.2,
-      "brier_error": 0.6084,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793040321.325322
-    },
-    {
-      "id": "REFL-1793039410171",
-      "trade_id": "WT:629478:0x66e7ce01c6831b8a2503d09edd6167152ee68bcd:Yes:BUY",
-      "strategy_id": "WT",
-      "market_title": "Will the Republicans win the Minnesota governor race in 2026?",
-      "predicted_prob": 0.82,
-      "outcome": 0,
-      "pnl": 0.0,
-      "brier_error": 0.6724,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793039410.1714072
     }
   ],
   "strategy_weights": {
@@ -2643,20 +2643,20 @@
       "status": "REDUCED"
     },
     "WT": {
-      "brier_score": 0.5623,
-      "win_rate": 24.5,
-      "trades_count": 310,
+      "brier_score": 0.5606,
+      "win_rate": 24.8,
+      "trades_count": 311,
       "kelly_multiplier": 0.4,
-      "reliability": 0.3749,
+      "reliability": 0.3718,
       "resolution": 0.0,
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3736,
-      "win_rate": 38.9,
-      "trades_count": 319,
+      "brier_score": 0.3751,
+      "win_rate": 38.6,
+      "trades_count": 321,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1359,
+      "reliability": 0.1378,
       "resolution": 0.0,
       "status": "REDUCED"
     },
