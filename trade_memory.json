@@ -1,6 +1,32 @@
 {
-  "updated_at": 1793381046.286195,
+  "updated_at": 1793381835.6533082,
   "reflections": [
+    {
+      "id": "REFL-1793381703449",
+      "trade_id": "MR:gamma:943539:Yes:1d:BUY",
+      "strategy_id": "MR",
+      "market_title": "Will the Republican Party win the NC-11 House seat?",
+      "predicted_prob": 0.78,
+      "outcome": 0,
+      "pnl": -2.45,
+      "brier_error": 0.6084,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793381703.4499722
+    },
+    {
+      "id": "REFL-1793381515117",
+      "trade_id": "MR:gamma:634893:Yes:1w:SELL",
+      "strategy_id": "MR",
+      "market_title": "Will an independent win the Nebraska Senate race in 2026?",
+      "predicted_prob": 0.78,
+      "outcome": 0,
+      "pnl": -1.13,
+      "brier_error": 0.6084,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793381515.1178865
+    },
     {
       "id": "REFL-1793380813352",
       "trade_id": "S12:629531:Yes:BUY",
@@ -2574,32 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793051005.6567922
-    },
-    {
-      "id": "REFL-1793047448527",
-      "trade_id": "S10:814612:No:BUY",
-      "strategy_id": "S10",
-      "market_title": "Will Kuomintang (KMT) win the most head of local government elections in the 202",
-      "predicted_prob": 0.75,
-      "outcome": 0,
-      "pnl": -0.31,
-      "brier_error": 0.5625,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793047448.5278199
-    },
-    {
-      "id": "REFL-1793044320715",
-      "trade_id": "S10:942902:No:BUY",
-      "strategy_id": "S10",
-      "market_title": "Will the Democratic Party win the NV-04 House seat?",
-      "predicted_prob": 0.75,
-      "outcome": 0,
-      "pnl": -0.54,
-      "brier_error": 0.5625,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793044320.715138
     }
   ],
   "strategy_weights": {
@@ -2652,11 +2652,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3755,
-      "win_rate": 38.5,
-      "trades_count": 322,
+      "brier_score": 0.377,
+      "win_rate": 38.3,
+      "trades_count": 324,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1386,
+      "reliability": 0.1405,
       "resolution": 0.0,
       "status": "REDUCED"
     },
