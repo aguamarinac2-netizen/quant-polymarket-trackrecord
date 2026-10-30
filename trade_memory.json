@@ -1,6 +1,32 @@
 {
-  "updated_at": 1793371114.215252,
+  "updated_at": 1793371963.2724872,
   "reflections": [
+    {
+      "id": "REFL-1793371903078",
+      "trade_id": "WT:663583:0x9ba9dec33838f4ec9f032f7247d7481987e63ce9:No:BUY",
+      "strategy_id": "WT",
+      "market_title": "Will the Iranian regime fall before 2027?",
+      "predicted_prob": 0.88,
+      "outcome": 0,
+      "pnl": -0.07,
+      "brier_error": 0.7744,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793371903.0787342
+    },
+    {
+      "id": "REFL-1793371552151",
+      "trade_id": "WT:629531:0x66e7ce01c6831b8a2503d09edd6167152ee68bcd:Yes:BUY",
+      "strategy_id": "WT",
+      "market_title": "Will the Democrats win the New Mexico governor race in 2026?",
+      "predicted_prob": 0.82,
+      "outcome": 0,
+      "pnl": -0.02,
+      "brier_error": 0.6724,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793371552.151572
+    },
     {
       "id": "REFL-1793370964961",
       "trade_id": "MR:gamma:629412:Yes:1w:SELL",
@@ -2574,32 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793034785.5510032
-    },
-    {
-      "id": "REFL-1793034785461",
-      "trade_id": "WT:608547:0x5a218c7ad04135830a45c41aaed7294df7809318:No:BUY",
-      "strategy_id": "WT",
-      "market_title": "Will Harry Kane win the 2026 Ballon d'Or?",
-      "predicted_prob": 0.88,
-      "outcome": 0,
-      "pnl": -1.25,
-      "brier_error": 0.7744,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793034785.461956
-    },
-    {
-      "id": "REFL-1793034481255",
-      "trade_id": "MR:gamma:943825:Yes:1d:SELL",
-      "strategy_id": "MR",
-      "market_title": "Will the Republican Party hold exactly 53 Senate seats after the 2026 midterm el",
-      "predicted_prob": 0.78,
-      "outcome": 0,
-      "pnl": -0.17,
-      "brier_error": 0.6084,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793034481.2553062
     }
   ],
   "strategy_weights": {
@@ -2643,11 +2643,11 @@
       "status": "REDUCED"
     },
     "WT": {
-      "brier_score": 0.5613,
-      "win_rate": 24.8,
-      "trades_count": 307,
+      "brier_score": 0.5624,
+      "win_rate": 24.6,
+      "trades_count": 309,
       "kelly_multiplier": 0.4,
-      "reliability": 0.3725,
+      "reliability": 0.3744,
       "resolution": 0.0,
       "status": "REDUCED"
     },
