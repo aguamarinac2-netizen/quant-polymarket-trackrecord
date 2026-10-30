@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793361180.4388444,
+  "updated_at": 1793362029.3021884,
   "reflections": [
+    {
+      "id": "REFL-1793361427160",
+      "trade_id": "MR:gamma:919484:Yes:1d:SELL",
+      "strategy_id": "MR",
+      "market_title": "Blue wave in 2026?",
+      "predicted_prob": 0.72,
+      "outcome": 0,
+      "pnl": -0.27,
+      "brier_error": 0.5184,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793361427.160021
+    },
     {
       "id": "REFL-1793359557623",
       "trade_id": "MR:gamma:629324:Yes:1w:SELL",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793025347.128438
-    },
-    {
-      "id": "REFL-1793025347111",
-      "trade_id": "WT:608545:0xb6bed94e75c333dae24eb9c80b3fef47ef3cfcfe:Yes:BUY",
-      "strategy_id": "WT",
-      "market_title": "Will Lamine Yamal win the 2026 Ballon d'Or?",
-      "predicted_prob": 0.88,
-      "outcome": 0,
-      "pnl": -5.25,
-      "brier_error": 0.7744,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793025347.111847
     }
   ],
   "strategy_weights": {
@@ -2652,11 +2652,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3746,
-      "win_rate": 38.8,
-      "trades_count": 312,
+      "brier_score": 0.3751,
+      "win_rate": 38.7,
+      "trades_count": 313,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1366,
+      "reliability": 0.1374,
       "resolution": 0.0,
       "status": "REDUCED"
     },
