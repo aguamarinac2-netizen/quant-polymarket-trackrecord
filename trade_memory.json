@@ -1,6 +1,32 @@
 {
-  "updated_at": 1793380139.3881426,
+  "updated_at": 1793380924.2083437,
   "reflections": [
+    {
+      "id": "REFL-1793380813352",
+      "trade_id": "S12:629531:Yes:BUY",
+      "strategy_id": "S12",
+      "market_title": "Will the Democrats win the New Mexico governor race in 2026?",
+      "predicted_prob": 0.9,
+      "outcome": 0,
+      "pnl": -0.06,
+      "brier_error": 0.81,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793380813.3527992
+    },
+    {
+      "id": "REFL-1793380397928",
+      "trade_id": "WT:665329:0xeface9902242b0399856f981600b907dcc9bc9a1:No:BUY",
+      "strategy_id": "WT",
+      "market_title": "Will Japan recognize Palestine before 2027?",
+      "predicted_prob": 0.81,
+      "outcome": 0,
+      "pnl": -0.06,
+      "brier_error": 0.6561,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793380397.928604
+    },
     {
       "id": "REFL-1793379208769",
       "trade_id": "MR:gamma:634879:Yes:1d:SELL",
@@ -2574,32 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793044320.715138
-    },
-    {
-      "id": "REFL-1793043463053",
-      "trade_id": "S10:1097730:No:BUY",
-      "strategy_id": "S10",
-      "market_title": "Maduro guilty of all counts?",
-      "predicted_prob": 0.75,
-      "outcome": 0,
-      "pnl": -0.22,
-      "brier_error": 0.5625,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793043463.0533254
-    },
-    {
-      "id": "REFL-1793041415920",
-      "trade_id": "WT:567688:0x49f206f4fb2210a28af4795e4e0b6532cf0bd7b4:No:SELL",
-      "strategy_id": "WT",
-      "market_title": "Netanyahu out by end of 2026?",
-      "predicted_prob": 0.76,
-      "outcome": 0,
-      "pnl": -0.33,
-      "brier_error": 0.5776,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793041415.9200542
     }
   ],
   "strategy_weights": {
@@ -2634,20 +2634,20 @@
       "status": "REDUCED"
     },
     "S12": {
-      "brier_score": 0.706,
-      "win_rate": 13.0,
-      "trades_count": 100,
+      "brier_score": 0.707,
+      "win_rate": 12.9,
+      "trades_count": 101,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5929,
+      "reliability": 0.5949,
       "resolution": 0.0,
       "status": "REDUCED"
     },
     "WT": {
-      "brier_score": 0.5606,
-      "win_rate": 24.8,
-      "trades_count": 311,
+      "brier_score": 0.5609,
+      "win_rate": 24.7,
+      "trades_count": 312,
       "kelly_multiplier": 0.4,
-      "reliability": 0.3718,
+      "reliability": 0.3726,
       "resolution": 0.0,
       "status": "REDUCED"
     },
