@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793400888.7801752,
+  "updated_at": 1793401616.3977914,
   "reflections": [
+    {
+      "id": "REFL-1793400962398",
+      "trade_id": "WT:663583:0xe52c0a1327a12edc7bd54ea6f37ce00a4ca96924:No:BUY",
+      "strategy_id": "WT",
+      "market_title": "Will the Iranian regime fall before 2027?",
+      "predicted_prob": 0.88,
+      "outcome": 0,
+      "pnl": -0.07,
+      "brier_error": 0.7744,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793400962.3987079
+    },
     {
       "id": "REFL-1793394653020",
       "trade_id": "S10:943955:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793063374.3460894
-    },
-    {
-      "id": "REFL-1793060149095",
-      "trade_id": "MR:gamma:629490:Yes:1d:SELL",
-      "strategy_id": "MR",
-      "market_title": "Will the Democrats win the Nebraska governor race in 2026?",
-      "predicted_prob": 0.78,
-      "outcome": 0,
-      "pnl": -0.11,
-      "brier_error": 0.6084,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793060149.0952392
     }
   ],
   "strategy_weights": {
@@ -2643,11 +2643,11 @@
       "status": "REDUCED"
     },
     "WT": {
-      "brier_score": 0.5571,
-      "win_rate": 25.2,
-      "trades_count": 317,
+      "brier_score": 0.5561,
+      "win_rate": 25.4,
+      "trades_count": 319,
       "kelly_multiplier": 0.4,
-      "reliability": 0.3659,
+      "reliability": 0.3642,
       "resolution": 0.0,
       "status": "REDUCED"
     },
