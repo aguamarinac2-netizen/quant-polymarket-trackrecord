@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793390062.4700904,
+  "updated_at": 1793390790.532931,
   "reflections": [
+    {
+      "id": "REFL-1793390637784",
+      "trade_id": "MR:gamma:629506:Yes:1w:BUY",
+      "strategy_id": "MR",
+      "market_title": "Will the Republicans win the Nevada governor race in 2026?",
+      "predicted_prob": 0.78,
+      "outcome": 0,
+      "pnl": -0.12,
+      "brier_error": 0.6084,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793390637.784471
+    },
     {
       "id": "REFL-1793387645431",
       "trade_id": "WT:665374:0x8b4bca1d794779e66e023d44391b2a86c5ab541b:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793059486.8956141
-    },
-    {
-      "id": "REFL-1793055542830",
-      "trade_id": "WT:559656:0x9703676286b93c2eca71ca96e8757104519a69c2:Yes:BUY",
-      "strategy_id": "WT",
-      "market_title": "Will Wes Moore win the 2028 Democratic presidential nomination?",
-      "predicted_prob": 0.87,
-      "outcome": 0,
-      "pnl": -0.41,
-      "brier_error": 0.7569,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793055542.8304036
     }
   ],
   "strategy_weights": {
@@ -2652,11 +2652,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3741,
-      "win_rate": 38.8,
-      "trades_count": 327,
+      "brier_score": 0.3748,
+      "win_rate": 38.7,
+      "trades_count": 328,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1362,
+      "reliability": 0.1371,
       "resolution": 0.0,
       "status": "REDUCED"
     },
