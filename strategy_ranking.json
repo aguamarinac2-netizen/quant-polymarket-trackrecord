@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T18:54:48.444715+00:00",
+  "generated_at": "2026-10-30T19:07:09.459384+00:00",
   "campaign": "demo-15d",
   "strategies": [
     {
@@ -118,14 +118,14 @@
       "won": 31,
       "lost": 71,
       "realized_pnl_usd": -16.2,
-      "unrealized_pnl_usd": -7.94,
+      "unrealized_pnl_usd": -7.95,
       "partial_fills": 0,
       "by_source": {
         "realistic": {
           "total": 15,
           "won": 1,
           "lost": 12,
-          "net_pnl_usd": -3.06
+          "net_pnl_usd": -3.07
         },
         "research": {
           "total": 91,
@@ -136,7 +136,7 @@
       },
       "closed": 102,
       "win_rate_pct": 30.4,
-      "net_pnl_usd": -24.14,
+      "net_pnl_usd": -24.15,
       "avg_book_slippage_bps": null,
       "verdict": "DESCARTAR"
     },
@@ -172,7 +172,7 @@
       "won": 50,
       "lost": 145,
       "realized_pnl_usd": -21.13,
-      "unrealized_pnl_usd": -7.21,
+      "unrealized_pnl_usd": -7.35,
       "partial_fills": 0,
       "by_source": {
         "realistic": {
@@ -185,12 +185,12 @@
           "total": 219,
           "won": 49,
           "lost": 145,
-          "net_pnl_usd": -31.64
+          "net_pnl_usd": -31.78
         }
       },
       "closed": 195,
       "win_rate_pct": 25.6,
-      "net_pnl_usd": -28.34,
+      "net_pnl_usd": -28.48,
       "avg_book_slippage_bps": null,
       "verdict": "DESCARTAR"
     },
@@ -202,50 +202,50 @@
       "won": 132,
       "lost": 141,
       "realized_pnl_usd": -78.04,
-      "unrealized_pnl_usd": 34.54,
+      "unrealized_pnl_usd": 35.07,
       "partial_fills": 0,
       "by_source": {
         "realistic": {
           "total": 30,
           "won": 12,
           "lost": 14,
-          "net_pnl_usd": -12.62
+          "net_pnl_usd": -12.25
         },
         "research": {
           "total": 256,
           "won": 120,
           "lost": 127,
-          "net_pnl_usd": -30.88
+          "net_pnl_usd": -30.72
         }
       },
       "closed": 273,
       "win_rate_pct": 48.4,
-      "net_pnl_usd": -43.5,
+      "net_pnl_usd": -42.97,
       "avg_book_slippage_bps": null,
       "verdict": "DESCARTAR"
     },
     {
       "strategy_code": "MR",
       "strategy_name": "C: Mean Reversion",
-      "total": 349,
-      "open": 20,
+      "total": 351,
+      "open": 22,
       "won": 188,
       "lost": 141,
       "realized_pnl_usd": -110.18,
-      "unrealized_pnl_usd": 0.24,
+      "unrealized_pnl_usd": -0.29,
       "partial_fills": 0,
       "by_source": {
         "realistic": {
-          "total": 39,
+          "total": 40,
           "won": 21,
           "lost": 14,
-          "net_pnl_usd": -13.08
+          "net_pnl_usd": -13.3
         },
         "research": {
-          "total": 308,
+          "total": 309,
           "won": 165,
           "lost": 127,
-          "net_pnl_usd": -98.32
+          "net_pnl_usd": -98.63
         },
         "hybrid": {
           "total": 2,
@@ -256,7 +256,7 @@
       },
       "closed": 329,
       "win_rate_pct": 57.1,
-      "net_pnl_usd": -109.94,
+      "net_pnl_usd": -110.47,
       "avg_book_slippage_bps": 0.0,
       "verdict": "DESCARTAR"
     },
@@ -264,18 +264,18 @@
       "strategy_code": "WT",
       "strategy_name": "F: Whale Tracking",
       "total": 323,
-      "open": 11,
-      "won": 124,
+      "open": 10,
+      "won": 125,
       "lost": 188,
-      "realized_pnl_usd": -103.36,
+      "realized_pnl_usd": -103.33,
       "unrealized_pnl_usd": -12.79,
       "partial_fills": 0,
       "by_source": {
         "realistic": {
           "total": 62,
-          "won": 31,
+          "won": 32,
           "lost": 29,
-          "net_pnl_usd": 19.93
+          "net_pnl_usd": 19.96
         },
         "research": {
           "total": 261,
@@ -284,9 +284,9 @@
           "net_pnl_usd": -136.08
         }
       },
-      "closed": 312,
-      "win_rate_pct": 39.7,
-      "net_pnl_usd": -116.15,
+      "closed": 313,
+      "win_rate_pct": 39.9,
+      "net_pnl_usd": -116.12,
       "avg_book_slippage_bps": null,
       "verdict": "DESCARTAR"
     }
