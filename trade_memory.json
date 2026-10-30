@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793369288.7612882,
+  "updated_at": 1793370142.291756,
   "reflections": [
+    {
+      "id": "REFL-1793369877257",
+      "trade_id": "MR:gamma:943822:Yes:1d:BUY",
+      "strategy_id": "MR",
+      "market_title": "Will the Republican Party hold exactly 50 Senate seats after the 2026 midterm el",
+      "predicted_prob": 0.72,
+      "outcome": 0,
+      "pnl": -0.88,
+      "brier_error": 0.5184,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793369877.2578862
+    },
     {
       "id": "REFL-1793366958199",
       "trade_id": "WT:629519:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793033575.6291502
-    },
-    {
-      "id": "REFL-1793033575612",
-      "trade_id": "WT:630747:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
-      "strategy_id": "WT",
-      "market_title": "Will the Republicans win the Kansas Senate race in 2026?",
-      "predicted_prob": 0.88,
-      "outcome": 0,
-      "pnl": -0.41,
-      "brier_error": 0.7744,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793033575.6121547
     }
   ],
   "strategy_weights": {
@@ -2652,11 +2652,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.373,
-      "win_rate": 39.0,
-      "trades_count": 315,
+      "brier_score": 0.3735,
+      "win_rate": 38.9,
+      "trades_count": 316,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1347,
+      "reliability": 0.1355,
       "resolution": 0.0,
       "status": "REDUCED"
     },
