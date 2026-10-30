@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793321540.1565046,
+  "updated_at": 1793322325.0587204,
   "reflections": [
+    {
+      "id": "REFL-1793321866676",
+      "trade_id": "MR:gamma:701496:Yes:1d:BUY",
+      "strategy_id": "MR",
+      "market_title": "Will Bitcoin reach $100,000 by December 31, 2026?",
+      "predicted_prob": 0.78,
+      "outcome": 0,
+      "pnl": -2.82,
+      "brier_error": 0.6084,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793321866.6766455
+    },
     {
       "id": "REFL-1793319576891",
       "trade_id": "S20:704274:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793009044.8602881
-    },
-    {
-      "id": "REFL-1793009044781",
-      "trade_id": "WT:629452:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
-      "strategy_id": "WT",
-      "market_title": "Will the Republicans win the Massachusetts governor race in 2026?",
-      "predicted_prob": 0.88,
-      "outcome": 0,
-      "pnl": -0.15,
-      "brier_error": 0.7744,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793009044.781241
     }
   ],
   "strategy_weights": {
@@ -2652,11 +2652,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3758,
-      "win_rate": 38.5,
-      "trades_count": 296,
+      "brier_score": 0.3766,
+      "win_rate": 38.4,
+      "trades_count": 297,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1382,
+      "reliability": 0.1392,
       "resolution": 0.0,
       "status": "REDUCED"
     },
