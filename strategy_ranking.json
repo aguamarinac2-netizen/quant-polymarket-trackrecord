@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T15:08:55.961141+00:00",
+  "generated_at": "2026-10-30T15:22:51.042476+00:00",
   "campaign": "demo-15d",
   "strategies": [
     {
@@ -113,8 +113,8 @@
     {
       "strategy_code": "S12",
       "strategy_name": "S12: High Prob Harvesting",
-      "total": 104,
-      "open": 4,
+      "total": 105,
+      "open": 5,
       "won": 31,
       "lost": 69,
       "realized_pnl_usd": -16.02,
@@ -122,7 +122,7 @@
       "partial_fills": 0,
       "by_source": {
         "realistic": {
-          "total": 14,
+          "total": 15,
           "won": 1,
           "lost": 11,
           "net_pnl_usd": -2.95
@@ -172,7 +172,7 @@
       "won": 50,
       "lost": 145,
       "realized_pnl_usd": -21.13,
-      "unrealized_pnl_usd": -7.26,
+      "unrealized_pnl_usd": -7.17,
       "partial_fills": 0,
       "by_source": {
         "realistic": {
@@ -185,12 +185,12 @@
           "total": 219,
           "won": 49,
           "lost": 145,
-          "net_pnl_usd": -31.69
+          "net_pnl_usd": -31.6
         }
       },
       "closed": 195,
       "win_rate_pct": 25.6,
-      "net_pnl_usd": -28.39,
+      "net_pnl_usd": -28.3,
       "avg_book_slippage_bps": null,
       "verdict": "DESCARTAR"
     },
@@ -198,54 +198,54 @@
       "strategy_code": "S10",
       "strategy_name": "S10: Yes Bias",
       "total": 286,
-      "open": 15,
-      "won": 130,
+      "open": 14,
+      "won": 131,
       "lost": 141,
-      "realized_pnl_usd": -77.62,
-      "unrealized_pnl_usd": 35.36,
+      "realized_pnl_usd": -77.88,
+      "unrealized_pnl_usd": 35.9,
       "partial_fills": 0,
       "by_source": {
         "realistic": {
           "total": 30,
-          "won": 11,
+          "won": 12,
           "lost": 14,
-          "net_pnl_usd": -12.8
+          "net_pnl_usd": -12.36
         },
         "research": {
           "total": 256,
           "won": 119,
           "lost": 127,
-          "net_pnl_usd": -29.46
+          "net_pnl_usd": -29.62
         }
       },
-      "closed": 271,
-      "win_rate_pct": 48.0,
-      "net_pnl_usd": -42.26,
+      "closed": 272,
+      "win_rate_pct": 48.2,
+      "net_pnl_usd": -41.98,
       "avg_book_slippage_bps": null,
       "verdict": "DESCARTAR"
     },
     {
       "strategy_code": "MR",
       "strategy_name": "C: Mean Reversion",
-      "total": 343,
+      "total": 344,
       "open": 24,
       "won": 183,
-      "lost": 136,
-      "realized_pnl_usd": -105.11,
-      "unrealized_pnl_usd": 2.41,
+      "lost": 137,
+      "realized_pnl_usd": -106.32,
+      "unrealized_pnl_usd": 0.42,
       "partial_fills": 0,
       "by_source": {
         "realistic": {
           "total": 38,
           "won": 21,
           "lost": 14,
-          "net_pnl_usd": -13.08
+          "net_pnl_usd": -13.07
         },
         "research": {
-          "total": 303,
+          "total": 304,
           "won": 160,
-          "lost": 122,
-          "net_pnl_usd": -91.08
+          "lost": 123,
+          "net_pnl_usd": -94.29
         },
         "hybrid": {
           "total": 2,
@@ -254,9 +254,9 @@
           "net_pnl_usd": 1.46
         }
       },
-      "closed": 319,
-      "win_rate_pct": 57.4,
-      "net_pnl_usd": -102.7,
+      "closed": 320,
+      "win_rate_pct": 57.2,
+      "net_pnl_usd": -105.9,
       "avg_book_slippage_bps": 0.0,
       "verdict": "DESCARTAR"
     },
@@ -268,25 +268,25 @@
       "won": 123,
       "lost": 186,
       "realized_pnl_usd": -103.55,
-      "unrealized_pnl_usd": -12.72,
+      "unrealized_pnl_usd": -12.63,
       "partial_fills": 0,
       "by_source": {
         "realistic": {
           "total": 62,
           "won": 31,
           "lost": 29,
-          "net_pnl_usd": 19.93
+          "net_pnl_usd": 19.92
         },
         "research": {
           "total": 261,
           "won": 92,
           "lost": 157,
-          "net_pnl_usd": -136.2
+          "net_pnl_usd": -136.1
         }
       },
       "closed": 309,
       "win_rate_pct": 39.8,
-      "net_pnl_usd": -116.27,
+      "net_pnl_usd": -116.18,
       "avg_book_slippage_bps": null,
       "verdict": "DESCARTAR"
     }

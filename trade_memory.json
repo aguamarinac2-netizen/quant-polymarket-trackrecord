@@ -1,6 +1,32 @@
 {
-  "updated_at": 1793372932.2999938,
+  "updated_at": 1793373719.5690227,
   "reflections": [
+    {
+      "id": "REFL-1793373486151",
+      "trade_id": "MR:gamma:562831:Yes:1d:BUY",
+      "strategy_id": "MR",
+      "market_title": "2026 Balance of Power: R Senate, R House",
+      "predicted_prob": 0.72,
+      "outcome": 0,
+      "pnl": -1.21,
+      "brier_error": 0.5184,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793373486.1514382
+    },
+    {
+      "id": "REFL-1793373486039",
+      "trade_id": "S10:629544:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Will the Democrats win the New York governor race in 2026?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -0.26,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793373486.0398717
+    },
     {
       "id": "REFL-1793371903078",
       "trade_id": "WT:663583:0x9ba9dec33838f4ec9f032f7247d7481987e63ce9:No:BUY",
@@ -2574,32 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793035394.9247227
-    },
-    {
-      "id": "REFL-1793035394832",
-      "trade_id": "WT:608540:0x547f880b60de8add50d3acc410b61626645a8980:Yes:BUY",
-      "strategy_id": "WT",
-      "market_title": "Will Kylian Mbappé win the 2026 Ballon d'Or?",
-      "predicted_prob": 0.88,
-      "outcome": 0,
-      "pnl": -1.39,
-      "brier_error": 0.7744,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793035394.8321102
-    },
-    {
-      "id": "REFL-1793034785550",
-      "trade_id": "WT:608547:0x5a218c7ad04135830a45c41aaed7294df7809318:No:BUY",
-      "strategy_id": "WT",
-      "market_title": "Will Harry Kane win the 2026 Ballon d'Or?",
-      "predicted_prob": 0.88,
-      "outcome": 0,
-      "pnl": -1.25,
-      "brier_error": 0.7744,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793034785.5510032
     }
   ],
   "strategy_weights": {
@@ -2625,11 +2625,11 @@
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.4241,
-      "win_rate": 27.7,
-      "trades_count": 271,
+      "brier_score": 0.4246,
+      "win_rate": 27.6,
+      "trades_count": 272,
       "kelly_multiplier": 0.4,
-      "reliability": 0.224,
+      "reliability": 0.2249,
       "resolution": 0.0,
       "status": "REDUCED"
     },
@@ -2652,11 +2652,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3742,
-      "win_rate": 38.8,
-      "trades_count": 317,
+      "brier_score": 0.3747,
+      "win_rate": 38.7,
+      "trades_count": 318,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1364,
+      "reliability": 0.1372,
       "resolution": 0.0,
       "status": "REDUCED"
     },
