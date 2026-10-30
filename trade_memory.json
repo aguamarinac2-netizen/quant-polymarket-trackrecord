@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793394595.0369503,
+  "updated_at": 1793395320.7254772,
   "reflections": [
+    {
+      "id": "REFL-1793394653020",
+      "trade_id": "S10:943955:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Will the Democratic Party win the PA-10 House seat?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -2.01,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793394653.0201378
+    },
     {
       "id": "REFL-1793390637784",
       "trade_id": "MR:gamma:629506:Yes:1w:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793060149.0952392
-    },
-    {
-      "id": "REFL-1793059486895",
-      "trade_id": "MR:local:559652:Yes:BUY",
-      "strategy_id": "MR",
-      "market_title": "Will Gavin Newsom win the 2028 Democratic presidential nomination?",
-      "predicted_prob": 0.75,
-      "outcome": 0,
-      "pnl": -0.01,
-      "brier_error": 0.5625,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793059486.8956141
     }
   ],
   "strategy_weights": {
@@ -2625,11 +2625,11 @@
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.4225,
-      "win_rate": 28.0,
-      "trades_count": 275,
+      "brier_score": 0.423,
+      "win_rate": 27.9,
+      "trades_count": 276,
       "kelly_multiplier": 0.4,
-      "reliability": 0.2209,
+      "reliability": 0.2219,
       "resolution": 0.0,
       "status": "REDUCED"
     },
