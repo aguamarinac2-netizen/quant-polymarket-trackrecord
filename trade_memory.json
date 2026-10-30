@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793352158.4697325,
+  "updated_at": 1793353003.1788127,
   "reflections": [
+    {
+      "id": "REFL-1793352696690",
+      "trade_id": "WT:656312:0x1cfc260bfa2b5ae89377863180ca3b4f5c862111:No:SELL",
+      "strategy_id": "WT",
+      "market_title": "Will OpenAI IPO by December 31 2026?",
+      "predicted_prob": 0.82,
+      "outcome": 0,
+      "pnl": -0.05,
+      "brier_error": 0.6724,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793352696.6906621
+    },
     {
       "id": "REFL-1793351086316",
       "trade_id": "S10:651395:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793025346.8183286
-    },
-    {
-      "id": "REFL-1793024691479",
-      "trade_id": "S10:676812:No:BUY",
-      "strategy_id": "S10",
-      "market_title": "SpaceX Starship fully reusable before 2027?",
-      "predicted_prob": 0.75,
-      "outcome": 0,
-      "pnl": -0.19,
-      "brier_error": 0.5625,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793024691.4795623
     }
   ],
   "strategy_weights": {
@@ -2643,20 +2643,20 @@
       "status": "REDUCED"
     },
     "WT": {
-      "brier_score": 0.5584,
-      "win_rate": 25.2,
-      "trades_count": 302,
+      "brier_score": 0.5588,
+      "win_rate": 25.1,
+      "trades_count": 303,
       "kelly_multiplier": 0.4,
-      "reliability": 0.3675,
+      "reliability": 0.3684,
       "resolution": 0.0,
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3758,
-      "win_rate": 38.5,
-      "trades_count": 304,
+      "brier_score": 0.3748,
+      "win_rate": 38.7,
+      "trades_count": 305,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1383,
+      "reliability": 0.1369,
       "resolution": 0.0,
       "status": "REDUCED"
     },
