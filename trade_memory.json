@@ -1,6 +1,45 @@
 {
-  "updated_at": 1793350333.400724,
+  "updated_at": 1793351186.7093096,
   "reflections": [
+    {
+      "id": "REFL-1793351086316",
+      "trade_id": "S10:651395:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Will Ari Weinstein leave OpenAI by December 31, 2026?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -0.18,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793351086.316412
+    },
+    {
+      "id": "REFL-1793350685953",
+      "trade_id": "S20:701579:No:BUY",
+      "strategy_id": "S20",
+      "market_title": "Will Solana dip to $40 by December 31, 2026?",
+      "predicted_prob": 0.96,
+      "outcome": 0,
+      "pnl": -0.06,
+      "brier_error": 0.9216,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793350685.9537418
+    },
+    {
+      "id": "REFL-1793350640175",
+      "trade_id": "MR:gamma:701496:Yes:1w:BUY",
+      "strategy_id": "MR",
+      "market_title": "Will Bitcoin reach $100,000 by December 31, 2026?",
+      "predicted_prob": 0.78,
+      "outcome": 0,
+      "pnl": -0.26,
+      "brier_error": 0.6084,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793350640.1755686
+    },
     {
       "id": "REFL-1793349783497",
       "trade_id": "MR:gamma:631017:Yes:1d:SELL",
@@ -2561,45 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793024691.4795623
-    },
-    {
-      "id": "REFL-1793024354335",
-      "trade_id": "S10:676997:No:BUY",
-      "strategy_id": "S10",
-      "market_title": "Will Nicki Minaj release a new song in 2026?",
-      "predicted_prob": 0.75,
-      "outcome": 0,
-      "pnl": -0.37,
-      "brier_error": 0.5625,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793024354.335814
-    },
-    {
-      "id": "REFL-1793023665038",
-      "trade_id": "WT:630870:0x66e7ce01c6831b8a2503d09edd6167152ee68bcd:Yes:SELL",
-      "strategy_id": "WT",
-      "market_title": "Will the Democrats win the New Mexico Senate race in 2026?",
-      "predicted_prob": 0.82,
-      "outcome": 0,
-      "pnl": -0.1,
-      "brier_error": 0.6724,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793023665.0386095
-    },
-    {
-      "id": "REFL-1793021175099",
-      "trade_id": "WT:630845:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
-      "strategy_id": "WT",
-      "market_title": "Will the Republicans win the New Hampshire Senate race in 2026?",
-      "predicted_prob": 0.88,
-      "outcome": 0,
-      "pnl": -0.07,
-      "brier_error": 0.7744,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793021175.0991788
     }
   ],
   "strategy_weights": {
@@ -2616,20 +2616,20 @@
   },
   "strategy_brier_scores": {
     "S20": {
-      "brier_score": 0.8131,
-      "win_rate": 11.9,
-      "trades_count": 194,
+      "brier_score": 0.8137,
+      "win_rate": 11.8,
+      "trades_count": 195,
       "kelly_multiplier": 0.4,
-      "reliability": 0.7087,
+      "reliability": 0.7097,
       "resolution": 0.0,
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.4244,
-      "win_rate": 27.6,
-      "trades_count": 268,
+      "brier_score": 0.425,
+      "win_rate": 27.5,
+      "trades_count": 269,
       "kelly_multiplier": 0.4,
-      "reliability": 0.2246,
+      "reliability": 0.2255,
       "resolution": 0.0,
       "status": "REDUCED"
     },
@@ -2652,11 +2652,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3751,
-      "win_rate": 38.6,
-      "trades_count": 303,
+      "brier_score": 0.3758,
+      "win_rate": 38.5,
+      "trades_count": 304,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1373,
+      "reliability": 0.1383,
       "resolution": 0.0,
       "status": "REDUCED"
     },
