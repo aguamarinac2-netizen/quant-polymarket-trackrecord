@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793366572.489348,
+  "updated_at": 1793367415.147559,
   "reflections": [
+    {
+      "id": "REFL-1793366958199",
+      "trade_id": "WT:629519:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
+      "strategy_id": "WT",
+      "market_title": "Will the Republicans win the New Hampshire governor race in 2026?",
+      "predicted_prob": 0.88,
+      "outcome": 0,
+      "pnl": -0.41,
+      "brier_error": 0.7744,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793366958.1995137
+    },
     {
       "id": "REFL-1793361427160",
       "trade_id": "MR:gamma:919484:Yes:1d:SELL",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793033575.6121547
-    },
-    {
-      "id": "REFL-1793025347128",
-      "trade_id": "S10:1089948:No:BUY",
-      "strategy_id": "S10",
-      "market_title": "Will Alexander Volkanovski be the UFC Featherweight Champion on December 31, 202",
-      "predicted_prob": 0.75,
-      "outcome": 0,
-      "pnl": -4.45,
-      "brier_error": 0.5625,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793025347.128438
     }
   ],
   "strategy_weights": {
@@ -2643,11 +2643,11 @@
       "status": "REDUCED"
     },
     "WT": {
-      "brier_score": 0.5606,
+      "brier_score": 0.5613,
       "win_rate": 24.8,
-      "trades_count": 306,
+      "trades_count": 307,
       "kelly_multiplier": 0.4,
-      "reliability": 0.3715,
+      "reliability": 0.3725,
       "resolution": 0.0,
       "status": "REDUCED"
     },
