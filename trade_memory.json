@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793376506.9094439,
+  "updated_at": 1793377353.190484,
   "reflections": [
+    {
+      "id": "REFL-1793377316386",
+      "trade_id": "WT:665246:0x57b00c3ccef1b6bd6962fb9ca463c4e0b38e76f4:No:BUY",
+      "strategy_id": "WT",
+      "market_title": "Yoon out of custody before 2027?",
+      "predicted_prob": 0.74,
+      "outcome": 0,
+      "pnl": -0.12,
+      "brier_error": 0.5476,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793377316.3864455
+    },
     {
       "id": "REFL-1793374617825",
       "trade_id": "S10:1073793:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793039410.1714072
-    },
-    {
-      "id": "REFL-1793035696112",
-      "trade_id": "WT:608547:0x758dac51ba3cc9a246a79787da9df11c5f425d9e:No:BUY",
-      "strategy_id": "WT",
-      "market_title": "Will Harry Kane win the 2026 Ballon d'Or?",
-      "predicted_prob": 0.8,
-      "outcome": 0,
-      "pnl": -1.35,
-      "brier_error": 0.64,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793035696.112766
     }
   ],
   "strategy_weights": {
@@ -2643,11 +2643,11 @@
       "status": "REDUCED"
     },
     "WT": {
-      "brier_score": 0.5624,
-      "win_rate": 24.6,
-      "trades_count": 309,
+      "brier_score": 0.5623,
+      "win_rate": 24.5,
+      "trades_count": 310,
       "kelly_multiplier": 0.4,
-      "reliability": 0.3744,
+      "reliability": 0.3749,
       "resolution": 0.0,
       "status": "REDUCED"
     },
