@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793358454.8222783,
+  "updated_at": 1793359360.5336788,
   "reflections": [
+    {
+      "id": "REFL-1793359211662",
+      "trade_id": "MR:gamma:629506:Yes:1d:BUY",
+      "strategy_id": "MR",
+      "market_title": "Will the Republicans win the Nevada governor race in 2026?",
+      "predicted_prob": 0.78,
+      "outcome": 0,
+      "pnl": -0.35,
+      "brier_error": 0.6084,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793359211.6629083
+    },
     {
       "id": "REFL-1793357882899",
       "trade_id": "S10:629451:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793025347.0753345
-    },
-    {
-      "id": "REFL-1793025347056",
-      "trade_id": "S10:1124265:No:BUY",
-      "strategy_id": "S10",
-      "market_title": "Will the Eurozone's 2026 Annual Inflation be at least 3.1%?",
-      "predicted_prob": 0.75,
-      "outcome": 0,
-      "pnl": -1.28,
-      "brier_error": 0.5625,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793025347.0567763
     }
   ],
   "strategy_weights": {
@@ -2652,11 +2652,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3723,
-      "win_rate": 39.2,
-      "trades_count": 309,
+      "brier_score": 0.3731,
+      "win_rate": 39.0,
+      "trades_count": 310,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1337,
+      "reliability": 0.1346,
       "resolution": 0.0,
       "status": "REDUCED"
     },
