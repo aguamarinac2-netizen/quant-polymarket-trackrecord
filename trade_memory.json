@@ -1,6 +1,32 @@
 {
-  "updated_at": 1793338634.0209079,
+  "updated_at": 1793339481.219914,
   "reflections": [
+    {
+      "id": "REFL-1793339249837",
+      "trade_id": "MR:gamma:561230:Yes:1d:SELL",
+      "strategy_id": "MR",
+      "market_title": "Will Gavin Newsom win the 2028 US Presidential Election?",
+      "predicted_prob": 0.78,
+      "outcome": 0,
+      "pnl": -0.27,
+      "brier_error": 0.6084,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793339249.8375487
+    },
+    {
+      "id": "REFL-1793339249821",
+      "trade_id": "WT:561229:0x9ba9dec33838f4ec9f032f7247d7481987e63ce9:No:BUY",
+      "strategy_id": "WT",
+      "market_title": "Will JD Vance win the 2028 US Presidential Election?",
+      "predicted_prob": 0.86,
+      "outcome": 0,
+      "pnl": -0.03,
+      "brier_error": 0.7396,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793339249.8213844
+    },
     {
       "id": "REFL-1793337328033",
       "trade_id": "MR:local:559655:Yes:SELL",
@@ -2574,32 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793018805.8977776
-    },
-    {
-      "id": "REFL-1793018805877",
-      "trade_id": "S12:629464:Yes:BUY",
-      "strategy_id": "S12",
-      "market_title": "Will the Democrats win the Michigan governor race in 2026?",
-      "predicted_prob": 0.9,
-      "outcome": 0,
-      "pnl": -0.18,
-      "brier_error": 0.81,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793018805.877972
-    },
-    {
-      "id": "REFL-1793018013886",
-      "trade_id": "WT:630844:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
-      "strategy_id": "WT",
-      "market_title": "Will the Democrats win the New Hampshire Senate race in 2026?",
-      "predicted_prob": 0.88,
-      "outcome": 0,
-      "pnl": -0.41,
-      "brier_error": 0.7744,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793018013.8861475
     }
   ],
   "strategy_weights": {
@@ -2643,20 +2643,20 @@
       "status": "REDUCED"
     },
     "WT": {
-      "brier_score": 0.5578,
+      "brier_score": 0.5584,
       "win_rate": 25.2,
-      "trades_count": 301,
+      "trades_count": 302,
       "kelly_multiplier": 0.4,
-      "reliability": 0.3665,
+      "reliability": 0.3675,
       "resolution": 0.0,
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3748,
-      "win_rate": 38.7,
-      "trades_count": 300,
+      "brier_score": 0.3756,
+      "win_rate": 38.5,
+      "trades_count": 301,
       "kelly_multiplier": 0.4,
-      "reliability": 0.137,
+      "reliability": 0.1381,
       "resolution": 0.0,
       "status": "REDUCED"
     },
