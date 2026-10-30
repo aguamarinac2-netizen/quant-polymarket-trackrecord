@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793357547.7789361,
+  "updated_at": 1793358394.2473578,
   "reflections": [
+    {
+      "id": "REFL-1793357882899",
+      "trade_id": "S10:629451:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Will the Democrats win the Massachusetts governor race in 2026?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -0.27,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793357882.8991501
+    },
     {
       "id": "REFL-1793356075014",
       "trade_id": "WT:629518:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793025347.0567763
-    },
-    {
-      "id": "REFL-1793025347029",
-      "trade_id": "WT:630773:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
-      "strategy_id": "WT",
-      "market_title": "Will the Republicans win the Maine Senate race in 2026?",
-      "predicted_prob": 0.88,
-      "outcome": 0,
-      "pnl": -1.07,
-      "brier_error": 0.7744,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793025347.0294113
     }
   ],
   "strategy_weights": {
@@ -2625,11 +2625,11 @@
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.4236,
-      "win_rate": 27.8,
-      "trades_count": 270,
+      "brier_score": 0.4241,
+      "win_rate": 27.7,
+      "trades_count": 271,
       "kelly_multiplier": 0.4,
-      "reliability": 0.223,
+      "reliability": 0.224,
       "resolution": 0.0,
       "status": "REDUCED"
     },
