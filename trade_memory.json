@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793330465.6512773,
+  "updated_at": 1793330548.0143178,
   "reflections": [
+    {
+      "id": "REFL-1793330548001",
+      "trade_id": "S10:1132795:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Will China's annual inflation in 2026 be between 0.6% and 1.0%?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -0.41,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793330548.0015495
+    },
     {
       "id": "REFL-1793323069003",
       "trade_id": "WT:629518:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793010741.3711457
-    },
-    {
-      "id": "REFL-1793010361417",
-      "trade_id": "WT:559651:0x99dd407b80e45874638d783f54b0d8c097544303:No:BUY",
-      "strategy_id": "WT",
-      "market_title": "Xi Jinping out before 2027?",
-      "predicted_prob": 0.88,
-      "outcome": 0,
-      "pnl": -1.63,
-      "brier_error": 0.7744,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793010361.4171975
     }
   ],
   "strategy_weights": {
@@ -2625,11 +2625,11 @@
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.4253,
-      "win_rate": 27.4,
-      "trades_count": 266,
+      "brier_score": 0.4258,
+      "win_rate": 27.3,
+      "trades_count": 267,
       "kelly_multiplier": 0.4,
-      "reliability": 0.2262,
+      "reliability": 0.2271,
       "resolution": 0.0,
       "status": "REDUCED"
     },
