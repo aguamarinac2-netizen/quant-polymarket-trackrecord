@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793455141.0856638,
+  "updated_at": 1793455623.4433799,
   "reflections": [
+    {
+      "id": "REFL-1793455236138",
+      "trade_id": "S10:1068346:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Will Bitcoin outperform Gold in 2026?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -0.16,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793455236.138705
+    },
     {
       "id": "REFL-1793455141069",
       "trade_id": "S10:942445:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793099138.736605
-    },
-    {
-      "id": "REFL-1793092803942",
-      "trade_id": "WT:630844:0xfaf680c17a9cca24ff0773ae2d9f7db49c02cc47:Yes:BUY",
-      "strategy_id": "WT",
-      "market_title": "Will the Democrats win the New Hampshire Senate race in 2026?",
-      "predicted_prob": 0.76,
-      "outcome": 0,
-      "pnl": -0.07,
-      "brier_error": 0.5776,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793092803.9420874
     }
   ],
   "strategy_weights": {
@@ -2625,11 +2625,11 @@
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.4202,
-      "win_rate": 28.5,
-      "trades_count": 281,
+      "brier_score": 0.4207,
+      "win_rate": 28.4,
+      "trades_count": 282,
       "kelly_multiplier": 0.4,
-      "reliability": 0.2165,
+      "reliability": 0.2174,
       "resolution": 0.0,
       "status": "REDUCED"
     },

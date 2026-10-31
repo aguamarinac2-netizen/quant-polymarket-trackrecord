@@ -50822,7 +50822,7 @@
       "order_type": "LIMIT",
       "entry_price": 0.5912,
       "signal_entry_price": 0.59,
-      "current_price": 0.605,
+      "current_price": 0.6,
       "target_price": 0.72,
       "stop_loss": 0.4956,
       "initial_stop_loss": 0.4956,
@@ -50845,13 +50845,13 @@
       "risk_reward_ratio": 1.38,
       "horizon": "medium_long",
       "horizon_label": "\ud83d\uddd3\ufe0f Largo (>15d)",
-      "status": "OPEN",
-      "unrealized_pnl_usd": 0.23,
-      "unrealized_pnl_pct": 2.33,
-      "realized_pnl_usd": 0.0,
-      "realized_pnl_pct": 0.0,
-      "close_reason": null,
-      "closed_at": null,
+      "status": "WON",
+      "unrealized_pnl_usd": 0.14,
+      "unrealized_pnl_pct": 1.49,
+      "realized_pnl_usd": -0.16,
+      "realized_pnl_pct": 1.49,
+      "close_reason": "\u23f1\ufe0f Time-Stop 48h (Capital liberado: rotaci\u00f3n r\u00e1pida tras 51.3h estancado)",
+      "closed_at": "2026-10-31T14:00:36.010716+00:00",
       "engine": "paper"
     },
     "MR:gamma:679060:Yes:1d:SELL": {
@@ -54997,7 +54997,8 @@
       "realized_pnl_pct": 12.34,
       "close_reason": "\ud83c\udfaf Take Profit alcanzado ($0.140 <= $0.150)",
       "closed_at": "2026-10-31T13:59:00.980823+00:00",
-      "engine": "paper"
+      "engine": "paper",
+      "ai_post_mortem_done": true
     },
     "FLB:561230:No:BUY": {
       "trade_id": "FLB:561230:No:BUY",
@@ -55135,7 +55136,8 @@
       "realized_pnl_pct": 3.35,
       "close_reason": "\ud83c\udfaf Trailing Stop activado (Beneficio protegido: +3.35% a $0.145)",
       "closed_at": "2026-10-31T13:59:00.980922+00:00",
-      "engine": "paper"
+      "engine": "paper",
+      "ai_post_mortem_done": true
     },
     "S10:1075293:No:BUY": {
       "trade_id": "S10:1075293:No:BUY",
@@ -56019,5 +56021,5 @@
       "engine": "paper"
     }
   },
-  "updated_at": "2026-10-31T13:59:00.981278+00:00"
+  "updated_at": "2026-10-31T14:00:36.012758+00:00"
 }
