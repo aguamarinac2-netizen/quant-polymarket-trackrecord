@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793470942.6150053,
+  "updated_at": 1793471365.303147,
   "reflections": [
+    {
+      "id": "REFL-1793471132567",
+      "trade_id": "S10:1170844:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Blue tsunami in 2026?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -2.01,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793471132.5672908
+    },
     {
       "id": "REFL-1793469264086",
       "trade_id": "S20:629544:Yes:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793104790.6638854
-    },
-    {
-      "id": "REFL-1793104084574",
-      "trade_id": "S10:1068728:No:BUY",
-      "strategy_id": "S10",
-      "market_title": "Will USDT market cap hit $200B before 2027?",
-      "predicted_prob": 0.75,
-      "outcome": 0,
-      "pnl": -0.3,
-      "brier_error": 0.5625,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793104084.5746946
     }
   ],
   "strategy_weights": {
@@ -2625,11 +2625,11 @@
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.4207,
-      "win_rate": 28.4,
-      "trades_count": 282,
+      "brier_score": 0.4212,
+      "win_rate": 28.3,
+      "trades_count": 283,
       "kelly_multiplier": 0.4,
-      "reliability": 0.2174,
+      "reliability": 0.2184,
       "resolution": 0.0,
       "status": "REDUCED"
     },
