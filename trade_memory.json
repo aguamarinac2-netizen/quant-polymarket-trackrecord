@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793456955.8049872,
+  "updated_at": 1793457442.766021,
   "reflections": [
+    {
+      "id": "REFL-1793457234046",
+      "trade_id": "MR:gamma:630746:Yes:1d:BUY",
+      "strategy_id": "MR",
+      "market_title": "Will the Democrats win the Kansas Senate race in 2026?",
+      "predicted_prob": 0.72,
+      "outcome": 0,
+      "pnl": -0.51,
+      "brier_error": 0.5184,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793457234.0468633
+    },
     {
       "id": "REFL-1793455236138",
       "trade_id": "S10:1068346:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793102874.45714
-    },
-    {
-      "id": "REFL-1793099138736",
-      "trade_id": "S20:701595:No:BUY",
-      "strategy_id": "S20",
-      "market_title": "Will XRP reach $2.80 by December 31, 2026?",
-      "predicted_prob": 0.96,
-      "outcome": 0,
-      "pnl": -0.59,
-      "brier_error": 0.9216,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793099138.736605
     }
   ],
   "strategy_weights": {
@@ -2652,11 +2652,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3708,
-      "win_rate": 39.5,
-      "trades_count": 342,
+      "brier_score": 0.3712,
+      "win_rate": 39.4,
+      "trades_count": 343,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1315,
+      "reliability": 0.1322,
       "resolution": 0.0,
       "status": "REDUCED"
     },
