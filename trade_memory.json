@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793424376.3192558,
+  "updated_at": 1793425044.1775477,
   "reflections": [
+    {
+      "id": "REFL-1793424909946",
+      "trade_id": "MR:gamma:562802:Yes:1d:SELL",
+      "strategy_id": "MR",
+      "market_title": "Will the Democratic Party control the House after the 2026 Midterm elections?",
+      "predicted_prob": 0.72,
+      "outcome": 0,
+      "pnl": -0.23,
+      "brier_error": 0.5184,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793424909.9466777
+    },
     {
       "id": "REFL-1793416011561",
       "trade_id": "MR:gamma:631018:Yes:1d:SELL",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793071757.7303865
-    },
-    {
-      "id": "REFL-1793069584859",
-      "trade_id": "MR:gamma:629040:Yes:1d:SELL",
-      "strategy_id": "MR",
-      "market_title": "Will Nithya Raman win the 2026 Los Angeles mayoral election?",
-      "predicted_prob": 0.75,
-      "outcome": 0,
-      "pnl": -0.01,
-      "brier_error": 0.5625,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793069584.8595061
     }
   ],
   "strategy_weights": {
@@ -2652,11 +2652,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3743,
-      "win_rate": 38.8,
-      "trades_count": 330,
+      "brier_score": 0.3747,
+      "win_rate": 38.7,
+      "trades_count": 331,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1365,
+      "reliability": 0.1373,
       "resolution": 0.0,
       "status": "REDUCED"
     },
