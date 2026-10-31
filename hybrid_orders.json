@@ -139,12 +139,47 @@
         "fee_usd": 0.9192,
         "rebate_usd": 0.0
       }
+    },
+    {
+      "order_id": "SIM-1793412351489",
+      "recorded_at": "2026-10-31T02:05:51.489678+00:00",
+      "status": "PARTIAL",
+      "reason": null,
+      "market_id": "561230",
+      "market_question": "Will Gavin Newsom win the 2028 US Presidential Election?",
+      "strategy_code": "MR",
+      "token": "Yes",
+      "side": "BUY",
+      "confidence": 76.0,
+      "is_maker": false,
+      "signal_entry_price": 0.126,
+      "requested_size_usd": 14.77,
+      "order_payload": {
+        "tokenID": "Yes",
+        "price": 0.126,
+        "size": 117.22,
+        "side": "BUY",
+        "feeRateBps": 0,
+        "expiration": 0,
+        "orderType": "GTC",
+        "nonce": 1793412351489,
+        "simulated": true
+      },
+      "fill": {
+        "exec_price": 0.126,
+        "fill_ratio": 0.5073,
+        "slippage_bps": 0.0,
+        "book_depth_usd": 9956035.46,
+        "levels_consumed": 1,
+        "fee_usd": 0.2619,
+        "rebate_usd": 0.0
+      }
     }
   ],
   "rejection_reasons": {
-    "sin libro real disponible": 142038764,
-    "sin liquidez al precio l\u00edmite": 7432098
+    "sin libro real disponible": 142087405,
+    "sin liquidez al precio l\u00edmite": 7434069
   },
   "engine": "hybrid",
-  "updated_at": "2026-10-31T01:56:20.612352+00:00"
+  "updated_at": "2026-10-31T02:08:18.305542+00:00"
 }
