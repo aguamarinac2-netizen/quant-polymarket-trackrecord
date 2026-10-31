@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793484040.7617447,
+  "updated_at": 1793484461.7389677,
   "reflections": [
+    {
+      "id": "REFL-1793484246263",
+      "trade_id": "S10:692276:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Will Rahm Emanuel announce a Presidential run before 2027?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -0.2,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793484246.2631927
+    },
     {
       "id": "REFL-1793482593720",
       "trade_id": "S20:567689:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793112549.3865902
-    },
-    {
-      "id": "REFL-1793111269057",
-      "trade_id": "WT:630938:0x66e7ce01c6831b8a2503d09edd6167152ee68bcd:Yes:BUY",
-      "strategy_id": "WT",
-      "market_title": "Will the Republicans win the South Dakota Senate race in 2026?",
-      "predicted_prob": 0.82,
-      "outcome": 0,
-      "pnl": -0.07,
-      "brier_error": 0.6724,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793111269.057967
     }
   ],
   "strategy_weights": {
@@ -2625,11 +2625,11 @@
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.4212,
-      "win_rate": 28.3,
-      "trades_count": 283,
+      "brier_score": 0.4217,
+      "win_rate": 28.2,
+      "trades_count": 284,
       "kelly_multiplier": 0.4,
-      "reliability": 0.2184,
+      "reliability": 0.2193,
       "resolution": 0.0,
       "status": "REDUCED"
     },
