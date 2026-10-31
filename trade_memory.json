@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793488941.7010338,
+  "updated_at": 1793489426.8914382,
   "reflections": [
+    {
+      "id": "REFL-1793489199512",
+      "trade_id": "S10:919489:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Will the Republican Party hold below 190 House seats after the 2026 midterm elec",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -0.11,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793489199.5125008
+    },
     {
       "id": "REFL-1793484246263",
       "trade_id": "S10:692276:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793112549.400675
-    },
-    {
-      "id": "REFL-1793112549386",
-      "trade_id": "S10:916715:No:BUY",
-      "strategy_id": "S10",
-      "market_title": "Will less than 5 SpaceX Starship launches successfully reach Space in 2026?",
-      "predicted_prob": 0.75,
-      "outcome": 0,
-      "pnl": -0.2,
-      "brier_error": 0.5625,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793112549.3865902
     }
   ],
   "strategy_weights": {
@@ -2625,11 +2625,11 @@
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.4191,
-      "win_rate": 28.7,
-      "trades_count": 286,
+      "brier_score": 0.4196,
+      "win_rate": 28.6,
+      "trades_count": 287,
       "kelly_multiplier": 0.4,
-      "reliability": 0.2146,
+      "reliability": 0.2156,
       "resolution": 0.0,
       "status": "REDUCED"
     },
