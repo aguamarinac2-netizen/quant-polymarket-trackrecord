@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793447883.6096275,
+  "updated_at": 1793448428.3484895,
   "reflections": [
+    {
+      "id": "REFL-1793448208908",
+      "trade_id": "MR:gamma:630818:Yes:1w:SELL",
+      "strategy_id": "MR",
+      "market_title": "Will the Democrats win the Minnesota Senate race in 2026?",
+      "predicted_prob": 0.78,
+      "outcome": 0,
+      "pnl": -0.13,
+      "brier_error": 0.6084,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793448208.9088004
+    },
     {
       "id": "REFL-1793446497022",
       "trade_id": "MR:gamma:629413:Yes:1d:SELL",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793092791.5705073
-    },
-    {
-      "id": "REFL-1793090903409",
-      "trade_id": "WT:567688:0xb8d2bf9500e4731b09f54c7ebec6bf89899ec66b:No:BUY",
-      "strategy_id": "WT",
-      "market_title": "Netanyahu out by end of 2026?",
-      "predicted_prob": 0.75,
-      "outcome": 0,
-      "pnl": -1.17,
-      "brier_error": 0.5625,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793090903.409485
     }
   ],
   "strategy_weights": {
@@ -2652,11 +2652,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3736,
-      "win_rate": 38.9,
-      "trades_count": 337,
+      "brier_score": 0.3743,
+      "win_rate": 38.8,
+      "trades_count": 338,
       "kelly_multiplier": 0.4,
-      "reliability": 0.136,
+      "reliability": 0.1369,
       "resolution": 0.0,
       "status": "REDUCED"
     },
