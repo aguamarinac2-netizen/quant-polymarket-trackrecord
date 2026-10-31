@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793476279.7496784,
+  "updated_at": 1793476827.7841377,
   "reflections": [
+    {
+      "id": "REFL-1793476370285",
+      "trade_id": "MR:gamma:629338:Yes:1d:BUY",
+      "strategy_id": "MR",
+      "market_title": "Will the Republicans win the Georgia governor race in 2026?",
+      "predicted_prob": 0.78,
+      "outcome": 0,
+      "pnl": -1.3,
+      "brier_error": 0.6084,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793476370.285189
+    },
     {
       "id": "REFL-1793471132567",
       "trade_id": "S10:1170844:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793108725.6268473
-    },
-    {
-      "id": "REFL-1793104790663",
-      "trade_id": "S10:1106814:No:BUY",
-      "strategy_id": "S10",
-      "market_title": "Will pump.fun buybacks hit $500M by December 31?",
-      "predicted_prob": 0.75,
-      "outcome": 0,
-      "pnl": -0.25,
-      "brier_error": 0.5625,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793104790.6638854
     }
   ],
   "strategy_weights": {
@@ -2652,11 +2652,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3703,
-      "win_rate": 39.5,
-      "trades_count": 344,
+      "brier_score": 0.37,
+      "win_rate": 39.6,
+      "trades_count": 346,
       "kelly_multiplier": 0.4,
-      "reliability": 0.131,
+      "reliability": 0.1306,
       "resolution": 0.0,
       "status": "REDUCED"
     },
