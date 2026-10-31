@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793428013.2621205,
+  "updated_at": 1793428618.1712222,
   "reflections": [
+    {
+      "id": "REFL-1793428256668",
+      "trade_id": "S20:689501:No:BUY",
+      "strategy_id": "S20",
+      "market_title": "Will George R. R. Martin announce \"The Winds of Winter\" in 2026?",
+      "predicted_prob": 0.96,
+      "outcome": 0,
+      "pnl": -0.24,
+      "brier_error": 0.9216,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793428256.6687996
+    },
     {
       "id": "REFL-1793426246797",
       "trade_id": "MR:gamma:629325:Yes:1w:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793078420.5248215
-    },
-    {
-      "id": "REFL-1793074183558",
-      "trade_id": "S10:943542:No:BUY",
-      "strategy_id": "S10",
-      "market_title": "Will the Democratic Party win the NC-11 House seat?",
-      "predicted_prob": 0.75,
-      "outcome": 0,
-      "pnl": -2.31,
-      "brier_error": 0.5625,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793074183.5582128
     }
   ],
   "strategy_weights": {
@@ -2616,11 +2616,11 @@
   },
   "strategy_brier_scores": {
     "S20": {
-      "brier_score": 0.8137,
-      "win_rate": 11.8,
-      "trades_count": 195,
+      "brier_score": 0.8142,
+      "win_rate": 11.7,
+      "trades_count": 196,
       "kelly_multiplier": 0.4,
-      "reliability": 0.7097,
+      "reliability": 0.7108,
       "resolution": 0.0,
       "status": "REDUCED"
     },
