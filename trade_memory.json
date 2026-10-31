@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793426195.8700097,
+  "updated_at": 1793426863.8223717,
   "reflections": [
+    {
+      "id": "REFL-1793426246797",
+      "trade_id": "MR:gamma:629325:Yes:1w:BUY",
+      "strategy_id": "MR",
+      "market_title": "Will the Republicans win the Florida governor race in 2026?",
+      "predicted_prob": 0.78,
+      "outcome": 0,
+      "pnl": -1.15,
+      "brier_error": 0.6084,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793426246.7975855
+    },
     {
       "id": "REFL-1793424909946",
       "trade_id": "MR:gamma:562802:Yes:1d:SELL",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793074183.5582128
-    },
-    {
-      "id": "REFL-1793071757730",
-      "trade_id": "S10:1130721:No:BUY",
-      "strategy_id": "S10",
-      "market_title": "Will Morgan Wallen be the Billboard #1 top artist in 2026?",
-      "predicted_prob": 0.75,
-      "outcome": 0,
-      "pnl": -0.59,
-      "brier_error": 0.5625,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793071757.7303865
     }
   ],
   "strategy_weights": {
@@ -2652,11 +2652,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3747,
-      "win_rate": 38.7,
-      "trades_count": 331,
+      "brier_score": 0.3754,
+      "win_rate": 38.6,
+      "trades_count": 332,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1373,
+      "reliability": 0.1382,
       "resolution": 0.0,
       "status": "REDUCED"
     },
