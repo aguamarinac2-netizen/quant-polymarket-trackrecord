@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793482221.7242043,
+  "updated_at": 1793482593.7350411,
   "reflections": [
+    {
+      "id": "REFL-1793482593720",
+      "trade_id": "S20:567689:No:BUY",
+      "strategy_id": "S20",
+      "market_title": "Zelenskyy out as Ukraine president by end of 2026?",
+      "predicted_prob": 0.96,
+      "outcome": 0,
+      "pnl": -0.01,
+      "brier_error": 0.9216,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793482593.720505
+    },
     {
       "id": "REFL-1793476370285",
       "trade_id": "MR:gamma:629338:Yes:1d:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793111269.057967
-    },
-    {
-      "id": "REFL-1793108725626",
-      "trade_id": "WT:630924:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
-      "strategy_id": "WT",
-      "market_title": "Will the Democrats win the South Carolina Senate race in 2026?",
-      "predicted_prob": 0.88,
-      "outcome": 0,
-      "pnl": -0.24,
-      "brier_error": 0.7744,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793108725.6268473
     }
   ],
   "strategy_weights": {
@@ -2616,11 +2616,11 @@
   },
   "strategy_brier_scores": {
     "S20": {
-      "brier_score": 0.8026,
-      "win_rate": 13.0,
-      "trades_count": 200,
+      "brier_score": 0.8032,
+      "win_rate": 12.9,
+      "trades_count": 201,
       "kelly_multiplier": 0.4,
-      "reliability": 0.6896,
+      "reliability": 0.6906,
       "resolution": 0.0,
       "status": "REDUCED"
     },
