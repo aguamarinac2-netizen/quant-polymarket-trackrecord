@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793523978.2096713,
+  "updated_at": 1793524705.7946386,
   "reflections": [
+    {
+      "id": "REFL-1793524651182",
+      "trade_id": "S20:679060:No:BUY",
+      "strategy_id": "S20",
+      "market_title": "Will Christine Lagarde win the 2027 French presidential election?",
+      "predicted_prob": 0.96,
+      "outcome": 0,
+      "pnl": -0.58,
+      "brier_error": 0.9216,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793524651.1827385
+    },
     {
       "id": "REFL-1793521313170",
       "trade_id": "S10:920210:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793146322.8216643
-    },
-    {
-      "id": "REFL-1793146322803",
-      "trade_id": "S20:691547:No:BUY",
-      "strategy_id": "S20",
-      "market_title": "Kraken IPO by December 31, 2026?",
-      "predicted_prob": 0.96,
-      "outcome": 0,
-      "pnl": 0.0,
-      "brier_error": 0.9216,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793146322.803128
     }
   ],
   "strategy_weights": {
@@ -2616,11 +2616,11 @@
   },
   "strategy_brier_scores": {
     "S20": {
-      "brier_score": 0.7961,
-      "win_rate": 13.7,
-      "trades_count": 219,
+      "brier_score": 0.7967,
+      "win_rate": 13.6,
+      "trades_count": 220,
       "kelly_multiplier": 0.4,
-      "reliability": 0.678,
+      "reliability": 0.679,
       "resolution": 0.0,
       "status": "REDUCED"
     },
