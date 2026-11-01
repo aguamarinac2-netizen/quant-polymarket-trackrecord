@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793575291.9101593,
+  "updated_at": 1793576202.8241427,
   "reflections": [
+    {
+      "id": "REFL-1793575648035",
+      "trade_id": "MR:local:559664:Yes:BUY",
+      "strategy_id": "MR",
+      "market_title": "Will Raphael Warnock win the 2028 Democratic presidential nomination?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -0.77,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793575648.0350296
+    },
     {
       "id": "REFL-1793569200343",
       "trade_id": "MR:gamma:567688:Yes:1d:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793146344.0913162
-    },
-    {
-      "id": "REFL-1793146330616",
-      "trade_id": "S20:701757:No:BUY",
-      "strategy_id": "S20",
-      "market_title": "Will BNB reach $1600 by December 31, 2026?",
-      "predicted_prob": 0.96,
-      "outcome": 0,
-      "pnl": -0.06,
-      "brier_error": 0.9216,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793146330.6168249
     }
   ],
   "strategy_weights": {
@@ -2652,11 +2652,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3674,
-      "win_rate": 40.2,
-      "trades_count": 361,
+      "brier_score": 0.3679,
+      "win_rate": 40.1,
+      "trades_count": 362,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1269,
+      "reliability": 0.1277,
       "resolution": 0.0,
       "status": "REDUCED"
     },
