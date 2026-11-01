@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T03:07:39.489490+00:00",
+  "generated_at": "2026-11-01T03:17:16.442974+00:00",
   "campaign": "demo-15d",
   "strategies": [
     {
@@ -114,18 +114,18 @@
       "strategy_code": "S12",
       "strategy_name": "S12: High Prob Harvesting",
       "total": 110,
-      "open": 7,
-      "won": 32,
+      "open": 6,
+      "won": 33,
       "lost": 71,
-      "realized_pnl_usd": -16.16,
+      "realized_pnl_usd": -16.12,
       "unrealized_pnl_usd": -7.67,
       "partial_fills": 0,
       "by_source": {
         "realistic": {
           "total": 17,
-          "won": 1,
+          "won": 2,
           "lost": 12,
-          "net_pnl_usd": -2.86
+          "net_pnl_usd": -2.82
         },
         "research": {
           "total": 93,
@@ -134,9 +134,9 @@
           "net_pnl_usd": -20.97
         }
       },
-      "closed": 103,
-      "win_rate_pct": 31.1,
-      "net_pnl_usd": -23.83,
+      "closed": 104,
+      "win_rate_pct": 31.7,
+      "net_pnl_usd": -23.79,
       "avg_book_slippage_bps": null,
       "verdict": "DESCARTAR"
     },
@@ -197,19 +197,19 @@
     {
       "strategy_code": "S10",
       "strategy_name": "S10: Yes Bias",
-      "total": 296,
-      "open": 8,
+      "total": 297,
+      "open": 9,
       "won": 143,
       "lost": 145,
       "realized_pnl_usd": -75.34,
-      "unrealized_pnl_usd": 42.32,
+      "unrealized_pnl_usd": 42.49,
       "partial_fills": 0,
       "by_source": {
         "realistic": {
-          "total": 31,
+          "total": 32,
           "won": 15,
           "lost": 15,
-          "net_pnl_usd": -14.5
+          "net_pnl_usd": -14.33
         },
         "research": {
           "total": 265,
@@ -220,7 +220,7 @@
       },
       "closed": 288,
       "win_rate_pct": 49.7,
-      "net_pnl_usd": -33.02,
+      "net_pnl_usd": -32.85,
       "avg_book_slippage_bps": null,
       "verdict": "DESCARTAR"
     },
@@ -232,14 +232,14 @@
       "won": 202,
       "lost": 148,
       "realized_pnl_usd": -105.33,
-      "unrealized_pnl_usd": 7.59,
+      "unrealized_pnl_usd": 7.64,
       "partial_fills": 1,
       "by_source": {
         "realistic": {
           "total": 45,
           "won": 22,
           "lost": 16,
-          "net_pnl_usd": -17.37
+          "net_pnl_usd": -17.32
         },
         "research": {
           "total": 327,
@@ -256,7 +256,7 @@
       },
       "closed": 350,
       "win_rate_pct": 57.7,
-      "net_pnl_usd": -97.74,
+      "net_pnl_usd": -97.69,
       "avg_book_slippage_bps": 0.0,
       "verdict": "DESCARTAR"
     },
