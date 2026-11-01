@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793492156.224331,
+  "updated_at": 1793492521.7897034,
   "reflections": [
+    {
+      "id": "REFL-1793492382511",
+      "trade_id": "S20:679019:No:BUY",
+      "strategy_id": "S20",
+      "market_title": "Will Jordan Bardella win the 2027 French presidential election?",
+      "predicted_prob": 0.96,
+      "outcome": 0,
+      "pnl": -0.02,
+      "brier_error": 0.9216,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793492382.511221
+    },
     {
       "id": "REFL-1793491948624",
       "trade_id": "S20:810179:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793146308.9139373
-    },
-    {
-      "id": "REFL-1793145430762",
-      "trade_id": "MR:gamma:629708:Yes:1d:SELL",
-      "strategy_id": "MR",
-      "market_title": "Will the Republicans win the Vermont governor race in 2026?",
-      "predicted_prob": 0.72,
-      "outcome": 0,
-      "pnl": -0.33,
-      "brier_error": 0.5184,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793145430.7623453
     }
   ],
   "strategy_weights": {
@@ -2616,11 +2616,11 @@
   },
   "strategy_brier_scores": {
     "S20": {
-      "brier_score": 0.7992,
-      "win_rate": 13.4,
-      "trades_count": 217,
+      "brier_score": 0.7997,
+      "win_rate": 13.3,
+      "trades_count": 218,
       "kelly_multiplier": 0.4,
-      "reliability": 0.6835,
+      "reliability": 0.6845,
       "resolution": 0.0,
       "status": "REDUCED"
     },
