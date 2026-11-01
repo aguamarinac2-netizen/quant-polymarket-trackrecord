@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793505079.2396522,
+  "updated_at": 1793505689.6960742,
   "reflections": [
+    {
+      "id": "REFL-1793505658596",
+      "trade_id": "MR:gamma:630734:Yes:1d:SELL",
+      "strategy_id": "MR",
+      "market_title": "Will the Republicans win the Iowa Senate race in 2026?",
+      "predicted_prob": 0.77,
+      "outcome": 0,
+      "pnl": -0.58,
+      "brier_error": 0.5929,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793505658.596437
+    },
     {
       "id": "REFL-1793500372646",
       "trade_id": "MR:gamma:630734:Yes:1w:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793146322.7272944
-    },
-    {
-      "id": "REFL-1793146316063",
-      "trade_id": "S20:629377:No:BUY",
-      "strategy_id": "S20",
-      "market_title": "Will the Republicans win the Illinois governor race in 2026?",
-      "predicted_prob": 0.96,
-      "outcome": 0,
-      "pnl": -0.05,
-      "brier_error": 0.9216,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793146316.0638635
     }
   ],
   "strategy_weights": {
@@ -2652,11 +2652,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3698,
-      "win_rate": 39.7,
-      "trades_count": 348,
+      "brier_score": 0.3704,
+      "win_rate": 39.5,
+      "trades_count": 349,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1303,
+      "reliability": 0.1312,
       "resolution": 0.0,
       "status": "REDUCED"
     },
