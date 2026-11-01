@@ -1,6 +1,32 @@
 {
-  "updated_at": 1793569052.8230407,
+  "updated_at": 1793569835.7973337,
   "reflections": [
+    {
+      "id": "REFL-1793569200343",
+      "trade_id": "MR:gamma:567688:Yes:1d:BUY",
+      "strategy_id": "MR",
+      "market_title": "Netanyahu out by end of 2026?",
+      "predicted_prob": 0.78,
+      "outcome": 0,
+      "pnl": -0.45,
+      "brier_error": 0.6084,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793569200.3438156
+    },
+    {
+      "id": "REFL-1793569178058",
+      "trade_id": "FLB:561230:No:BUY",
+      "strategy_id": "FLB",
+      "market_title": "Will Gavin Newsom win the 2028 US Presidential Election?",
+      "predicted_prob": 0.6,
+      "outcome": 0,
+      "pnl": -0.05,
+      "brier_error": 0.36,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793569178.0587118
+    },
     {
       "id": "REFL-1793565244388",
       "trade_id": "MR:gamma:630832:Yes:1d:SELL",
@@ -2574,32 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793146330.6168249
-    },
-    {
-      "id": "REFL-1793146330597",
-      "trade_id": "S20:701605:No:BUY",
-      "strategy_id": "S20",
-      "market_title": "Will XRP dip to $0.60 by December 31, 2026?",
-      "predicted_prob": 0.96,
-      "outcome": 0,
-      "pnl": -0.07,
-      "brier_error": 0.9216,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793146330.5976238
-    },
-    {
-      "id": "REFL-1793146330577",
-      "trade_id": "S20:701570:No:BUY",
-      "strategy_id": "S20",
-      "market_title": "Will Solana reach $220 by December 31, 2026?",
-      "predicted_prob": 0.96,
-      "outcome": 0,
-      "pnl": -0.0,
-      "brier_error": 0.9216,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793146330.5772812
     }
   ],
   "strategy_weights": {
@@ -2652,11 +2652,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3667,
-      "win_rate": 40.3,
-      "trades_count": 360,
+      "brier_score": 0.3674,
+      "win_rate": 40.2,
+      "trades_count": 361,
       "kelly_multiplier": 0.4,
-      "reliability": 0.126,
+      "reliability": 0.1269,
       "resolution": 0.0,
       "status": "REDUCED"
     },
@@ -2699,7 +2699,7 @@
     "FLB": {
       "brier_score": 0.36,
       "win_rate": 0.0,
-      "trades_count": 9,
+      "trades_count": 10,
       "kelly_multiplier": 0.4,
       "reliability": 0.36,
       "resolution": 0.0,
