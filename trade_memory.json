@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793547426.5780942,
+  "updated_at": 1793548151.1055815,
   "reflections": [
+    {
+      "id": "REFL-1793548079302",
+      "trade_id": "S12:630844:Yes:BUY",
+      "strategy_id": "S12",
+      "market_title": "Will the Democrats win the New Hampshire Senate race in 2026?",
+      "predicted_prob": 0.9,
+      "outcome": 0,
+      "pnl": -0.07,
+      "brier_error": 0.81,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793548079.3022857
+    },
     {
       "id": "REFL-1793546292181",
       "trade_id": "S12:629627:Yes:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793146322.8727145
-    },
-    {
-      "id": "REFL-1793146322855",
-      "trade_id": "S20:694936:No:BUY",
-      "strategy_id": "S20",
-      "market_title": "Will Nebius Group be acquired before 2027?",
-      "predicted_prob": 0.96,
-      "outcome": 0,
-      "pnl": -0.05,
-      "brier_error": 0.9216,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793146322.8556852
     }
   ],
   "strategy_weights": {
@@ -2634,11 +2634,11 @@
       "status": "REDUCED"
     },
     "S12": {
-      "brier_score": 0.6957,
-      "win_rate": 14.3,
-      "trades_count": 105,
+      "brier_score": 0.6968,
+      "win_rate": 14.2,
+      "trades_count": 106,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5733,
+      "reliability": 0.5753,
       "resolution": 0.0,
       "status": "REDUCED"
     },
