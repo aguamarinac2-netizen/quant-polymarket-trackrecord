@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793515012.3696523,
+  "updated_at": 1793515681.5653937,
   "reflections": [
+    {
+      "id": "REFL-1793515616030",
+      "trade_id": "MR:gamma:630746:Yes:1w:SELL",
+      "strategy_id": "MR",
+      "market_title": "Will the Democrats win the Kansas Senate race in 2026?",
+      "predicted_prob": 0.78,
+      "outcome": 0,
+      "pnl": -0.14,
+      "brier_error": 0.6084,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793515616.030088
+    },
     {
       "id": "REFL-1793505658596",
       "trade_id": "MR:gamma:630734:Yes:1d:SELL",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793146322.7468243
-    },
-    {
-      "id": "REFL-1793146322727",
-      "trade_id": "S20:629653:No:BUY",
-      "strategy_id": "S20",
-      "market_title": "Will the Democrats win the South Dakota governor race in 2026?",
-      "predicted_prob": 0.96,
-      "outcome": 0,
-      "pnl": -0.01,
-      "brier_error": 0.9216,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793146322.7272944
     }
   ],
   "strategy_weights": {
@@ -2652,11 +2652,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3695,
-      "win_rate": 39.7,
-      "trades_count": 350,
+      "brier_score": 0.3702,
+      "win_rate": 39.6,
+      "trades_count": 351,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1299,
+      "reliability": 0.1308,
       "resolution": 0.0,
       "status": "REDUCED"
     },
