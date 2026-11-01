@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793564515.4389584,
+  "updated_at": 1793565364.6065552,
   "reflections": [
+    {
+      "id": "REFL-1793565244388",
+      "trade_id": "MR:gamma:630832:Yes:1d:SELL",
+      "strategy_id": "MR",
+      "market_title": "Will the Republicans win the Montana Senate race in 2026?",
+      "predicted_prob": 0.78,
+      "outcome": 0,
+      "pnl": -0.25,
+      "brier_error": 0.6084,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793565244.3883207
+    },
     {
       "id": "REFL-1793564443306",
       "trade_id": "S12:629667:Yes:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793146330.5772812
-    },
-    {
-      "id": "REFL-1793146330558",
-      "trade_id": "S20:701503:No:BUY",
-      "strategy_id": "S20",
-      "market_title": "Will Bitcoin dip to $35,000 by December 31, 2026?",
-      "predicted_prob": 0.96,
-      "outcome": 0,
-      "pnl": -0.03,
-      "brier_error": 0.9216,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793146330.5583663
     }
   ],
   "strategy_weights": {
@@ -2652,11 +2652,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3669,
-      "win_rate": 40.2,
-      "trades_count": 358,
+      "brier_score": 0.3676,
+      "win_rate": 40.1,
+      "trades_count": 359,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1263,
+      "reliability": 0.1272,
       "resolution": 0.0,
       "status": "REDUCED"
     },
