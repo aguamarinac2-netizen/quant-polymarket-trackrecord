@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793563666.1726782,
+  "updated_at": 1793564453.7934685,
   "reflections": [
+    {
+      "id": "REFL-1793564443306",
+      "trade_id": "S12:629667:Yes:BUY",
+      "strategy_id": "S12",
+      "market_title": "Will the Republicans win the Tennessee governor race in 2026?",
+      "predicted_prob": 0.9,
+      "outcome": 0,
+      "pnl": -0.02,
+      "brier_error": 0.81,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793564443.3064167
+    },
     {
       "id": "REFL-1793554457726",
       "trade_id": "WT:634974:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793146330.5583663
-    },
-    {
-      "id": "REFL-1793146330536",
-      "trade_id": "S20:700021:No:BUY",
-      "strategy_id": "S20",
-      "market_title": "Will Ventuals launch a token by December 31 2026?",
-      "predicted_prob": 0.96,
-      "outcome": 0,
-      "pnl": -0.06,
-      "brier_error": 0.9216,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793146330.53605
     }
   ],
   "strategy_weights": {
@@ -2634,11 +2634,11 @@
       "status": "REDUCED"
     },
     "S12": {
-      "brier_score": 0.6968,
-      "win_rate": 14.2,
-      "trades_count": 106,
+      "brier_score": 0.6915,
+      "win_rate": 14.8,
+      "trades_count": 108,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5753,
+      "reliability": 0.5653,
       "resolution": 0.0,
       "status": "REDUCED"
     },
