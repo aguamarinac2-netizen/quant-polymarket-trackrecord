@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793498832.4475605,
+  "updated_at": 1793499379.355842,
   "reflections": [
+    {
+      "id": "REFL-1793499186235",
+      "trade_id": "S10:629583:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Will the Democrats win the Oregon governor race in 2026?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -1.98,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793499186.235851
+    },
     {
       "id": "REFL-1793492382511",
       "trade_id": "S20:679019:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793146308.936906
-    },
-    {
-      "id": "REFL-1793146308913",
-      "trade_id": "S20:593978:No:BUY",
-      "strategy_id": "S20",
-      "market_title": "Will Bernie endorse Zach Wahls for IA-Sen Nov 2 2026 ET?",
-      "predicted_prob": 0.96,
-      "outcome": 0,
-      "pnl": -0.05,
-      "brier_error": 0.9216,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793146308.9139373
     }
   ],
   "strategy_weights": {
@@ -2625,11 +2625,11 @@
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.4196,
-      "win_rate": 28.6,
-      "trades_count": 287,
+      "brier_score": 0.4201,
+      "win_rate": 28.5,
+      "trades_count": 288,
       "kelly_multiplier": 0.4,
-      "reliability": 0.2156,
+      "reliability": 0.2165,
       "resolution": 0.0,
       "status": "REDUCED"
     },
