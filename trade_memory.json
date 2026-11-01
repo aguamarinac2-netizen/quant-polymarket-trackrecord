@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793553725.1330297,
+  "updated_at": 1793554512.4624157,
   "reflections": [
+    {
+      "id": "REFL-1793554457726",
+      "trade_id": "WT:634974:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
+      "strategy_id": "WT",
+      "market_title": "Will Dan Sullivan win the Alaska Senate race in 2026?",
+      "predicted_prob": 0.88,
+      "outcome": 0,
+      "pnl": -0.27,
+      "brier_error": 0.7744,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793554457.7269714
+    },
     {
       "id": "REFL-1793548079302",
       "trade_id": "S12:630844:Yes:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793146330.53605
-    },
-    {
-      "id": "REFL-1793146322872",
-      "trade_id": "S20:697523:No:BUY",
-      "strategy_id": "S20",
-      "market_title": "Will Unit launch a token by December 31, 2026?",
-      "predicted_prob": 0.96,
-      "outcome": 0,
-      "pnl": -0.07,
-      "brier_error": 0.9216,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793146322.8727145
     }
   ],
   "strategy_weights": {
@@ -2643,11 +2643,11 @@
       "status": "REDUCED"
     },
     "WT": {
-      "brier_score": 0.5533,
-      "win_rate": 25.8,
-      "trades_count": 322,
+      "brier_score": 0.554,
+      "win_rate": 25.7,
+      "trades_count": 323,
       "kelly_multiplier": 0.4,
-      "reliability": 0.359,
+      "reliability": 0.36,
       "resolution": 0.0,
       "status": "REDUCED"
     },
