@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793521070.079467,
+  "updated_at": 1793521313.1852005,
   "reflections": [
+    {
+      "id": "REFL-1793521313170",
+      "trade_id": "S10:920210:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Will Apple release a new product line before 2027?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -2.87,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793521313.170113
+    },
     {
       "id": "REFL-1793516948723",
       "trade_id": "MR:gamma:629337:Yes:1d:SELL",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793146322.803128
-    },
-    {
-      "id": "REFL-1793146322784",
-      "trade_id": "S20:676937:Yes:BUY",
-      "strategy_id": "S20",
-      "market_title": "Will Elon Musk be richest person on December 31?",
-      "predicted_prob": 0.96,
-      "outcome": 0,
-      "pnl": -0.06,
-      "brier_error": 0.9216,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793146322.7841356
     }
   ],
   "strategy_weights": {
@@ -2625,11 +2625,11 @@
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.4201,
-      "win_rate": 28.5,
-      "trades_count": 288,
+      "brier_score": 0.4206,
+      "win_rate": 28.4,
+      "trades_count": 289,
       "kelly_multiplier": 0.4,
-      "reliability": 0.2165,
+      "reliability": 0.2174,
       "resolution": 0.0,
       "status": "REDUCED"
     },
