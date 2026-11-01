@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793516831.4344857,
+  "updated_at": 1793517437.1618516,
   "reflections": [
+    {
+      "id": "REFL-1793516948723",
+      "trade_id": "MR:gamma:629337:Yes:1d:SELL",
+      "strategy_id": "MR",
+      "market_title": "Will the Democrats win the Georgia governor race in 2026?",
+      "predicted_prob": 0.78,
+      "outcome": 0,
+      "pnl": -0.69,
+      "brier_error": 0.6084,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793516948.7236009
+    },
     {
       "id": "REFL-1793516663744",
       "trade_id": "MR:gamma:629324:Yes:1d:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793146322.7841356
-    },
-    {
-      "id": "REFL-1793146322765",
-      "trade_id": "S20:676790:No:BUY",
-      "strategy_id": "S20",
-      "market_title": "Mistral AI IPO before 2027?",
-      "predicted_prob": 0.96,
-      "outcome": 0,
-      "pnl": -0.06,
-      "brier_error": 0.9216,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793146322.7657855
     }
   ],
   "strategy_weights": {
@@ -2652,11 +2652,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3697,
-      "win_rate": 39.7,
-      "trades_count": 353,
+      "brier_score": 0.3704,
+      "win_rate": 39.5,
+      "trades_count": 354,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1304,
+      "reliability": 0.1312,
       "resolution": 0.0,
       "status": "REDUCED"
     },
