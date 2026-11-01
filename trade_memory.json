@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793545606.1518183,
+  "updated_at": 1793546394.5823834,
   "reflections": [
+    {
+      "id": "REFL-1793546292181",
+      "trade_id": "S12:629627:Yes:BUY",
+      "strategy_id": "S12",
+      "market_title": "Will the Democrats win the Rhode Island governor race in 2026?",
+      "predicted_prob": 0.9,
+      "outcome": 0,
+      "pnl": -0.0,
+      "brier_error": 0.81,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793546292.1815724
+    },
     {
       "id": "REFL-1793538799043",
       "trade_id": "S10:1168141:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793146322.8556852
-    },
-    {
-      "id": "REFL-1793146322838",
-      "trade_id": "S20:694932:No:BUY",
-      "strategy_id": "S20",
-      "market_title": "Will Snapchat be acquired before 2027?",
-      "predicted_prob": 0.96,
-      "outcome": 0,
-      "pnl": -0.09,
-      "brier_error": 0.9216,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793146322.8386512
     }
   ],
   "strategy_weights": {
@@ -2634,11 +2634,11 @@
       "status": "REDUCED"
     },
     "S12": {
-      "brier_score": 0.6946,
-      "win_rate": 14.4,
-      "trades_count": 104,
+      "brier_score": 0.6957,
+      "win_rate": 14.3,
+      "trades_count": 105,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5712,
+      "reliability": 0.5733,
       "resolution": 0.0,
       "status": "REDUCED"
     },
