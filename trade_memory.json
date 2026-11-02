@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793629467.6807716,
+  "updated_at": 1793630193.3975887,
   "reflections": [
+    {
+      "id": "REFL-1793629835727",
+      "trade_id": "MR:gamma:919489:Yes:1w:SELL",
+      "strategy_id": "MR",
+      "market_title": "Will the Republican Party hold below 190 House seats after the 2026 midterm elec",
+      "predicted_prob": 0.78,
+      "outcome": 0,
+      "pnl": -0.99,
+      "brier_error": 0.6084,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793629835.7275372
+    },
     {
       "id": "REFL-1793626749367",
       "trade_id": "MR:gamma:943820:Yes:1w:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793177879.0919642
-    },
-    {
-      "id": "REFL-1793174030822",
-      "trade_id": "MR:gamma:629397:Yes:1d:BUY",
-      "strategy_id": "MR",
-      "market_title": "Will the Democrats win the Iowa governor race in 2026?",
-      "predicted_prob": 0.72,
-      "outcome": 0,
-      "pnl": -0.38,
-      "brier_error": 0.5184,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793174030.822637
     }
   ],
   "strategy_weights": {
@@ -2652,11 +2652,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3666,
-      "win_rate": 40.5,
-      "trades_count": 383,
+      "brier_score": 0.3672,
+      "win_rate": 40.4,
+      "trades_count": 384,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1252,
+      "reliability": 0.126,
       "resolution": 0.0,
       "status": "REDUCED"
     },
