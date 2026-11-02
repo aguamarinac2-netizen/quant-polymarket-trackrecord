@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793582502.2138584,
+  "updated_at": 1793583412.4868808,
   "reflections": [
+    {
+      "id": "REFL-1793582665943",
+      "trade_id": "MR:gamma:630747:Yes:1w:BUY",
+      "strategy_id": "MR",
+      "market_title": "Will the Republicans win the Kansas Senate race in 2026?",
+      "predicted_prob": 0.78,
+      "outcome": 0,
+      "pnl": -1.84,
+      "brier_error": 0.6084,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793582665.943344
+    },
     {
       "id": "REFL-1793575648035",
       "trade_id": "MR:local:559664:Yes:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793146514.3696427
-    },
-    {
-      "id": "REFL-1793146344091",
-      "trade_id": "WT:601819:0xadc2efbf97ce7b25f7a638aabdba196c657cd1c9:Yes:BUY",
-      "strategy_id": "WT",
-      "market_title": "Will Luiz Inácio Lula da Silva win the 2026 Brazilian presidential election?",
-      "predicted_prob": 0.88,
-      "outcome": 0,
-      "pnl": -0.35,
-      "brier_error": 0.7744,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793146344.0913162
     }
   ],
   "strategy_weights": {
@@ -2652,11 +2652,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3662,
-      "win_rate": 40.4,
-      "trades_count": 364,
+      "brier_score": 0.3669,
+      "win_rate": 40.3,
+      "trades_count": 365,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1253,
+      "reliability": 0.1261,
       "resolution": 0.0,
       "status": "REDUCED"
     },
