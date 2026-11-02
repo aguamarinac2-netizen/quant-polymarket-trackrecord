@@ -1,6 +1,32 @@
 {
-  "updated_at": 1793614097.3264349,
+  "updated_at": 1793614949.837579,
   "reflections": [
+    {
+      "id": "REFL-1793614858444",
+      "trade_id": "MR:gamma:942301:Yes:1d:BUY",
+      "strategy_id": "MR",
+      "market_title": "Will the Republican Party win the CO-03 House seat?",
+      "predicted_prob": 0.77,
+      "outcome": 0,
+      "pnl": -0.58,
+      "brier_error": 0.5929,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793614858.444314
+    },
+    {
+      "id": "REFL-1793614429473",
+      "trade_id": "S10:1193094:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Will Magdalena Andersson be the next Prime Minister of Sweden?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -0.16,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793614429.4739707
+    },
     {
       "id": "REFL-1793613520311",
       "trade_id": "S10:944342:No:BUY",
@@ -2574,32 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793164753.9191163
-    },
-    {
-      "id": "REFL-1793162602547",
-      "trade_id": "WT:629641:0xd218e474776403a330142299f7796e8ba32eb5c9:No:BUY",
-      "strategy_id": "WT",
-      "market_title": "Will the Republicans win the South Carolina governor race in 2026?",
-      "predicted_prob": 0.85,
-      "outcome": 0,
-      "pnl": -1.28,
-      "brier_error": 0.7225,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793162602.5478892
-    },
-    {
-      "id": "REFL-1793159528918",
-      "trade_id": "WT:629570:0xd218e474776403a330142299f7796e8ba32eb5c9:Yes:BUY",
-      "strategy_id": "WT",
-      "market_title": "Will the Democrats win the Oklahoma governor race in 2026?",
-      "predicted_prob": 0.85,
-      "outcome": 0,
-      "pnl": -0.4,
-      "brier_error": 0.7225,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793159528.9180605
     }
   ],
   "strategy_weights": {
@@ -2625,11 +2625,11 @@
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.4165,
-      "win_rate": 29.2,
-      "trades_count": 298,
+      "brier_score": 0.417,
+      "win_rate": 29.1,
+      "trades_count": 299,
       "kelly_multiplier": 0.4,
-      "reliability": 0.2098,
+      "reliability": 0.2107,
       "resolution": 0.0,
       "status": "REDUCED"
     },
@@ -2652,11 +2652,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3656,
-      "win_rate": 40.6,
-      "trades_count": 379,
+      "brier_score": 0.3662,
+      "win_rate": 40.5,
+      "trades_count": 380,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1239,
+      "reliability": 0.1247,
       "resolution": 0.0,
       "status": "REDUCED"
     },
