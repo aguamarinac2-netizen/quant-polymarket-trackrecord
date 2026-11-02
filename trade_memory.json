@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793639279.4612205,
+  "updated_at": 1793639399.5294883,
   "reflections": [
+    {
+      "id": "REFL-1793639311546",
+      "trade_id": "MR:gamma:943440:Yes:1d:SELL",
+      "strategy_id": "MR",
+      "market_title": "Will the Republican Party win the NY-17 House seat?",
+      "predicted_prob": 0.77,
+      "outcome": 0,
+      "pnl": -0.66,
+      "brier_error": 0.5929,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793639311.546669
+    },
     {
       "id": "REFL-1793638285563",
       "trade_id": "S10:630692:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793183165.530447
-    },
-    {
-      "id": "REFL-1793182829590",
-      "trade_id": "MR:local:559658:Yes:SELL",
-      "strategy_id": "MR",
-      "market_title": "Will Kamala Harris win the 2028 Democratic presidential nomination?",
-      "predicted_prob": 0.75,
-      "outcome": 0,
-      "pnl": -0.72,
-      "brier_error": 0.5625,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793182829.5900507
     }
   ],
   "strategy_weights": {
@@ -2652,11 +2652,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.368,
-      "win_rate": 40.2,
-      "trades_count": 388,
+      "brier_score": 0.3686,
+      "win_rate": 40.1,
+      "trades_count": 389,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1271,
+      "reliability": 0.1279,
       "resolution": 0.0,
       "status": "REDUCED"
     },

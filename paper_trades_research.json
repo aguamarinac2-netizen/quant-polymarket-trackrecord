@@ -58404,7 +58404,7 @@
       "order_type": "LIMIT",
       "entry_price": 0.6463,
       "signal_entry_price": 0.645,
-      "current_price": 0.6,
+      "current_price": 0.595,
       "target_price": 0.72,
       "stop_loss": 0.5418,
       "initial_stop_loss": 0.5418,
@@ -58428,8 +58428,8 @@
       "horizon": "flash",
       "horizon_label": "\u26a1 Flash (<48h)",
       "status": "OPEN",
-      "unrealized_pnl_usd": -0.71,
-      "unrealized_pnl_pct": -7.16,
+      "unrealized_pnl_usd": -0.78,
+      "unrealized_pnl_pct": -7.94,
       "realized_pnl_usd": 0.0,
       "realized_pnl_pct": 0.0,
       "close_reason": null,
@@ -58915,7 +58915,7 @@
       "order_type": "LIMIT",
       "entry_price": 0.3892,
       "signal_entry_price": 0.39,
-      "current_price": 0.4,
+      "current_price": 0.405,
       "target_price": 0.3775,
       "stop_loss": 0.405,
       "initial_stop_loss": 0.405,
@@ -58938,13 +58938,13 @@
       "risk_reward_ratio": 0.83,
       "horizon": "flash",
       "horizon_label": "\u26a1 Flash (<48h)",
-      "status": "OPEN",
-      "unrealized_pnl_usd": -0.27,
-      "unrealized_pnl_pct": -2.77,
-      "realized_pnl_usd": 0.0,
-      "realized_pnl_pct": 0.0,
-      "close_reason": null,
-      "closed_at": null,
+      "status": "LOST",
+      "unrealized_pnl_usd": -0.4,
+      "unrealized_pnl_pct": -4.06,
+      "realized_pnl_usd": -0.66,
+      "realized_pnl_pct": -4.06,
+      "close_reason": "\ud83d\uded1 Stop Loss activado ($0.405 >= $0.405)",
+      "closed_at": "2026-11-02T17:08:31.450579+00:00",
       "engine": "paper"
     },
     "MR:gamma:943441:Yes:1d:BUY": {
@@ -59359,7 +59359,8 @@
       "realized_pnl_pct": 19.84,
       "close_reason": "\ud83c\udfaf Take Profit alcanzado ($0.120 <= $0.122)",
       "closed_at": "2026-11-02T17:07:40.724915+00:00",
-      "engine": "paper"
+      "engine": "paper",
+      "ai_post_mortem_done": true
     },
     "S20:618455:No:BUY": {
       "trade_id": "S20:618455:No:BUY",
@@ -59594,5 +59595,5 @@
       "engine": "paper"
     }
   },
-  "updated_at": "2026-11-02T17:07:40.725107+00:00"
+  "updated_at": "2026-11-02T17:08:31.451017+00:00"
 }
