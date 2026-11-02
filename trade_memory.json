@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793646665.4271755,
+  "updated_at": 1793647335.855688,
   "reflections": [
+    {
+      "id": "REFL-1793647308177",
+      "trade_id": "MR:gamma:562830:Yes:1w:BUY",
+      "strategy_id": "MR",
+      "market_title": "2026 Balance of Power: R Senate, D House",
+      "predicted_prob": 0.78,
+      "outcome": 0,
+      "pnl": -1.45,
+      "brier_error": 0.6084,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793647308.1777534
+    },
     {
       "id": "REFL-1793639311546",
       "trade_id": "MR:gamma:943440:Yes:1d:SELL",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793183268.9135633
-    },
-    {
-      "id": "REFL-1793183165530",
-      "trade_id": "WT:629284:0x66e7ce01c6831b8a2503d09edd6167152ee68bcd:Yes:BUY",
-      "strategy_id": "WT",
-      "market_title": "Will the Republicans win the Arkansas governor race in 2026?",
-      "predicted_prob": 0.82,
-      "outcome": 0,
-      "pnl": -0.06,
-      "brier_error": 0.6724,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793183165.530447
     }
   ],
   "strategy_weights": {
@@ -2652,11 +2652,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3662,
+      "brier_score": 0.366,
       "win_rate": 40.6,
-      "trades_count": 392,
+      "trades_count": 394,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1247,
+      "reliability": 0.1244,
       "resolution": 0.0,
       "status": "REDUCED"
     },
