@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793650248.8861563,
+  "updated_at": 1793650964.064895,
   "reflections": [
+    {
+      "id": "REFL-1793650964052",
+      "trade_id": "S12:630818:Yes:BUY",
+      "strategy_id": "S12",
+      "market_title": "Will the Democrats win the Minnesota Senate race in 2026?",
+      "predicted_prob": 0.9,
+      "outcome": 0,
+      "pnl": -0.01,
+      "brier_error": 0.81,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793650964.052861
+    },
     {
       "id": "REFL-1793648684863",
       "trade_id": "MR:gamma:562793:Yes:1w:SELL",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793191671.6267781
-    },
-    {
-      "id": "REFL-1793187636874",
-      "trade_id": "MR:gamma:629338:Yes:1w:BUY",
-      "strategy_id": "MR",
-      "market_title": "Will the Republicans win the Georgia governor race in 2026?",
-      "predicted_prob": 0.78,
-      "outcome": 0,
-      "pnl": -0.41,
-      "brier_error": 0.6084,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793187636.8741772
     }
   ],
   "strategy_weights": {
@@ -2634,11 +2634,11 @@
       "status": "REDUCED"
     },
     "S12": {
-      "brier_score": 0.6915,
-      "win_rate": 14.8,
-      "trades_count": 108,
+      "brier_score": 0.6926,
+      "win_rate": 14.7,
+      "trades_count": 109,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5653,
+      "reliability": 0.5673,
       "resolution": 0.0,
       "status": "REDUCED"
     },
@@ -2652,11 +2652,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3667,
-      "win_rate": 40.5,
-      "trades_count": 395,
+      "brier_score": 0.3659,
+      "win_rate": 40.7,
+      "trades_count": 396,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1251,
+      "reliability": 0.1241,
       "resolution": 0.0,
       "status": "REDUCED"
     },
