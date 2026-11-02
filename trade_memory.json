@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793585225.9796507,
+  "updated_at": 1793586133.7046864,
   "reflections": [
+    {
+      "id": "REFL-1793585830792",
+      "trade_id": "S10:629413:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Will the Republicans win the Kansas governor race in 2026?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -0.32,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793585830.7929385
+    },
     {
       "id": "REFL-1793582665943",
       "trade_id": "MR:gamma:630747:Yes:1w:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793148624.2814791
-    },
-    {
-      "id": "REFL-1793146514369",
-      "trade_id": "WT:601826:0xadc2efbf97ce7b25f7a638aabdba196c657cd1c9:No:BUY",
-      "strategy_id": "WT",
-      "market_title": "Will Flávio Bolsonaro win the 2026 Brazilian presidential election?",
-      "predicted_prob": 0.88,
-      "outcome": 0,
-      "pnl": -0.35,
-      "brier_error": 0.7744,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793146514.3696427
     }
   ],
   "strategy_weights": {
@@ -2625,11 +2625,11 @@
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.4199,
-      "win_rate": 28.5,
-      "trades_count": 291,
+      "brier_score": 0.4204,
+      "win_rate": 28.4,
+      "trades_count": 292,
       "kelly_multiplier": 0.4,
-      "reliability": 0.216,
+      "reliability": 0.2169,
       "resolution": 0.0,
       "status": "REDUCED"
     },
