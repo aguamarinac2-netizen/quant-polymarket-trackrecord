@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793589711.8560283,
+  "updated_at": 1793590617.8212533,
   "reflections": [
+    {
+      "id": "REFL-1793590333643",
+      "trade_id": "MR:gamma:630733:Yes:1w:SELL",
+      "strategy_id": "MR",
+      "market_title": "Will the Democrats win the Iowa Senate race in 2026?",
+      "predicted_prob": 0.78,
+      "outcome": 0,
+      "pnl": -0.79,
+      "brier_error": 0.6084,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793590333.6436403
+    },
     {
       "id": "REFL-1793588861434",
       "trade_id": "MR:gamma:629690:Yes:1d:SELL",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793150261.7212584
-    },
-    {
-      "id": "REFL-1793150261696",
-      "trade_id": "WT:648383:0xeface9902242b0399856f981600b907dcc9bc9a1:Yes:BUY",
-      "strategy_id": "WT",
-      "market_title": "Billionaire one-time wealth tax passes in California election 2026?",
-      "predicted_prob": 0.81,
-      "outcome": 0,
-      "pnl": -1.21,
-      "brier_error": 0.6561,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793150261.6968012
     }
   ],
   "strategy_weights": {
@@ -2652,11 +2652,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3659,
-      "win_rate": 40.5,
-      "trades_count": 368,
+      "brier_score": 0.3666,
+      "win_rate": 40.4,
+      "trades_count": 369,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1246,
+      "reliability": 0.1254,
       "resolution": 0.0,
       "status": "REDUCED"
     },
