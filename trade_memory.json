@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793616819.32187,
+  "updated_at": 1793617605.9768095,
   "reflections": [
+    {
+      "id": "REFL-1793617036352",
+      "trade_id": "MR:gamma:682710:Yes:1d:BUY",
+      "strategy_id": "MR",
+      "market_title": "Will Avigdor Lieberman be the next Prime Minister of Israel?",
+      "predicted_prob": 0.77,
+      "outcome": 0,
+      "pnl": -0.09,
+      "brier_error": 0.5929,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793617036.3525047
+    },
     {
       "id": "REFL-1793614858444",
       "trade_id": "MR:gamma:942301:Yes:1d:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793169727.2531545
-    },
-    {
-      "id": "REFL-1793164753919",
-      "trade_id": "S10:630720:No:BUY",
-      "strategy_id": "S10",
-      "market_title": "Will the Democrats win the Illinois Senate race in 2026?",
-      "predicted_prob": 0.75,
-      "outcome": 0,
-      "pnl": -1.97,
-      "brier_error": 0.5625,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793164753.9191163
     }
   ],
   "strategy_weights": {
@@ -2616,11 +2616,11 @@
   },
   "strategy_brier_scores": {
     "S20": {
-      "brier_score": 0.7931,
-      "win_rate": 14.0,
-      "trades_count": 221,
+      "brier_score": 0.7895,
+      "win_rate": 14.4,
+      "trades_count": 222,
       "kelly_multiplier": 0.4,
-      "reliability": 0.6725,
+      "reliability": 0.6662,
       "resolution": 0.0,
       "status": "REDUCED"
     },
@@ -2652,11 +2652,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3662,
-      "win_rate": 40.5,
-      "trades_count": 380,
+      "brier_score": 0.3668,
+      "win_rate": 40.4,
+      "trades_count": 381,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1247,
+      "reliability": 0.1255,
       "resolution": 0.0,
       "status": "REDUCED"
     },
