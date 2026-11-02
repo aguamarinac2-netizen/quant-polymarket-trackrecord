@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T08:53:48.839080+00:00",
+  "generated_at": "2026-11-02T09:07:33.749930+00:00",
   "campaign": "demo-15d",
   "strategies": [
     {
@@ -227,12 +227,12 @@
     {
       "strategy_code": "MR",
       "strategy_name": "C: Mean Reversion",
-      "total": 407,
-      "open": 26,
+      "total": 408,
+      "open": 27,
       "won": 220,
       "lost": 161,
       "realized_pnl_usd": -107.96,
-      "unrealized_pnl_usd": 11.1,
+      "unrealized_pnl_usd": 11.83,
       "partial_fills": 1,
       "by_source": {
         "realistic": {
@@ -242,10 +242,10 @@
           "net_pnl_usd": -15.05
         },
         "research": {
-          "total": 350,
+          "total": 351,
           "won": 190,
           "lost": 142,
-          "net_pnl_usd": -83.27
+          "net_pnl_usd": -82.54
         },
         "hybrid": {
           "total": 3,
@@ -256,7 +256,7 @@
       },
       "closed": 381,
       "win_rate_pct": 57.7,
-      "net_pnl_usd": -96.86,
+      "net_pnl_usd": -96.13,
       "avg_book_slippage_bps": 0.0,
       "verdict": "DESCARTAR"
     },
