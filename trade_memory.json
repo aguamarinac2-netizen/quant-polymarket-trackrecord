@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793593341.7431734,
+  "updated_at": 1793594250.2200916,
   "reflections": [
+    {
+      "id": "REFL-1793593464353",
+      "trade_id": "MR:gamma:943440:Yes:1d:BUY",
+      "strategy_id": "MR",
+      "market_title": "Will the Republican Party win the NY-17 House seat?",
+      "predicted_prob": 0.77,
+      "outcome": 0,
+      "pnl": -0.7,
+      "brier_error": 0.5929,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793593464.35303
+    },
     {
       "id": "REFL-1793590333643",
       "trade_id": "MR:gamma:630733:Yes:1w:SELL",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793152510.3469903
-    },
-    {
-      "id": "REFL-1793150261721",
-      "trade_id": "MR:gamma:648383:Yes:1d:BUY",
-      "strategy_id": "MR",
-      "market_title": "Billionaire one-time wealth tax passes in California election 2026?",
-      "predicted_prob": 0.72,
-      "outcome": 0,
-      "pnl": -1.01,
-      "brier_error": 0.5184,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793150261.7212584
     }
   ],
   "strategy_weights": {
@@ -2652,11 +2652,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3666,
-      "win_rate": 40.4,
-      "trades_count": 369,
+      "brier_score": 0.3672,
+      "win_rate": 40.3,
+      "trades_count": 370,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1254,
+      "reliability": 0.1262,
       "resolution": 0.0,
       "status": "REDUCED"
     },
