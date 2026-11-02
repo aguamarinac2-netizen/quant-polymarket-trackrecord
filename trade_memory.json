@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793597880.9436696,
+  "updated_at": 1793598728.4858592,
   "reflections": [
+    {
+      "id": "REFL-1793598160212",
+      "trade_id": "MR:gamma:561975:Yes:1w:SELL",
+      "strategy_id": "MR",
+      "market_title": "Will Marco Rubio win the 2028 Republican presidential nomination?",
+      "predicted_prob": 0.78,
+      "outcome": 0,
+      "pnl": -1.64,
+      "brier_error": 0.6084,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793598160.212356
+    },
     {
       "id": "REFL-1793597821256",
       "trade_id": "MR:gamma:629030:Yes:1w:SELL",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793156457.549726
-    },
-    {
-      "id": "REFL-1793155252522",
-      "trade_id": "MR:gamma:629325:Yes:1d:BUY",
-      "strategy_id": "MR",
-      "market_title": "Will the Republicans win the Florida governor race in 2026?",
-      "predicted_prob": 0.78,
-      "outcome": 0,
-      "pnl": -0.43,
-      "brier_error": 0.6084,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793155252.5229645
     }
   ],
   "strategy_weights": {
@@ -2625,11 +2625,11 @@
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.4192,
-      "win_rate": 28.7,
-      "trades_count": 293,
+      "brier_score": 0.4179,
+      "win_rate": 28.9,
+      "trades_count": 294,
       "kelly_multiplier": 0.4,
-      "reliability": 0.2147,
+      "reliability": 0.2124,
       "resolution": 0.0,
       "status": "REDUCED"
     },
@@ -2652,11 +2652,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3651,
-      "win_rate": 40.7,
-      "trades_count": 376,
+      "brier_score": 0.3658,
+      "win_rate": 40.6,
+      "trades_count": 377,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1234,
+      "reliability": 0.1242,
       "resolution": 0.0,
       "status": "REDUCED"
     },
