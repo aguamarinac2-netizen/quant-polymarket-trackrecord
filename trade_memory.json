@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793648492.0094004,
+  "updated_at": 1793649157.946835,
   "reflections": [
+    {
+      "id": "REFL-1793648684863",
+      "trade_id": "MR:gamma:562793:Yes:1w:SELL",
+      "strategy_id": "MR",
+      "market_title": "Will the Democratic Party control the Senate after the 2026 Midterm elections?",
+      "predicted_prob": 0.78,
+      "outcome": 0,
+      "pnl": -0.63,
+      "brier_error": 0.6084,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793648684.8635595
+    },
     {
       "id": "REFL-1793647308177",
       "trade_id": "MR:gamma:562830:Yes:1w:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793187636.8741772
-    },
-    {
-      "id": "REFL-1793183268913",
-      "trade_id": "MR:gamma:629505:Yes:1d:SELL",
-      "strategy_id": "MR",
-      "market_title": "Will the Democrats win the Nevada governor race in 2026?",
-      "predicted_prob": 0.78,
-      "outcome": 0,
-      "pnl": -0.66,
-      "brier_error": 0.6084,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793183268.9135633
     }
   ],
   "strategy_weights": {
@@ -2652,11 +2652,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.366,
-      "win_rate": 40.6,
-      "trades_count": 394,
+      "brier_score": 0.3667,
+      "win_rate": 40.5,
+      "trades_count": 395,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1244,
+      "reliability": 0.1251,
       "resolution": 0.0,
       "status": "REDUCED"
     },
