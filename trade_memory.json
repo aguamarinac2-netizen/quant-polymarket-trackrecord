@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793598790.1275804,
+  "updated_at": 1793599637.2905414,
   "reflections": [
+    {
+      "id": "REFL-1793599052235",
+      "trade_id": "MR:gamma:629030:Yes:1d:BUY",
+      "strategy_id": "MR",
+      "market_title": "Will Karen Bass win the 2026 Los Angeles mayoral election?",
+      "predicted_prob": 0.78,
+      "outcome": 0,
+      "pnl": -0.29,
+      "brier_error": 0.6084,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793599052.2352028
+    },
     {
       "id": "REFL-1793598160212",
       "trade_id": "MR:gamma:561975:Yes:1w:SELL",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793158301.6235518
-    },
-    {
-      "id": "REFL-1793156457549",
-      "trade_id": "WT:561237:0x873225e6e81581b72f531804d53c063af7654f44:Yes:BUY",
-      "strategy_id": "WT",
-      "market_title": "Will Andy Beshear win the 2028 US Presidential Election?",
-      "predicted_prob": 0.88,
-      "outcome": 0,
-      "pnl": -1.75,
-      "brier_error": 0.7744,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793156457.549726
     }
   ],
   "strategy_weights": {
@@ -2652,11 +2652,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3658,
+      "brier_score": 0.3656,
       "win_rate": 40.6,
-      "trades_count": 377,
+      "trades_count": 379,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1242,
+      "reliability": 0.1239,
       "resolution": 0.0,
       "status": "REDUCED"
     },
