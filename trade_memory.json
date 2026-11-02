@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793636732.7870858,
+  "updated_at": 1793637457.772689,
   "reflections": [
+    {
+      "id": "REFL-1793637007198",
+      "trade_id": "MR:gamma:1059067:Yes:1w:SELL",
+      "strategy_id": "MR",
+      "market_title": "Will a team from LPL (China) win LoL Worlds 2026?",
+      "predicted_prob": 0.78,
+      "outcome": 0,
+      "pnl": -0.14,
+      "brier_error": 0.6084,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793637007.1987088
+    },
     {
       "id": "REFL-1793635976379",
       "trade_id": "MR:gamma:629583:Yes:1d:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793181849.6612713
-    },
-    {
-      "id": "REFL-1793179787302",
-      "trade_id": "WT:648383:0x41eacf5aaa4c7fc883a098635b981050715d7a3d:Yes:BUY",
-      "strategy_id": "WT",
-      "market_title": "Billionaire one-time wealth tax passes in California election 2026?",
-      "predicted_prob": 0.83,
-      "outcome": 0,
-      "pnl": -0.35,
-      "brier_error": 0.6889,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793179787.3027368
     }
   ],
   "strategy_weights": {
@@ -2652,11 +2652,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3676,
-      "win_rate": 40.3,
-      "trades_count": 385,
+      "brier_score": 0.3682,
+      "win_rate": 40.2,
+      "trades_count": 386,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1266,
+      "reliability": 0.1274,
       "resolution": 0.0,
       "status": "REDUCED"
     },
