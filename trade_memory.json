@@ -1,6 +1,32 @@
 {
-  "updated_at": 1793613189.640122,
+  "updated_at": 1793614037.3009193,
   "reflections": [
+    {
+      "id": "REFL-1793613520311",
+      "trade_id": "S10:944342:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Will the Democratic Party win the WI-03 House seat?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -0.39,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793613520.3114555
+    },
+    {
+      "id": "REFL-1793613426043",
+      "trade_id": "S10:1192820:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Will China’s 2026 annual GDP growth (Y/Y) be between 4.0% and 5.0%?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -0.79,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793613426.0432222
+    },
     {
       "id": "REFL-1793599052235",
       "trade_id": "MR:gamma:629030:Yes:1d:BUY",
@@ -2574,32 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793159528.9180605
-    },
-    {
-      "id": "REFL-1793158608669",
-      "trade_id": "WT:629465:0xd218e474776403a330142299f7796e8ba32eb5c9:Yes:BUY",
-      "strategy_id": "WT",
-      "market_title": "Will the Republicans win the Michigan governor race in 2026?",
-      "predicted_prob": 0.85,
-      "outcome": 0,
-      "pnl": -1.79,
-      "brier_error": 0.7225,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793158608.6690514
-    },
-    {
-      "id": "REFL-1793158301623",
-      "trade_id": "WT:629464:0xd218e474776403a330142299f7796e8ba32eb5c9:No:BUY",
-      "strategy_id": "WT",
-      "market_title": "Will the Democrats win the Michigan governor race in 2026?",
-      "predicted_prob": 0.84,
-      "outcome": 0,
-      "pnl": -1.46,
-      "brier_error": 0.7056,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793158301.6235518
     }
   ],
   "strategy_weights": {
@@ -2625,11 +2625,11 @@
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.4155,
-      "win_rate": 29.4,
-      "trades_count": 296,
+      "brier_score": 0.4165,
+      "win_rate": 29.2,
+      "trades_count": 298,
       "kelly_multiplier": 0.4,
-      "reliability": 0.208,
+      "reliability": 0.2098,
       "resolution": 0.0,
       "status": "REDUCED"
     },
