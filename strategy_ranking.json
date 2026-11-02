@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T18:26:12.394066+00:00",
+  "generated_at": "2026-11-02T18:37:49.707620+00:00",
   "campaign": "demo-15d",
   "strategies": [
     {
@@ -148,7 +148,7 @@
       "won": 36,
       "lost": 72,
       "realized_pnl_usd": -16.06,
-      "unrealized_pnl_usd": -7.83,
+      "unrealized_pnl_usd": -7.77,
       "partial_fills": 0,
       "by_source": {
         "realistic": {
@@ -161,12 +161,12 @@
           "total": 93,
           "won": 31,
           "lost": 60,
-          "net_pnl_usd": -21.31
+          "net_pnl_usd": -21.25
         }
       },
       "closed": 108,
       "win_rate_pct": 33.3,
-      "net_pnl_usd": -23.89,
+      "net_pnl_usd": -23.83,
       "avg_book_slippage_bps": null,
       "verdict": "DESCARTAR"
     },
@@ -202,7 +202,7 @@
       "won": 64,
       "lost": 160,
       "realized_pnl_usd": -22.31,
-      "unrealized_pnl_usd": -7.22,
+      "unrealized_pnl_usd": -7.17,
       "partial_fills": 0,
       "by_source": {
         "realistic": {
@@ -215,24 +215,24 @@
           "total": 248,
           "won": 63,
           "lost": 160,
-          "net_pnl_usd": -32.83
+          "net_pnl_usd": -32.78
         }
       },
       "closed": 224,
       "win_rate_pct": 28.6,
-      "net_pnl_usd": -29.53,
+      "net_pnl_usd": -29.48,
       "avg_book_slippage_bps": null,
       "verdict": "DESCARTAR"
     },
     {
       "strategy_code": "MR",
       "strategy_name": "C: Mean Reversion",
-      "total": 421,
-      "open": 30,
-      "won": 224,
+      "total": 423,
+      "open": 31,
+      "won": 225,
       "lost": 167,
-      "realized_pnl_usd": -110.09,
-      "unrealized_pnl_usd": 10.9,
+      "realized_pnl_usd": -109.61,
+      "unrealized_pnl_usd": 10.71,
       "partial_fills": 1,
       "by_source": {
         "realistic": {
@@ -242,10 +242,10 @@
           "net_pnl_usd": -17.53
         },
         "research": {
-          "total": 362,
-          "won": 194,
+          "total": 364,
+          "won": 195,
           "lost": 147,
-          "net_pnl_usd": -83.12
+          "net_pnl_usd": -82.83
         },
         "hybrid": {
           "total": 3,
@@ -254,9 +254,9 @@
           "net_pnl_usd": 1.46
         }
       },
-      "closed": 391,
-      "win_rate_pct": 57.3,
-      "net_pnl_usd": -99.19,
+      "closed": 392,
+      "win_rate_pct": 57.4,
+      "net_pnl_usd": -98.9,
       "avg_book_slippage_bps": 0.0,
       "verdict": "DESCARTAR"
     },
