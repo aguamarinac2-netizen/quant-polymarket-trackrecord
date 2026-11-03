@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793721130.9320903,
+  "updated_at": 1793721681.5581765,
   "reflections": [
+    {
+      "id": "REFL-1793721681303",
+      "trade_id": "MR:gamma:665374:Yes:1w:BUY",
+      "strategy_id": "MR",
+      "market_title": "Will the U.S. invade Iran before 2027?",
+      "predicted_prob": 0.78,
+      "outcome": 0,
+      "pnl": -0.73,
+      "brier_error": 0.6084,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793721681.3039498
+    },
     {
       "id": "REFL-1793720550003",
       "trade_id": "MR:gamma:630845:Yes:1w:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793230634.2186217
-    },
-    {
-      "id": "REFL-1793228901940",
-      "trade_id": "WT:630692:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
-      "strategy_id": "WT",
-      "market_title": "Will the Democrats win the Georgia Senate race in 2026?",
-      "predicted_prob": 0.88,
-      "outcome": 0,
-      "pnl": -1.73,
-      "brier_error": 0.7744,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793228901.9400449
     }
   ],
   "strategy_weights": {
@@ -2652,11 +2652,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3611,
+      "brier_score": 0.361,
       "win_rate": 41.7,
-      "trades_count": 422,
+      "trades_count": 424,
       "kelly_multiplier": 0.4,
-      "reliability": 0.117,
+      "reliability": 0.1168,
       "resolution": 0.0,
       "status": "REDUCED"
     },
