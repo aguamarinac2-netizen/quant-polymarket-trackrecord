@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793680966.2305841,
+  "updated_at": 1793681510.4712992,
   "reflections": [
+    {
+      "id": "REFL-1793681034186",
+      "trade_id": "MR:gamma:943441:Yes:1d:BUY",
+      "strategy_id": "MR",
+      "market_title": "Will the Democratic Party win the NY-17 House seat?",
+      "predicted_prob": 0.78,
+      "outcome": 0,
+      "pnl": -0.7,
+      "brier_error": 0.6084,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793681034.1860423
+    },
     {
       "id": "REFL-1793670525587",
       "trade_id": "MR:gamma:629413:Yes:1d:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793210370.2651334
-    },
-    {
-      "id": "REFL-1793207591582",
-      "trade_id": "WT:631058:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
-      "strategy_id": "WT",
-      "market_title": "Will the Republicans win the Ohio Senate race in 2026?",
-      "predicted_prob": 0.88,
-      "outcome": 0,
-      "pnl": -0.31,
-      "brier_error": 0.7744,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793207591.5826662
     }
   ],
   "strategy_weights": {
@@ -2652,11 +2652,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3631,
-      "win_rate": 41.2,
-      "trades_count": 403,
+      "brier_score": 0.3638,
+      "win_rate": 41.1,
+      "trades_count": 404,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1206,
+      "reliability": 0.1213,
       "resolution": 0.0,
       "status": "REDUCED"
     },
