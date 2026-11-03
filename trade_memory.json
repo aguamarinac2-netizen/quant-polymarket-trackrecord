@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793722962.7516785,
+  "updated_at": 1793723506.6370323,
   "reflections": [
+    {
+      "id": "REFL-1793723038050",
+      "trade_id": "MR:gamma:631044:Yes:1d:BUY",
+      "strategy_id": "MR",
+      "market_title": "Will the Democrats win the Florida Senate race in 2026?",
+      "predicted_prob": 0.72,
+      "outcome": 0,
+      "pnl": -0.88,
+      "brier_error": 0.5184,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793723038.050719
+    },
     {
       "id": "REFL-1793721681303",
       "trade_id": "MR:gamma:665374:Yes:1w:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793234703.4776783
-    },
-    {
-      "id": "REFL-1793230634218",
-      "trade_id": "S12:902970:Yes:BUY",
-      "strategy_id": "S12",
-      "market_title": "Will ACA premium tax credits not be extended and will the Democratic Party win t",
-      "predicted_prob": 0.9,
-      "outcome": 0,
-      "pnl": -0.22,
-      "brier_error": 0.81,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793230634.2186217
     }
   ],
   "strategy_weights": {
@@ -2652,11 +2652,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.361,
-      "win_rate": 41.7,
-      "trades_count": 424,
+      "brier_score": 0.3613,
+      "win_rate": 41.6,
+      "trades_count": 425,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1168,
+      "reliability": 0.1174,
       "resolution": 0.0,
       "status": "REDUCED"
     },
