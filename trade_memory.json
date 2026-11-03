@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793694147.7809753,
+  "updated_at": 1793694568.0359583,
   "reflections": [
+    {
+      "id": "REFL-1793694458368",
+      "trade_id": "S10:942304:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Will the Democratic Party win the CO-03 House seat?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -3.07,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793694458.368323
+    },
     {
       "id": "REFL-1793689390951",
       "trade_id": "MR:gamma:629338:Yes:1w:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793216316.417457
-    },
-    {
-      "id": "REFL-1793215417607",
-      "trade_id": "WT:629571:0x66e7ce01c6831b8a2503d09edd6167152ee68bcd:No:SELL",
-      "strategy_id": "WT",
-      "market_title": "Will the Republicans win the Oklahoma governor race in 2026?",
-      "predicted_prob": 0.82,
-      "outcome": 0,
-      "pnl": -2.01,
-      "brier_error": 0.6724,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793215417.607778
     }
   ],
   "strategy_weights": {
@@ -2625,11 +2625,11 @@
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.4117,
-      "win_rate": 30.2,
-      "trades_count": 305,
+      "brier_score": 0.4122,
+      "win_rate": 30.1,
+      "trades_count": 306,
       "kelly_multiplier": 0.4,
-      "reliability": 0.201,
+      "reliability": 0.2019,
       "resolution": 0.0,
       "status": "REDUCED"
     },
