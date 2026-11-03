@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793747889.6017475,
+  "updated_at": 1793748191.7749867,
   "reflections": [
+    {
+      "id": "REFL-1793747963452",
+      "trade_id": "MR:gamma:561975:Yes:1d:BUY",
+      "strategy_id": "MR",
+      "market_title": "Will Marco Rubio win the 2028 Republican presidential nomination?",
+      "predicted_prob": 0.78,
+      "outcome": 0,
+      "pnl": -1.42,
+      "brier_error": 0.6084,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793747963.4521883
+    },
     {
       "id": "REFL-1793747624593",
       "trade_id": "MR:gamma:629398:Yes:1w:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793269738.352473
-    },
-    {
-      "id": "REFL-1793269424658",
-      "trade_id": "MR:gamma:943942:Yes:1d:BUY",
-      "strategy_id": "MR",
-      "market_title": "Will the Republican Party win the PA-08 House seat?",
-      "predicted_prob": 0.78,
-      "outcome": 0,
-      "pnl": -1.76,
-      "brier_error": 0.6084,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793269424.6582944
     }
   ],
   "strategy_weights": {
@@ -2652,11 +2652,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3615,
-      "win_rate": 41.7,
-      "trades_count": 439,
+      "brier_score": 0.3621,
+      "win_rate": 41.6,
+      "trades_count": 440,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1173,
+      "reliability": 0.118,
       "resolution": 0.0,
       "status": "REDUCED"
     },
