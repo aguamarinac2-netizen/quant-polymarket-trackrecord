@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793710309.7127936,
+  "updated_at": 1793710793.2350585,
   "reflections": [
+    {
+      "id": "REFL-1793710760138",
+      "trade_id": "MR:gamma:943823:Yes:1w:BUY",
+      "strategy_id": "MR",
+      "market_title": "Will the Republican Party hold exactly 51 Senate seats after the 2026 midterm el",
+      "predicted_prob": 0.78,
+      "outcome": 0,
+      "pnl": -3.84,
+      "brier_error": 0.6084,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793710760.1383884
+    },
     {
       "id": "REFL-1793696299163",
       "trade_id": "S20:665321:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793222229.4595032
-    },
-    {
-      "id": "REFL-1793221551543",
-      "trade_id": "WT:629571:0x5a218c7ad04135830a45c41aaed7294df7809318:No:BUY",
-      "strategy_id": "WT",
-      "market_title": "Will the Republicans win the Oklahoma governor race in 2026?",
-      "predicted_prob": 0.88,
-      "outcome": 0,
-      "pnl": -1.31,
-      "brier_error": 0.7744,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793221551.5435586
     }
   ],
   "strategy_weights": {
@@ -2652,11 +2652,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3625,
-      "win_rate": 41.4,
-      "trades_count": 415,
+      "brier_score": 0.3631,
+      "win_rate": 41.3,
+      "trades_count": 416,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1188,
+      "reliability": 0.1195,
       "resolution": 0.0,
       "status": "REDUCED"
     },
