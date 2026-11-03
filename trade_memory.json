@@ -1,6 +1,32 @@
 {
-  "updated_at": 1793695051.178037,
+  "updated_at": 1793695473.6758645,
   "reflections": [
+    {
+      "id": "REFL-1793695185521",
+      "trade_id": "S20:631045:Yes:BUY",
+      "strategy_id": "S20",
+      "market_title": "Will the Republicans win the Florida Senate race in 2026?",
+      "predicted_prob": 0.96,
+      "outcome": 0,
+      "pnl": -0.63,
+      "brier_error": 0.9216,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793695185.5211198
+    },
+    {
+      "id": "REFL-1793695185501",
+      "trade_id": "S20:631044:No:BUY",
+      "strategy_id": "S20",
+      "market_title": "Will the Democrats win the Florida Senate race in 2026?",
+      "predicted_prob": 0.96,
+      "outcome": 0,
+      "pnl": -0.63,
+      "brier_error": 0.9216,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793695185.5017421
+    },
     {
       "id": "REFL-1793694458368",
       "trade_id": "S10:942304:No:BUY",
@@ -2574,32 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793219035.5884652
-    },
-    {
-      "id": "REFL-1793217831055",
-      "trade_id": "WT:562803:0xfea31bc088000ff909be1dfd8d0e3f2c7ef2d227:No:BUY",
-      "strategy_id": "WT",
-      "market_title": "Will the Republican Party control the House after the 2026 Midterm elections?",
-      "predicted_prob": 0.86,
-      "outcome": 0,
-      "pnl": -0.07,
-      "brier_error": 0.7396,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793217831.0553057
-    },
-    {
-      "id": "REFL-1793216316417",
-      "trade_id": "S24:559655:No:BUY",
-      "strategy_id": "S24",
-      "market_title": "Will Josh Shapiro win the 2028 Democratic presidential nomination?",
-      "predicted_prob": 0.76,
-      "outcome": 0,
-      "pnl": -0.06,
-      "brier_error": 0.5776,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793216316.417457
     }
   ],
   "strategy_weights": {
@@ -2616,11 +2616,11 @@
   },
   "strategy_brier_scores": {
     "S20": {
-      "brier_score": 0.7732,
-      "win_rate": 16.2,
-      "trades_count": 241,
+      "brier_score": 0.7744,
+      "win_rate": 16.0,
+      "trades_count": 243,
       "kelly_multiplier": 0.4,
-      "reliability": 0.6376,
+      "reliability": 0.6397,
       "resolution": 0.0,
       "status": "REDUCED"
     },
