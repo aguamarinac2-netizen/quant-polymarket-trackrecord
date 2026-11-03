@@ -1,6 +1,45 @@
 {
-  "updated_at": 1793747225.0588815,
+  "updated_at": 1793747889.6017475,
   "reflections": [
+    {
+      "id": "REFL-1793747624593",
+      "trade_id": "MR:gamma:629398:Yes:1w:BUY",
+      "strategy_id": "MR",
+      "market_title": "Will the Republicans win the Iowa governor race in 2026?",
+      "predicted_prob": 0.78,
+      "outcome": 0,
+      "pnl": -2.39,
+      "brier_error": 0.6084,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793747624.5930614
+    },
+    {
+      "id": "REFL-1793747576516",
+      "trade_id": "MR:gamma:943822:Yes:1w:BUY",
+      "strategy_id": "MR",
+      "market_title": "Will the Republican Party hold exactly 50 Senate seats after the 2026 midterm el",
+      "predicted_prob": 0.78,
+      "outcome": 0,
+      "pnl": -1.09,
+      "brier_error": 0.6084,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793747576.516357
+    },
+    {
+      "id": "REFL-1793747576495",
+      "trade_id": "MR:gamma:944199:Yes:1w:BUY",
+      "strategy_id": "MR",
+      "market_title": "Will the Republican Party win the TX-15 House seat?",
+      "predicted_prob": 0.78,
+      "outcome": 0,
+      "pnl": -3.35,
+      "brier_error": 0.6084,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793747576.4960148
+    },
     {
       "id": "REFL-1793740657350",
       "trade_id": "S12:630654:Yes:BUY",
@@ -2561,45 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793269424.6582944
-    },
-    {
-      "id": "REFL-1793266891837",
-      "trade_id": "WT:630805:0xe25b9180f5687aa85bd94ee309bb72a464320f1b:No:BUY",
-      "strategy_id": "WT",
-      "market_title": "Will the Democrats win the Michigan Senate race in 2026?",
-      "predicted_prob": 0.81,
-      "outcome": 0,
-      "pnl": -1.13,
-      "brier_error": 0.6561,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793266891.8372662
-    },
-    {
-      "id": "REFL-1793265777184",
-      "trade_id": "S10:629284:No:BUY",
-      "strategy_id": "S10",
-      "market_title": "Will the Republicans win the Arkansas governor race in 2026?",
-      "predicted_prob": 0.75,
-      "outcome": 0,
-      "pnl": -0.27,
-      "brier_error": 0.5625,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793265777.1848426
-    },
-    {
-      "id": "REFL-1793261650201",
-      "trade_id": "WT:629544:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
-      "strategy_id": "WT",
-      "market_title": "Will the Democrats win the New York governor race in 2026?",
-      "predicted_prob": 0.88,
-      "outcome": 0,
-      "pnl": -1.74,
-      "brier_error": 0.7744,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793261650.2013705
     }
   ],
   "strategy_weights": {
@@ -2652,11 +2652,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3612,
+      "brier_score": 0.3615,
       "win_rate": 41.7,
-      "trades_count": 434,
+      "trades_count": 439,
       "kelly_multiplier": 0.4,
-      "reliability": 0.117,
+      "reliability": 0.1173,
       "resolution": 0.0,
       "status": "REDUCED"
     },
