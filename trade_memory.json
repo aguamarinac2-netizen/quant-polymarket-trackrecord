@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793664753.8613482,
+  "updated_at": 1793665357.1488223,
   "reflections": [
+    {
+      "id": "REFL-1793665187883",
+      "trade_id": "S20:716831:No:BUY",
+      "strategy_id": "S20",
+      "market_title": "Extended FDV above $3B one day after launch?",
+      "predicted_prob": 0.96,
+      "outcome": 0,
+      "pnl": -0.0,
+      "brier_error": 0.9216,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793665187.8831637
+    },
     {
       "id": "REFL-1793664753707",
       "trade_id": "S20:716650:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793206387.6372828
-    },
-    {
-      "id": "REFL-1793199295789",
-      "trade_id": "MR:gamma:630734:Yes:1d:BUY",
-      "strategy_id": "MR",
-      "market_title": "Will the Republicans win the Iowa Senate race in 2026?",
-      "predicted_prob": 0.72,
-      "outcome": 0,
-      "pnl": -0.04,
-      "brier_error": 0.5184,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793199295.7898986
     }
   ],
   "strategy_weights": {
@@ -2616,20 +2616,20 @@
   },
   "strategy_brier_scores": {
     "S20": {
-      "brier_score": 0.7726,
+      "brier_score": 0.7732,
       "win_rate": 16.2,
-      "trades_count": 240,
+      "trades_count": 241,
       "kelly_multiplier": 0.4,
-      "reliability": 0.6365,
+      "reliability": 0.6376,
       "resolution": 0.0,
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.4151,
-      "win_rate": 29.5,
-      "trades_count": 302,
+      "brier_score": 0.414,
+      "win_rate": 29.7,
+      "trades_count": 303,
       "kelly_multiplier": 0.4,
-      "reliability": 0.2073,
+      "reliability": 0.2052,
       "resolution": 0.0,
       "status": "REDUCED"
     },
