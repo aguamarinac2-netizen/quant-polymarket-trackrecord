@@ -1,6 +1,32 @@
 {
-  "updated_at": 1793736441.6672428,
+  "updated_at": 1793737047.392123,
   "reflections": [
+    {
+      "id": "REFL-1793737003223",
+      "trade_id": "MR:gamma:629720:Yes:1w:SELL",
+      "strategy_id": "MR",
+      "market_title": "Will the Democrats win the Wisconsin governor race in 2026?",
+      "predicted_prob": 0.78,
+      "outcome": 0,
+      "pnl": -0.27,
+      "brier_error": 0.6084,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793737003.2235377
+    },
+    {
+      "id": "REFL-1793736725474",
+      "trade_id": "MR:gamma:562830:Yes:1d:SELL",
+      "strategy_id": "MR",
+      "market_title": "2026 Balance of Power: R Senate, D House",
+      "predicted_prob": 0.72,
+      "outcome": 0,
+      "pnl": -1.13,
+      "brier_error": 0.5184,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793736725.4740453
+    },
     {
       "id": "REFL-1793731957109",
       "trade_id": "MR:gamma:943570:Yes:1w:BUY",
@@ -2574,32 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793257861.4052248
-    },
-    {
-      "id": "REFL-1793252217243",
-      "trade_id": "S10:1090205:No:BUY",
-      "strategy_id": "S10",
-      "market_title": "Will Alexander Volkanovski be ranked first in the UFC Pound-For-Pound Rankings a",
-      "predicted_prob": 0.75,
-      "outcome": 0,
-      "pnl": -2.71,
-      "brier_error": 0.5625,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793252217.2434363
-    },
-    {
-      "id": "REFL-1793245773711",
-      "trade_id": "WT:629720:0x1cfc260bfa2b5ae89377863180ca3b4f5c862111:No:BUY",
-      "strategy_id": "WT",
-      "market_title": "Will the Democrats win the Wisconsin governor race in 2026?",
-      "predicted_prob": 0.83,
-      "outcome": 0,
-      "pnl": -1.58,
-      "brier_error": 0.6889,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793245773.7118518
     }
   ],
   "strategy_weights": {
@@ -2652,11 +2652,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3617,
-      "win_rate": 41.6,
-      "trades_count": 430,
+      "brier_score": 0.3626,
+      "win_rate": 41.4,
+      "trades_count": 432,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1176,
+      "reliability": 0.1189,
       "resolution": 0.0,
       "status": "REDUCED"
     },
