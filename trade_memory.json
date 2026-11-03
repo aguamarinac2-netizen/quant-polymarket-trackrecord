@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793740016.6905289,
+  "updated_at": 1793740685.2469015,
   "reflections": [
+    {
+      "id": "REFL-1793740657350",
+      "trade_id": "S12:630654:Yes:BUY",
+      "strategy_id": "S12",
+      "market_title": "Will the Republicans win the Arkansas Senate race in 2026?",
+      "predicted_prob": 0.9,
+      "outcome": 0,
+      "pnl": -0.11,
+      "brier_error": 0.81,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793740657.3508787
+    },
     {
       "id": "REFL-1793738365282",
       "trade_id": "S10:943440:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793261650.2013705
-    },
-    {
-      "id": "REFL-1793259119203",
-      "trade_id": "MR:gamma:629721:Yes:1d:BUY",
-      "strategy_id": "MR",
-      "market_title": "Will the Republicans win the Wisconsin governor race in 2026?",
-      "predicted_prob": 0.78,
-      "outcome": 0,
-      "pnl": -1.88,
-      "brier_error": 0.6084,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793259119.2039394
     }
   ],
   "strategy_weights": {
@@ -2634,11 +2634,11 @@
       "status": "REDUCED"
     },
     "S12": {
-      "brier_score": 0.6926,
-      "win_rate": 14.7,
-      "trades_count": 109,
+      "brier_score": 0.6936,
+      "win_rate": 14.5,
+      "trades_count": 110,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5673,
+      "reliability": 0.5693,
       "resolution": 0.0,
       "status": "REDUCED"
     },

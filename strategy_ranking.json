@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T21:07:18.146620+00:00",
+  "generated_at": "2026-11-03T21:18:05.425670+00:00",
   "campaign": "demo-15d",
   "strategies": [
     {
@@ -144,18 +144,18 @@
       "strategy_code": "S12",
       "strategy_name": "S12: High Prob Harvesting",
       "total": 116,
-      "open": 7,
+      "open": 6,
       "won": 37,
-      "lost": 72,
-      "realized_pnl_usd": -16.07,
+      "lost": 73,
+      "realized_pnl_usd": -16.18,
       "unrealized_pnl_usd": -8.16,
       "partial_fills": 0,
       "by_source": {
         "realistic": {
           "total": 20,
           "won": 5,
-          "lost": 12,
-          "net_pnl_usd": -2.57
+          "lost": 13,
+          "net_pnl_usd": -2.68
         },
         "research": {
           "total": 96,
@@ -164,9 +164,9 @@
           "net_pnl_usd": -21.66
         }
       },
-      "closed": 109,
-      "win_rate_pct": 33.9,
-      "net_pnl_usd": -24.23,
+      "closed": 110,
+      "win_rate_pct": 33.6,
+      "net_pnl_usd": -24.34,
       "avg_book_slippage_bps": null,
       "verdict": "DESCARTAR"
     },
@@ -227,19 +227,19 @@
     {
       "strategy_code": "MR",
       "strategy_name": "C: Mean Reversion",
-      "total": 465,
-      "open": 31,
+      "total": 466,
+      "open": 32,
       "won": 248,
       "lost": 186,
       "realized_pnl_usd": -120.31,
-      "unrealized_pnl_usd": 13.26,
+      "unrealized_pnl_usd": 13.72,
       "partial_fills": 1,
       "by_source": {
         "realistic": {
-          "total": 66,
+          "total": 67,
           "won": 33,
           "lost": 26,
-          "net_pnl_usd": -26.45
+          "net_pnl_usd": -25.99
         },
         "research": {
           "total": 395,
@@ -256,7 +256,7 @@
       },
       "closed": 434,
       "win_rate_pct": 57.1,
-      "net_pnl_usd": -107.05,
+      "net_pnl_usd": -106.59,
       "avg_book_slippage_bps": 15.15,
       "verdict": "DESCARTAR"
     },
