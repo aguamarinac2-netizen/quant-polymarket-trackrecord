@@ -1,6 +1,45 @@
 {
-  "updated_at": 1793685139.3792796,
+  "updated_at": 1793685500.002905,
   "reflections": [
+    {
+      "id": "REFL-1793685379788",
+      "trade_id": "MR:gamma:942304:Yes:1d:SELL",
+      "strategy_id": "MR",
+      "market_title": "Will the Democratic Party win the CO-03 House seat?",
+      "predicted_prob": 0.78,
+      "outcome": 0,
+      "pnl": -1.57,
+      "brier_error": 0.6084,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793685379.7880683
+    },
+    {
+      "id": "REFL-1793685379761",
+      "trade_id": "MR:gamma:942301:Yes:1w:BUY",
+      "strategy_id": "MR",
+      "market_title": "Will the Republican Party win the CO-03 House seat?",
+      "predicted_prob": 0.78,
+      "outcome": 0,
+      "pnl": -1.36,
+      "brier_error": 0.6084,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793685379.761284
+    },
+    {
+      "id": "REFL-1793685379735",
+      "trade_id": "MR:gamma:942304:Yes:1w:SELL",
+      "strategy_id": "MR",
+      "market_title": "Will the Democratic Party win the CO-03 House seat?",
+      "predicted_prob": 0.78,
+      "outcome": 0,
+      "pnl": -1.29,
+      "brier_error": 0.6084,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793685379.7358596
+    },
     {
       "id": "REFL-1793683203925",
       "trade_id": "MR:gamma:629721:Yes:1w:BUY",
@@ -2561,45 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793214702.0118132
-    },
-    {
-      "id": "REFL-1793214224056",
-      "trade_id": "WT:559652:0xb5d19b53c973be1097119c9ddc48fcb18fff6e35:No:BUY",
-      "strategy_id": "WT",
-      "market_title": "Will Gavin Newsom win the 2028 Democratic presidential nomination?",
-      "predicted_prob": 0.8,
-      "outcome": 0,
-      "pnl": -0.23,
-      "brier_error": 0.64,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793214224.0569067
-    },
-    {
-      "id": "REFL-1793213984397",
-      "trade_id": "WT:562828:0x722cd7724ad3287ada5c3ccf3dec2ec455e67bde:Yes:BUY",
-      "strategy_id": "WT",
-      "market_title": "2026 Balance of Power: D Senate, D House",
-      "predicted_prob": 0.88,
-      "outcome": 0,
-      "pnl": -0.03,
-      "brier_error": 0.7744,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793213984.397318
-    },
-    {
-      "id": "REFL-1793212215032",
-      "trade_id": "WT:562803:0xfea31bc088000ff909be1dfd8d0e3f2c7ef2d227:No:BUY",
-      "strategy_id": "WT",
-      "market_title": "Will the Republican Party control the House after the 2026 Midterm elections?",
-      "predicted_prob": 0.86,
-      "outcome": 0,
-      "pnl": -0.07,
-      "brier_error": 0.7396,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793212215.0321143
     }
   ],
   "strategy_weights": {
@@ -2652,11 +2652,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3629,
-      "win_rate": 41.3,
-      "trades_count": 407,
+      "brier_score": 0.3647,
+      "win_rate": 41.0,
+      "trades_count": 410,
       "kelly_multiplier": 0.4,
-      "reliability": 0.12,
+      "reliability": 0.1222,
       "resolution": 0.0,
       "status": "REDUCED"
     },
