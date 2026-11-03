@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793670128.0898454,
+  "updated_at": 1793670729.89126,
   "reflections": [
+    {
+      "id": "REFL-1793670525587",
+      "trade_id": "MR:gamma:629413:Yes:1d:BUY",
+      "strategy_id": "MR",
+      "market_title": "Will the Republicans win the Kansas governor race in 2026?",
+      "predicted_prob": 0.78,
+      "outcome": 0,
+      "pnl": -0.65,
+      "brier_error": 0.6084,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793670525.5872788
+    },
     {
       "id": "REFL-1793666879177",
       "trade_id": "MR:gamma:629518:Yes:1d:SELL",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793207591.5826662
-    },
-    {
-      "id": "REFL-1793206585786",
-      "trade_id": "MR:gamma:561975:Yes:1d:SELL",
-      "strategy_id": "MR",
-      "market_title": "Will Marco Rubio win the 2028 Republican presidential nomination?",
-      "predicted_prob": 0.78,
-      "outcome": 0,
-      "pnl": -0.4,
-      "brier_error": 0.6084,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793206585.7867205
     }
   ],
   "strategy_weights": {
@@ -2652,11 +2652,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3641,
-      "win_rate": 41.0,
-      "trades_count": 400,
+      "brier_score": 0.3647,
+      "win_rate": 40.9,
+      "trades_count": 401,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1218,
+      "reliability": 0.1226,
       "resolution": 0.0,
       "status": "REDUCED"
     },
