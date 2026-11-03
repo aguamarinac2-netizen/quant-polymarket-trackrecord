@@ -1,6 +1,71 @@
 {
-  "updated_at": 1793748191.7749867,
+  "updated_at": 1793748795.5786226,
   "reflections": [
+    {
+      "id": "REFL-1793748642359",
+      "trade_id": "MR:gamma:562803:Yes:1w:BUY",
+      "strategy_id": "MR",
+      "market_title": "Will the Republican Party control the House after the 2026 Midterm elections?",
+      "predicted_prob": 0.78,
+      "outcome": 0,
+      "pnl": -2.23,
+      "brier_error": 0.6084,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793748642.3594594
+    },
+    {
+      "id": "REFL-1793748592671",
+      "trade_id": "MR:gamma:944341:Yes:1w:BUY",
+      "strategy_id": "MR",
+      "market_title": "Will the Republican Party win the WI-03 House seat?",
+      "predicted_prob": 0.78,
+      "outcome": 0,
+      "pnl": -5.55,
+      "brier_error": 0.6084,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793748592.6714127
+    },
+    {
+      "id": "REFL-1793748303977",
+      "trade_id": "MR:gamma:629708:Yes:1w:BUY",
+      "strategy_id": "MR",
+      "market_title": "Will the Republicans win the Vermont governor race in 2026?",
+      "predicted_prob": 0.78,
+      "outcome": 0,
+      "pnl": -0.96,
+      "brier_error": 0.6084,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793748303.9773042
+    },
+    {
+      "id": "REFL-1793748303955",
+      "trade_id": "MR:gamma:629707:Yes:1w:SELL",
+      "strategy_id": "MR",
+      "market_title": "Will the Democrats win the Vermont governor race in 2026?",
+      "predicted_prob": 0.78,
+      "outcome": 0,
+      "pnl": -2.24,
+      "brier_error": 0.6084,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793748303.9551504
+    },
+    {
+      "id": "REFL-1793748303799",
+      "trade_id": "S10:629571:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Will the Republicans win the Oklahoma governor race in 2026?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -2.93,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793748303.7994533
+    },
     {
       "id": "REFL-1793747963452",
       "trade_id": "MR:gamma:561975:Yes:1d:BUY",
@@ -2535,71 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793279255.1172178
-    },
-    {
-      "id": "REFL-1793278076963",
-      "trade_id": "WT:629426:0x66e7ce01c6831b8a2503d09edd6167152ee68bcd:Yes:BUY",
-      "strategy_id": "WT",
-      "market_title": "Will the Republicans win the Maine governor race in 2026?",
-      "predicted_prob": 0.82,
-      "outcome": 0,
-      "pnl": -4.03,
-      "brier_error": 0.6724,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793278076.9639192
-    },
-    {
-      "id": "REFL-1793272807872",
-      "trade_id": "WT:665513:0x66e7ce01c6831b8a2503d09edd6167152ee68bcd:Yes:SELL",
-      "strategy_id": "WT",
-      "market_title": "Friedrich Merz out as Chancellor of Germany before December 31, 2026?",
-      "predicted_prob": 0.82,
-      "outcome": 0,
-      "pnl": -1.38,
-      "brier_error": 0.6724,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793272807.872577
-    },
-    {
-      "id": "REFL-1793271943356",
-      "trade_id": "S20:559660:No:BUY",
-      "strategy_id": "S20",
-      "market_title": "Will Andy Beshear win the 2028 Democratic presidential nomination?",
-      "predicted_prob": 0.96,
-      "outcome": 0,
-      "pnl": -0.06,
-      "brier_error": 0.9216,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793271943.3561528
-    },
-    {
-      "id": "REFL-1793269738370",
-      "trade_id": "MR:gamma:630746:Yes:1d:SELL",
-      "strategy_id": "MR",
-      "market_title": "Will the Democrats win the Kansas Senate race in 2026?",
-      "predicted_prob": 0.78,
-      "outcome": 0,
-      "pnl": -0.87,
-      "brier_error": 0.6084,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793269738.370522
-    },
-    {
-      "id": "REFL-1793269738352",
-      "trade_id": "S10:944229:No:BUY",
-      "strategy_id": "S10",
-      "market_title": "Will the Republican Party win the TX-32 House seat?",
-      "predicted_prob": 0.75,
-      "outcome": 0,
-      "pnl": -0.39,
-      "brier_error": 0.5625,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793269738.352473
     }
   ],
   "strategy_weights": {
@@ -2625,11 +2625,11 @@
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.412,
-      "win_rate": 30.1,
-      "trades_count": 309,
+      "brier_score": 0.4125,
+      "win_rate": 30.0,
+      "trades_count": 310,
       "kelly_multiplier": 0.4,
-      "reliability": 0.2016,
+      "reliability": 0.2025,
       "resolution": 0.0,
       "status": "REDUCED"
     },
@@ -2652,11 +2652,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3621,
-      "win_rate": 41.6,
-      "trades_count": 440,
+      "brier_score": 0.3636,
+      "win_rate": 41.3,
+      "trades_count": 445,
       "kelly_multiplier": 0.4,
-      "reliability": 0.118,
+      "reliability": 0.1198,
       "resolution": 0.0,
       "status": "REDUCED"
     },
