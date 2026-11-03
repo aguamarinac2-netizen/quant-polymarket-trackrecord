@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793731883.7806,
+  "updated_at": 1793732494.0617836,
   "reflections": [
+    {
+      "id": "REFL-1793731957109",
+      "trade_id": "MR:gamma:943570:Yes:1w:BUY",
+      "strategy_id": "MR",
+      "market_title": "Will the Republican Party win the OH-09 House seat?",
+      "predicted_prob": 0.78,
+      "outcome": 0,
+      "pnl": -1.63,
+      "brier_error": 0.6084,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793731957.1098921
+    },
     {
       "id": "REFL-1793730916417",
       "trade_id": "MR:gamma:634878:Yes:1w:SELL",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793245773.7118518
-    },
-    {
-      "id": "REFL-1793241464671",
-      "trade_id": "S10:1090005:No:BUY",
-      "strategy_id": "S10",
-      "market_title": "Will Justin Gaethje be the UFC Lightweight Champion on December 31, 2026?",
-      "predicted_prob": 0.75,
-      "outcome": 0,
-      "pnl": -0.33,
-      "brier_error": 0.5625,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793241464.6714582
     }
   ],
   "strategy_weights": {
@@ -2652,11 +2652,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3611,
-      "win_rate": 41.7,
-      "trades_count": 429,
+      "brier_score": 0.3617,
+      "win_rate": 41.6,
+      "trades_count": 430,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1169,
+      "reliability": 0.1176,
       "resolution": 0.0,
       "status": "REDUCED"
     },
