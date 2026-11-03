@@ -1,6 +1,45 @@
 {
-  "updated_at": 1793749039.956894,
+  "updated_at": 1793749704.7951677,
   "reflections": [
+    {
+      "id": "REFL-1793749611500",
+      "trade_id": "MR:gamma:942843:Yes:1w:SELL",
+      "strategy_id": "MR",
+      "market_title": "Will the Democratic Party win the MT-01 House seat?",
+      "predicted_prob": 0.78,
+      "outcome": 0,
+      "pnl": -1.62,
+      "brier_error": 0.6084,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793749611.500413
+    },
+    {
+      "id": "REFL-1793749322771",
+      "trade_id": "MR:gamma:562802:Yes:1w:SELL",
+      "strategy_id": "MR",
+      "market_title": "Will the Democratic Party control the House after the 2026 Midterm elections?",
+      "predicted_prob": 0.78,
+      "outcome": 0,
+      "pnl": -0.35,
+      "brier_error": 0.6084,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793749322.771188
+    },
+    {
+      "id": "REFL-1793749322659",
+      "trade_id": "MR:gamma:629184:Yes:1w:BUY",
+      "strategy_id": "MR",
+      "market_title": "Will the Republicans win the Arizona governor race in 2026?",
+      "predicted_prob": 0.78,
+      "outcome": 0,
+      "pnl": -3.84,
+      "brier_error": 0.6084,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793749322.6598299
+    },
     {
       "id": "REFL-1793748836570",
       "trade_id": "MR:gamma:919484:Yes:1w:SELL",
@@ -2561,45 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793286630.7581108
-    },
-    {
-      "id": "REFL-1793285587242",
-      "trade_id": "MR:gamma:942084:Yes:1d:BUY",
-      "strategy_id": "MR",
-      "market_title": "Will the Democratic Party win the AZ-01 House seat?",
-      "predicted_prob": 0.78,
-      "outcome": 0,
-      "pnl": -0.0,
-      "brier_error": 0.6084,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793285587.2425282
-    },
-    {
-      "id": "REFL-1793281098707",
-      "trade_id": "MR:gamma:942084:Yes:1d:SELL",
-      "strategy_id": "MR",
-      "market_title": "Will the Democratic Party win the AZ-01 House seat?",
-      "predicted_prob": 0.72,
-      "outcome": 0,
-      "pnl": 0.0,
-      "brier_error": 0.5184,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793281098.707086
-    },
-    {
-      "id": "REFL-1793279914824",
-      "trade_id": "MR:gamma:943821:Yes:1d:BUY",
-      "strategy_id": "MR",
-      "market_title": "Will the Republican Party hold exactly 49 Senate seats after the 2026 midterm el",
-      "predicted_prob": 0.78,
-      "outcome": 0,
-      "pnl": -2.11,
-      "brier_error": 0.6084,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793279914.8248935
     }
   ],
   "strategy_weights": {
@@ -2625,11 +2625,11 @@
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.4125,
-      "win_rate": 30.0,
-      "trades_count": 310,
+      "brier_score": 0.4114,
+      "win_rate": 30.2,
+      "trades_count": 311,
       "kelly_multiplier": 0.4,
-      "reliability": 0.2025,
+      "reliability": 0.2005,
       "resolution": 0.0,
       "status": "REDUCED"
     },
@@ -2652,11 +2652,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3634,
-      "win_rate": 41.4,
-      "trades_count": 447,
+      "brier_score": 0.3644,
+      "win_rate": 41.2,
+      "trades_count": 451,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1196,
+      "reliability": 0.1207,
       "resolution": 0.0,
       "status": "REDUCED"
     },
