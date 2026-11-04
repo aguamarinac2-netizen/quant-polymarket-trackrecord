@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793756897.9401422,
+  "updated_at": 1793757140.6768026,
   "reflections": [
+    {
+      "id": "REFL-1793756964698",
+      "trade_id": "S12:943749:Yes:BUY",
+      "strategy_id": "S12",
+      "market_title": "Will the Democratic Party win the PA-01 House seat?",
+      "predicted_prob": 0.9,
+      "outcome": 0,
+      "pnl": -0.75,
+      "brier_error": 0.81,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793756964.6987798
+    },
     {
       "id": "REFL-1793756345965",
       "trade_id": "MR:gamma:629183:Yes:1w:SELL",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793319138.1895216
-    },
-    {
-      "id": "REFL-1793319138170",
-      "trade_id": "S20:703257:No:BUY",
-      "strategy_id": "S20",
-      "market_title": "Will the US confirm that aliens exist before 2027?",
-      "predicted_prob": 0.96,
-      "outcome": 0,
-      "pnl": -0.04,
-      "brier_error": 0.9216,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793319138.1702309
     }
   ],
   "strategy_weights": {
@@ -2634,11 +2634,11 @@
       "status": "REDUCED"
     },
     "S12": {
-      "brier_score": 0.6604,
-      "win_rate": 18.7,
-      "trades_count": 123,
+      "brier_score": 0.6616,
+      "win_rate": 18.5,
+      "trades_count": 124,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5084,
+      "reliability": 0.5105,
       "resolution": 0.0,
       "status": "REDUCED"
     },

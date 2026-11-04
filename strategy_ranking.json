@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T01:49:15.724409+00:00",
+  "generated_at": "2026-11-04T01:52:58.249074+00:00",
   "campaign": "demo-15d",
   "strategies": [
     {
@@ -64,19 +64,19 @@
       "won": 2,
       "lost": 8,
       "realized_pnl_usd": -0.59,
-      "unrealized_pnl_usd": -0.18,
+      "unrealized_pnl_usd": -0.21,
       "partial_fills": 0,
       "by_source": {
         "research": {
           "total": 12,
           "won": 2,
           "lost": 8,
-          "net_pnl_usd": -0.77
+          "net_pnl_usd": -0.8
         }
       },
       "closed": 10,
       "win_rate_pct": 20.0,
-      "net_pnl_usd": -0.77,
+      "net_pnl_usd": -0.8,
       "avg_book_slippage_bps": null,
       "verdict": "DESCARTAR"
     },
@@ -137,12 +137,12 @@
     {
       "strategy_code": "S12",
       "strategy_name": "S12: High Prob Harvesting",
-      "total": 160,
+      "total": 161,
       "open": 37,
       "won": 44,
-      "lost": 79,
-      "realized_pnl_usd": -19.29,
-      "unrealized_pnl_usd": -6.57,
+      "lost": 80,
+      "realized_pnl_usd": -20.04,
+      "unrealized_pnl_usd": -6.41,
       "partial_fills": 0,
       "by_source": {
         "realistic": {
@@ -152,15 +152,15 @@
           "net_pnl_usd": -1.71
         },
         "research": {
-          "total": 125,
+          "total": 126,
           "won": 35,
-          "lost": 65,
-          "net_pnl_usd": -24.15
+          "lost": 66,
+          "net_pnl_usd": -24.74
         }
       },
-      "closed": 123,
-      "win_rate_pct": 35.8,
-      "net_pnl_usd": -25.86,
+      "closed": 124,
+      "win_rate_pct": 35.5,
+      "net_pnl_usd": -26.45,
       "avg_book_slippage_bps": null,
       "verdict": "DESCARTAR"
     },
@@ -172,7 +172,7 @@
       "won": 77,
       "lost": 173,
       "realized_pnl_usd": -24.66,
-      "unrealized_pnl_usd": -4.72,
+      "unrealized_pnl_usd": -4.39,
       "partial_fills": 0,
       "by_source": {
         "realistic": {
@@ -185,24 +185,24 @@
           "total": 274,
           "won": 76,
           "lost": 173,
-          "net_pnl_usd": -32.68
+          "net_pnl_usd": -32.35
         }
       },
       "closed": 250,
       "win_rate_pct": 30.8,
-      "net_pnl_usd": -29.38,
+      "net_pnl_usd": -29.05,
       "avg_book_slippage_bps": null,
       "verdict": "DESCARTAR"
     },
     {
       "strategy_code": "S10",
       "strategy_name": "S10: Yes Bias",
-      "total": 332,
-      "open": 2,
+      "total": 333,
+      "open": 3,
       "won": 166,
       "lost": 164,
       "realized_pnl_usd": -86.87,
-      "unrealized_pnl_usd": 43.09,
+      "unrealized_pnl_usd": 43.23,
       "partial_fills": 0,
       "by_source": {
         "realistic": {
@@ -212,15 +212,15 @@
           "net_pnl_usd": -37.37
         },
         "research": {
-          "total": 283,
+          "total": 284,
           "won": 143,
           "lost": 138,
-          "net_pnl_usd": -6.41
+          "net_pnl_usd": -6.27
         }
       },
       "closed": 330,
       "win_rate_pct": 50.3,
-      "net_pnl_usd": -43.78,
+      "net_pnl_usd": -43.64,
       "avg_book_slippage_bps": null,
       "verdict": "DESCARTAR"
     },
@@ -262,7 +262,7 @@
       "won": 260,
       "lost": 208,
       "realized_pnl_usd": -160.32,
-      "unrealized_pnl_usd": -17.73,
+      "unrealized_pnl_usd": -17.72,
       "partial_fills": 1,
       "by_source": {
         "realistic": {
@@ -275,7 +275,7 @@
           "total": 399,
           "won": 220,
           "lost": 173,
-          "net_pnl_usd": -126.1
+          "net_pnl_usd": -126.09
         },
         "hybrid": {
           "total": 4,
@@ -286,7 +286,7 @@
       },
       "closed": 468,
       "win_rate_pct": 55.6,
-      "net_pnl_usd": -178.05,
+      "net_pnl_usd": -178.04,
       "avg_book_slippage_bps": 15.15,
       "verdict": "DESCARTAR"
     }
