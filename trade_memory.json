@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793805843.3365989,
+  "updated_at": 1793806630.1428645,
   "reflections": [
+    {
+      "id": "REFL-1793806398381",
+      "trade_id": "S12:1283849:Yes:BUY",
+      "strategy_id": "S12",
+      "market_title": "Will the Democratic Party win the MN-01 House seat?",
+      "predicted_prob": 0.9,
+      "outcome": 0,
+      "pnl": -0.87,
+      "brier_error": 0.81,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793806398.3813622
+    },
     {
       "id": "REFL-1793801330858",
       "trade_id": "S12:1285079:Yes:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793426246.7975855
-    },
-    {
-      "id": "REFL-1793424909946",
-      "trade_id": "MR:gamma:562802:Yes:1d:SELL",
-      "strategy_id": "MR",
-      "market_title": "Will the Democratic Party control the House after the 2026 Midterm elections?",
-      "predicted_prob": 0.72,
-      "outcome": 0,
-      "pnl": -0.23,
-      "brier_error": 0.5184,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793424909.9466777
     }
   ],
   "strategy_weights": {
@@ -2634,11 +2634,11 @@
       "status": "REDUCED"
     },
     "S12": {
-      "brier_score": 0.4576,
-      "win_rate": 44.1,
-      "trades_count": 227,
+      "brier_score": 0.4591,
+      "win_rate": 43.9,
+      "trades_count": 228,
       "kelly_multiplier": 0.4,
-      "reliability": 0.2111,
+      "reliability": 0.2129,
       "resolution": 0.0,
       "status": "REDUCED"
     },
