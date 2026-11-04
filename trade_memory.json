@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793772310.652412,
+  "updated_at": 1793772434.0155122,
   "reflections": [
+    {
+      "id": "REFL-1793772326816",
+      "trade_id": "S12:943571:Yes:BUY",
+      "strategy_id": "S12",
+      "market_title": "Will the Democratic Party win the OH-09 House seat?",
+      "predicted_prob": 0.9,
+      "outcome": 0,
+      "pnl": -0.73,
+      "brier_error": 0.81,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793772326.8162496
+    },
     {
       "id": "REFL-1793771558092",
       "trade_id": "S12:942722:Yes:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793379208.7698514
-    },
-    {
-      "id": "REFL-1793378738759",
-      "trade_id": "MR:gamma:629721:Yes:1w:BUY",
-      "strategy_id": "MR",
-      "market_title": "Will the Republicans win the Wisconsin governor race in 2026?",
-      "predicted_prob": 0.78,
-      "outcome": 0,
-      "pnl": -0.04,
-      "brier_error": 0.6084,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793378738.7592013
     }
   ],
   "strategy_weights": {
@@ -2634,11 +2634,11 @@
       "status": "REDUCED"
     },
     "S12": {
-      "brier_score": 0.5017,
-      "win_rate": 38.5,
-      "trades_count": 192,
+      "brier_score": 0.4957,
+      "win_rate": 39.3,
+      "trades_count": 196,
       "kelly_multiplier": 0.4,
-      "reliability": 0.2648,
+      "reliability": 0.2572,
       "resolution": 0.0,
       "status": "REDUCED"
     },
