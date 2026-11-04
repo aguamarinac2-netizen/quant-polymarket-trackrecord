@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793752424.8358524,
+  "updated_at": 1793752626.1804948,
   "reflections": [
+    {
+      "id": "REFL-1793752626163",
+      "trade_id": "S10:1090024:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Will Islam Makhachev be the UFC Welterweight Champion on December 31, 2026?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -0.18,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793752626.1631927
+    },
     {
       "id": "REFL-1793752388331",
       "trade_id": "MR:gamma:561261:Yes:1d:SELL",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793296408.8053772
-    },
-    {
-      "id": "REFL-1793296119944",
-      "trade_id": "WT:559658:0x9703676286b93c2eca71ca96e8757104519a69c2:Yes:BUY",
-      "strategy_id": "WT",
-      "market_title": "Will Kamala Harris win the 2028 Democratic presidential nomination?",
-      "predicted_prob": 0.86,
-      "outcome": 0,
-      "pnl": -1.77,
-      "brier_error": 0.7396,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793296119.9441533
     }
   ],
   "strategy_weights": {
@@ -2625,11 +2625,11 @@
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.4084,
-      "win_rate": 30.8,
-      "trades_count": 318,
+      "brier_score": 0.4089,
+      "win_rate": 30.7,
+      "trades_count": 319,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1952,
+      "reliability": 0.1961,
       "resolution": 0.0,
       "status": "REDUCED"
     },
