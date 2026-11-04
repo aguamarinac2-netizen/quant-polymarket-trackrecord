@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793755148.8721745,
+  "updated_at": 1793755330.1122465,
   "reflections": [
+    {
+      "id": "REFL-1793755300613",
+      "trade_id": "S10:630818:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Will the Democrats win the Minnesota Senate race in 2026?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -2.34,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793755300.6132786
+    },
     {
       "id": "REFL-1793755012374",
       "trade_id": "S10:629412:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793319131.7796047
-    },
-    {
-      "id": "REFL-1793319131762",
-      "trade_id": "S20:701554:No:BUY",
-      "strategy_id": "S20",
-      "market_title": "Will Ethereum dip to $800 by December 31, 2026?",
-      "predicted_prob": 0.96,
-      "outcome": 0,
-      "pnl": -0.06,
-      "brier_error": 0.9216,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793319131.7626715
     }
   ],
   "strategy_weights": {
@@ -2625,11 +2625,11 @@
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.4091,
-      "win_rate": 30.7,
-      "trades_count": 326,
+      "brier_score": 0.4085,
+      "win_rate": 30.8,
+      "trades_count": 328,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1965,
+      "reliability": 0.1954,
       "resolution": 0.0,
       "status": "REDUCED"
     },
