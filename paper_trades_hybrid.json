@@ -546,7 +546,7 @@
       "order_type": "LIMIT",
       "entry_price": 0.126,
       "signal_entry_price": 0.126,
-      "current_price": 0.1195,
+      "current_price": 0.0935,
       "target_price": 0.138,
       "stop_loss": 0.1116,
       "initial_stop_loss": 0.1116,
@@ -569,13 +569,13 @@
       "risk_reward_ratio": 0.83,
       "horizon": "medium_long",
       "horizon_label": "\ud83d\uddd3\ufe0f Largo (>15d)",
-      "status": "OPEN",
-      "unrealized_pnl_usd": -0.37,
-      "unrealized_pnl_pct": -5.16,
-      "realized_pnl_usd": 0.0,
-      "realized_pnl_pct": 0.0,
-      "close_reason": null,
-      "closed_at": null,
+      "status": "LOST",
+      "unrealized_pnl_usd": -1.86,
+      "unrealized_pnl_pct": -25.79,
+      "realized_pnl_usd": -2.18,
+      "realized_pnl_pct": -25.79,
+      "close_reason": "\ud83d\uded1 Stop Loss activado ($0.093 <= $0.112)",
+      "closed_at": "2026-11-04T06:14:22.469510+00:00",
       "engine": "hybrid",
       "order_id": "SIM-1793412351489",
       "order_status": "PARTIAL",
@@ -680,9 +680,10 @@
       ],
       "book_slippage_bps": 60.61,
       "unfilled_usd": 0.0,
-      "is_partial_fill": false
+      "is_partial_fill": false,
+      "ai_post_mortem_done": true
     }
   },
   "engine": "hybrid",
-  "updated_at": "2026-11-04T00:29:13.688297+00:00"
+  "updated_at": "2026-11-04T06:14:22.469532+00:00"
 }
