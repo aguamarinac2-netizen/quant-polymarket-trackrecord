@@ -58507,13 +58507,13 @@
       "risk_reward_ratio": 0.83,
       "horizon": "medium_long",
       "horizon_label": "\ud83d\uddd3\ufe0f Largo (>15d)",
-      "status": "OPEN",
+      "status": "WON",
       "unrealized_pnl_usd": 0.17,
       "unrealized_pnl_pct": 1.83,
-      "realized_pnl_usd": 0.0,
-      "realized_pnl_pct": 0.0,
-      "close_reason": null,
-      "closed_at": null,
+      "realized_pnl_usd": -0.32,
+      "realized_pnl_pct": 1.83,
+      "close_reason": "\u23f1\ufe0f Time-Stop 48h (Capital liberado: rotaci\u00f3n r\u00e1pida tras 48.0h estancado)",
+      "closed_at": "2026-11-04T03:21:09.341826+00:00",
       "engine": "paper"
     },
     "MR:gamma:943440:Yes:1d:BUY": {
@@ -65576,7 +65576,7 @@
       "order_type": "LIMIT",
       "entry_price": 0.9068,
       "signal_entry_price": 0.905,
-      "current_price": 0.9068,
+      "current_price": 0.905,
       "target_price": 0.998,
       "stop_loss": 0.8598,
       "initial_stop_loss": 0.8598,
@@ -65600,8 +65600,8 @@
       "horizon": "flash",
       "horizon_label": "\u26a1 Flash (<48h)",
       "status": "OPEN",
-      "unrealized_pnl_usd": 0.0,
-      "unrealized_pnl_pct": 0.0,
+      "unrealized_pnl_usd": -0.02,
+      "unrealized_pnl_pct": -0.2,
       "realized_pnl_usd": 0.0,
       "realized_pnl_pct": 0.0,
       "close_reason": null,
@@ -65609,5 +65609,5 @@
       "engine": "paper"
     }
   },
-  "updated_at": "2026-11-04T03:18:39.042215+00:00"
+  "updated_at": "2026-11-04T03:21:09.343842+00:00"
 }

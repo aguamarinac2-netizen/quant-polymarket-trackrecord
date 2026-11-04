@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793762347.4756963,
+  "updated_at": 1793762529.716439,
   "reflections": [
+    {
+      "id": "REFL-1793762469451",
+      "trade_id": "MR:gamma:678416:Yes:1d:BUY",
+      "strategy_id": "MR",
+      "market_title": "Will Avengers: Doomsday be the top grossing movie of 2026?",
+      "predicted_prob": 0.78,
+      "outcome": 0,
+      "pnl": -0.32,
+      "brier_error": 0.6084,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793762469.4514878
+    },
     {
       "id": "REFL-1793761653971",
       "trade_id": "S12:943571:Yes:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793355400.0906413
-    },
-    {
-      "id": "REFL-1793352696690",
-      "trade_id": "WT:656312:0x1cfc260bfa2b5ae89377863180ca3b4f5c862111:No:SELL",
-      "strategy_id": "WT",
-      "market_title": "Will OpenAI IPO by December 31 2026?",
-      "predicted_prob": 0.82,
-      "outcome": 0,
-      "pnl": -0.05,
-      "brier_error": 0.6724,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793352696.6906621
     }
   ],
   "strategy_weights": {
@@ -2652,11 +2652,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3671,
-      "win_rate": 40.8,
-      "trades_count": 466,
+      "brier_score": 0.3676,
+      "win_rate": 40.7,
+      "trades_count": 467,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1243,
+      "reliability": 0.1249,
       "resolution": 0.0,
       "status": "REDUCED"
     },
