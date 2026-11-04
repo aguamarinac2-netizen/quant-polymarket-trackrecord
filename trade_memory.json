@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793749884.9244003,
+  "updated_at": 1793750610.8369112,
   "reflections": [
+    {
+      "id": "REFL-1793750332311",
+      "trade_id": "S10:629667:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Will the Republicans win the Tennessee governor race in 2026?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -4.6,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793750332.3115988
+    },
     {
       "id": "REFL-1793749611500",
       "trade_id": "MR:gamma:942843:Yes:1w:SELL",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793286773.0386274
-    },
-    {
-      "id": "REFL-1793286630758",
-      "trade_id": "MR:gamma:562830:Yes:1w:SELL",
-      "strategy_id": "MR",
-      "market_title": "2026 Balance of Power: R Senate, D House",
-      "predicted_prob": 0.78,
-      "outcome": 0,
-      "pnl": -0.16,
-      "brier_error": 0.6084,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793286630.7581108
     }
   ],
   "strategy_weights": {
@@ -2625,11 +2625,11 @@
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.4114,
-      "win_rate": 30.2,
-      "trades_count": 311,
+      "brier_score": 0.4107,
+      "win_rate": 30.4,
+      "trades_count": 313,
       "kelly_multiplier": 0.4,
-      "reliability": 0.2005,
+      "reliability": 0.1993,
       "resolution": 0.0,
       "status": "REDUCED"
     },
