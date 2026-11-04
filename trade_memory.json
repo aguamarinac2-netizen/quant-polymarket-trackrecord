@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793767735.8111823,
+  "updated_at": 1793767977.036946,
   "reflections": [
+    {
+      "id": "REFL-1793767875725",
+      "trade_id": "S20:629413:No:BUY",
+      "strategy_id": "S20",
+      "market_title": "Will the Republicans win the Kansas governor race in 2026?",
+      "predicted_prob": 0.97,
+      "outcome": 0,
+      "pnl": -0.67,
+      "brier_error": 0.9409,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793767875.7258155
+    },
     {
       "id": "REFL-1793767235553",
       "trade_id": "S20:629040:Yes:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793373486.0398717
-    },
-    {
-      "id": "REFL-1793371903078",
-      "trade_id": "WT:663583:0x9ba9dec33838f4ec9f032f7247d7481987e63ce9:No:BUY",
-      "strategy_id": "WT",
-      "market_title": "Will the Iranian regime fall before 2027?",
-      "predicted_prob": 0.88,
-      "outcome": 0,
-      "pnl": -0.07,
-      "brier_error": 0.7744,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793371903.0787342
     }
   ],
   "strategy_weights": {
@@ -2616,11 +2616,11 @@
   },
   "strategy_brier_scores": {
     "S20": {
-      "brier_score": 0.7456,
+      "brier_score": 0.7464,
       "win_rate": 19.2,
-      "trades_count": 260,
+      "trades_count": 261,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5908,
+      "reliability": 0.592,
       "resolution": 0.0,
       "status": "REDUCED"
     },
@@ -2634,11 +2634,11 @@
       "status": "REDUCED"
     },
     "S12": {
-      "brier_score": 0.5418,
-      "win_rate": 33.5,
-      "trades_count": 173,
+      "brier_score": 0.5269,
+      "win_rate": 35.4,
+      "trades_count": 178,
       "kelly_multiplier": 0.4,
-      "reliability": 0.3189,
+      "reliability": 0.2982,
       "resolution": 0.0,
       "status": "REDUCED"
     },
