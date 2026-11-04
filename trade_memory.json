@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793763257.450135,
+  "updated_at": 1793763441.4629052,
   "reflections": [
+    {
+      "id": "REFL-1793763308887",
+      "trade_id": "S12:942843:Yes:BUY",
+      "strategy_id": "S12",
+      "market_title": "Will the Democratic Party win the MT-01 House seat?",
+      "predicted_prob": 0.9,
+      "outcome": 0,
+      "pnl": -0.74,
+      "brier_error": 0.81,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793763308.887375
+    },
     {
       "id": "REFL-1793762469451",
       "trade_id": "MR:gamma:678416:Yes:1d:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793355769.1769302
-    },
-    {
-      "id": "REFL-1793355400090",
-      "trade_id": "MR:gamma:943476:Yes:1w:BUY",
-      "strategy_id": "MR",
-      "market_title": "Will the Republican Party win the NC-01 House seat?",
-      "predicted_prob": 0.78,
-      "outcome": 0,
-      "pnl": -3.35,
-      "brier_error": 0.6084,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793355400.0906413
     }
   ],
   "strategy_weights": {
@@ -2634,11 +2634,11 @@
       "status": "REDUCED"
     },
     "S12": {
-      "brier_score": 0.5992,
-      "win_rate": 26.4,
-      "trades_count": 148,
+      "brier_score": 0.5852,
+      "win_rate": 28.1,
+      "trades_count": 153,
       "kelly_multiplier": 0.4,
-      "reliability": 0.4051,
+      "reliability": 0.3831,
       "resolution": 0.0,
       "status": "REDUCED"
     },
