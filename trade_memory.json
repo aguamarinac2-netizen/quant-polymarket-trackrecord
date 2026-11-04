@@ -1,6 +1,32 @@
 {
-  "updated_at": 1793759863.6703415,
+  "updated_at": 1793760527.7595205,
   "reflections": [
+    {
+      "id": "REFL-1793760331894",
+      "trade_id": "MR:gamma:565064:Yes:1d:BUY",
+      "strategy_id": "MR",
+      "market_title": "Will the Republicans win the 2028 US Presidential Election?",
+      "predicted_prob": 0.72,
+      "outcome": 0,
+      "pnl": -0.77,
+      "brier_error": 0.5184,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793760331.8941417
+    },
+    {
+      "id": "REFL-1793760001471",
+      "trade_id": "S12:942776:Yes:BUY",
+      "strategy_id": "S12",
+      "market_title": "Will the Democratic Party win the MI-10 House seat?",
+      "predicted_prob": 0.9,
+      "outcome": 0,
+      "pnl": -0.8,
+      "brier_error": 0.81,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793760001.4716253
+    },
     {
       "id": "REFL-1793759330839",
       "trade_id": "S10:629531:No:BUY",
@@ -2574,32 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793350685.9537418
-    },
-    {
-      "id": "REFL-1793350640175",
-      "trade_id": "MR:gamma:701496:Yes:1w:BUY",
-      "strategy_id": "MR",
-      "market_title": "Will Bitcoin reach $100,000 by December 31, 2026?",
-      "predicted_prob": 0.78,
-      "outcome": 0,
-      "pnl": -0.26,
-      "brier_error": 0.6084,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793350640.1755686
-    },
-    {
-      "id": "REFL-1793349783497",
-      "trade_id": "MR:gamma:631017:Yes:1d:SELL",
-      "strategy_id": "MR",
-      "market_title": "Will the Democrats win the Mississippi Senate race in 2026?",
-      "predicted_prob": 0.72,
-      "outcome": 0,
-      "pnl": -1.51,
-      "brier_error": 0.5184,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793349783.4978547
     }
   ],
   "strategy_weights": {
@@ -2634,11 +2634,11 @@
       "status": "REDUCED"
     },
     "S12": {
-      "brier_score": 0.6245,
-      "win_rate": 23.2,
-      "trades_count": 138,
+      "brier_score": 0.6258,
+      "win_rate": 23.0,
+      "trades_count": 139,
       "kelly_multiplier": 0.4,
-      "reliability": 0.4464,
+      "reliability": 0.4486,
       "resolution": 0.0,
       "status": "REDUCED"
     },
@@ -2652,11 +2652,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3668,
-      "win_rate": 40.9,
-      "trades_count": 465,
+      "brier_score": 0.3671,
+      "win_rate": 40.8,
+      "trades_count": 466,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1237,
+      "reliability": 0.1243,
       "resolution": 0.0,
       "status": "REDUCED"
     },
