@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793771406.3631349,
+  "updated_at": 1793771586.960677,
   "reflections": [
+    {
+      "id": "REFL-1793771558092",
+      "trade_id": "S12:942722:Yes:BUY",
+      "strategy_id": "S12",
+      "market_title": "Will the Democratic Party win the MI-07 House seat?",
+      "predicted_prob": 0.9,
+      "outcome": 0,
+      "pnl": -0.69,
+      "brier_error": 0.81,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793771558.0925827
+    },
     {
       "id": "REFL-1793771379199",
       "trade_id": "S12:944229:Yes:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793378738.7592013
-    },
-    {
-      "id": "REFL-1793378409414",
-      "trade_id": "MR:gamma:629325:Yes:1w:BUY",
-      "strategy_id": "MR",
-      "market_title": "Will the Republicans win the Florida governor race in 2026?",
-      "predicted_prob": 0.78,
-      "outcome": 0,
-      "pnl": -0.9,
-      "brier_error": 0.6084,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793378409.4141335
     }
   ],
   "strategy_weights": {
@@ -2634,11 +2634,11 @@
       "status": "REDUCED"
     },
     "S12": {
-      "brier_score": 0.5079,
-      "win_rate": 37.8,
-      "trades_count": 188,
+      "brier_score": 0.5095,
+      "win_rate": 37.6,
+      "trades_count": 189,
       "kelly_multiplier": 0.4,
-      "reliability": 0.2728,
+      "reliability": 0.2749,
       "resolution": 0.0,
       "status": "REDUCED"
     },
