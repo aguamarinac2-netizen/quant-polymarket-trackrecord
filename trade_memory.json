@@ -1,6 +1,58 @@
 {
-  "updated_at": 1793767007.1153393,
+  "updated_at": 1793767735.8111823,
   "reflections": [
+    {
+      "id": "REFL-1793767235553",
+      "trade_id": "S20:629040:Yes:BUY",
+      "strategy_id": "S20",
+      "market_title": "Will Nithya Raman win the 2026 Los Angeles mayoral election?",
+      "predicted_prob": 0.98,
+      "outcome": 0,
+      "pnl": -0.73,
+      "brier_error": 0.9604,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793767235.5531242
+    },
+    {
+      "id": "REFL-1793767235531",
+      "trade_id": "S20:629030:No:BUY",
+      "strategy_id": "S20",
+      "market_title": "Will Karen Bass win the 2026 Los Angeles mayoral election?",
+      "predicted_prob": 0.98,
+      "outcome": 0,
+      "pnl": -0.86,
+      "brier_error": 0.9604,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793767235.531109
+    },
+    {
+      "id": "REFL-1793767235509",
+      "trade_id": "S12:629040:Yes:BUY",
+      "strategy_id": "S12",
+      "market_title": "Will Nithya Raman win the 2026 Los Angeles mayoral election?",
+      "predicted_prob": 0.9,
+      "outcome": 0,
+      "pnl": -0.73,
+      "brier_error": 0.81,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793767235.5093968
+    },
+    {
+      "id": "REFL-1793767235370",
+      "trade_id": "S12:629040:Yes:BUY",
+      "strategy_id": "S12",
+      "market_title": "Will Nithya Raman win the 2026 Los Angeles mayoral election?",
+      "predicted_prob": 0.9,
+      "outcome": 0,
+      "pnl": -0.73,
+      "brier_error": 0.81,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793767235.3704896
+    },
     {
       "id": "REFL-1793766914077",
       "trade_id": "MR:gamma:679018:Yes:1w:BUY",
@@ -2548,58 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793371903.0787342
-    },
-    {
-      "id": "REFL-1793371552151",
-      "trade_id": "WT:629531:0x66e7ce01c6831b8a2503d09edd6167152ee68bcd:Yes:BUY",
-      "strategy_id": "WT",
-      "market_title": "Will the Democrats win the New Mexico governor race in 2026?",
-      "predicted_prob": 0.82,
-      "outcome": 0,
-      "pnl": -0.02,
-      "brier_error": 0.6724,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793371552.151572
-    },
-    {
-      "id": "REFL-1793370964961",
-      "trade_id": "MR:gamma:629412:Yes:1w:SELL",
-      "strategy_id": "MR",
-      "market_title": "Will the Democrats win the Kansas governor race in 2026?",
-      "predicted_prob": 0.78,
-      "outcome": 0,
-      "pnl": -1.46,
-      "brier_error": 0.6084,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793370964.9619224
-    },
-    {
-      "id": "REFL-1793370959630",
-      "trade_id": "S12:629519:Yes:BUY",
-      "strategy_id": "S12",
-      "market_title": "Will the Republicans win the New Hampshire governor race in 2026?",
-      "predicted_prob": 0.9,
-      "outcome": 0,
-      "pnl": -0.07,
-      "brier_error": 0.81,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793370959.6307058
-    },
-    {
-      "id": "REFL-1793369877257",
-      "trade_id": "MR:gamma:943822:Yes:1d:BUY",
-      "strategy_id": "MR",
-      "market_title": "Will the Republican Party hold exactly 50 Senate seats after the 2026 midterm el",
-      "predicted_prob": 0.72,
-      "outcome": 0,
-      "pnl": -0.88,
-      "brier_error": 0.5184,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793369877.2578862
     }
   ],
   "strategy_weights": {
@@ -2616,11 +2616,11 @@
   },
   "strategy_brier_scores": {
     "S20": {
-      "brier_score": 0.744,
-      "win_rate": 19.4,
-      "trades_count": 258,
+      "brier_score": 0.7456,
+      "win_rate": 19.2,
+      "trades_count": 260,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5883,
+      "reliability": 0.5908,
       "resolution": 0.0,
       "status": "REDUCED"
     },
@@ -2636,7 +2636,7 @@
     "S12": {
       "brier_score": 0.5418,
       "win_rate": 33.5,
-      "trades_count": 170,
+      "trades_count": 173,
       "kelly_multiplier": 0.4,
       "reliability": 0.3189,
       "resolution": 0.0,
