@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793775085.9755228,
+  "updated_at": 1793775867.5218296,
   "reflections": [
+    {
+      "id": "REFL-1793775174259",
+      "trade_id": "MR:gamma:629464:Yes:1w:SELL",
+      "strategy_id": "MR",
+      "market_title": "Will the Democrats win the Michigan governor race in 2026?",
+      "predicted_prob": 0.78,
+      "outcome": 0,
+      "pnl": -0.3,
+      "brier_error": 0.6084,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793775174.2598748
+    },
     {
       "id": "REFL-1793774857305",
       "trade_id": "S20:634976:Yes:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793387645.431988
-    },
-    {
-      "id": "REFL-1793387510440",
-      "trade_id": "WT:665464:0xed107a85a4585a381e48c7f7ca4144909e7dd2e5:No:BUY",
-      "strategy_id": "WT",
-      "market_title": "Kim Jong Un out as Supreme Leader of North Korea by December 31, 2026?",
-      "predicted_prob": 0.88,
-      "outcome": 0,
-      "pnl": -0.05,
-      "brier_error": 0.7744,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793387510.440457
     }
   ],
   "strategy_weights": {
@@ -2616,11 +2616,11 @@
   },
   "strategy_brier_scores": {
     "S20": {
-      "brier_score": 0.7267,
-      "win_rate": 21.3,
-      "trades_count": 272,
+      "brier_score": 0.7241,
+      "win_rate": 21.6,
+      "trades_count": 273,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5598,
+      "reliability": 0.5556,
       "resolution": 0.0,
       "status": "REDUCED"
     },
@@ -2634,11 +2634,11 @@
       "status": "REDUCED"
     },
     "S12": {
-      "brier_score": 0.4908,
-      "win_rate": 39.9,
-      "trades_count": 203,
+      "brier_score": 0.4815,
+      "win_rate": 41.1,
+      "trades_count": 207,
       "kelly_multiplier": 0.4,
-      "reliability": 0.251,
+      "reliability": 0.2395,
       "resolution": 0.0,
       "status": "REDUCED"
     },
@@ -2652,11 +2652,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3686,
-      "win_rate": 40.5,
-      "trades_count": 469,
+      "brier_score": 0.3691,
+      "win_rate": 40.4,
+      "trades_count": 470,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1262,
+      "reliability": 0.1268,
       "resolution": 0.0,
       "status": "REDUCED"
     },
