@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793801257.4065974,
+  "updated_at": 1793801330.8751497,
   "reflections": [
+    {
+      "id": "REFL-1793801330858",
+      "trade_id": "S12:1285079:Yes:BUY",
+      "strategy_id": "S12",
+      "market_title": "Will the Republican Party win the VA-05 House seat?",
+      "predicted_prob": 0.9,
+      "outcome": 0,
+      "pnl": -0.67,
+      "brier_error": 0.81,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793801330.8583934
+    },
     {
       "id": "REFL-1793797425823",
       "trade_id": "S20:618455:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793424909.9466777
-    },
-    {
-      "id": "REFL-1793416011561",
-      "trade_id": "MR:gamma:631018:Yes:1d:SELL",
-      "strategy_id": "MR",
-      "market_title": "Will the Republicans win the Mississippi Senate race in 2026?",
-      "predicted_prob": 0.72,
-      "outcome": 0,
-      "pnl": -0.26,
-      "brier_error": 0.5184,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793416011.5610454
     }
   ],
   "strategy_weights": {
@@ -2634,11 +2634,11 @@
       "status": "REDUCED"
     },
     "S12": {
-      "brier_score": 0.4641,
-      "win_rate": 43.2,
-      "trades_count": 222,
+      "brier_score": 0.4656,
+      "win_rate": 43.0,
+      "trades_count": 223,
       "kelly_multiplier": 0.4,
-      "reliability": 0.2186,
+      "reliability": 0.2204,
       "resolution": 0.0,
       "status": "REDUCED"
     },
