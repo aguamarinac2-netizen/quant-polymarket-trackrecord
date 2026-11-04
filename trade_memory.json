@@ -1,6 +1,45 @@
 {
-  "updated_at": 1793757990.4622245,
+  "updated_at": 1793758714.9638367,
   "reflections": [
+    {
+      "id": "REFL-1793758669272",
+      "trade_id": "S12:942722:Yes:BUY",
+      "strategy_id": "S12",
+      "market_title": "Will the Democratic Party win the MI-07 House seat?",
+      "predicted_prob": 0.9,
+      "outcome": 0,
+      "pnl": -0.68,
+      "brier_error": 0.81,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793758669.2724664
+    },
+    {
+      "id": "REFL-1793758669133",
+      "trade_id": "S10:630654:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Will the Republicans win the Arkansas Senate race in 2026?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -5.08,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793758669.1335423
+    },
+    {
+      "id": "REFL-1793758669107",
+      "trade_id": "S12:629720:Yes:BUY",
+      "strategy_id": "S12",
+      "market_title": "Will the Democrats win the Wisconsin governor race in 2026?",
+      "predicted_prob": 0.9,
+      "outcome": 0,
+      "pnl": -0.82,
+      "brier_error": 0.81,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793758669.1075177
+    },
     {
       "id": "REFL-1793757679803",
       "trade_id": "S12:629412:Yes:BUY",
@@ -2561,45 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793332153.6361437
-    },
-    {
-      "id": "REFL-1793330548001",
-      "trade_id": "S10:1132795:No:BUY",
-      "strategy_id": "S10",
-      "market_title": "Will China's annual inflation in 2026 be between 0.6% and 1.0%?",
-      "predicted_prob": 0.75,
-      "outcome": 0,
-      "pnl": -0.41,
-      "brier_error": 0.5625,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793330548.0015495
-    },
-    {
-      "id": "REFL-1793323069003",
-      "trade_id": "WT:629518:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
-      "strategy_id": "WT",
-      "market_title": "Will the Democrats win the New Hampshire governor race in 2026?",
-      "predicted_prob": 0.88,
-      "outcome": 0,
-      "pnl": -0.1,
-      "brier_error": 0.7744,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793323069.0040138
-    },
-    {
-      "id": "REFL-1793321866676",
-      "trade_id": "MR:gamma:701496:Yes:1d:BUY",
-      "strategy_id": "MR",
-      "market_title": "Will Bitcoin reach $100,000 by December 31, 2026?",
-      "predicted_prob": 0.78,
-      "outcome": 0,
-      "pnl": -2.82,
-      "brier_error": 0.6084,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793321866.6766455
     }
   ],
   "strategy_weights": {
@@ -2616,29 +2616,29 @@
   },
   "strategy_brier_scores": {
     "S20": {
-      "brier_score": 0.7609,
-      "win_rate": 17.5,
-      "trades_count": 251,
+      "brier_score": 0.7579,
+      "win_rate": 17.9,
+      "trades_count": 252,
       "kelly_multiplier": 0.4,
-      "reliability": 0.6166,
+      "reliability": 0.6115,
       "resolution": 0.0,
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.4069,
-      "win_rate": 31.1,
-      "trades_count": 331,
+      "brier_score": 0.4074,
+      "win_rate": 31.0,
+      "trades_count": 332,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1926,
+      "reliability": 0.1934,
       "resolution": 0.0,
       "status": "REDUCED"
     },
     "S12": {
-      "brier_score": 0.6438,
-      "win_rate": 20.8,
-      "trades_count": 130,
+      "brier_score": 0.6231,
+      "win_rate": 23.4,
+      "trades_count": 137,
       "kelly_multiplier": 0.4,
-      "reliability": 0.4793,
+      "reliability": 0.4441,
       "resolution": 0.0,
       "status": "REDUCED"
     },
