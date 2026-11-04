@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793750610.8369112,
+  "updated_at": 1793750852.047975,
   "reflections": [
+    {
+      "id": "REFL-1793750666546",
+      "trade_id": "MR:gamma:562831:Yes:1w:BUY",
+      "strategy_id": "MR",
+      "market_title": "2026 Balance of Power: R Senate, R House",
+      "predicted_prob": 0.78,
+      "outcome": 0,
+      "pnl": -7.12,
+      "brier_error": 0.6084,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793750666.546664
+    },
     {
       "id": "REFL-1793750332311",
       "trade_id": "S10:629667:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793287156.6063936
-    },
-    {
-      "id": "REFL-1793286773038",
-      "trade_id": "S10:701726:No:BUY",
-      "strategy_id": "S10",
-      "market_title": "Will Hyperliquid reach $100 by December 31, 2026?",
-      "predicted_prob": 0.75,
-      "outcome": 0,
-      "pnl": -2.37,
-      "brier_error": 0.5625,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793286773.0386274
     }
   ],
   "strategy_weights": {
@@ -2652,11 +2652,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3644,
+      "brier_score": 0.3649,
       "win_rate": 41.2,
-      "trades_count": 451,
+      "trades_count": 452,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1207,
+      "reliability": 0.1214,
       "resolution": 0.0,
       "status": "REDUCED"
     },
