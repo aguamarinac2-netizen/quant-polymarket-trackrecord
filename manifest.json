@@ -1,7 +1,7 @@
 {
   "campaign_start": "2026-10-14T04:34:58.147871+00:00",
   "campaign_name": "demo-15d",
-  "updated_at": "2026-11-04T06:23:18.042686+00:00",
+  "updated_at": "2026-11-04T06:35:16.443767+00:00",
   "files": {
     "CAMPAIGN_REPORT.md": {
       "bytes": 1195,
@@ -16,22 +16,22 @@
       "sha256": "388b3a811d0697f3f4c8f3238fe24c7a039f9c9a834441d3a079020db627b021"
     },
     "ledger.jsonl": {
-      "bytes": 3171897,
-      "sha256": "c03b03bd69cea82fdf809f8aef3ef27a20d5f0a1cafd7f9e78c37b51083b659c"
+      "bytes": 3174799,
+      "sha256": "bcf3531d1b9219b21403c82220f1237d900d71080536ea4178e750709c12bec5"
     },
     "strategy_ranking.json": {
       "bytes": 6742,
-      "sha256": "13c1cc7f182af690efb95e8fa4c4b50b6e598e9e47ab80be65069786f375a149"
+      "sha256": "ee1e7328d37117fe8a7ff19836e951215d3e398a878686610b2f959f918f8b0b"
     },
     "trades_all.csv": {
-      "bytes": 830238,
-      "sha256": "416a34eabaf45c24c1da2af774f50887a48471e4a22038da5ceea03e113eb9a9"
+      "bytes": 831162,
+      "sha256": "374adddb15f755ed9427c69e3a5b34b92616a3cbe27dba0602190d6ced93eb0e"
     }
   },
   "trade_counts": {
-    "total": 1689,
-    "realistic": 255,
-    "research": 1425,
+    "total": 1691,
+    "realistic": 256,
+    "research": 1426,
     "hybrid": 9
   },
   "strategies": 10,
@@ -40,10 +40,10 @@
   "hybrid": {
     "orders_executed": 6,
     "rejection_reasons": {
-      "sin libro real disponible": 165338324,
-      "sin liquidez al precio límite": 8230399
+      "sin libro real disponible": 165357930,
+      "sin liquidez al precio límite": 8232295
     },
-    "rejections_total": 173568723,
-    "log_updated_at": "2026-11-04T06:23:18.171715+00:00"
+    "rejections_total": 173590225,
+    "log_updated_at": "2026-11-04T06:35:16.261594+00:00"
   }
 }
