@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793761617.8696022,
+  "updated_at": 1793762347.4756963,
   "reflections": [
+    {
+      "id": "REFL-1793761653971",
+      "trade_id": "S12:943571:Yes:BUY",
+      "strategy_id": "S12",
+      "market_title": "Will the Democratic Party win the OH-09 House seat?",
+      "predicted_prob": 0.9,
+      "outcome": 0,
+      "pnl": -1.51,
+      "brier_error": 0.81,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793761653.9716475
+    },
     {
       "id": "REFL-1793760996073",
       "trade_id": "S12:631018:Yes:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793352696.6906621
-    },
-    {
-      "id": "REFL-1793351086316",
-      "trade_id": "S10:651395:No:BUY",
-      "strategy_id": "S10",
-      "market_title": "Will Ari Weinstein leave OpenAI by December 31, 2026?",
-      "predicted_prob": 0.75,
-      "outcome": 0,
-      "pnl": -0.18,
-      "brier_error": 0.5625,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793351086.316412
     }
   ],
   "strategy_weights": {
@@ -2616,11 +2616,11 @@
   },
   "strategy_brier_scores": {
     "S20": {
-      "brier_score": 0.7579,
-      "win_rate": 17.9,
-      "trades_count": 252,
+      "brier_score": 0.7549,
+      "win_rate": 18.2,
+      "trades_count": 253,
       "kelly_multiplier": 0.4,
-      "reliability": 0.6115,
+      "reliability": 0.6065,
       "resolution": 0.0,
       "status": "REDUCED"
     },
@@ -2634,11 +2634,11 @@
       "status": "REDUCED"
     },
     "S12": {
-      "brier_score": 0.6142,
-      "win_rate": 24.5,
-      "trades_count": 143,
+      "brier_score": 0.6032,
+      "win_rate": 25.9,
+      "trades_count": 147,
       "kelly_multiplier": 0.4,
-      "reliability": 0.4293,
+      "reliability": 0.4115,
       "resolution": 0.0,
       "status": "REDUCED"
     },
