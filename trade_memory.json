@@ -1,6 +1,45 @@
 {
-  "updated_at": 1793751516.643836,
+  "updated_at": 1793751700.2840774,
   "reflections": [
+    {
+      "id": "REFL-1793751673840",
+      "trade_id": "S12:629325:Yes:BUY",
+      "strategy_id": "S12",
+      "market_title": "Will the Republicans win the Florida governor race in 2026?",
+      "predicted_prob": 0.9,
+      "outcome": 0,
+      "pnl": -1.18,
+      "brier_error": 0.81,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793751673.8406918
+    },
+    {
+      "id": "REFL-1793751673819",
+      "trade_id": "S10:629707:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Will the Democrats win the Vermont governor race in 2026?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -3.54,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793751673.8192134
+    },
+    {
+      "id": "REFL-1793751673683",
+      "trade_id": "S10:629707:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Will the Democrats win the Vermont governor race in 2026?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -3.55,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793751673.683092
+    },
     {
       "id": "REFL-1793751294444",
       "trade_id": "S12:944201:Yes:BUY",
@@ -2561,45 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793294843.674934
-    },
-    {
-      "id": "REFL-1793294655643",
-      "trade_id": "MR:gamma:701502:Yes:1d:BUY",
-      "strategy_id": "MR",
-      "market_title": "Will Bitcoin dip to $45,000 by December 31, 2026?",
-      "predicted_prob": 0.73,
-      "outcome": 0,
-      "pnl": -0.6,
-      "brier_error": 0.5329,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793294655.643613
-    },
-    {
-      "id": "REFL-1793293496255",
-      "trade_id": "WT:635012:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
-      "strategy_id": "WT",
-      "market_title": "Will Bernadette Wilson win the 2026 Alaska governor election?",
-      "predicted_prob": 0.88,
-      "outcome": 0,
-      "pnl": -0.14,
-      "brier_error": 0.7744,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793293496.2558258
-    },
-    {
-      "id": "REFL-1793289975983",
-      "trade_id": "S10:943749:No:BUY",
-      "strategy_id": "S10",
-      "market_title": "Will the Democratic Party win the PA-01 House seat?",
-      "predicted_prob": 0.75,
-      "outcome": 0,
-      "pnl": -2.11,
-      "brier_error": 0.5625,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793289975.9835343
     }
   ],
   "strategy_weights": {
@@ -2625,20 +2625,20 @@
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.4107,
+      "brier_score": 0.4106,
       "win_rate": 30.4,
-      "trades_count": 313,
+      "trades_count": 316,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1993,
+      "reliability": 0.1991,
       "resolution": 0.0,
       "status": "REDUCED"
     },
     "S12": {
-      "brier_score": 0.6886,
-      "win_rate": 15.2,
-      "trades_count": 112,
+      "brier_score": 0.6837,
+      "win_rate": 15.8,
+      "trades_count": 114,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5598,
+      "reliability": 0.5507,
       "resolution": 0.0,
       "status": "REDUCED"
     },
