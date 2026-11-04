@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793760710.4832692,
+  "updated_at": 1793761436.5653586,
   "reflections": [
+    {
+      "id": "REFL-1793760996073",
+      "trade_id": "S12:631018:Yes:BUY",
+      "strategy_id": "S12",
+      "market_title": "Will the Republicans win the Mississippi Senate race in 2026?",
+      "predicted_prob": 0.9,
+      "outcome": 0,
+      "pnl": -1.48,
+      "brier_error": 0.81,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793760996.0733309
+    },
     {
       "id": "REFL-1793760331894",
       "trade_id": "MR:gamma:565064:Yes:1d:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793351086.316412
-    },
-    {
-      "id": "REFL-1793350685953",
-      "trade_id": "S20:701579:No:BUY",
-      "strategy_id": "S20",
-      "market_title": "Will Solana dip to $40 by December 31, 2026?",
-      "predicted_prob": 0.96,
-      "outcome": 0,
-      "pnl": -0.06,
-      "brier_error": 0.9216,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793350685.9537418
     }
   ],
   "strategy_weights": {
@@ -2634,11 +2634,11 @@
       "status": "REDUCED"
     },
     "S12": {
-      "brier_score": 0.6258,
-      "win_rate": 23.0,
-      "trades_count": 139,
+      "brier_score": 0.6142,
+      "win_rate": 24.5,
+      "trades_count": 143,
       "kelly_multiplier": 0.4,
-      "reliability": 0.4486,
+      "reliability": 0.4293,
       "resolution": 0.0,
       "status": "REDUCED"
     },
