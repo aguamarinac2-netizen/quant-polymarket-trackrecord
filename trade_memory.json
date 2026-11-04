@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793769721.643754,
+  "updated_at": 1793770444.8232856,
   "reflections": [
+    {
+      "id": "REFL-1793770109890",
+      "trade_id": "S20:631017:No:BUY",
+      "strategy_id": "S20",
+      "market_title": "Will the Democrats win the Mississippi Senate race in 2026?",
+      "predicted_prob": 0.98,
+      "outcome": 0,
+      "pnl": -0.71,
+      "brier_error": 0.9604,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793770109.890166
+    },
     {
       "id": "REFL-1793769160030",
       "trade_id": "S20:631018:Yes:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793374617.8254979
-    },
-    {
-      "id": "REFL-1793373486151",
-      "trade_id": "MR:gamma:562831:Yes:1d:BUY",
-      "strategy_id": "MR",
-      "market_title": "2026 Balance of Power: R Senate, R House",
-      "predicted_prob": 0.72,
-      "outcome": 0,
-      "pnl": -1.21,
-      "brier_error": 0.5184,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793373486.1514382
     }
   ],
   "strategy_weights": {
@@ -2616,11 +2616,11 @@
   },
   "strategy_brier_scores": {
     "S20": {
-      "brier_score": 0.7415,
-      "win_rate": 19.7,
-      "trades_count": 264,
+      "brier_score": 0.7423,
+      "win_rate": 19.6,
+      "trades_count": 265,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5838,
+      "reliability": 0.5851,
       "resolution": 0.0,
       "status": "REDUCED"
     },
