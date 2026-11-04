@@ -1,6 +1,58 @@
 {
-  "updated_at": 1793758955.3028479,
+  "updated_at": 1793759621.8509862,
   "reflections": [
+    {
+      "id": "REFL-1793759330839",
+      "trade_id": "S10:629531:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Will the Democrats win the New Mexico governor race in 2026?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -3.37,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793759330.8396542
+    },
+    {
+      "id": "REFL-1793758997517",
+      "trade_id": "S12:629720:Yes:BUY",
+      "strategy_id": "S12",
+      "market_title": "Will the Democrats win the Wisconsin governor race in 2026?",
+      "predicted_prob": 0.9,
+      "outcome": 0,
+      "pnl": -1.12,
+      "brier_error": 0.81,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793758997.5170734
+    },
+    {
+      "id": "REFL-1793758997383",
+      "trade_id": "S10:630832:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Will the Republicans win the Montana Senate race in 2026?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -3.48,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793758997.3833647
+    },
+    {
+      "id": "REFL-1793758997361",
+      "trade_id": "S10:630706:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Will the Republicans win the Idaho Senate race in 2026?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -2.74,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793758997.3618448
+    },
     {
       "id": "REFL-1793758669272",
       "trade_id": "S12:942722:Yes:BUY",
@@ -2548,58 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793349783.4978547
-    },
-    {
-      "id": "REFL-1793339249837",
-      "trade_id": "MR:gamma:561230:Yes:1d:SELL",
-      "strategy_id": "MR",
-      "market_title": "Will Gavin Newsom win the 2028 US Presidential Election?",
-      "predicted_prob": 0.78,
-      "outcome": 0,
-      "pnl": -0.27,
-      "brier_error": 0.6084,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793339249.8375487
-    },
-    {
-      "id": "REFL-1793339249821",
-      "trade_id": "WT:561229:0x9ba9dec33838f4ec9f032f7247d7481987e63ce9:No:BUY",
-      "strategy_id": "WT",
-      "market_title": "Will JD Vance win the 2028 US Presidential Election?",
-      "predicted_prob": 0.86,
-      "outcome": 0,
-      "pnl": -0.03,
-      "brier_error": 0.7396,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793339249.8213844
-    },
-    {
-      "id": "REFL-1793337328033",
-      "trade_id": "MR:local:559655:Yes:SELL",
-      "strategy_id": "MR",
-      "market_title": "Will Josh Shapiro win the 2028 Democratic presidential nomination?",
-      "predicted_prob": 0.7,
-      "outcome": 0,
-      "pnl": -0.71,
-      "brier_error": 0.49,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793337328.0332897
-    },
-    {
-      "id": "REFL-1793332153636",
-      "trade_id": "WT:634878:0x66e7ce01c6831b8a2503d09edd6167152ee68bcd:No:BUY",
-      "strategy_id": "WT",
-      "market_title": "Will the Democrats win the Louisiana Senate race in 2026?",
-      "predicted_prob": 0.82,
-      "outcome": 0,
-      "pnl": -0.23,
-      "brier_error": 0.6724,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793332153.6361437
     }
   ],
   "strategy_weights": {
@@ -2625,20 +2625,20 @@
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.4074,
-      "win_rate": 31.0,
-      "trades_count": 332,
+      "brier_score": 0.4088,
+      "win_rate": 30.7,
+      "trades_count": 335,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1934,
+      "reliability": 0.1958,
       "resolution": 0.0,
       "status": "REDUCED"
     },
     "S12": {
-      "brier_score": 0.6231,
-      "win_rate": 23.4,
-      "trades_count": 137,
+      "brier_score": 0.6245,
+      "win_rate": 23.2,
+      "trades_count": 138,
       "kelly_multiplier": 0.4,
-      "reliability": 0.4441,
+      "reliability": 0.4464,
       "resolution": 0.0,
       "status": "REDUCED"
     },
