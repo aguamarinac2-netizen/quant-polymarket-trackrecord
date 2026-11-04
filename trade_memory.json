@@ -1,6 +1,45 @@
 {
-  "updated_at": 1793774181.038799,
+  "updated_at": 1793774965.2513652,
   "reflections": [
+    {
+      "id": "REFL-1793774857305",
+      "trade_id": "S20:634976:Yes:BUY",
+      "strategy_id": "S20",
+      "market_title": "Will Mary Peltola win the Alaska Senate race in 2026?",
+      "predicted_prob": 0.98,
+      "outcome": 0,
+      "pnl": -0.05,
+      "brier_error": 0.9604,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793774857.305897
+    },
+    {
+      "id": "REFL-1793774857283",
+      "trade_id": "S12:634976:Yes:BUY",
+      "strategy_id": "S12",
+      "market_title": "Will Mary Peltola win the Alaska Senate race in 2026?",
+      "predicted_prob": 0.9,
+      "outcome": 0,
+      "pnl": -0.1,
+      "brier_error": 0.81,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793774857.28388
+    },
+    {
+      "id": "REFL-1793774857146",
+      "trade_id": "S12:634976:Yes:BUY",
+      "strategy_id": "S12",
+      "market_title": "Will Mary Peltola win the Alaska Senate race in 2026?",
+      "predicted_prob": 0.9,
+      "outcome": 0,
+      "pnl": -0.05,
+      "brier_error": 0.81,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793774857.1465478
+    },
     {
       "id": "REFL-1793772862472",
       "trade_id": "MR:gamma:561230:Yes:1d:BUY",
@@ -2561,45 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793387510.440457
-    },
-    {
-      "id": "REFL-1793384925713",
-      "trade_id": "S12:703686:Yes:BUY",
-      "strategy_id": "S12",
-      "market_title": "Will the Democratic Party win the CA-22 House seat?",
-      "predicted_prob": 0.9,
-      "outcome": 0,
-      "pnl": -0.12,
-      "brier_error": 0.81,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793384925.7135963
-    },
-    {
-      "id": "REFL-1793381703449",
-      "trade_id": "MR:gamma:943539:Yes:1d:BUY",
-      "strategy_id": "MR",
-      "market_title": "Will the Republican Party win the NC-11 House seat?",
-      "predicted_prob": 0.78,
-      "outcome": 0,
-      "pnl": -2.45,
-      "brier_error": 0.6084,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793381703.4499722
-    },
-    {
-      "id": "REFL-1793381515117",
-      "trade_id": "MR:gamma:634893:Yes:1w:SELL",
-      "strategy_id": "MR",
-      "market_title": "Will an independent win the Nebraska Senate race in 2026?",
-      "predicted_prob": 0.78,
-      "outcome": 0,
-      "pnl": -1.13,
-      "brier_error": 0.6084,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793381515.1178865
     }
   ],
   "strategy_weights": {
@@ -2616,11 +2616,11 @@
   },
   "strategy_brier_scores": {
     "S20": {
-      "brier_score": 0.7286,
-      "win_rate": 21.1,
-      "trades_count": 270,
+      "brier_score": 0.7267,
+      "win_rate": 21.3,
+      "trades_count": 272,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5628,
+      "reliability": 0.5598,
       "resolution": 0.0,
       "status": "REDUCED"
     },
@@ -2634,11 +2634,11 @@
       "status": "REDUCED"
     },
     "S12": {
-      "brier_score": 0.49,
-      "win_rate": 40.0,
-      "trades_count": 200,
+      "brier_score": 0.4908,
+      "win_rate": 39.9,
+      "trades_count": 203,
       "kelly_multiplier": 0.4,
-      "reliability": 0.25,
+      "reliability": 0.251,
       "resolution": 0.0,
       "status": "REDUCED"
     },
