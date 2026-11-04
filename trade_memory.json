@@ -1,6 +1,32 @@
 {
-  "updated_at": 1793796794.8579698,
+  "updated_at": 1793797637.485498,
   "reflections": [
+    {
+      "id": "REFL-1793797425823",
+      "trade_id": "S20:618455:No:BUY",
+      "strategy_id": "S20",
+      "market_title": "Opensea FDV above $1B one day after launch?",
+      "predicted_prob": 0.96,
+      "outcome": 0,
+      "pnl": -0.06,
+      "brier_error": 0.9216,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793797425.8238862
+    },
+    {
+      "id": "REFL-1793797197178",
+      "trade_id": "S12:942301:Yes:BUY",
+      "strategy_id": "S12",
+      "market_title": "Will the Republican Party win the CO-03 House seat?",
+      "predicted_prob": 0.9,
+      "outcome": 0,
+      "pnl": -0.68,
+      "brier_error": 0.81,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793797197.178843
+    },
     {
       "id": "REFL-1793795302023",
       "trade_id": "S10:950854:No:BUY",
@@ -2574,32 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793416011.5610454
-    },
-    {
-      "id": "REFL-1793414632487",
-      "trade_id": "S10:629557:No:BUY",
-      "strategy_id": "S10",
-      "market_title": "Will the Democrats win the Ohio governor race in 2026?",
-      "predicted_prob": 0.75,
-      "outcome": 0,
-      "pnl": -0.11,
-      "brier_error": 0.5625,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793414632.4871993
-    },
-    {
-      "id": "REFL-1793401708106",
-      "trade_id": "WT:665474:0x3eae57986be5e0ca435102ffe1f14206ffa2e2ed:No:BUY",
-      "strategy_id": "WT",
-      "market_title": "Will Saudi Arabia join the Abraham Accords before 2027?",
-      "predicted_prob": 0.83,
-      "outcome": 0,
-      "pnl": -0.13,
-      "brier_error": 0.6889,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793401708.1064706
     }
   ],
   "strategy_weights": {
@@ -2616,11 +2616,11 @@
   },
   "strategy_brier_scores": {
     "S20": {
-      "brier_score": 0.7188,
-      "win_rate": 22.2,
-      "trades_count": 275,
+      "brier_score": 0.7195,
+      "win_rate": 22.1,
+      "trades_count": 276,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5472,
+      "reliability": 0.5484,
       "resolution": 0.0,
       "status": "REDUCED"
     },
@@ -2634,11 +2634,11 @@
       "status": "REDUCED"
     },
     "S12": {
-      "brier_score": 0.4687,
-      "win_rate": 42.7,
-      "trades_count": 218,
+      "brier_score": 0.4703,
+      "win_rate": 42.5,
+      "trades_count": 219,
       "kelly_multiplier": 0.4,
-      "reliability": 0.2241,
+      "reliability": 0.226,
       "resolution": 0.0,
       "status": "REDUCED"
     },
