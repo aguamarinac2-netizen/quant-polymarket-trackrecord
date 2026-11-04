@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793794927.729016,
+  "updated_at": 1793794987.7528446,
   "reflections": [
+    {
+      "id": "REFL-1793794981034",
+      "trade_id": "S12:1284338:Yes:BUY",
+      "strategy_id": "S12",
+      "market_title": "Will the Republican Party win the NY-21 House seat?",
+      "predicted_prob": 0.9,
+      "outcome": 0,
+      "pnl": -1.55,
+      "brier_error": 0.81,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793794981.0344763
+    },
     {
       "id": "REFL-1793781786444",
       "trade_id": "S12:942117:Yes:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793400962.3987079
-    },
-    {
-      "id": "REFL-1793394653020",
-      "trade_id": "S10:943955:No:BUY",
-      "strategy_id": "S10",
-      "market_title": "Will the Democratic Party win the PA-10 House seat?",
-      "predicted_prob": 0.75,
-      "outcome": 0,
-      "pnl": -2.01,
-      "brier_error": 0.5625,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793394653.0201378
     }
   ],
   "strategy_weights": {
@@ -2634,11 +2634,11 @@
       "status": "REDUCED"
     },
     "S12": {
-      "brier_score": 0.4736,
-      "win_rate": 42.1,
-      "trades_count": 214,
+      "brier_score": 0.4751,
+      "win_rate": 41.9,
+      "trades_count": 215,
       "kelly_multiplier": 0.4,
-      "reliability": 0.2299,
+      "reliability": 0.2317,
       "resolution": 0.0,
       "status": "REDUCED"
     },
