@@ -1,6 +1,32 @@
 {
-  "updated_at": 1793827322.1360059,
+  "updated_at": 1793827503.67489,
   "reflections": [
+    {
+      "id": "REFL-1793827489710",
+      "trade_id": "S12:1283136:Yes:BUY",
+      "strategy_id": "S12",
+      "market_title": "Will the Republican Party win the FL-26 House seat?",
+      "predicted_prob": 0.9,
+      "outcome": 0,
+      "pnl": -0.91,
+      "brier_error": 0.81,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793827489.710709
+    },
+    {
+      "id": "REFL-1793827489586",
+      "trade_id": "S12:1283136:Yes:BUY",
+      "strategy_id": "S12",
+      "market_title": "Will the Republican Party win the FL-26 House seat?",
+      "predicted_prob": 0.9,
+      "outcome": 0,
+      "pnl": -0.91,
+      "brier_error": 0.81,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793827489.5862243
+    },
     {
       "id": "REFL-1793813081023",
       "trade_id": "S12:631017:Yes:BUY",
@@ -2574,32 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793446497.0223641
-    },
-    {
-      "id": "REFL-1793434583541",
-      "trade_id": "MR:gamma:567688:Yes:1w:BUY",
-      "strategy_id": "MR",
-      "market_title": "Netanyahu out by end of 2026?",
-      "predicted_prob": 0.78,
-      "outcome": 0,
-      "pnl": -0.2,
-      "brier_error": 0.6084,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793434583.5417187
-    },
-    {
-      "id": "REFL-1793428256668",
-      "trade_id": "S20:689501:No:BUY",
-      "strategy_id": "S20",
-      "market_title": "Will George R. R. Martin announce \"The Winds of Winter\" in 2026?",
-      "predicted_prob": 0.96,
-      "outcome": 0,
-      "pnl": -0.24,
-      "brier_error": 0.9216,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793428256.6687996
     }
   ],
   "strategy_weights": {
@@ -2634,11 +2634,11 @@
       "status": "REDUCED"
     },
     "S12": {
-      "brier_score": 0.4382,
-      "win_rate": 46.5,
-      "trades_count": 241,
+      "brier_score": 0.4413,
+      "win_rate": 46.1,
+      "trades_count": 243,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1895,
+      "reliability": 0.1928,
       "resolution": 0.0,
       "status": "REDUCED"
     },
