@@ -1,6 +1,32 @@
 {
-  "updated_at": 1793757140.6768026,
+  "updated_at": 1793757806.3926241,
   "reflections": [
+    {
+      "id": "REFL-1793757679803",
+      "trade_id": "S12:629412:Yes:BUY",
+      "strategy_id": "S12",
+      "market_title": "Will the Democrats win the Kansas governor race in 2026?",
+      "predicted_prob": 0.9,
+      "outcome": 0,
+      "pnl": -0.9,
+      "brier_error": 0.81,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793757679.803716
+    },
+    {
+      "id": "REFL-1793757679674",
+      "trade_id": "S12:629412:Yes:BUY",
+      "strategy_id": "S12",
+      "market_title": "Will the Democrats win the Kansas governor race in 2026?",
+      "predicted_prob": 0.9,
+      "outcome": 0,
+      "pnl": -0.9,
+      "brier_error": 0.81,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793757679.6747427
+    },
     {
       "id": "REFL-1793756964698",
       "trade_id": "S12:943749:Yes:BUY",
@@ -2574,32 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793321866.6766455
-    },
-    {
-      "id": "REFL-1793319576891",
-      "trade_id": "S20:704274:No:BUY",
-      "strategy_id": "S20",
-      "market_title": "Ostium FDV above $700M one day after launch?",
-      "predicted_prob": 0.96,
-      "outcome": 0,
-      "pnl": -0.05,
-      "brier_error": 0.9216,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793319576.8915205
-    },
-    {
-      "id": "REFL-1793319138189",
-      "trade_id": "S20:704138:No:BUY",
-      "strategy_id": "S20",
-      "market_title": "Will Tempo launch a token by December 31, 2026?",
-      "predicted_prob": 0.96,
-      "outcome": 0,
-      "pnl": -0.09,
-      "brier_error": 0.9216,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793319138.1895216
     }
   ],
   "strategy_weights": {
@@ -2625,20 +2625,20 @@
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.408,
-      "win_rate": 30.9,
-      "trades_count": 330,
+      "brier_score": 0.4069,
+      "win_rate": 31.1,
+      "trades_count": 331,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1944,
+      "reliability": 0.1926,
       "resolution": 0.0,
       "status": "REDUCED"
     },
     "S12": {
-      "brier_score": 0.6616,
-      "win_rate": 18.5,
-      "trades_count": 124,
+      "brier_score": 0.6588,
+      "win_rate": 18.9,
+      "trades_count": 127,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5105,
+      "reliability": 0.5056,
       "resolution": 0.0,
       "status": "REDUCED"
     },
