@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793766885.766893,
+  "updated_at": 1793767007.1153393,
   "reflections": [
+    {
+      "id": "REFL-1793766914077",
+      "trade_id": "MR:gamma:679018:Yes:1w:BUY",
+      "strategy_id": "MR",
+      "market_title": "Will Marine Le Pen win the 2027 French presidential election?",
+      "predicted_prob": 0.78,
+      "outcome": 0,
+      "pnl": -0.9,
+      "brier_error": 0.6084,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793766914.077939
+    },
     {
       "id": "REFL-1793766590945",
       "trade_id": "S12:630805:Yes:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793369877.2578862
-    },
-    {
-      "id": "REFL-1793366958199",
-      "trade_id": "WT:629519:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
-      "strategy_id": "WT",
-      "market_title": "Will the Republicans win the New Hampshire governor race in 2026?",
-      "predicted_prob": 0.88,
-      "outcome": 0,
-      "pnl": -0.41,
-      "brier_error": 0.7744,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793366958.1995137
     }
   ],
   "strategy_weights": {
@@ -2652,11 +2652,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3676,
-      "win_rate": 40.7,
-      "trades_count": 467,
+      "brier_score": 0.3681,
+      "win_rate": 40.6,
+      "trades_count": 468,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1249,
+      "reliability": 0.1256,
       "resolution": 0.0,
       "status": "REDUCED"
     },
