@@ -1,6 +1,32 @@
 {
-  "updated_at": 1793770685.301455,
+  "updated_at": 1793771406.3631349,
   "reflections": [
+    {
+      "id": "REFL-1793771379199",
+      "trade_id": "S12:944229:Yes:BUY",
+      "strategy_id": "S12",
+      "market_title": "Will the Republican Party win the TX-32 House seat?",
+      "predicted_prob": 0.9,
+      "outcome": 0,
+      "pnl": -0.08,
+      "brier_error": 0.81,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793771379.1996703
+    },
+    {
+      "id": "REFL-1793771379180",
+      "trade_id": "S12:944153:Yes:BUY",
+      "strategy_id": "S12",
+      "market_title": "Will the Democratic Party win the TX-09 House seat?",
+      "predicted_prob": 0.9,
+      "outcome": 0,
+      "pnl": -1.23,
+      "brier_error": 0.81,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793771379.1804035
+    },
     {
       "id": "REFL-1793770109890",
       "trade_id": "S20:631017:No:BUY",
@@ -2574,32 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793378409.4141335
-    },
-    {
-      "id": "REFL-1793377316386",
-      "trade_id": "WT:665246:0x57b00c3ccef1b6bd6962fb9ca463c4e0b38e76f4:No:BUY",
-      "strategy_id": "WT",
-      "market_title": "Yoon out of custody before 2027?",
-      "predicted_prob": 0.74,
-      "outcome": 0,
-      "pnl": -0.12,
-      "brier_error": 0.5476,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793377316.3864455
-    },
-    {
-      "id": "REFL-1793374617825",
-      "trade_id": "S10:1073793:No:BUY",
-      "strategy_id": "S10",
-      "market_title": "Will there be between 17 and 19 earthquakes of magnitude 7.0 or higher worldwide",
-      "predicted_prob": 0.75,
-      "outcome": 0,
-      "pnl": -0.16,
-      "brier_error": 0.5625,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793374617.8254979
     }
   ],
   "strategy_weights": {
@@ -2634,11 +2634,11 @@
       "status": "REDUCED"
     },
     "S12": {
-      "brier_score": 0.5127,
-      "win_rate": 37.2,
-      "trades_count": 183,
+      "brier_score": 0.5079,
+      "win_rate": 37.8,
+      "trades_count": 188,
       "kelly_multiplier": 0.4,
-      "reliability": 0.2792,
+      "reliability": 0.2728,
       "resolution": 0.0,
       "status": "REDUCED"
     },
