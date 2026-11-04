@@ -1,6 +1,32 @@
 {
-  "updated_at": 1793764165.848391,
+  "updated_at": 1793764347.423654,
   "reflections": [
+    {
+      "id": "REFL-1793764301314",
+      "trade_id": "S20:629412:Yes:BUY",
+      "strategy_id": "S20",
+      "market_title": "Will the Democrats win the Kansas governor race in 2026?",
+      "predicted_prob": 0.97,
+      "outcome": 0,
+      "pnl": -0.63,
+      "brier_error": 0.9409,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793764301.3146732
+    },
+    {
+      "id": "REFL-1793764301290",
+      "trade_id": "S12:944334:Yes:BUY",
+      "strategy_id": "S12",
+      "market_title": "Will the Democratic Party win the WI-01 House seat?",
+      "predicted_prob": 0.9,
+      "outcome": 0,
+      "pnl": -0.7,
+      "brier_error": 0.81,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793764301.2902644
+    },
     {
       "id": "REFL-1793763308887",
       "trade_id": "S12:942843:Yes:BUY",
@@ -2574,32 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793356075.014341
-    },
-    {
-      "id": "REFL-1793355972043",
-      "trade_id": "WT:648383:0x1cfc260bfa2b5ae89377863180ca3b4f5c862111:No:BUY",
-      "strategy_id": "WT",
-      "market_title": "Billionaire one-time wealth tax passes in California election 2026?",
-      "predicted_prob": 0.83,
-      "outcome": 0,
-      "pnl": -0.07,
-      "brier_error": 0.6889,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793355972.0435572
-    },
-    {
-      "id": "REFL-1793355769176",
-      "trade_id": "WT:629506:0xa5ef39c3d3e10d0b270233af41cac69796b12966:No:BUY",
-      "strategy_id": "WT",
-      "market_title": "Will the Republicans win the Nevada governor race in 2026?",
-      "predicted_prob": 0.88,
-      "outcome": 0,
-      "pnl": 0.0,
-      "brier_error": 0.7744,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793355769.1769302
     }
   ],
   "strategy_weights": {
@@ -2616,11 +2616,11 @@
   },
   "strategy_brier_scores": {
     "S20": {
-      "brier_score": 0.7549,
-      "win_rate": 18.2,
-      "trades_count": 253,
+      "brier_score": 0.7557,
+      "win_rate": 18.1,
+      "trades_count": 254,
       "kelly_multiplier": 0.4,
-      "reliability": 0.6065,
+      "reliability": 0.6077,
       "resolution": 0.0,
       "status": "REDUCED"
     },
@@ -2634,11 +2634,11 @@
       "status": "REDUCED"
     },
     "S12": {
-      "brier_score": 0.5777,
-      "win_rate": 29.0,
-      "trades_count": 155,
+      "brier_score": 0.572,
+      "win_rate": 29.7,
+      "trades_count": 158,
       "kelly_multiplier": 0.4,
-      "reliability": 0.3717,
+      "reliability": 0.363,
       "resolution": 0.0,
       "status": "REDUCED"
     },
