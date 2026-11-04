@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793794987.7528446,
+  "updated_at": 1793795830.2350266,
   "reflections": [
+    {
+      "id": "REFL-1793795302023",
+      "trade_id": "S10:950854:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Will the S&P 500 have the best performance in 2026?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -2.46,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793795302.0231233
+    },
     {
       "id": "REFL-1793794981034",
       "trade_id": "S12:1284338:Yes:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793401708.1064706
-    },
-    {
-      "id": "REFL-1793400962398",
-      "trade_id": "WT:663583:0xe52c0a1327a12edc7bd54ea6f37ce00a4ca96924:No:BUY",
-      "strategy_id": "WT",
-      "market_title": "Will the Iranian regime fall before 2027?",
-      "predicted_prob": 0.88,
-      "outcome": 0,
-      "pnl": -0.07,
-      "brier_error": 0.7744,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793400962.3987079
     }
   ],
   "strategy_weights": {
@@ -2625,20 +2625,20 @@
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.4106,
-      "win_rate": 30.4,
-      "trades_count": 339,
+      "brier_score": 0.411,
+      "win_rate": 30.3,
+      "trades_count": 340,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1991,
+      "reliability": 0.1999,
       "resolution": 0.0,
       "status": "REDUCED"
     },
     "S12": {
-      "brier_score": 0.4751,
-      "win_rate": 41.9,
-      "trades_count": 215,
+      "brier_score": 0.4708,
+      "win_rate": 42.4,
+      "trades_count": 217,
       "kelly_multiplier": 0.4,
-      "reliability": 0.2317,
+      "reliability": 0.2266,
       "resolution": 0.0,
       "status": "REDUCED"
     },
