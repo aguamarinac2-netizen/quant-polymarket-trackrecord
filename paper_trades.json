@@ -11601,11 +11601,11 @@
       "order_type": "LIMIT",
       "entry_price": 0.9629,
       "signal_entry_price": 0.961,
-      "current_price": 0.989,
+      "current_price": 0.9925,
       "target_price": 0.99,
       "stop_loss": 0.9033,
       "initial_stop_loss": 0.9033,
-      "peak_price": 0.989,
+      "peak_price": 0.9925,
       "break_even_active": false,
       "trailing_stop_active": false,
       "trailing_stop_price": null,
@@ -11624,13 +11624,13 @@
       "risk_reward_ratio": 0.5,
       "horizon": "flash",
       "horizon_label": "\u26a1 Flash (<48h)",
-      "status": "OPEN",
-      "unrealized_pnl_usd": 0.27,
-      "unrealized_pnl_pct": 2.71,
-      "realized_pnl_usd": 0.0,
-      "realized_pnl_pct": 0.0,
-      "close_reason": null,
-      "closed_at": null,
+      "status": "WON",
+      "unrealized_pnl_usd": 0.31,
+      "unrealized_pnl_pct": 3.07,
+      "realized_pnl_usd": 0.27,
+      "realized_pnl_pct": 3.07,
+      "close_reason": "\ud83c\udfaf Take Profit alcanzado ($0.993 >= $0.990)",
+      "closed_at": "2026-11-04T07:24:20.497336+00:00",
       "engine": "paper"
     },
     "S12:942776:Yes:BUY": {
@@ -11864,7 +11864,8 @@
       "realized_pnl_pct": 1.77,
       "close_reason": "\ud83c\udfaf Trailing Stop activado (Beneficio protegido: +1.77% a $0.955)",
       "closed_at": "2026-11-04T07:13:50.996803+00:00",
-      "engine": "paper"
+      "engine": "paper",
+      "ai_post_mortem_done": true
     },
     "S12:944290:Yes:BUY": {
       "trade_id": "S12:944290:Yes:BUY",
@@ -12020,7 +12021,7 @@
       "order_type": "LIMIT",
       "entry_price": 0.9329,
       "signal_entry_price": 0.931,
-      "current_price": 0.9105,
+      "current_price": 0.903,
       "target_price": 0.99,
       "stop_loss": 0.8751,
       "initial_stop_loss": 0.8751,
@@ -12044,8 +12045,8 @@
       "horizon": "flash",
       "horizon_label": "\u26a1 Flash (<48h)",
       "status": "OPEN",
-      "unrealized_pnl_usd": -0.24,
-      "unrealized_pnl_pct": -2.4,
+      "unrealized_pnl_usd": -0.32,
+      "unrealized_pnl_pct": -3.21,
       "realized_pnl_usd": 0.0,
       "realized_pnl_pct": 0.0,
       "close_reason": null,
@@ -12053,5 +12054,5 @@
       "engine": "paper"
     }
   },
-  "updated_at": "2026-11-04T07:13:50.996873+00:00"
+  "updated_at": "2026-11-04T07:24:20.497514+00:00"
 }
