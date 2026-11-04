@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793754238.7457223,
+  "updated_at": 1793754421.6468632,
   "reflections": [
+    {
+      "id": "REFL-1793754344383",
+      "trade_id": "MR:gamma:562803:Yes:1d:BUY",
+      "strategy_id": "MR",
+      "market_title": "Will the Republican Party control the House after the 2026 Midterm elections?",
+      "predicted_prob": 0.78,
+      "outcome": 0,
+      "pnl": -7.72,
+      "brier_error": 0.6084,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793754344.383074
+    },
     {
       "id": "REFL-1793754008691",
       "trade_id": "S20:629667:Yes:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793319120.7739055
-    },
-    {
-      "id": "REFL-1793319115483",
-      "trade_id": "S20:593975:No:BUY",
-      "strategy_id": "S20",
-      "market_title": "Will Bernie endorse Antonio Delgado for NY-Gov by Nov 2 2026 ET?",
-      "predicted_prob": 0.96,
-      "outcome": 0,
-      "pnl": -0.03,
-      "brier_error": 0.9216,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793319115.483494
     }
   ],
   "strategy_weights": {
@@ -2616,11 +2616,11 @@
   },
   "strategy_brier_scores": {
     "S20": {
-      "brier_score": 0.7694,
-      "win_rate": 16.6,
-      "trades_count": 247,
+      "brier_score": 0.7663,
+      "win_rate": 16.9,
+      "trades_count": 248,
       "kelly_multiplier": 0.4,
-      "reliability": 0.631,
+      "reliability": 0.6258,
       "resolution": 0.0,
       "status": "REDUCED"
     },
@@ -2652,11 +2652,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3657,
-      "win_rate": 41.0,
-      "trades_count": 463,
+      "brier_score": 0.3663,
+      "win_rate": 40.9,
+      "trades_count": 464,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1224,
+      "reliability": 0.1231,
       "resolution": 0.0,
       "status": "REDUCED"
     },
