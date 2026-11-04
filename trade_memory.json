@@ -1,6 +1,32 @@
 {
-  "updated_at": 1793756235.3003056,
+  "updated_at": 1793756897.9401422,
   "reflections": [
+    {
+      "id": "REFL-1793756345965",
+      "trade_id": "MR:gamma:629183:Yes:1w:SELL",
+      "strategy_id": "MR",
+      "market_title": "Will the Democrats win the Arizona governor race in 2026?",
+      "predicted_prob": 0.78,
+      "outcome": 0,
+      "pnl": -0.44,
+      "brier_error": 0.6084,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793756345.9655433
+    },
+    {
+      "id": "REFL-1793756298858",
+      "trade_id": "S10:944153:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Will the Democratic Party win the TX-09 House seat?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -3.25,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793756298.858106
+    },
     {
       "id": "REFL-1793755300613",
       "trade_id": "S10:630818:No:BUY",
@@ -2574,32 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793319138.1702309
-    },
-    {
-      "id": "REFL-1793319138146",
-      "trade_id": "S20:701569:No:BUY",
-      "strategy_id": "S20",
-      "market_title": "Will Solana reach $240 by December 31, 2026?",
-      "predicted_prob": 0.96,
-      "outcome": 0,
-      "pnl": -0.06,
-      "brier_error": 0.9216,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793319138.146809
-    },
-    {
-      "id": "REFL-1793319131779",
-      "trade_id": "S20:701567:No:BUY",
-      "strategy_id": "S20",
-      "market_title": "Will Solana reach $280 by December 31, 2026?",
-      "predicted_prob": 0.96,
-      "outcome": 0,
-      "pnl": -0.09,
-      "brier_error": 0.9216,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793319131.7796047
     }
   ],
   "strategy_weights": {
@@ -2625,20 +2625,20 @@
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.4085,
-      "win_rate": 30.8,
-      "trades_count": 328,
+      "brier_score": 0.408,
+      "win_rate": 30.9,
+      "trades_count": 330,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1954,
+      "reliability": 0.1944,
       "resolution": 0.0,
       "status": "REDUCED"
     },
     "S12": {
-      "brier_score": 0.6767,
-      "win_rate": 16.7,
-      "trades_count": 120,
+      "brier_score": 0.6604,
+      "win_rate": 18.7,
+      "trades_count": 123,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5378,
+      "reliability": 0.5084,
       "resolution": 0.0,
       "status": "REDUCED"
     },
@@ -2652,11 +2652,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3663,
+      "brier_score": 0.3668,
       "win_rate": 40.9,
-      "trades_count": 464,
+      "trades_count": 465,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1231,
+      "reliability": 0.1237,
       "resolution": 0.0,
       "status": "REDUCED"
     },
