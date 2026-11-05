@@ -1,6 +1,32 @@
 {
-  "updated_at": 1793841991.4079933,
+  "updated_at": 1793842657.5747697,
   "reflections": [
+    {
+      "id": "REFL-1793841996143",
+      "trade_id": "S12:1282881:Yes:BUY",
+      "strategy_id": "S12",
+      "market_title": "Will the Democratic Party win the CO-04 House seat?",
+      "predicted_prob": 0.9,
+      "outcome": 0,
+      "pnl": -1.79,
+      "brier_error": 0.81,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793841996.1438155
+    },
+    {
+      "id": "REFL-1793841996006",
+      "trade_id": "S12:1282881:Yes:BUY",
+      "strategy_id": "S12",
+      "market_title": "Will the Democratic Party win the CO-04 House seat?",
+      "predicted_prob": 0.9,
+      "outcome": 0,
+      "pnl": -1.79,
+      "brier_error": 0.81,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793841996.0060916
+    },
     {
       "id": "REFL-1793837560304",
       "trade_id": "S20:716906:No:BUY",
@@ -2574,32 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793491936.5050018
-    },
-    {
-      "id": "REFL-1793491936473",
-      "trade_id": "S20:667073:No:BUY",
-      "strategy_id": "S20",
-      "market_title": "Consensys IPO closing market cap above $1B?",
-      "predicted_prob": 0.96,
-      "outcome": 0,
-      "pnl": -0.08,
-      "brier_error": 0.9216,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793491936.4730983
-    },
-    {
-      "id": "REFL-1793491920093",
-      "trade_id": "S20:609655:No:BUY",
-      "strategy_id": "S20",
-      "market_title": "US recession by end of 2026?",
-      "predicted_prob": 0.96,
-      "outcome": 0,
-      "pnl": -0.02,
-      "brier_error": 0.9216,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793491920.0939288
     }
   ],
   "strategy_weights": {
@@ -2634,11 +2634,11 @@
       "status": "REDUCED"
     },
     "S12": {
-      "brier_score": 0.4317,
-      "win_rate": 47.3,
-      "trades_count": 258,
+      "brier_score": 0.4346,
+      "win_rate": 46.9,
+      "trades_count": 260,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1824,
+      "reliability": 0.1856,
       "resolution": 0.0,
       "status": "REDUCED"
     },
