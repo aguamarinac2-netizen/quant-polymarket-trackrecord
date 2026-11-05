@@ -1,6 +1,32 @@
 {
-  "updated_at": 1793859125.7144382,
+  "updated_at": 1793859728.5240223,
   "reflections": [
+    {
+      "id": "REFL-1793859357890",
+      "trade_id": "S12:1283000:Yes:BUY",
+      "strategy_id": "S12",
+      "market_title": "Will the Republican Party win the FL-07 House seat?",
+      "predicted_prob": 0.9,
+      "outcome": 0,
+      "pnl": -0.99,
+      "brier_error": 0.81,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793859357.890025
+    },
+    {
+      "id": "REFL-1793859357681",
+      "trade_id": "S12:1283000:Yes:BUY",
+      "strategy_id": "S12",
+      "market_title": "Will the Republican Party win the FL-07 House seat?",
+      "predicted_prob": 0.9,
+      "outcome": 0,
+      "pnl": -0.99,
+      "brier_error": 0.81,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793859357.681323
+    },
     {
       "id": "REFL-1793855156668",
       "trade_id": "S12:1283632:Yes:BUY",
@@ -2574,32 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793491942.5137656
-    },
-    {
-      "id": "REFL-1793491942495",
-      "trade_id": "S20:701849:No:BUY",
-      "strategy_id": "S20",
-      "market_title": "Will Zcash dip to $100 by December 31, 2026?",
-      "predicted_prob": 0.96,
-      "outcome": 0,
-      "pnl": -0.06,
-      "brier_error": 0.9216,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793491942.4950805
-    },
-    {
-      "id": "REFL-1793491942477",
-      "trade_id": "S20:701741:No:BUY",
-      "strategy_id": "S20",
-      "market_title": "Will Hyperliquid dip to $20 by December 31, 2026?",
-      "predicted_prob": 0.96,
-      "outcome": 0,
-      "pnl": -0.05,
-      "brier_error": 0.9216,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793491942.4773479
     }
   ],
   "strategy_weights": {
@@ -2634,11 +2634,11 @@
       "status": "REDUCED"
     },
     "S12": {
-      "brier_score": 0.4325,
-      "win_rate": 47.2,
-      "trades_count": 267,
+      "brier_score": 0.4353,
+      "win_rate": 46.8,
+      "trades_count": 269,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1833,
+      "reliability": 0.1863,
       "resolution": 0.0,
       "status": "REDUCED"
     },
