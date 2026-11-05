@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793875048.3106318,
+  "updated_at": 1793875408.682584,
   "reflections": [
+    {
+      "id": "REFL-1793875287900",
+      "trade_id": "S10:1210085:No:BUY",
+      "strategy_id": "S10",
+      "market_title": "Will Unit launch a token by December 31, 2027?",
+      "predicted_prob": 0.75,
+      "outcome": 0,
+      "pnl": -0.24,
+      "brier_error": 0.5625,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793875287.9006402
+    },
     {
       "id": "REFL-1793872045684",
       "trade_id": "S12:1285079:Yes:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793492382.511221
-    },
-    {
-      "id": "REFL-1793491948624",
-      "trade_id": "S20:810179:No:BUY",
-      "strategy_id": "S20",
-      "market_title": "Will AI be charged with a crime before 2027?",
-      "predicted_prob": 0.96,
-      "outcome": 0,
-      "pnl": -0.1,
-      "brier_error": 0.9216,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793491948.6244135
     }
   ],
   "strategy_weights": {
@@ -2625,11 +2625,11 @@
       "status": "REDUCED"
     },
     "S10": {
-      "brier_score": 0.411,
-      "win_rate": 30.3,
-      "trades_count": 340,
+      "brier_score": 0.4115,
+      "win_rate": 30.2,
+      "trades_count": 341,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1999,
+      "reliability": 0.2007,
       "resolution": 0.0,
       "status": "REDUCED"
     },
