@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793869054.7402434,
+  "updated_at": 1793869601.5720105,
   "reflections": [
+    {
+      "id": "REFL-1793869104952",
+      "trade_id": "S20:716905:No:BUY",
+      "strategy_id": "S20",
+      "market_title": "Felix Protocol FDV above $300M one day after launch?",
+      "predicted_prob": 0.96,
+      "outcome": 0,
+      "pnl": -0.08,
+      "brier_error": 0.9216,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793869104.9528325
+    },
     {
       "id": "REFL-1793867994197",
       "trade_id": "S20:701758:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793491948.5839574
-    },
-    {
-      "id": "REFL-1793491948563",
-      "trade_id": "S20:716652:No:BUY",
-      "strategy_id": "S20",
-      "market_title": "Pacifica FDV above $1B one day after launch?",
-      "predicted_prob": 0.96,
-      "outcome": 0,
-      "pnl": -0.1,
-      "brier_error": 0.9216,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793491948.5637105
     }
   ],
   "strategy_weights": {
@@ -2616,11 +2616,11 @@
   },
   "strategy_brier_scores": {
     "S20": {
-      "brier_score": 0.7022,
-      "win_rate": 24.0,
-      "trades_count": 292,
+      "brier_score": 0.703,
+      "win_rate": 23.9,
+      "trades_count": 293,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5213,
+      "reliability": 0.5225,
       "resolution": 0.0,
       "status": "REDUCED"
     },
