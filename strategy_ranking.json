@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T02:41:51.364326+00:00",
+  "generated_at": "2026-11-05T02:52:29.538111+00:00",
   "campaign": "demo-15d",
   "strategies": [
     {
@@ -64,19 +64,19 @@
       "won": 2,
       "lost": 8,
       "realized_pnl_usd": -0.59,
-      "unrealized_pnl_usd": -0.27,
+      "unrealized_pnl_usd": -0.24,
       "partial_fills": 0,
       "by_source": {
         "research": {
           "total": 13,
           "won": 2,
           "lost": 8,
-          "net_pnl_usd": -0.86
+          "net_pnl_usd": -0.83
         }
       },
       "closed": 10,
       "win_rate_pct": 20.0,
-      "net_pnl_usd": -0.86,
+      "net_pnl_usd": -0.83,
       "avg_book_slippage_bps": null,
       "verdict": "DESCARTAR"
     },
@@ -118,7 +118,7 @@
       "won": 101,
       "lost": 187,
       "realized_pnl_usd": -21.52,
-      "unrealized_pnl_usd": -2.78,
+      "unrealized_pnl_usd": -2.61,
       "partial_fills": 0,
       "by_source": {
         "realistic": {
@@ -131,12 +131,12 @@
           "total": 312,
           "won": 100,
           "lost": 187,
-          "net_pnl_usd": -27.6
+          "net_pnl_usd": -27.43
         }
       },
       "closed": 288,
       "win_rate_pct": 35.1,
-      "net_pnl_usd": -24.3,
+      "net_pnl_usd": -24.13,
       "avg_book_slippage_bps": null,
       "verdict": "DESCARTAR"
     },
@@ -167,12 +167,12 @@
     {
       "strategy_code": "S12",
       "strategy_name": "S12: High Prob Harvesting",
-      "total": 280,
-      "open": 20,
+      "total": 281,
+      "open": 21,
       "won": 144,
       "lost": 116,
       "realized_pnl_usd": -22.31,
-      "unrealized_pnl_usd": -6.99,
+      "unrealized_pnl_usd": -6.68,
       "partial_fills": 0,
       "by_source": {
         "realistic": {
@@ -182,15 +182,15 @@
           "net_pnl_usd": 2.46
         },
         "research": {
-          "total": 189,
+          "total": 190,
           "won": 92,
           "lost": 89,
-          "net_pnl_usd": -31.76
+          "net_pnl_usd": -31.45
         }
       },
       "closed": 260,
       "win_rate_pct": 55.4,
-      "net_pnl_usd": -29.3,
+      "net_pnl_usd": -28.99,
       "avg_book_slippage_bps": null,
       "verdict": "DESCARTAR"
     },
