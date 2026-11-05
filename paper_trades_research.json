@@ -68795,7 +68795,8 @@
       "realized_pnl_pct": 1.89,
       "close_reason": "\ud83c\udfaf Take Profit alcanzado ($1.000 >= $0.990)",
       "closed_at": "2026-11-05T17:04:48.860256+00:00",
-      "engine": "paper"
+      "engine": "paper",
+      "ai_post_mortem_done": true
     },
     "S12:1280916:Yes:BUY": {
       "trade_id": "S12:1280916:Yes:BUY",
@@ -69139,7 +69140,7 @@
       "order_type": "LIMIT",
       "entry_price": 0.9704,
       "signal_entry_price": 0.9685,
-      "current_price": 0.97,
+      "current_price": 0.9705,
       "target_price": 0.998,
       "stop_loss": 0.9201,
       "initial_stop_loss": 0.9201,
@@ -69163,8 +69164,8 @@
       "horizon": "medium_long",
       "horizon_label": "\ud83d\uddd3\ufe0f Largo (>15d)",
       "status": "OPEN",
-      "unrealized_pnl_usd": -0.0,
-      "unrealized_pnl_pct": -0.04,
+      "unrealized_pnl_usd": 0.0,
+      "unrealized_pnl_pct": 0.01,
       "realized_pnl_usd": 0.0,
       "realized_pnl_pct": 0.0,
       "close_reason": null,
@@ -69972,7 +69973,7 @@
       "order_type": "LIMIT",
       "entry_price": 0.9414,
       "signal_entry_price": 0.9395,
-      "current_price": 0.899,
+      "current_price": 0.8995,
       "target_price": 0.998,
       "stop_loss": 0.8925,
       "initial_stop_loss": 0.8925,
@@ -69996,8 +69997,8 @@
       "horizon": "medium_long",
       "horizon_label": "\ud83d\uddd3\ufe0f Largo (>15d)",
       "status": "OPEN",
-      "unrealized_pnl_usd": -0.45,
-      "unrealized_pnl_pct": -4.5,
+      "unrealized_pnl_usd": -0.44,
+      "unrealized_pnl_pct": -4.45,
       "realized_pnl_usd": 0.0,
       "realized_pnl_pct": 0.0,
       "close_reason": null,
@@ -70110,11 +70111,11 @@
       "order_type": "LIMIT",
       "entry_price": 0.977,
       "signal_entry_price": 0.975,
-      "current_price": 0.963,
+      "current_price": 0.9995,
       "target_price": 0.99,
       "stop_loss": 0.9165,
       "initial_stop_loss": 0.9165,
-      "peak_price": 0.975,
+      "peak_price": 0.9995,
       "break_even_active": false,
       "trailing_stop_active": false,
       "trailing_stop_price": null,
@@ -70133,13 +70134,13 @@
       "risk_reward_ratio": 0.26,
       "horizon": "flash",
       "horizon_label": "\u26a1 Flash (<48h)",
-      "status": "OPEN",
-      "unrealized_pnl_usd": -0.14,
-      "unrealized_pnl_pct": -1.43,
-      "realized_pnl_usd": 0.0,
-      "realized_pnl_pct": 0.0,
-      "close_reason": null,
-      "closed_at": null,
+      "status": "WON",
+      "unrealized_pnl_usd": 0.23,
+      "unrealized_pnl_pct": 2.3,
+      "realized_pnl_usd": 0.2,
+      "realized_pnl_pct": 2.3,
+      "close_reason": "\ud83c\udfaf Take Profit alcanzado ($1.000 >= $0.990)",
+      "closed_at": "2026-11-05T17:10:04.687218+00:00",
       "engine": "paper"
     },
     "S20:561996:No:BUY": {
@@ -70235,5 +70236,5 @@
       "engine": "paper"
     }
   },
-  "updated_at": "2026-11-05T17:04:48.860864+00:00"
+  "updated_at": "2026-11-05T17:10:04.687332+00:00"
 }
