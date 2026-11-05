@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793894842.1443923,
+  "updated_at": 1793895264.1332767,
   "reflections": [
+    {
+      "id": "REFL-1793894952250",
+      "trade_id": "S20:701501:No:BUY",
+      "strategy_id": "S20",
+      "market_title": "Will Bitcoin dip to $55,000 by December 31, 2026?",
+      "predicted_prob": 0.96,
+      "outcome": 0,
+      "pnl": -0.62,
+      "brier_error": 0.9216,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793894952.250237
+    },
     {
       "id": "REFL-1793875287900",
       "trade_id": "S10:1210085:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793499186.235851
-    },
-    {
-      "id": "REFL-1793492382511",
-      "trade_id": "S20:679019:No:BUY",
-      "strategy_id": "S20",
-      "market_title": "Will Jordan Bardella win the 2027 French presidential election?",
-      "predicted_prob": 0.96,
-      "outcome": 0,
-      "pnl": -0.02,
-      "brier_error": 0.9216,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793492382.511221
     }
   ],
   "strategy_weights": {
@@ -2616,11 +2616,11 @@
   },
   "strategy_brier_scores": {
     "S20": {
-      "brier_score": 0.7037,
-      "win_rate": 23.8,
-      "trades_count": 294,
+      "brier_score": 0.7045,
+      "win_rate": 23.7,
+      "trades_count": 295,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5237,
+      "reliability": 0.5248,
       "resolution": 0.0,
       "status": "REDUCED"
     },
