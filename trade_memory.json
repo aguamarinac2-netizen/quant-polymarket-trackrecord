@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793867843.8699098,
+  "updated_at": 1793868147.3263931,
   "reflections": [
+    {
+      "id": "REFL-1793867994197",
+      "trade_id": "S20:701758:No:BUY",
+      "strategy_id": "S20",
+      "market_title": "Will BNB reach $1500 by December 31, 2026?",
+      "predicted_prob": 0.96,
+      "outcome": 0,
+      "pnl": -0.01,
+      "brier_error": 0.9216,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793867994.1977232
+    },
     {
       "id": "REFL-1793864249528",
       "trade_id": "S12:1284436:Yes:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793491948.5637105
-    },
-    {
-      "id": "REFL-1793491948541",
-      "trade_id": "S20:716651:No:BUY",
-      "strategy_id": "S20",
-      "market_title": "Pacifica FDV above $800M one day after launch?",
-      "predicted_prob": 0.96,
-      "outcome": 0,
-      "pnl": -0.12,
-      "brier_error": 0.9216,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793491948.5415857
     }
   ],
   "strategy_weights": {
@@ -2616,11 +2616,11 @@
   },
   "strategy_brier_scores": {
     "S20": {
-      "brier_score": 0.7039,
-      "win_rate": 23.8,
-      "trades_count": 290,
+      "brier_score": 0.7022,
+      "win_rate": 24.0,
+      "trades_count": 292,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5239,
+      "reliability": 0.5213,
       "resolution": 0.0,
       "status": "REDUCED"
     },
