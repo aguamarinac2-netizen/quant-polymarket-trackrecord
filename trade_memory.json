@@ -1,6 +1,32 @@
 {
-  "updated_at": 1793854595.7346315,
+  "updated_at": 1793855200.0062494,
   "reflections": [
+    {
+      "id": "REFL-1793855156668",
+      "trade_id": "S12:1283632:Yes:BUY",
+      "strategy_id": "S12",
+      "market_title": "Will the Republican Party win the LA-06 House seat?",
+      "predicted_prob": 0.9,
+      "outcome": 0,
+      "pnl": -2.37,
+      "brier_error": 0.81,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793855156.6680589
+    },
+    {
+      "id": "REFL-1793855156478",
+      "trade_id": "S12:1283632:Yes:BUY",
+      "strategy_id": "S12",
+      "market_title": "Will the Republican Party win the LA-06 House seat?",
+      "predicted_prob": 0.9,
+      "outcome": 0,
+      "pnl": -2.37,
+      "brier_error": 0.81,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793855156.4786286
+    },
     {
       "id": "REFL-1793850680002",
       "trade_id": "S12:1279604:Yes:BUY",
@@ -2574,32 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793491942.4773479
-    },
-    {
-      "id": "REFL-1793491942457",
-      "trade_id": "S20:701587:No:BUY",
-      "strategy_id": "S20",
-      "market_title": "Will XRP reach $5.00 by December 31, 2026?",
-      "predicted_prob": 0.96,
-      "outcome": 0,
-      "pnl": -0.01,
-      "brier_error": 0.9216,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793491942.457851
-    },
-    {
-      "id": "REFL-1793491942436",
-      "trade_id": "S20:701553:No:BUY",
-      "strategy_id": "S20",
-      "market_title": "Will Ethereum dip to $1,000 by December 31, 2026?",
-      "predicted_prob": 0.96,
-      "outcome": 0,
-      "pnl": -0.1,
-      "brier_error": 0.9216,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793491942.4360201
     }
   ],
   "strategy_weights": {
@@ -2634,11 +2634,11 @@
       "status": "REDUCED"
     },
     "S12": {
-      "brier_score": 0.4296,
-      "win_rate": 47.5,
-      "trades_count": 265,
+      "brier_score": 0.4325,
+      "win_rate": 47.2,
+      "trades_count": 267,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1802,
+      "reliability": 0.1833,
       "resolution": 0.0,
       "status": "REDUCED"
     },
