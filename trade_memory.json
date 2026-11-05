@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793902011.9497235,
+  "updated_at": 1793902496.316982,
   "reflections": [
+    {
+      "id": "REFL-1793902265140",
+      "trade_id": "S20:701763:No:BUY",
+      "strategy_id": "S20",
+      "market_title": "Will BNB reach $1000 by December 31, 2026?",
+      "predicted_prob": 0.96,
+      "outcome": 0,
+      "pnl": -0.57,
+      "brier_error": 0.9216,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793902265.140646
+    },
     {
       "id": "REFL-1793895854641",
       "trade_id": "FLB:559653:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793505658.596437
-    },
-    {
-      "id": "REFL-1793500372646",
-      "trade_id": "MR:gamma:630734:Yes:1w:BUY",
-      "strategy_id": "MR",
-      "market_title": "Will the Republicans win the Iowa Senate race in 2026?",
-      "predicted_prob": 0.78,
-      "outcome": 0,
-      "pnl": -0.04,
-      "brier_error": 0.6084,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793500372.646849
     }
   ],
   "strategy_weights": {
@@ -2616,11 +2616,11 @@
   },
   "strategy_brier_scores": {
     "S20": {
-      "brier_score": 0.7045,
-      "win_rate": 23.7,
-      "trades_count": 295,
+      "brier_score": 0.7052,
+      "win_rate": 23.6,
+      "trades_count": 296,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5248,
+      "reliability": 0.526,
       "resolution": 0.0,
       "status": "REDUCED"
     },
