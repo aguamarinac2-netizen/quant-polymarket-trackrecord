@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793871784.4022176,
+  "updated_at": 1793872392.0306098,
   "reflections": [
+    {
+      "id": "REFL-1793872045684",
+      "trade_id": "S12:1285079:Yes:BUY",
+      "strategy_id": "S12",
+      "market_title": "Will the Republican Party win the VA-05 House seat?",
+      "predicted_prob": 0.9,
+      "outcome": 0,
+      "pnl": -0.76,
+      "brier_error": 0.81,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793872045.684382
+    },
     {
       "id": "REFL-1793870263935",
       "trade_id": "S20:916437:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793491948.6244135
-    },
-    {
-      "id": "REFL-1793491948606",
-      "trade_id": "S20:743438:No:BUY",
-      "strategy_id": "S20",
-      "market_title": "Will Fomo launch a token by December 31 2026?",
-      "predicted_prob": 0.96,
-      "outcome": 0,
-      "pnl": -0.06,
-      "brier_error": 0.9216,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793491948.6062715
     }
   ],
   "strategy_weights": {
@@ -2634,11 +2634,11 @@
       "status": "REDUCED"
     },
     "S12": {
-      "brier_score": 0.432,
-      "win_rate": 47.3,
-      "trades_count": 273,
+      "brier_score": 0.4334,
+      "win_rate": 47.1,
+      "trades_count": 274,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1827,
+      "reliability": 0.1842,
       "resolution": 0.0,
       "status": "REDUCED"
     },
