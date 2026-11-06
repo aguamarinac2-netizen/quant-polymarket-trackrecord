@@ -1,6 +1,19 @@
 {
-  "updated_at": 1794001898.4283328,
+  "updated_at": 1794002756.0438936,
   "reflections": [
+    {
+      "id": "REFL-1794002756027",
+      "trade_id": "S20:678414:Yes:BUY",
+      "strategy_id": "S20",
+      "market_title": "Will Spider-Man: Brand New Day be the top grossing movie of 2026?",
+      "predicted_prob": 0.96,
+      "outcome": 0,
+      "pnl": -0.7,
+      "brier_error": 0.9216,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1794002756.0278337
+    },
     {
       "id": "REFL-1793993099451",
       "trade_id": "S12:1281084:Yes:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793569200.3438156
-    },
-    {
-      "id": "REFL-1793569178058",
-      "trade_id": "FLB:561230:No:BUY",
-      "strategy_id": "FLB",
-      "market_title": "Will Gavin Newsom win the 2028 US Presidential Election?",
-      "predicted_prob": 0.6,
-      "outcome": 0,
-      "pnl": -0.05,
-      "brier_error": 0.36,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793569178.0587118
     }
   ],
   "strategy_weights": {
@@ -2616,11 +2616,11 @@
   },
   "strategy_brier_scores": {
     "S20": {
-      "brier_score": 0.6935,
-      "win_rate": 24.9,
-      "trades_count": 305,
+      "brier_score": 0.6942,
+      "win_rate": 24.8,
+      "trades_count": 306,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5077,
+      "reliability": 0.5089,
       "resolution": 0.0,
       "status": "REDUCED"
     },
