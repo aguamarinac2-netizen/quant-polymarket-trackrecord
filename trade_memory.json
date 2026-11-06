@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793947951.330769,
+  "updated_at": 1793948556.2609358,
   "reflections": [
+    {
+      "id": "REFL-1793947981774",
+      "trade_id": "S20:701494:No:BUY",
+      "strategy_id": "S20",
+      "market_title": "Will Bitcoin reach $120,000 by December 31, 2026?",
+      "predicted_prob": 0.96,
+      "outcome": 0,
+      "pnl": -0.14,
+      "brier_error": 0.9216,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793947981.7742367
+    },
     {
       "id": "REFL-1793942641142",
       "trade_id": "FLB:561234:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793524651.1827385
-    },
-    {
-      "id": "REFL-1793521313170",
-      "trade_id": "S10:920210:No:BUY",
-      "strategy_id": "S10",
-      "market_title": "Will Apple release a new product line before 2027?",
-      "predicted_prob": 0.75,
-      "outcome": 0,
-      "pnl": -2.87,
-      "brier_error": 0.5625,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793521313.170113
     }
   ],
   "strategy_weights": {
@@ -2616,11 +2616,11 @@
   },
   "strategy_brier_scores": {
     "S20": {
-      "brier_score": 0.6989,
+      "brier_score": 0.6996,
       "win_rate": 24.3,
-      "trades_count": 300,
+      "trades_count": 301,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5161,
+      "reliability": 0.5172,
       "resolution": 0.0,
       "status": "REDUCED"
     },
