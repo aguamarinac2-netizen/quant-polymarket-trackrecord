@@ -1,6 +1,32 @@
 {
-  "updated_at": 1793956957.4293933,
+  "updated_at": 1793957558.2456958,
   "reflections": [
+    {
+      "id": "REFL-1793957081118",
+      "trade_id": "S12:907686:Yes:BUY",
+      "strategy_id": "S12",
+      "market_title": "Will the Republican Party hold fewer than 22 governorships after the 2026 midter",
+      "predicted_prob": 0.9,
+      "outcome": 0,
+      "pnl": -0.05,
+      "brier_error": 0.81,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793957081.1183522
+    },
+    {
+      "id": "REFL-1793957080985",
+      "trade_id": "S12:907686:Yes:BUY",
+      "strategy_id": "S12",
+      "market_title": "Will the Republican Party hold fewer than 22 governorships after the 2026 midter",
+      "predicted_prob": 0.9,
+      "outcome": 0,
+      "pnl": -0.05,
+      "brier_error": 0.81,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793957080.98566
+    },
     {
       "id": "REFL-1793947981774",
       "trade_id": "S20:701494:No:BUY",
@@ -2574,32 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793546292.1815724
-    },
-    {
-      "id": "REFL-1793538799043",
-      "trade_id": "S10:1168141:No:BUY",
-      "strategy_id": "S10",
-      "market_title": "Will the upper bound of the target federal funds rate be 4.25% at the end of 202",
-      "predicted_prob": 0.75,
-      "outcome": 0,
-      "pnl": -0.35,
-      "brier_error": 0.5625,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793538799.0437517
-    },
-    {
-      "id": "REFL-1793524651182",
-      "trade_id": "S20:679060:No:BUY",
-      "strategy_id": "S20",
-      "market_title": "Will Christine Lagarde win the 2027 French presidential election?",
-      "predicted_prob": 0.96,
-      "outcome": 0,
-      "pnl": -0.58,
-      "brier_error": 0.9216,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793524651.1827385
     }
   ],
   "strategy_weights": {
@@ -2634,11 +2634,11 @@
       "status": "REDUCED"
     },
     "S12": {
-      "brier_score": 0.4185,
-      "win_rate": 48.9,
-      "trades_count": 284,
+      "brier_score": 0.4212,
+      "win_rate": 48.6,
+      "trades_count": 286,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1686,
+      "reliability": 0.1714,
       "resolution": 0.0,
       "status": "REDUCED"
     },
