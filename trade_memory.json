@@ -1,6 +1,19 @@
 {
-  "updated_at": 1793942532.686008,
+  "updated_at": 1793943134.2216375,
   "reflections": [
+    {
+      "id": "REFL-1793942641142",
+      "trade_id": "FLB:561234:No:BUY",
+      "strategy_id": "FLB",
+      "market_title": "Will Marco Rubio win the 2028 US Presidential Election?",
+      "predicted_prob": 0.6,
+      "outcome": 0,
+      "pnl": -0.13,
+      "brier_error": 0.36,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1793942641.1422975
+    },
     {
       "id": "REFL-1793930724263",
       "trade_id": "S20:561989:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793521313.170113
-    },
-    {
-      "id": "REFL-1793516948723",
-      "trade_id": "MR:gamma:629337:Yes:1d:SELL",
-      "strategy_id": "MR",
-      "market_title": "Will the Democrats win the Georgia governor race in 2026?",
-      "predicted_prob": 0.78,
-      "outcome": 0,
-      "pnl": -0.69,
-      "brier_error": 0.6084,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793516948.7236009
     }
   ],
   "strategy_weights": {
@@ -2699,7 +2699,7 @@
     "FLB": {
       "brier_score": 0.36,
       "win_rate": 0.0,
-      "trades_count": 13,
+      "trades_count": 14,
       "kelly_multiplier": 0.4,
       "reliability": 0.36,
       "resolution": 0.0,
