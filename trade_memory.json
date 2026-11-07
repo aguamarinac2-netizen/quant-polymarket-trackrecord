@@ -1,6 +1,19 @@
 {
-  "updated_at": 1794042488.4543116,
+  "updated_at": 1794043332.6925037,
   "reflections": [
+    {
+      "id": "REFL-1794043068252",
+      "trade_id": "S20:951218:No:BUY",
+      "strategy_id": "S20",
+      "market_title": "Solana all time high by December 31, 2026?",
+      "predicted_prob": 0.96,
+      "outcome": 0,
+      "pnl": -0.01,
+      "brier_error": 0.9216,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1794043068.2525656
+    },
     {
       "id": "REFL-1794040802789",
       "trade_id": "S20:665274:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793598160.212356
-    },
-    {
-      "id": "REFL-1793597821256",
-      "trade_id": "MR:gamma:629030:Yes:1w:SELL",
-      "strategy_id": "MR",
-      "market_title": "Will Karen Bass win the 2026 Los Angeles mayoral election?",
-      "predicted_prob": 0.78,
-      "outcome": 0,
-      "pnl": -0.12,
-      "brier_error": 0.6084,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793597821.2562919
     }
   ],
   "strategy_weights": {
@@ -2616,11 +2616,11 @@
   },
   "strategy_brier_scores": {
     "S20": {
-      "brier_score": 0.6912,
-      "win_rate": 25.2,
-      "trades_count": 318,
+      "brier_score": 0.692,
+      "win_rate": 25.1,
+      "trades_count": 319,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5043,
+      "reliability": 0.5054,
       "resolution": 0.0,
       "status": "REDUCED"
     },
@@ -2634,11 +2634,11 @@
       "status": "REDUCED"
     },
     "S12": {
-      "brier_score": 0.4223,
-      "win_rate": 48.5,
-      "trades_count": 293,
+      "brier_score": 0.4209,
+      "win_rate": 48.6,
+      "trades_count": 294,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1725,
+      "reliability": 0.1711,
       "resolution": 0.0,
       "status": "REDUCED"
     },

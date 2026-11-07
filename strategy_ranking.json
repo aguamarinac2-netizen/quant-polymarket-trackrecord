@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T09:08:10.398681+00:00",
+  "generated_at": "2026-11-07T09:22:43.137726+00:00",
   "campaign": "demo-15d",
   "strategies": [
     {
@@ -137,12 +137,12 @@
     {
       "strategy_code": "S20",
       "strategy_name": "Oracle Sniping",
-      "total": 343,
+      "total": 344,
       "open": 25,
-      "won": 122,
+      "won": 123,
       "lost": 196,
-      "realized_pnl_usd": -22.42,
-      "unrealized_pnl_usd": -2.55,
+      "realized_pnl_usd": -22.43,
+      "unrealized_pnl_usd": -2.65,
       "partial_fills": 0,
       "by_source": {
         "realistic": {
@@ -152,15 +152,15 @@
           "net_pnl_usd": 3.3
         },
         "research": {
-          "total": 342,
-          "won": 121,
+          "total": 343,
+          "won": 122,
           "lost": 196,
-          "net_pnl_usd": -28.27
+          "net_pnl_usd": -28.38
         }
       },
-      "closed": 318,
-      "win_rate_pct": 38.4,
-      "net_pnl_usd": -24.97,
+      "closed": 319,
+      "win_rate_pct": 38.6,
+      "net_pnl_usd": -25.08,
       "avg_book_slippage_bps": null,
       "verdict": "DESCARTAR"
     },
@@ -168,11 +168,11 @@
       "strategy_code": "S12",
       "strategy_name": "S12: High Prob Harvesting",
       "total": 300,
-      "open": 7,
-      "won": 166,
+      "open": 6,
+      "won": 167,
       "lost": 127,
-      "realized_pnl_usd": -28.07,
-      "unrealized_pnl_usd": -10.47,
+      "realized_pnl_usd": -28.05,
+      "unrealized_pnl_usd": -10.56,
       "partial_fills": 0,
       "by_source": {
         "realistic": {
@@ -183,14 +183,14 @@
         },
         "research": {
           "total": 198,
-          "won": 100,
+          "won": 101,
           "lost": 95,
-          "net_pnl_usd": -39.49
+          "net_pnl_usd": -39.56
         }
       },
-      "closed": 293,
-      "win_rate_pct": 56.7,
-      "net_pnl_usd": -38.54,
+      "closed": 294,
+      "win_rate_pct": 56.8,
+      "net_pnl_usd": -38.61,
       "avg_book_slippage_bps": null,
       "verdict": "DESCARTAR"
     },
