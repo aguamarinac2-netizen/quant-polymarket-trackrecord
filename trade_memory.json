@@ -1,6 +1,19 @@
 {
-  "updated_at": 1794033441.8801548,
+  "updated_at": 1794034286.1888602,
   "reflections": [
+    {
+      "id": "REFL-1794033561245",
+      "trade_id": "S20:732179:No:BUY",
+      "strategy_id": "S20",
+      "market_title": "Felix Protocol FDV above $50M one day after launch?",
+      "predicted_prob": 0.96,
+      "outcome": 0,
+      "pnl": -0.03,
+      "brier_error": 0.9216,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1794033561.245721
+    },
     {
       "id": "REFL-1794010365799",
       "trade_id": "S20:950123:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793596125.6716378
-    },
-    {
-      "id": "REFL-1793593464353",
-      "trade_id": "MR:gamma:943440:Yes:1d:BUY",
-      "strategy_id": "MR",
-      "market_title": "Will the Republican Party win the NY-17 House seat?",
-      "predicted_prob": 0.77,
-      "outcome": 0,
-      "pnl": -0.7,
-      "brier_error": 0.5929,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793593464.35303
     }
   ],
   "strategy_weights": {
@@ -2616,11 +2616,11 @@
   },
   "strategy_brier_scores": {
     "S20": {
-      "brier_score": 0.6898,
-      "win_rate": 25.3,
-      "trades_count": 316,
+      "brier_score": 0.6905,
+      "win_rate": 25.2,
+      "trades_count": 317,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5021,
+      "reliability": 0.5032,
       "resolution": 0.0,
       "status": "REDUCED"
     },
