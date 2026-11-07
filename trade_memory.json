@@ -1,6 +1,19 @@
 {
-  "updated_at": 1794040676.3513641,
+  "updated_at": 1794041582.3108752,
   "reflections": [
+    {
+      "id": "REFL-1794040802789",
+      "trade_id": "S20:665274:No:BUY",
+      "strategy_id": "S20",
+      "market_title": "Will Donald Trump visit India in 2026?",
+      "predicted_prob": 0.96,
+      "outcome": 0,
+      "pnl": -0.06,
+      "brier_error": 0.9216,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1794040802.7891822
+    },
     {
       "id": "REFL-1794033561245",
       "trade_id": "S20:732179:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793597821.2562919
-    },
-    {
-      "id": "REFL-1793596125671",
-      "trade_id": "MR:gamma:629583:Yes:1d:SELL",
-      "strategy_id": "MR",
-      "market_title": "Will the Democrats win the Oregon governor race in 2026?",
-      "predicted_prob": 0.78,
-      "outcome": 0,
-      "pnl": -0.23,
-      "brier_error": 0.6084,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793596125.6716378
     }
   ],
   "strategy_weights": {
@@ -2616,11 +2616,11 @@
   },
   "strategy_brier_scores": {
     "S20": {
-      "brier_score": 0.6905,
+      "brier_score": 0.6912,
       "win_rate": 25.2,
-      "trades_count": 317,
+      "trades_count": 318,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5032,
+      "reliability": 0.5043,
       "resolution": 0.0,
       "status": "REDUCED"
     },
