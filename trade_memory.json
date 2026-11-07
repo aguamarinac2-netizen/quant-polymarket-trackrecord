@@ -1,6 +1,19 @@
 {
-  "updated_at": 1794081290.0981503,
+  "updated_at": 1794082081.4917247,
   "reflections": [
+    {
+      "id": "REFL-1794081886021",
+      "trade_id": "S20:676450:No:BUY",
+      "strategy_id": "S20",
+      "market_title": "Will Stephen Miller leave the Trump administration before 2027?",
+      "predicted_prob": 0.96,
+      "outcome": 0,
+      "pnl": -0.57,
+      "brier_error": 0.9216,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1794081886.0213592
+    },
     {
       "id": "REFL-1794067757033",
       "trade_id": "S20:561996:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793613426.0432222
-    },
-    {
-      "id": "REFL-1793599052235",
-      "trade_id": "MR:gamma:629030:Yes:1d:BUY",
-      "strategy_id": "MR",
-      "market_title": "Will Karen Bass win the 2026 Los Angeles mayoral election?",
-      "predicted_prob": 0.78,
-      "outcome": 0,
-      "pnl": -0.29,
-      "brier_error": 0.6084,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793599052.2352028
     }
   ],
   "strategy_weights": {
@@ -2616,11 +2616,11 @@
   },
   "strategy_brier_scores": {
     "S20": {
-      "brier_score": 0.6905,
+      "brier_score": 0.6912,
       "win_rate": 25.2,
-      "trades_count": 321,
+      "trades_count": 322,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5032,
+      "reliability": 0.5043,
       "resolution": 0.0,
       "status": "REDUCED"
     },
