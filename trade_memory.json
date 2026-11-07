@@ -1,6 +1,19 @@
 {
-  "updated_at": 1794067578.498306,
+  "updated_at": 1794067760.1013262,
   "reflections": [
+    {
+      "id": "REFL-1794067757033",
+      "trade_id": "S20:561996:No:BUY",
+      "strategy_id": "S20",
+      "market_title": "Will Tucker Carlson win the 2028 Republican presidential nomination?",
+      "predicted_prob": 0.96,
+      "outcome": 0,
+      "pnl": -0.07,
+      "brier_error": 0.9216,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1794067757.0337617
+    },
     {
       "id": "REFL-1794043068252",
       "trade_id": "S20:951218:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793599052.2352028
-    },
-    {
-      "id": "REFL-1793598160212",
-      "trade_id": "MR:gamma:561975:Yes:1w:SELL",
-      "strategy_id": "MR",
-      "market_title": "Will Marco Rubio win the 2028 Republican presidential nomination?",
-      "predicted_prob": 0.78,
-      "outcome": 0,
-      "pnl": -1.64,
-      "brier_error": 0.6084,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793598160.212356
     }
   ],
   "strategy_weights": {
@@ -2616,11 +2616,11 @@
   },
   "strategy_brier_scores": {
     "S20": {
-      "brier_score": 0.692,
-      "win_rate": 25.1,
-      "trades_count": 319,
+      "brier_score": 0.6927,
+      "win_rate": 25.0,
+      "trades_count": 320,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5054,
+      "reliability": 0.5065,
       "resolution": 0.0,
       "status": "REDUCED"
     },
