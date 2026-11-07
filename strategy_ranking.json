@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T20:08:16.737527+00:00",
+  "generated_at": "2026-11-07T20:10:18.713931+00:00",
   "campaign": "demo-15d",
   "strategies": [
     {
@@ -60,23 +60,23 @@
       "strategy_code": "FLB",
       "strategy_name": "D: Favorite-Longshot",
       "total": 15,
-      "open": 1,
-      "won": 3,
+      "open": 0,
+      "won": 4,
       "lost": 11,
-      "realized_pnl_usd": -1.19,
+      "realized_pnl_usd": -1.09,
       "unrealized_pnl_usd": -0.4,
       "partial_fills": 0,
       "by_source": {
         "research": {
           "total": 15,
-          "won": 3,
+          "won": 4,
           "lost": 11,
-          "net_pnl_usd": -1.59
+          "net_pnl_usd": -1.49
         }
       },
-      "closed": 14,
-      "win_rate_pct": 21.4,
-      "net_pnl_usd": -1.59,
+      "closed": 15,
+      "win_rate_pct": 26.7,
+      "net_pnl_usd": -1.49,
       "avg_book_slippage_bps": null,
       "verdict": "DESCARTAR"
     },
@@ -142,7 +142,7 @@
       "won": 124,
       "lost": 198,
       "realized_pnl_usd": -23.04,
-      "unrealized_pnl_usd": -3.17,
+      "unrealized_pnl_usd": -3.2,
       "partial_fills": 0,
       "by_source": {
         "realistic": {
@@ -155,12 +155,12 @@
           "total": 346,
           "won": 123,
           "lost": 198,
-          "net_pnl_usd": -29.51
+          "net_pnl_usd": -29.54
         }
       },
       "closed": 322,
       "win_rate_pct": 38.5,
-      "net_pnl_usd": -26.21,
+      "net_pnl_usd": -26.24,
       "avg_book_slippage_bps": null,
       "verdict": "DESCARTAR"
     },
