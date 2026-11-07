@@ -1,6 +1,19 @@
 {
-  "updated_at": 1794087578.926506,
+  "updated_at": 1794088321.3165221,
   "reflections": [
+    {
+      "id": "REFL-1794088321296",
+      "trade_id": "S12:1279604:Yes:BUY",
+      "strategy_id": "S12",
+      "market_title": "Will the Republican Party win the AK-AL House seat?",
+      "predicted_prob": 0.9,
+      "outcome": 0,
+      "pnl": -0.13,
+      "brier_error": 0.81,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1794088321.2962387
+    },
     {
       "id": "REFL-1794081886021",
       "trade_id": "S20:676450:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793613520.3114555
-    },
-    {
-      "id": "REFL-1793613426043",
-      "trade_id": "S10:1192820:No:BUY",
-      "strategy_id": "S10",
-      "market_title": "Will China’s 2026 annual GDP growth (Y/Y) be between 4.0% and 5.0%?",
-      "predicted_prob": 0.75,
-      "outcome": 0,
-      "pnl": -0.79,
-      "brier_error": 0.5625,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793613426.0432222
     }
   ],
   "strategy_weights": {
@@ -2634,11 +2634,11 @@
       "status": "REDUCED"
     },
     "S12": {
-      "brier_score": 0.4181,
-      "win_rate": 49.0,
-      "trades_count": 296,
+      "brier_score": 0.4194,
+      "win_rate": 48.8,
+      "trades_count": 297,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1682,
+      "reliability": 0.1696,
       "resolution": 0.0,
       "status": "REDUCED"
     },
