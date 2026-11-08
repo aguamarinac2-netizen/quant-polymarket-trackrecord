@@ -1,6 +1,19 @@
 {
-  "updated_at": 1794115594.084616,
+  "updated_at": 1794116259.479132,
   "reflections": [
+    {
+      "id": "REFL-1794116222881",
+      "trade_id": "S20:701571:No:BUY",
+      "strategy_id": "S20",
+      "market_title": "Will Solana reach $200 by December 31, 2026?",
+      "predicted_prob": 0.96,
+      "outcome": 0,
+      "pnl": -0.04,
+      "brier_error": 0.9216,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1794116222.8811371
+    },
     {
       "id": "REFL-1794099785001",
       "trade_id": "S20:907687:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793614858.444314
-    },
-    {
-      "id": "REFL-1793614429473",
-      "trade_id": "S10:1193094:No:BUY",
-      "strategy_id": "S10",
-      "market_title": "Will Magdalena Andersson be the next Prime Minister of Sweden?",
-      "predicted_prob": 0.75,
-      "outcome": 0,
-      "pnl": -0.16,
-      "brier_error": 0.5625,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793614429.4739707
     }
   ],
   "strategy_weights": {
@@ -2616,11 +2616,11 @@
   },
   "strategy_brier_scores": {
     "S20": {
-      "brier_score": 0.6899,
-      "win_rate": 25.3,
-      "trades_count": 324,
+      "brier_score": 0.6907,
+      "win_rate": 25.2,
+      "trades_count": 325,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5022,
+      "reliability": 0.5033,
       "resolution": 0.0,
       "status": "REDUCED"
     },
