@@ -1,6 +1,19 @@
 {
-  "updated_at": 1794151334.4020483,
+  "updated_at": 1794151696.2469776,
   "reflections": [
+    {
+      "id": "REFL-1794151432647",
+      "trade_id": "S20:705808:No:BUY",
+      "strategy_id": "S20",
+      "market_title": "Reya FDV above $200M one day after launch?",
+      "predicted_prob": 0.96,
+      "outcome": 0,
+      "pnl": -0.07,
+      "brier_error": 0.9216,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1794151432.647365
+    },
     {
       "id": "REFL-1794143035439",
       "trade_id": "S20:665270:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793626749.3677862
-    },
-    {
-      "id": "REFL-1793624621065",
-      "trade_id": "S20:629184:No:BUY",
-      "strategy_id": "S20",
-      "market_title": "Will the Republicans win the Arizona governor race in 2026?",
-      "predicted_prob": 0.96,
-      "outcome": 0,
-      "pnl": -0.07,
-      "brier_error": 0.9216,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793624621.0655384
     }
   ],
   "strategy_weights": {
@@ -2616,11 +2616,11 @@
   },
   "strategy_brier_scores": {
     "S20": {
-      "brier_score": 0.69,
-      "win_rate": 25.3,
-      "trades_count": 328,
+      "brier_score": 0.6907,
+      "win_rate": 25.2,
+      "trades_count": 329,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5022,
+      "reliability": 0.5033,
       "resolution": 0.0,
       "status": "REDUCED"
     },
