@@ -1,6 +1,19 @@
 {
-  "updated_at": 1794142681.310872,
+  "updated_at": 1794143224.569008,
   "reflections": [
+    {
+      "id": "REFL-1794143035439",
+      "trade_id": "S20:665270:No:BUY",
+      "strategy_id": "S20",
+      "market_title": "Will Donald Trump visit Taiwan in 2026?",
+      "predicted_prob": 0.96,
+      "outcome": 0,
+      "pnl": -0.06,
+      "brier_error": 0.9216,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1794143035.4393492
+    },
     {
       "id": "REFL-1794120471744",
       "trade_id": "S20:704246:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793624621.0655384
-    },
-    {
-      "id": "REFL-1793617036352",
-      "trade_id": "MR:gamma:682710:Yes:1d:BUY",
-      "strategy_id": "MR",
-      "market_title": "Will Avigdor Lieberman be the next Prime Minister of Israel?",
-      "predicted_prob": 0.77,
-      "outcome": 0,
-      "pnl": -0.09,
-      "brier_error": 0.5929,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793617036.3525047
     }
   ],
   "strategy_weights": {
@@ -2616,11 +2616,11 @@
   },
   "strategy_brier_scores": {
     "S20": {
-      "brier_score": 0.6893,
-      "win_rate": 25.4,
-      "trades_count": 327,
+      "brier_score": 0.69,
+      "win_rate": 25.3,
+      "trades_count": 328,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5012,
+      "reliability": 0.5022,
       "resolution": 0.0,
       "status": "REDUCED"
     },
