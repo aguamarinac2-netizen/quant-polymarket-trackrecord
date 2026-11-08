@@ -1,6 +1,19 @@
 {
-  "updated_at": 1794120127.9281776,
+  "updated_at": 1794120734.9676735,
   "reflections": [
+    {
+      "id": "REFL-1794120471744",
+      "trade_id": "S20:704246:No:BUY",
+      "strategy_id": "S20",
+      "market_title": "Ventuals FDV above $300M one day after launch?",
+      "predicted_prob": 0.96,
+      "outcome": 0,
+      "pnl": -0.04,
+      "brier_error": 0.9216,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1794120471.7442732
+    },
     {
       "id": "REFL-1794116222881",
       "trade_id": "S20:701571:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793617036.3525047
-    },
-    {
-      "id": "REFL-1793614858444",
-      "trade_id": "MR:gamma:942301:Yes:1d:BUY",
-      "strategy_id": "MR",
-      "market_title": "Will the Republican Party win the CO-03 House seat?",
-      "predicted_prob": 0.77,
-      "outcome": 0,
-      "pnl": -0.58,
-      "brier_error": 0.5929,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793614858.444314
     }
   ],
   "strategy_weights": {
@@ -2616,11 +2616,11 @@
   },
   "strategy_brier_scores": {
     "S20": {
-      "brier_score": 0.6885,
-      "win_rate": 25.5,
-      "trades_count": 326,
+      "brier_score": 0.6893,
+      "win_rate": 25.4,
+      "trades_count": 327,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5001,
+      "reliability": 0.5012,
       "resolution": 0.0,
       "status": "REDUCED"
     },
