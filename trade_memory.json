@@ -1,6 +1,19 @@
 {
-  "updated_at": 1794099373.382949,
+  "updated_at": 1794100036.3856351,
   "reflections": [
+    {
+      "id": "REFL-1794099785001",
+      "trade_id": "S20:907687:No:BUY",
+      "strategy_id": "S20",
+      "market_title": "Will the Republican Party hold exactly 22 or 23 governorships after the 2026 mid",
+      "predicted_prob": 0.98,
+      "outcome": 0,
+      "pnl": -1.94,
+      "brier_error": 0.9604,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1794099785.001054
+    },
     {
       "id": "REFL-1794088321296",
       "trade_id": "S12:1279604:Yes:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793614429.4739707
-    },
-    {
-      "id": "REFL-1793613520311",
-      "trade_id": "S10:944342:No:BUY",
-      "strategy_id": "S10",
-      "market_title": "Will the Democratic Party win the WI-03 House seat?",
-      "predicted_prob": 0.75,
-      "outcome": 0,
-      "pnl": -0.39,
-      "brier_error": 0.5625,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793613520.3114555
     }
   ],
   "strategy_weights": {
@@ -2616,11 +2616,11 @@
   },
   "strategy_brier_scores": {
     "S20": {
-      "brier_score": 0.6912,
-      "win_rate": 25.2,
-      "trades_count": 322,
+      "brier_score": 0.6921,
+      "win_rate": 25.1,
+      "trades_count": 323,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5043,
+      "reliability": 0.5055,
       "resolution": 0.0,
       "status": "REDUCED"
     },
