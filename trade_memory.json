@@ -1,6 +1,19 @@
 {
-  "updated_at": 1794206220.719586,
+  "updated_at": 1794206825.771782,
   "reflections": [
+    {
+      "id": "REFL-1794206366059",
+      "trade_id": "S20:666818:No:BUY",
+      "strategy_id": "S20",
+      "market_title": "U.S. agrees to a new trade deal with \"India\" before 2027?",
+      "predicted_prob": 0.96,
+      "outcome": 0,
+      "pnl": -0.02,
+      "brier_error": 0.9216,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1794206366.059757
+    },
     {
       "id": "REFL-1794196833989",
       "trade_id": "S20:561230:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793664741.36847
-    },
-    {
-      "id": "REFL-1793650964052",
-      "trade_id": "S12:630818:Yes:BUY",
-      "strategy_id": "S12",
-      "market_title": "Will the Democrats win the Minnesota Senate race in 2026?",
-      "predicted_prob": 0.9,
-      "outcome": 0,
-      "pnl": -0.01,
-      "brier_error": 0.81,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793650964.052861
     }
   ],
   "strategy_weights": {
@@ -2616,11 +2616,11 @@
   },
   "strategy_brier_scores": {
     "S20": {
-      "brier_score": 0.6948,
-      "win_rate": 24.8,
-      "trades_count": 339,
+      "brier_score": 0.6954,
+      "win_rate": 24.7,
+      "trades_count": 340,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5096,
+      "reliability": 0.5107,
       "resolution": 0.0,
       "status": "REDUCED"
     },
