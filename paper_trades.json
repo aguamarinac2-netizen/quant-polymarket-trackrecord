@@ -13230,7 +13230,8 @@
       "realized_pnl_pct": 3.12,
       "close_reason": "\ud83c\udfaf Trailing Stop activado (Beneficio protegido: +3.12% a $0.962)",
       "closed_at": "2026-11-08T03:29:17.466673+00:00",
-      "engine": "paper"
+      "engine": "paper",
+      "ai_post_mortem_done": true
     },
     "S12:1284679:Yes:BUY": {
       "trade_id": "S12:1284679:Yes:BUY",
@@ -13716,7 +13717,7 @@
       "order_type": "LIMIT",
       "entry_price": 0.9419,
       "signal_entry_price": 0.94,
-      "current_price": 0.9885,
+      "current_price": 0.968,
       "target_price": 0.99,
       "stop_loss": 0.9697,
       "initial_stop_loss": 0.8836,
@@ -13739,13 +13740,13 @@
       "risk_reward_ratio": 0.89,
       "horizon": "flash",
       "horizon_label": "\u26a1 Flash (<48h)",
-      "status": "OPEN",
-      "unrealized_pnl_usd": 0.49,
-      "unrealized_pnl_pct": 4.95,
-      "realized_pnl_usd": 0.0,
-      "realized_pnl_pct": 0.0,
-      "close_reason": null,
-      "closed_at": null,
+      "status": "WON",
+      "unrealized_pnl_usd": 0.28,
+      "unrealized_pnl_pct": 2.77,
+      "realized_pnl_usd": 0.23,
+      "realized_pnl_pct": 2.77,
+      "close_reason": "\ud83c\udfaf Trailing Stop activado (Beneficio protegido: +2.77% a $0.968)",
+      "closed_at": "2026-11-09T00:41:02.079733+00:00",
       "engine": "paper"
     },
     "S12:1281084:Yes:BUY": {
@@ -13796,5 +13797,5 @@
       "ai_post_mortem_done": true
     }
   },
-  "updated_at": "2026-11-08T03:29:17.466731+00:00"
+  "updated_at": "2026-11-09T00:41:02.079744+00:00"
 }
