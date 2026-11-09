@@ -1,6 +1,19 @@
 {
-  "updated_at": 1794213426.7118495,
+  "updated_at": 1794214031.5793881,
   "reflections": [
+    {
+      "id": "REFL-1794213609288",
+      "trade_id": "S20:677026:No:BUY",
+      "strategy_id": "S20",
+      "market_title": "Will the 10-year Treasury yield hit 5.5% before 2027?",
+      "predicted_prob": 0.96,
+      "outcome": 0,
+      "pnl": -0.13,
+      "brier_error": 0.9216,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1794213609.288907
+    },
     {
       "id": "REFL-1794206366059",
       "trade_id": "S20:666818:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793664741.3911529
-    },
-    {
-      "id": "REFL-1793664741368",
-      "trade_id": "S20:665218:No:BUY",
-      "strategy_id": "S20",
-      "market_title": "Israel and Saudi Arabia normalize relations before 2027?",
-      "predicted_prob": 0.96,
-      "outcome": 0,
-      "pnl": -0.04,
-      "brier_error": 0.9216,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793664741.36847
     }
   ],
   "strategy_weights": {
@@ -2616,11 +2616,11 @@
   },
   "strategy_brier_scores": {
     "S20": {
-      "brier_score": 0.6954,
-      "win_rate": 24.7,
-      "trades_count": 340,
+      "brier_score": 0.6961,
+      "win_rate": 24.6,
+      "trades_count": 341,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5107,
+      "reliability": 0.5117,
       "resolution": 0.0,
       "status": "REDUCED"
     },
