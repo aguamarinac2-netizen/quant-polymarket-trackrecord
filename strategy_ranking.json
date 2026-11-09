@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T03:52:03.697759+00:00",
+  "generated_at": "2026-11-09T04:01:38.864907+00:00",
   "campaign": "demo-15d",
   "strategies": [
     {
@@ -64,19 +64,19 @@
       "won": 4,
       "lost": 11,
       "realized_pnl_usd": -1.09,
-      "unrealized_pnl_usd": -0.42,
+      "unrealized_pnl_usd": -0.45,
       "partial_fills": 0,
       "by_source": {
         "research": {
           "total": 16,
           "won": 4,
           "lost": 11,
-          "net_pnl_usd": -1.51
+          "net_pnl_usd": -1.54
         }
       },
       "closed": 15,
       "win_rate_pct": 26.7,
-      "net_pnl_usd": -1.51,
+      "net_pnl_usd": -1.54,
       "avg_book_slippage_bps": null,
       "verdict": "DESCARTAR"
     },
@@ -137,12 +137,12 @@
     {
       "strategy_code": "S20",
       "strategy_name": "Oracle Sniping",
-      "total": 363,
+      "total": 364,
       "open": 25,
       "won": 130,
-      "lost": 208,
-      "realized_pnl_usd": -25.4,
-      "unrealized_pnl_usd": -5.17,
+      "lost": 209,
+      "realized_pnl_usd": -25.55,
+      "unrealized_pnl_usd": -5.13,
       "partial_fills": 0,
       "by_source": {
         "realistic": {
@@ -152,15 +152,15 @@
           "net_pnl_usd": 3.3
         },
         "research": {
-          "total": 362,
+          "total": 363,
           "won": 129,
-          "lost": 208,
-          "net_pnl_usd": -33.87
+          "lost": 209,
+          "net_pnl_usd": -33.98
         }
       },
-      "closed": 338,
-      "win_rate_pct": 38.5,
-      "net_pnl_usd": -30.57,
+      "closed": 339,
+      "win_rate_pct": 38.3,
+      "net_pnl_usd": -30.68,
       "avg_book_slippage_bps": null,
       "verdict": "DESCARTAR"
     },

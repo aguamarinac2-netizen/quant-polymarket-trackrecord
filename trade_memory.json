@@ -1,6 +1,19 @@
 {
-  "updated_at": 1794196289.8215113,
+  "updated_at": 1794196894.2238953,
   "reflections": [
+    {
+      "id": "REFL-1794196833989",
+      "trade_id": "S20:561230:No:BUY",
+      "strategy_id": "S20",
+      "market_title": "Will Gavin Newsom win the 2028 US Presidential Election?",
+      "predicted_prob": 0.96,
+      "outcome": 0,
+      "pnl": -0.15,
+      "brier_error": 0.9216,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1794196833.9898171
+    },
     {
       "id": "REFL-1794183172886",
       "trade_id": "S20:1046969:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793650964.052861
-    },
-    {
-      "id": "REFL-1793648684863",
-      "trade_id": "MR:gamma:562793:Yes:1w:SELL",
-      "strategy_id": "MR",
-      "market_title": "Will the Democratic Party control the Senate after the 2026 Midterm elections?",
-      "predicted_prob": 0.78,
-      "outcome": 0,
-      "pnl": -0.63,
-      "brier_error": 0.6084,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793648684.8635595
     }
   ],
   "strategy_weights": {
@@ -2616,11 +2616,11 @@
   },
   "strategy_brier_scores": {
     "S20": {
-      "brier_score": 0.6941,
-      "win_rate": 24.9,
-      "trades_count": 338,
+      "brier_score": 0.6948,
+      "win_rate": 24.8,
+      "trades_count": 339,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5086,
+      "reliability": 0.5096,
       "resolution": 0.0,
       "status": "REDUCED"
     },
