@@ -1,6 +1,19 @@
 {
-  "updated_at": 1794271901.563829,
+  "updated_at": 1794272747.368035,
   "reflections": [
+    {
+      "id": "REFL-1794272592382",
+      "trade_id": "S20:676793:No:BUY",
+      "strategy_id": "S20",
+      "market_title": "Glean IPO before 2027?",
+      "predicted_prob": 0.96,
+      "outcome": 0,
+      "pnl": -0.11,
+      "brier_error": 0.9216,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1794272592.3822844
+    },
     {
       "id": "REFL-1794254693176",
       "trade_id": "S20:1029715:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793664747.5730653
-    },
-    {
-      "id": "REFL-1793664741410",
-      "trade_id": "S20:665533:No:BUY",
-      "strategy_id": "S20",
-      "market_title": "Metamask FDV above $3B one day after launch?",
-      "predicted_prob": 0.96,
-      "outcome": 0,
-      "pnl": -0.06,
-      "brier_error": 0.9216,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793664741.4100752
     }
   ],
   "strategy_weights": {
@@ -2616,11 +2616,11 @@
   },
   "strategy_brier_scores": {
     "S20": {
-      "brier_score": 0.6907,
-      "win_rate": 25.2,
-      "trades_count": 345,
+      "brier_score": 0.6914,
+      "win_rate": 25.1,
+      "trades_count": 346,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5034,
+      "reliability": 0.5045,
       "resolution": 0.0,
       "status": "REDUCED"
     },

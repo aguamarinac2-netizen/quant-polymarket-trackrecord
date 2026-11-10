@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T00:52:39.510607+00:00",
+  "generated_at": "2026-11-10T01:05:59.123597+00:00",
   "campaign": "demo-15d",
   "strategies": [
     {
@@ -64,19 +64,19 @@
       "won": 4,
       "lost": 11,
       "realized_pnl_usd": -1.09,
-      "unrealized_pnl_usd": -0.35,
+      "unrealized_pnl_usd": -0.36,
       "partial_fills": 0,
       "by_source": {
         "research": {
           "total": 16,
           "won": 4,
           "lost": 11,
-          "net_pnl_usd": -1.44
+          "net_pnl_usd": -1.45
         }
       },
       "closed": 15,
       "win_rate_pct": 26.7,
-      "net_pnl_usd": -1.44,
+      "net_pnl_usd": -1.45,
       "avg_book_slippage_bps": null,
       "verdict": "DESCARTAR"
     },
@@ -137,12 +137,12 @@
     {
       "strategy_code": "S20",
       "strategy_name": "Oracle Sniping",
-      "total": 370,
+      "total": 371,
       "open": 25,
       "won": 134,
-      "lost": 211,
-      "realized_pnl_usd": -25.29,
-      "unrealized_pnl_usd": -5.11,
+      "lost": 212,
+      "realized_pnl_usd": -25.4,
+      "unrealized_pnl_usd": -5.31,
       "partial_fills": 0,
       "by_source": {
         "realistic": {
@@ -152,15 +152,15 @@
           "net_pnl_usd": 3.3
         },
         "research": {
-          "total": 369,
+          "total": 370,
           "won": 133,
-          "lost": 211,
-          "net_pnl_usd": -33.7
+          "lost": 212,
+          "net_pnl_usd": -34.01
         }
       },
-      "closed": 345,
-      "win_rate_pct": 38.8,
-      "net_pnl_usd": -30.4,
+      "closed": 346,
+      "win_rate_pct": 38.7,
+      "net_pnl_usd": -30.71,
       "avg_book_slippage_bps": null,
       "verdict": "DESCARTAR"
     },
@@ -262,7 +262,7 @@
       "won": 261,
       "lost": 213,
       "realized_pnl_usd": -167.67,
-      "unrealized_pnl_usd": -22.22,
+      "unrealized_pnl_usd": -22.51,
       "partial_fills": 1,
       "by_source": {
         "realistic": {
@@ -275,7 +275,7 @@
           "total": 399,
           "won": 221,
           "lost": 177,
-          "net_pnl_usd": -134.27
+          "net_pnl_usd": -134.56
         },
         "hybrid": {
           "total": 4,
@@ -286,7 +286,7 @@
       },
       "closed": 474,
       "win_rate_pct": 55.1,
-      "net_pnl_usd": -189.89,
+      "net_pnl_usd": -190.18,
       "avg_book_slippage_bps": 15.15,
       "verdict": "DESCARTAR"
     }
