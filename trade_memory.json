@@ -1,6 +1,19 @@
 {
-  "updated_at": 1794288991.8396344,
+  "updated_at": 1794289051.890905,
   "reflections": [
+    {
+      "id": "REFL-1794289027563",
+      "trade_id": "S20:561233:No:BUY",
+      "strategy_id": "S20",
+      "market_title": "Will Josh Shapiro win the 2028 US Presidential Election?",
+      "predicted_prob": 0.96,
+      "outcome": 0,
+      "pnl": -0.02,
+      "brier_error": 0.9216,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1794289027.5636106
+    },
     {
       "id": "REFL-1794276335279",
       "trade_id": "S20:680951:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793664747.616409
-    },
-    {
-      "id": "REFL-1793664747596",
-      "trade_id": "S20:677028:No:BUY",
-      "strategy_id": "S20",
-      "market_title": "Will the 10-year Treasury yield hit 6.0% before 2027?",
-      "predicted_prob": 0.96,
-      "outcome": 0,
-      "pnl": 0.0,
-      "brier_error": 0.9216,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793664747.5965421
     }
   ],
   "strategy_weights": {
@@ -2616,11 +2616,11 @@
   },
   "strategy_brier_scores": {
     "S20": {
-      "brier_score": 0.692,
-      "win_rate": 25.1,
-      "trades_count": 347,
+      "brier_score": 0.6927,
+      "win_rate": 25.0,
+      "trades_count": 348,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5055,
+      "reliability": 0.5065,
       "resolution": 0.0,
       "status": "REDUCED"
     },
