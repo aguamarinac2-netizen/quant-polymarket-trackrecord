@@ -1,6 +1,19 @@
 {
-  "updated_at": 1794275523.0545058,
+  "updated_at": 1794276368.7499554,
   "reflections": [
+    {
+      "id": "REFL-1794276335279",
+      "trade_id": "S20:680951:No:BUY",
+      "strategy_id": "S20",
+      "market_title": "Will inflation reach more than 5% in 2026?",
+      "predicted_prob": 0.96,
+      "outcome": 0,
+      "pnl": -0.06,
+      "brier_error": 0.9216,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1794276335.279051
+    },
     {
       "id": "REFL-1794272592382",
       "trade_id": "S20:676793:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793664747.5965421
-    },
-    {
-      "id": "REFL-1793664747573",
-      "trade_id": "S20:676518:No:BUY",
-      "strategy_id": "S20",
-      "market_title": "StandX FDV above $1B one day after launch?",
-      "predicted_prob": 0.96,
-      "outcome": 0,
-      "pnl": -0.08,
-      "brier_error": 0.9216,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793664747.5730653
     }
   ],
   "strategy_weights": {
@@ -2616,11 +2616,11 @@
   },
   "strategy_brier_scores": {
     "S20": {
-      "brier_score": 0.6914,
+      "brier_score": 0.692,
       "win_rate": 25.1,
-      "trades_count": 346,
+      "trades_count": 347,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5045,
+      "reliability": 0.5055,
       "resolution": 0.0,
       "status": "REDUCED"
     },
