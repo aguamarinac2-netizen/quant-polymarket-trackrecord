@@ -1,6 +1,19 @@
 {
-  "updated_at": 1794332349.5518935,
+  "updated_at": 1794333134.1965766,
   "reflections": [
+    {
+      "id": "REFL-1794332396158",
+      "trade_id": "S20:907686:Yes:BUY",
+      "strategy_id": "S20",
+      "market_title": "Will the Republican Party hold fewer than 22 governorships after the 2026 midter",
+      "predicted_prob": 0.98,
+      "outcome": 0,
+      "pnl": -3.29,
+      "brier_error": 0.9604,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1794332396.1582215
+    },
     {
       "id": "REFL-1794315840049",
       "trade_id": "S20:622738:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793664753.7078636
-    },
-    {
-      "id": "REFL-1793664753688",
-      "trade_id": "S20:705809:No:BUY",
-      "strategy_id": "S20",
-      "market_title": "Reya FDV above $300M one day after launch?",
-      "predicted_prob": 0.96,
-      "outcome": 0,
-      "pnl": -0.03,
-      "brier_error": 0.9216,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793664753.6889827
     }
   ],
   "strategy_weights": {
@@ -2616,11 +2616,11 @@
   },
   "strategy_brier_scores": {
     "S20": {
-      "brier_score": 0.6888,
+      "brier_score": 0.6895,
       "win_rate": 25.4,
-      "trades_count": 354,
+      "trades_count": 355,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5005,
+      "reliability": 0.5016,
       "resolution": 0.0,
       "status": "REDUCED"
     },
