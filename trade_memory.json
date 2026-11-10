@@ -1,6 +1,19 @@
 {
-  "updated_at": 1794291762.9821033,
+  "updated_at": 1794292607.3444092,
   "reflections": [
+    {
+      "id": "REFL-1794292285737",
+      "trade_id": "S20:920407:No:BUY",
+      "strategy_id": "S20",
+      "market_title": "Variational FDV above $5B one day after launch?",
+      "predicted_prob": 0.96,
+      "outcome": 0,
+      "pnl": -0.05,
+      "brier_error": 0.9216,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1794292285.7373319
+    },
     {
       "id": "REFL-1794289027563",
       "trade_id": "S20:561233:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793664747.637154
-    },
-    {
-      "id": "REFL-1793664747616",
-      "trade_id": "S20:692292:No:BUY",
-      "strategy_id": "S20",
-      "market_title": "Will MrBeast announce a Presidential run before 2027?",
-      "predicted_prob": 0.96,
-      "outcome": 0,
-      "pnl": -0.04,
-      "brier_error": 0.9216,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793664747.616409
     }
   ],
   "strategy_weights": {
@@ -2616,11 +2616,11 @@
   },
   "strategy_brier_scores": {
     "S20": {
-      "brier_score": 0.6907,
-      "win_rate": 25.2,
-      "trades_count": 349,
+      "brier_score": 0.6914,
+      "win_rate": 25.1,
+      "trades_count": 350,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5035,
+      "reliability": 0.5045,
       "resolution": 0.0,
       "status": "REDUCED"
     },
