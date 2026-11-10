@@ -13811,11 +13811,11 @@
       "order_type": "LIMIT",
       "entry_price": 0.9634,
       "signal_entry_price": 0.9615,
-      "current_price": 0.9634,
+      "current_price": 0.993,
       "target_price": 0.99,
       "stop_loss": 0.9038,
       "initial_stop_loss": 0.9038,
-      "peak_price": 0.9615,
+      "peak_price": 0.993,
       "break_even_active": false,
       "trailing_stop_active": false,
       "trailing_stop_price": null,
@@ -13834,15 +13834,15 @@
       "risk_reward_ratio": 0.49,
       "horizon": "flash",
       "horizon_label": "\u26a1 Flash (<48h)",
-      "status": "OPEN",
-      "unrealized_pnl_usd": 0.0,
-      "unrealized_pnl_pct": 0.0,
-      "realized_pnl_usd": 0.0,
-      "realized_pnl_pct": 0.0,
-      "close_reason": null,
-      "closed_at": null,
+      "status": "WON",
+      "unrealized_pnl_usd": 0.31,
+      "unrealized_pnl_pct": 3.07,
+      "realized_pnl_usd": 0.27,
+      "realized_pnl_pct": 3.07,
+      "close_reason": "\ud83c\udfaf Take Profit alcanzado ($0.993 >= $0.990)",
+      "closed_at": "2026-11-10T22:35:31.083442+00:00",
       "engine": "paper"
     }
   },
-  "updated_at": "2026-11-10T18:07:25.248166+00:00"
+  "updated_at": "2026-11-10T22:35:31.083457+00:00"
 }
