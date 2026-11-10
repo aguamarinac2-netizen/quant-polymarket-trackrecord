@@ -1,6 +1,19 @@
 {
-  "updated_at": 1794315146.1611495,
+  "updated_at": 1794316048.4363244,
   "reflections": [
+    {
+      "id": "REFL-1794315840049",
+      "trade_id": "S20:622738:No:BUY",
+      "strategy_id": "S20",
+      "market_title": "Will Hyperliquid perform an airdrop by December 31, 2026? ",
+      "predicted_prob": 0.96,
+      "outcome": 0,
+      "pnl": -0.12,
+      "brier_error": 0.9216,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1794315840.049271
+    },
     {
       "id": "REFL-1794308033666",
       "trade_id": "S20:665324:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793664753.6889827
-    },
-    {
-      "id": "REFL-1793664753667",
-      "trade_id": "S20:705799:No:BUY",
-      "strategy_id": "S20",
-      "market_title": "Makina FDV above $80M one day after launch?",
-      "predicted_prob": 0.96,
-      "outcome": 0,
-      "pnl": -0.11,
-      "brier_error": 0.9216,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793664753.6677125
     }
   ],
   "strategy_weights": {
@@ -2616,11 +2616,11 @@
   },
   "strategy_brier_scores": {
     "S20": {
-      "brier_score": 0.6901,
-      "win_rate": 25.3,
-      "trades_count": 352,
+      "brier_score": 0.6907,
+      "win_rate": 25.2,
+      "trades_count": 353,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5025,
+      "reliability": 0.5035,
       "resolution": 0.0,
       "status": "REDUCED"
     },
