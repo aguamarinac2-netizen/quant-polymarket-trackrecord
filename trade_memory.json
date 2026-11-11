@@ -1,6 +1,19 @@
 {
-  "updated_at": 1794438890.6639588,
+  "updated_at": 1794439314.5529723,
   "reflections": [
+    {
+      "id": "REFL-1794439161842",
+      "trade_id": "S20:691340:No:BUY",
+      "strategy_id": "S20",
+      "market_title": "AI bubble burst in 2026?",
+      "predicted_prob": 0.96,
+      "outcome": 0,
+      "pnl": -0.57,
+      "brier_error": 0.9216,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1794439161.8424895
+    },
     {
       "id": "REFL-1794369641242",
       "trade_id": "S20:1038643:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793694458.368323
-    },
-    {
-      "id": "REFL-1793689390951",
-      "trade_id": "MR:gamma:629338:Yes:1w:BUY",
-      "strategy_id": "MR",
-      "market_title": "Will the Republicans win the Georgia governor race in 2026?",
-      "predicted_prob": 0.78,
-      "outcome": 0,
-      "pnl": -1.72,
-      "brier_error": 0.6084,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793689390.9511366
     }
   ],
   "strategy_weights": {
@@ -2616,11 +2616,11 @@
   },
   "strategy_brier_scores": {
     "S20": {
-      "brier_score": 0.6852,
-      "win_rate": 25.8,
-      "trades_count": 368,
+      "brier_score": 0.6859,
+      "win_rate": 25.7,
+      "trades_count": 369,
       "kelly_multiplier": 0.4,
-      "reliability": 0.495,
+      "reliability": 0.496,
       "resolution": 0.0,
       "status": "REDUCED"
     },
