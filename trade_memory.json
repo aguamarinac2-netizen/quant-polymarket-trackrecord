@@ -1,6 +1,19 @@
 {
-  "updated_at": 1794448815.28841,
+  "updated_at": 1794449237.6493464,
   "reflections": [
+    {
+      "id": "REFL-1794449142769",
+      "trade_id": "S20:1067835:No:BUY",
+      "strategy_id": "S20",
+      "market_title": "Will Lighter reach $10 before 2027?",
+      "predicted_prob": 0.96,
+      "outcome": 0,
+      "pnl": -0.11,
+      "brier_error": 0.9216,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1794449142.7699451
+    },
     {
       "id": "REFL-1794439161842",
       "trade_id": "S20:691340:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793695185.5017421
-    },
-    {
-      "id": "REFL-1793694458368",
-      "trade_id": "S10:942304:No:BUY",
-      "strategy_id": "S10",
-      "market_title": "Will the Democratic Party win the CO-03 House seat?",
-      "predicted_prob": 0.75,
-      "outcome": 0,
-      "pnl": -3.07,
-      "brier_error": 0.5625,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793694458.368323
     }
   ],
   "strategy_weights": {
@@ -2616,11 +2616,11 @@
   },
   "strategy_brier_scores": {
     "S20": {
-      "brier_score": 0.6859,
+      "brier_score": 0.6865,
       "win_rate": 25.7,
-      "trades_count": 369,
+      "trades_count": 370,
       "kelly_multiplier": 0.4,
-      "reliability": 0.496,
+      "reliability": 0.4969,
       "resolution": 0.0,
       "status": "REDUCED"
     },

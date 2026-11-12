@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-12T02:01:07.359382+00:00",
+  "generated_at": "2026-11-12T02:07:28.227055+00:00",
   "campaign": "demo-15d",
   "strategies": [
     {
       "strategy_code": "S03",
       "strategy_name": "S03: Nothing Ever Happens",
-      "total": 9,
-      "open": 0,
+      "total": 10,
+      "open": 1,
       "won": 8,
       "lost": 1,
       "realized_pnl_usd": 13.81,
@@ -14,7 +14,7 @@
       "partial_fills": 0,
       "by_source": {
         "research": {
-          "total": 9,
+          "total": 10,
           "won": 8,
           "lost": 1,
           "net_pnl_usd": 30.4
@@ -167,12 +167,12 @@
     {
       "strategy_code": "S20",
       "strategy_name": "Oracle Sniping",
-      "total": 394,
+      "total": 395,
       "open": 25,
       "won": 146,
-      "lost": 223,
-      "realized_pnl_usd": -29.77,
-      "unrealized_pnl_usd": -9.2,
+      "lost": 224,
+      "realized_pnl_usd": -29.88,
+      "unrealized_pnl_usd": -9.53,
       "partial_fills": 0,
       "by_source": {
         "realistic": {
@@ -182,15 +182,15 @@
           "net_pnl_usd": 3.3
         },
         "research": {
-          "total": 393,
+          "total": 394,
           "won": 145,
-          "lost": 223,
-          "net_pnl_usd": -42.27
+          "lost": 224,
+          "net_pnl_usd": -42.71
         }
       },
-      "closed": 369,
-      "win_rate_pct": 39.6,
-      "net_pnl_usd": -38.97,
+      "closed": 370,
+      "win_rate_pct": 39.5,
+      "net_pnl_usd": -39.41,
       "avg_book_slippage_bps": null,
       "verdict": "DESCARTAR"
     },
