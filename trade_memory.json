@@ -1,6 +1,19 @@
 {
-  "updated_at": 1794466016.0328245,
+  "updated_at": 1794466377.557627,
   "reflections": [
+    {
+      "id": "REFL-1794466084514",
+      "trade_id": "S20:1087104:Avengers:_Doomsday:BUY",
+      "strategy_id": "S20",
+      "market_title": "Will Dune 3 or Avengers: Doomsday gross more on their opening weekend?",
+      "predicted_prob": 0.96,
+      "outcome": 0,
+      "pnl": -0.07,
+      "brier_error": 0.9216,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1794466084.5140743
+    },
     {
       "id": "REFL-1794465091670",
       "trade_id": "S20:1068733:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793710760.1383884
-    },
-    {
-      "id": "REFL-1793696299163",
-      "trade_id": "S20:665321:No:BUY",
-      "strategy_id": "S20",
-      "market_title": "Will Trump sell 5k-10k Gold Cards in 2026?",
-      "predicted_prob": 0.96,
-      "outcome": 0,
-      "pnl": -0.04,
-      "brier_error": 0.9216,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793696299.1632965
     }
   ],
   "strategy_weights": {
@@ -2616,11 +2616,11 @@
   },
   "strategy_brier_scores": {
     "S20": {
-      "brier_score": 0.6878,
+      "brier_score": 0.6884,
       "win_rate": 25.5,
-      "trades_count": 372,
+      "trades_count": 373,
       "kelly_multiplier": 0.4,
-      "reliability": 0.4989,
+      "reliability": 0.4998,
       "resolution": 0.0,
       "status": "REDUCED"
     },
