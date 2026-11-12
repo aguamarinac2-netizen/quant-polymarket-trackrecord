@@ -1,6 +1,19 @@
 {
-  "updated_at": 1794464513.1504133,
+  "updated_at": 1794465114.773477,
   "reflections": [
+    {
+      "id": "REFL-1794465091670",
+      "trade_id": "S20:1068733:No:BUY",
+      "strategy_id": "S20",
+      "market_title": "Will stablecoins hit $500B before 2027?",
+      "predicted_prob": 0.96,
+      "outcome": 0,
+      "pnl": -0.06,
+      "brier_error": 0.9216,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1794465091.6700418
+    },
     {
       "id": "REFL-1794461836452",
       "trade_id": "S20:1068327:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793696299.1632965
-    },
-    {
-      "id": "REFL-1793695185521",
-      "trade_id": "S20:631045:Yes:BUY",
-      "strategy_id": "S20",
-      "market_title": "Will the Republicans win the Florida Senate race in 2026?",
-      "predicted_prob": 0.96,
-      "outcome": 0,
-      "pnl": -0.63,
-      "brier_error": 0.9216,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793695185.5211198
     }
   ],
   "strategy_weights": {
@@ -2616,11 +2616,11 @@
   },
   "strategy_brier_scores": {
     "S20": {
-      "brier_score": 0.6872,
-      "win_rate": 25.6,
-      "trades_count": 371,
+      "brier_score": 0.6878,
+      "win_rate": 25.5,
+      "trades_count": 372,
       "kelly_multiplier": 0.4,
-      "reliability": 0.4979,
+      "reliability": 0.4989,
       "resolution": 0.0,
       "status": "REDUCED"
     },
