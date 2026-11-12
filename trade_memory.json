@@ -1,6 +1,19 @@
 {
-  "updated_at": 1794461492.952633,
+  "updated_at": 1794461855.4984517,
   "reflections": [
+    {
+      "id": "REFL-1794461836452",
+      "trade_id": "S20:1068327:No:BUY",
+      "strategy_id": "S20",
+      "market_title": "Will Pump.fun perform an airdrop by December 31, 2026",
+      "predicted_prob": 0.96,
+      "outcome": 0,
+      "pnl": -0.09,
+      "brier_error": 0.9216,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1794461836.4526746
+    },
     {
       "id": "REFL-1794449142769",
       "trade_id": "S20:1067835:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793695185.5211198
-    },
-    {
-      "id": "REFL-1793695185501",
-      "trade_id": "S20:631044:No:BUY",
-      "strategy_id": "S20",
-      "market_title": "Will the Democrats win the Florida Senate race in 2026?",
-      "predicted_prob": 0.96,
-      "outcome": 0,
-      "pnl": -0.63,
-      "brier_error": 0.9216,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793695185.5017421
     }
   ],
   "strategy_weights": {
@@ -2616,11 +2616,11 @@
   },
   "strategy_brier_scores": {
     "S20": {
-      "brier_score": 0.6865,
-      "win_rate": 25.7,
-      "trades_count": 370,
+      "brier_score": 0.6872,
+      "win_rate": 25.6,
+      "trades_count": 371,
       "kelly_multiplier": 0.4,
-      "reliability": 0.4969,
+      "reliability": 0.4979,
       "resolution": 0.0,
       "status": "REDUCED"
     },
