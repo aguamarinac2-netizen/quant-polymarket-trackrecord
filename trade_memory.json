@@ -1,6 +1,19 @@
 {
-  "updated_at": 1794505032.6290455,
+  "updated_at": 1794505759.5574155,
   "reflections": [
+    {
+      "id": "REFL-1794505200487",
+      "trade_id": "S20:687557:No:BUY",
+      "strategy_id": "S20",
+      "market_title": "Andy Jassy out as Amazon CEO before 2027?",
+      "predicted_prob": 0.96,
+      "outcome": 0,
+      "pnl": -0.07,
+      "brier_error": 0.9216,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1794505200.4872727
+    },
     {
       "id": "REFL-1794473435267",
       "trade_id": "S20:1067836:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793712570.1045291
-    },
-    {
-      "id": "REFL-1793712469661",
-      "trade_id": "S10:629720:No:BUY",
-      "strategy_id": "S10",
-      "market_title": "Will the Democrats win the Wisconsin governor race in 2026?",
-      "predicted_prob": 0.75,
-      "outcome": 0,
-      "pnl": -2.24,
-      "brier_error": 0.5625,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793712469.6618874
     }
   ],
   "strategy_weights": {
@@ -2616,11 +2616,11 @@
   },
   "strategy_brier_scores": {
     "S20": {
-      "brier_score": 0.6854,
-      "win_rate": 25.8,
-      "trades_count": 376,
+      "brier_score": 0.686,
+      "win_rate": 25.7,
+      "trades_count": 377,
       "kelly_multiplier": 0.4,
-      "reliability": 0.4952,
+      "reliability": 0.4961,
       "resolution": 0.0,
       "status": "REDUCED"
     },
