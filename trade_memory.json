@@ -1,6 +1,19 @@
 {
-  "updated_at": 1794473198.512874,
+  "updated_at": 1794473501.423599,
   "reflections": [
+    {
+      "id": "REFL-1794473435267",
+      "trade_id": "S20:1067836:No:BUY",
+      "strategy_id": "S20",
+      "market_title": "Will Lighter reach $8 before 2027?",
+      "predicted_prob": 0.96,
+      "outcome": 0,
+      "pnl": -0.19,
+      "brier_error": 0.9216,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1794473435.267473
+    },
     {
       "id": "REFL-1794466084514",
       "trade_id": "S20:1087104:Avengers:_Doomsday:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793712469.6618874
-    },
-    {
-      "id": "REFL-1793710760138",
-      "trade_id": "MR:gamma:943823:Yes:1w:BUY",
-      "strategy_id": "MR",
-      "market_title": "Will the Republican Party hold exactly 51 Senate seats after the 2026 midterm el",
-      "predicted_prob": 0.78,
-      "outcome": 0,
-      "pnl": -3.84,
-      "brier_error": 0.6084,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793710760.1383884
     }
   ],
   "strategy_weights": {
@@ -2616,11 +2616,11 @@
   },
   "strategy_brier_scores": {
     "S20": {
-      "brier_score": 0.6884,
-      "win_rate": 25.5,
-      "trades_count": 373,
+      "brier_score": 0.689,
+      "win_rate": 25.4,
+      "trades_count": 374,
       "kelly_multiplier": 0.4,
-      "reliability": 0.4998,
+      "reliability": 0.5008,
       "resolution": 0.0,
       "status": "REDUCED"
     },
