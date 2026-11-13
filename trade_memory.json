@@ -1,6 +1,19 @@
 {
-  "updated_at": 1794593349.2122583,
+  "updated_at": 1794594132.0384128,
   "reflections": [
+    {
+      "id": "REFL-1794593809704",
+      "trade_id": "S20:829310:No:BUY",
+      "strategy_id": "S20",
+      "market_title": "Katy Perry and Justin Trudeau engaged by end of 2026?",
+      "predicted_prob": 0.96,
+      "outcome": 0,
+      "pnl": -0.07,
+      "brier_error": 0.9216,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1794593809.7040763
+    },
     {
       "id": "REFL-1794559225047",
       "trade_id": "S20:1098289:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793747576.4960148
-    },
-    {
-      "id": "REFL-1793740657350",
-      "trade_id": "S12:630654:Yes:BUY",
-      "strategy_id": "S12",
-      "market_title": "Will the Republicans win the Arkansas Senate race in 2026?",
-      "predicted_prob": 0.9,
-      "outcome": 0,
-      "pnl": -0.11,
-      "brier_error": 0.81,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793740657.3508787
     }
   ],
   "strategy_weights": {
@@ -2616,11 +2616,11 @@
   },
   "strategy_brier_scores": {
     "S20": {
-      "brier_score": 0.6885,
+      "brier_score": 0.6891,
       "win_rate": 25.4,
-      "trades_count": 389,
+      "trades_count": 390,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5,
+      "reliability": 0.5009,
       "resolution": 0.0,
       "status": "REDUCED"
     },
