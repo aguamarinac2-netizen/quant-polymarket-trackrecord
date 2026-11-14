@@ -1,6 +1,19 @@
 {
-  "updated_at": 1794693527.589384,
+  "updated_at": 1794694008.2746937,
   "reflections": [
+    {
+      "id": "REFL-1794693979217",
+      "trade_id": "S20:679021:No:BUY",
+      "strategy_id": "S20",
+      "market_title": "Will Édouard Philippe win the 2027 French presidential election?",
+      "predicted_prob": 0.96,
+      "outcome": 0,
+      "pnl": -0.17,
+      "brier_error": 0.9216,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1794693979.2178564
+    },
     {
       "id": "REFL-1794688747355",
       "trade_id": "S20:701875:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793748836.570569
-    },
-    {
-      "id": "REFL-1793748642359",
-      "trade_id": "MR:gamma:562803:Yes:1w:BUY",
-      "strategy_id": "MR",
-      "market_title": "Will the Republican Party control the House after the 2026 Midterm elections?",
-      "predicted_prob": 0.78,
-      "outcome": 0,
-      "pnl": -2.23,
-      "brier_error": 0.6084,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793748642.3594594
     }
   ],
   "strategy_weights": {
@@ -2616,11 +2616,11 @@
   },
   "strategy_brier_scores": {
     "S20": {
-      "brier_score": 0.6921,
-      "win_rate": 25.1,
-      "trades_count": 399,
+      "brier_score": 0.6927,
+      "win_rate": 25.0,
+      "trades_count": 400,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5055,
+      "reliability": 0.5063,
       "resolution": 0.0,
       "status": "REDUCED"
     },
