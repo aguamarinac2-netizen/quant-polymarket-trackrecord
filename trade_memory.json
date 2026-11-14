@@ -1,6 +1,19 @@
 {
-  "updated_at": 1794638493.03374,
+  "updated_at": 1794639098.5758893,
   "reflections": [
+    {
+      "id": "REFL-1794638892308",
+      "trade_id": "S20:1089925:Yes:BUY",
+      "strategy_id": "S20",
+      "market_title": "Will Petr Yan be the UFC Bantamweight Champion on December 31, 2026?",
+      "predicted_prob": 0.96,
+      "outcome": 0,
+      "pnl": -0.05,
+      "brier_error": 0.9216,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1794638892.3084393
+    },
     {
       "id": "REFL-1794637896723",
       "trade_id": "S20:1090479:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793748303.9551504
-    },
-    {
-      "id": "REFL-1793748303799",
-      "trade_id": "S10:629571:No:BUY",
-      "strategy_id": "S10",
-      "market_title": "Will the Republicans win the Oklahoma governor race in 2026?",
-      "predicted_prob": 0.75,
-      "outcome": 0,
-      "pnl": -2.93,
-      "brier_error": 0.5625,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793748303.7994533
     }
   ],
   "strategy_weights": {
@@ -2616,11 +2616,11 @@
   },
   "strategy_brier_scores": {
     "S20": {
-      "brier_score": 0.6915,
+      "brier_score": 0.6921,
       "win_rate": 25.1,
-      "trades_count": 394,
+      "trades_count": 395,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5046,
+      "reliability": 0.5055,
       "resolution": 0.0,
       "status": "REDUCED"
     },
