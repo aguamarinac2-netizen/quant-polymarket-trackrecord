@@ -1,6 +1,19 @@
 {
-  "updated_at": 1794669742.1778219,
+  "updated_at": 1794670106.4883573,
   "reflections": [
+    {
+      "id": "REFL-1794669853958",
+      "trade_id": "S20:692260:No:BUY",
+      "strategy_id": "S20",
+      "market_title": "Will Alexandria Ocasio-Cortez announce a Presidential run before 2027?",
+      "predicted_prob": 0.96,
+      "outcome": 0,
+      "pnl": -0.1,
+      "brier_error": 0.9216,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1794669853.958561
+    },
     {
       "id": "REFL-1794667633792",
       "trade_id": "S20:665224:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793748592.6714127
-    },
-    {
-      "id": "REFL-1793748303977",
-      "trade_id": "MR:gamma:629708:Yes:1w:BUY",
-      "strategy_id": "MR",
-      "market_title": "Will the Republicans win the Vermont governor race in 2026?",
-      "predicted_prob": 0.78,
-      "outcome": 0,
-      "pnl": -0.96,
-      "brier_error": 0.6084,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793748303.9773042
     }
   ],
   "strategy_weights": {
@@ -2616,11 +2616,11 @@
   },
   "strategy_brier_scores": {
     "S20": {
-      "brier_score": 0.6909,
-      "win_rate": 25.2,
-      "trades_count": 397,
+      "brier_score": 0.6915,
+      "win_rate": 25.1,
+      "trades_count": 398,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5037,
+      "reliability": 0.5046,
       "resolution": 0.0,
       "status": "REDUCED"
     },
