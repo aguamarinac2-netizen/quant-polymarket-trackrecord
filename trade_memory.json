@@ -1,6 +1,19 @@
 {
-  "updated_at": 1794637588.783027,
+  "updated_at": 1794638192.801213,
   "reflections": [
+    {
+      "id": "REFL-1794637896723",
+      "trade_id": "S20:1090479:No:BUY",
+      "strategy_id": "S20",
+      "market_title": "Record crypto liquidation in 2026?",
+      "predicted_prob": 0.96,
+      "outcome": 0,
+      "pnl": -0.02,
+      "brier_error": 0.9216,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1794637896.723296
+    },
     {
       "id": "REFL-1794634641671",
       "trade_id": "S20:951551:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793748303.7994533
-    },
-    {
-      "id": "REFL-1793747963452",
-      "trade_id": "MR:gamma:561975:Yes:1d:BUY",
-      "strategy_id": "MR",
-      "market_title": "Will Marco Rubio win the 2028 Republican presidential nomination?",
-      "predicted_prob": 0.78,
-      "outcome": 0,
-      "pnl": -1.42,
-      "brier_error": 0.6084,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793747963.4521883
     }
   ],
   "strategy_weights": {
@@ -2616,11 +2616,11 @@
   },
   "strategy_brier_scores": {
     "S20": {
-      "brier_score": 0.6909,
-      "win_rate": 25.2,
-      "trades_count": 393,
+      "brier_score": 0.6915,
+      "win_rate": 25.1,
+      "trades_count": 394,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5037,
+      "reliability": 0.5046,
       "resolution": 0.0,
       "status": "REDUCED"
     },
