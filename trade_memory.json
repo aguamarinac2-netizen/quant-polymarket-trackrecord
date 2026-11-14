@@ -1,6 +1,19 @@
 {
-  "updated_at": 1794688636.283265,
+  "updated_at": 1794689057.9801493,
   "reflections": [
+    {
+      "id": "REFL-1794688747355",
+      "trade_id": "S20:701875:No:BUY",
+      "strategy_id": "S20",
+      "market_title": "Will Pump.fun dip to $0.0010 by December 31, 2026?",
+      "predicted_prob": 0.96,
+      "outcome": 0,
+      "pnl": -0.48,
+      "brier_error": 0.9216,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1794688747.355024
+    },
     {
       "id": "REFL-1794669853958",
       "trade_id": "S20:692260:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793748642.3594594
-    },
-    {
-      "id": "REFL-1793748592671",
-      "trade_id": "MR:gamma:944341:Yes:1w:BUY",
-      "strategy_id": "MR",
-      "market_title": "Will the Republican Party win the WI-03 House seat?",
-      "predicted_prob": 0.78,
-      "outcome": 0,
-      "pnl": -5.55,
-      "brier_error": 0.6084,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793748592.6714127
     }
   ],
   "strategy_weights": {
@@ -2616,11 +2616,11 @@
   },
   "strategy_brier_scores": {
     "S20": {
-      "brier_score": 0.6915,
+      "brier_score": 0.6921,
       "win_rate": 25.1,
-      "trades_count": 398,
+      "trades_count": 399,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5046,
+      "reliability": 0.5055,
       "resolution": 0.0,
       "status": "REDUCED"
     },
