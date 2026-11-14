@@ -1,6 +1,19 @@
 {
-  "updated_at": 1794667386.5223203,
+  "updated_at": 1794667930.28478,
   "reflections": [
+    {
+      "id": "REFL-1794667633792",
+      "trade_id": "S20:665224:No:BUY",
+      "strategy_id": "S20",
+      "market_title": "Ukraine signs peace deal with Russia by December 31, 2026?",
+      "predicted_prob": 0.96,
+      "outcome": 0,
+      "pnl": -0.07,
+      "brier_error": 0.9216,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1794667633.7925086
+    },
     {
       "id": "REFL-1794638892308",
       "trade_id": "S20:1089925:Yes:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793748303.9773042
-    },
-    {
-      "id": "REFL-1793748303955",
-      "trade_id": "MR:gamma:629707:Yes:1w:SELL",
-      "strategy_id": "MR",
-      "market_title": "Will the Democrats win the Vermont governor race in 2026?",
-      "predicted_prob": 0.78,
-      "outcome": 0,
-      "pnl": -2.24,
-      "brier_error": 0.6084,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793748303.9551504
     }
   ],
   "strategy_weights": {
@@ -2616,11 +2616,11 @@
   },
   "strategy_brier_scores": {
     "S20": {
-      "brier_score": 0.6903,
-      "win_rate": 25.3,
-      "trades_count": 396,
+      "brier_score": 0.6909,
+      "win_rate": 25.2,
+      "trades_count": 397,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5028,
+      "reliability": 0.5037,
       "resolution": 0.0,
       "status": "REDUCED"
     },
