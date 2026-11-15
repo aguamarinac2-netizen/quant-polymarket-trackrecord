@@ -1,6 +1,19 @@
 {
-  "updated_at": 1794766043.37449,
+  "updated_at": 1794766707.6048124,
   "reflections": [
+    {
+      "id": "REFL-1794766617966",
+      "trade_id": "S20:666822:No:BUY",
+      "strategy_id": "S20",
+      "market_title": "U.S. agrees to a new trade deal with \"Indonesia\" before 2027?",
+      "predicted_prob": 0.96,
+      "outcome": 0,
+      "pnl": -0.1,
+      "brier_error": 0.9216,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1794766617.966175
+    },
     {
       "id": "REFL-1794751813668",
       "trade_id": "S20:1105742:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793752388.3313158
-    },
-    {
-      "id": "REFL-1793752153691",
-      "trade_id": "MR:gamma:559661:Yes:1d:SELL",
-      "strategy_id": "MR",
-      "market_title": "Will Jon Ossoff win the 2028 Democratic presidential nomination?",
-      "predicted_prob": 0.74,
-      "outcome": 0,
-      "pnl": -1.7,
-      "brier_error": 0.5476,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793752153.691508
     }
   ],
   "strategy_weights": {
@@ -2616,11 +2616,11 @@
   },
   "strategy_brier_scores": {
     "S20": {
-      "brier_score": 0.6971,
+      "brier_score": 0.6976,
       "win_rate": 24.5,
-      "trades_count": 412,
+      "trades_count": 413,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5132,
+      "reliability": 0.5141,
       "resolution": 0.0,
       "status": "REDUCED"
     },
