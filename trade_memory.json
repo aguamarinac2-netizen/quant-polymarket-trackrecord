@@ -1,6 +1,19 @@
 {
-  "updated_at": 1794714711.3078969,
+  "updated_at": 1794715254.5314348,
   "reflections": [
+    {
+      "id": "REFL-1794715252661",
+      "trade_id": "S20:666819:No:BUY",
+      "strategy_id": "S20",
+      "market_title": "U.S. agrees to a new trade deal with \"Canada\" before 2027?",
+      "predicted_prob": 0.96,
+      "outcome": 0,
+      "pnl": -0.07,
+      "brier_error": 0.9216,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1794715252.661248
+    },
     {
       "id": "REFL-1794710988303",
       "trade_id": "S20:1131150:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793751673.8192134
-    },
-    {
-      "id": "REFL-1793751673683",
-      "trade_id": "S10:629707:No:BUY",
-      "strategy_id": "S10",
-      "market_title": "Will the Democrats win the Vermont governor race in 2026?",
-      "predicted_prob": 0.75,
-      "outcome": 0,
-      "pnl": -3.55,
-      "brier_error": 0.5625,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793751673.683092
     }
   ],
   "strategy_weights": {
@@ -2616,11 +2616,11 @@
   },
   "strategy_brier_scores": {
     "S20": {
-      "brier_score": 0.6949,
-      "win_rate": 24.8,
-      "trades_count": 408,
+      "brier_score": 0.6954,
+      "win_rate": 24.7,
+      "trades_count": 409,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5098,
+      "reliability": 0.5106,
       "resolution": 0.0,
       "status": "REDUCED"
     },
