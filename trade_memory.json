@@ -1,6 +1,19 @@
 {
-  "updated_at": 1794731842.522292,
+  "updated_at": 1794732383.420549,
   "reflections": [
+    {
+      "id": "REFL-1794732029805",
+      "trade_id": "S20:1114327:No:BUY",
+      "strategy_id": "S20",
+      "market_title": "Delcy Rodríguez out as leader of Venezuela by December 31, 2026?",
+      "predicted_prob": 0.96,
+      "outcome": 0,
+      "pnl": -0.01,
+      "brier_error": 0.9216,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1794732029.8053017
+    },
     {
       "id": "REFL-1794724787324",
       "trade_id": "S20:676784:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793752153.6566086
-    },
-    {
-      "id": "REFL-1793751673840",
-      "trade_id": "S12:629325:Yes:BUY",
-      "strategy_id": "S12",
-      "market_title": "Will the Republicans win the Florida governor race in 2026?",
-      "predicted_prob": 0.9,
-      "outcome": 0,
-      "pnl": -1.18,
-      "brier_error": 0.81,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793751673.8406918
     }
   ],
   "strategy_weights": {
@@ -2616,11 +2616,11 @@
   },
   "strategy_brier_scores": {
     "S20": {
-      "brier_score": 0.696,
+      "brier_score": 0.6965,
       "win_rate": 24.6,
-      "trades_count": 410,
+      "trades_count": 411,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5115,
+      "reliability": 0.5124,
       "resolution": 0.0,
       "status": "REDUCED"
     },
