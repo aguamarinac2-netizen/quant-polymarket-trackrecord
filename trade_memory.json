@@ -1,6 +1,19 @@
 {
-  "updated_at": 1794710721.8677964,
+  "updated_at": 1794711144.0297806,
   "reflections": [
+    {
+      "id": "REFL-1794710988303",
+      "trade_id": "S20:1131150:No:BUY",
+      "strategy_id": "S20",
+      "market_title": "Will the Doge-1 Lunar Mission launch by December 31, 2026?",
+      "predicted_prob": 0.96,
+      "outcome": 0,
+      "pnl": -0.63,
+      "brier_error": 0.9216,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1794710988.3036604
+    },
     {
       "id": "REFL-1794701596460",
       "trade_id": "S20:1124255:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793751673.683092
-    },
-    {
-      "id": "REFL-1793751294444",
-      "trade_id": "S12:944201:Yes:BUY",
-      "strategy_id": "S12",
-      "market_title": "Will the Democratic Party win the TX-15 House seat?",
-      "predicted_prob": 0.9,
-      "outcome": 0,
-      "pnl": -0.79,
-      "brier_error": 0.81,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793751294.4443572
     }
   ],
   "strategy_weights": {
@@ -2616,11 +2616,11 @@
   },
   "strategy_brier_scores": {
     "S20": {
-      "brier_score": 0.6943,
+      "brier_score": 0.6949,
       "win_rate": 24.8,
-      "trades_count": 407,
+      "trades_count": 408,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5089,
+      "reliability": 0.5098,
       "resolution": 0.0,
       "status": "REDUCED"
     },
