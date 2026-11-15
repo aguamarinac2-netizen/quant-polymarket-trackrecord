@@ -1,6 +1,19 @@
 {
-  "updated_at": 1794751624.2163875,
+  "updated_at": 1794752226.7120135,
   "reflections": [
+    {
+      "id": "REFL-1794751813668",
+      "trade_id": "S20:1105742:No:BUY",
+      "strategy_id": "S20",
+      "market_title": "Will Delcy Rodríguez be the leader of Venezuela end of 2026?",
+      "predicted_prob": 0.96,
+      "outcome": 0,
+      "pnl": -0.61,
+      "brier_error": 0.9216,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1794751813.6681917
+    },
     {
       "id": "REFL-1794732029805",
       "trade_id": "S20:1114327:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793752153.691508
-    },
-    {
-      "id": "REFL-1793752153656",
-      "trade_id": "MR:gamma:559661:Yes:1d:SELL",
-      "strategy_id": "MR",
-      "market_title": "Will Jon Ossoff win the 2028 Democratic presidential nomination?",
-      "predicted_prob": 0.74,
-      "outcome": 0,
-      "pnl": -1.16,
-      "brier_error": 0.5476,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793752153.6566086
     }
   ],
   "strategy_weights": {
@@ -2616,11 +2616,11 @@
   },
   "strategy_brier_scores": {
     "S20": {
-      "brier_score": 0.6965,
-      "win_rate": 24.6,
-      "trades_count": 411,
+      "brier_score": 0.6971,
+      "win_rate": 24.5,
+      "trades_count": 412,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5124,
+      "reliability": 0.5132,
       "resolution": 0.0,
       "status": "REDUCED"
     },
