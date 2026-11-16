@@ -1,6 +1,19 @@
 {
-  "updated_at": 1794810096.3061037,
+  "updated_at": 1794810941.6409547,
   "reflections": [
+    {
+      "id": "REFL-1794810704755",
+      "trade_id": "S20:1124829:No:BUY",
+      "strategy_id": "S20",
+      "market_title": "EU/NATO country announces peacekeeping force in Ukraine by December 31?",
+      "predicted_prob": 0.96,
+      "outcome": 0,
+      "pnl": -0.01,
+      "brier_error": 0.9216,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1794810704.7554097
+    },
     {
       "id": "REFL-1794807450581",
       "trade_id": "S20:1038647:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793752673.9100134
-    },
-    {
-      "id": "REFL-1793752673885",
-      "trade_id": "MR:gamma:629465:Yes:1w:BUY",
-      "strategy_id": "MR",
-      "market_title": "Will the Republicans win the Michigan governor race in 2026?",
-      "predicted_prob": 0.78,
-      "outcome": 0,
-      "pnl": -1.02,
-      "brier_error": 0.6084,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793752673.8853745
     }
   ],
   "strategy_weights": {
@@ -2616,11 +2616,11 @@
   },
   "strategy_brier_scores": {
     "S20": {
-      "brier_score": 0.697,
+      "brier_score": 0.6976,
       "win_rate": 24.5,
-      "trades_count": 416,
+      "trades_count": 417,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5131,
+      "reliability": 0.514,
       "resolution": 0.0,
       "status": "REDUCED"
     },
