@@ -1,6 +1,19 @@
 {
-  "updated_at": 1794861504.9997318,
+  "updated_at": 1794862349.3595088,
   "reflections": [
+    {
+      "id": "REFL-1794861554179",
+      "trade_id": "S20:1124834:No:BUY",
+      "strategy_id": "S20",
+      "market_title": "US x Russia military clash by December 31, 2026?",
+      "predicted_prob": 0.96,
+      "outcome": 0,
+      "pnl": -0.06,
+      "brier_error": 0.9216,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1794861554.179728
+    },
     {
       "id": "REFL-1794842659057",
       "trade_id": "S20:1125393:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793753007.9878254
-    },
-    {
-      "id": "REFL-1793752960377",
-      "trade_id": "S12:944290:Yes:BUY",
-      "strategy_id": "S12",
-      "market_title": "Will the Democratic Party win the VA-02 House seat?",
-      "predicted_prob": 0.9,
-      "outcome": 0,
-      "pnl": -0.75,
-      "brier_error": 0.81,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793752960.3774703
     }
   ],
   "strategy_weights": {
@@ -2616,11 +2616,11 @@
   },
   "strategy_brier_scores": {
     "S20": {
-      "brier_score": 0.6992,
-      "win_rate": 24.3,
-      "trades_count": 420,
+      "brier_score": 0.6997,
+      "win_rate": 24.2,
+      "trades_count": 421,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5164,
+      "reliability": 0.5173,
       "resolution": 0.0,
       "status": "REDUCED"
     },
