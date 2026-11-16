@@ -1,6 +1,19 @@
 {
-  "updated_at": 1794811062.279862,
+  "updated_at": 1794811843.3275032,
   "reflections": [
+    {
+      "id": "REFL-1794811698305",
+      "trade_id": "S20:1130722:No:BUY",
+      "strategy_id": "S20",
+      "market_title": "Will Kendrick Lamar be the Billboard #1 top artist in 2026?",
+      "predicted_prob": 0.96,
+      "outcome": 0,
+      "pnl": -0.07,
+      "brier_error": 0.9216,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1794811698.3056035
+    },
     {
       "id": "REFL-1794810704755",
       "trade_id": "S20:1124829:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793752674.0437257
-    },
-    {
-      "id": "REFL-1793752673910",
-      "trade_id": "MR:gamma:562831:Yes:1d:BUY",
-      "strategy_id": "MR",
-      "market_title": "2026 Balance of Power: R Senate, R House",
-      "predicted_prob": 0.78,
-      "outcome": 0,
-      "pnl": -1.78,
-      "brier_error": 0.6084,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793752673.9100134
     }
   ],
   "strategy_weights": {
@@ -2616,11 +2616,11 @@
   },
   "strategy_brier_scores": {
     "S20": {
-      "brier_score": 0.6976,
-      "win_rate": 24.5,
-      "trades_count": 417,
+      "brier_score": 0.6981,
+      "win_rate": 24.4,
+      "trades_count": 418,
       "kelly_multiplier": 0.4,
-      "reliability": 0.514,
+      "reliability": 0.5148,
       "resolution": 0.0,
       "status": "REDUCED"
     },
