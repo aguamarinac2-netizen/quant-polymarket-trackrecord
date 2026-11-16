@@ -1,6 +1,19 @@
 {
-  "updated_at": 1794839837.4226823,
+  "updated_at": 1794840739.1051507,
   "reflections": [
+    {
+      "id": "REFL-1794840440504",
+      "trade_id": "S20:692261:No:BUY",
+      "strategy_id": "S20",
+      "market_title": "Will Pete Buttigieg announce a Presidential run before 2027?",
+      "predicted_prob": 0.96,
+      "outcome": 0,
+      "pnl": -0.07,
+      "brier_error": 0.9216,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1794840440.5040784
+    },
     {
       "id": "REFL-1794811698305",
       "trade_id": "S20:1130722:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793752960.3422859
-    },
-    {
-      "id": "REFL-1793752674043",
-      "trade_id": "MR:gamma:629465:Yes:1w:BUY",
-      "strategy_id": "MR",
-      "market_title": "Will the Republicans win the Michigan governor race in 2026?",
-      "predicted_prob": 0.78,
-      "outcome": 0,
-      "pnl": -1.02,
-      "brier_error": 0.6084,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793752674.0437257
     }
   ],
   "strategy_weights": {
@@ -2616,11 +2616,11 @@
   },
   "strategy_brier_scores": {
     "S20": {
-      "brier_score": 0.6981,
-      "win_rate": 24.4,
-      "trades_count": 418,
+      "brier_score": 0.6986,
+      "win_rate": 24.3,
+      "trades_count": 419,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5148,
+      "reliability": 0.5156,
       "resolution": 0.0,
       "status": "REDUCED"
     },
