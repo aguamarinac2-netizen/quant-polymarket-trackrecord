@@ -1,6 +1,19 @@
 {
-  "updated_at": 1794794657.965502,
+  "updated_at": 1794794839.3008695,
   "reflections": [
+    {
+      "id": "REFL-1794794756103",
+      "trade_id": "S20:950145:No:BUY",
+      "strategy_id": "S20",
+      "market_title": "Trump, Putin, and Zelensky meet together before 2027?",
+      "predicted_prob": 0.96,
+      "outcome": 0,
+      "pnl": -0.05,
+      "brier_error": 0.9216,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1794794756.1031113
+    },
     {
       "id": "REFL-1794766617966",
       "trade_id": "S20:666822:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793752626.1631927
-    },
-    {
-      "id": "REFL-1793752388331",
-      "trade_id": "MR:gamma:561261:Yes:1d:SELL",
-      "strategy_id": "MR",
-      "market_title": "Will Jon Ossoff win the 2028 US Presidential Election?",
-      "predicted_prob": 0.78,
-      "outcome": 0,
-      "pnl": -0.28,
-      "brier_error": 0.6084,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793752388.3313158
     }
   ],
   "strategy_weights": {
@@ -2616,11 +2616,11 @@
   },
   "strategy_brier_scores": {
     "S20": {
-      "brier_score": 0.6959,
+      "brier_score": 0.6965,
       "win_rate": 24.6,
-      "trades_count": 414,
+      "trades_count": 415,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5114,
+      "reliability": 0.5123,
       "resolution": 0.0,
       "status": "REDUCED"
     },
