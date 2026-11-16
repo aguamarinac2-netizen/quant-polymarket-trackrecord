@@ -1,6 +1,19 @@
 {
-  "updated_at": 1794870553.971886,
+  "updated_at": 1794871339.9182127,
   "reflections": [
+    {
+      "id": "REFL-1794870792278",
+      "trade_id": "S20:813508:No:BUY",
+      "strategy_id": "S20",
+      "market_title": "Lecornu  out as French PM by December 31, 2026?",
+      "predicted_prob": 0.96,
+      "outcome": 0,
+      "pnl": -0.22,
+      "brier_error": 0.9216,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1794870792.2789905
+    },
     {
       "id": "REFL-1794861554179",
       "trade_id": "S20:1124834:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793753008.1600063
-    },
-    {
-      "id": "REFL-1793753007987",
-      "trade_id": "MR:gamma:562802:Yes:1w:SELL",
-      "strategy_id": "MR",
-      "market_title": "Will the Democratic Party control the House after the 2026 Midterm elections?",
-      "predicted_prob": 0.78,
-      "outcome": 0,
-      "pnl": -0.31,
-      "brier_error": 0.6084,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793753007.9878254
     }
   ],
   "strategy_weights": {
@@ -2616,11 +2616,11 @@
   },
   "strategy_brier_scores": {
     "S20": {
-      "brier_score": 0.698,
-      "win_rate": 24.4,
-      "trades_count": 422,
+      "brier_score": 0.6986,
+      "win_rate": 24.3,
+      "trades_count": 423,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5147,
+      "reliability": 0.5155,
       "resolution": 0.0,
       "status": "REDUCED"
     },
