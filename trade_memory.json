@@ -1,6 +1,19 @@
 {
-  "updated_at": 1794807439.7729745,
+  "updated_at": 1794808225.7457688,
   "reflections": [
+    {
+      "id": "REFL-1794807450581",
+      "trade_id": "S20:1038647:No:BUY",
+      "strategy_id": "S20",
+      "market_title": "Will Titan launch a token by December 31, 2026?",
+      "predicted_prob": 0.96,
+      "outcome": 0,
+      "pnl": -0.08,
+      "brier_error": 0.9216,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1794807450.5815232
+    },
     {
       "id": "REFL-1794794756103",
       "trade_id": "S20:950145:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793752673.8853745
-    },
-    {
-      "id": "REFL-1793752626163",
-      "trade_id": "S10:1090024:No:BUY",
-      "strategy_id": "S10",
-      "market_title": "Will Islam Makhachev be the UFC Welterweight Champion on December 31, 2026?",
-      "predicted_prob": 0.75,
-      "outcome": 0,
-      "pnl": -0.18,
-      "brier_error": 0.5625,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793752626.1631927
     }
   ],
   "strategy_weights": {
@@ -2616,11 +2616,11 @@
   },
   "strategy_brier_scores": {
     "S20": {
-      "brier_score": 0.6965,
-      "win_rate": 24.6,
-      "trades_count": 415,
+      "brier_score": 0.697,
+      "win_rate": 24.5,
+      "trades_count": 416,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5123,
+      "reliability": 0.5131,
       "resolution": 0.0,
       "status": "REDUCED"
     },
