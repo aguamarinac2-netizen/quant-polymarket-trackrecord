@@ -1,6 +1,19 @@
 {
-  "updated_at": 1794842558.6381662,
+  "updated_at": 1794843403.7272747,
   "reflections": [
+    {
+      "id": "REFL-1794842659057",
+      "trade_id": "S20:1125393:No:BUY",
+      "strategy_id": "S20",
+      "market_title": "Will S&P 500 (SPX) hit $6,200 (LOW) in December?",
+      "predicted_prob": 0.96,
+      "outcome": 0,
+      "pnl": -0.12,
+      "brier_error": 0.9216,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1794842659.057133
+    },
     {
       "id": "REFL-1794840440504",
       "trade_id": "S20:692261:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793752960.3774703
-    },
-    {
-      "id": "REFL-1793752960342",
-      "trade_id": "MR:gamma:630844:Yes:1w:SELL",
-      "strategy_id": "MR",
-      "market_title": "Will the Democrats win the New Hampshire Senate race in 2026?",
-      "predicted_prob": 0.78,
-      "outcome": 0,
-      "pnl": -0.31,
-      "brier_error": 0.6084,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793752960.3422859
     }
   ],
   "strategy_weights": {
@@ -2616,11 +2616,11 @@
   },
   "strategy_brier_scores": {
     "S20": {
-      "brier_score": 0.6986,
+      "brier_score": 0.6992,
       "win_rate": 24.3,
-      "trades_count": 419,
+      "trades_count": 420,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5156,
+      "reliability": 0.5164,
       "resolution": 0.0,
       "status": "REDUCED"
     },
