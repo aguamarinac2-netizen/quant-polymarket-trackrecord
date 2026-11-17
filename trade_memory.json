@@ -1,6 +1,19 @@
 {
-  "updated_at": 1794924435.4367213,
+  "updated_at": 1794924737.9545274,
   "reflections": [
+    {
+      "id": "REFL-1794924621034",
+      "trade_id": "S20:681144:No:BUY",
+      "strategy_id": "S20",
+      "market_title": "Will Ukraine agree to cede territory to Russia before 2027?",
+      "predicted_prob": 0.96,
+      "outcome": 0,
+      "pnl": -0.15,
+      "brier_error": 0.9216,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1794924621.0343268
+    },
     {
       "id": "REFL-1794904834927",
       "trade_id": "S20:1131161:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793754964.3537061
-    },
-    {
-      "id": "REFL-1793754676873",
-      "trade_id": "S20:629570:No:BUY",
-      "strategy_id": "S20",
-      "market_title": "Will the Democrats win the Oklahoma governor race in 2026?",
-      "predicted_prob": 0.97,
-      "outcome": 0,
-      "pnl": -1.24,
-      "brier_error": 0.9409,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793754676.8736506
     }
   ],
   "strategy_weights": {
@@ -2616,11 +2616,11 @@
   },
   "strategy_brier_scores": {
     "S20": {
-      "brier_score": 0.699,
-      "win_rate": 24.3,
-      "trades_count": 432,
+      "brier_score": 0.6995,
+      "win_rate": 24.2,
+      "trades_count": 433,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5161,
+      "reliability": 0.5169,
       "resolution": 0.0,
       "status": "REDUCED"
     },
