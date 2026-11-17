@@ -1,6 +1,19 @@
 {
-  "updated_at": 1794904582.3433902,
+  "updated_at": 1794904834.9480603,
   "reflections": [
+    {
+      "id": "REFL-1794904834927",
+      "trade_id": "S20:1131161:No:BUY",
+      "strategy_id": "S20",
+      "market_title": "Lai Ching-te out as President of Taiwan by December 31, 2026?",
+      "predicted_prob": 0.96,
+      "outcome": 0,
+      "pnl": -0.17,
+      "brier_error": 0.9216,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1794904834.9278462
+    },
     {
       "id": "REFL-1794888060627",
       "trade_id": "S20:690651:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793754676.8736506
-    },
-    {
-      "id": "REFL-1793754676742",
-      "trade_id": "S12:629571:Yes:BUY",
-      "strategy_id": "S12",
-      "market_title": "Will the Republicans win the Oklahoma governor race in 2026?",
-      "predicted_prob": 0.9,
-      "outcome": 0,
-      "pnl": -1.4,
-      "brier_error": 0.81,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793754676.7428308
     }
   ],
   "strategy_weights": {
@@ -2616,11 +2616,11 @@
   },
   "strategy_brier_scores": {
     "S20": {
-      "brier_score": 0.6984,
-      "win_rate": 24.4,
-      "trades_count": 431,
+      "brier_score": 0.699,
+      "win_rate": 24.3,
+      "trades_count": 432,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5153,
+      "reliability": 0.5161,
       "resolution": 0.0,
       "status": "REDUCED"
     },
