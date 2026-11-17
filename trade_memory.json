@@ -1,6 +1,58 @@
 {
-  "updated_at": 1794874176.923694,
+  "updated_at": 1794874960.3689468,
   "reflections": [
+    {
+      "id": "REFL-1794874402633",
+      "trade_id": "S20:700395:No:BUY",
+      "strategy_id": "S20",
+      "market_title": "Will Lovable be acquired before 2027?",
+      "predicted_prob": 0.96,
+      "outcome": 0,
+      "pnl": -0.06,
+      "brier_error": 0.9216,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1794874402.6337636
+    },
+    {
+      "id": "REFL-1794874397565",
+      "trade_id": "S20:1058988:No:BUY",
+      "strategy_id": "S20",
+      "market_title": "Will any Category 4 hurricane make landfall in the US in before 2027?",
+      "predicted_prob": 0.96,
+      "outcome": 0,
+      "pnl": -0.02,
+      "brier_error": 0.9216,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1794874397.565186
+    },
+    {
+      "id": "REFL-1794874397541",
+      "trade_id": "S20:1125395:No:BUY",
+      "strategy_id": "S20",
+      "market_title": "Will S&P 500 (SPX) hit $5,200 (LOW) in December?",
+      "predicted_prob": 0.96,
+      "outcome": 0,
+      "pnl": -0.11,
+      "brier_error": 0.9216,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1794874397.5417075
+    },
+    {
+      "id": "REFL-1794874397513",
+      "trade_id": "S20:1125394:No:BUY",
+      "strategy_id": "S20",
+      "market_title": "Will S&P 500 (SPX) hit $5,800 (LOW) in December?",
+      "predicted_prob": 0.96,
+      "outcome": 0,
+      "pnl": -0.02,
+      "brier_error": 0.9216,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1794874397.5133815
+    },
     {
       "id": "REFL-1794870792278",
       "trade_id": "S20:813508:No:BUY",
@@ -2548,58 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793754628.8796144
-    },
-    {
-      "id": "REFL-1793754344383",
-      "trade_id": "MR:gamma:562803:Yes:1d:BUY",
-      "strategy_id": "MR",
-      "market_title": "Will the Republican Party control the House after the 2026 Midterm elections?",
-      "predicted_prob": 0.78,
-      "outcome": 0,
-      "pnl": -7.72,
-      "brier_error": 0.6084,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793754344.383074
-    },
-    {
-      "id": "REFL-1793754008691",
-      "trade_id": "S20:629667:Yes:BUY",
-      "strategy_id": "S20",
-      "market_title": "Will the Republicans win the Tennessee governor race in 2026?",
-      "predicted_prob": 0.97,
-      "outcome": 0,
-      "pnl": -0.66,
-      "brier_error": 0.9409,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793754008.6919951
-    },
-    {
-      "id": "REFL-1793753960073",
-      "trade_id": "S10:630772:No:BUY",
-      "strategy_id": "S10",
-      "market_title": "Will the Democrats win the Maine Senate race in 2026?",
-      "predicted_prob": 0.75,
-      "outcome": 0,
-      "pnl": -2.3,
-      "brier_error": 0.5625,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793753960.0739193
-    },
-    {
-      "id": "REFL-1793753008159",
-      "trade_id": "S12:629491:Yes:BUY",
-      "strategy_id": "S12",
-      "market_title": "Will the Republicans win the Nebraska governor race in 2026?",
-      "predicted_prob": 0.9,
-      "outcome": 0,
-      "pnl": -0.23,
-      "brier_error": 0.81,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793753008.1600063
     }
   ],
   "strategy_weights": {
@@ -2616,11 +2616,11 @@
   },
   "strategy_brier_scores": {
     "S20": {
-      "brier_score": 0.6986,
+      "brier_score": 0.699,
       "win_rate": 24.3,
-      "trades_count": 423,
+      "trades_count": 428,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5155,
+      "reliability": 0.5162,
       "resolution": 0.0,
       "status": "REDUCED"
     },
