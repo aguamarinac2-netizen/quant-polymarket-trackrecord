@@ -1,6 +1,19 @@
 {
-  "updated_at": 1794887681.0877466,
+  "updated_at": 1794888402.8833444,
   "reflections": [
+    {
+      "id": "REFL-1794888060627",
+      "trade_id": "S20:690651:No:BUY",
+      "strategy_id": "S20",
+      "market_title": "Will Felix Protocol launch a token by December 31, 2026?",
+      "predicted_prob": 0.96,
+      "outcome": 0,
+      "pnl": -0.09,
+      "brier_error": 0.9216,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1794888060.6277113
+    },
     {
       "id": "REFL-1794883795140",
       "trade_id": "S20:1132824:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793754676.7428308
-    },
-    {
-      "id": "REFL-1793754628899",
-      "trade_id": "S10:630805:No:BUY",
-      "strategy_id": "S10",
-      "market_title": "Will the Democrats win the Michigan Senate race in 2026?",
-      "predicted_prob": 0.75,
-      "outcome": 0,
-      "pnl": -2.23,
-      "brier_error": 0.5625,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793754628.8996246
     }
   ],
   "strategy_weights": {
@@ -2616,11 +2616,11 @@
   },
   "strategy_brier_scores": {
     "S20": {
-      "brier_score": 0.6995,
+      "brier_score": 0.7001,
       "win_rate": 24.2,
-      "trades_count": 429,
+      "trades_count": 430,
       "kelly_multiplier": 0.4,
-      "reliability": 0.517,
+      "reliability": 0.5178,
       "resolution": 0.0,
       "status": "REDUCED"
     },
