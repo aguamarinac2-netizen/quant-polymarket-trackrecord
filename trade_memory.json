@@ -1,6 +1,19 @@
 {
-  "updated_at": 1794955907.2174876,
+  "updated_at": 1794956300.5935562,
   "reflections": [
+    {
+      "id": "REFL-1794956002062",
+      "trade_id": "S20:1098290:No:BUY",
+      "strategy_id": "S20",
+      "market_title": "Will Nicolás Maduro be sentenced to between 20 and 40 years in prison?",
+      "predicted_prob": 0.96,
+      "outcome": 0,
+      "pnl": -0.6,
+      "brier_error": 0.9216,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1794956002.0626512
+    },
     {
       "id": "REFL-1794955907179",
       "trade_id": "S20:1138909:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793755012.3743296
-    },
-    {
-      "id": "REFL-1793755012227",
-      "trade_id": "S10:629412:No:BUY",
-      "strategy_id": "S10",
-      "market_title": "Will the Democrats win the Kansas governor race in 2026?",
-      "predicted_prob": 0.75,
-      "outcome": 0,
-      "pnl": -2.47,
-      "brier_error": 0.5625,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793755012.227832
     }
   ],
   "strategy_weights": {
@@ -2616,11 +2616,11 @@
   },
   "strategy_brier_scores": {
     "S20": {
-      "brier_score": 0.7,
-      "win_rate": 24.2,
-      "trades_count": 434,
+      "brier_score": 0.7005,
+      "win_rate": 24.1,
+      "trades_count": 435,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5177,
+      "reliability": 0.5185,
       "resolution": 0.0,
       "status": "REDUCED"
     },
