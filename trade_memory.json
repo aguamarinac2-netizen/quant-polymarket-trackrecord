@@ -1,6 +1,19 @@
 {
-  "updated_at": 1795015384.211499,
+  "updated_at": 1795015928.3234558,
   "reflections": [
+    {
+      "id": "REFL-1795015464787",
+      "trade_id": "S20:692259:No:BUY",
+      "strategy_id": "S20",
+      "market_title": "Will Gavin Newsom announce a Presidential run before 2027?",
+      "predicted_prob": 0.96,
+      "outcome": 0,
+      "pnl": -0.04,
+      "brier_error": 0.9216,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1795015464.7871103
+    },
     {
       "id": "REFL-1794991528183",
       "trade_id": "FLB:561239:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793757679.803716
-    },
-    {
-      "id": "REFL-1793757679674",
-      "trade_id": "S12:629412:Yes:BUY",
-      "strategy_id": "S12",
-      "market_title": "Will the Democrats win the Kansas governor race in 2026?",
-      "predicted_prob": 0.9,
-      "outcome": 0,
-      "pnl": -0.9,
-      "brier_error": 0.81,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793757679.6747427
     }
   ],
   "strategy_weights": {
@@ -2616,11 +2616,11 @@
   },
   "strategy_brier_scores": {
     "S20": {
-      "brier_score": 0.7009,
-      "win_rate": 24.1,
-      "trades_count": 440,
+      "brier_score": 0.7014,
+      "win_rate": 24.0,
+      "trades_count": 441,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5192,
+      "reliability": 0.5199,
       "resolution": 0.0,
       "status": "REDUCED"
     },
