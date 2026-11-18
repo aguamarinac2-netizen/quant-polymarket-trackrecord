@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-18T00:07:39.513903+00:00",
+  "generated_at": "2026-11-18T00:14:16.245705+00:00",
   "campaign": "demo-15d",
   "strategies": [
     {
       "strategy_code": "S03",
       "strategy_name": "S03: Nothing Ever Happens",
-      "total": 10,
-      "open": 0,
+      "total": 11,
+      "open": 1,
       "won": 9,
       "lost": 1,
       "realized_pnl_usd": 14.01,
@@ -14,7 +14,7 @@
       "partial_fills": 0,
       "by_source": {
         "research": {
-          "total": 10,
+          "total": 11,
           "won": 9,
           "lost": 1,
           "net_pnl_usd": 30.96
@@ -172,7 +172,7 @@
       "won": 166,
       "lost": 269,
       "realized_pnl_usd": -36.43,
-      "unrealized_pnl_usd": -13.13,
+      "unrealized_pnl_usd": -13.21,
       "partial_fills": 0,
       "by_source": {
         "realistic": {
@@ -185,12 +185,12 @@
           "total": 459,
           "won": 165,
           "lost": 269,
-          "net_pnl_usd": -52.86
+          "net_pnl_usd": -52.94
         }
       },
       "closed": 435,
       "win_rate_pct": 38.2,
-      "net_pnl_usd": -49.56,
+      "net_pnl_usd": -49.64,
       "avg_book_slippage_bps": null,
       "verdict": "DESCARTAR"
     },
