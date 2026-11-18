@@ -1,6 +1,19 @@
 {
-  "updated_at": 1794991005.5744019,
+  "updated_at": 1794991548.6596792,
   "reflections": [
+    {
+      "id": "REFL-1794991528183",
+      "trade_id": "FLB:561239:No:BUY",
+      "strategy_id": "FLB",
+      "market_title": "Will Kamala Harris win the 2028 US Presidential Election?",
+      "predicted_prob": 0.6,
+      "outcome": 0,
+      "pnl": -0.03,
+      "brier_error": 0.36,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1794991528.183494
+    },
     {
       "id": "REFL-1794984502767",
       "trade_id": "S20:1122084:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793757679.6747427
-    },
-    {
-      "id": "REFL-1793756964698",
-      "trade_id": "S12:943749:Yes:BUY",
-      "strategy_id": "S12",
-      "market_title": "Will the Democratic Party win the PA-01 House seat?",
-      "predicted_prob": 0.9,
-      "outcome": 0,
-      "pnl": -0.75,
-      "brier_error": 0.81,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793756964.6987798
     }
   ],
   "strategy_weights": {
@@ -2697,11 +2697,11 @@
       "status": "REDUCED"
     },
     "FLB": {
-      "brier_score": 0.3475,
-      "win_rate": 6.2,
-      "trades_count": 16,
+      "brier_score": 0.3482,
+      "win_rate": 5.9,
+      "trades_count": 17,
       "kelly_multiplier": 0.4,
-      "reliability": 0.2889,
+      "reliability": 0.2929,
       "resolution": 0.0,
       "status": "REDUCED"
     }
