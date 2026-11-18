@@ -1,6 +1,19 @@
 {
-  "updated_at": 1795039384.5529175,
+  "updated_at": 1795039625.8929324,
   "reflections": [
+    {
+      "id": "REFL-1795039591130",
+      "trade_id": "S20:676517:No:BUY",
+      "strategy_id": "S20",
+      "market_title": "StandX FDV above $800M one day after launch?",
+      "predicted_prob": 0.96,
+      "outcome": 0,
+      "pnl": -0.07,
+      "brier_error": 0.9216,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1795039591.130101
+    },
     {
       "id": "REFL-1795015464787",
       "trade_id": "S20:692259:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793758669.1075177
-    },
-    {
-      "id": "REFL-1793757679803",
-      "trade_id": "S12:629412:Yes:BUY",
-      "strategy_id": "S12",
-      "market_title": "Will the Democrats win the Kansas governor race in 2026?",
-      "predicted_prob": 0.9,
-      "outcome": 0,
-      "pnl": -0.9,
-      "brier_error": 0.81,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793757679.803716
     }
   ],
   "strategy_weights": {
@@ -2616,11 +2616,11 @@
   },
   "strategy_brier_scores": {
     "S20": {
-      "brier_score": 0.6998,
+      "brier_score": 0.7003,
       "win_rate": 24.2,
-      "trades_count": 442,
+      "trades_count": 443,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5175,
+      "reliability": 0.5182,
       "resolution": 0.0,
       "status": "REDUCED"
     },
