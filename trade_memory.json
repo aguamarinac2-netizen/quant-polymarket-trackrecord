@@ -1,6 +1,19 @@
 {
-  "updated_at": 1794979781.67546,
+  "updated_at": 1794980255.4268737,
   "reflections": [
+    {
+      "id": "REFL-1794980255406",
+      "trade_id": "S20:670058:No:BUY",
+      "strategy_id": "S20",
+      "market_title": "NYSE marketwide circuit breaker before 2027?",
+      "predicted_prob": 0.96,
+      "outcome": 0,
+      "pnl": -0.07,
+      "brier_error": 0.9216,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1794980255.4067168
+    },
     {
       "id": "REFL-1794967562498",
       "trade_id": "S20:666657:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793756298.858106
-    },
-    {
-      "id": "REFL-1793755300613",
-      "trade_id": "S10:630818:No:BUY",
-      "strategy_id": "S10",
-      "market_title": "Will the Democrats win the Minnesota Senate race in 2026?",
-      "predicted_prob": 0.75,
-      "outcome": 0,
-      "pnl": -2.34,
-      "brier_error": 0.5625,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793755300.6132786
     }
   ],
   "strategy_weights": {
@@ -2616,11 +2616,11 @@
   },
   "strategy_brier_scores": {
     "S20": {
-      "brier_score": 0.701,
-      "win_rate": 24.1,
-      "trades_count": 436,
+      "brier_score": 0.7015,
+      "win_rate": 24.0,
+      "trades_count": 437,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5193,
+      "reliability": 0.5201,
       "resolution": 0.0,
       "status": "REDUCED"
     },
