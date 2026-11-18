@@ -1,6 +1,19 @@
 {
-  "updated_at": 1794983396.8397033,
+  "updated_at": 1794983878.6297867,
   "reflections": [
+    {
+      "id": "REFL-1794983511096",
+      "trade_id": "S20:950854:Yes:BUY",
+      "strategy_id": "S20",
+      "market_title": "Will the S&P 500 have the best performance in 2026?",
+      "predicted_prob": 0.96,
+      "outcome": 0,
+      "pnl": -0.07,
+      "brier_error": 0.9216,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1794983511.0963545
+    },
     {
       "id": "REFL-1794980255406",
       "trade_id": "S20:670058:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793756345.9655433
-    },
-    {
-      "id": "REFL-1793756298858",
-      "trade_id": "S10:944153:No:BUY",
-      "strategy_id": "S10",
-      "market_title": "Will the Democratic Party win the TX-09 House seat?",
-      "predicted_prob": 0.75,
-      "outcome": 0,
-      "pnl": -3.25,
-      "brier_error": 0.5625,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793756298.858106
     }
   ],
   "strategy_weights": {
@@ -2616,11 +2616,11 @@
   },
   "strategy_brier_scores": {
     "S20": {
-      "brier_score": 0.7015,
+      "brier_score": 0.702,
       "win_rate": 24.0,
-      "trades_count": 437,
+      "trades_count": 438,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5201,
+      "reliability": 0.5209,
       "resolution": 0.0,
       "status": "REDUCED"
     },
