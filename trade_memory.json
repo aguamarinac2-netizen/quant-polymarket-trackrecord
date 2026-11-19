@@ -1,6 +1,19 @@
 {
-  "updated_at": 1795127885.1520698,
+  "updated_at": 1795128714.696661,
   "reflections": [
+    {
+      "id": "REFL-1795128714679",
+      "trade_id": "S20:666664:No:BUY",
+      "strategy_id": "S20",
+      "market_title": "Will Lee Zeldin leave the Trump administration before 2027?",
+      "predicted_prob": 0.96,
+      "outcome": 0,
+      "pnl": -0.06,
+      "brier_error": 0.9216,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1795128714.679614
+    },
     {
       "id": "REFL-1795097428144",
       "trade_id": "S20:716823:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793760331.8941417
-    },
-    {
-      "id": "REFL-1793760001471",
-      "trade_id": "S12:942776:Yes:BUY",
-      "strategy_id": "S12",
-      "market_title": "Will the Democratic Party win the MI-10 House seat?",
-      "predicted_prob": 0.9,
-      "outcome": 0,
-      "pnl": -0.8,
-      "brier_error": 0.81,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793760001.4716253
     }
   ],
   "strategy_weights": {
@@ -2616,11 +2616,11 @@
   },
   "strategy_brier_scores": {
     "S20": {
-      "brier_score": 0.6976,
+      "brier_score": 0.6981,
       "win_rate": 24.4,
-      "trades_count": 454,
+      "trades_count": 455,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5139,
+      "reliability": 0.5147,
       "resolution": 0.0,
       "status": "REDUCED"
     },
