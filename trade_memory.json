@@ -1,6 +1,19 @@
 {
-  "updated_at": 1795056566.2214174,
+  "updated_at": 1795056746.3059301,
   "reflections": [
+    {
+      "id": "REFL-1795056603238",
+      "trade_id": "S20:701795:No:BUY",
+      "strategy_id": "S20",
+      "market_title": "Will Ethena reach $0.60 by December 31, 2026?",
+      "predicted_prob": 0.96,
+      "outcome": 0,
+      "pnl": -0.05,
+      "brier_error": 0.9216,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1795056603.238555
+    },
     {
       "id": "REFL-1795047210377",
       "trade_id": "S20:701796:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793758997.3833647
-    },
-    {
-      "id": "REFL-1793758997361",
-      "trade_id": "S10:630706:No:BUY",
-      "strategy_id": "S10",
-      "market_title": "Will the Republicans win the Idaho Senate race in 2026?",
-      "predicted_prob": 0.75,
-      "outcome": 0,
-      "pnl": -2.74,
-      "brier_error": 0.5625,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793758997.3618448
     }
   ],
   "strategy_weights": {
@@ -2616,11 +2616,11 @@
   },
   "strategy_brier_scores": {
     "S20": {
-      "brier_score": 0.6971,
-      "win_rate": 24.5,
-      "trades_count": 449,
+      "brier_score": 0.6976,
+      "win_rate": 24.4,
+      "trades_count": 450,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5132,
+      "reliability": 0.514,
       "resolution": 0.0,
       "status": "REDUCED"
     },
