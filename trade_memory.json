@@ -1,6 +1,19 @@
 {
-  "updated_at": 1795060303.008138,
+  "updated_at": 1795061026.0779483,
   "reflections": [
+    {
+      "id": "REFL-1795060868255",
+      "trade_id": "S20:690660:No:BUY",
+      "strategy_id": "S20",
+      "market_title": "Will prjx launch a token by December 31, 2026?",
+      "predicted_prob": 0.96,
+      "outcome": 0,
+      "pnl": -0.08,
+      "brier_error": 0.9216,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1795060868.255861
+    },
     {
       "id": "REFL-1795056603238",
       "trade_id": "S20:701795:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793758997.5170734
-    },
-    {
-      "id": "REFL-1793758997383",
-      "trade_id": "S10:630832:No:BUY",
-      "strategy_id": "S10",
-      "market_title": "Will the Republicans win the Montana Senate race in 2026?",
-      "predicted_prob": 0.75,
-      "outcome": 0,
-      "pnl": -3.48,
-      "brier_error": 0.5625,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793758997.3833647
     }
   ],
   "strategy_weights": {
@@ -2616,11 +2616,11 @@
   },
   "strategy_brier_scores": {
     "S20": {
-      "brier_score": 0.6976,
+      "brier_score": 0.6981,
       "win_rate": 24.4,
-      "trades_count": 450,
+      "trades_count": 451,
       "kelly_multiplier": 0.4,
-      "reliability": 0.514,
+      "reliability": 0.5148,
       "resolution": 0.0,
       "status": "REDUCED"
     },
