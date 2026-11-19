@@ -1,6 +1,19 @@
 {
-  "updated_at": 1795097242.296366,
+  "updated_at": 1795098088.7561388,
   "reflections": [
+    {
+      "id": "REFL-1795097428144",
+      "trade_id": "S20:716823:No:BUY",
+      "strategy_id": "S20",
+      "market_title": "Extended FDV above $500M one day after launch?",
+      "predicted_prob": 0.96,
+      "outcome": 0,
+      "pnl": -0.11,
+      "brier_error": 0.9216,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1795097428.1448874
+    },
     {
       "id": "REFL-1795077641714",
       "trade_id": "S20:1168140:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793760001.4716253
-    },
-    {
-      "id": "REFL-1793759330839",
-      "trade_id": "S10:629531:No:BUY",
-      "strategy_id": "S10",
-      "market_title": "Will the Democrats win the New Mexico governor race in 2026?",
-      "predicted_prob": 0.75,
-      "outcome": 0,
-      "pnl": -3.37,
-      "brier_error": 0.5625,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793759330.8396542
     }
   ],
   "strategy_weights": {
@@ -2616,11 +2616,11 @@
   },
   "strategy_brier_scores": {
     "S20": {
-      "brier_score": 0.6971,
-      "win_rate": 24.5,
-      "trades_count": 453,
+      "brier_score": 0.6976,
+      "win_rate": 24.4,
+      "trades_count": 454,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5132,
+      "reliability": 0.5139,
       "resolution": 0.0,
       "status": "REDUCED"
     },
