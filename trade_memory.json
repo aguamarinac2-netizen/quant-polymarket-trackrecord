@@ -1,6 +1,45 @@
 {
-  "updated_at": 1795046805.288132,
+  "updated_at": 1795047529.6732516,
   "reflections": [
+    {
+      "id": "REFL-1795047210377",
+      "trade_id": "S20:701796:No:BUY",
+      "strategy_id": "S20",
+      "market_title": "Will Ethena reach $0.52 by December 31, 2026?",
+      "predicted_prob": 0.96,
+      "outcome": 0,
+      "pnl": -0.04,
+      "brier_error": 0.9216,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1795047210.3776793
+    },
+    {
+      "id": "REFL-1795047205203",
+      "trade_id": "S20:665265:No:BUY",
+      "strategy_id": "S20",
+      "market_title": "Will Donald Trump visit Germany in 2026?",
+      "predicted_prob": 0.96,
+      "outcome": 0,
+      "pnl": -0.08,
+      "brier_error": 0.9216,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1795047205.20359
+    },
+    {
+      "id": "REFL-1795047205181",
+      "trade_id": "S20:1162155:No:BUY",
+      "strategy_id": "S20",
+      "market_title": "Will X launch a USD stablecoin in 2026?",
+      "predicted_prob": 0.96,
+      "outcome": 0,
+      "pnl": -0.05,
+      "brier_error": 0.9216,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1795047205.1818302
+    },
     {
       "id": "REFL-1795039591130",
       "trade_id": "S20:676517:No:BUY",
@@ -2561,45 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793758997.3618448
-    },
-    {
-      "id": "REFL-1793758669272",
-      "trade_id": "S12:942722:Yes:BUY",
-      "strategy_id": "S12",
-      "market_title": "Will the Democratic Party win the MI-07 House seat?",
-      "predicted_prob": 0.9,
-      "outcome": 0,
-      "pnl": -0.68,
-      "brier_error": 0.81,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793758669.2724664
-    },
-    {
-      "id": "REFL-1793758669133",
-      "trade_id": "S10:630654:No:BUY",
-      "strategy_id": "S10",
-      "market_title": "Will the Republicans win the Arkansas Senate race in 2026?",
-      "predicted_prob": 0.75,
-      "outcome": 0,
-      "pnl": -5.08,
-      "brier_error": 0.5625,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793758669.1335423
-    },
-    {
-      "id": "REFL-1793758669107",
-      "trade_id": "S12:629720:Yes:BUY",
-      "strategy_id": "S12",
-      "market_title": "Will the Democrats win the Wisconsin governor race in 2026?",
-      "predicted_prob": 0.9,
-      "outcome": 0,
-      "pnl": -0.82,
-      "brier_error": 0.81,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793758669.1075177
     }
   ],
   "strategy_weights": {
@@ -2616,11 +2616,11 @@
   },
   "strategy_brier_scores": {
     "S20": {
-      "brier_score": 0.6988,
-      "win_rate": 24.3,
-      "trades_count": 444,
+      "brier_score": 0.6971,
+      "win_rate": 24.5,
+      "trades_count": 449,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5158,
+      "reliability": 0.5132,
       "resolution": 0.0,
       "status": "REDUCED"
     },
