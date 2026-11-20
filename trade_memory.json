@@ -1,6 +1,19 @@
 {
-  "updated_at": 1795207045.6681814,
+  "updated_at": 1795207347.0115085,
   "reflections": [
+    {
+      "id": "REFL-1795207168918",
+      "trade_id": "S20:677027:No:BUY",
+      "strategy_id": "S20",
+      "market_title": "Will the 10-year Treasury yield hit 5.7% before 2027?",
+      "predicted_prob": 0.96,
+      "outcome": 0,
+      "pnl": -0.04,
+      "brier_error": 0.9216,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1795207168.9185514
+    },
     {
       "id": "REFL-1795188272297",
       "trade_id": "S20:701922:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793764301.3146732
-    },
-    {
-      "id": "REFL-1793764301290",
-      "trade_id": "S12:944334:Yes:BUY",
-      "strategy_id": "S12",
-      "market_title": "Will the Democratic Party win the WI-01 House seat?",
-      "predicted_prob": 0.9,
-      "outcome": 0,
-      "pnl": -0.7,
-      "brier_error": 0.81,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793764301.2902644
     }
   ],
   "strategy_weights": {
@@ -2616,11 +2616,11 @@
   },
   "strategy_brier_scores": {
     "S20": {
-      "brier_score": 0.6975,
-      "win_rate": 24.5,
-      "trades_count": 462,
+      "brier_score": 0.698,
+      "win_rate": 24.4,
+      "trades_count": 463,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5138,
+      "reliability": 0.5145,
       "resolution": 0.0,
       "status": "REDUCED"
     },
