@@ -1,6 +1,19 @@
 {
-  "updated_at": 1795217825.2373424,
+  "updated_at": 1795218186.5768209,
   "reflections": [
+    {
+      "id": "REFL-1795218106571",
+      "trade_id": "S20:666661:No:BUY",
+      "strategy_id": "S20",
+      "market_title": "Will Scott Bessent leave the Trump administration before 2027?",
+      "predicted_prob": 0.96,
+      "outcome": 0,
+      "pnl": -0.24,
+      "brier_error": 0.9216,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1795218106.5718532
+    },
     {
       "id": "REFL-1795207168918",
       "trade_id": "S20:677027:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793764629.3111696
-    },
-    {
-      "id": "REFL-1793764301314",
-      "trade_id": "S20:629412:Yes:BUY",
-      "strategy_id": "S20",
-      "market_title": "Will the Democrats win the Kansas governor race in 2026?",
-      "predicted_prob": 0.97,
-      "outcome": 0,
-      "pnl": -0.63,
-      "brier_error": 0.9409,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793764301.3146732
     }
   ],
   "strategy_weights": {
@@ -2616,11 +2616,11 @@
   },
   "strategy_brier_scores": {
     "S20": {
-      "brier_score": 0.695,
+      "brier_score": 0.6955,
       "win_rate": 24.7,
-      "trades_count": 465,
+      "trades_count": 466,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5099,
+      "reliability": 0.5106,
       "resolution": 0.0,
       "status": "REDUCED"
     },
