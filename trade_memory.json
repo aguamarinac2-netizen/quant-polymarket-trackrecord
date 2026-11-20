@@ -1,6 +1,19 @@
 {
-  "updated_at": 1795156763.716434,
+  "updated_at": 1795157550.27997,
   "reflections": [
+    {
+      "id": "REFL-1795157309687",
+      "trade_id": "S20:701858:No:BUY",
+      "strategy_id": "S20",
+      "market_title": "Will Pump.fun reach $0.0090 by December 31, 2026?",
+      "predicted_prob": 0.96,
+      "outcome": 0,
+      "pnl": -0.08,
+      "brier_error": 0.9216,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1795157309.68755
+    },
     {
       "id": "REFL-1795153060237",
       "trade_id": "S20:1068684:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793763308.887375
-    },
-    {
-      "id": "REFL-1793762469451",
-      "trade_id": "MR:gamma:678416:Yes:1d:BUY",
-      "strategy_id": "MR",
-      "market_title": "Will Avengers: Doomsday be the top grossing movie of 2026?",
-      "predicted_prob": 0.78,
-      "outcome": 0,
-      "pnl": -0.32,
-      "brier_error": 0.6084,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793762469.4514878
     }
   ],
   "strategy_weights": {
@@ -2616,11 +2616,11 @@
   },
   "strategy_brier_scores": {
     "S20": {
-      "brier_score": 0.698,
-      "win_rate": 24.4,
-      "trades_count": 459,
+      "brier_score": 0.6985,
+      "win_rate": 24.3,
+      "trades_count": 460,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5146,
+      "reliability": 0.5154,
       "resolution": 0.0,
       "status": "REDUCED"
     },
