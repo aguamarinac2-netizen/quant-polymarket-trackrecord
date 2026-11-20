@@ -1,6 +1,19 @@
 {
-  "updated_at": 1795188121.3616185,
+  "updated_at": 1795188361.4746644,
   "reflections": [
+    {
+      "id": "REFL-1795188272297",
+      "trade_id": "S20:701922:No:BUY",
+      "strategy_id": "S20",
+      "market_title": "Will UNI reach $15.50 by December 31, 2026?",
+      "predicted_prob": 0.96,
+      "outcome": 0,
+      "pnl": -0.08,
+      "brier_error": 0.9216,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1795188272.2975552
+    },
     {
       "id": "REFL-1795157309687",
       "trade_id": "S20:701858:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793764301.2902644
-    },
-    {
-      "id": "REFL-1793763308887",
-      "trade_id": "S12:942843:Yes:BUY",
-      "strategy_id": "S12",
-      "market_title": "Will the Democratic Party win the MT-01 House seat?",
-      "predicted_prob": 0.9,
-      "outcome": 0,
-      "pnl": -0.74,
-      "brier_error": 0.81,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793763308.887375
     }
   ],
   "strategy_weights": {
@@ -2616,11 +2616,11 @@
   },
   "strategy_brier_scores": {
     "S20": {
-      "brier_score": 0.697,
+      "brier_score": 0.6975,
       "win_rate": 24.5,
-      "trades_count": 461,
+      "trades_count": 462,
       "kelly_multiplier": 0.4,
-      "reliability": 0.513,
+      "reliability": 0.5138,
       "resolution": 0.0,
       "status": "REDUCED"
     },
