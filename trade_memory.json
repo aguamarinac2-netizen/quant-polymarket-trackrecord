@@ -1,6 +1,19 @@
 {
-  "updated_at": 1795139583.8677258,
+  "updated_at": 1795140486.4709105,
   "reflections": [
+    {
+      "id": "REFL-1795140369316",
+      "trade_id": "S20:701829:No:BUY",
+      "strategy_id": "S20",
+      "market_title": "Will Chainlink reach $20 by December 31, 2026?",
+      "predicted_prob": 0.96,
+      "outcome": 0,
+      "pnl": -0.06,
+      "brier_error": 0.9216,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1795140369.3161898
+    },
     {
       "id": "REFL-1795128807914",
       "trade_id": "S20:1090451:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793761653.9716475
-    },
-    {
-      "id": "REFL-1793760996073",
-      "trade_id": "S12:631018:Yes:BUY",
-      "strategy_id": "S12",
-      "market_title": "Will the Republicans win the Mississippi Senate race in 2026?",
-      "predicted_prob": 0.9,
-      "outcome": 0,
-      "pnl": -1.48,
-      "brier_error": 0.81,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793760996.0733309
     }
   ],
   "strategy_weights": {
@@ -2616,11 +2616,11 @@
   },
   "strategy_brier_scores": {
     "S20": {
-      "brier_score": 0.6986,
+      "brier_score": 0.6991,
       "win_rate": 24.3,
-      "trades_count": 456,
+      "trades_count": 457,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5155,
+      "reliability": 0.5162,
       "resolution": 0.0,
       "status": "REDUCED"
     },
