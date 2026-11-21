@@ -1,6 +1,58 @@
 {
-  "updated_at": 1795220005.1334894,
+  "updated_at": 1795220546.8250847,
   "reflections": [
+    {
+      "id": "REFL-1795220020186",
+      "trade_id": "S20:676777:No:BUY",
+      "strategy_id": "S20",
+      "market_title": "Discord IPO before 2027?",
+      "predicted_prob": 0.96,
+      "outcome": 0,
+      "pnl": -0.03,
+      "brier_error": 0.9216,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1795220020.1863675
+    },
+    {
+      "id": "REFL-1795220015127",
+      "trade_id": "S20:700396:No:BUY",
+      "strategy_id": "S20",
+      "market_title": "Will Perplexity AI be acquired before 2027?",
+      "predicted_prob": 0.96,
+      "outcome": 0,
+      "pnl": -0.17,
+      "brier_error": 0.9216,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1795220015.127792
+    },
+    {
+      "id": "REFL-1795220009941",
+      "trade_id": "S20:665326:No:BUY",
+      "strategy_id": "S20",
+      "market_title": "Will the US recognize Palestine before 2027?",
+      "predicted_prob": 0.96,
+      "outcome": 0,
+      "pnl": -0.06,
+      "brier_error": 0.9216,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1795220009.9412808
+    },
+    {
+      "id": "REFL-1795220009914",
+      "trade_id": "S20:1131482:No:BUY",
+      "strategy_id": "S20",
+      "market_title": "Will a country leave BRICS in 2026?",
+      "predicted_prob": 0.96,
+      "outcome": 0,
+      "pnl": -0.11,
+      "brier_error": 0.9216,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1795220009.914575
+    },
     {
       "id": "REFL-1795220004976",
       "trade_id": "S20:943525:No:BUY",
@@ -2548,58 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793766590.9454732
-    },
-    {
-      "id": "REFL-1793766263435",
-      "trade_id": "S12:631018:Yes:BUY",
-      "strategy_id": "S12",
-      "market_title": "Will the Republicans win the Mississippi Senate race in 2026?",
-      "predicted_prob": 0.9,
-      "outcome": 0,
-      "pnl": -1.69,
-      "brier_error": 0.81,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793766263.4353218
-    },
-    {
-      "id": "REFL-1793765942978",
-      "trade_id": "S10:634892:No:BUY",
-      "strategy_id": "S10",
-      "market_title": "Will the Republicans win the Nebraska Senate race in 2026?",
-      "predicted_prob": 0.75,
-      "outcome": 0,
-      "pnl": -3.62,
-      "brier_error": 0.5625,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793765942.9781907
-    },
-    {
-      "id": "REFL-1793765618325",
-      "trade_id": "S10:634879:No:BUY",
-      "strategy_id": "S10",
-      "market_title": "Will the Republicans win the Louisiana Senate race in 2026?",
-      "predicted_prob": 0.75,
-      "outcome": 0,
-      "pnl": -3.95,
-      "brier_error": 0.5625,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793765618.325674
-    },
-    {
-      "id": "REFL-1793764962023",
-      "trade_id": "S10:629491:No:BUY",
-      "strategy_id": "S10",
-      "market_title": "Will the Republicans win the Nebraska governor race in 2026?",
-      "predicted_prob": 0.75,
-      "outcome": 0,
-      "pnl": -1.06,
-      "brier_error": 0.5625,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793764962.0232275
     }
   ],
   "strategy_weights": {
@@ -2616,11 +2616,11 @@
   },
   "strategy_brier_scores": {
     "S20": {
-      "brier_score": 0.6959,
-      "win_rate": 24.6,
-      "trades_count": 467,
+      "brier_score": 0.6979,
+      "win_rate": 24.4,
+      "trades_count": 471,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5114,
+      "reliability": 0.5143,
       "resolution": 0.0,
       "status": "REDUCED"
     },
