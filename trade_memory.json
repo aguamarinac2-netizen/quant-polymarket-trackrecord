@@ -1,6 +1,19 @@
 {
-  "updated_at": 1795270019.9709334,
+  "updated_at": 1795270564.5305922,
   "reflections": [
+    {
+      "id": "REFL-1795270233352",
+      "trade_id": "S20:668331:No:BUY",
+      "strategy_id": "S20",
+      "market_title": "Will João Bernardo Vieira win the 2025 Guinea-Bissau presidential election?",
+      "predicted_prob": 0.98,
+      "outcome": 0,
+      "pnl": -0.05,
+      "brier_error": 0.9604,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1795270233.3524997
+    },
     {
       "id": "REFL-1795263406758",
       "trade_id": "S20:651327:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793767235.531109
-    },
-    {
-      "id": "REFL-1793767235509",
-      "trade_id": "S12:629040:Yes:BUY",
-      "strategy_id": "S12",
-      "market_title": "Will Nithya Raman win the 2026 Los Angeles mayoral election?",
-      "predicted_prob": 0.9,
-      "outcome": 0,
-      "pnl": -0.73,
-      "brier_error": 0.81,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793767235.5093968
     }
   ],
   "strategy_weights": {
@@ -2616,11 +2616,11 @@
   },
   "strategy_brier_scores": {
     "S20": {
-      "brier_score": 0.6993,
-      "win_rate": 24.3,
-      "trades_count": 474,
+      "brier_score": 0.6998,
+      "win_rate": 24.2,
+      "trades_count": 475,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5165,
+      "reliability": 0.5173,
       "resolution": 0.0,
       "status": "REDUCED"
     },
