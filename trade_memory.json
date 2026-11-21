@@ -1,6 +1,19 @@
 {
-  "updated_at": 1795301268.546772,
+  "updated_at": 1795301569.6440713,
   "reflections": [
+    {
+      "id": "REFL-1795301521203",
+      "trade_id": "S20:668328:No:BUY",
+      "strategy_id": "S20",
+      "market_title": "Will Umaro Sissoco Embaló win the 2025 Guinea-Bissau presidential election?",
+      "predicted_prob": 0.98,
+      "outcome": 0,
+      "pnl": -0.06,
+      "brier_error": 0.9604,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1795301521.2038653
+    },
     {
       "id": "REFL-1795270233352",
       "trade_id": "S20:668331:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793767235.5531242
-    },
-    {
-      "id": "REFL-1793767235531",
-      "trade_id": "S20:629030:No:BUY",
-      "strategy_id": "S20",
-      "market_title": "Will Karen Bass win the 2026 Los Angeles mayoral election?",
-      "predicted_prob": 0.98,
-      "outcome": 0,
-      "pnl": -0.86,
-      "brier_error": 0.9604,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793767235.531109
     }
   ],
   "strategy_weights": {
@@ -2616,11 +2616,11 @@
   },
   "strategy_brier_scores": {
     "S20": {
-      "brier_score": 0.6998,
+      "brier_score": 0.7004,
       "win_rate": 24.2,
-      "trades_count": 475,
+      "trades_count": 476,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5173,
+      "reliability": 0.5181,
       "resolution": 0.0,
       "status": "REDUCED"
     },
