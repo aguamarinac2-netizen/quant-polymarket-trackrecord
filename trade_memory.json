@@ -1,6 +1,19 @@
 {
-  "updated_at": 1795250183.6672635,
+  "updated_at": 1795250666.9390972,
   "reflections": [
+    {
+      "id": "REFL-1795250448987",
+      "trade_id": "S20:680601:No:BUY",
+      "strategy_id": "S20",
+      "market_title": "Negative GDP growth in 2026?",
+      "predicted_prob": 0.96,
+      "outcome": 0,
+      "pnl": -0.05,
+      "brier_error": 0.9216,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1795250448.9877803
+    },
     {
       "id": "REFL-1795233673686",
       "trade_id": "S20:677407:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793767235.3704896
-    },
-    {
-      "id": "REFL-1793766914077",
-      "trade_id": "MR:gamma:679018:Yes:1w:BUY",
-      "strategy_id": "MR",
-      "market_title": "Will Marine Le Pen win the 2027 French presidential election?",
-      "predicted_prob": 0.78,
-      "outcome": 0,
-      "pnl": -0.9,
-      "brier_error": 0.6084,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793766914.077939
     }
   ],
   "strategy_weights": {
@@ -2616,11 +2616,11 @@
   },
   "strategy_brier_scores": {
     "S20": {
-      "brier_score": 0.6983,
-      "win_rate": 24.4,
-      "trades_count": 472,
+      "brier_score": 0.6988,
+      "win_rate": 24.3,
+      "trades_count": 473,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5151,
+      "reliability": 0.5158,
       "resolution": 0.0,
       "status": "REDUCED"
     },
