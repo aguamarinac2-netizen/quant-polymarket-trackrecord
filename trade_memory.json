@@ -1,6 +1,19 @@
 {
-  "updated_at": 1795301569.6440713,
+  "updated_at": 1795302174.2288265,
   "reflections": [
+    {
+      "id": "REFL-1795301614463",
+      "trade_id": "S20:666823:No:BUY",
+      "strategy_id": "S20",
+      "market_title": "U.S. agrees to a new trade deal with \"Argentina\" before 2027?",
+      "predicted_prob": 0.96,
+      "outcome": 0,
+      "pnl": -0.07,
+      "brier_error": 0.9216,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1795301614.4632342
+    },
     {
       "id": "REFL-1795301521203",
       "trade_id": "S20:668328:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793767875.7258155
-    },
-    {
-      "id": "REFL-1793767235553",
-      "trade_id": "S20:629040:Yes:BUY",
-      "strategy_id": "S20",
-      "market_title": "Will Nithya Raman win the 2026 Los Angeles mayoral election?",
-      "predicted_prob": 0.98,
-      "outcome": 0,
-      "pnl": -0.73,
-      "brier_error": 0.9604,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793767235.5531242
     }
   ],
   "strategy_weights": {
@@ -2616,11 +2616,11 @@
   },
   "strategy_brier_scores": {
     "S20": {
-      "brier_score": 0.7004,
-      "win_rate": 24.2,
-      "trades_count": 476,
+      "brier_score": 0.7008,
+      "win_rate": 24.1,
+      "trades_count": 477,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5181,
+      "reliability": 0.5189,
       "resolution": 0.0,
       "status": "REDUCED"
     },
