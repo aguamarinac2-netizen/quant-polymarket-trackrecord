@@ -1,6 +1,19 @@
 {
-  "updated_at": 1795219638.7776349,
+  "updated_at": 1795220005.1334894,
   "reflections": [
+    {
+      "id": "REFL-1795220004976",
+      "trade_id": "S20:943525:No:BUY",
+      "strategy_id": "S20",
+      "market_title": "Will Daylight launch a token by December 31, 2026?",
+      "predicted_prob": 0.96,
+      "outcome": 0,
+      "pnl": -0.07,
+      "brier_error": 0.9216,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1795220004.976897
+    },
     {
       "id": "REFL-1795218106571",
       "trade_id": "S20:666661:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793764962.0232275
-    },
-    {
-      "id": "REFL-1793764629311",
-      "trade_id": "S10:631018:No:BUY",
-      "strategy_id": "S10",
-      "market_title": "Will the Republicans win the Mississippi Senate race in 2026?",
-      "predicted_prob": 0.75,
-      "outcome": 0,
-      "pnl": -2.04,
-      "brier_error": 0.5625,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793764629.3111696
     }
   ],
   "strategy_weights": {
@@ -2616,11 +2616,11 @@
   },
   "strategy_brier_scores": {
     "S20": {
-      "brier_score": 0.6955,
-      "win_rate": 24.7,
-      "trades_count": 466,
+      "brier_score": 0.6959,
+      "win_rate": 24.6,
+      "trades_count": 467,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5106,
+      "reliability": 0.5114,
       "resolution": 0.0,
       "status": "REDUCED"
     },
