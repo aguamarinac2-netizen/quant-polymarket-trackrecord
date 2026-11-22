@@ -1,6 +1,19 @@
 {
-  "updated_at": 1795379864.2117217,
+  "updated_at": 1795380713.707363,
   "reflections": [
+    {
+      "id": "REFL-1795379974865",
+      "trade_id": "S20:668337:No:BUY",
+      "strategy_id": "S20",
+      "market_title": "Will José Mário Vaz win the 2025 Guinea-Bissau presidential election?",
+      "predicted_prob": 0.98,
+      "outcome": 0,
+      "pnl": -0.04,
+      "brier_error": 0.9604,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1795379974.8659756
+    },
     {
       "id": "REFL-1795361076341",
       "trade_id": "S20:679034:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793771558.0925827
-    },
-    {
-      "id": "REFL-1793771379199",
-      "trade_id": "S12:944229:Yes:BUY",
-      "strategy_id": "S12",
-      "market_title": "Will the Republican Party win the TX-32 House seat?",
-      "predicted_prob": 0.9,
-      "outcome": 0,
-      "pnl": -0.08,
-      "brier_error": 0.81,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793771379.1996703
     }
   ],
   "strategy_weights": {
@@ -2616,11 +2616,11 @@
   },
   "strategy_brier_scores": {
     "S20": {
-      "brier_score": 0.6984,
-      "win_rate": 24.4,
-      "trades_count": 484,
+      "brier_score": 0.699,
+      "win_rate": 24.3,
+      "trades_count": 485,
       "kelly_multiplier": 0.4,
-      "reliability": 0.515,
+      "reliability": 0.5158,
       "resolution": 0.0,
       "status": "REDUCED"
     },
