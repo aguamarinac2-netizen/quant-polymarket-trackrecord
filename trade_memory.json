@@ -1,6 +1,19 @@
 {
-  "updated_at": 1795328559.5542397,
+  "updated_at": 1795329226.1860564,
   "reflections": [
+    {
+      "id": "REFL-1795329127115",
+      "trade_id": "S20:1089948:Yes:BUY",
+      "strategy_id": "S20",
+      "market_title": "Will Alexander Volkanovski be the UFC Featherweight Champion on December 31, 202",
+      "predicted_prob": 0.96,
+      "outcome": 0,
+      "pnl": -0.07,
+      "brier_error": 0.9216,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1795329127.1152213
+    },
     {
       "id": "REFL-1795325867830",
       "trade_id": "S20:668683:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793770109.890166
-    },
-    {
-      "id": "REFL-1793769160030",
-      "trade_id": "S20:631018:Yes:BUY",
-      "strategy_id": "S20",
-      "market_title": "Will the Republicans win the Mississippi Senate race in 2026?",
-      "predicted_prob": 0.97,
-      "outcome": 0,
-      "pnl": -0.57,
-      "brier_error": 0.9409,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793769160.0301874
     }
   ],
   "strategy_weights": {
@@ -2616,11 +2616,11 @@
   },
   "strategy_brier_scores": {
     "S20": {
-      "brier_score": 0.6985,
-      "win_rate": 24.4,
-      "trades_count": 480,
+      "brier_score": 0.6989,
+      "win_rate": 24.3,
+      "trades_count": 481,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5151,
+      "reliability": 0.5158,
       "resolution": 0.0,
       "status": "REDUCED"
     },
