@@ -1,6 +1,19 @@
 {
-  "updated_at": 1795325833.9848971,
+  "updated_at": 1795326559.990984,
   "reflections": [
+    {
+      "id": "REFL-1795325867830",
+      "trade_id": "S20:668683:No:BUY",
+      "strategy_id": "S20",
+      "market_title": "Will PT win the most seats in the 2025 Guinea-Bissau National People’s Assembly ",
+      "predicted_prob": 0.98,
+      "outcome": 0,
+      "pnl": -0.08,
+      "brier_error": 0.9604,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1795325867.8304458
+    },
     {
       "id": "REFL-1795301614463",
       "trade_id": "S20:666823:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793769160.0301874
-    },
-    {
-      "id": "REFL-1793767875725",
-      "trade_id": "S20:629413:No:BUY",
-      "strategy_id": "S20",
-      "market_title": "Will the Republicans win the Kansas governor race in 2026?",
-      "predicted_prob": 0.97,
-      "outcome": 0,
-      "pnl": -0.67,
-      "brier_error": 0.9409,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793767875.7258155
     }
   ],
   "strategy_weights": {
@@ -2616,11 +2616,11 @@
   },
   "strategy_brier_scores": {
     "S20": {
-      "brier_score": 0.6979,
+      "brier_score": 0.6985,
       "win_rate": 24.4,
-      "trades_count": 479,
+      "trades_count": 480,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5143,
+      "reliability": 0.5151,
       "resolution": 0.0,
       "status": "REDUCED"
     },
