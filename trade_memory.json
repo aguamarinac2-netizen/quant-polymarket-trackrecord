@@ -1,6 +1,32 @@
 {
-  "updated_at": 1795392437.4101584,
+  "updated_at": 1795393341.9836323,
   "reflections": [
+    {
+      "id": "REFL-1795392829028",
+      "trade_id": "S20:1198966:No:BUY",
+      "strategy_id": "S20",
+      "market_title": "Von der Leyen out as European Commission President in 2026?",
+      "predicted_prob": 0.96,
+      "outcome": 0,
+      "pnl": -0.04,
+      "brier_error": 0.9216,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1795392829.028492
+    },
+    {
+      "id": "REFL-1795392819390",
+      "trade_id": "S20:1185461:No:BUY",
+      "strategy_id": "S20",
+      "market_title": "Kristi Noem impeached in 2026?",
+      "predicted_prob": 0.96,
+      "outcome": 0,
+      "pnl": -0.05,
+      "brier_error": 0.9216,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1795392819.3906488
+    },
     {
       "id": "REFL-1795379974865",
       "trade_id": "S20:668337:No:BUY",
@@ -2574,32 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793772507.4449542
-    },
-    {
-      "id": "REFL-1793772326816",
-      "trade_id": "S12:943571:Yes:BUY",
-      "strategy_id": "S12",
-      "market_title": "Will the Democratic Party win the OH-09 House seat?",
-      "predicted_prob": 0.9,
-      "outcome": 0,
-      "pnl": -0.73,
-      "brier_error": 0.81,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793772326.8162496
-    },
-    {
-      "id": "REFL-1793771558092",
-      "trade_id": "S12:942722:Yes:BUY",
-      "strategy_id": "S12",
-      "market_title": "Will the Democratic Party win the MI-07 House seat?",
-      "predicted_prob": 0.9,
-      "outcome": 0,
-      "pnl": -0.69,
-      "brier_error": 0.81,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793771558.0925827
     }
   ],
   "strategy_weights": {
@@ -2616,11 +2616,11 @@
   },
   "strategy_brier_scores": {
     "S20": {
-      "brier_score": 0.6947,
-      "win_rate": 24.8,
-      "trades_count": 488,
+      "brier_score": 0.6956,
+      "win_rate": 24.7,
+      "trades_count": 490,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5091,
+      "reliability": 0.5105,
       "resolution": 0.0,
       "status": "REDUCED"
     },
