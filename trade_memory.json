@@ -1,6 +1,19 @@
 {
-  "updated_at": 1795435833.2302897,
+  "updated_at": 1795436556.0915587,
   "reflections": [
+    {
+      "id": "REFL-1795436214007",
+      "trade_id": "S20:1076686:No:BUY",
+      "strategy_id": "S20",
+      "market_title": "Will Somaliland join the Abraham Accords before 2027?",
+      "predicted_prob": 0.96,
+      "outcome": 0,
+      "pnl": -0.07,
+      "brier_error": 0.9216,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1795436214.0072362
+    },
     {
       "id": "REFL-1795406478472",
       "trade_id": "S20:1090098:Yes:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793772862.473005
-    },
-    {
-      "id": "REFL-1793772862438",
-      "trade_id": "MR:gamma:561230:Yes:1d:BUY",
-      "strategy_id": "MR",
-      "market_title": "Will Gavin Newsom win the 2028 US Presidential Election?",
-      "predicted_prob": 0.76,
-      "outcome": 0,
-      "pnl": -2.88,
-      "brier_error": 0.5776,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793772862.4384618
     }
   ],
   "strategy_weights": {
@@ -2616,11 +2616,11 @@
   },
   "strategy_brier_scores": {
     "S20": {
-      "brier_score": 0.6946,
-      "win_rate": 24.8,
-      "trades_count": 492,
+      "brier_score": 0.6951,
+      "win_rate": 24.7,
+      "trades_count": 493,
       "kelly_multiplier": 0.4,
-      "reliability": 0.509,
+      "reliability": 0.5098,
       "resolution": 0.0,
       "status": "REDUCED"
     },
