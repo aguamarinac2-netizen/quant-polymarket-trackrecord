@@ -1,6 +1,19 @@
 {
-  "updated_at": 1795473775.5821142,
+  "updated_at": 1795474328.948455,
   "reflections": [
+    {
+      "id": "REFL-1795474328927",
+      "trade_id": "S20:732180:No:BUY",
+      "strategy_id": "S20",
+      "market_title": "Felix Protocol FDV above $25M one day after launch?",
+      "predicted_prob": 0.96,
+      "outcome": 0,
+      "pnl": -0.07,
+      "brier_error": 0.9216,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1795474328.927779
+    },
     {
       "id": "REFL-1795448533829",
       "trade_id": "S20:1228209:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793774857.28388
-    },
-    {
-      "id": "REFL-1793774857146",
-      "trade_id": "S12:634976:Yes:BUY",
-      "strategy_id": "S12",
-      "market_title": "Will Mary Peltola win the Alaska Senate race in 2026?",
-      "predicted_prob": 0.9,
-      "outcome": 0,
-      "pnl": -0.05,
-      "brier_error": 0.81,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793774857.1465478
     }
   ],
   "strategy_weights": {
@@ -2616,11 +2616,11 @@
   },
   "strategy_brier_scores": {
     "S20": {
-      "brier_score": 0.6956,
-      "win_rate": 24.7,
-      "trades_count": 494,
+      "brier_score": 0.696,
+      "win_rate": 24.6,
+      "trades_count": 495,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5105,
+      "reliability": 0.5112,
       "resolution": 0.0,
       "status": "REDUCED"
     },
@@ -2652,11 +2652,11 @@
       "status": "REDUCED"
     },
     "MR": {
-      "brier_score": 0.3691,
-      "win_rate": 40.4,
-      "trades_count": 470,
+      "brier_score": 0.3684,
+      "win_rate": 40.6,
+      "trades_count": 471,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1268,
+      "reliability": 0.126,
       "resolution": 0.0,
       "status": "REDUCED"
     },
