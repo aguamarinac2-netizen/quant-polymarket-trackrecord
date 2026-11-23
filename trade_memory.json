@@ -1,6 +1,19 @@
 {
-  "updated_at": 1795405983.4194045,
+  "updated_at": 1795406826.1627116,
   "reflections": [
+    {
+      "id": "REFL-1795406478472",
+      "trade_id": "S20:1090098:Yes:BUY",
+      "strategy_id": "S20",
+      "market_title": "Will Ciryl Gane be the UFC Heavyweight Champion on December 31, 2026?",
+      "predicted_prob": 0.96,
+      "outcome": 0,
+      "pnl": -0.04,
+      "brier_error": 0.9216,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1795406478.4722123
+    },
     {
       "id": "REFL-1795392829028",
       "trade_id": "S20:1198966:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793772862.4384618
-    },
-    {
-      "id": "REFL-1793772507444",
-      "trade_id": "S12:942843:Yes:BUY",
-      "strategy_id": "S12",
-      "market_title": "Will the Democratic Party win the MT-01 House seat?",
-      "predicted_prob": 0.9,
-      "outcome": 0,
-      "pnl": -0.99,
-      "brier_error": 0.81,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793772507.4449542
     }
   ],
   "strategy_weights": {
@@ -2616,11 +2616,11 @@
   },
   "strategy_brier_scores": {
     "S20": {
-      "brier_score": 0.6956,
-      "win_rate": 24.7,
-      "trades_count": 490,
+      "brier_score": 0.6961,
+      "win_rate": 24.6,
+      "trades_count": 491,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5105,
+      "reliability": 0.5112,
       "resolution": 0.0,
       "status": "REDUCED"
     },
