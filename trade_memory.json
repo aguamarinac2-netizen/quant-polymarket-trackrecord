@@ -1,6 +1,19 @@
 {
-  "updated_at": 1795448443.483086,
+  "updated_at": 1795449169.153945,
   "reflections": [
+    {
+      "id": "REFL-1795448533829",
+      "trade_id": "S20:1228209:No:BUY",
+      "strategy_id": "S20",
+      "market_title": "Huddle FDV above $100M one day after launch?",
+      "predicted_prob": 0.96,
+      "outcome": 0,
+      "pnl": -0.58,
+      "brier_error": 0.9216,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1795448533.829386
+    },
     {
       "id": "REFL-1795436214007",
       "trade_id": "S20:1076686:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793774857.1465478
-    },
-    {
-      "id": "REFL-1793772862472",
-      "trade_id": "MR:gamma:561230:Yes:1d:BUY",
-      "strategy_id": "MR",
-      "market_title": "Will Gavin Newsom win the 2028 US Presidential Election?",
-      "predicted_prob": 0.76,
-      "outcome": 0,
-      "pnl": -2.18,
-      "brier_error": 0.5776,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793772862.473005
     }
   ],
   "strategy_weights": {
@@ -2616,11 +2616,11 @@
   },
   "strategy_brier_scores": {
     "S20": {
-      "brier_score": 0.6951,
+      "brier_score": 0.6956,
       "win_rate": 24.7,
-      "trades_count": 493,
+      "trades_count": 494,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5098,
+      "reliability": 0.5105,
       "resolution": 0.0,
       "status": "REDUCED"
     },
