@@ -1,6 +1,19 @@
 {
-  "updated_at": 1795563171.1780093,
+  "updated_at": 1795563413.2360067,
   "reflections": [
+    {
+      "id": "REFL-1795563343598",
+      "trade_id": "S20:920405:No:BUY",
+      "strategy_id": "S20",
+      "market_title": "Variational FDV above $3B one day after launch?",
+      "predicted_prob": 0.96,
+      "outcome": 0,
+      "pnl": -0.18,
+      "brier_error": 0.9216,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1795563343.5988796
+    },
     {
       "id": "REFL-1795562020091",
       "trade_id": "S20:716942:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793801330.8583934
-    },
-    {
-      "id": "REFL-1793797425823",
-      "trade_id": "S20:618455:No:BUY",
-      "strategy_id": "S20",
-      "market_title": "Opensea FDV above $1B one day after launch?",
-      "predicted_prob": 0.96,
-      "outcome": 0,
-      "pnl": -0.06,
-      "brier_error": 0.9216,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793797425.8238862
     }
   ],
   "strategy_weights": {
@@ -2616,11 +2616,11 @@
   },
   "strategy_brier_scores": {
     "S20": {
-      "brier_score": 0.6968,
-      "win_rate": 24.6,
-      "trades_count": 505,
+      "brier_score": 0.6973,
+      "win_rate": 24.5,
+      "trades_count": 506,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5125,
+      "reliability": 0.5131,
       "resolution": 0.0,
       "status": "REDUCED"
     },
