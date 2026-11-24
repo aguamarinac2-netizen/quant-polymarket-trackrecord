@@ -1,6 +1,19 @@
 {
-  "updated_at": 1795561603.8542798,
+  "updated_at": 1795562265.6477714,
   "reflections": [
+    {
+      "id": "REFL-1795562020091",
+      "trade_id": "S20:716942:No:BUY",
+      "strategy_id": "S20",
+      "market_title": "Will there be at least 10000 measles cases in the U.S. in 2026?",
+      "predicted_prob": 0.96,
+      "outcome": 0,
+      "pnl": -0.03,
+      "brier_error": 0.9216,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1795562020.091359
+    },
     {
       "id": "REFL-1795558008394",
       "trade_id": "S20:1058997:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793797425.8238862
-    },
-    {
-      "id": "REFL-1793797197178",
-      "trade_id": "S12:942301:Yes:BUY",
-      "strategy_id": "S12",
-      "market_title": "Will the Republican Party win the CO-03 House seat?",
-      "predicted_prob": 0.9,
-      "outcome": 0,
-      "pnl": -0.68,
-      "brier_error": 0.81,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793797197.178843
     }
   ],
   "strategy_weights": {
@@ -2616,11 +2616,11 @@
   },
   "strategy_brier_scores": {
     "S20": {
-      "brier_score": 0.6964,
+      "brier_score": 0.6968,
       "win_rate": 24.6,
-      "trades_count": 504,
+      "trades_count": 505,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5118,
+      "reliability": 0.5125,
       "resolution": 0.0,
       "status": "REDUCED"
     },
