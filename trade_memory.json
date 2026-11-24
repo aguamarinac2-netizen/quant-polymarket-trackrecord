@@ -1,6 +1,19 @@
 {
-  "updated_at": 1795502654.985982,
+  "updated_at": 1795503138.441606,
   "reflections": [
+    {
+      "id": "REFL-1795502922712",
+      "trade_id": "S20:1287621:No:BUY",
+      "strategy_id": "S20",
+      "market_title": "Abstract FDV above $2.5B one day after launch?",
+      "predicted_prob": 0.96,
+      "outcome": 0,
+      "pnl": -0.06,
+      "brier_error": 0.9216,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1795502922.712911
+    },
     {
       "id": "REFL-1795501932540",
       "trade_id": "S20:701606:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793794981.0344763
-    },
-    {
-      "id": "REFL-1793781786444",
-      "trade_id": "S12:942117:Yes:BUY",
-      "strategy_id": "S12",
-      "market_title": "Will the Democratic Party win the AZ-02 House seat?",
-      "predicted_prob": 0.9,
-      "outcome": 0,
-      "pnl": -1.77,
-      "brier_error": 0.81,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793781786.444197
     }
   ],
   "strategy_weights": {
@@ -2616,11 +2616,11 @@
   },
   "strategy_brier_scores": {
     "S20": {
-      "brier_score": 0.6978,
+      "brier_score": 0.6983,
       "win_rate": 24.4,
-      "trades_count": 499,
+      "trades_count": 500,
       "kelly_multiplier": 0.4,
-      "reliability": 0.514,
+      "reliability": 0.5147,
       "resolution": 0.0,
       "status": "REDUCED"
     },
