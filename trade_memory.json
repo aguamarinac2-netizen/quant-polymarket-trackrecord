@@ -1,6 +1,19 @@
 {
-  "updated_at": 1795485497.3237233,
+  "updated_at": 1795486038.085492,
   "reflections": [
+    {
+      "id": "REFL-1795485987022",
+      "trade_id": "S20:665328:No:BUY",
+      "strategy_id": "S20",
+      "market_title": "Will The Netherlands recognize Palestine before 2027?",
+      "predicted_prob": 0.96,
+      "outcome": 0,
+      "pnl": -0.01,
+      "brier_error": 0.9216,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1795485987.0228817
+    },
     {
       "id": "REFL-1795474422806",
       "trade_id": "S20:1176221:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793775174.2598748
-    },
-    {
-      "id": "REFL-1793774857305",
-      "trade_id": "S20:634976:Yes:BUY",
-      "strategy_id": "S20",
-      "market_title": "Will Mary Peltola win the Alaska Senate race in 2026?",
-      "predicted_prob": 0.98,
-      "outcome": 0,
-      "pnl": -0.05,
-      "brier_error": 0.9604,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793774857.305897
     }
   ],
   "strategy_weights": {
@@ -2616,11 +2616,11 @@
   },
   "strategy_brier_scores": {
     "S20": {
-      "brier_score": 0.6965,
-      "win_rate": 24.6,
-      "trades_count": 496,
+      "brier_score": 0.6969,
+      "win_rate": 24.5,
+      "trades_count": 497,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5119,
+      "reliability": 0.5126,
       "resolution": 0.0,
       "status": "REDUCED"
     },
