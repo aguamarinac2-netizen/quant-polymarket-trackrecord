@@ -1,6 +1,19 @@
 {
-  "updated_at": 1795490019.475829,
+  "updated_at": 1795490502.971225,
   "reflections": [
+    {
+      "id": "REFL-1795490222876",
+      "trade_id": "S20:1131459:No:BUY",
+      "strategy_id": "S20",
+      "market_title": "Will SpaceX have between 180-199 launches in 2026?",
+      "predicted_prob": 0.96,
+      "outcome": 0,
+      "pnl": -0.06,
+      "brier_error": 0.9216,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1795490222.876521
+    },
     {
       "id": "REFL-1795485987022",
       "trade_id": "S20:665328:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793781786.3056817
-    },
-    {
-      "id": "REFL-1793775174259",
-      "trade_id": "MR:gamma:629464:Yes:1w:SELL",
-      "strategy_id": "MR",
-      "market_title": "Will the Democrats win the Michigan governor race in 2026?",
-      "predicted_prob": 0.78,
-      "outcome": 0,
-      "pnl": -0.3,
-      "brier_error": 0.6084,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793775174.2598748
     }
   ],
   "strategy_weights": {
@@ -2616,11 +2616,11 @@
   },
   "strategy_brier_scores": {
     "S20": {
-      "brier_score": 0.6969,
+      "brier_score": 0.6974,
       "win_rate": 24.5,
-      "trades_count": 497,
+      "trades_count": 498,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5126,
+      "reliability": 0.5133,
       "resolution": 0.0,
       "status": "REDUCED"
     },
