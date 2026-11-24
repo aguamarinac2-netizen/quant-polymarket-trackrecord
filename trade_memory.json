@@ -1,6 +1,19 @@
 {
-  "updated_at": 1795557745.345841,
+  "updated_at": 1795558008.4128346,
   "reflections": [
+    {
+      "id": "REFL-1795558008394",
+      "trade_id": "S20:1058997:No:BUY",
+      "strategy_id": "S20",
+      "market_title": "Natural Disaster in 2026?",
+      "predicted_prob": 0.96,
+      "outcome": 0,
+      "pnl": -0.03,
+      "brier_error": 0.9216,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1795558008.3949318
+    },
     {
       "id": "REFL-1795531664944",
       "trade_id": "S20:705807:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793797197.178843
-    },
-    {
-      "id": "REFL-1793795302023",
-      "trade_id": "S10:950854:No:BUY",
-      "strategy_id": "S10",
-      "market_title": "Will the S&P 500 have the best performance in 2026?",
-      "predicted_prob": 0.75,
-      "outcome": 0,
-      "pnl": -2.46,
-      "brier_error": 0.5625,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793795302.0231233
     }
   ],
   "strategy_weights": {
@@ -2616,11 +2616,11 @@
   },
   "strategy_brier_scores": {
     "S20": {
-      "brier_score": 0.6973,
+      "brier_score": 0.6978,
       "win_rate": 24.5,
-      "trades_count": 502,
+      "trades_count": 503,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5132,
+      "reliability": 0.5139,
       "resolution": 0.0,
       "status": "REDUCED"
     },
