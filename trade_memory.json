@@ -1,6 +1,19 @@
 {
-  "updated_at": 1795642631.0695183,
+  "updated_at": 1795643537.3281355,
   "reflections": [
+    {
+      "id": "REFL-1795643422358",
+      "trade_id": "S20:666581:No:BUY",
+      "strategy_id": "S20",
+      "market_title": "Will Trump deport 300-400k people?",
+      "predicted_prob": 0.96,
+      "outcome": 0,
+      "pnl": -0.59,
+      "brier_error": 0.9216,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1795643422.358656
+    },
     {
       "id": "REFL-1795621341488",
       "trade_id": "S20:701580:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793831018.1861017
-    },
-    {
-      "id": "REFL-1793829735229",
-      "trade_id": "S12:1280856:Yes:BUY",
-      "strategy_id": "S12",
-      "market_title": "Will the Republican Party win the AR-02 House seat?",
-      "predicted_prob": 0.9,
-      "outcome": 0,
-      "pnl": -0.87,
-      "brier_error": 0.81,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793829735.2299528
     }
   ],
   "strategy_weights": {
@@ -2616,11 +2616,11 @@
   },
   "strategy_brier_scores": {
     "S20": {
-      "brier_score": 0.6994,
-      "win_rate": 24.3,
-      "trades_count": 515,
+      "brier_score": 0.6998,
+      "win_rate": 24.2,
+      "trades_count": 516,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5165,
+      "reliability": 0.5171,
       "resolution": 0.0,
       "status": "REDUCED"
     },
