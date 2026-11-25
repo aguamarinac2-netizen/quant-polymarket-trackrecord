@@ -1,6 +1,19 @@
 {
-  "updated_at": 1795646250.77799,
+  "updated_at": 1795647133.7235703,
   "reflections": [
+    {
+      "id": "REFL-1795647133699",
+      "trade_id": "S20:1287616:No:BUY",
+      "strategy_id": "S20",
+      "market_title": "Abstract FDV above $600M one day after launch?",
+      "predicted_prob": 0.96,
+      "outcome": 0,
+      "pnl": -0.06,
+      "brier_error": 0.9216,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1795647133.6991856
+    },
     {
       "id": "REFL-1795644571804",
       "trade_id": "S20:1162208:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793837555.0804
-    },
-    {
-      "id": "REFL-1793837549959",
-      "trade_id": "S20:665484:No:BUY",
-      "strategy_id": "S20",
-      "market_title": "Israel x Turkey military clash before 2027?",
-      "predicted_prob": 0.96,
-      "outcome": 0,
-      "pnl": -0.11,
-      "brier_error": 0.9216,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793837549.9594617
     }
   ],
   "strategy_weights": {
@@ -2616,11 +2616,11 @@
   },
   "strategy_brier_scores": {
     "S20": {
-      "brier_score": 0.7003,
-      "win_rate": 24.2,
-      "trades_count": 517,
+      "brier_score": 0.7007,
+      "win_rate": 24.1,
+      "trades_count": 518,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5178,
+      "reliability": 0.5185,
       "resolution": 0.0,
       "status": "REDUCED"
     },
