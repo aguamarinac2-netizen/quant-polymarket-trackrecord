@@ -1,6 +1,19 @@
 {
-  "updated_at": 1795574939.3209212,
+  "updated_at": 1795575119.75895,
   "reflections": [
+    {
+      "id": "REFL-1795575096138",
+      "trade_id": "S20:1186445:No:BUY",
+      "strategy_id": "S20",
+      "market_title": "Will Monero hit $1000 in 2026?",
+      "predicted_prob": 0.96,
+      "outcome": 0,
+      "pnl": -0.24,
+      "brier_error": 0.9216,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1795575096.1380444
+    },
     {
       "id": "REFL-1795572837811",
       "trade_id": "S20:1294073:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793828446.1242678
-    },
-    {
-      "id": "REFL-1793827489710",
-      "trade_id": "S12:1283136:Yes:BUY",
-      "strategy_id": "S12",
-      "market_title": "Will the Republican Party win the FL-26 House seat?",
-      "predicted_prob": 0.9,
-      "outcome": 0,
-      "pnl": -0.91,
-      "brier_error": 0.81,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793827489.710709
     }
   ],
   "strategy_weights": {
@@ -2616,11 +2616,11 @@
   },
   "strategy_brier_scores": {
     "S20": {
-      "brier_score": 0.699,
+      "brier_score": 0.6995,
       "win_rate": 24.3,
-      "trades_count": 510,
+      "trades_count": 511,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5159,
+      "reliability": 0.5166,
       "resolution": 0.0,
       "status": "REDUCED"
     },
