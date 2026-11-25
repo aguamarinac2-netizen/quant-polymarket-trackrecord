@@ -1,6 +1,19 @@
 {
-  "updated_at": 1795572408.0575984,
+  "updated_at": 1795573130.375006,
   "reflections": [
+    {
+      "id": "REFL-1795572837811",
+      "trade_id": "S20:1294073:No:BUY",
+      "strategy_id": "S20",
+      "market_title": "Hurupay FDV above $100M one day after launch?",
+      "predicted_prob": 0.96,
+      "outcome": 0,
+      "pnl": -0.59,
+      "brier_error": 0.9216,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1795572837.811745
+    },
     {
       "id": "REFL-1795565635487",
       "trade_id": "S20:1287615:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793827489.710709
-    },
-    {
-      "id": "REFL-1793827489586",
-      "trade_id": "S12:1283136:Yes:BUY",
-      "strategy_id": "S12",
-      "market_title": "Will the Republican Party win the FL-26 House seat?",
-      "predicted_prob": 0.9,
-      "outcome": 0,
-      "pnl": -0.91,
-      "brier_error": 0.81,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793827489.5862243
     }
   ],
   "strategy_weights": {
@@ -2616,11 +2616,11 @@
   },
   "strategy_brier_scores": {
     "S20": {
-      "brier_score": 0.6986,
-      "win_rate": 24.4,
-      "trades_count": 509,
+      "brier_score": 0.699,
+      "win_rate": 24.3,
+      "trades_count": 510,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5152,
+      "reliability": 0.5159,
       "resolution": 0.0,
       "status": "REDUCED"
     },
