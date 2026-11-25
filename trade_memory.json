@@ -1,6 +1,19 @@
 {
-  "updated_at": 1795610237.8137822,
+  "updated_at": 1795611078.342541,
   "reflections": [
+    {
+      "id": "REFL-1795610849507",
+      "trade_id": "S20:1319902:No:BUY",
+      "strategy_id": "S20",
+      "market_title": "Will anyone be charged over Epstein disclosures?",
+      "predicted_prob": 0.96,
+      "outcome": 0,
+      "pnl": -0.56,
+      "brier_error": 0.9216,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1795610849.5076182
+    },
     {
       "id": "REFL-1795579285680",
       "trade_id": "S20:1287614:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793829735.0810668
-    },
-    {
-      "id": "REFL-1793828446309",
-      "trade_id": "S12:1283144:Yes:BUY",
-      "strategy_id": "S12",
-      "market_title": "Will the Republican Party win the FL-27 House seat?",
-      "predicted_prob": 0.9,
-      "outcome": 0,
-      "pnl": -0.86,
-      "brier_error": 0.81,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793828446.309415
     }
   ],
   "strategy_weights": {
@@ -2616,11 +2616,11 @@
   },
   "strategy_brier_scores": {
     "S20": {
-      "brier_score": 0.6986,
-      "win_rate": 24.4,
-      "trades_count": 513,
+      "brier_score": 0.699,
+      "win_rate": 24.3,
+      "trades_count": 514,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5151,
+      "reliability": 0.5158,
       "resolution": 0.0,
       "status": "REDUCED"
     },
