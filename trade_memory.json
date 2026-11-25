@@ -1,6 +1,19 @@
 {
-  "updated_at": 1795644443.8621094,
+  "updated_at": 1795645347.8575208,
   "reflections": [
+    {
+      "id": "REFL-1795644571804",
+      "trade_id": "S20:1162208:No:BUY",
+      "strategy_id": "S20",
+      "market_title": "Will Revolut launch a USD stablecoin in 2026?",
+      "predicted_prob": 0.96,
+      "outcome": 0,
+      "pnl": -1.77,
+      "brier_error": 0.9216,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1795644571.8041987
+    },
     {
       "id": "REFL-1795643422358",
       "trade_id": "S20:666581:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793837549.9594617
-    },
-    {
-      "id": "REFL-1793831018186",
-      "trade_id": "S12:1285143:Yes:BUY",
-      "strategy_id": "S12",
-      "market_title": "Will the Republican Party win the WA-04 House seat?",
-      "predicted_prob": 0.9,
-      "outcome": 0,
-      "pnl": -0.66,
-      "brier_error": 0.81,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793831018.1861017
     }
   ],
   "strategy_weights": {
@@ -2616,11 +2616,11 @@
   },
   "strategy_brier_scores": {
     "S20": {
-      "brier_score": 0.6998,
+      "brier_score": 0.7003,
       "win_rate": 24.2,
-      "trades_count": 516,
+      "trades_count": 517,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5171,
+      "reliability": 0.5178,
       "resolution": 0.0,
       "status": "REDUCED"
     },
