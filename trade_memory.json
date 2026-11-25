@@ -1,6 +1,19 @@
 {
-  "updated_at": 1795621034.5289438,
+  "updated_at": 1795621878.613391,
   "reflections": [
+    {
+      "id": "REFL-1795621341488",
+      "trade_id": "S20:701580:No:BUY",
+      "strategy_id": "S20",
+      "market_title": "Will Solana dip to $20 by December 31, 2026?",
+      "predicted_prob": 0.96,
+      "outcome": 0,
+      "pnl": -0.08,
+      "brier_error": 0.9216,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1795621341.4880648
+    },
     {
       "id": "REFL-1795610849507",
       "trade_id": "S20:1319902:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793829735.2299528
-    },
-    {
-      "id": "REFL-1793829735081",
-      "trade_id": "S12:1280856:Yes:BUY",
-      "strategy_id": "S12",
-      "market_title": "Will the Republican Party win the AR-02 House seat?",
-      "predicted_prob": 0.9,
-      "outcome": 0,
-      "pnl": -0.72,
-      "brier_error": 0.81,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793829735.0810668
     }
   ],
   "strategy_weights": {
@@ -2616,11 +2616,11 @@
   },
   "strategy_brier_scores": {
     "S20": {
-      "brier_score": 0.699,
+      "brier_score": 0.6994,
       "win_rate": 24.3,
-      "trades_count": 514,
+      "trades_count": 515,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5158,
+      "reliability": 0.5165,
       "resolution": 0.0,
       "status": "REDUCED"
     },
