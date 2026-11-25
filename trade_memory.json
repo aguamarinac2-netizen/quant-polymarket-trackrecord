@@ -1,6 +1,19 @@
 {
-  "updated_at": 1795578756.0687952,
+  "updated_at": 1795579421.5590434,
   "reflections": [
+    {
+      "id": "REFL-1795579285680",
+      "trade_id": "S20:1287614:No:BUY",
+      "strategy_id": "S20",
+      "market_title": "Abstract FDV above $200M one day after launch?",
+      "predicted_prob": 0.96,
+      "outcome": 0,
+      "pnl": -0.04,
+      "brier_error": 0.9216,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1795579285.6802154
+    },
     {
       "id": "REFL-1795575096138",
       "trade_id": "S20:1186445:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793828446.309415
-    },
-    {
-      "id": "REFL-1793828446124",
-      "trade_id": "S12:1283144:Yes:BUY",
-      "strategy_id": "S12",
-      "market_title": "Will the Republican Party win the FL-27 House seat?",
-      "predicted_prob": 0.9,
-      "outcome": 0,
-      "pnl": -0.86,
-      "brier_error": 0.81,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793828446.1242678
     }
   ],
   "strategy_weights": {
@@ -2616,11 +2616,11 @@
   },
   "strategy_brier_scores": {
     "S20": {
-      "brier_score": 0.6995,
-      "win_rate": 24.3,
-      "trades_count": 511,
+      "brier_score": 0.6999,
+      "win_rate": 24.2,
+      "trades_count": 512,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5166,
+      "reliability": 0.5172,
       "resolution": 0.0,
       "status": "REDUCED"
     },
