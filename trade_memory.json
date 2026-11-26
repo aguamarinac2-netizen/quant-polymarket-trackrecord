@@ -1,6 +1,19 @@
 {
-  "updated_at": 1795658020.8461099,
+  "updated_at": 1795658805.110762,
   "reflections": [
+    {
+      "id": "REFL-1795658795817",
+      "trade_id": "S20:1294068:No:BUY",
+      "strategy_id": "S20",
+      "market_title": "Hurupay FDV above $10M one day after launch?",
+      "predicted_prob": 0.96,
+      "outcome": 0,
+      "pnl": -0.08,
+      "brier_error": 0.9216,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1795658795.8171012
+    },
     {
       "id": "REFL-1795647133699",
       "trade_id": "S20:1287616:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793837555.1066325
-    },
-    {
-      "id": "REFL-1793837555080",
-      "trade_id": "S20:678416:No:BUY",
-      "strategy_id": "S20",
-      "market_title": "Will Avengers: Doomsday be the top grossing movie of 2026?",
-      "predicted_prob": 0.96,
-      "outcome": 0,
-      "pnl": -0.11,
-      "brier_error": 0.9216,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793837555.0804
     }
   ],
   "strategy_weights": {
@@ -2616,11 +2616,11 @@
   },
   "strategy_brier_scores": {
     "S20": {
-      "brier_score": 0.698,
+      "brier_score": 0.6984,
       "win_rate": 24.4,
-      "trades_count": 520,
+      "trades_count": 521,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5143,
+      "reliability": 0.515,
       "resolution": 0.0,
       "status": "REDUCED"
     },
