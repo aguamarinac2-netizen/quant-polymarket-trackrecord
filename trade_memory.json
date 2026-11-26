@@ -1,6 +1,19 @@
 {
-  "updated_at": 1795735665.7082705,
+  "updated_at": 1795736267.4690914,
   "reflections": [
+    {
+      "id": "REFL-1795736149718",
+      "trade_id": "S20:1194695:No:BUY",
+      "strategy_id": "S20",
+      "market_title": "Will Russia invade another country in 2026?",
+      "predicted_prob": 0.96,
+      "outcome": 0,
+      "pnl": -0.04,
+      "brier_error": 0.9216,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1795736149.718749
+    },
     {
       "id": "REFL-1795730814069",
       "trade_id": "S20:716640:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793855156.4786286
-    },
-    {
-      "id": "REFL-1793850680002",
-      "trade_id": "S12:1279604:Yes:BUY",
-      "strategy_id": "S12",
-      "market_title": "Will the Republican Party win the AK-AL House seat?",
-      "predicted_prob": 0.9,
-      "outcome": 0,
-      "pnl": -0.92,
-      "brier_error": 0.81,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793850680.0023623
     }
   ],
   "strategy_weights": {
@@ -2616,11 +2616,11 @@
   },
   "strategy_brier_scores": {
     "S20": {
-      "brier_score": 0.6997,
+      "brier_score": 0.7001,
       "win_rate": 24.2,
-      "trades_count": 528,
+      "trades_count": 529,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5168,
+      "reliability": 0.5175,
       "resolution": 0.0,
       "status": "REDUCED"
     },
