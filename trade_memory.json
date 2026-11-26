@@ -1,6 +1,19 @@
 {
-  "updated_at": 1795675160.6661744,
+  "updated_at": 1795675946.0162513,
   "reflections": [
+    {
+      "id": "REFL-1795675728411",
+      "trade_id": "S20:1057349:No:BUY",
+      "strategy_id": "S20",
+      "market_title": "Jeffrey Epstein foul play confirmed by December 31, 2026?",
+      "predicted_prob": 0.96,
+      "outcome": 0,
+      "pnl": -0.03,
+      "brier_error": 0.9216,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1795675728.4111612
+    },
     {
       "id": "REFL-1795674737019",
       "trade_id": "S20:687642:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793837560.3040144
-    },
-    {
-      "id": "REFL-1793837555161",
-      "trade_id": "S20:716826:No:BUY",
-      "strategy_id": "S20",
-      "market_title": "Extended FDV above $800M one day after launch?",
-      "predicted_prob": 0.96,
-      "outcome": 0,
-      "pnl": -0.07,
-      "brier_error": 0.9216,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793837555.1616712
     }
   ],
   "strategy_weights": {
@@ -2616,11 +2616,11 @@
   },
   "strategy_brier_scores": {
     "S20": {
-      "brier_score": 0.6993,
-      "win_rate": 24.3,
-      "trades_count": 523,
+      "brier_score": 0.6997,
+      "win_rate": 24.2,
+      "trades_count": 524,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5163,
+      "reliability": 0.5169,
       "resolution": 0.0,
       "status": "REDUCED"
     },
