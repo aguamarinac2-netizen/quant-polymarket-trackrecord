@@ -1,6 +1,19 @@
 {
-  "updated_at": 1795662546.9898653,
+  "updated_at": 1795663270.5811267,
   "reflections": [
+    {
+      "id": "REFL-1795663028457",
+      "trade_id": "S20:687554:No:BUY",
+      "strategy_id": "S20",
+      "market_title": "Sundar Pichai out as Google CEO before 2027?",
+      "predicted_prob": 0.96,
+      "outcome": 0,
+      "pnl": -0.05,
+      "brier_error": 0.9216,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1795663028.457637
+    },
     {
       "id": "REFL-1795658795817",
       "trade_id": "S20:1294068:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793837555.1421375
-    },
-    {
-      "id": "REFL-1793837555106",
-      "trade_id": "S20:694160:No:BUY",
-      "strategy_id": "S20",
-      "market_title": "Will Axiom launch a token by December 31, 2026?",
-      "predicted_prob": 0.96,
-      "outcome": 0,
-      "pnl": -0.08,
-      "brier_error": 0.9216,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793837555.1066325
     }
   ],
   "strategy_weights": {
@@ -2616,11 +2616,11 @@
   },
   "strategy_brier_scores": {
     "S20": {
-      "brier_score": 0.6984,
-      "win_rate": 24.4,
-      "trades_count": 521,
+      "brier_score": 0.6989,
+      "win_rate": 24.3,
+      "trades_count": 522,
       "kelly_multiplier": 0.4,
-      "reliability": 0.515,
+      "reliability": 0.5156,
       "resolution": 0.0,
       "status": "REDUCED"
     },
