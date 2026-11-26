@@ -1,6 +1,19 @@
 {
-  "updated_at": 1795730255.4976146,
+  "updated_at": 1795730814.0885243,
   "reflections": [
+    {
+      "id": "REFL-1795730814069",
+      "trade_id": "S20:716640:No:BUY",
+      "strategy_id": "S20",
+      "market_title": "Theo FDV above $100M one day after launch?",
+      "predicted_prob": 0.96,
+      "outcome": 0,
+      "pnl": -0.06,
+      "brier_error": 0.9216,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1795730814.0696635
+    },
     {
       "id": "REFL-1795706690237",
       "trade_id": "S20:1294069:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793850680.0023623
-    },
-    {
-      "id": "REFL-1793841996143",
-      "trade_id": "S12:1282881:Yes:BUY",
-      "strategy_id": "S12",
-      "market_title": "Will the Democratic Party win the CO-04 House seat?",
-      "predicted_prob": 0.9,
-      "outcome": 0,
-      "pnl": -1.79,
-      "brier_error": 0.81,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793841996.1438155
     }
   ],
   "strategy_weights": {
@@ -2616,11 +2616,11 @@
   },
   "strategy_brier_scores": {
     "S20": {
-      "brier_score": 0.6992,
-      "win_rate": 24.3,
-      "trades_count": 527,
+      "brier_score": 0.6997,
+      "win_rate": 24.2,
+      "trades_count": 528,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5162,
+      "reliability": 0.5168,
       "resolution": 0.0,
       "status": "REDUCED"
     },
