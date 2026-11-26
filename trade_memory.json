@@ -1,6 +1,19 @@
 {
-  "updated_at": 1795674254.2270436,
+  "updated_at": 1795675039.1003876,
   "reflections": [
+    {
+      "id": "REFL-1795674737019",
+      "trade_id": "S20:687642:No:BUY",
+      "strategy_id": "S20",
+      "market_title": "China x Japan military clash before 2027?",
+      "predicted_prob": 0.96,
+      "outcome": 0,
+      "pnl": -0.02,
+      "brier_error": 0.9216,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1795674737.0194526
+    },
     {
       "id": "REFL-1795663028457",
       "trade_id": "S20:687554:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793837555.1616712
-    },
-    {
-      "id": "REFL-1793837555142",
-      "trade_id": "S20:701594:No:BUY",
-      "strategy_id": "S20",
-      "market_title": "Will XRP reach $3.00 by December 31, 2026?",
-      "predicted_prob": 0.96,
-      "outcome": 0,
-      "pnl": -0.04,
-      "brier_error": 0.9216,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793837555.1421375
     }
   ],
   "strategy_weights": {
@@ -2616,11 +2616,11 @@
   },
   "strategy_brier_scores": {
     "S20": {
-      "brier_score": 0.6989,
+      "brier_score": 0.6993,
       "win_rate": 24.3,
-      "trades_count": 522,
+      "trades_count": 523,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5156,
+      "reliability": 0.5163,
       "resolution": 0.0,
       "status": "REDUCED"
     },
