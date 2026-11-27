@@ -1,6 +1,19 @@
 {
-  "updated_at": 1795747442.6625524,
+  "updated_at": 1795747928.4908712,
   "reflections": [
+    {
+      "id": "REFL-1795747904891",
+      "trade_id": "S20:1329554:No:BUY",
+      "strategy_id": "S20",
+      "market_title": "H.R. 22 (SAVE Act) signed into law in 2026?",
+      "predicted_prob": 0.96,
+      "outcome": 0,
+      "pnl": -0.01,
+      "brier_error": 0.9216,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1795747904.8919468
+    },
     {
       "id": "REFL-1795738433915",
       "trade_id": "S20:1294072:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793859357.681323
-    },
-    {
-      "id": "REFL-1793855156668",
-      "trade_id": "S12:1283632:Yes:BUY",
-      "strategy_id": "S12",
-      "market_title": "Will the Republican Party win the LA-06 House seat?",
-      "predicted_prob": 0.9,
-      "outcome": 0,
-      "pnl": -2.37,
-      "brier_error": 0.81,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793855156.6680589
     }
   ],
   "strategy_weights": {
@@ -2616,11 +2616,11 @@
   },
   "strategy_brier_scores": {
     "S20": {
-      "brier_score": 0.6992,
-      "win_rate": 24.3,
-      "trades_count": 531,
+      "brier_score": 0.6996,
+      "win_rate": 24.2,
+      "trades_count": 532,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5161,
+      "reliability": 0.5168,
       "resolution": 0.0,
       "status": "REDUCED"
     },
