@@ -1,6 +1,19 @@
 {
-  "updated_at": 1795768572.194865,
+  "updated_at": 1795769117.304265,
   "reflections": [
+    {
+      "id": "REFL-1795768864700",
+      "trade_id": "S20:687559:No:BUY",
+      "strategy_id": "S20",
+      "market_title": "Sam Altman out as OpenAI CEO before 2027?",
+      "predicted_prob": 0.96,
+      "outcome": 0,
+      "pnl": -0.03,
+      "brier_error": 0.9216,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1795768864.7007074
+    },
     {
       "id": "REFL-1795767637329",
       "trade_id": "S20:1067837:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793869104.9528325
-    },
-    {
-      "id": "REFL-1793867994197",
-      "trade_id": "S20:701758:No:BUY",
-      "strategy_id": "S20",
-      "market_title": "Will BNB reach $1500 by December 31, 2026?",
-      "predicted_prob": 0.96,
-      "outcome": 0,
-      "pnl": -0.01,
-      "brier_error": 0.9216,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793867994.1977232
     }
   ],
   "strategy_weights": {
@@ -2616,11 +2616,11 @@
   },
   "strategy_brier_scores": {
     "S20": {
-      "brier_score": 0.7009,
+      "brier_score": 0.7013,
       "win_rate": 24.1,
-      "trades_count": 535,
+      "trades_count": 536,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5187,
+      "reliability": 0.5194,
       "resolution": 0.0,
       "status": "REDUCED"
     },
