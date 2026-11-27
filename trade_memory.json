@@ -1,6 +1,19 @@
 {
-  "updated_at": 1795757839.4464602,
+  "updated_at": 1795758261.0524697,
   "reflections": [
+    {
+      "id": "REFL-1795758195748",
+      "trade_id": "S20:682705:No:BUY",
+      "strategy_id": "S20",
+      "market_title": "Will Benjamin Netanyahu be the next Prime Minister of Israel?",
+      "predicted_prob": 0.98,
+      "outcome": 0,
+      "pnl": -0.63,
+      "brier_error": 0.9604,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1795758195.7485049
+    },
     {
       "id": "REFL-1795752092350",
       "trade_id": "S20:1334156:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793864249.528707
-    },
-    {
-      "id": "REFL-1793859357890",
-      "trade_id": "S12:1283000:Yes:BUY",
-      "strategy_id": "S12",
-      "market_title": "Will the Republican Party win the FL-07 House seat?",
-      "predicted_prob": 0.9,
-      "outcome": 0,
-      "pnl": -0.99,
-      "brier_error": 0.81,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793859357.890025
     }
   ],
   "strategy_weights": {
@@ -2616,11 +2616,11 @@
   },
   "strategy_brier_scores": {
     "S20": {
-      "brier_score": 0.7,
+      "brier_score": 0.7005,
       "win_rate": 24.2,
-      "trades_count": 533,
+      "trades_count": 534,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5174,
+      "reliability": 0.5181,
       "resolution": 0.0,
       "status": "REDUCED"
     },
