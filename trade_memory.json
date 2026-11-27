@@ -1,6 +1,19 @@
 {
-  "updated_at": 1795738382.6259844,
+  "updated_at": 1795738928.1356566,
   "reflections": [
+    {
+      "id": "REFL-1795738433915",
+      "trade_id": "S20:1294072:No:BUY",
+      "strategy_id": "S20",
+      "market_title": "Hurupay FDV above $50M one day after launch?",
+      "predicted_prob": 0.96,
+      "outcome": 0,
+      "pnl": -0.02,
+      "brier_error": 0.9216,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1795738433.915277
+    },
     {
       "id": "REFL-1795736149718",
       "trade_id": "S20:1194695:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793855156.6680589
-    },
-    {
-      "id": "REFL-1793855156478",
-      "trade_id": "S12:1283632:Yes:BUY",
-      "strategy_id": "S12",
-      "market_title": "Will the Republican Party win the LA-06 House seat?",
-      "predicted_prob": 0.9,
-      "outcome": 0,
-      "pnl": -2.37,
-      "brier_error": 0.81,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793855156.4786286
     }
   ],
   "strategy_weights": {
@@ -2616,11 +2616,11 @@
   },
   "strategy_brier_scores": {
     "S20": {
-      "brier_score": 0.6988,
+      "brier_score": 0.6992,
       "win_rate": 24.3,
-      "trades_count": 530,
+      "trades_count": 531,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5154,
+      "reliability": 0.5161,
       "resolution": 0.0,
       "status": "REDUCED"
     },
