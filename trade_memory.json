@@ -1,6 +1,19 @@
 {
-  "updated_at": 1795819987.9210677,
+  "updated_at": 1795820591.061544,
   "reflections": [
+    {
+      "id": "REFL-1795820035983",
+      "trade_id": "S20:1192820:Yes:BUY",
+      "strategy_id": "S20",
+      "market_title": "Will China’s 2026 annual GDP growth (Y/Y) be between 4.0% and 5.0%?",
+      "predicted_prob": 0.96,
+      "outcome": 0,
+      "pnl": -0.14,
+      "brier_error": 0.9216,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1795820035.9832883
+    },
     {
       "id": "REFL-1795819941959",
       "trade_id": "S20:1090046:Yes:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793875287.9006402
-    },
-    {
-      "id": "REFL-1793872045684",
-      "trade_id": "S12:1285079:Yes:BUY",
-      "strategy_id": "S12",
-      "market_title": "Will the Republican Party win the VA-05 House seat?",
-      "predicted_prob": 0.9,
-      "outcome": 0,
-      "pnl": -0.76,
-      "brier_error": 0.81,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793872045.684382
     }
   ],
   "strategy_weights": {
@@ -2616,11 +2616,11 @@
   },
   "strategy_brier_scores": {
     "S20": {
-      "brier_score": 0.6996,
-      "win_rate": 24.3,
-      "trades_count": 540,
+      "brier_score": 0.7,
+      "win_rate": 24.2,
+      "trades_count": 541,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5166,
+      "reliability": 0.5173,
       "resolution": 0.0,
       "status": "REDUCED"
     },
