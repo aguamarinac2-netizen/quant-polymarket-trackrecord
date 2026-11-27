@@ -1,6 +1,19 @@
 {
-  "updated_at": 1795819685.0270293,
+  "updated_at": 1795819987.9210677,
   "reflections": [
+    {
+      "id": "REFL-1795819941959",
+      "trade_id": "S20:1090046:Yes:BUY",
+      "strategy_id": "S20",
+      "market_title": "Will Sean Strickland be the UFC Middleweight Champion on December 31, 2026?",
+      "predicted_prob": 0.96,
+      "outcome": 0,
+      "pnl": -0.05,
+      "brier_error": 0.9216,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1795819941.9596183
+    },
     {
       "id": "REFL-1795783654620",
       "trade_id": "S20:921661:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793872045.684382
-    },
-    {
-      "id": "REFL-1793870263935",
-      "trade_id": "S20:916437:No:BUY",
-      "strategy_id": "S20",
-      "market_title": "Ink FDV above $3B one day after launch?",
-      "predicted_prob": 0.96,
-      "outcome": 0,
-      "pnl": -0.06,
-      "brier_error": 0.9216,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793870263.9353642
     }
   ],
   "strategy_weights": {
@@ -2616,11 +2616,11 @@
   },
   "strategy_brier_scores": {
     "S20": {
-      "brier_score": 0.6991,
+      "brier_score": 0.6996,
       "win_rate": 24.3,
-      "trades_count": 539,
+      "trades_count": 540,
       "kelly_multiplier": 0.4,
-      "reliability": 0.516,
+      "reliability": 0.5166,
       "resolution": 0.0,
       "status": "REDUCED"
     },
