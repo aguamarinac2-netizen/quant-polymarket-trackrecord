@@ -1,6 +1,19 @@
 {
-  "updated_at": 1795783550.5227535,
+  "updated_at": 1795783911.9850123,
   "reflections": [
+    {
+      "id": "REFL-1795783654620",
+      "trade_id": "S20:921661:No:BUY",
+      "strategy_id": "S20",
+      "market_title": "Tshisekedi out as President of the DRC by December 31, 2026?",
+      "predicted_prob": 0.96,
+      "outcome": 0,
+      "pnl": -0.04,
+      "brier_error": 0.9216,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1795783654.6204786
+    },
     {
       "id": "REFL-1795768864700",
       "trade_id": "S20:687559:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793870263.9353642
-    },
-    {
-      "id": "REFL-1793869104952",
-      "trade_id": "S20:716905:No:BUY",
-      "strategy_id": "S20",
-      "market_title": "Felix Protocol FDV above $300M one day after launch?",
-      "predicted_prob": 0.96,
-      "outcome": 0,
-      "pnl": -0.08,
-      "brier_error": 0.9216,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793869104.9528325
     }
   ],
   "strategy_weights": {
@@ -2616,11 +2616,11 @@
   },
   "strategy_brier_scores": {
     "S20": {
-      "brier_score": 0.7013,
-      "win_rate": 24.1,
-      "trades_count": 536,
+      "brier_score": 0.7017,
+      "win_rate": 24.0,
+      "trades_count": 537,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5194,
+      "reliability": 0.52,
       "resolution": 0.0,
       "status": "REDUCED"
     },
