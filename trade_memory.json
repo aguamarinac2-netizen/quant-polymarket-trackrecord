@@ -1,6 +1,19 @@
 {
-  "updated_at": 1795751933.113817,
+  "updated_at": 1795752478.1573462,
   "reflections": [
+    {
+      "id": "REFL-1795752092350",
+      "trade_id": "S20:1334156:No:BUY",
+      "strategy_id": "S20",
+      "market_title": "Will Trump nationalize elections?",
+      "predicted_prob": 0.96,
+      "outcome": 0,
+      "pnl": -0.06,
+      "brier_error": 0.9216,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1795752092.3504567
+    },
     {
       "id": "REFL-1795747904891",
       "trade_id": "S20:1329554:No:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793859357.890025
-    },
-    {
-      "id": "REFL-1793859357681",
-      "trade_id": "S12:1283000:Yes:BUY",
-      "strategy_id": "S12",
-      "market_title": "Will the Republican Party win the FL-07 House seat?",
-      "predicted_prob": 0.9,
-      "outcome": 0,
-      "pnl": -0.99,
-      "brier_error": 0.81,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793859357.681323
     }
   ],
   "strategy_weights": {
@@ -2616,11 +2616,11 @@
   },
   "strategy_brier_scores": {
     "S20": {
-      "brier_score": 0.6996,
+      "brier_score": 0.7,
       "win_rate": 24.2,
-      "trades_count": 532,
+      "trades_count": 533,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5168,
+      "reliability": 0.5174,
       "resolution": 0.0,
       "status": "REDUCED"
     },
