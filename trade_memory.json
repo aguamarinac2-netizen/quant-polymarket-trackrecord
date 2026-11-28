@@ -1,6 +1,19 @@
 {
-  "updated_at": 1795863999.5293071,
+  "updated_at": 1795864845.677626,
   "reflections": [
+    {
+      "id": "REFL-1795864699727",
+      "trade_id": "S20:559652:No:BUY",
+      "strategy_id": "S20",
+      "market_title": "Will Gavin Newsom win the 2028 Democratic presidential nomination?",
+      "predicted_prob": 0.96,
+      "outcome": 0,
+      "pnl": -0.23,
+      "brier_error": 0.9216,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1795864699.7277155
+    },
     {
       "id": "REFL-1795856523979",
       "trade_id": "S12:814612:Yes:BUY",
@@ -2587,19 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793923037.0958712
-    },
-    {
-      "id": "REFL-1793902265140",
-      "trade_id": "S20:701763:No:BUY",
-      "strategy_id": "S20",
-      "market_title": "Will BNB reach $1000 by December 31, 2026?",
-      "predicted_prob": 0.96,
-      "outcome": 0,
-      "pnl": -0.57,
-      "brier_error": 0.9216,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793902265.140646
     }
   ],
   "strategy_weights": {
@@ -2616,11 +2616,11 @@
   },
   "strategy_brier_scores": {
     "S20": {
-      "brier_score": 0.6965,
-      "win_rate": 24.6,
-      "trades_count": 545,
+      "brier_score": 0.6969,
+      "win_rate": 24.5,
+      "trades_count": 546,
       "kelly_multiplier": 0.4,
-      "reliability": 0.5119,
+      "reliability": 0.5126,
       "resolution": 0.0,
       "status": "REDUCED"
     },
