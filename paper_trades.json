@@ -13858,7 +13858,7 @@
       "order_type": "LIMIT",
       "entry_price": 0.9369,
       "signal_entry_price": 0.935,
-      "current_price": 0.9369,
+      "current_price": 0.875,
       "target_price": 0.99,
       "stop_loss": 0.8789,
       "initial_stop_loss": 0.8789,
@@ -13881,15 +13881,15 @@
       "risk_reward_ratio": 0.98,
       "horizon": "flash",
       "horizon_label": "\u26a1 Flash (<48h)",
-      "status": "OPEN",
-      "unrealized_pnl_usd": 0.0,
-      "unrealized_pnl_pct": 0.0,
-      "realized_pnl_usd": 0.0,
-      "realized_pnl_pct": 0.0,
-      "close_reason": null,
-      "closed_at": null,
+      "status": "LOST",
+      "unrealized_pnl_usd": -0.66,
+      "unrealized_pnl_pct": -6.61,
+      "realized_pnl_usd": -0.7,
+      "realized_pnl_pct": -6.61,
+      "close_reason": "\ud83d\uded1 Stop Loss activado ($0.875 <= $0.879)",
+      "closed_at": "2026-11-28T09:02:03.807490+00:00",
       "engine": "paper"
     }
   },
-  "updated_at": "2026-11-28T08:40:21.511371+00:00"
+  "updated_at": "2026-11-28T09:02:03.807503+00:00"
 }

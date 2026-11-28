@@ -1,6 +1,32 @@
 {
-  "updated_at": 1795855924.2663689,
+  "updated_at": 1795856704.937712,
   "reflections": [
+    {
+      "id": "REFL-1795856523979",
+      "trade_id": "S12:814612:Yes:BUY",
+      "strategy_id": "S12",
+      "market_title": "Will Kuomintang (KMT) win the most head of local government elections in the 202",
+      "predicted_prob": 0.9,
+      "outcome": 0,
+      "pnl": -0.7,
+      "brier_error": 0.81,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1795856523.9800127
+    },
+    {
+      "id": "REFL-1795856523830",
+      "trade_id": "S12:814612:Yes:BUY",
+      "strategy_id": "S12",
+      "market_title": "Will Kuomintang (KMT) win the most head of local government elections in the 202",
+      "predicted_prob": 0.9,
+      "outcome": 0,
+      "pnl": -0.7,
+      "brier_error": 0.81,
+      "root_cause": "Divergencia de mercado estándar",
+      "actionable_rule": "Mantener monitorización habitual.",
+      "created_at": 1795856523.830259
+    },
     {
       "id": "REFL-1795835837416",
       "trade_id": "S20:1287622:No:BUY",
@@ -2574,32 +2600,6 @@
       "root_cause": "Divergencia de mercado estándar",
       "actionable_rule": "Mantener monitorización habitual.",
       "created_at": 1793902265.140646
-    },
-    {
-      "id": "REFL-1793895854641",
-      "trade_id": "FLB:559653:No:BUY",
-      "strategy_id": "FLB",
-      "market_title": "Will Alexandria Ocasio-Cortez win the 2028 Democratic presidential nomination?",
-      "predicted_prob": 0.6,
-      "outcome": 0,
-      "pnl": -0.4,
-      "brier_error": 0.36,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793895854.6415079
-    },
-    {
-      "id": "REFL-1793894952250",
-      "trade_id": "S20:701501:No:BUY",
-      "strategy_id": "S20",
-      "market_title": "Will Bitcoin dip to $55,000 by December 31, 2026?",
-      "predicted_prob": 0.96,
-      "outcome": 0,
-      "pnl": -0.62,
-      "brier_error": 0.9216,
-      "root_cause": "Divergencia de mercado estándar",
-      "actionable_rule": "Mantener monitorización habitual.",
-      "created_at": 1793894952.250237
     }
   ],
   "strategy_weights": {
@@ -2634,11 +2634,11 @@
       "status": "REDUCED"
     },
     "S12": {
-      "brier_score": 0.4126,
-      "win_rate": 49.7,
-      "trades_count": 302,
+      "brier_score": 0.4153,
+      "win_rate": 49.3,
+      "trades_count": 304,
       "kelly_multiplier": 0.4,
-      "reliability": 0.1627,
+      "reliability": 0.1653,
       "resolution": 0.0,
       "status": "REDUCED"
     },
